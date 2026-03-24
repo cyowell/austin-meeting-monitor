@@ -1,6 +1,7 @@
 """
 GitHub Pages Publisher for Austin City Council Meeting Monitor
 Generates static HTML pages and RSS feed for automated publishing
+FIXED VERSION - Compatible with existing database schema
 """
 
 import os
@@ -8,7 +9,6 @@ import sqlite3
 import logging
 from datetime import datetime
 from pathlib import Path
-import json
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -38,8 +38,9 @@ class GitHubPagesPublisher:
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         
+        # Query without created_at column (it doesn't exist in your schema)
         query = '''
-            SELECT date, meeting_type, url, agenda_url, summary, created_at
+            SELECT date, meeting_type, url, agenda_url, summary
             FROM meetings
             ORDER BY date DESC
         '''
@@ -56,8 +57,7 @@ class GitHubPagesPublisher:
                 'meeting_type': row[1],
                 'url': row[2],
                 'agenda_url': row[3],
-                'summary': row[4],
-                'created_at': row[5]
+                'summary': row[4]
             })
         
         conn.close()
@@ -372,7 +372,7 @@ class GitHubPagesPublisher:
                 <p>Subscribe to get automatic notifications when new meetings are posted</p>
                 <div class="subscribe-buttons">
                     <a href="feed.xml" class="btn btn-rss">📡 RSS Feed</a>
-                    <a href="https://blogtrottr.com/?subscribe=https://cyowell.github.io/austin-meetings/feed.xml" class="btn" target="_blank">📧 Email Updates</a>
+                    <a href="https://blogtrottr.com/" class="btn" target="_blank">📧 Email Updates</a>
                 </div>
             </div>
         </header>
@@ -464,16 +464,11 @@ class GitHubPagesPublisher:
         
         return html
     
-    def generate_rss_feed(self, meetings, site_url='https://cyowell.github.io/austin-meetings'):
+    def generate_rss_feed(self, meetings, site_url='https://cyowell.github.io/austin-meeting-monitor'):
         """Generate RSS 2.0 feed"""
         
-        # Get latest meeting date for lastBuildDate
+        # Use current time for lastBuildDate since we don't have created_at
         latest_date = datetime.now()
-        if meetings:
-            try:
-                latest_date = datetime.strptime(meetings[0]['created_at'], '%Y-%m-%d %H:%M:%S')
-            except:
-                pass
         
         rss = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -482,7 +477,7 @@ class GitHubPagesPublisher:
         <link>{site_url}</link>
         <description>Automated AI-powered summaries of Austin City Council meetings</description>
         <language>en-us</language>
-        <lastBuildDate>{latest_date.strftime('%a, %d %b %Y %H:%M:%S %z')}</lastBuildDate>
+        <lastBuildDate>{latest_date.strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>
         <atom:link href="{site_url}/feed.xml" rel="self" type="application/rss+xml"/>
         <generator>Austin Meeting Monitor</generator>
 '''
@@ -509,15 +504,15 @@ class GitHubPagesPublisher:
             
             description += f'<p><a href="{meeting["url"]}">View Full Meeting Details</a></p>'
             
-            # Parse created_at for pubDate
+            # Use meeting date for pubDate
             try:
-                pub_date = datetime.strptime(meeting['created_at'], '%Y-%m-%d %H:%M:%S')
-                pub_date_str = pub_date.strftime('%a, %d %b %Y %H:%M:%S +0000')
+                pub_date = datetime.strptime(meeting['date'], '%Y-%m-%d')
+                pub_date_str = pub_date.strftime('%a, %d %b %Y 09:00:00 +0000')
             except:
                 pub_date_str = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
             
             # Create unique GUID
-            guid = f"{site_url}/meeting-{meeting['date']}"
+            guid = f"{site_url}/meeting-{meeting['date']}-{meeting['meeting_type'].replace(' ', '-')}"
             
             rss += f'''
         <item>
@@ -534,7 +529,7 @@ class GitHubPagesPublisher:
         
         return rss
     
-    def publish(self, site_url='https://cyowell.github.io/austin-meetings'):
+    def publish(self, site_url='https://cyowell.github.io/austin-meeting-monitor'):
         """Generate all files for GitHub Pages"""
         
         logging.info("📄 Generating GitHub Pages site...")
@@ -576,4 +571,4 @@ if __name__ == "__main__":
         output_dir='docs'
     )
     
-    publisher.publish(site_url='https://cyowell.github.io/austin-meetings')
+    publisher.publish(site_url='https://cyowell.github.io/austin-meeting-monitor')
