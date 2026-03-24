@@ -1,6 +1,11 @@
 """
 GitHub Pages Publisher for Austin City Council Meeting Monitor
 Generates static HTML pages and RSS feed for automated publishing
+Version: 2.0 - Schema-aware
+"""
+"""
+GitHub Pages Publisher for Austin City Council Meeting Monitor
+Generates static HTML pages and RSS feed for automated publishing
 """
 
 import os
