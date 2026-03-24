@@ -1,7 +1,6 @@
 """
 GitHub Pages Publisher for Austin City Council Meeting Monitor
 Generates static HTML pages and RSS feed for automated publishing
-FIXED VERSION - Compatible with existing database schema
 """
 
 import os
@@ -38,9 +37,24 @@ class GitHubPagesPublisher:
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         
-        # Query without created_at column (it doesn't exist in your schema)
-        query = '''
-            SELECT date, meeting_type, url, agenda_url, summary
+        # First, check what columns exist in the table
+        cursor.execute("PRAGMA table_info(meetings)")
+        columns = [col[1] for col in cursor.fetchall()]
+        logging.info(f"  Database columns: {columns}")
+        
+        # Build query based on available columns
+        select_columns = ['date', 'meeting_type', 'url']
+        
+        # Add optional columns if they exist
+        if 'agenda_url' in columns:
+            select_columns.append('agenda_url')
+        if 'summary' in columns:
+            select_columns.append('summary')
+        if 'created_at' in columns:
+            select_columns.append('created_at')
+        
+        query = f'''
+            SELECT {', '.join(select_columns)}
             FROM meetings
             ORDER BY date DESC
         '''
@@ -52,15 +66,18 @@ class GitHubPagesPublisher:
         meetings = []
         
         for row in cursor.fetchall():
-            meetings.append({
+            meeting = {
                 'date': row[0],
                 'meeting_type': row[1],
                 'url': row[2],
-                'agenda_url': row[3],
-                'summary': row[4]
-            })
+                'agenda_url': row[3] if len(row) > 3 and 'agenda_url' in columns else None,
+                'summary': row[4] if len(row) > 4 and 'summary' in columns else 'Meeting summary will be available soon.',
+                'created_at': row[5] if len(row) > 5 and 'created_at' in columns else datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            }
+            meetings.append(meeting)
         
         conn.close()
+        logging.info(f"  Found {len(meetings)} meetings in database")
         return meetings
     
     def format_date(self, date_str):
@@ -285,6 +302,11 @@ class GitHubPagesPublisher:
             font-weight: bold;
         }
         
+        .meeting-summary p {
+            padding: 10px 0;
+            color: #666;
+        }
+        
         .meeting-links {
             display: flex;
             gap: 15px;
@@ -405,16 +427,23 @@ class GitHubPagesPublisher:
             for meeting in meetings:
                 date_info = self.format_date(meeting['date'])
                 
-                # Parse summary into list items
-                summary_lines = [line.strip().lstrip('•-*').strip() 
-                               for line in meeting['summary'].split('\n') 
-                               if line.strip()]
+                # Parse summary - handle both bullet points and plain text
+                summary = meeting.get('summary', 'Meeting summary will be available soon.')
                 
-                summary_html = '<ul>\n'
-                for line in summary_lines:
-                    if line:
-                        summary_html += f'                    <li>{line}</li>\n'
-                summary_html += '                </ul>'
+                if '\n' in summary and any(marker in summary for marker in ['•', '-', '*']):
+                    # Has bullet points
+                    summary_lines = [line.strip().lstrip('•-*').strip() 
+                                   for line in summary.split('\n') 
+                                   if line.strip()]
+                    
+                    summary_html = '<ul>\n'
+                    for line in summary_lines:
+                        if line:
+                            summary_html += f'                    <li>{line}</li>\n'
+                    summary_html += '                </ul>'
+                else:
+                    # Plain text summary
+                    summary_html = f'<p>{summary}</p>'
                 
                 html += f'''
             <div class="meeting-card">
@@ -437,7 +466,7 @@ class GitHubPagesPublisher:
                     </a>
 '''
                 
-                if meeting['agenda_url']:
+                if meeting.get('agenda_url'):
                     html += f'''                    <a href="{meeting['agenda_url']}" class="meeting-link" target="_blank" rel="noopener">
                         📋 Download Agenda
                     </a>
@@ -467,8 +496,13 @@ class GitHubPagesPublisher:
     def generate_rss_feed(self, meetings, site_url='https://cyowell.github.io/austin-meeting-monitor'):
         """Generate RSS 2.0 feed"""
         
-        # Use current time for lastBuildDate since we don't have created_at
+        # Get latest meeting date for lastBuildDate
         latest_date = datetime.now()
+        if meetings:
+            try:
+                latest_date = datetime.strptime(meetings[0]['created_at'], '%Y-%m-%d %H:%M:%S')
+            except:
+                pass
         
         rss = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -489,30 +523,35 @@ class GitHubPagesPublisher:
             title = f"Austin {meeting['meeting_type']}: {date_info['full']}"
             
             # Create description (HTML)
-            summary_lines = [line.strip().lstrip('•-*').strip() 
-                           for line in meeting['summary'].split('\n') 
-                           if line.strip()]
+            summary = meeting.get('summary', 'Meeting summary will be available soon.')
             
-            description = f"<h3>Meeting Highlights:</h3><ul>"
-            for line in summary_lines:
-                if line:
-                    description += f"<li>{line}</li>"
-            description += "</ul>"
+            if '\n' in summary and any(marker in summary for marker in ['•', '-', '*']):
+                summary_lines = [line.strip().lstrip('•-*').strip() 
+                               for line in summary.split('\n') 
+                               if line.strip()]
+                
+                description = f"<h3>Meeting Highlights:</h3><ul>"
+                for line in summary_lines:
+                    if line:
+                        description += f"<li>{line}</li>"
+                description += "</ul>"
+            else:
+                description = f"<p>{summary}</p>"
             
-            if meeting['agenda_url']:
+            if meeting.get('agenda_url'):
                 description += f'<p><a href="{meeting["agenda_url"]}">Download Meeting Agenda (PDF)</a></p>'
             
             description += f'<p><a href="{meeting["url"]}">View Full Meeting Details</a></p>'
             
-            # Use meeting date for pubDate
+            # Parse created_at for pubDate
             try:
-                pub_date = datetime.strptime(meeting['date'], '%Y-%m-%d')
-                pub_date_str = pub_date.strftime('%a, %d %b %Y 09:00:00 +0000')
+                pub_date = datetime.strptime(meeting['created_at'], '%Y-%m-%d %H:%M:%S')
+                pub_date_str = pub_date.strftime('%a, %d %b %Y %H:%M:%S +0000')
             except:
                 pub_date_str = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
             
             # Create unique GUID
-            guid = f"{site_url}/meeting-{meeting['date']}-{meeting['meeting_type'].replace(' ', '-')}"
+            guid = f"{site_url}/meeting-{meeting['date']}"
             
             rss += f'''
         <item>
@@ -536,7 +575,9 @@ class GitHubPagesPublisher:
         
         # Get meetings from database
         meetings = self.get_all_meetings()
-        logging.info(f"  Found {len(meetings)} meetings in database")
+        
+        if not meetings:
+            logging.warning("  No meetings found in database - creating placeholder site")
         
         # Generate index.html
         html_content = self.generate_html_index(meetings)
