@@ -1,6 +1,7 @@
 """
 GitHub Pages Publisher for Austin City Council Meeting Monitor
 Generates static HTML pages and RSS feed for automated publishing
+Version: 2.1 - Fixed schema detection
 """
 
 import os
@@ -29,7 +30,7 @@ class GitHubPagesPublisher:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
         
-        logging.info(f"✓ GitHub Pages publisher initialized")
+        logging.info(f"✓ GitHub Pages publisher initialized (v2.1)")
         logging.info(f"  Output directory: {self.output_dir}")
     
     def get_all_meetings(self, limit=None):
@@ -37,47 +38,78 @@ class GitHubPagesPublisher:
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         
-        # First, check what columns exist in the table
+        # Check what columns exist in the table
         cursor.execute("PRAGMA table_info(meetings)")
-        columns = [col[1] for col in cursor.fetchall()]
-        logging.info(f"  Database columns: {columns}")
+        columns_info = cursor.fetchall()
+        columns = [col[1] for col in columns_info]
         
-        # Build query based on available columns
-        select_columns = ['date', 'meeting_type', 'url']
+        logging.info(f"🔍 Database schema check:")
+        logging.info(f"  Available columns: {columns}")
         
-        # Add optional columns if they exist
-        if 'agenda_url' in columns:
-            select_columns.append('agenda_url')
-        if 'summary' in columns:
-            select_columns.append('summary')
-        if 'created_at' in columns:
-            select_columns.append('created_at')
+        # Build SELECT clause based on available columns
+        select_parts = []
         
-        query = f'''
-            SELECT {', '.join(select_columns)}
-            FROM meetings
-            ORDER BY date DESC
-        '''
+        # Required columns (should always exist)
+        for col in ['date', 'meeting_type', 'url']:
+            if col in columns:
+                select_parts.append(col)
+            else:
+                logging.error(f"  ❌ Missing required column: {col}")
+                raise ValueError(f"Database missing required column: {col}")
         
+        # Optional columns
+        has_agenda_url = 'agenda_url' in columns
+        has_summary = 'summary' in columns
+        has_created_at = 'created_at' in columns
+        
+        if has_agenda_url:
+            select_parts.append('agenda_url')
+        if has_summary:
+            select_parts.append('summary')
+        if has_created_at:
+            select_parts.append('created_at')
+        
+        logging.info(f"  Using columns: {select_parts}")
+        
+        # Build and execute query
+        query = f"SELECT {', '.join(select_parts)} FROM meetings ORDER BY date DESC"
         if limit:
-            query += f' LIMIT {limit}'
+            query += f" LIMIT {limit}"
         
+        logging.info(f"  Executing query: {query[:100]}...")
         cursor.execute(query)
-        meetings = []
         
+        meetings = []
         for row in cursor.fetchall():
             meeting = {
                 'date': row[0],
                 'meeting_type': row[1],
-                'url': row[2],
-                'agenda_url': row[3] if len(row) > 3 and 'agenda_url' in columns else None,
-                'summary': row[4] if len(row) > 4 and 'summary' in columns else 'Meeting summary will be available soon.',
-                'created_at': row[5] if len(row) > 5 and 'created_at' in columns else datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                'url': row[2]
             }
+            
+            # Add optional fields based on what we selected
+            idx = 3
+            if has_agenda_url:
+                meeting['agenda_url'] = row[idx]
+                idx += 1
+            else:
+                meeting['agenda_url'] = None
+            
+            if has_summary:
+                meeting['summary'] = row[idx]
+                idx += 1
+            else:
+                meeting['summary'] = 'Meeting summary will be available soon.'
+            
+            if has_created_at:
+                meeting['created_at'] = row[idx]
+            else:
+                meeting['created_at'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            
             meetings.append(meeting)
         
         conn.close()
-        logging.info(f"  Found {len(meetings)} meetings in database")
+        logging.info(f"  ✓ Found {len(meetings)} meetings in database")
         return meetings
     
     def format_date(self, date_str):
@@ -85,10 +117,10 @@ class GitHubPagesPublisher:
         try:
             date_obj = datetime.strptime(date_str, '%Y-%m-%d')
             return {
-                'full': date_obj.strftime('%B %d, %Y'),  # February 5, 2026
-                'short': date_obj.strftime('%b %d, %Y'),  # Feb 5, 2026
-                'day': date_obj.strftime('%A'),  # Thursday
-                'iso': date_str  # 2026-02-05
+                'full': date_obj.strftime('%B %d, %Y'),
+                'short': date_obj.strftime('%b %d, %Y'),
+                'day': date_obj.strftime('%A'),
+                'iso': date_str
             }
         except:
             return {
@@ -513,7 +545,7 @@ class GitHubPagesPublisher:
         <language>en-us</language>
         <lastBuildDate>{latest_date.strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>
         <atom:link href="{site_url}/feed.xml" rel="self" type="application/rss+xml"/>
-        <generator>Austin Meeting Monitor</generator>
+        <generator>Austin Meeting Monitor v2.1</generator>
 '''
         
         for meeting in meetings[:50]:  # Limit to 50 most recent
@@ -577,7 +609,7 @@ class GitHubPagesPublisher:
         meetings = self.get_all_meetings()
         
         if not meetings:
-            logging.warning("  No meetings found in database - creating placeholder site")
+            logging.warning("  ⚠️  No meetings found in database - creating placeholder site")
         
         # Generate index.html
         html_content = self.generate_html_index(meetings)
@@ -605,11 +637,15 @@ class GitHubPagesPublisher:
         return True
 
 
-# Example usage
+# Run the publisher
 if __name__ == "__main__":
+    logging.info("🚀 Starting GitHub Pages Publisher v2.1")
+    
     publisher = GitHubPagesPublisher(
         db_path='austin_meetings.db',
         output_dir='docs'
     )
     
     publisher.publish(site_url='https://cyowell.github.io/austin-meeting-monitor')
+    
+    logging.info("✅ Publishing complete!")
