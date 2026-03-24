@@ -34,7 +34,9 @@ jobs:
     
     - name: Generate GitHub Pages site
       run: |
-        python github_pages_publisher.py
+          ls -la github_pages_publisher.py
+          head -n 35 github_pages_publisher.py
+          python github_pages_publisher.py
     
     - name: Commit and push updates
       run: |
