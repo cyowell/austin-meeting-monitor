@@ -1,7 +1,7 @@
 """
 GitHub Pages Publisher for Austin City Council Meeting Monitor
 Generates static HTML pages and RSS feed for automated publishing
-Version: 2.1 - Fixed schema detection
+Version: 2.2 - Fixed column name mapping (meeting_url instead of url)
 """
 
 import os
@@ -30,7 +30,7 @@ class GitHubPagesPublisher:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
         
-        logging.info(f"✓ GitHub Pages publisher initialized (v2.1)")
+        logging.info(f"✓ GitHub Pages publisher initialized (v2.2)")
         logging.info(f"  Output directory: {self.output_dir}")
     
     def get_all_meetings(self, limit=None):
@@ -40,76 +40,71 @@ class GitHubPagesPublisher:
         
         # Check what columns exist in the table
         cursor.execute("PRAGMA table_info(meetings)")
-        columns_info = cursor.fetchall()
-        columns = [col[1] for col in columns_info]
-        
+        columns = {col[1] for col in cursor.fetchall()}
         logging.info(f"🔍 Database schema check:")
-        logging.info(f"  Available columns: {columns}")
+        logging.info(f"  Available columns: {sorted(columns)}")
         
-        # Build SELECT clause based on available columns
-        select_parts = []
+        # Map expected columns to actual columns
+        column_mapping = {
+            'id': 'meeting_id' if 'meeting_id' in columns else 'id',
+            'date': 'date',
+            'meeting_type': 'meeting_type',
+            'url': 'meeting_url' if 'meeting_url' in columns else 'url',
+            'agenda_url': 'agenda_url',
+            'summary': 'gemini_summary' if 'gemini_summary' in columns else 'summary',
+            'created_at': 'created_at'
+        }
         
-        # Required columns (should always exist)
-        for col in ['date', 'meeting_type', 'url']:
-            if col in columns:
-                select_parts.append(col)
-            else:
-                logging.error(f"  ❌ Missing required column: {col}")
-                raise ValueError(f"Database missing required column: {col}")
+        # Verify required columns exist
+        required = ['date', 'meeting_type']
+        for req in required:
+            actual_col = column_mapping.get(req, req)
+            if actual_col not in columns:
+                logging.error(f"  ❌ Missing required column: {req} (looking for {actual_col})")
+                raise ValueError(f"Database missing required column: {req}")
         
-        # Optional columns
-        has_agenda_url = 'agenda_url' in columns
-        has_summary = 'summary' in columns
-        has_created_at = 'created_at' in columns
+        logging.info(f"  ✅ All required columns found")
         
-        if has_agenda_url:
-            select_parts.append('agenda_url')
-        if has_summary:
-            select_parts.append('summary')
-        if has_created_at:
-            select_parts.append('created_at')
+        # Build query with actual column names
+        select_cols = [
+            column_mapping['id'],
+            column_mapping['date'],
+            column_mapping['meeting_type'],
+            column_mapping['url'],
+            column_mapping['agenda_url'],
+            column_mapping['summary']
+        ]
         
-        logging.info(f"  Using columns: {select_parts}")
+        # Add created_at if it exists
+        if column_mapping['created_at'] in columns:
+            select_cols.append(column_mapping['created_at'])
         
-        # Build and execute query
-        query = f"SELECT {', '.join(select_parts)} FROM meetings ORDER BY date DESC"
+        query = f'''
+            SELECT {', '.join(select_cols)}
+            FROM meetings
+            ORDER BY {column_mapping['date']} DESC
+        '''
+        
         if limit:
-            query += f" LIMIT {limit}"
+            query += f' LIMIT {limit}'
         
-        logging.info(f"  Executing query: {query[:100]}...")
         cursor.execute(query)
-        
         meetings = []
+        
         for row in cursor.fetchall():
             meeting = {
-                'date': row[0],
-                'meeting_type': row[1],
-                'url': row[2]
+                'id': row[0],
+                'date': row[1],
+                'meeting_type': row[2],
+                'url': row[3],
+                'agenda_url': row[4] if row[4] else None,
+                'summary': row[5] if row[5] else 'Meeting summary will be available soon.',
+                'created_at': row[6] if len(row) > 6 else datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             }
-            
-            # Add optional fields based on what we selected
-            idx = 3
-            if has_agenda_url:
-                meeting['agenda_url'] = row[idx]
-                idx += 1
-            else:
-                meeting['agenda_url'] = None
-            
-            if has_summary:
-                meeting['summary'] = row[idx]
-                idx += 1
-            else:
-                meeting['summary'] = 'Meeting summary will be available soon.'
-            
-            if has_created_at:
-                meeting['created_at'] = row[idx]
-            else:
-                meeting['created_at'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            
             meetings.append(meeting)
         
         conn.close()
-        logging.info(f"  ✓ Found {len(meetings)} meetings in database")
+        logging.info(f"  📊 Found {len(meetings)} meetings in database")
         return meetings
     
     def format_date(self, date_str):
@@ -117,10 +112,10 @@ class GitHubPagesPublisher:
         try:
             date_obj = datetime.strptime(date_str, '%Y-%m-%d')
             return {
-                'full': date_obj.strftime('%B %d, %Y'),
-                'short': date_obj.strftime('%b %d, %Y'),
-                'day': date_obj.strftime('%A'),
-                'iso': date_str
+                'full': date_obj.strftime('%B %d, %Y'),  # March 25, 2026
+                'short': date_obj.strftime('%b %d, %Y'),  # Mar 25, 2026
+                'day': date_obj.strftime('%A'),  # Tuesday
+                'iso': date_str  # 2026-03-25
             }
         except:
             return {
@@ -303,6 +298,7 @@ class GitHubPagesPublisher:
         
         .meeting-summary {
             margin: 20px 0;
+            line-height: 1.8;
         }
         
         .meeting-summary h3 {
@@ -311,32 +307,9 @@ class GitHubPagesPublisher:
             font-size: 1.2em;
         }
         
-        .meeting-summary ul {
-            list-style: none;
-            padding: 0;
-        }
-        
-        .meeting-summary li {
-            padding: 10px 0 10px 30px;
-            position: relative;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        
-        .meeting-summary li:last-child {
-            border-bottom: none;
-        }
-        
-        .meeting-summary li:before {
-            content: "▸";
-            position: absolute;
-            left: 10px;
-            color: #667eea;
-            font-weight: bold;
-        }
-        
         .meeting-summary p {
-            padding: 10px 0;
-            color: #666;
+            color: #555;
+            white-space: pre-wrap;
         }
         
         .meeting-links {
@@ -458,24 +431,7 @@ class GitHubPagesPublisher:
         else:
             for meeting in meetings:
                 date_info = self.format_date(meeting['date'])
-                
-                # Parse summary - handle both bullet points and plain text
                 summary = meeting.get('summary', 'Meeting summary will be available soon.')
-                
-                if '\n' in summary and any(marker in summary for marker in ['•', '-', '*']):
-                    # Has bullet points
-                    summary_lines = [line.strip().lstrip('•-*').strip() 
-                                   for line in summary.split('\n') 
-                                   if line.strip()]
-                    
-                    summary_html = '<ul>\n'
-                    for line in summary_lines:
-                        if line:
-                            summary_html += f'                    <li>{line}</li>\n'
-                    summary_html += '                </ul>'
-                else:
-                    # Plain text summary
-                    summary_html = f'<p>{summary}</p>'
                 
                 html += f'''
             <div class="meeting-card">
@@ -489,7 +445,7 @@ class GitHubPagesPublisher:
                 
                 <div class="meeting-summary">
                     <h3>Meeting Highlights</h3>
-{summary_html}
+                    <p>{summary}</p>
                 </div>
                 
                 <div class="meeting-links">
@@ -528,7 +484,6 @@ class GitHubPagesPublisher:
     def generate_rss_feed(self, meetings, site_url='https://cyowell.github.io/austin-meeting-monitor'):
         """Generate RSS 2.0 feed"""
         
-        # Get latest meeting date for lastBuildDate
         latest_date = datetime.now()
         if meetings:
             try:
@@ -545,45 +500,27 @@ class GitHubPagesPublisher:
         <language>en-us</language>
         <lastBuildDate>{latest_date.strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>
         <atom:link href="{site_url}/feed.xml" rel="self" type="application/rss+xml"/>
-        <generator>Austin Meeting Monitor v2.1</generator>
+        <generator>Austin Meeting Monitor v2.2</generator>
 '''
         
-        for meeting in meetings[:50]:  # Limit to 50 most recent
+        for meeting in meetings[:50]:
             date_info = self.format_date(meeting['date'])
-            
-            # Create item title
             title = f"Austin {meeting['meeting_type']}: {date_info['full']}"
             
-            # Create description (HTML)
-            summary = meeting.get('summary', 'Meeting summary will be available soon.')
-            
-            if '\n' in summary and any(marker in summary for marker in ['•', '-', '*']):
-                summary_lines = [line.strip().lstrip('•-*').strip() 
-                               for line in summary.split('\n') 
-                               if line.strip()]
-                
-                description = f"<h3>Meeting Highlights:</h3><ul>"
-                for line in summary_lines:
-                    if line:
-                        description += f"<li>{line}</li>"
-                description += "</ul>"
-            else:
-                description = f"<p>{summary}</p>"
+            description = f"<p>{meeting.get('summary', 'Meeting summary will be available soon.')}</p>"
             
             if meeting.get('agenda_url'):
                 description += f'<p><a href="{meeting["agenda_url"]}">Download Meeting Agenda (PDF)</a></p>'
             
             description += f'<p><a href="{meeting["url"]}">View Full Meeting Details</a></p>'
             
-            # Parse created_at for pubDate
             try:
                 pub_date = datetime.strptime(meeting['created_at'], '%Y-%m-%d %H:%M:%S')
                 pub_date_str = pub_date.strftime('%a, %d %b %Y %H:%M:%S +0000')
             except:
                 pub_date_str = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
             
-            # Create unique GUID
-            guid = f"{site_url}/meeting-{meeting['date']}"
+            guid = f"{site_url}/meeting-{meeting['id']}"
             
             rss += f'''
         <item>
@@ -605,41 +542,36 @@ class GitHubPagesPublisher:
         
         logging.info("📄 Generating GitHub Pages site...")
         
-        # Get meetings from database
         meetings = self.get_all_meetings()
         
         if not meetings:
             logging.warning("  ⚠️  No meetings found in database - creating placeholder site")
         
-        # Generate index.html
         html_content = self.generate_html_index(meetings)
         html_path = self.output_dir / 'index.html'
         with open(html_path, 'w', encoding='utf-8') as f:
             f.write(html_content)
-        logging.info(f"  ✓ Generated {html_path}")
+        logging.info(f"  ✅ Generated {html_path}")
         
-        # Generate RSS feed
         rss_content = self.generate_rss_feed(meetings, site_url)
         rss_path = self.output_dir / 'feed.xml'
         with open(rss_path, 'w', encoding='utf-8') as f:
             f.write(rss_content)
-        logging.info(f"  ✓ Generated {rss_path}")
+        logging.info(f"  ✅ Generated {rss_path}")
         
-        # Create .nojekyll file (tells GitHub Pages not to use Jekyll)
         nojekyll_path = self.output_dir / '.nojekyll'
         nojekyll_path.touch()
-        logging.info(f"  ✓ Created {nojekyll_path}")
+        logging.info(f"  ✅ Created {nojekyll_path}")
         
-        logging.info("✓ GitHub Pages site generated successfully!")
-        logging.info(f"\n  Site will be available at: {site_url}")
-        logging.info(f"  RSS feed: {site_url}/feed.xml")
+        logging.info("✅ GitHub Pages site generated successfully!")
+        logging.info(f"\n  🌐 Site will be available at: {site_url}")
+        logging.info(f"  📡 RSS feed: {site_url}/feed.xml")
         
         return True
 
 
-# Run the publisher
 if __name__ == "__main__":
-    logging.info("🚀 Starting GitHub Pages Publisher v2.1")
+    logging.info("🚀 Starting GitHub Pages Publisher v2.2")
     
     publisher = GitHubPagesPublisher(
         db_path='austin_meetings.db',
@@ -647,5 +579,3 @@ if __name__ == "__main__":
     )
     
     publisher.publish(site_url='https://cyowell.github.io/austin-meeting-monitor')
-    
-    logging.info("✅ Publishing complete!")
