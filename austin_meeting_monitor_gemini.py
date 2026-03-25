@@ -90,12 +90,12 @@ class AustinCouncilMonitor:
         conn.close()
         logging.info(f"✓ Database initialized: {self.db_path}")
     
-   def extract_meeting_id(self, url):
-    """Extract unique meeting ID from URL (e.g., 20260122-reg)
-    Handles both old format (.htm) and new format (no extension)"""
-    # Match: /YYYYMMDD-type with optional .htm extension
-    match = re.search(r'/(\d{8}-[a-z]+)(?:\.htm)?', url)
-    return match.group(1) if match else None
+    def extract_meeting_id(self, url):
+        """Extract unique meeting ID from URL (e.g., 20260122-reg)
+        Handles both old format (.htm) and new format (no extension)"""
+        # Match: /YYYYMMDD-type with optional .htm extension
+        match = re.search(r'/(\d{8}-[a-z]+)(?:\.htm)?', url)
+        return match.group(1) if match else None
     
     def check_for_new_meetings(self, info_center_url='https://www.austintexas.gov/council/meetings'):
         """
