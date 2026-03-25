@@ -90,12 +90,14 @@ class AustinCouncilMonitor:
         conn.close()
         logging.info(f"✓ Database initialized: {self.db_path}")
     
-    def extract_meeting_id(self, url):
-        """Extract unique meeting ID from URL (e.g., 20260122-reg)"""
-        match = re.search(r'/(\d{8}-[a-z]+)\.htm', url)
-        return match.group(1) if match else None
+   def extract_meeting_id(self, url):
+    """Extract unique meeting ID from URL (e.g., 20260122-reg)
+    Handles both old format (.htm) and new format (no extension)"""
+    # Match: /YYYYMMDD-type with optional .htm extension
+    match = re.search(r'/(\d{8}-[a-z]+)(?:\.htm)?', url)
+    return match.group(1) if match else None
     
-    def check_for_new_meetings(self, info_center_url='https://www.austintexas.gov/department/city-council/council/council_meeting_info_center.htm'):
+    def check_for_new_meetings(self, info_center_url='https://www.austintexas.gov/council/meetings'):
         """
         Scrape the Meeting Info Center page and identify new meetings
         Returns list of new meeting dictionaries
@@ -115,8 +117,8 @@ class AustinCouncilMonitor:
             for link in soup.find_all('a', href=True):
                 href = link['href']
                 
-                # Look for meeting page links
-                if re.search(r'/\d{8}-[a-z]+\.htm', href):
+           # Look for meeting page links (both old and new URL formats)
+if re.search(r'/\d{8}-[a-z]+(?:\.htm)?', href):
                     meeting_id = self.extract_meeting_id(href)
                     
                     if meeting_id and not self.meeting_exists(meeting_id):
