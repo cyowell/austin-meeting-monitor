@@ -32,6 +32,7 @@ jobs:
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: |
+        rm -f austin_meetings.db
         python3 austin_meeting_monitor_gemini.py
     
     - name: Generate GitHub Pages site
