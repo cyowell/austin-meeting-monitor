@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Austin City Council Meeting Monitor</title>
+        <link>https://cyowell.github.io/austin-meeting-monitor</link>
+        <description>Automated AI-powered summaries of Austin City Council meetings</description>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 25 Mar 2026 01:46:35 +0000</lastBuildDate>
+        <atom:link href="https://cyowell.github.io/austin-meeting-monitor/feed.xml" rel="self" type="application/rss+xml"/>
+        <generator>Austin Meeting Monitor v2.1</generator>
+    </channel>
+</rss>
