@@ -50,7 +50,7 @@ class AustinCouncilMonitor:
         # Configure Gemini if available
         if self.gemini_api_key and GEMINI_AVAILABLE:
             genai.configure(api_key=self.gemini_api_key)
-            self.gemini_model = genai.GenerativeModel('gemini-flash-latest')
+            self.gemini_model = genai.GenerativeModel('gemini-2.0-flash-exp')
             logging.info("✓ Gemini API configured successfully")
         else:
             self.gemini_model = None
@@ -66,14 +66,13 @@ class AustinCouncilMonitor:
         
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS meetings (
-                id TEXT PRIMARY KEY,
+                meeting_id TEXT PRIMARY KEY,
                 date TEXT,
                 meeting_type TEXT,
-                url TEXT,
+                meeting_url TEXT,
                 agenda_url TEXT,
-                summary TEXT,
-                discovered_at TEXT,
-                notified_at TEXT
+                gemini_summary TEXT,
+                created_at TEXT
             )
         ''')
         
@@ -91,17 +90,19 @@ class AustinCouncilMonitor:
         logging.info(f"✓ Database initialized: {self.db_path}")
     
     def extract_meeting_id(self, url):
-        """Extract unique meeting ID from URL (e.g., 20260122-reg)"""
-        match = re.search(r'/(\d{8}-[a-z]+)\.htm', url)
+        """Extract unique meeting ID from URL (e.g., 20260122-reg)
+        Handles both old format (.htm) and new format (no extension)"""
+        match = re.search(r'/(\d{8}-[a-z]+)(?:\.htm)?', url)
         return match.group(1) if match else None
     
-    def check_for_new_meetings(self, info_center_url='https://www.austintexas.gov/department/city-council/council/council_meeting_info_center.htm'):
+    def check_for_new_meetings(self, info_center_url='https://www.austintexas.gov/council/meetings'):
         """
         Scrape the Meeting Info Center page and identify new meetings
         Returns list of new meeting dictionaries
         """
         logging.info("\n" + "="*60)
         logging.info("🔍 Checking for new meetings...")
+        logging.info(f"📍 URL: {info_center_url}")
         logging.info("="*60)
         
         try:
@@ -111,16 +112,20 @@ class AustinCouncilMonitor:
             
             new_meetings = []
             
-            # Find all meeting links (they follow pattern: YYYYMMDD-type.htm)
+            # Find all meeting links (pattern: /YYYYMMDD-type with or without .htm)
             for link in soup.find_all('a', href=True):
                 href = link['href']
                 
-                # Look for meeting page links
-                if re.search(r'/\d{8}-[a-z]+\.htm', href):
+                # Look for meeting page links (both old and new URL formats)
+                if re.search(r'/\d{8}-[a-z]+(?:\.htm)?', href):
                     meeting_id = self.extract_meeting_id(href)
                     
                     if meeting_id and not self.meeting_exists(meeting_id):
                         full_url = urljoin(info_center_url, href)
+                        
+                        # Ensure full URL has proper domain
+                        if not full_url.startswith('http'):
+                            full_url = 'https://www.austintexas.gov' + href
                         
                         # Extract date and type from ID
                         date_str = meeting_id[:8]
@@ -156,7 +161,7 @@ class AustinCouncilMonitor:
         """Check if meeting ID already exists in database"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        cursor.execute('SELECT id FROM meetings WHERE id = ?', (meeting_id,))
+        cursor.execute('SELECT meeting_id FROM meetings WHERE meeting_id = ?', (meeting_id,))
         exists = cursor.fetchone() is not None
         conn.close()
         return exists
@@ -167,6 +172,7 @@ class AustinCouncilMonitor:
             'reg': 'Regular Meeting',
             'wrk': 'Work Session',
             'spec': 'Special Called Meeting',
+            'ahfc': 'Austin Housing Finance Corporation',
             'afc': 'Audit & Finance Committee',
             'mobc': 'Mobility Committee',
             'phc': 'Public Health Committee',
@@ -193,7 +199,10 @@ class AustinCouncilMonitor:
                 
                 # Check if it's an agenda
                 if 'agenda' in link_text and (href.endswith('.pdf') or 'document.cfm?id=' in href):
-                    return urljoin(meeting_url, href)
+                    full_url = urljoin(meeting_url, href)
+                    if not full_url.startswith('http'):
+                        full_url = 'https://www.austintexas.gov' + href
+                    return full_url
             
             return None
             
@@ -269,7 +278,7 @@ Focus on the most important items, public hearings, and policy decisions.
 Keep it concise and accessible to the general public.
 
 Agenda text:
-{agenda_text[:100000]}"""  # Gemini can handle large context
+{agenda_text[:100000]}"""
             
             response = self.gemini_model.generate_content(prompt)
             summary = response.text.strip()
@@ -283,14 +292,11 @@ Agenda text:
     
     def _simple_summary(self, text):
         """Simple rule-based summary extraction (fallback)"""
-        # Extract first few meaningful lines
         lines = [line.strip() for line in text.split('\n') if len(line.strip()) > 20]
         
         summary = "📋 Key agenda items:\n\n"
         for i, line in enumerate(lines[:5], 1):
             summary += f"{i}. {line[:150]}...\n"
-        
-        summary += "\n(Note: This is a basic extraction. Add Gemini API key for AI-powered summaries)"
         
         return summary
     
@@ -302,7 +308,6 @@ Agenda text:
         logging.info(f"📅 Processing: {meeting_data['date']} - {meeting_data['meeting_type']}")
         logging.info(f"{'='*60}")
         
-        # Get agenda URL
         agenda_url = self.get_agenda_url(meeting_data['url'])
         
         if not agenda_url:
@@ -311,20 +316,16 @@ Agenda text:
         else:
             logging.info(f"  ✓ Found agenda: {agenda_url}")
             
-            # Download agenda
             pdf_path = f"temp_agenda_{meeting_data['id']}.pdf"
             
             if self.download_pdf(agenda_url, pdf_path):
-                # Extract text
                 agenda_text = self.extract_text_from_pdf(pdf_path)
                 
                 if agenda_text:
-                    # Generate summary with Gemini
                     summary = self.summarize_agenda(agenda_text)
                 else:
                     summary = "Unable to extract text from agenda PDF"
                 
-                # Clean up temp file
                 try:
                     os.remove(pdf_path)
                 except:
@@ -332,7 +333,6 @@ Agenda text:
             else:
                 summary = "Failed to download agenda PDF"
         
-        # Save to database
         self.save_meeting(meeting_data, agenda_url, summary)
         
         return {
@@ -347,7 +347,7 @@ Agenda text:
         cursor = conn.cursor()
         
         cursor.execute('''
-            INSERT INTO meetings (id, date, meeting_type, url, agenda_url, summary, discovered_at)
+            INSERT INTO meetings (meeting_id, date, meeting_type, meeting_url, agenda_url, gemini_summary, created_at)
             VALUES (?, ?, ?, ?, ?, ?, ?)
         ''', (
             meeting_data['id'],
@@ -373,11 +373,11 @@ Agenda text:
                     "fields": [
                         {
                             "name": "Summary",
-                            "value": meeting_info['summary'][:1000]  # Discord limit
+                            "value": meeting_info['summary'][:1000]
                         }
                     ],
                     "url": meeting_info['url'],
-                    "color": 5814783  # Blue color
+                    "color": 5814783
                 }]
             }
             
@@ -410,21 +410,19 @@ Agenda text:
             meeting_info = self.process_new_meeting(meeting_data)
             processed.append(meeting_info)
             
-            # Send Discord notification if configured
             if discord_webhook_url:
                 self.send_discord_notification(meeting_info, discord_webhook_url)
                 
-                # Mark as notified
                 conn = sqlite3.connect(self.db_path)
                 cursor = conn.cursor()
                 cursor.execute(
-                    'UPDATE meetings SET notified_at = ? WHERE id = ?',
+                    'UPDATE meetings SET notified_at = ? WHERE meeting_id = ?',
                     (datetime.now().isoformat(), meeting_data['id'])
                 )
                 conn.commit()
                 conn.close()
             
-            time.sleep(2)  # Be respectful between requests
+            time.sleep(2)
         
         logging.info(f"\n{'='*60}")
         logging.info(f"✅ CHECK CYCLE COMPLETE")
@@ -439,7 +437,7 @@ Agenda text:
         cursor = conn.cursor()
         
         cursor.execute('''
-            SELECT id, date, meeting_type, url, agenda_url, summary, discovered_at
+            SELECT meeting_id, date, meeting_type, meeting_url, agenda_url, gemini_summary, created_at
             FROM meetings
             ORDER BY date DESC
             LIMIT ?
@@ -466,28 +464,21 @@ if __name__ == "__main__":
     print("🏛️  AUSTIN CITY COUNCIL MEETING MONITOR")
     print("="*60)
     
-    # SETUP: Add your API keys here
-    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')  # Set via: export GEMINI_API_KEY="your-key"
-    DISCORD_WEBHOOK = os.getenv('DISCORD_WEBHOOK_URL')  # Optional
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+    DISCORD_WEBHOOK = os.getenv('DISCORD_WEBHOOK_URL')
     
     if not GEMINI_API_KEY:
         print("\n⚠️  WARNING: No Gemini API key found!")
-        print("Set it with: export GEMINI_API_KEY='gemini_api_key'")
+        print("Set it with: export GEMINI_API_KEY='your-key-here'")
         print("Or paste it directly in the script above.\n")
-        
-        # Uncomment and paste your key here if not using environment variable:
-        # GEMINI_API_KEY = "paste-your-gemini-api-key-here"
     
-    # Initialize monitor
     monitor = AustinCouncilMonitor(
         db_path='austin_meetings.db',
-        gemini_api_key='GEMINI_API_KEY'
+        gemini_api_key=GEMINI_API_KEY
     )
     
-    # Run a check cycle
     new_meetings = monitor.run_check_cycle(discord_webhook_url=DISCORD_WEBHOOK)
     
-    # Display results
     if new_meetings:
         print("\n" + "="*60)
         print("📋 NEW MEETINGS DISCOVERED")
@@ -499,7 +490,6 @@ if __name__ == "__main__":
             print(f"\n{meeting['summary']}")
             print("-" * 60)
     
-    # Show recent meetings from database
     print("\n" + "="*60)
     print("📚 RECENT MEETINGS IN DATABASE")
     print("="*60)
