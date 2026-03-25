@@ -468,7 +468,6 @@ if __name__ == "__main__":
     
     # SETUP: Add your API keys here
     GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')  # Set via: export GEMINI_API_KEY="your-key"
-print(f"DEBUG: API key length = {len(GEMINI_API_KEY) if GEMINI_API_KEY else 0}")  # ← Add this
     DISCORD_WEBHOOK = os.getenv('DISCORD_WEBHOOK_URL')  # Optional
     
     if not GEMINI_API_KEY:
