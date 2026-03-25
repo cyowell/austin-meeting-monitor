@@ -50,7 +50,7 @@ class AustinCouncilMonitor:
         # Configure Gemini if available
         if self.gemini_api_key and GEMINI_AVAILABLE:
             genai.configure(api_key=self.gemini_api_key)
-            self.gemini_model = genai.GenerativeModel('gemini-1.5-flash')
+            self.gemini_model = genai.GenerativeModel('gemini-2.5-flash')
             logging.info("✓ Gemini API configured successfully")
         else:
             self.gemini_model = None
