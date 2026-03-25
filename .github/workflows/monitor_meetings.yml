@@ -30,13 +30,14 @@ jobs:
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: |
-        python austin_meeting_monitor_gemini.py
+        rm -f austin_meetings.db  # ← Delete old database (TEMPORARY)
+        python3 austin_meeting_monitor_gemini.py
     
     - name: Generate GitHub Pages site
       run: |
           ls -la github_pages_publisher.py
           head -n 35 github_pages_publisher.py
-          python github_pages_publisher.py
+          python3 github_pages_publisher.py
     
     - name: Commit and push updates
       run: |
