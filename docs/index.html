@@ -101,11 +101,11 @@
     <div class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">5</div>
+                <div class="stat-number">6</div>
                 <div class="stat-label">Total Meetings</div>
             </div>
             <div class="stat">
-                <div class="stat-number">Mar 26, 2026</div>
+                <div class="stat-number">Apr 09, 2026</div>
                 <div class="stat-label">Latest Meeting</div>
             </div>
             <div class="stat">
@@ -120,8 +120,8 @@
                 <input type="text" id="search-input" placeholder="Search by keyword — housing, budget, zoning..." oninput="applyFilters()">
             </div>
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">5</span></button>
-<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">2</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">6</span></button>
+<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">3</span></button>
 <button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">2</span></button>
 <button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">1</span></button>
 
@@ -130,6 +130,29 @@
 
         <div id="meetings-list">
             
+            <div class="meeting-card" data-type="regular-meeting">
+                <div class="meeting-header">
+                    <div>
+                        <div class="meeting-date">April 09, 2026</div>
+                        <div class="meeting-day">Thursday</div>
+                    </div>
+                    <div class="meeting-type">Regular Meeting</div>
+                </div>
+                <div class="meeting-summary">
+                    <h3>Meeting Highlights</h3>
+                    <div class="summary-content"><p>Here are the key items from the Austin City Council agenda, summarized in 4 bullet points:</p>
+<ul>
+<li>  <strong>Utility Rate Suspensions:</strong> Council will vote on suspending proposed interim rate increases from Atmos Energy and Texas Gas Service, which could impact gas utility customer bills.</li>
+<li>  <strong>Parkland & Traffic Infrastructure:</strong> Decisions include approving the acquisition of 49 acres for new parkland and accepting over $13 million in state grants for significant traffic system upgrades, including monitoring and smart signal technology.</li>
+<li>  <strong>Land Use & City Boundaries:</strong> Public hearings will be held on authorizing eminent domain for a new regional public safety communications tower and on disannexing multiple properties from the city limits under state law.</li>
+<li>  <strong>Zoning Changes for Development:</strong> Council will conduct public hearings and consider action on several zoning requests across the city, many proposing to convert single-family or commercial areas to mixed-use or higher-density residential. One contentious item involves a request for commercial-liquor sales zoning with public opposition.</li>
+</ul></div>
+                </div>
+                <div class="meeting-links">
+                    <a href="https://www.austintexas.gov/council/2026/20260409-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
+                    <a href="https://services.austintexas.gov/edims/document.cfm?id=470064" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
+                </div>
+            </div>
             <div class="meeting-card" data-type="regular-meeting">
                 <div class="meeting-header">
                     <div>
@@ -254,7 +277,7 @@
         <p><strong>About This Site</strong></p>
         <p>This site automatically monitors Austin City Council meetings and generates AI-powered summaries to help citizens stay informed.</p>
         <p>Summaries are generated using Google Gemini AI. For official information, always refer to the <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">City of Austin website</a>.</p>
-        <p style="margin-top:12px">Last updated: March 27, 2026 at 05:58 PM &nbsp;|&nbsp; <a href="https://github.com/cyowell/austin-meeting-monitor">View on GitHub</a></p>
+        <p style="margin-top:12px">Last updated: March 27, 2026 at 11:07 PM &nbsp;|&nbsp; <a href="https://github.com/cyowell/austin-meeting-monitor">View on GitHub</a></p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
