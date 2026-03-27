@@ -31,8 +31,8 @@ jobs:
     - name: Run meeting scraper
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       run: |
-        rm -f austin_meetings.db
         python3 austin_meeting_monitor_gemini.py
     
     - name: Generate GitHub Pages site
@@ -46,7 +46,11 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add docs/ austin_meetings.db
-        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update: $(date)" && git push)
+        git diff --quiet && git diff --staged --quiet || (
+          git pull --rebase origin ${{ github.ref_name }} &&
+          git commit -m "🤖 Auto-update: $(date)" &&
+          git push
+        )
     
     - name: Upload database artifact
       if: always()

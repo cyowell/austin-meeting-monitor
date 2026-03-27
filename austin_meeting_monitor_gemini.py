@@ -72,9 +72,17 @@ class AustinCouncilMonitor:
                 meeting_url TEXT,
                 agenda_url TEXT,
                 gemini_summary TEXT,
-                created_at TEXT
+                created_at TEXT,
+                notified_at TEXT
             )
         ''')
+
+        # Migration: add notified_at to existing databases that predate this column
+        cursor.execute("PRAGMA table_info(meetings)")
+        existing_columns = {col[1] for col in cursor.fetchall()}
+        if 'notified_at' not in existing_columns:
+            cursor.execute('ALTER TABLE meetings ADD COLUMN notified_at TEXT')
+            logging.info("  ✓ Migrated database: added notified_at column")
         
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS subscribers (
