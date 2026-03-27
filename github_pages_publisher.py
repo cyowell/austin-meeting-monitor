@@ -325,7 +325,7 @@ class GitHubPagesPublisher:
 </body>
 </html>'''
 
-    def generate_rss_feed(self, meetings, site_url='https://cyowell.github.io/austin-meeting-monitor'):
+    def generate_rss_feed(self, meetings, site_url='https://austincouncil.app'):
         """Generate RSS 2.0 feed"""
         latest_date = datetime.now()
         if meetings:
@@ -370,7 +370,7 @@ class GitHubPagesPublisher:
         rss += '    </channel>\n</rss>'
         return rss
 
-    def publish(self, site_url='https://cyowell.github.io/austin-meeting-monitor'):
+    def publish(self, site_url='https://austincouncil.app'):
         """Generate all files for GitHub Pages"""
         logging.info("📄 Generating GitHub Pages site...")
         meetings = self.get_all_meetings()
@@ -402,4 +402,4 @@ class GitHubPagesPublisher:
 if __name__ == "__main__":
     logging.info("🚀 Starting GitHub Pages Publisher v3.0")
     publisher = GitHubPagesPublisher(db_path='austin_meetings.db', output_dir='docs')
-    publisher.publish(site_url='https://cyowell.github.io/austin-meeting-monitor')
+    publisher.publish(site_url='https://austincouncil.app')

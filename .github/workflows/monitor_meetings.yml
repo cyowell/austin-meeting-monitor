@@ -26,7 +26,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         pip3 install -r requirements.txt
-        pip3 install requests beautifulsoup4 google-generativeai
+        pip3 install requests beautifulsoup4 google-generativeai resend
     
     - name: Run meeting scraper
       env:
@@ -34,12 +34,17 @@ jobs:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       run: |
         python3 austin_meeting_monitor_gemini.py
+
+    - name: Send email alerts
+      env:
+        RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+      run: |
+        python3 email_sender.py
     
     - name: Generate GitHub Pages site
       run: |
-          ls -la github_pages_publisher.py
-          head -n 35 github_pages_publisher.py
-          python3 github_pages_publisher.py
+        python3 github_pages_publisher.py
     
     - name: Commit and push updates
       run: |
