@@ -4,7 +4,7 @@ Generates static HTML pages and RSS feed for automated publishing
 Version: 3.1 - Added email subscribe form
 """
 
-SUBSCRIBE_API_URL = 'https://austin-meeting-monitor.vercel.app/api/subscribe'
+SUBSCRIBE_API_URL = 'https://austin-meeting-monitor.vercel.app/subscribe'
 
 import os
 import re
