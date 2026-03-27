@@ -38,7 +38,6 @@ jobs:
     - name: Send email alerts
       env:
         RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-        RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
       run: |
         python3 email_sender.py
     

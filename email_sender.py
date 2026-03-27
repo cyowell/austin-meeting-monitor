@@ -37,14 +37,23 @@ class MeetingEmailSender:
     # ── Subscriber management ────────────────────────────────────────────────
 
     def get_subscribers(self):
-        """Fetch active subscribers from Resend Audiences"""
-        if not self.audience_id:
-            logging.warning("⚠️  No RESEND_AUDIENCE_ID set — skipping email")
-            return []
+        """Fetch active subscribers from Resend — auto-discovers the audience ID"""
         try:
-            contacts = resend.Contacts.list(audience_id=self.audience_id)
-            active = [c for c in contacts.data if not c.get('unsubscribed', False)]
-            logging.info(f"  📬 {len(active)} active subscribers")
+            # Auto-discover audience if not explicitly provided
+            audience_id = self.audience_id
+            if not audience_id:
+                audiences = resend.Audiences.list()
+                items = getattr(audiences, 'data', None) or []
+                if not items:
+                    logging.warning("⚠️  No Resend audiences found — create one at resend.com/audiences")
+                    return []
+                audience_id = items[0].get('id') or items[0].id
+                logging.info(f"  📋 Auto-discovered audience ID: {audience_id}")
+
+            contacts = resend.Contacts.list(audience_id=audience_id)
+            data = getattr(contacts, 'data', None) or contacts.get('data', [])
+            active = [c for c in data if not (c.get('unsubscribed') or getattr(c, 'unsubscribed', False))]
+            logging.info(f"  📬 {len(active)} active subscriber(s)")
             return active
         except Exception as e:
             logging.error(f"  ✗ Error fetching subscribers: {e}")
