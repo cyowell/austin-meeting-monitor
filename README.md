@@ -130,7 +130,7 @@ Meeting data is sourced from the [City of Austin Meeting Info Center](https://ww
 This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
 
 You are free to share and adapt this work, provided you:
-- **Credit** Austin Council Monitor (austincouncil.app)
+- **Credit** Austin City Council Meeting Monitor (austincouncil.app)
 - **Do not use it for commercial purposes**
 - **Distribute any adaptations under the same license**
 
