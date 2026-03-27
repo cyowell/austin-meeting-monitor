@@ -125,7 +125,16 @@ Meeting data is sourced from the [City of Austin Meeting Info Center](https://ww
 
 ## License
 
-MIT — open source and free to adapt. If you build something similar for another city, a mention would be appreciated.
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+
+You are free to share and adapt this work, provided you:
+- **Credit** Austin Council Monitor (austincouncil.app)
+- **Do not use it for commercial purposes**
+- **Distribute any adaptations under the same license**
+
+See the [LICENSE](./LICENSE) file for full terms, or visit [creativecommons.org/licenses/by-nc-sa/4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ---
 
