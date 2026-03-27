@@ -50,11 +50,12 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add docs/ austin_meetings.db
-        git diff --quiet && git diff --staged --quiet || (
-          git pull --rebase origin ${{ github.ref_name }} &&
-          git commit -m "🤖 Auto-update: $(date)" &&
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Auto-update: $(date)"
           git push
-        )
+        fi
     
     - name: Upload database artifact
       if: always()
