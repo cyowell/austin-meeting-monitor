@@ -1,10 +1,11 @@
 """
 GitHub Pages Publisher for Austin City Council Meeting Monitor
 Generates static HTML pages and RSS feed for automated publishing
-Version: 2.2 - Fixed column name mapping (meeting_url instead of url)
+Version: 3.0 - Improved UI: markdown rendering, search, filters, back-to-top
 """
 
 import os
+import re
 import sqlite3
 import logging
 from datetime import datetime
@@ -14,37 +15,24 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 class GitHubPagesPublisher:
-    """
-    Generates static HTML pages and RSS feed for GitHub Pages hosting
-    """
-    
+    """Generates static HTML pages and RSS feed for GitHub Pages hosting"""
+
     def __init__(self, db_path='austin_meetings.db', output_dir='docs'):
-        """
-        Initialize GitHub Pages publisher
-        
-        Args:
-            db_path: Path to SQLite database
-            output_dir: Output directory for generated files (GitHub Pages uses 'docs' folder)
-        """
         self.db_path = db_path
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
-        
-        logging.info(f"✓ GitHub Pages publisher initialized (v2.2)")
+        logging.info(f"✓ GitHub Pages publisher initialized (v3.0)")
         logging.info(f"  Output directory: {self.output_dir}")
-    
+
     def get_all_meetings(self, limit=None):
         """Get all meetings from database, sorted by date (newest first)"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        # Check what columns exist in the table
+
         cursor.execute("PRAGMA table_info(meetings)")
         columns = {col[1] for col in cursor.fetchall()}
-        logging.info(f"🔍 Database schema check:")
         logging.info(f"  Available columns: {sorted(columns)}")
-        
-        # Map expected columns to actual columns
+
         column_mapping = {
             'id': 'meeting_id' if 'meeting_id' in columns else 'id',
             'date': 'date',
@@ -54,443 +42,298 @@ class GitHubPagesPublisher:
             'summary': 'gemini_summary' if 'gemini_summary' in columns else 'summary',
             'created_at': 'created_at'
         }
-        
-        # Verify required columns exist
-        required = ['date', 'meeting_type']
-        for req in required:
-            actual_col = column_mapping.get(req, req)
-            if actual_col not in columns:
-                logging.error(f"  ❌ Missing required column: {req} (looking for {actual_col})")
-                raise ValueError(f"Database missing required column: {req}")
-        
-        logging.info(f"  ✅ All required columns found")
-        
-        # Build query with actual column names
+
         select_cols = [
-            column_mapping['id'],
-            column_mapping['date'],
-            column_mapping['meeting_type'],
-            column_mapping['url'],
-            column_mapping['agenda_url'],
-            column_mapping['summary']
+            column_mapping['id'], column_mapping['date'], column_mapping['meeting_type'],
+            column_mapping['url'], column_mapping['agenda_url'], column_mapping['summary']
         ]
-        
-        # Add created_at if it exists
         if column_mapping['created_at'] in columns:
             select_cols.append(column_mapping['created_at'])
-        
-        query = f'''
-            SELECT {', '.join(select_cols)}
-            FROM meetings
-            ORDER BY {column_mapping['date']} DESC
-        '''
-        
+
+        query = f"SELECT {', '.join(select_cols)} FROM meetings ORDER BY {column_mapping['date']} DESC"
         if limit:
             query += f' LIMIT {limit}'
-        
+
         cursor.execute(query)
         meetings = []
-        
         for row in cursor.fetchall():
-            meeting = {
-                'id': row[0],
-                'date': row[1],
-                'meeting_type': row[2],
-                'url': row[3],
-                'agenda_url': row[4] if row[4] else None,
+            meetings.append({
+                'id': row[0], 'date': row[1], 'meeting_type': row[2],
+                'url': row[3], 'agenda_url': row[4] if row[4] else None,
                 'summary': row[5] if row[5] else 'Meeting summary will be available soon.',
                 'created_at': row[6] if len(row) > 6 else datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            }
-            meetings.append(meeting)
-        
+            })
+
         conn.close()
         logging.info(f"  📊 Found {len(meetings)} meetings in database")
         return meetings
-    
+
     def format_date(self, date_str):
         """Format date string nicely"""
         try:
-            date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-            return {
-                'full': date_obj.strftime('%B %d, %Y'),  # March 25, 2026
-                'short': date_obj.strftime('%b %d, %Y'),  # Mar 25, 2026
-                'day': date_obj.strftime('%A'),  # Tuesday
-                'iso': date_str  # 2026-03-25
-            }
-        except:
-            return {
-                'full': date_str,
-                'short': date_str,
-                'day': '',
-                'iso': date_str
-            }
-    
+            d = datetime.strptime(date_str, '%Y-%m-%d')
+            return {'full': d.strftime('%B %d, %Y'), 'short': d.strftime('%b %d, %Y'),
+                    'day': d.strftime('%A'), 'iso': date_str}
+        except Exception:
+            return {'full': date_str, 'short': date_str, 'day': '', 'iso': date_str}
+
+    def _markdown_to_html(self, text):
+        """Convert basic Gemini markdown output to HTML"""
+        if not text:
+            return ''
+        lines = text.split('\n')
+        out = []
+        in_list = False
+
+        for line in lines:
+            s = line.strip()
+            is_bullet = s.startswith('* ') or s.startswith('- ')
+            if is_bullet:
+                if not in_list:
+                    out.append('<ul>')
+                    in_list = True
+                content = s[2:]
+                content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
+                content = re.sub(r'\*(.+?)\*', r'<em>\1</em>', content)
+                out.append(f'<li>{content}</li>')
+            else:
+                if in_list:
+                    out.append('</ul>')
+                    in_list = False
+                if s:
+                    content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
+                    content = re.sub(r'\*(.+?)\*', r'<em>\1</em>', content)
+                    out.append(f'<p>{content}</p>')
+
+        if in_list:
+            out.append('</ul>')
+        return '\n'.join(out)
+
+    def _safe_filter_key(self, meeting_type):
+        """Convert meeting type to a safe CSS/data attribute value"""
+        return re.sub(r'[^a-z0-9]+', '-', meeting_type.lower()).strip('-')
+
     def generate_html_index(self, meetings):
         """Generate main index.html page"""
-        
-        html = '''<!DOCTYPE html>
+        total = len(meetings)
+        latest_date = self.format_date(meetings[0]['date'])['short'] if meetings else 'N/A'
+
+        # Count meeting types
+        type_counts = {}
+        for m in meetings:
+            t = m['meeting_type']
+            type_counts[t] = type_counts.get(t, 0) + 1
+
+        # Filter buttons
+        filter_btns = f'<button class="filter-btn active" data-filter="all" onclick="filterMeetings(\'all\')">All <span class="badge">{total}</span></button>\n'
+        for mtype, count in sorted(type_counts.items(), key=lambda x: -x[1]):
+            key = self._safe_filter_key(mtype)
+            filter_btns += f'<button class="filter-btn" data-filter="{key}" onclick="filterMeetings(\'{key}\')">{mtype} <span class="badge">{count}</span></button>\n'
+
+        # Meeting cards
+        cards = ''
+        for m in meetings:
+            di = self.format_date(m['date'])
+            summary_html = self._markdown_to_html(m.get('summary', 'Meeting summary will be available soon.'))
+            key = self._safe_filter_key(m['meeting_type'])
+
+            agenda_btn = ''
+            if m.get('agenda_url'):
+                agenda_btn = f'<a href="{m["agenda_url"]}" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>'
+
+            cards += f'''
+            <div class="meeting-card" data-type="{key}">
+                <div class="meeting-header">
+                    <div>
+                        <div class="meeting-date">{di["full"]}</div>
+                        <div class="meeting-day">{di["day"]}</div>
+                    </div>
+                    <div class="meeting-type">{m["meeting_type"]}</div>
+                </div>
+                <div class="meeting-summary">
+                    <h3>Meeting Highlights</h3>
+                    <div class="summary-content">{summary_html}</div>
+                </div>
+                <div class="meeting-links">
+                    <a href="{m["url"]}" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
+                    {agenda_btn}
+                </div>
+            </div>'''
+
+        if not cards:
+            cards = '<div class="no-meetings"><h2>⏳ No meetings yet</h2><p>Check back soon!</p></div>'
+
+        updated = datetime.now().strftime('%B %d, %Y at %I:%M %p')
+
+        return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Automated summaries of Austin City Council meetings with AI-generated highlights">
+    <meta name="description" content="Automated AI-powered summaries of Austin City Council meetings. Stay informed about local government.">
     <title>Austin City Council Meeting Monitor</title>
     <link rel="alternate" type="application/rss+xml" title="Austin City Council Meetings" href="feed.xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow: hidden;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 30px;
-            text-align: center;
-        }
-        
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-        }
-        
-        header p {
-            font-size: 1.1em;
-            opacity: 0.95;
-        }
-        
-        .subscribe-box {
-            background: rgba(255,255,255,0.15);
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 8px;
-            backdrop-filter: blur(10px);
-        }
-        
-        .subscribe-box h3 {
-            margin-bottom: 10px;
-            font-size: 1.3em;
-        }
-        
-        .subscribe-buttons {
-            display: flex;
-            gap: 10px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 15px;
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 12px 24px;
-            background: white;
-            color: #667eea;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 600;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        }
-        
-        .btn-rss {
-            background: #ff6600;
-            color: white;
-        }
-        
-        main {
-            padding: 40px 30px;
-        }
-        
-        .stats {
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 40px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
-        
-        .stat {
-            text-align: center;
-        }
-        
-        .stat-number {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #667eea;
-        }
-        
-        .stat-label {
-            color: #666;
-            font-size: 0.9em;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .meeting-card {
-            background: white;
-            border: 2px solid #e9ecef;
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 30px;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        
-        .meeting-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-            border-color: #667eea;
-        }
-        
-        .meeting-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: start;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        
-        .meeting-date {
-            font-size: 1.8em;
-            font-weight: bold;
-            color: #667eea;
-        }
-        
-        .meeting-day {
-            color: #666;
-            font-size: 0.9em;
-            margin-top: 5px;
-        }
-        
-        .meeting-type {
-            background: #667eea;
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            font-weight: 600;
-        }
-        
-        .meeting-summary {
-            margin: 20px 0;
-            line-height: 1.8;
-        }
-        
-        .meeting-summary h3 {
-            color: #333;
-            margin-bottom: 15px;
-            font-size: 1.2em;
-        }
-        
-        .meeting-summary p {
-            color: #555;
-            white-space: pre-wrap;
-        }
-        
-        .meeting-links {
-            display: flex;
-            gap: 15px;
-            margin-top: 20px;
-            flex-wrap: wrap;
-        }
-        
-        .meeting-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 20px;
-            background: #f8f9fa;
-            color: #667eea;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 600;
-            transition: background 0.2s;
-        }
-        
-        .meeting-link:hover {
-            background: #e9ecef;
-        }
-        
-        footer {
-            background: #f8f9fa;
-            padding: 30px;
-            text-align: center;
-            color: #666;
-            border-top: 2px solid #e9ecef;
-        }
-        
-        footer p {
-            margin: 10px 0;
-        }
-        
-        footer a {
-            color: #667eea;
-            text-decoration: none;
-        }
-        
-        footer a:hover {
-            text-decoration: underline;
-        }
-        
-        .no-meetings {
-            text-align: center;
-            padding: 60px 20px;
-            color: #666;
-        }
-        
-        .no-meetings h2 {
-            font-size: 2em;
-            margin-bottom: 15px;
-        }
-        
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8em;
-            }
-            
-            .stats {
-                flex-direction: column;
-                gap: 20px;
-            }
-            
-            .meeting-header {
-                flex-direction: column;
-            }
-            
-            .meeting-date {
-                font-size: 1.4em;
-            }
-        }
+        *{{margin:0;padding:0;box-sizing:border-box}}
+        body{{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.6;color:#1a1a2e;background:#f0f2f8;min-height:100vh}}
+        header{{background:linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);color:white;padding:48px 24px 40px;text-align:center;position:relative;overflow:hidden}}
+        header::before{{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff' fill-opacity='0.04'%3E%3Cpath d='M20 20h20v20H20zM0 0h20v20H0z'/%3E%3C/g%3E%3C/svg%3E")}}
+        header h1{{font-size:2.3em;font-weight:700;letter-spacing:-.5px;margin-bottom:8px;position:relative}}
+        header>p{{font-size:1em;opacity:.85;position:relative}}
+        .subscribe-box{{background:rgba(255,255,255,.12);padding:20px 24px;margin:24px auto 0;border-radius:12px;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.2);max-width:460px;position:relative}}
+        .subscribe-box h3{{font-size:1.05em;margin-bottom:5px}}
+        .subscribe-box p{{font-size:.88em;opacity:.85}}
+        .subscribe-buttons{{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:13px}}
+        .btn{{display:inline-block;padding:10px 20px;background:white;color:#4f46e5;text-decoration:none;border-radius:8px;font-weight:600;font-size:.88em;transition:transform .15s,box-shadow .15s}}
+        .btn:hover{{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.2)}}
+        .btn-rss{{background:#f97316;color:white}}
+        .container{{max-width:860px;margin:0 auto;padding:28px 16px 80px}}
+        .stats{{display:flex;justify-content:space-around;background:white;border-radius:12px;padding:22px;margin-bottom:20px;box-shadow:0 2px 12px rgba(79,70,229,.08)}}
+        .stat{{text-align:center}}
+        .stat-number{{font-size:2em;font-weight:700;color:#4f46e5;line-height:1}}
+        .stat-label{{color:#6b7280;font-size:.75em;text-transform:uppercase;letter-spacing:.08em;margin-top:4px}}
+        .controls{{background:white;border-radius:12px;padding:18px 22px;margin-bottom:20px;box-shadow:0 2px 12px rgba(79,70,229,.08)}}
+        .search-wrap{{position:relative;margin-bottom:14px}}
+        .search-wrap svg{{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:#9ca3af;pointer-events:none}}
+        #search-input{{width:100%;padding:11px 13px 11px 40px;border:2px solid #e5e7eb;border-radius:8px;font-family:inherit;font-size:.93em;color:#1a1a2e;outline:none;transition:border-color .2s}}
+        #search-input:focus{{border-color:#4f46e5}}
+        #search-input::placeholder{{color:#9ca3af}}
+        .filter-row{{display:flex;flex-wrap:wrap;gap:7px}}
+        .filter-btn{{padding:6px 13px;border:2px solid #e5e7eb;border-radius:20px;background:white;color:#6b7280;font-family:inherit;font-size:.81em;font-weight:600;cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:5px}}
+        .filter-btn:hover{{border-color:#4f46e5;color:#4f46e5}}
+        .filter-btn.active{{border-color:#4f46e5;background:#4f46e5;color:white}}
+        .filter-btn .badge{{background:rgba(255,255,255,.25);border-radius:10px;padding:1px 6px;font-size:.85em}}
+        .filter-btn:not(.active) .badge{{background:#f3f4f6;color:#4b5563}}
+        .meeting-card{{background:white;border-radius:14px;padding:26px 30px;margin-bottom:18px;box-shadow:0 2px 12px rgba(79,70,229,.08);border:2px solid transparent;transition:transform .2s,box-shadow .2s,border-color .2s}}
+        .meeting-card:hover{{transform:translateY(-3px);box-shadow:0 8px 28px rgba(79,70,229,.14);border-color:#4f46e5}}
+        .meeting-card.hidden{{display:none}}
+        .meeting-header{{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:18px}}
+        .meeting-date{{font-size:1.6em;font-weight:700;color:#4f46e5;line-height:1.1}}
+        .meeting-day{{color:#9ca3af;font-size:.84em;margin-top:4px}}
+        .meeting-type{{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;padding:7px 15px;border-radius:20px;font-size:.8em;font-weight:600;white-space:nowrap}}
+        .meeting-summary h3{{font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#9ca3af;margin-bottom:10px}}
+        .summary-content{{color:#374151;line-height:1.8}}
+        .summary-content ul{{padding-left:20px}}
+        .summary-content li{{margin-bottom:7px}}
+        .summary-content p{{margin-bottom:8px}}
+        .summary-content strong{{color:#1a1a2e}}
+        .meeting-links{{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}}
+        .meeting-link{{display:inline-flex;align-items:center;gap:6px;padding:10px 17px;border-radius:8px;font-weight:600;font-size:.86em;text-decoration:none;transition:all .15s}}
+        .meeting-link-primary{{background:#4f46e5;color:white}}
+        .meeting-link-primary:hover{{background:#4338ca;transform:translateY(-1px);box-shadow:0 4px 12px rgba(79,70,229,.35)}}
+        .meeting-link-secondary{{background:#f3f4f6;color:#4b5563;border:2px solid #e5e7eb}}
+        .meeting-link-secondary:hover{{background:#e5e7eb;color:#1a1a2e}}
+        .no-results,.no-meetings{{text-align:center;padding:60px 20px;color:#6b7280}}
+        .no-results{{display:none}}
+        .no-results h2,.no-meetings h2{{font-size:1.4em;margin-bottom:8px;color:#374151}}
+        footer{{background:white;padding:26px 30px;text-align:center;color:#6b7280;font-size:.86em;border-top:2px solid #f0f2f8}}
+        footer p{{margin:5px 0}}
+        footer a{{color:#4f46e5;text-decoration:none}}
+        footer a:hover{{text-decoration:underline}}
+        #back-to-top{{position:fixed;bottom:26px;right:26px;background:#4f46e5;color:white;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:19px;box-shadow:0 4px 16px rgba(79,70,229,.4);display:flex;align-items:center;justify-content:center;opacity:0;transform:translateY(10px);transition:opacity .25s,transform .25s;pointer-events:none}}
+        #back-to-top.visible{{opacity:1;transform:translateY(0);pointer-events:all}}
+        #back-to-top:hover{{background:#4338ca}}
+        @media(max-width:640px){{
+            header h1{{font-size:1.65em}}
+            .meeting-card{{padding:18px}}
+            .meeting-date{{font-size:1.25em}}
+            .stats{{flex-direction:column;gap:16px}}
+        }}
     </style>
 </head>
 <body>
+    <header>
+        <h1>🏛️ Austin City Council Meeting Monitor</h1>
+        <p>Automated AI-powered summaries of Austin City Council meetings</p>
+        <div class="subscribe-box">
+            <h3>📬 Never Miss a Meeting</h3>
+            <p>Subscribe to get notifications when new meetings are posted</p>
+            <div class="subscribe-buttons">
+                <a href="feed.xml" class="btn btn-rss">📡 RSS Feed</a>
+                <a href="https://blogtrottr.com/" class="btn" target="_blank" rel="noopener">📧 Email Updates</a>
+            </div>
+        </div>
+    </header>
+
     <div class="container">
-        <header>
-            <h1>🏛️ Austin City Council Meeting Monitor</h1>
-            <p>Automated AI-powered summaries of Austin City Council meetings</p>
-            
-            <div class="subscribe-box">
-                <h3>📬 Never Miss a Meeting</h3>
-                <p>Subscribe to get automatic notifications when new meetings are posted</p>
-                <div class="subscribe-buttons">
-                    <a href="feed.xml" class="btn btn-rss">📡 RSS Feed</a>
-                    <a href="https://blogtrottr.com/" class="btn" target="_blank">📧 Email Updates</a>
-                </div>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">{total}</div>
+                <div class="stat-label">Total Meetings</div>
             </div>
-        </header>
-        
-        <main>
-            <div class="stats">
-                <div class="stat">
-                    <div class="stat-number">''' + str(len(meetings)) + '''</div>
-                    <div class="stat-label">Total Meetings</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">''' + (self.format_date(meetings[0]['date'])['short'] if meetings else 'N/A') + '''</div>
-                    <div class="stat-label">Latest Meeting</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">🤖</div>
-                    <div class="stat-label">AI Powered</div>
-                </div>
+            <div class="stat">
+                <div class="stat-number">{latest_date}</div>
+                <div class="stat-label">Latest Meeting</div>
             </div>
-'''
-        
-        if not meetings:
-            html += '''
-            <div class="no-meetings">
-                <h2>No meetings found yet</h2>
-                <p>Check back soon for automated meeting summaries!</p>
+            <div class="stat">
+                <div class="stat-number">{len(type_counts)}</div>
+                <div class="stat-label">Meeting Types</div>
             </div>
-'''
-        else:
-            for meeting in meetings:
-                date_info = self.format_date(meeting['date'])
-                summary = meeting.get('summary', 'Meeting summary will be available soon.')
-                
-                html += f'''
-            <div class="meeting-card">
-                <div class="meeting-header">
-                    <div>
-                        <div class="meeting-date">{date_info['full']}</div>
-                        <div class="meeting-day">{date_info['day']}</div>
-                    </div>
-                    <div class="meeting-type">{meeting['meeting_type']}</div>
-                </div>
-                
-                <div class="meeting-summary">
-                    <h3>Meeting Highlights</h3>
-                    <p>{summary}</p>
-                </div>
-                
-                <div class="meeting-links">
-                    <a href="{meeting['url']}" class="meeting-link" target="_blank" rel="noopener">
-                        📄 Full Meeting Details
-                    </a>
-'''
-                
-                if meeting.get('agenda_url'):
-                    html += f'''                    <a href="{meeting['agenda_url']}" class="meeting-link" target="_blank" rel="noopener">
-                        📋 Download Agenda
-                    </a>
-'''
-                
-                html += '''                </div>
+        </div>
+
+        <div class="controls">
+            <div class="search-wrap">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <input type="text" id="search-input" placeholder="Search by keyword — housing, budget, zoning..." oninput="applyFilters()">
             </div>
-'''
-        
-        html += '''        </main>
-        
-        <footer>
-            <p><strong>About This Site</strong></p>
-            <p>This site automatically monitors Austin City Council meetings and generates AI-powered summaries to help citizens stay informed.</p>
-            <p>Summaries are generated using Google Gemini AI. For official information, always refer to the <a href="https://www.austintexas.gov/department/city-council" target="_blank">City of Austin website</a>.</p>
-            <p style="margin-top: 20px; font-size: 0.9em;">
-                Last updated: ''' + datetime.now().strftime('%B %d, %Y at %I:%M %p') + ''' | 
-                <a href="https://github.com/cyowell/austin-meeting-monitor">View on GitHub</a>
-            </p>
-        </footer>
+            <div class="filter-row" id="filter-row">
+                {filter_btns}
+            </div>
+        </div>
+
+        <div id="meetings-list">
+            {cards}
+        </div>
+        <div class="no-results" id="no-results">
+            <h2>🔍 No matching meetings</h2>
+            <p>Try a different keyword or filter.</p>
+        </div>
     </div>
+
+    <footer>
+        <p><strong>About This Site</strong></p>
+        <p>This site automatically monitors Austin City Council meetings and generates AI-powered summaries to help citizens stay informed.</p>
+        <p>Summaries are generated using Google Gemini AI. For official information, always refer to the <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">City of Austin website</a>.</p>
+        <p style="margin-top:12px">Last updated: {updated} &nbsp;|&nbsp; <a href="https://github.com/cyowell/austin-meeting-monitor">View on GitHub</a></p>
+    </footer>
+
+    <button id="back-to-top" onclick="window.scrollTo({{top:0,behavior:'smooth'}})" title="Back to top">↑</button>
+
+    <script>
+        let activeFilter = 'all';
+        function filterMeetings(type) {{
+            activeFilter = type;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b.dataset.filter === type));
+            applyFilters();
+        }}
+        function applyFilters() {{
+            const q = document.getElementById('search-input').value.toLowerCase().trim();
+            let visible = 0;
+            document.querySelectorAll('.meeting-card').forEach(card => {{
+                const show = (activeFilter === 'all' || card.dataset.type === activeFilter) && (!q || card.textContent.toLowerCase().includes(q));
+                card.classList.toggle('hidden', !show);
+                if (show) visible++;
+            }});
+            document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
+        }}
+        window.addEventListener('scroll', () => {{
+            document.getElementById('back-to-top').classList.toggle('visible', window.scrollY > 400);
+        }});
+    </script>
 </body>
 </html>'''
-        
-        return html
-    
+
     def generate_rss_feed(self, meetings, site_url='https://cyowell.github.io/austin-meeting-monitor'):
         """Generate RSS 2.0 feed"""
-        
         latest_date = datetime.now()
         if meetings:
             try:
                 latest_date = datetime.strptime(meetings[0]['created_at'], '%Y-%m-%d %H:%M:%S')
-            except:
+            except Exception:
                 pass
-        
+
         rss = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
@@ -500,82 +343,63 @@ class GitHubPagesPublisher:
         <language>en-us</language>
         <lastBuildDate>{latest_date.strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>
         <atom:link href="{site_url}/feed.xml" rel="self" type="application/rss+xml"/>
-        <generator>Austin Meeting Monitor v2.2</generator>
+        <generator>Austin Meeting Monitor v3.0</generator>
 '''
-        
         for meeting in meetings[:50]:
-            date_info = self.format_date(meeting['date'])
-            title = f"Austin {meeting['meeting_type']}: {date_info['full']}"
-            
+            di = self.format_date(meeting['date'])
+            title = f"Austin {meeting['meeting_type']}: {di['full']}"
             description = f"<p>{meeting.get('summary', 'Meeting summary will be available soon.')}</p>"
-            
             if meeting.get('agenda_url'):
                 description += f'<p><a href="{meeting["agenda_url"]}">Download Meeting Agenda (PDF)</a></p>'
-            
             description += f'<p><a href="{meeting["url"]}">View Full Meeting Details</a></p>'
-            
             try:
                 pub_date = datetime.strptime(meeting['created_at'], '%Y-%m-%d %H:%M:%S')
                 pub_date_str = pub_date.strftime('%a, %d %b %Y %H:%M:%S +0000')
-            except:
+            except Exception:
                 pub_date_str = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
-            
-            guid = f"{site_url}/meeting-{meeting['id']}"
-            
+
             rss += f'''
         <item>
             <title>{title}</title>
             <link>{meeting['url']}</link>
             <description><![CDATA[{description}]]></description>
             <pubDate>{pub_date_str}</pubDate>
-            <guid isPermaLink="false">{guid}</guid>
+            <guid isPermaLink="false">{site_url}/meeting-{meeting['id']}</guid>
         </item>
 '''
-        
-        rss += '''    </channel>
-</rss>'''
-        
+        rss += '    </channel>\n</rss>'
         return rss
-    
+
     def publish(self, site_url='https://cyowell.github.io/austin-meeting-monitor'):
         """Generate all files for GitHub Pages"""
-        
         logging.info("📄 Generating GitHub Pages site...")
-        
         meetings = self.get_all_meetings()
-        
+
         if not meetings:
             logging.warning("  ⚠️  No meetings found in database - creating placeholder site")
-        
+
         html_content = self.generate_html_index(meetings)
         html_path = self.output_dir / 'index.html'
         with open(html_path, 'w', encoding='utf-8') as f:
             f.write(html_content)
         logging.info(f"  ✅ Generated {html_path}")
-        
+
         rss_content = self.generate_rss_feed(meetings, site_url)
         rss_path = self.output_dir / 'feed.xml'
         with open(rss_path, 'w', encoding='utf-8') as f:
             f.write(rss_content)
         logging.info(f"  ✅ Generated {rss_path}")
-        
+
         nojekyll_path = self.output_dir / '.nojekyll'
         nojekyll_path.touch()
-        logging.info(f"  ✅ Created {nojekyll_path}")
-        
+
         logging.info("✅ GitHub Pages site generated successfully!")
-        logging.info(f"\n  🌐 Site will be available at: {site_url}")
-        logging.info(f"  📡 RSS feed: {site_url}/feed.xml")
-        
+        logging.info(f"  🌐 {site_url}")
+        logging.info(f"  📡 {site_url}/feed.xml")
         return True
 
 
 if __name__ == "__main__":
-    logging.info("🚀 Starting GitHub Pages Publisher v2.2")
-    
-    publisher = GitHubPagesPublisher(
-        db_path='austin_meetings.db',
-        output_dir='docs'
-    )
-    
+    logging.info("🚀 Starting GitHub Pages Publisher v3.0")
+    publisher = GitHubPagesPublisher(db_path='austin_meetings.db', output_dir='docs')
     publisher.publish(site_url='https://cyowell.github.io/austin-meeting-monitor')
