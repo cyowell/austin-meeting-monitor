@@ -149,18 +149,21 @@ class MeetingEmailSender:
         return f'''
         <div style="background:white;border-radius:12px;padding:24px;margin-bottom:18px;
                     border:1px solid #e5e7eb;box-shadow:0 2px 8px rgba(79,70,229,0.06)">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;
-                        margin-bottom:14px;flex-wrap:wrap;gap:8px">
-                <div>
-                    <div style="font-size:20px;font-weight:700;color:#4f46e5;line-height:1.1">{date_full}</div>
-                    <div style="color:#9ca3af;font-size:13px;margin-top:3px">{date_day}</div>
-                </div>
-                <div style="background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;
-                            padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;
-                            white-space:nowrap">
-                    {m['meeting_type']}
-                </div>
-            </div>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:14px">
+                <tr>
+                    <td valign="top">
+                        <div style="font-size:20px;font-weight:700;color:#4f46e5;line-height:1.1">{date_full}</div>
+                        <div style="color:#9ca3af;font-size:13px;margin-top:3px">{date_day}</div>
+                    </td>
+                    <td valign="top" align="right">
+                        <span style="display:inline-block;background:#4f46e5;color:white;
+                                    padding:6px 14px;border-radius:20px;font-size:12px;
+                                    font-weight:600;white-space:nowrap">
+                            {m['meeting_type']}
+                        </span>
+                    </td>
+                </tr>
+            </table>
             <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;
                         color:#9ca3af;margin-bottom:10px">Meeting Highlights</div>
             <div style="font-size:14px">{summary_html}</div>
@@ -168,7 +171,7 @@ class MeetingEmailSender:
                 <a href="{m['url']}"
                    style="display:inline-block;padding:9px 18px;background:#4f46e5;color:white;
                           text-decoration:none;border-radius:7px;font-size:13px;font-weight:600">
-                    📄 View Meeting Details
+                    &#128196; View Meeting Details
                 </a>
                 {agenda_btn}
             </div>

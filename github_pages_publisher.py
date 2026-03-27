@@ -1,8 +1,10 @@
 """
 GitHub Pages Publisher for Austin City Council Meeting Monitor
 Generates static HTML pages and RSS feed for automated publishing
-Version: 3.0 - Improved UI: markdown rendering, search, filters, back-to-top
+Version: 3.1 - Added email subscribe form
 """
+
+SUBSCRIBE_API_URL = 'https://austin-meeting-monitor.vercel.app/api/subscribe'
 
 import os
 import re
@@ -182,13 +184,19 @@ class GitHubPagesPublisher:
         header::before{{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff' fill-opacity='0.04'%3E%3Cpath d='M20 20h20v20H20zM0 0h20v20H0z'/%3E%3C/g%3E%3C/svg%3E")}}
         header h1{{font-size:2.3em;font-weight:700;letter-spacing:-.5px;margin-bottom:8px;position:relative}}
         header>p{{font-size:1em;opacity:.85;position:relative}}
-        .subscribe-box{{background:rgba(255,255,255,.12);padding:20px 24px;margin:24px auto 0;border-radius:12px;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.2);max-width:460px;position:relative}}
+        .subscribe-box{{background:rgba(255,255,255,.12);padding:22px 24px;margin:24px auto 0;border-radius:12px;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.2);max-width:480px;position:relative}}
         .subscribe-box h3{{font-size:1.05em;margin-bottom:5px}}
-        .subscribe-box p{{font-size:.88em;opacity:.85}}
-        .subscribe-buttons{{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:13px}}
-        .btn{{display:inline-block;padding:10px 20px;background:white;color:#4f46e5;text-decoration:none;border-radius:8px;font-weight:600;font-size:.88em;transition:transform .15s,box-shadow .15s}}
-        .btn:hover{{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.2)}}
-        .btn-rss{{background:#f97316;color:white}}
+        .subscribe-box p{{font-size:.88em;opacity:.85;margin-bottom:14px}}
+        .subscribe-form{{display:flex;gap:8px;flex-wrap:wrap}}
+        .subscribe-form input{{flex:1;min-width:180px;padding:10px 14px;border:none;border-radius:8px;font-family:inherit;font-size:.9em;outline:none;color:#1a1a2e}}
+        .subscribe-form button{{padding:10px 18px;background:#f97316;color:white;border:none;border-radius:8px;font-family:inherit;font-size:.9em;font-weight:600;cursor:pointer;transition:background .15s;white-space:nowrap}}
+        .subscribe-form button:hover{{background:#ea6c0a}}
+        .subscribe-form button:disabled{{opacity:.6;cursor:not-allowed}}
+        .subscribe-msg{{font-size:.85em;margin-top:10px;min-height:1.2em}}
+        .subscribe-msg.success{{color:#86efac}}
+        .subscribe-msg.error{{color:#fca5a5}}
+        .btn-rss{{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:rgba(255,255,255,.15);color:white;text-decoration:none;border-radius:8px;font-size:.82em;font-weight:600;border:1px solid rgba(255,255,255,.25);transition:background .15s;margin-top:10px}}
+        .btn-rss:hover{{background:rgba(255,255,255,.25)}}
         .container{{max-width:860px;margin:0 auto;padding:28px 16px 80px}}
         .stats{{display:flex;justify-content:space-around;background:white;border-radius:12px;padding:22px;margin-bottom:20px;box-shadow:0 2px 12px rgba(79,70,229,.08)}}
         .stat{{text-align:center}}
@@ -249,11 +257,13 @@ class GitHubPagesPublisher:
         <p>Automated AI-powered summaries of Austin City Council meetings</p>
         <div class="subscribe-box">
             <h3>📬 Never Miss a Meeting</h3>
-            <p>Subscribe to get notifications when new meetings are posted</p>
-            <div class="subscribe-buttons">
-                <a href="feed.xml" class="btn btn-rss">📡 RSS Feed</a>
-                <a href="https://blogtrottr.com/" class="btn" target="_blank" rel="noopener">📧 Email Updates</a>
+            <p>Get email updates when new meetings are posted</p>
+            <div class="subscribe-form">
+                <input type="email" id="sub-email" placeholder="your@email.com" autocomplete="email">
+                <button id="sub-btn" onclick="subscribe()">Subscribe</button>
             </div>
+            <div class="subscribe-msg" id="sub-msg"></div>
+            <a href="feed.xml" class="btn-rss">📡 RSS Feed</a>
         </div>
     </header>
 
@@ -320,6 +330,44 @@ class GitHubPagesPublisher:
         }}
         window.addEventListener('scroll', () => {{
             document.getElementById('back-to-top').classList.toggle('visible', window.scrollY > 400);
+        }});
+        async function subscribe() {{
+            const email = document.getElementById('sub-email').value.trim();
+            const btn = document.getElementById('sub-btn');
+            const msg = document.getElementById('sub-msg');
+            if (!email || !email.includes('@')) {{
+                msg.textContent = 'Please enter a valid email address.';
+                msg.className = 'subscribe-msg error';
+                return;
+            }}
+            btn.disabled = true;
+            btn.textContent = 'Subscribing...';
+            msg.textContent = '';
+            msg.className = 'subscribe-msg';
+            try {{
+                const res = await fetch('{SUBSCRIBE_API_URL}', {{
+                    method: 'POST',
+                    headers: {{'Content-Type': 'application/json'}},
+                    body: JSON.stringify({{email}})
+                }});
+                const data = await res.json();
+                if (res.ok && data.success) {{
+                    msg.textContent = "✓ You're subscribed! Check your inbox for a confirmation.";
+                    msg.className = 'subscribe-msg success';
+                    document.getElementById('sub-email').value = '';
+                    btn.textContent = 'Subscribed!';
+                }} else {{
+                    throw new Error(data.error || 'Subscription failed');
+                }}
+            }} catch(e) {{
+                msg.textContent = 'Something went wrong. Please try again.';
+                msg.className = 'subscribe-msg error';
+                btn.disabled = false;
+                btn.textContent = 'Subscribe';
+            }}
+        }}
+        document.getElementById('sub-email').addEventListener('keydown', e => {{
+            if (e.key === 'Enter') subscribe();
         }});
     </script>
 </body>
