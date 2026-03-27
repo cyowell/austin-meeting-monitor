@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="How Austin Council Monitor works — methodology, data sources, AI limitations, and resources for journalists.">
+    <title>About & Methodology — Austin City Council Monitor</title>
+    <link rel="alternate" type="application/rss+xml" title="Austin City Council Meetings" href="feed.xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.6;color:#1a1a2e;background:#f0f2f8;min-height:100vh}
+        header{background:linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);color:white;padding:36px 24px 32px;text-align:center}
+        .nav{font-size:.85em;opacity:.8;margin-bottom:16px}
+        .nav a{color:white;text-decoration:none;opacity:.85}
+        .nav a:hover{opacity:1;text-decoration:underline}
+        header h1{font-size:2em;font-weight:700;letter-spacing:-.5px;margin-bottom:6px}
+        header p{opacity:.85;font-size:1em}
+        .container{max-width:760px;margin:0 auto;padding:32px 16px 80px}
+        .card{background:white;border-radius:14px;padding:32px;margin-bottom:24px;box-shadow:0 2px 12px rgba(79,70,229,.08)}
+        .card h2{font-size:1.25em;font-weight:700;color:#4f46e5;margin-bottom:16px;display:flex;align-items:center;gap:10px}
+        .card h3{font-size:1em;font-weight:600;color:#1a1a2e;margin:20px 0 8px}
+        .card p{color:#374151;line-height:1.75;margin-bottom:12px}
+        .card ul{color:#374151;padding-left:20px;margin-bottom:12px}
+        .card li{margin-bottom:7px;line-height:1.65}
+        .card a{color:#4f46e5;text-decoration:none}
+        .card a:hover{text-decoration:underline}
+        .pipeline{background:#f8f8ff;border:1px solid #e0e0ff;border-radius:8px;padding:16px 20px;font-family:monospace;font-size:.85em;color:#374151;line-height:1.9;margin:14px 0}
+        .tag{display:inline-block;background:#ede9fe;color:#4f46e5;padding:3px 10px;border-radius:20px;font-size:.78em;font-weight:600;margin:3px 2px}
+        .warning-box{background:#fffbeb;border:1px solid #fcd34d;border-radius:8px;padding:16px 18px;margin:16px 0}
+        .warning-box p{color:#92400e;margin:0;font-size:.93em}
+        table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.9em}
+        th{text-align:left;padding:10px 14px;background:#f3f4f6;color:#6b7280;font-size:.75em;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+        td{padding:10px 14px;border-bottom:1px solid #f3f4f6;color:#374151}
+        tr:last-child td{border-bottom:none}
+        .journalist-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+        .journalist-link{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:8px;font-weight:600;font-size:.88em;text-decoration:none!important;transition:all .15s}
+        .jl-primary{background:#4f46e5;color:white!important}
+        .jl-primary:hover{background:#4338ca}
+        .jl-secondary{background:#f3f4f6;color:#4b5563!important;border:2px solid #e5e7eb}
+        .jl-secondary:hover{background:#e5e7eb;color:#1a1a2e!important}
+        footer{background:white;padding:24px;text-align:center;color:#6b7280;font-size:.86em;border-top:2px solid #f0f2f8}
+        footer a{color:#4f46e5;text-decoration:none}
+        footer a:hover{text-decoration:underline}
+        @media(max-width:640px){header h1{font-size:1.6em}.card{padding:20px}}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav"><a href="/">← Back to Meeting Monitor</a></div>
+        <h1>🏛️ About & Methodology</h1>
+        <p>How Austin Council Monitor works, where the data comes from, and its limitations</p>
+    </header>
+
+    <div class="container">
+
+        <!-- How it works -->
+        <div class="card">
+            <h2>⚙️ How It Works</h2>
+            <p>Austin Council Monitor is an automated pipeline that runs twice daily and publishes plain-language summaries of Austin City Council meetings.</p>
+            <div class="pipeline">
+austintexas.gov/council/meetings<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+&nbsp;&nbsp;&nbsp;&nbsp;▼<br>
+Scrape meeting links (pattern: /YYYYMMDD-type)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+&nbsp;&nbsp;&nbsp;&nbsp;▼<br>
+Download agenda PDF → Extract text<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+&nbsp;&nbsp;&nbsp;&nbsp;▼<br>
+Google Gemini AI → Generate 3–5 bullet summary<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+&nbsp;&nbsp;&nbsp;&nbsp;▼<br>
+Save to database → Email subscribers → Publish site
+            </div>
+            <h3>Update Schedule</h3>
+            <p>The pipeline runs automatically at <strong>8:00 AM</strong> and <strong>6:00 PM Central Time</strong> daily via GitHub Actions. New meetings are typically published within minutes of being posted to the city website.</p>
+        </div>
+
+        <!-- Data sources -->
+        <div class="card">
+            <h2>📡 Data Sources</h2>
+            <h3>Primary Source</h3>
+            <p>All meeting data originates from the <a href="https://www.austintexas.gov/council/meetings" target="_blank" rel="noopener">City of Austin Meeting Info Center</a>, the official public record maintained by the City of Austin. No data is altered, inferred, or supplemented from other sources.</p>
+            <h3>What Is Captured</h3>
+            <table>
+                <tr><th>Field</th><th>Description</th></tr>
+                <tr><td>Meeting date</td><td>Parsed from the meeting URL (YYYYMMDD format)</td></tr>
+                <tr><td>Meeting type</td><td>Regular, Work Session, Committee, etc.</td></tr>
+                <tr><td>Meeting URL</td><td>Direct link to the official city meeting page</td></tr>
+                <tr><td>Agenda PDF</td><td>Downloaded temporarily for text extraction, then deleted</td></tr>
+                <tr><td>AI summary</td><td>Generated from agenda text; not stored with original PDF</td></tr>
+            </table>
+            <h3>Meeting Types Monitored</h3>
+            <p>
+                <span class="tag">Regular Meeting</span>
+                <span class="tag">Work Session</span>
+                <span class="tag">Special Called Meeting</span>
+                <span class="tag">Austin Housing Finance Corp</span>
+                <span class="tag">Audit &amp; Finance Committee</span>
+                <span class="tag">Mobility Committee</span>
+                <span class="tag">Public Health Committee</span>
+                <span class="tag">Housing &amp; Planning Committee</span>
+                <span class="tag">Climate, Water, Energy &amp; Public Enterprises</span>
+                <span class="tag">Public Safety Committee</span>
+                <span class="tag">Economic Opportunity Committee</span>
+            </p>
+        </div>
+
+        <!-- AI methodology -->
+        <div class="card">
+            <h2>🤖 AI Summarization</h2>
+            <h3>Model</h3>
+            <p>Summaries are generated using <strong>Google Gemini 2.5 Flash</strong>, a large language model optimized for speed and factual accuracy on structured document content.</p>
+            <h3>Prompt</h3>
+            <p>Each agenda is summarized with the following instruction:</p>
+            <div class="pipeline" style="font-family:inherit;font-style:italic;color:#4b5563">
+                "Summarize this Austin City Council agenda in 3–5 bullet points. Focus on the most important items, public hearings, and policy decisions. Keep it concise and accessible to the general public."
+            </div>
+            <h3>⚠️ Limitations</h3>
+            <div class="warning-box">
+                <p><strong>AI summaries are not a substitute for official records.</strong> They are intended as a first-pass orientation tool, not a definitive account of meeting content.</p>
+            </div>
+            <ul>
+                <li><strong>May miss nuance:</strong> Complex policy items, amendments, and procedural votes may be oversimplified or omitted</li>
+                <li><strong>Not legally authoritative:</strong> For official minutes and records, always consult <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">austintexas.gov</a></li>
+                <li><strong>Agenda ≠ outcome:</strong> Summaries reflect what was <em>scheduled</em> for discussion — not necessarily what was decided</li>
+                <li><strong>PDF quality dependent:</strong> Poorly formatted or scanned PDFs may produce incomplete summaries</li>
+                <li><strong>No real-time updates:</strong> Meeting outcomes, votes, and amendments are not captured post-meeting</li>
+            </ul>
+        </div>
+
+        <!-- For Journalists -->
+        <div class="card" id="journalists">
+            <h2>📰 For Journalists &amp; Researchers</h2>
+            <p>Austin Council Monitor is designed with journalists, civic technologists, and engaged citizens in mind. All underlying data is publicly accessible.</p>
+
+            <h3>Direct Data Access</h3>
+            <div class="journalist-links">
+                <a href="feed.xml" class="journalist-link jl-primary">📡 RSS Feed</a>
+                <a href="https://github.com/cyowell/austin-meeting-monitor" target="_blank" rel="noopener" class="journalist-link jl-secondary">⌨️ GitHub Repository</a>
+                <a href="https://github.com/cyowell/austin-meeting-monitor/raw/main/austin_meetings.db" class="journalist-link jl-secondary">🗄️ Download SQLite DB</a>
+            </div>
+
+            <h3>Database Schema</h3>
+            <p>The <code>austin_meetings.db</code> SQLite database is committed to the repository and updated with each pipeline run.</p>
+            <table>
+                <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+                <tr><td>meeting_id</td><td>TEXT</td><td>Unique ID (e.g. 20260409-reg)</td></tr>
+                <tr><td>date</td><td>TEXT</td><td>Meeting date (YYYY-MM-DD)</td></tr>
+                <tr><td>meeting_type</td><td>TEXT</td><td>Human-readable meeting type</td></tr>
+                <tr><td>meeting_url</td><td>TEXT</td><td>Official city meeting page URL</td></tr>
+                <tr><td>agenda_url</td><td>TEXT</td><td>Agenda PDF URL (if available)</td></tr>
+                <tr><td>gemini_summary</td><td>TEXT</td><td>AI-generated summary</td></tr>
+                <tr><td>created_at</td><td>TEXT</td><td>Timestamp when first discovered</td></tr>
+                <tr><td>notified_at</td><td>TEXT</td><td>Timestamp when email alerts sent</td></tr>
+            </table>
+
+            <h3>Update Cadence</h3>
+            <p>The pipeline runs at <strong>8:00 AM and 6:00 PM CT</strong> daily. The RSS feed and website are updated within each run. There is no manual editorial step — publication is fully automated.</p>
+
+            <h3>Attribution</h3>
+            <p>If citing an AI-generated summary from this site, please use: <em>"Austin Council Monitor (austincouncil.app), summarized using Google Gemini AI."</em> Always link to the original official meeting page for reference.</p>
+
+            <h3>Contact</h3>
+            <p>Questions, corrections, or collaboration inquiries: <a href="https://github.com/cyowell/austin-meeting-monitor/issues" target="_blank" rel="noopener">open a GitHub issue</a>.</p>
+        </div>
+
+        <!-- About the project -->
+        <div class="card">
+            <h2>💡 About This Project</h2>
+            <p>Austin Council Monitor is an open-source civic media project built to demonstrate how lightweight AI tooling can make local government more accessible. It is not affiliated with or endorsed by the City of Austin.</p>
+            <p>The full source code is available on <a href="https://github.com/cyowell/austin-meeting-monitor" target="_blank" rel="noopener">GitHub</a> under the MIT license. Contributions and adaptations for other cities are welcome.</p>
+            <p style="margin-top:16px;padding-top:16px;border-top:1px solid #f3f4f6;color:#6b7280;font-size:.88em">
+                For official City of Austin information, always refer to
+                <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">austintexas.gov</a>.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p><a href="/">← Back to Meeting Monitor</a> &nbsp;|&nbsp; <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a> &nbsp;|&nbsp; <a href="feed.xml">RSS Feed</a></p>
+    </footer>
+</body>
+</html>

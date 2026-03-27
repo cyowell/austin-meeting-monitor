@@ -255,6 +255,11 @@ class GitHubPagesPublisher:
     <header>
         <h1>🏛️ Austin City Council Meeting Monitor</h1>
         <p>Automated AI-powered summaries of Austin City Council meetings</p>
+        <nav style="margin-top:10px;font-size:.83em;opacity:.8">
+            <a href="/about" style="color:white;text-decoration:none" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.8">About &amp; Methodology</a>
+            &nbsp;·&nbsp;
+            <a href="/about#journalists" style="color:white;text-decoration:none" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.8">For Journalists</a>
+        </nav>
         <div class="subscribe-box">
             <h3>📬 Never Miss a Meeting</h3>
             <p>Get email updates when new meetings are posted</p>
@@ -306,7 +311,13 @@ class GitHubPagesPublisher:
         <p><strong>About This Site</strong></p>
         <p>This site automatically monitors Austin City Council meetings and generates AI-powered summaries to help citizens stay informed.</p>
         <p>Summaries are generated using Google Gemini AI. For official information, always refer to the <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">City of Austin website</a>.</p>
-        <p style="margin-top:12px">Last updated: {updated} &nbsp;|&nbsp; <a href="https://github.com/cyowell/austin-meeting-monitor">View on GitHub</a></p>
+        <p style="margin-top:12px">
+            <a href="/about">About &amp; Methodology</a> &nbsp;|&nbsp;
+            <a href="/about#journalists">For Journalists</a> &nbsp;|&nbsp;
+            <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
+            <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
+        </p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: {updated}</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({{top:0,behavior:'smooth'}})" title="Back to top">↑</button>
