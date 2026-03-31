@@ -143,6 +143,13 @@ class GitHubPagesPublisher:
             if m.get('agenda_url'):
                 agenda_btn = f'<a href="{m["agenda_url"]}" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>'
 
+            share_onclick = "openShareModal('{}','{}','{}')".format(
+                di["full"].replace("'", "\\'"),
+                m["meeting_type"].replace("'", "\\'"),
+                m["url"].replace("'", "\\'")
+            )
+            share_btn = '<button class="btn-share-card" onclick="{}" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>'.format(share_onclick)
+
             cards += f'''
             <div class="meeting-card" data-type="{key}">
                 <div class="meeting-header">
@@ -159,6 +166,8 @@ class GitHubPagesPublisher:
                 <div class="meeting-links">
                     <a href="{m["url"]}" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
                     {agenda_btn}
+                    <span class="meeting-links-spacer"></span>
+                    {share_btn}
                 </div>
             </div>'''
 
@@ -227,12 +236,15 @@ class GitHubPagesPublisher:
         .summary-content li{{margin-bottom:7px}}
         .summary-content p{{margin-bottom:8px}}
         .summary-content strong{{color:#1a1a2e}}
-        .meeting-links{{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}}
+        .meeting-links{{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap;align-items:center}}
         .meeting-link{{display:inline-flex;align-items:center;gap:6px;padding:10px 17px;border-radius:8px;font-weight:600;font-size:.86em;text-decoration:none;transition:all .15s}}
         .meeting-link-primary{{background:#4f46e5;color:white}}
         .meeting-link-primary:hover{{background:#4338ca;transform:translateY(-1px);box-shadow:0 4px 12px rgba(79,70,229,.35)}}
         .meeting-link-secondary{{background:#f3f4f6;color:#4b5563;border:2px solid #e5e7eb}}
         .meeting-link-secondary:hover{{background:#e5e7eb;color:#1a1a2e}}
+        .meeting-links-spacer{{flex:1}}
+        .btn-share-card{{display:inline-flex;align-items:center;gap:6px;padding:10px 17px;border-radius:8px;font-weight:600;font-size:.86em;text-decoration:none;transition:all .15s;background:#f0edff;color:#4f46e5;border:2px solid #ddd9ff;cursor:pointer;font-family:inherit}}
+        .btn-share-card:hover{{background:#e0daff;border-color:#4f46e5;transform:translateY(-1px)}}
         .no-results,.no-meetings{{text-align:center;padding:60px 20px;color:#6b7280}}
         .no-results{{display:none}}
         .no-results h2,.no-meetings h2{{font-size:1.4em;margin-bottom:8px;color:#374151}}
@@ -240,9 +252,42 @@ class GitHubPagesPublisher:
         footer p{{margin:5px 0}}
         footer a{{color:#4f46e5;text-decoration:none}}
         footer a:hover{{text-decoration:underline}}
-        #back-to-top{{position:fixed;bottom:26px;right:26px;background:#4f46e5;color:white;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:19px;box-shadow:0 4px 16px rgba(79,70,229,.4);display:flex;align-items:center;justify-content:center;opacity:0;transform:translateY(10px);transition:opacity .25s,transform .25s;pointer-events:none}}
+        #back-to-top{{position:fixed;bottom:80px;right:26px;background:#4f46e5;color:white;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:19px;box-shadow:0 4px 16px rgba(79,70,229,.4);display:flex;align-items:center;justify-content:center;opacity:0;transform:translateY(10px);transition:opacity .25s,transform .25s;pointer-events:none}}
         #back-to-top.visible{{opacity:1;transform:translateY(0);pointer-events:all}}
         #back-to-top:hover{{background:#4338ca}}
+        #share-fab{{position:fixed;bottom:26px;right:26px;background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;border:none;border-radius:50%;width:48px;height:48px;cursor:pointer;box-shadow:0 4px 18px rgba(79,70,229,.5);display:flex;align-items:center;justify-content:center;transition:transform .2s,box-shadow .2s;z-index:900}}
+        #share-fab:hover{{transform:scale(1.1);box-shadow:0 6px 24px rgba(79,70,229,.65)}}
+        #share-fab svg{{pointer-events:none}}
+        #share-modal-overlay{{position:fixed;inset:0;background:rgba(15,10,40,.55);backdrop-filter:blur(6px);z-index:1000;display:flex;align-items:flex-end;justify-content:flex-end;padding:26px;opacity:0;pointer-events:none;transition:opacity .2s}}
+        #share-modal-overlay.open{{opacity:1;pointer-events:all}}
+        #share-modal{{background:white;border-radius:20px;padding:28px;width:340px;max-width:calc(100vw - 48px);box-shadow:0 20px 60px rgba(79,70,229,.25),0 4px 16px rgba(0,0,0,.1);transform:translateY(16px) scale(.97);transition:transform .22s cubic-bezier(.34,1.4,.64,1),opacity .2s;opacity:0;position:relative}}
+        #share-modal-overlay.open #share-modal{{transform:translateY(0) scale(1);opacity:1}}
+        .share-modal-brand{{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:14px;border-bottom:2px solid #f0f2f8}}
+        .share-modal-brand-icon{{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,#4f46e5,#7c3aed);display:flex;align-items:center;justify-content:center;flex-shrink:0}}
+        .share-modal-brand-text{{font-weight:700;font-size:.92em;color:#1a1a2e;line-height:1.3}}
+        .share-modal-brand-text span{{display:block;font-size:.78em;font-weight:500;color:#6b7280;margin-top:2px}}
+        .share-modal-close{{position:absolute;top:16px;right:16px;background:#f3f4f6;border:none;border-radius:8px;width:30px;height:30px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#6b7280;transition:background .15s}}
+        .share-modal-close:hover{{background:#e5e7eb;color:#1a1a2e}}
+        .share-preview{{background:#f8f7ff;border-radius:12px;padding:14px 16px;margin-bottom:18px;border-left:4px solid #4f46e5}}
+        .share-preview-date{{font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#7c3aed;margin-bottom:4px}}
+        .share-preview-title{{font-size:.9em;font-weight:600;color:#1a1a2e;line-height:1.45}}
+        .share-preview-source{{font-size:.75em;color:#9ca3af;margin-top:6px}}
+        .share-buttons{{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:14px}}
+        .share-btn{{display:flex;flex-direction:column;align-items:center;gap:6px;padding:13px 8px;border-radius:12px;border:2px solid #e5e7eb;background:white;cursor:pointer;font-family:inherit;font-size:.78em;font-weight:700;color:#374151;transition:all .15s}}
+        .share-btn:hover{{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.08)}}
+        .share-btn.twitter:hover{{border-color:#1d9bf0;color:#1d9bf0;background:#f0f9ff}}
+        .share-btn.linkedin:hover{{border-color:#0a66c2;color:#0a66c2;background:#f0f6ff}}
+        .share-btn.native:hover{{border-color:#4f46e5;color:#4f46e5;background:#f0edff}}
+        .share-btn svg{{display:block}}
+        .share-copy-row{{display:flex;gap:8px;align-items:center}}
+        .share-copy-input{{flex:1;padding:9px 12px;border:2px solid #e5e7eb;border-radius:8px;font-family:inherit;font-size:.82em;color:#6b7280;background:#f9fafb;outline:none;cursor:default}}
+        .share-copy-btn{{padding:9px 14px;background:#4f46e5;color:white;border:none;border-radius:8px;font-family:inherit;font-size:.82em;font-weight:700;cursor:pointer;transition:background .15s;white-space:nowrap}}
+        .share-copy-btn:hover{{background:#4338ca}}
+        .share-copy-btn.copied{{background:#10b981}}
+        @media(max-width:480px){{
+            #share-modal{{width:100%;border-radius:20px 20px 16px 16px}}
+            #share-modal-overlay{{padding:16px;align-items:flex-end;justify-content:center}}
+        }}
         @media(max-width:640px){{
             header h1{{font-size:1.65em}}
             .meeting-card{{padding:18px}}
@@ -322,6 +367,52 @@ class GitHubPagesPublisher:
 
     <button id="back-to-top" onclick="window.scrollTo({{top:0,behavior:'smooth'}})" title="Back to top">↑</button>
 
+    <!-- Share FAB -->
+    <button id="share-fab" onclick="openShareModal('Austin City Council','Latest Meeting','https://austincouncil.app')" title="Share austincouncil.app" aria-label="Share this site">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    </button>
+
+    <!-- Share Modal -->
+    <div id="share-modal-overlay" role="dialog" aria-modal="true" aria-label="Share" onclick="handleOverlayClick(event)">
+        <div id="share-modal">
+            <button class="share-modal-close" onclick="closeShareModal()" aria-label="Close">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <div class="share-modal-brand">
+                <div class="share-modal-brand-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                </div>
+                <div class="share-modal-brand-text">
+                    Austin Council Monitor
+                    <span>austincouncil.app</span>
+                </div>
+            </div>
+            <div class="share-preview" id="share-preview">
+                <div class="share-preview-date" id="share-preview-type"></div>
+                <div class="share-preview-title" id="share-preview-title"></div>
+                <div class="share-preview-source">&#127963;&#65039; austincouncil.app</div>
+            </div>
+            <div class="share-buttons" id="share-buttons-row">
+                <button class="share-btn twitter" onclick="shareToTwitter()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zM17.083 19.77h1.833L7.084 4.126H5.117z"/></svg>
+                    Post on X
+                </button>
+                <button class="share-btn linkedin" onclick="shareToLinkedIn()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    LinkedIn
+                </button>
+                <button class="share-btn native" id="native-share-btn" onclick="nativeShare()" style="display:none">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+                    More&#8230;
+                </button>
+            </div>
+            <div class="share-copy-row">
+                <input type="text" class="share-copy-input" id="share-copy-url" readonly>
+                <button class="share-copy-btn" id="share-copy-btn" onclick="copyShareLink()">Copy link</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         let activeFilter = 'all';
         function filterMeetings(type) {{
@@ -380,6 +471,55 @@ class GitHubPagesPublisher:
         document.getElementById('sub-email').addEventListener('keydown', e => {{
             if (e.key === 'Enter') subscribe();
         }});
+
+        /* ── Share Feature ── */
+        let _shareUrl = 'https://austincouncil.app';
+        let _shareText = '';
+
+        function openShareModal(date, type, url) {{
+            _shareUrl = url || 'https://austincouncil.app';
+            _shareText = `Austin City Council ${{type}} \u2014 ${{date}} | AI-powered summary via austincouncil.app`;
+            document.getElementById('share-preview-type').textContent = type;
+            document.getElementById('share-preview-title').textContent = `${{date}} Meeting`;
+            document.getElementById('share-copy-url').value = _shareUrl;
+            document.getElementById('share-copy-btn').textContent = 'Copy link';
+            document.getElementById('share-copy-btn').className = 'share-copy-btn';
+            document.getElementById('native-share-btn').style.display = navigator.share ? 'flex' : 'none';
+            document.getElementById('share-modal-overlay').classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }}
+        function closeShareModal() {{
+            document.getElementById('share-modal-overlay').classList.remove('open');
+            document.body.style.overflow = '';
+        }}
+        function handleOverlayClick(e) {{
+            if (e.target === document.getElementById('share-modal-overlay')) closeShareModal();
+        }}
+        document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeShareModal(); }});
+        function shareToTwitter() {{
+            const encoded = encodeURIComponent(_shareText + ' ' + _shareUrl);
+            window.open(`https://x.com/intent/tweet?text=${{encoded}}`, '_blank', 'noopener');
+        }}
+        function shareToLinkedIn() {{
+            const u = encodeURIComponent(_shareUrl);
+            window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${{u}}`, '_blank', 'noopener');
+        }}
+        async function nativeShare() {{
+            try {{
+                await navigator.share({{ title: 'Austin Council Monitor', text: _shareText, url: _shareUrl }});
+            }} catch(e) {{ /* user cancelled */ }}
+        }}
+        function copyShareLink() {{
+            navigator.clipboard.writeText(_shareUrl).then(() => {{
+                const btn = document.getElementById('share-copy-btn');
+                btn.textContent = '\u2713 Copied!';
+                btn.className = 'share-copy-btn copied';
+                setTimeout(() => {{ btn.textContent = 'Copy link'; btn.className = 'share-copy-btn'; }}, 2200);
+            }}).catch(() => {{
+                document.getElementById('share-copy-url').select();
+                document.execCommand('copy');
+            }});
+        }}
     </script>
 </body>
 </html>'''
