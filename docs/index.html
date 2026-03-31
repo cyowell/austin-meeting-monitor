@@ -65,6 +65,8 @@
         .meeting-link-secondary{background:#f3f4f6;color:#4b5563;border:2px solid #e5e7eb}
         .meeting-link-secondary:hover{background:#e5e7eb;color:#1a1a2e}
         .meeting-links-spacer{flex:1}
+        .btn-share-card{display:inline-flex;align-items:center;gap:6px;padding:10px 17px;border-radius:8px;font-weight:600;font-size:.86em;text-decoration:none;transition:all .15s;background:#f0edff;color:#4f46e5;border:2px solid #ddd9ff;cursor:pointer;font-family:inherit}
+        .btn-share-card:hover{background:#e0daff;border-color:#4f46e5;transform:translateY(-1px)}
         .no-results,.no-meetings{text-align:center;padding:60px 20px;color:#6b7280}
         .no-results{display:none}
         .no-results h2,.no-meetings h2{font-size:1.4em;margin-bottom:8px;color:#374151}
@@ -75,14 +77,9 @@
         #back-to-top{position:fixed;bottom:80px;right:26px;background:#4f46e5;color:white;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:19px;box-shadow:0 4px 16px rgba(79,70,229,.4);display:flex;align-items:center;justify-content:center;opacity:0;transform:translateY(10px);transition:opacity .25s,transform .25s;pointer-events:none}
         #back-to-top.visible{opacity:1;transform:translateY(0);pointer-events:all}
         #back-to-top:hover{background:#4338ca}
-        /* Share FAB */
         #share-fab{position:fixed;bottom:26px;right:26px;background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;border:none;border-radius:50%;width:48px;height:48px;cursor:pointer;box-shadow:0 4px 18px rgba(79,70,229,.5);display:flex;align-items:center;justify-content:center;transition:transform .2s,box-shadow .2s;z-index:900}
         #share-fab:hover{transform:scale(1.1);box-shadow:0 6px 24px rgba(79,70,229,.65)}
         #share-fab svg{pointer-events:none}
-        /* Share button on cards */
-        .btn-share-card{display:inline-flex;align-items:center;gap:6px;padding:10px 17px;border-radius:8px;font-weight:600;font-size:.86em;text-decoration:none;transition:all .15s;background:#f0edff;color:#4f46e5;border:2px solid #ddd9ff;cursor:pointer;font-family:inherit}
-        .btn-share-card:hover{background:#e0daff;border-color:#4f46e5;transform:translateY(-1px)}
-        /* Share modal overlay */
         #share-modal-overlay{position:fixed;inset:0;background:rgba(15,10,40,.55);backdrop-filter:blur(6px);z-index:1000;display:flex;align-items:flex-end;justify-content:flex-end;padding:26px;opacity:0;pointer-events:none;transition:opacity .2s}
         #share-modal-overlay.open{opacity:1;pointer-events:all}
         #share-modal{background:white;border-radius:20px;padding:28px;width:340px;max-width:calc(100vw - 48px);box-shadow:0 20px 60px rgba(79,70,229,.25),0 4px 16px rgba(0,0,0,.1);transform:translateY(16px) scale(.97);transition:transform .22s cubic-bezier(.34,1.4,.64,1),opacity .2s;opacity:0;position:relative}
@@ -339,7 +336,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: March 27, 2026 at 06:14 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: March 31, 2026 at 01:53 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
@@ -367,7 +364,7 @@
             <div class="share-preview" id="share-preview">
                 <div class="share-preview-date" id="share-preview-type"></div>
                 <div class="share-preview-title" id="share-preview-title"></div>
-                <div class="share-preview-source">🏛️ austincouncil.app</div>
+                <div class="share-preview-source">&#127963;&#65039; austincouncil.app</div>
             </div>
             <div class="share-buttons" id="share-buttons-row">
                 <button class="share-btn twitter" onclick="shareToTwitter()">
@@ -380,7 +377,7 @@
                 </button>
                 <button class="share-btn native" id="native-share-btn" onclick="nativeShare()" style="display:none">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
-                    More…
+                    More&#8230;
                 </button>
             </div>
             <div class="share-copy-row">
@@ -461,7 +458,6 @@
             document.getElementById('share-copy-url').value = _shareUrl;
             document.getElementById('share-copy-btn').textContent = 'Copy link';
             document.getElementById('share-copy-btn').className = 'share-copy-btn';
-            // Show native share button only if API is available
             document.getElementById('native-share-btn').style.display = navigator.share ? 'flex' : 'none';
             document.getElementById('share-modal-overlay').classList.add('open');
             document.body.style.overflow = 'hidden';
