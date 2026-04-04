@@ -142,7 +142,7 @@
     <div class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">7</div>
+                <div class="stat-number">8</div>
                 <div class="stat-label">Total Meetings</div>
             </div>
             <div class="stat">
@@ -161,10 +161,10 @@
                 <input type="text" id="search-input" placeholder="Search by keyword — housing, budget, zoning..." oninput="applyFilters()">
             </div>
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">7</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">8</span></button>
 <button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">3</span></button>
+<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">3</span></button>
 <button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">2</span></button>
-<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">2</span></button>
 
             </div>
         </div>
@@ -194,6 +194,31 @@
                     <a href="https://services.austintexas.gov/edims/document.cfm?id=470064" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
                     <span class="meeting-links-spacer"></span>
                     <button class="btn-share-card" onclick="openShareModal('April 09, 2026','Regular Meeting','https://www.austintexas.gov/council/2026/20260409-reg')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
+                </div>
+            </div>
+            <div class="meeting-card" data-type="austin-housing-finance-corporation">
+                <div class="meeting-header">
+                    <div>
+                        <div class="meeting-date">April 09, 2026</div>
+                        <div class="meeting-day">Thursday</div>
+                    </div>
+                    <div class="meeting-type">Austin Housing Finance Corporation</div>
+                </div>
+                <div class="meeting-summary">
+                    <h3>Meeting Highlights</h3>
+                    <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
+<ul>
+<li>  The Austin Housing Finance Corporation plans to authorize <strong>over $35 million in new funding</strong> to boost affordable housing efforts in Austin.</li>
+<li>  <strong>Over $29 million will be dedicated to new affordable housing developments</strong>, including projects like Ada Anderson Place, Goodnight Ranch, South First Affordable Apartments, and Verbena Flats, creating both homeownership and rental opportunities.</li>
+<li>  The Corporation will vote on <strong>transferring city-owned land</strong> on Tannehill Lane to a non-profit developer to build approximately 32 new affordable ownership units.</li>
+<li>  An additional <strong>$6 million is proposed for the Local Housing Voucher Program</strong>, significantly expanding direct housing assistance for qualifying Austin residents and families.</li>
+</ul></div>
+                </div>
+                <div class="meeting-links">
+                    <a href="https://www.austintexas.gov/council/2026/20260409-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
+                    <a href="https://services.austintexas.gov/edims/document.cfm?id=470519" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
+                    <span class="meeting-links-spacer"></span>
+                    <button class="btn-share-card" onclick="openShareModal('April 09, 2026','Austin Housing Finance Corporation','https://www.austintexas.gov/council/2026/20260409-ahfc')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
                 </div>
             </div>
             <div class="meeting-card" data-type="work-session">
@@ -360,7 +385,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: April 03, 2026 at 02:38 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: April 04, 2026 at 01:45 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
