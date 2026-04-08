@@ -109,6 +109,20 @@ class AustinCouncilMonitor:
         if cursor.rowcount:
             logging.info(f"  ✓ Auto-marked {cursor.rowcount} past meeting(s) as completed")
 
+        # Clear any error-string summaries stored by previous versions of this script.
+        # These will be NULL so the next run retries, and the publisher falls back
+        # to the original agenda summary in the meantime.
+        cursor.execute("""
+            UPDATE meetings SET
+                post_meeting_summary = NULL,
+                completed_processed_at = NULL
+            WHERE post_meeting_summary LIKE '%could not be generated%'
+               OR post_meeting_summary LIKE '%not available%'
+               OR post_meeting_summary LIKE '%not yet available%'
+        """)
+        if cursor.rowcount:
+            logging.info(f"  ✓ Cleared {cursor.rowcount} bad error-string summary/summaries — will retry")
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS subscribers (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -501,13 +515,16 @@ Agenda text:
         """
         Generate a civic journalist-style summary of what the council
         ACTUALLY DID at this meeting, using the transcript and actions.
-        Falls back to a note if Gemini is unavailable.
+        Returns None if Gemini is unavailable or fails (publisher will
+        fall back to the original agenda summary).
         """
         if not self.gemini_model:
-            return "Post-meeting summary not available (Gemini API not configured)."
+            logging.warning("  ⚠️  Gemini not configured — skipping post-meeting summary")
+            return None
 
         if not transcript_text and not actions_text:
-            return "Post-meeting summary not yet available. Check the city website for details."
+            logging.warning("  ⚠️  No transcript or actions text available — skipping post-meeting summary")
+            return None
 
         sections = []
         if actions_text:
@@ -542,7 +559,7 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
 
         except Exception as e:
             logging.error(f"  ✗ Gemini post-meeting summarization error: {e}")
-            return "Post-meeting summary could not be generated. See the city website for actions taken."
+            return None
 
     def process_completed_meetings(self):
         """
@@ -645,7 +662,9 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                 meeting_data_dict, transcript_text, actions_text
             )
 
-            # Save everything to DB
+            # Save everything to DB.
+            # Only store post_meeting_summary if Gemini produced real content
+            # (None means failed/unavailable — publisher falls back to agenda summary).
             conn = sqlite3.connect(self.db_path)
             cursor = conn.cursor()
             cursor.execute('''
@@ -653,14 +672,15 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                     transcript_url = ?,
                     actions_url = ?,
                     video_url = ?,
-                    post_meeting_summary = ?,
+                    post_meeting_summary = CASE WHEN ? IS NOT NULL THEN ? ELSE post_meeting_summary END,
                     completed_processed_at = ?
                 WHERE meeting_id = ?
             ''', (
                 post_data['transcript_url'],
                 post_data['actions_url'],
                 post_data['video_url'],
-                post_summary,
+                post_summary,  # used in CASE check
+                post_summary,  # used as new value
                 datetime.now().isoformat(),
                 meeting_id
             ))
