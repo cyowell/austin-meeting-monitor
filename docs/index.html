@@ -65,6 +65,8 @@
         .meeting-link-secondary{background:#f3f4f6;color:#4b5563;border:2px solid #e5e7eb}
         .meeting-link-secondary:hover{background:#e5e7eb;color:#1a1a2e}
         .meeting-links-spacer{flex:1}
+        .btn-share-card{display:inline-flex;align-items:center;gap:6px;padding:10px 17px;border-radius:8px;font-weight:600;font-size:.86em;text-decoration:none;transition:all .15s;background:#f0edff;color:#4f46e5;border:2px solid #ddd9ff;cursor:pointer;font-family:inherit}
+        .btn-share-card:hover{background:#e0daff;border-color:#4f46e5;transform:translateY(-1px)}
         .no-results,.no-meetings{text-align:center;padding:60px 20px;color:#6b7280}
         .no-results{display:none}
         .no-results h2,.no-meetings h2{font-size:1.4em;margin-bottom:8px;color:#374151}
@@ -75,14 +77,9 @@
         #back-to-top{position:fixed;bottom:80px;right:26px;background:#4f46e5;color:white;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:19px;box-shadow:0 4px 16px rgba(79,70,229,.4);display:flex;align-items:center;justify-content:center;opacity:0;transform:translateY(10px);transition:opacity .25s,transform .25s;pointer-events:none}
         #back-to-top.visible{opacity:1;transform:translateY(0);pointer-events:all}
         #back-to-top:hover{background:#4338ca}
-        /* Share FAB */
         #share-fab{position:fixed;bottom:26px;right:26px;background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;border:none;border-radius:50%;width:48px;height:48px;cursor:pointer;box-shadow:0 4px 18px rgba(79,70,229,.5);display:flex;align-items:center;justify-content:center;transition:transform .2s,box-shadow .2s;z-index:900}
         #share-fab:hover{transform:scale(1.1);box-shadow:0 6px 24px rgba(79,70,229,.65)}
         #share-fab svg{pointer-events:none}
-        /* Share button on cards */
-        .btn-share-card{display:inline-flex;align-items:center;gap:6px;padding:10px 17px;border-radius:8px;font-weight:600;font-size:.86em;text-decoration:none;transition:all .15s;background:#f0edff;color:#4f46e5;border:2px solid #ddd9ff;cursor:pointer;font-family:inherit}
-        .btn-share-card:hover{background:#e0daff;border-color:#4f46e5;transform:translateY(-1px)}
-        /* Share modal overlay */
         #share-modal-overlay{position:fixed;inset:0;background:rgba(15,10,40,.55);backdrop-filter:blur(6px);z-index:1000;display:flex;align-items:flex-end;justify-content:flex-end;padding:26px;opacity:0;pointer-events:none;transition:opacity .2s}
         #share-modal-overlay.open{opacity:1;pointer-events:all}
         #share-modal{background:white;border-radius:20px;padding:28px;width:340px;max-width:calc(100vw - 48px);box-shadow:0 20px 60px rgba(79,70,229,.25),0 4px 16px rgba(0,0,0,.1);transform:translateY(16px) scale(.97);transition:transform .22s cubic-bezier(.34,1.4,.64,1),opacity .2s;opacity:0;position:relative}
@@ -145,7 +142,7 @@
     <div class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">6</div>
+                <div class="stat-number">8</div>
                 <div class="stat-label">Total Meetings</div>
             </div>
             <div class="stat">
@@ -164,10 +161,10 @@
                 <input type="text" id="search-input" placeholder="Search by keyword — housing, budget, zoning..." oninput="applyFilters()">
             </div>
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">6</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">8</span></button>
 <button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">3</span></button>
-<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">2</span></button>
-<button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">1</span></button>
+<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">3</span></button>
+<button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">2</span></button>
 
             </div>
         </div>
@@ -197,6 +194,55 @@
                     <a href="https://services.austintexas.gov/edims/document.cfm?id=470064" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
                     <span class="meeting-links-spacer"></span>
                     <button class="btn-share-card" onclick="openShareModal('April 09, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
+                </div>
+            </div>
+            <div class="meeting-card" data-type="austin-housing-finance-corporation">
+                <div class="meeting-header">
+                    <div>
+                        <div class="meeting-date">April 09, 2026</div>
+                        <div class="meeting-day">Thursday</div>
+                    </div>
+                    <div class="meeting-type">Austin Housing Finance Corporation</div>
+                </div>
+                <div class="meeting-summary">
+                    <h3>Meeting Highlights</h3>
+                    <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
+<ul>
+<li>  The Austin Housing Finance Corporation plans to authorize <strong>over $35 million in new funding</strong> to boost affordable housing efforts in Austin.</li>
+<li>  <strong>Over $29 million will be dedicated to new affordable housing developments</strong>, including projects like Ada Anderson Place, Goodnight Ranch, South First Affordable Apartments, and Verbena Flats, creating both homeownership and rental opportunities.</li>
+<li>  The Corporation will vote on <strong>transferring city-owned land</strong> on Tannehill Lane to a non-profit developer to build approximately 32 new affordable ownership units.</li>
+<li>  An additional <strong>$6 million is proposed for the Local Housing Voucher Program</strong>, significantly expanding direct housing assistance for qualifying Austin residents and families.</li>
+</ul></div>
+                </div>
+                <div class="meeting-links">
+                    <a href="https://www.austintexas.gov/council/2026/20260409-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
+                    <a href="https://services.austintexas.gov/edims/document.cfm?id=470519" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
+                    <span class="meeting-links-spacer"></span>
+                    <button class="btn-share-card" onclick="openShareModal('April 09, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
+                </div>
+            </div>
+            <div class="meeting-card" data-type="work-session">
+                <div class="meeting-header">
+                    <div>
+                        <div class="meeting-date">April 07, 2026</div>
+                        <div class="meeting-day">Tuesday</div>
+                    </div>
+                    <div class="meeting-type">Work Session</div>
+                </div>
+                <div class="meeting-summary">
+                    <h3>Meeting Highlights</h3>
+                    <div class="summary-content"><p>Here's a summary of the Austin City Council Work Session agenda:</p>
+<ul>
+<li>  <strong>Key Briefing on Police Use of Force:</strong> The Council's primary focus will be an update from the Austin Police Use of Force Task Force, presented by an expert from The Ohio State University. This briefing is expected to cover ongoing efforts and potential recommendations regarding police conduct.</li>
+<li>  <strong>Work Session for Discussion:</strong> This meeting is a work session, meaning the Council will primarily discuss and receive information on various city issues and briefings, rather than making immediate votes on new policies.</li>
+<li>  <strong>General Council Discussions:</strong> Council members will also have time to discuss pre-selected agenda items and other topics of interest to the city.</li>
+</ul></div>
+                </div>
+                <div class="meeting-links">
+                    <a href="https://www.austintexas.gov/council/2026/20260407-wrk" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
+                    <a href="https://services.austintexas.gov/edims/document.cfm?id=470371" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
+                    <span class="meeting-links-spacer"></span>
+                    <button class="btn-share-card" onclick="openShareModal('April 07, 2026','Work Session','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
                 </div>
             </div>
             <div class="meeting-card" data-type="regular-meeting">
@@ -339,7 +385,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: March 27, 2026 at 06:14 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: April 08, 2026 at 03:05 PM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
@@ -367,7 +413,7 @@
             <div class="share-preview" id="share-preview">
                 <div class="share-preview-date" id="share-preview-type"></div>
                 <div class="share-preview-title" id="share-preview-title"></div>
-                <div class="share-preview-source">🏛️ austincouncil.app</div>
+                <div class="share-preview-source">&#127963;&#65039; austincouncil.app</div>
             </div>
             <div class="share-buttons" id="share-buttons-row">
                 <button class="share-btn twitter" onclick="shareToTwitter()">
@@ -380,7 +426,7 @@
                 </button>
                 <button class="share-btn native" id="native-share-btn" onclick="nativeShare()" style="display:none">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
-                    More…
+                    More&#8230;
                 </button>
             </div>
             <div class="share-copy-row">
@@ -461,7 +507,6 @@
             document.getElementById('share-copy-url').value = _shareUrl;
             document.getElementById('share-copy-btn').textContent = 'Copy link';
             document.getElementById('share-copy-btn').className = 'share-copy-btn';
-            // Show native share button only if API is available
             document.getElementById('native-share-btn').style.display = navigator.share ? 'flex' : 'none';
             document.getElementById('share-modal-overlay').classList.add('open');
             document.body.style.overflow = 'hidden';
