@@ -11,6 +11,8 @@
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
         body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.6;color:#1a1a2e;background:#f0f2f8;min-height:100vh}
+
+        /* ── Header ── */
         header{background:linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);color:white;padding:48px 24px 40px;text-align:center;position:relative;overflow:hidden}
         header::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff' fill-opacity='0.04'%3E%3Cpath d='M20 20h20v20H20zM0 0h20v20H0z'/%3E%3C/g%3E%3C/svg%3E")}
         header h1{font-size:2.3em;font-weight:700;letter-spacing:-.5px;margin-bottom:8px;position:relative}
@@ -28,12 +30,18 @@
         .subscribe-msg.error{color:#fca5a5}
         .btn-rss{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:rgba(255,255,255,.15);color:white;text-decoration:none;border-radius:8px;font-size:.82em;font-weight:600;border:1px solid rgba(255,255,255,.25);transition:background .15s;margin-top:10px}
         .btn-rss:hover{background:rgba(255,255,255,.25)}
-        .container{max-width:860px;margin:0 auto;padding:28px 16px 80px}
+
+        /* ── Layout ── */
+        .container{max-width:900px;margin:0 auto;padding:28px 16px 80px}
+
+        /* ── Stats ── */
         .stats{display:flex;justify-content:space-around;background:white;border-radius:12px;padding:22px;margin-bottom:20px;box-shadow:0 2px 12px rgba(79,70,229,.08)}
         .stat{text-align:center}
         .stat-number{font-size:2em;font-weight:700;color:#4f46e5;line-height:1}
         .stat-label{color:#6b7280;font-size:.75em;text-transform:uppercase;letter-spacing:.08em;margin-top:4px}
-        .controls{background:white;border-radius:12px;padding:18px 22px;margin-bottom:20px;box-shadow:0 2px 12px rgba(79,70,229,.08)}
+
+        /* ── Controls ── */
+        .controls{background:white;border-radius:12px;padding:18px 22px;margin-bottom:28px;box-shadow:0 2px 12px rgba(79,70,229,.08)}
         .search-wrap{position:relative;margin-bottom:14px}
         .search-wrap svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:#9ca3af;pointer-events:none}
         #search-input{width:100%;padding:11px 13px 11px 40px;border:2px solid #e5e7eb;border-radius:8px;font-family:inherit;font-size:.93em;color:#1a1a2e;outline:none;transition:border-color .2s}
@@ -45,35 +53,77 @@
         .filter-btn.active{border-color:#4f46e5;background:#4f46e5;color:white}
         .filter-btn .badge{background:rgba(255,255,255,.25);border-radius:10px;padding:1px 6px;font-size:.85em}
         .filter-btn:not(.active) .badge{background:#f3f4f6;color:#4b5563}
+
+        /* ── Section Headers ── */
+        .section-header{display:flex;align-items:center;gap:12px;margin:32px 0 16px}
+        .section-header h2{font-size:1.25em;font-weight:700;color:#1a1a2e}
+        .section-count{background:#f3f4f6;color:#6b7280;border-radius:20px;padding:3px 11px;font-size:.78em;font-weight:700}
+        .section-divider{flex:1;height:2px;background:#e5e7eb;border-radius:1px}
+        .section-header--upcoming h2{color:#4f46e5}
+        .section-header--upcoming .section-count{background:#ede9fe;color:#6d28d9}
+        .section-header--recent h2{color:#059669}
+        .section-header--recent .section-count{background:#d1fae5;color:#065f46}
+
+        /* ── Meeting Cards ── */
         .meeting-card{background:white;border-radius:14px;padding:26px 30px;margin-bottom:18px;box-shadow:0 2px 12px rgba(79,70,229,.08);border:2px solid transparent;transition:transform .2s,box-shadow .2s,border-color .2s}
-        .meeting-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(79,70,229,.14);border-color:#4f46e5}
+        .meeting-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(79,70,229,.14)}
         .meeting-card.hidden{display:none}
+        .meeting-card--upcoming{border-left:4px solid #818cf8}
+        .meeting-card--upcoming:hover{border-color:#4f46e5;border-left-color:#4f46e5}
+        .meeting-card--recent{border-left:4px solid #34d399}
+        .meeting-card--recent:hover{border-color:#059669;border-left-color:#059669}
+
+        /* ── Card Internals ── */
         .meeting-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:18px}
         .meeting-date{font-size:1.6em;font-weight:700;color:#4f46e5;line-height:1.1}
+        .meeting-card--recent .meeting-date{color:#059669}
         .meeting-day{color:#9ca3af;font-size:.84em;margin-top:4px}
         .meeting-type{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;padding:7px 15px;border-radius:20px;font-size:.8em;font-weight:600;white-space:nowrap}
+        .meeting-card--recent .meeting-type{background:linear-gradient(135deg,#059669,#047857)}
+
+        /* ── Status Badges ── */
+        .status-badge{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:20px;font-size:.75em;font-weight:700}
+        .status-badge--upcoming{background:#ede9fe;color:#6d28d9}
+        .status-badge--completed{background:#d1fae5;color:#065f46}
+
+        /* ── Summary ── */
         .meeting-summary h3{font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#9ca3af;margin-bottom:10px}
         .summary-content{color:#374151;line-height:1.8}
         .summary-content ul{padding-left:20px}
         .summary-content li{margin-bottom:7px}
         .summary-content p{margin-bottom:8px}
         .summary-content strong{color:#1a1a2e}
-        .meeting-links{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap;align-items:center}
-        .meeting-link{display:inline-flex;align-items:center;gap:6px;padding:10px 17px;border-radius:8px;font-weight:600;font-size:.86em;text-decoration:none;transition:all .15s}
+
+        /* ── Meeting Links ── */
+        .meeting-links{display:flex;gap:8px;margin-top:22px;flex-wrap:wrap;align-items:center}
+        .meeting-link{display:inline-flex;align-items:center;gap:6px;padding:9px 15px;border-radius:8px;font-weight:600;font-size:.84em;text-decoration:none;transition:all .15s}
         .meeting-link-primary{background:#4f46e5;color:white}
         .meeting-link-primary:hover{background:#4338ca;transform:translateY(-1px);box-shadow:0 4px 12px rgba(79,70,229,.35)}
         .meeting-link-secondary{background:#f3f4f6;color:#4b5563;border:2px solid #e5e7eb}
         .meeting-link-secondary:hover{background:#e5e7eb;color:#1a1a2e}
+        .meeting-link-video{background:#dc2626;color:white}
+        .meeting-link-video:hover{background:#b91c1c;transform:translateY(-1px);box-shadow:0 4px 12px rgba(220,38,38,.35)}
+        .meeting-link-actions{background:#059669;color:white}
+        .meeting-link-actions:hover{background:#047857;transform:translateY(-1px);box-shadow:0 4px 12px rgba(5,150,105,.35)}
+        .meeting-link-transcript{background:#0891b2;color:white}
+        .meeting-link-transcript:hover{background:#0e7490;transform:translateY(-1px);box-shadow:0 4px 12px rgba(8,145,178,.35)}
         .meeting-links-spacer{flex:1}
-        .btn-share-card{display:inline-flex;align-items:center;gap:6px;padding:10px 17px;border-radius:8px;font-weight:600;font-size:.86em;text-decoration:none;transition:all .15s;background:#f0edff;color:#4f46e5;border:2px solid #ddd9ff;cursor:pointer;font-family:inherit}
+        .btn-share-card{display:inline-flex;align-items:center;gap:6px;padding:9px 15px;border-radius:8px;font-weight:600;font-size:.84em;text-decoration:none;transition:all .15s;background:#f0edff;color:#4f46e5;border:2px solid #ddd9ff;cursor:pointer;font-family:inherit}
         .btn-share-card:hover{background:#e0daff;border-color:#4f46e5;transform:translateY(-1px)}
+
+        /* ── Empty States ── */
         .no-results,.no-meetings{text-align:center;padding:60px 20px;color:#6b7280}
         .no-results{display:none}
         .no-results h2,.no-meetings h2{font-size:1.4em;margin-bottom:8px;color:#374151}
+        .no-meetings-section{text-align:center;padding:32px 20px;color:#9ca3af;font-size:.9em;background:white;border-radius:12px;border:2px dashed #e5e7eb}
+
+        /* ── Footer ── */
         footer{background:white;padding:26px 30px;text-align:center;color:#6b7280;font-size:.86em;border-top:2px solid #f0f2f8}
         footer p{margin:5px 0}
         footer a{color:#4f46e5;text-decoration:none}
         footer a:hover{text-decoration:underline}
+
+        /* ── FAB & Share ── */
         #back-to-top{position:fixed;bottom:80px;right:26px;background:#4f46e5;color:white;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:19px;box-shadow:0 4px 16px rgba(79,70,229,.4);display:flex;align-items:center;justify-content:center;opacity:0;transform:translateY(10px);transition:opacity .25s,transform .25s;pointer-events:none}
         #back-to-top.visible{opacity:1;transform:translateY(0);pointer-events:all}
         #back-to-top:hover{background:#4338ca}
@@ -106,6 +156,8 @@
         .share-copy-btn{padding:9px 14px;background:#4f46e5;color:white;border:none;border-radius:8px;font-family:inherit;font-size:.82em;font-weight:700;cursor:pointer;transition:background .15s;white-space:nowrap}
         .share-copy-btn:hover{background:#4338ca}
         .share-copy-btn.copied{background:#10b981}
+
+        /* ── Responsive ── */
         @media(max-width:480px){
             #share-modal{width:100%;border-radius:20px 20px 16px 16px}
             #share-modal-overlay{padding:16px;align-items:flex-end;justify-content:center}
@@ -115,6 +167,8 @@
             .meeting-card{padding:18px}
             .meeting-date{font-size:1.25em}
             .stats{flex-direction:column;gap:16px}
+            .meeting-links{gap:6px}
+            .meeting-link{font-size:.8em;padding:8px 12px}
         }
     </style>
 </head>
@@ -142,16 +196,16 @@
     <div class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">8</div>
-                <div class="stat-label">Total Meetings</div>
+                <div class="stat-number">2</div>
+                <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
-                <div class="stat-number">Apr 09, 2026</div>
-                <div class="stat-label">Latest Meeting</div>
+                <div class="stat-number">6</div>
+                <div class="stat-label">Completed</div>
             </div>
             <div class="stat">
-                <div class="stat-number">3</div>
-                <div class="stat-label">Meeting Types</div>
+                <div class="stat-number">Apr 07, 2026</div>
+                <div class="stat-label">Last Meeting</div>
             </div>
         </div>
 
@@ -169,18 +223,31 @@
             </div>
         </div>
 
-        <div id="meetings-list">
+        <!-- Upcoming Meetings -->
+        <div class="section-header section-header--upcoming">
+            <h2>📅 Upcoming Meetings</h2>
+            <span class="section-count">2</span>
+            <div class="section-divider"></div>
+        </div>
+        <div id="upcoming-list">
             
-            <div class="meeting-card" data-type="regular-meeting">
-                <div class="meeting-header">
-                    <div>
-                        <div class="meeting-date">April 09, 2026</div>
-                        <div class="meeting-day">Thursday</div>
-                    </div>
-                    <div class="meeting-type">Regular Meeting</div>
+        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">April 09, 2026</div>
+                    <div class="meeting-day">Thursday</div>
                 </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--upcoming">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        Upcoming
+                    </div>
+                </div>
+            </div>
+            
                 <div class="meeting-summary">
-                    <h3>Meeting Highlights</h3>
+                    <h3>Agenda Preview</h3>
                     <div class="summary-content"><p>Here are the key items from the Austin City Council agenda, summarized in 4 bullet points:</p>
 <ul>
 <li>  <strong>Utility Rate Suspensions:</strong> Council will vote on suspending proposed interim rate increases from Atmos Energy and Texas Gas Service, which could impact gas utility customer bills.</li>
@@ -189,23 +256,36 @@
 <li>  <strong>Zoning Changes for Development:</strong> Council will conduct public hearings and consider action on several zoning requests across the city, many proposing to convert single-family or commercial areas to mixed-use or higher-density residential. One contentious item involves a request for commercial-liquor sales zoning with public opposition.</li>
 </ul></div>
                 </div>
-                <div class="meeting-links">
-                    <a href="https://www.austintexas.gov/council/2026/20260409-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
-                    <a href="https://services.austintexas.gov/edims/document.cfm?id=470064" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
-                    <span class="meeting-links-spacer"></span>
-                    <button class="btn-share-card" onclick="openShareModal('April 09, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260409-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=470064" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Download Agenda</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('April 09, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
+        <div class="meeting-card meeting-card--upcoming" data-type="austin-housing-finance-corporation">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">April 09, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Austin Housing Finance Corporation</div>
+                    <div class="status-badge status-badge--upcoming">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        Upcoming
+                    </div>
                 </div>
             </div>
-            <div class="meeting-card" data-type="austin-housing-finance-corporation">
-                <div class="meeting-header">
-                    <div>
-                        <div class="meeting-date">April 09, 2026</div>
-                        <div class="meeting-day">Thursday</div>
-                    </div>
-                    <div class="meeting-type">Austin Housing Finance Corporation</div>
-                </div>
+            
                 <div class="meeting-summary">
-                    <h3>Meeting Highlights</h3>
+                    <h3>Agenda Preview</h3>
                     <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
 <ul>
 <li>  The Austin Housing Finance Corporation plans to authorize <strong>over $35 million in new funding</strong> to boost affordable housing efforts in Austin.</li>
@@ -214,161 +294,267 @@
 <li>  An additional <strong>$6 million is proposed for the Local Housing Voucher Program</strong>, significantly expanding direct housing assistance for qualifying Austin residents and families.</li>
 </ul></div>
                 </div>
-                <div class="meeting-links">
-                    <a href="https://www.austintexas.gov/council/2026/20260409-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
-                    <a href="https://services.austintexas.gov/edims/document.cfm?id=470519" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
-                    <span class="meeting-links-spacer"></span>
-                    <button class="btn-share-card" onclick="openShareModal('April 09, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
-                </div>
-            </div>
-            <div class="meeting-card" data-type="work-session">
-                <div class="meeting-header">
-                    <div>
-                        <div class="meeting-date">April 07, 2026</div>
-                        <div class="meeting-day">Tuesday</div>
-                    </div>
-                    <div class="meeting-type">Work Session</div>
-                </div>
-                <div class="meeting-summary">
-                    <h3>Meeting Highlights</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin City Council Work Session agenda:</p>
-<ul>
-<li>  <strong>Key Briefing on Police Use of Force:</strong> The Council's primary focus will be an update from the Austin Police Use of Force Task Force, presented by an expert from The Ohio State University. This briefing is expected to cover ongoing efforts and potential recommendations regarding police conduct.</li>
-<li>  <strong>Work Session for Discussion:</strong> This meeting is a work session, meaning the Council will primarily discuss and receive information on various city issues and briefings, rather than making immediate votes on new policies.</li>
-<li>  <strong>General Council Discussions:</strong> Council members will also have time to discuss pre-selected agenda items and other topics of interest to the city.</li>
-</ul></div>
-                </div>
-                <div class="meeting-links">
-                    <a href="https://www.austintexas.gov/council/2026/20260407-wrk" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
-                    <a href="https://services.austintexas.gov/edims/document.cfm?id=470371" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
-                    <span class="meeting-links-spacer"></span>
-                    <button class="btn-share-card" onclick="openShareModal('April 07, 2026','Work Session','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
-                </div>
-            </div>
-            <div class="meeting-card" data-type="regular-meeting">
-                <div class="meeting-header">
-                    <div>
-                        <div class="meeting-date">March 26, 2026</div>
-                        <div class="meeting-day">Thursday</div>
-                    </div>
-                    <div class="meeting-type">Regular Meeting</div>
-                </div>
-                <div class="meeting-summary">
-                    <h3>Meeting Highlights</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin City Council agenda in 3-5 bullet points, focusing on key items, public hearings, and policy decisions:</p>
-<ul>
-<li>  <strong>Major Housing and Development Reforms:</strong> Council will consider initiating significant changes to zoning laws to allow more diverse housing types ("missing middle housing") and mixed-use developments, along with exploring policies to reduce or unbundle parking requirements to boost affordability and transit use.</li>
-<li>  <strong>Strategic Planning for Homelessness and Transportation:</strong> The agenda includes adopting a new 2025-2027 Strategic Plan to address homelessness and holding a public hearing on updating the Austin Core Transportation Plan.</li>
-<li>  <strong>Public Hearings on Land Use and City Boundaries:</strong> The Council will hear public input on amending city billboard regulations, consider changing the use of parkland at Auditorium Shores for a water line, and address numerous small property disannexations from city limits under a new state law.</li>
-<li>  <strong>Support for Small Businesses:</strong> Proposals are on the table to expand economic opportunities for small businesses by updating regulations for home-based businesses and allowing Accessory Commercial Units.</li>
-</ul></div>
-                </div>
-                <div class="meeting-links">
-                    <a href="https://www.austintexas.gov/council/2026/20260326-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
-                    <a href="https://services.austintexas.gov/edims/document.cfm?id=469053" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
-                    <span class="meeting-links-spacer"></span>
-                    <button class="btn-share-card" onclick="openShareModal('March 26, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
-                </div>
-            </div>
-            <div class="meeting-card" data-type="austin-housing-finance-corporation">
-                <div class="meeting-header">
-                    <div>
-                        <div class="meeting-date">March 26, 2026</div>
-                        <div class="meeting-day">Thursday</div>
-                    </div>
-                    <div class="meeting-type">Austin Housing Finance Corporation</div>
-                </div>
-                <div class="meeting-summary">
-                    <h3>Meeting Highlights</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
-<ul>
-<li>  The Austin Housing Finance Corporation (AHFC) will hold a meeting focused on a single, significant funding decision.</li>
-<li>  Board members will consider approving a loan agreement of up to $3.5 million to National Church Residences for the Sunday Village development.</li>
-<li>  This funding aims to provide permanent debt for the housing project, located near 1026 Clayton Lane, supporting local housing initiatives.</li>
-</ul></div>
-                </div>
-                <div class="meeting-links">
-                    <a href="https://www.austintexas.gov/council/2026/20260326-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
-                    <a href="https://services.austintexas.gov/edims/document.cfm?id=469364" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
-                    <span class="meeting-links-spacer"></span>
-                    <button class="btn-share-card" onclick="openShareModal('March 26, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
-                </div>
-            </div>
-            <div class="meeting-card" data-type="work-session">
-                <div class="meeting-header">
-                    <div>
-                        <div class="meeting-date">March 24, 2026</div>
-                        <div class="meeting-day">Tuesday</div>
-                    </div>
-                    <div class="meeting-type">Work Session</div>
-                </div>
-                <div class="meeting-summary">
-                    <h3>Meeting Highlights</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin City Council agenda:</p>
-<ul>
-<li>  <strong>Major Housing Policy Overhaul:</strong> Council will consider initiating significant changes to city zoning rules to allow more diverse and smaller housing types (like townhomes and cottage courts, known as "missing middle housing") and developments that combine residential and commercial uses.</li>
-<li>  <strong>Homelessness Strategic Plan:</strong> Discussion of the new 2025-2027 Strategic Plan, which provides a framework for addressing homelessness in Austin.</li>
-<li>  <strong>Public Hearing on Sign Regulations:</strong> A public hearing will be held on proposed changes to allow larger electronic signs, including those with off-premises advertising, in public areas.</li>
-<li>  <strong>I-35 Cap and Stitch Project Update:</strong> Council will receive a briefing on the latest recommendations for the I-35 Cap and Stitch project.</li>
-</ul></div>
-                </div>
-                <div class="meeting-links">
-                    <a href="https://www.austintexas.gov/council/2026/20260324-wrk" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
-                    <a href="https://services.austintexas.gov/edims/document.cfm?id=469222" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
-                    <span class="meeting-links-spacer"></span>
-                    <button class="btn-share-card" onclick="openShareModal('March 24, 2026','Work Session','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
-                </div>
-            </div>
-            <div class="meeting-card" data-type="regular-meeting">
-                <div class="meeting-header">
-                    <div>
-                        <div class="meeting-date">March 12, 2026</div>
-                        <div class="meeting-day">Thursday</div>
-                    </div>
-                    <div class="meeting-type">Regular Meeting</div>
-                </div>
-                <div class="meeting-summary">
-                    <h3>Meeting Highlights</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin City Council agenda in 3-5 bullet points:</p>
-<ul>
-<li>  <strong>Potential Rezoning of City Golf Courses:</strong> Council will consider initiating a rezoning process for the Jimmy Clay and Roy Kizer Golf Courses, a significant step that could change their future land use.</li>
-<li>  <strong>Major Land Use Hearings & Disannexations:</strong> Public hearings are scheduled for numerous land use changes, including proposals for new mixed-use developments in various districts, and property disannexations under State Senate Bill 1844.</li>
-<li>  <strong>Substantial Water Infrastructure Investments:</strong> Council will consider approving significant funding for Austin Water, including increasing a low-interest federal loan to nearly $1 billion for the Walnut Creek Wastewater Treatment Plant expansion and authorizing $575 million in water and wastewater revenue bonds.</li>
-<li>  <strong>Policy and Economic Development Items:</strong> Agenda includes updates to lobbyist regulations, a financial agreement to support local creative business The Vortex, and amendments for a large affordable housing development at 800 E. St. John Avenue.</li>
-</ul></div>
-                </div>
-                <div class="meeting-links">
-                    <a href="https://www.austintexas.gov/council/2026/20260312-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
-                    <a href="https://services.austintexas.gov/edims/document.cfm?id=468347" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
-                    <span class="meeting-links-spacer"></span>
-                    <button class="btn-share-card" onclick="openShareModal('March 12, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
-                </div>
-            </div>
-            <div class="meeting-card" data-type="austin-housing-finance-corporation">
-                <div class="meeting-header">
-                    <div>
-                        <div class="meeting-date">March 12, 2026</div>
-                        <div class="meeting-day">Thursday</div>
-                    </div>
-                    <div class="meeting-type">Austin Housing Finance Corporation</div>
-                </div>
-                <div class="meeting-summary">
-                    <h3>Meeting Highlights</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
-<ul>
-<li>  <strong>Significant Housing Investment:</strong> The board will consider authorizing a loan of up to $5.5 million for "The Bloom at Lamar Square," a new multifamily rental development.</li>
-<li>  <strong>Support for New Housing:</strong> This funding aims to support the creation of additional rental housing units in Austin.</li>
-<li>  <strong>Routine Business:</strong> The board will also review and approve minutes from a previous meeting.</li>
-</ul></div>
-                </div>
-                <div class="meeting-links">
-                    <a href="https://www.austintexas.gov/council/2026/20260312-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Full Meeting Details</a>
-                    <a href="https://services.austintexas.gov/edims/document.cfm?id=468633" class="meeting-link meeting-link-primary" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Download Agenda</a>
-                    <span class="meeting-links-spacer"></span>
-                    <button class="btn-share-card" onclick="openShareModal('March 12, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
-                </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260409-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=470519" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Download Agenda</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('April 09, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
             </div>
         </div>
+        </div>
+
+        <!-- Recent Meetings -->
+        <div class="section-header section-header--recent">
+            <h2>✅ Recent Meetings</h2>
+            <span class="section-count">6</span>
+            <div class="section-divider"></div>
+        </div>
+        <div id="recent-list">
+            
+        <div class="meeting-card meeting-card--recent" data-type="work-session">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">April 07, 2026</div>
+                    <div class="meeting-day">Tuesday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Work Session</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Here's a summary of what the Austin City Council discussed at this work session:</p>
+<ul>
+<li>  <strong>Austin Police Overhaul Use of Force Policies:</strong> The Council received a detailed update on significant changes to the Austin Police Department's (APD) Use of Force policies, which took effect on January 1, 2026. These changes streamlined seven previous policies into two main documents and updated key definitions, shifting from "response to resistance" to "use of force."</li>
+<li>  <strong>Emphasis on De-escalation and Training:</strong> New policies explicitly require officers to use force that is "necessary and proportional" in addition to being "objectively reasonable." All APD officers completed mandatory training in evidence-based de-escalation techniques, including programs like ICAT (Integrating Communications Assessments and Tactics) and Able (Active Bystandership for Law Enforcement).</li>
+<li>  <strong>New System for Reporting Minor Incidents:</strong> APD removed the "Level Four" category, which previously counted many minor physical actions (like basic control holds) as "use of force." Many such actions are now classified as "Reportable Incidents" (e.g., displaying a taser's warning arc or actively targeting a firearm), requiring mandatory reporting and immediate supervisor review, but no longer inflating overall "use of force" statistics.</li>
+<li>  <strong>Improved Data Transparency and Analysis:</strong> APD corrected and re-released past use of force reports (2020-2022) and issued new reports (2023-2025) using an automated, subject-focused counting method for better analysis. This updated data is now available on the city's open data portal, and APD plans to provide quarterly updates to the Council.</li>
+<li>  <strong>No Racial Disparities Found in Force Use:</strong> New analysis presented to the Council, using multiple statistical methods, concluded that there are no significant racial or ethnic disparities in the likelihood of force being used against Black and Hispanic individuals compared to white individuals when other relevant factors are considered.</li>
+<li>  <strong>Downtown Area Highlighted for High Force Incidents:</strong> Data consistently showed the George Sector, which includes downtown and Sixth Street, has a disproportionately higher number of use of force incidents and arrests compared to other areas, a trend explained by high public activity and discussed by police leadership.</li>
+</ul></div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260407-wrk" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=470371" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="http://austintx.swagit.com/play/381314/0/" class="meeting-link meeting-link-video" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Watch Video</a><a href="https://services.austintexas.gov/edims/document.cfm?id=470918" class="meeting-link meeting-link-transcript" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                Transcript</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('April 07, 2026','Work Session','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
+        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">March 26, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Post-meeting summary could not be generated. See the city website for actions taken.</p></div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260326-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=469053" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="http://austintx.swagit.com/play/379400/0/" class="meeting-link meeting-link-video" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Watch Video</a><a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1456" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Actions Taken</a><a href="https://services.austintexas.gov/edims/document.cfm?id=470026" class="meeting-link meeting-link-transcript" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                Transcript</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('March 26, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
+        <div class="meeting-card meeting-card--recent" data-type="austin-housing-finance-corporation">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">March 26, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Austin Housing Finance Corporation</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Post-meeting summary could not be generated. See the city website for actions taken.</p></div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260326-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=469364" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="http://austintx.swagit.com/play/379401/0/" class="meeting-link meeting-link-video" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Watch Video</a><a href="https://services.austintexas.gov/edims/document.cfm?id=470027" class="meeting-link meeting-link-transcript" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                Transcript</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('March 26, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
+        <div class="meeting-card meeting-card--recent" data-type="work-session">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">March 24, 2026</div>
+                    <div class="meeting-day">Tuesday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Work Session</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Post-meeting summary could not be generated. See the city website for actions taken.</p></div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260324-wrk" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=469222" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="http://austintx.swagit.com/play/379016/0/" class="meeting-link meeting-link-video" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Watch Video</a><a href="https://services.austintexas.gov/edims/document.cfm?id=469787" class="meeting-link meeting-link-transcript" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                Transcript</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('March 24, 2026','Work Session','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
+        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">March 12, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Post-meeting summary could not be generated. See the city website for actions taken.</p></div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260312-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=468347" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="http://austintx.swagit.com/play/377958/0/" class="meeting-link meeting-link-video" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Watch Video</a><a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1451" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Actions Taken</a><a href="https://services.austintexas.gov/edims/document.cfm?id=469014" class="meeting-link meeting-link-transcript" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                Transcript</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('March 12, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
+        <div class="meeting-card meeting-card--recent" data-type="austin-housing-finance-corporation">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">March 12, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Austin Housing Finance Corporation</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Here's what the Austin Housing Finance Corporation (AHFC) board did at its meeting:</p>
+<ul>
+<li>  The AHFC board unanimously reauthorized a <strong>$5.5 million loan</strong> to Foundation Communities FC Bloom Housing. This funding is crucial for an affordable housing project in Austin.</li>
+<li>  This specific loan is channeled through the city's <strong>Rental Opportunity to Achieve (ROTA) program</strong>, which focuses on creating and protecting affordable rental homes for residents.</li>
+<li>  The updated loan agreement includes important adjustments to <strong>support existing residents</strong> who will need temporary relocation while their homes undergo redevelopment, ensuring their housing stability during construction.</li>
+<li>  The board also extended the project's <strong>affordability period from 40 to 41 years</strong>, guaranteeing affordable housing for residents for an even longer term.</li>
+<li>  Both the reauthorization of the $5.5 million loan and the approval of the board's November 6, 2025 meeting minutes were <strong>passed without any objections</strong> as part of a consent agenda.</li>
+<li>  There was <strong>no public debate or controversy</strong> during the meeting; the single person who signed up to speak was not present.</li>
+</ul></div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260312-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=468633" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="http://austintx.swagit.com/play/377962/0/" class="meeting-link meeting-link-video" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Watch Video</a><a href="https://services.austintexas.gov/edims/document.cfm?id=469013" class="meeting-link meeting-link-transcript" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                Transcript</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('March 12, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
+        </div>
+
         <div class="no-results" id="no-results">
             <h2>🔍 No matching meetings</h2>
             <p>Try a different keyword or filter.</p>
@@ -385,7 +571,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: April 08, 2026 at 08:33 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: April 08, 2026 at 08:39 PM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
