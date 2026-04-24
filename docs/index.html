@@ -196,15 +196,15 @@
     <div class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">2</div>
+                <div class="stat-number">0</div>
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
-                <div class="stat-number">9</div>
+                <div class="stat-number">11</div>
                 <div class="stat-label">Completed</div>
             </div>
             <div class="stat">
-                <div class="stat-number">Apr 21, 2026</div>
+                <div class="stat-number">Apr 23, 2026</div>
                 <div class="stat-label">Last Meeting</div>
             </div>
         </div>
@@ -226,12 +226,22 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Upcoming Meetings</h2>
-            <span class="section-count">2</span>
+            <span class="section-count">0</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
+            <div class="no-meetings-section"><p>No upcoming meetings scheduled. Check back soon.</p></div>
+        </div>
+
+        <!-- Recent Meetings -->
+        <div class="section-header section-header--recent">
+            <h2>✅ Recent Meetings</h2>
+            <span class="section-count">11</span>
+            <div class="section-divider"></div>
+        </div>
+        <div id="recent-list">
             
-        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
+        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
             <div class="meeting-header">
                 <div>
                     <div class="meeting-date">April 23, 2026</div>
@@ -239,37 +249,41 @@
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
                     <div class="meeting-type">Regular Meeting</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Upcoming
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
                     </div>
                 </div>
             </div>
-            
-                <div class="meeting-summary">
-                    <h3>Agenda Preview</h3>
-                    <div class="summary-content"><p>Here's a concise summary of the Austin City Council agenda:</p>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Here's a summary of what the Austin City Council did at its April 23, 2026 meeting:</p>
 <ul>
-<li>  <strong>Key Policy Decisions:</strong> Council will consider establishing an ordinance to regulate city surveillance technology, adopt a funding model for Cultural Districts, and launch a "Safe to Call" initiative to ensure protection for victims and witnesses reporting emergencies.</li>
-<li>  <strong>Economic Development & Energy Initiatives:</strong> A significant economic incentive agreement for the RIDA COTA Hotel, which waives certain public hearing requirements, is on the agenda. Council will also vote on substantial investments in renewable energy, including new solar installations on city facilities and exploring expanded solar and battery storage programs.</li>
-<li>  <strong>Public Hearings on Land Use & Environment:</strong> Multiple public hearings are scheduled for critical land use and environmental issues, such as adjusting city boundaries through disannexations, revising billboard regulations, and approving the use of dedicated parkland at Edward Rendon Sr. Metropolitan Park for an Austin Energy transmission line.</li>
-<li>  <strong>Community Input & Infrastructure:</strong> A public hearing will gather input for the Fiscal Year 2026-2027 Action Plan, which guides federal funding for housing and urban development. Additionally, Council will consider eminent domain proceedings to acquire property for essential utility infrastructure and a new public safety communication tower.</li>
+<li>  <strong>Wastewater Service Denied in Sensitive Zone:</strong> The Council voted to deny a request for new wastewater service to a property located within Austin's Drinking Water Protection Zone and the critical Barton Springs Zone, upholding environmental safeguards.</li>
+<li>  <strong>Big Investments in Green Energy & Water:</strong> Austin Energy is set to expand its renewable portfolio with multi-million dollar contracts for new solar facilities and battery storage. Separately, the Council approved $59 million in bonds to fund significant upgrades to Austin Water's wastewater system, including an expansion of the Walnut Creek plant.</li>
+<li>  <strong>New Rules for City Surveillance:</strong> A new ordinance was passed that creates clear guidelines and oversight for how City departments can adopt, acquire, and use surveillance technology.</li>
+<li>  <strong>Key Economic Development and Zoning Changes:</strong> The Council approved an economic development agreement for a new hotel project at Circuit of the Americas, which includes performance-based payments to the developer. They also advanced specific zoning changes for the Circuit of the Americas area and for commercial development along Middle Fiskville Road.</li>
+<li>  <strong>Council Pushes Back on MoPac South Project:</strong> In a significant move, the Council formally requested the regional transportation authority (CTRMA) conduct a more thorough environmental review for the MoPac South Project and consider alternatives that better fit Austin’s environmental and mobility goals.</li>
+<li>  <strong>Billboard Rule Changes Delayed:</strong> A proposed ordinance that would revise rules for existing billboards, including where they can be relocated and height requirements, was postponed indefinitely.</li>
 </ul></div>
-                </div>
+            </div>
             <div class="meeting-links">
                 <a href="https://www.austintexas.gov/council/2026/20260423-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=471266" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=471266" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Download Agenda</a>
+                Agenda</a>
+                <a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1466" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Actions Taken</a>
                 <span class="meeting-links-spacer"></span>
                 <button class="btn-share-card" onclick="openShareModal('April 23, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
             Share</button>
             </div>
         </div>
-        <div class="meeting-card meeting-card--upcoming" data-type="austin-housing-finance-corporation">
+        <div class="meeting-card meeting-card--recent" data-type="austin-housing-finance-corporation">
             <div class="meeting-header">
                 <div>
                     <div class="meeting-date">April 23, 2026</div>
@@ -277,45 +291,35 @@
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
                     <div class="meeting-type">Austin Housing Finance Corporation</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Upcoming
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
                     </div>
                 </div>
             </div>
-            
-                <div class="meeting-summary">
-                    <h3>Agenda Preview</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
+            <div class="meeting-summary">
+                <h3>Meeting Highlights</h3>
+                <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
 <ul>
 <li>  <strong>Who & When:</strong> The Austin Housing Finance Corporation Board will meet on Thursday, April 23, 2026, at 10:30 AM.</li>
 <li>  <strong>Major Housing Investment:</strong> The Board will consider approving a loan agreement of over $1 million (part of a total $6.2 million) using public funds to develop "La Vista de Lopez," a new multifamily rental property at 809 East 9th Street.</li>
 <li>  <strong>Routine Approvals:</strong> The agenda also includes approving minutes from three previous Board meetings.</li>
 </ul></div>
-                </div>
+            </div>
             <div class="meeting-links">
                 <a href="https://www.austintexas.gov/council/2026/20260423-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=471587" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=471587" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Download Agenda</a>
+                Agenda</a>
+                
                 <span class="meeting-links-spacer"></span>
                 <button class="btn-share-card" onclick="openShareModal('April 23, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
             Share</button>
             </div>
         </div>
-        </div>
-
-        <!-- Recent Meetings -->
-        <div class="section-header section-header--recent">
-            <h2>✅ Recent Meetings</h2>
-            <span class="section-count">9</span>
-            <div class="section-divider"></div>
-        </div>
-        <div id="recent-list">
-            
         <div class="meeting-card meeting-card--recent" data-type="work-session">
             <div class="meeting-header">
                 <div>
@@ -724,7 +728,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: April 23, 2026 at 03:47 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: April 24, 2026 at 02:06 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
