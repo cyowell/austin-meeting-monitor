@@ -1,6 +1,7 @@
 """
 Vercel Serverless Function — Email Subscription via Resend
-Handles POST /api/subscribe from austincouncil.app
+Handles POST /subscribe from austincouncil.app
+Uses the current Resend Contacts API (no audience_id required, Nov 2025+)
 """
 from http.server import BaseHTTPRequestHandler
 import json
@@ -21,8 +22,7 @@ def _cors_headers():
 class handler(BaseHTTPRequestHandler):
 
     def log_message(self, format, *args):
-        # Suppress default stderr logging
-        pass
+        pass  # Suppress default stderr logging
 
     def _send(self, status: int, body: dict):
         payload = json.dumps(body).encode()
@@ -43,11 +43,11 @@ class handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         # Parse body
-        length = int(self.headers.get('Content-Length', 0))
-        raw = self.rfile.read(length) if length > 0 else b'{}'
         try:
+            length = int(self.headers.get('Content-Length', 0))
+            raw = self.rfile.read(length) if length > 0 else b'{}'
             data = json.loads(raw)
-        except json.JSONDecodeError:
+        except Exception:
             data = {}
 
         email = str(data.get('email', '')).strip().lower()
@@ -58,36 +58,38 @@ class handler(BaseHTTPRequestHandler):
 
         api_key = os.environ.get('RESEND_API_KEY')
         if not api_key:
-            return self._send(500, {'error': 'Email service not configured (missing API key)'})
+            return self._send(500, {'error': 'Email service not configured'})
 
         try:
-            import resend  # noqa: PLC0415
+            import resend  # installed via api/requirements.txt
         except ImportError:
-            return self._send(500, {'error': 'Email service not available'})
+            return self._send(500, {'error': 'resend package not available'})
 
         resend.api_key = api_key
 
         try:
-            # Get the first available audience
-            audience_id = os.environ.get('RESEND_AUDIENCE_ID')
-            if not audience_id:
-                audiences = resend.Audiences.list()
-                items = getattr(audiences, 'data', None) or []
-                if not items:
-                    return self._send(500, {'error': 'No audience configured in Resend'})
-                first = items[0]
-                # Support both dict and object styles
-                audience_id = first.get('id') if isinstance(first, dict) else getattr(first, 'id', None)
-                if not audience_id:
-                    return self._send(500, {'error': 'Could not read audience ID from Resend'})
-
-            resend.Contacts.create({
-                'audience_id': audience_id,
+            # Try the new Contacts API first (Resend SDK v2+, Nov 2025+)
+            # No audience_id needed in the new API
+            contact_params = {
                 'email': email,
                 'unsubscribed': False,
-            })
+            }
 
+            # If RESEND_AUDIENCE_ID is set, include it (works in both old and new SDK)
+            audience_id = os.environ.get('RESEND_AUDIENCE_ID')
+            if audience_id:
+                contact_params['audience_id'] = audience_id
+
+            resend.Contacts.create(contact_params)
             return self._send(200, {'success': True, 'message': "You're subscribed!"})
+
+        except AttributeError:
+            # Fallback: try lowercase contacts (some SDK versions)
+            try:
+                resend.contacts.create({'email': email, 'unsubscribed': False})
+                return self._send(200, {'success': True, 'message': "You're subscribed!"})
+            except Exception as exc2:
+                return self._send(500, {'error': f'Subscription failed: {exc2}'})
 
         except Exception as exc:
             return self._send(500, {'error': str(exc)})
