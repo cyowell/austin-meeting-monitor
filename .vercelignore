@@ -1,0 +1,32 @@
+# Vercel ignore file — prevent non-API files from being bundled into serverless functions
+# This prevents Vercel from installing the heavy root requirements.txt packages
+# (PyMuPDF, google-generativeai, etc.) in the API function
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Local database and data files  
+*.db
+*.csv
+*.pdf
+
+# Main Python scripts (not needed by serverless API)
+austin_meeting_monitor_gemini.py
+austin_meeting_monitor.py
+github_pages_publisher.py
+streamlit_dashboard.py
+email_sender.py
+update_data.py
+fix_may7.py
+
+# Development files
+*.code-workspace
+.devcontainer/
+
+# The root requirements.txt installs heavy packages (PyMuPDF, google-generativeai)
+# that are incompatible with Vercel's Amazon Linux serverless environment.
+# The API uses only api/requirements.txt which has just 'resend'
+requirements.txt
