@@ -1,5 +1,1 @@
-requests
-beautifulsoup4
-google-generativeai
-PyMuPDF
 resend

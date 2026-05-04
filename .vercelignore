@@ -26,7 +26,5 @@ fix_may7.py
 *.code-workspace
 .devcontainer/
 
-# The root requirements.txt installs heavy packages (PyMuPDF, google-generativeai)
-# that are incompatible with Vercel's Amazon Linux serverless environment.
-# The API uses only api/requirements.txt which has just 'resend'
-requirements.txt
+# docs/ static site files (not needed by serverless API)
+docs/
