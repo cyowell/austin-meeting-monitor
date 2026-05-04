@@ -1,7 +1,11 @@
 {
+  "functions": {
+    "api/subscribe.py": {
+      "runtime": "python3.12"
+    }
+  },
   "rewrites": [
-    { "source": "/subscribe", "destination": "/api/subscribe" },
-    { "source": "/api/subscribe", "destination": "/api/subscribe" }
+    { "source": "/subscribe", "destination": "/api/subscribe" }
   ],
   "headers": [
     {

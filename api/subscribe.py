@@ -1,22 +1,44 @@
 """
-Minimal test handler - no external dependencies
+Vercel Serverless Function — Email Subscription via Resend
+Handles POST /subscribe from austincouncil.app
+
+Runtime: Python 3.12 (see vercel.json)
+Dependencies: resend (see api/requirements.txt)
 """
 from http.server import BaseHTTPRequestHandler
 import json
+import os
+
+CORS_ORIGIN = 'https://austincouncil.app'
+
+CORS_HEADERS = {
+    'Access-Control-Allow-Origin': CORS_ORIGIN,
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Max-Age': '86400',
+}
 
 
 class handler(BaseHTTPRequestHandler):
-    def log_message(self, format, *args):
-        pass
 
-    def do_GET(self):
-        self._send(200, {'status': 'ok', 'message': 'Python serverless is working'})
+    def log_message(self, format, *args):
+        pass  # Suppress default access log noise
+
+    def _send(self, status: int, body: dict):
+        payload = json.dumps(body).encode()
+        self.send_response(status)
+        self.send_header('Content-Type', 'application/json')
+        self.send_header('Content-Length', str(len(payload)))
+        for k, v in CORS_HEADERS.items():
+            self.send_header(k, v)
+        self.end_headers()
+        self.wfile.write(payload)
 
     def do_OPTIONS(self):
+        """Handle CORS preflight"""
         self.send_response(204)
-        self.send_header('Access-Control-Allow-Origin', 'https://austincouncil.app')
-        self.send_header('Access-Control-Allow-Methods', 'POST, OPTIONS')
-        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        for k, v in CORS_HEADERS.items():
+            self.send_header(k, v)
         self.end_headers()
 
     def do_POST(self):
@@ -28,25 +50,37 @@ class handler(BaseHTTPRequestHandler):
             data = {}
 
         email = str(data.get('email', '')).strip().lower()
-        if not email or '@' not in email:
-            return self._send(400, {'error': 'Invalid email'})
 
-        import os
-        api_key = os.environ.get('RESEND_API_KEY', '')
-        return self._send(200, {
-            'success': True,
-            'email': email,
-            'has_api_key': bool(api_key),
-            'api_key_length': len(api_key),
-        })
+        # Basic validation
+        if not email or '@' not in email or '.' not in email.split('@')[-1]:
+            return self._send(400, {'error': 'Invalid email address'})
 
-    def _send(self, status, body):
-        payload = json.dumps(body).encode()
-        self.send_response(status)
-        self.send_header('Content-Type', 'application/json')
-        self.send_header('Content-Length', str(len(payload)))
-        self.send_header('Access-Control-Allow-Origin', 'https://austincouncil.app')
-        self.send_header('Access-Control-Allow-Methods', 'POST, OPTIONS')
-        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
-        self.end_headers()
-        self.wfile.write(payload)
+        api_key = os.environ.get('RESEND_API_KEY')
+        if not api_key:
+            return self._send(500, {'error': 'Email service not configured'})
+
+        try:
+            import resend
+        except ImportError:
+            return self._send(500, {'error': 'resend package not installed'})
+
+        resend.api_key = api_key
+
+        # Build contact params
+        params = {'email': email, 'unsubscribed': False}
+
+        # Include audience_id if set (legacy Resend API compat)
+        audience_id = os.environ.get('RESEND_AUDIENCE_ID')
+        if audience_id:
+            params['audience_id'] = audience_id
+
+        try:
+            resend.Contacts.create(params)
+            return self._send(200, {'success': True, 'message': "You're subscribed!"})
+        except Exception as exc:
+            # Try lowercase fallback (some SDK versions)
+            try:
+                resend.contacts.create(params)
+                return self._send(200, {'success': True, 'message': "You're subscribed!"})
+            except Exception:
+                return self._send(500, {'error': str(exc)})
