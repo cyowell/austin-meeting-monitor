@@ -196,15 +196,15 @@
     <div class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">2</div>
+                <div class="stat-number">0</div>
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
-                <div class="stat-number">12</div>
+                <div class="stat-number">14</div>
                 <div class="stat-label">Completed</div>
             </div>
             <div class="stat">
-                <div class="stat-number">May 05, 2026</div>
+                <div class="stat-number">May 07, 2026</div>
                 <div class="stat-label">Last Meeting</div>
             </div>
         </div>
@@ -226,12 +226,22 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Upcoming Meetings</h2>
-            <span class="section-count">2</span>
+            <span class="section-count">0</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
+            <div class="no-meetings-section"><p>No upcoming meetings scheduled. Check back soon.</p></div>
+        </div>
+
+        <!-- Recent Meetings -->
+        <div class="section-header section-header--recent">
+            <h2>✅ Recent Meetings</h2>
+            <span class="section-count">14</span>
+            <div class="section-divider"></div>
+        </div>
+        <div id="recent-list">
             
-        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
+        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
             <div class="meeting-header">
                 <div>
                     <div class="meeting-date">May 07, 2026</div>
@@ -239,37 +249,41 @@
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
                     <div class="meeting-type">Regular Meeting</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Upcoming
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
                     </div>
                 </div>
             </div>
-            
-                <div class="meeting-summary">
-                    <h3>Agenda Preview</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin City Council agenda:</p>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Here's a summary of what the Austin City Council did at its May 7, 2026, meeting:</p>
 <ul>
-<li>  <strong>Major Housing Policy Change:</strong> Council will consider initiating amendments to allow two-unit and three-unit residential uses (duplexes/triplexes) in all zoning districts where single-family and multi-family housing is permitted, significantly impacting residential development.</li>
-<li>  <strong>New Economic Development Framework:</strong> Discussion and potential approval of a resolution establishing a comprehensive economic development policy for the city, including directives for a Director position and improving projects.</li>
-<li>  <strong>Significant Land Use & Zoning Decisions:</strong> Public hearings and votes on major rezonings, including high-density multifamily development on an Austin ISD property (2117 W 49th St.) and a large Planned Unit Development (PUD) along South Lakeshore Boulevard/East Riverside Drive.</li>
-<li>  <strong>Support for Youth Transitioning from Foster Care:</strong> A resolution directing the City Manager to develop strategies for housing stability, legislative advocacy, and local partnerships to support youth exiting foster care.</li>
+<li>  <strong>Expanded Housing Options:</strong> Council took a significant step towards increasing housing options by approving an initiative to amend city code. This change would allow two-unit and three-unit residential homes in more areas where only single-family homes are currently permitted, aligning with the "HOME Phases 1 and 2" regulations.</li>
+<li>  <strong>Boosted Affordable Housing:</strong> The Austin Housing Finance Corporation (AHFC) approved a key resolution to secure up to $33 million in bonds for the rehabilitation of Elm Ridge Apartments, an affordable housing complex located on Airport Boulevard.</li>
+<li>  <strong>Major Development Debates Postponed:</strong> Several significant zoning and development decisions were put on hold. This included a large rezoning request for properties on South Lakeshore Boulevard and East Riverside Drive, as well as Austin ISD's request to rezone properties on West 49th Street and Rosedale Avenue, which was postponed at the neighborhood's request.</li>
+<li>  <strong>New Economic Development Strategy:</strong> Council approved a resolution to establish a comprehensive economic development framework. This directs the creation of a new policy and aims to improve how the city approaches economic development projects and the role of its Economic Development Director.</li>
+<li>  <strong>Support for Foster Youth:</strong> Council passed a resolution directing the City Manager to create programs and partnerships focused on housing stability and overall support for young people transitioning out of foster care.</li>
+<li>  <strong>Yogurt Shop Case Discussion Withdrawn:</strong> An executive session item concerning legal issues related to the long-standing Yogurt Shop criminal cases was notably withdrawn from the agenda.</li>
 </ul></div>
-                </div>
+            </div>
             <div class="meeting-links">
                 <a href="https://www.austintexas.gov/council/2026/20260507-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=472241" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=472241" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Download Agenda</a>
+                Agenda</a>
+                <a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1471" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Actions Taken</a>
                 <span class="meeting-links-spacer"></span>
                 <button class="btn-share-card" onclick="openShareModal('May 07, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
             Share</button>
             </div>
         </div>
-        <div class="meeting-card meeting-card--upcoming" data-type="austin-housing-finance-corporation">
+        <div class="meeting-card meeting-card--recent" data-type="austin-housing-finance-corporation">
             <div class="meeting-header">
                 <div>
                     <div class="meeting-date">May 07, 2026</div>
@@ -277,45 +291,35 @@
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
                     <div class="meeting-type">Austin Housing Finance Corporation</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Upcoming
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
                     </div>
                 </div>
             </div>
-            
-                <div class="meeting-summary">
-                    <h3>Agenda Preview</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
+            <div class="meeting-summary">
+                <h3>Meeting Highlights</h3>
+                <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
 <ul>
 <li>  The Austin Housing Finance Corporation (AHFC) is holding a meeting.</li>
 <li>  The primary agenda item is to consider an inducement resolution authorizing up to <strong>$33 million in private activity bonds</strong>.</li>
 <li>  These bonds would fund the <strong>rehabilitation of Elm Ridge Apartments</strong>, an existing affordable housing complex located at 1190 Airport Boulevard, aiming to preserve affordable housing in Austin.</li>
 </ul></div>
-                </div>
+            </div>
             <div class="meeting-links">
                 <a href="https://www.austintexas.gov/council/2026/20260507-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=472559" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=472559" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Download Agenda</a>
+                Agenda</a>
+                
                 <span class="meeting-links-spacer"></span>
                 <button class="btn-share-card" onclick="openShareModal('May 07, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
             Share</button>
             </div>
         </div>
-        </div>
-
-        <!-- Recent Meetings -->
-        <div class="section-header section-header--recent">
-            <h2>✅ Recent Meetings</h2>
-            <span class="section-count">12</span>
-            <div class="section-divider"></div>
-        </div>
-        <div id="recent-list">
-            
         <div class="meeting-card meeting-card--recent" data-type="work-session">
             <div class="meeting-header">
                 <div>
@@ -854,7 +858,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: May 07, 2026 at 04:03 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: May 08, 2026 at 02:33 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
