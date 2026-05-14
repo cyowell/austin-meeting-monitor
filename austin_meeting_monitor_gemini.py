@@ -19,7 +19,12 @@ except ImportError:
         PDF_LIBRARY = 'pdfplumber'
     except ImportError:
         PDF_LIBRARY = None
-        logging.warning("No PDF library found. Install PyMuPDF: pip install PyMuPDF")
+        # Raise immediately so CI fails loudly rather than silently saving
+        # broken "Unable to extract text" summaries and emailing them.
+        raise ImportError(
+            "No PDF library found. Add 'PyMuPDF' to requirements.txt "
+            "and ensure it is installed before running this script."
+        )
 
 # Gemini API
 try:
@@ -372,14 +377,17 @@ Agenda text:
                 if agenda_text:
                     summary = self.summarize_agenda(agenda_text)
                 else:
-                    summary = "Unable to extract text from agenda PDF"
+                    # Save NULL so the next run retries rather than locking in
+                    # a broken error string that gets emailed to subscribers.
+                    logging.warning("  ⚠️  PDF text extraction returned empty — will retry next run")
+                    summary = None
 
                 try:
                     os.remove(pdf_path)
                 except Exception:
                     pass
             else:
-                summary = "Failed to download agenda PDF"
+                summary = None  # Retry next run
 
         # Determine if meeting is already in the past
         today = date.today()
@@ -730,10 +738,79 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
     # Main Run Cycle
     # ─────────────────────────────────────────────
 
+    def retry_missing_summaries(self):
+        """
+        Find meetings that are in the DB with a NULL summary (due to a prior
+        PDF extraction failure) and retry the download + summarize step.
+        This makes the system self-healing: if PyMuPDF was missing on a
+        previous CI run, the next run will automatically fill in the summary
+        without any manual intervention.
+        """
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute('''
+            SELECT meeting_id, date, meeting_type, meeting_url, agenda_url
+            FROM meetings
+            WHERE gemini_summary IS NULL
+              AND notified_at IS NULL
+            ORDER BY date DESC
+        ''')
+        rows = cursor.fetchall()
+        conn.close()
+
+        if not rows:
+            return []
+
+        logging.info(f"\n  🔁 Retrying {len(rows)} meeting(s) with missing summary...")
+        retried = []
+
+        for row in rows:
+            meeting_id, meeting_date, meeting_type, meeting_url, agenda_url = row
+            logging.info(f"    • {meeting_id}")
+
+            # If we don't have the agenda_url cached, try to find it
+            if not agenda_url:
+                agenda_url = self.get_agenda_url(meeting_url)
+
+            if not agenda_url:
+                logging.warning(f"      ⚠️  No agenda URL — skipping")
+                continue
+
+            pdf_path = f"temp_retry_{meeting_id}.pdf"
+            summary = None
+
+            if self.download_pdf(agenda_url, pdf_path):
+                agenda_text = self.extract_text_from_pdf(pdf_path)
+                try:
+                    os.remove(pdf_path)
+                except Exception:
+                    pass
+                if agenda_text:
+                    summary = self.summarize_agenda(agenda_text)
+
+            if summary:
+                conn = sqlite3.connect(self.db_path)
+                cursor = conn.cursor()
+                cursor.execute(
+                    'UPDATE meetings SET gemini_summary = ?, agenda_url = ? WHERE meeting_id = ?',
+                    (summary, agenda_url, meeting_id)
+                )
+                conn.commit()
+                conn.close()
+                logging.info(f"      ✓ Summary filled in for {meeting_id}")
+                retried.append(meeting_id)
+            else:
+                logging.warning(f"      ⚠️  Still unable to summarize {meeting_id} — will try again next run")
+
+            time.sleep(2)
+
+        return retried
+
     def run_check_cycle(self, discord_webhook_url=None):
         """
         Complete check cycle:
         1. Find and process newly announced meetings
+        1b. Retry any meetings that previously failed PDF extraction
         2. Post-process meetings that have now occurred (transcript, actions, video, summary)
         3. Send notifications for newly discovered upcoming meetings
         """
@@ -741,7 +818,7 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
         logging.info("🚀 STARTING MEETING CHECK CYCLE")
         logging.info("="*60)
 
-        # ── Step 1: New upcoming meetings ─────────────────────────
+        # ── Step 1: New upcoming meetings ─────────────────
         new_meetings = self.check_for_new_meetings()
 
         processed = []
@@ -763,13 +840,17 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
 
             time.sleep(2)
 
-        # ── Step 2: Post-process completed meetings ────────────────
+        # ── Step 1b: Retry meetings with missing summaries ─────
+        retried_ids = self.retry_missing_summaries()
+
+        # ── Step 2: Post-process completed meetings ──────────
         completed_ids = self.process_completed_meetings()
 
         logging.info(f"\n{'='*60}")
         logging.info(f"✅ CHECK CYCLE COMPLETE")
         logging.info(f"{'='*60}")
         logging.info(f"New meetings processed: {len(processed)}")
+        logging.info(f"Summaries retried/filled: {len(retried_ids)}")
         logging.info(f"Completed meetings post-processed: {len(completed_ids)}")
 
         return processed

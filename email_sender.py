@@ -62,7 +62,10 @@ class MeetingEmailSender:
     # ── Pending meetings ─────────────────────────────────────────────────────
 
     def get_unnotified_meetings(self):
-        """Get meetings from DB that haven't been emailed yet"""
+        """Get meetings from DB that haven't been emailed yet.
+        Skips any meeting whose summary is NULL or a known extraction-error
+        string — those indicate the scraper failed and will retry next run.
+        """
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         cursor.execute('''
@@ -72,14 +75,30 @@ class MeetingEmailSender:
             ORDER BY date DESC
         ''')
         meetings = []
+        skipped = []
+        # Error strings written by old versions of the scraper — never email these.
+        _BAD_SUMMARIES = {
+            'Unable to extract text from agenda PDF',
+            'Failed to download agenda PDF',
+            'Agenda not yet available. Check back later.',
+        }
         for row in cursor.fetchall():
+            summary = row[5]
+            if not summary or summary.strip() in _BAD_SUMMARIES:
+                skipped.append(row[0])
+                continue
             meetings.append({
                 'id': row[0], 'date': row[1], 'meeting_type': row[2],
                 'url': row[3], 'agenda_url': row[4],
-                'summary': row[5] or 'Meeting summary will be available soon.'
+                'summary': summary
             })
         conn.close()
-        logging.info(f"  📋 {len(meetings)} unnotified meeting(s) found")
+        if skipped:
+            logging.warning(
+                f"  ⚠️  Skipped {len(skipped)} meeting(s) with missing/broken summary "
+                f"(will retry next run): {', '.join(skipped)}"
+            )
+        logging.info(f"  📋 {len(meetings)} unnotified meeting(s) ready to send")
         return meetings
 
     def mark_as_notified(self, meeting_ids):
