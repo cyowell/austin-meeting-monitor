@@ -196,7 +196,7 @@
     <div class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">2</div>
+                <div class="stat-number">3</div>
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
@@ -215,8 +215,8 @@
                 <input type="text" id="search-input" placeholder="Search by keyword — housing, budget, zoning..." oninput="applyFilters()">
             </div>
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">16</span></button>
-<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">6</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">17</span></button>
+<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">7</span></button>
 <button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">5</span></button>
 <button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">5</span></button>
 
@@ -226,7 +226,7 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Upcoming Meetings</h2>
-            <span class="section-count">2</span>
+            <span class="section-count">3</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
@@ -303,6 +303,44 @@
                 Download Agenda</a>
                 <span class="meeting-links-spacer"></span>
                 <button class="btn-share-card" onclick="openShareModal('May 21, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
+        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">May 28, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--upcoming">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        Upcoming
+                    </div>
+                </div>
+            </div>
+            
+                <div class="meeting-summary">
+                    <h3>Agenda Preview</h3>
+                    <div class="summary-content"><p>Here's a summary of the Austin City Council agenda in 4 bullet points:</p>
+<ul>
+<li>  <strong>Major Affordable Housing & Urban Development Overhauls:</strong> The Council will consider creating new "density bonus" zoning districts for downtown, allowing taller buildings in exchange for affordable housing, and vote on rezoning over 200 acres for this purpose. They will also finalize the sale of the St. John site for a significant mixed-use development with affordable housing components, and support three other affordable housing projects with federal tax credits.</li>
+<li>  <strong>Significant Infrastructure Funding & Utility Decisions:</strong> Expect votes on authorizing $156 million in bonds to fund city improvements like public safety facilities, parks, and roads. The Council will also consider approving eminent domain for critical Austin Water infrastructure projects and review a 10-year natural gas franchise agreement, while also considering suspending a proposed rate increase from another gas provider.</li>
+<li>  <strong>New Policies Directly Affecting Residents:</strong> Discussions include increasing the homestead property tax exemption for seniors and people with disabilities, and a new ordinance requiring landlords to disclose all rental fees upfront. Other important policy considerations include addressing noisy dumpster collection near homes and establishing regulations for electric mini motorcycles (e-motos).</li>
+<li>  <strong>Broader City Planning & Zoning Amendments:</strong> The agenda features initiating comprehensive amendments to the city's Land Development Code to enhance mobility and streamline development standards. Additionally, the Council will consider significant land use changes, including a multi-family rezoning request in Montopolis and a large planned unit development on East Riverside Drive.</li>
+</ul></div>
+                </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260528-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=473786" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Download Agenda</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('May 28, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
             Share</button>
             </div>
@@ -941,7 +979,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: May 15, 2026 at 04:00 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: May 16, 2026 at 02:28 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
