@@ -200,11 +200,11 @@
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
-                <div class="stat-number">15</div>
+                <div class="stat-number">16</div>
                 <div class="stat-label">Completed</div>
             </div>
             <div class="stat">
-                <div class="stat-number">May 19, 2026</div>
+                <div class="stat-number">May 21, 2026</div>
                 <div class="stat-label">Last Meeting</div>
             </div>
         </div>
@@ -215,10 +215,10 @@
                 <input type="text" id="search-input" placeholder="Search by keyword — housing, budget, zoning..." oninput="applyFilters()">
             </div>
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">18</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">19</span></button>
 <button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">7</span></button>
+<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">6</span></button>
 <button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">6</span></button>
-<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">5</span></button>
 
             </div>
         </div>
@@ -231,44 +231,6 @@
         </div>
         <div id="upcoming-list">
             
-        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
-            <div class="meeting-header">
-                <div>
-                    <div class="meeting-date">May 21, 2026</div>
-                    <div class="meeting-day">Thursday</div>
-                </div>
-                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Regular Meeting</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Upcoming
-                    </div>
-                </div>
-            </div>
-            
-                <div class="meeting-summary">
-                    <h3>Agenda Preview</h3>
-                    <div class="summary-content"><p>Here's a summary of the Austin City Council agenda in 3-5 bullet points:</p>
-<ul>
-<li>  <strong>Major Infrastructure & Energy Investments:</strong> Council will consider issuing over $2.3 billion in bonds for the Convention Center expansion and water/wastewater system improvements. They will also vote on significant contracts for Austin Energy, including up to $165 million for battery storage, $340 million for wind facilities, and implementing natural gas-powered "peaker" generation units as part of Austin Energy's resource plan.</li>
-<li>  <strong>Significant Land Use & Housing Policy:</strong> The agenda includes critical decisions on a massive 2,614-acre mixed-use development in the "Dog's Head" area, with a public hearing for its annexation and a 45-year development agreement. There will also be a public hearing on a new citywide density bonus program to allow additional height and uses for providing affordable housing.</li>
-<li>  <strong>Key Regulatory & Environmental Updates:</strong> Council will hold public hearings on amending land development rules for transit system projects (likely related to Project Connect implementation) and consider adopting the "Rain to River Strategic Plan" for long-term watershed protection.</li>
-<li>  <strong>Federal Funding & Community Services:</strong> A public hearing will be held to receive input on the City's Draft Fiscal Year 2026-2027 Action Plan, which outlines how federal housing and community development funds will be allocated. Council will also consider establishing an interlocal agreement for an Austin/Travis County Family Justice Center to address domestic violence.</li>
-</ul></div>
-                </div>
-            <div class="meeting-links">
-                <a href="https://www.austintexas.gov/council/2026/20260521-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=473128" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Download Agenda</a>
-                <span class="meeting-links-spacer"></span>
-                <button class="btn-share-card" onclick="openShareModal('May 21, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Share</button>
-            </div>
-        </div>
         <div class="meeting-card meeting-card--upcoming" data-type="work-session">
             <div class="meeting-header">
                 <div>
@@ -344,16 +306,106 @@
             Share</button>
             </div>
         </div>
+        <div class="meeting-card meeting-card--upcoming" data-type="austin-housing-finance-corporation">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">May 28, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Austin Housing Finance Corporation</div>
+                    <div class="status-badge status-badge--upcoming">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        Upcoming
+                    </div>
+                </div>
+            </div>
+            
+                <div class="meeting-summary">
+                    <h3>Agenda Preview</h3>
+                    <div class="summary-content"><p>Here's a summary of the Austin Housing Finance Corporation agenda:</p>
+<ul>
+<li>  The <strong>Austin Housing Finance Corporation</strong> will meet to discuss housing-related initiatives.</li>
+<li>  A major policy decision involves approving a <strong>$1.4 million increase</strong> for the Tenant-Based Rental Assistance Program, bringing its total to nearly $2.84 million.</li>
+<li>  This significant funding aims to provide essential <strong>housing subsidies for individuals and families experiencing homelessness</strong> in Austin.</li>
+<li>  The additional funding is contingent upon the corporation's Fiscal Year 2026-2027 Operating Budget and support from the HOME Investment Partnership Program.</li>
+</ul></div>
+                </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260528-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=474081" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Download Agenda</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('May 28, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
         </div>
 
         <!-- Recent Meetings -->
         <div class="section-header section-header--recent">
             <h2>✅ Recent Meetings</h2>
-            <span class="section-count">15</span>
+            <span class="section-count">16</span>
             <div class="section-divider"></div>
         </div>
         <div id="recent-list">
             
+        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">May 21, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Here's a summary of what the Austin City Council did at their May 21, 2026 meeting:</p>
+<ul>
+<li>  <strong>Massive Future Development & New Housing Rules Approved:</strong> Council approved a 45-year development agreement and initiated the annexation of 2,614 acres known as "Dog's Head" (east of US 183/SH 130), paving the way for a large mixed-use community that includes income-restricted housing. They also passed a new citywide "density bonus" program to encourage more affordable housing by allowing taller buildings in commercial and multifamily zones.</li>
+</ul>
+<ul>
+<li>  <strong>Billions Authorized for Major City Projects:</strong> The city committed to significant future debt, approving up to $1.35 billion in bonds for the Austin Convention Center expansion and up to $1 billion for the Walnut Creek Wastewater Treatment Plant Expansion.</li>
+</ul>
+<ul>
+<li>  <strong>Austin Energy Boosts Clean Power, Pulls Gas Plant Plan:</strong> Austin Energy secured large contracts, authorizing up to $165 million for battery storage and $340 million for wind energy to enhance the city's renewable power supply. Notably, a proposal to implement new natural gas "peaker" generation units was <em>withdrawn</em> from consideration.</li>
+</ul>
+<ul>
+<li>  <strong>Project Connect Light Rail Design Moves Forward:</strong> Council finalized an agreement with the Austin Transit Partnership to begin detailed design work for the light rail system, marking a significant step in the development of the ambitious public transit project.</li>
+</ul>
+<ul>
+<li>  <strong>Legal Settlement and New Victim Support Center:</strong> A settlement was approved in the Javier Ambler lawsuit. Additionally, Council authorized an interlocal agreement with Travis County to establish a new Family Justice Center, which will provide combined services for victims of domestic violence, sexual assault, and human trafficking.</li>
+</ul>
+<ul>
+<li>  <strong>Several Key Land Use Decisions Delayed:</strong> Important rezoning and land-use plan amendments, including several related to the East Riverside Corridor and a significant multifamily development proposal near 49th Street and Rosedale Avenue, were postponed to future meetings for additional review.</li>
+</ul></div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://www.austintexas.gov/council/2026/20260521-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=473128" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1479" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Actions Taken</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('May 21, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
         <div class="meeting-card meeting-card--recent" data-type="work-session">
             <div class="meeting-header">
                 <div>
@@ -1021,7 +1073,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: May 21, 2026 at 04:35 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: May 22, 2026 at 02:47 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
