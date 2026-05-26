@@ -1166,7 +1166,7 @@
                 });
                 const data = await res.json();
                 if (res.ok && data.success) {
-                    msg.textContent = "✓ You're subscribed! Check your inbox for a confirmation.";
+                    msg.textContent = "✓ You're subscribed!";
                     msg.className = 'subscribe-msg success';
                     document.getElementById('sub-email').value = '';
                     btn.textContent = 'Subscribed!';
