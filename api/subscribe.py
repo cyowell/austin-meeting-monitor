@@ -69,8 +69,29 @@ class handler(BaseHTTPRequestHandler):
         # Build contact params
         params = {'email': email, 'unsubscribed': False}
 
-        # Include audience_id if set (legacy Resend API compat)
+        # Resolve audience ID: use environment variable first, otherwise query live audiences
         audience_id = os.environ.get('RESEND_AUDIENCE_ID')
+        if not audience_id:
+            try:
+                audiences = resend.Audiences.list()
+                items = getattr(audiences, 'data', None) or []
+                if items:
+                    # Look for audience named 'General' (case-insensitive)
+                    general_audience = None
+                    for item in items:
+                        name = item.get('name', '') if isinstance(item, dict) else getattr(item, 'name', '')
+                        if str(name).strip().lower() == 'general':
+                            general_audience = item
+                            break
+                    
+                    if general_audience:
+                        audience_id = general_audience.get('id') if isinstance(general_audience, dict) else getattr(general_audience, 'id')
+                    else:
+                        # Fallback to first available audience
+                        audience_id = items[0].get('id') if isinstance(items[0], dict) else getattr(items[0], 'id')
+            except Exception:
+                pass
+
         if audience_id:
             params['audience_id'] = audience_id
 

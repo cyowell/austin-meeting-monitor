@@ -47,7 +47,20 @@ class MeetingEmailSender:
                 if not items:
                     logging.warning("⚠️  No Resend audiences found — create one at resend.com/audiences")
                     return []
-                audience_id = items[0].get('id') or items[0].id
+                
+                # Prioritize audience named 'General'
+                general_audience = None
+                for item in items:
+                    name = item.get('name', '') if isinstance(item, dict) else getattr(item, 'name', '')
+                    if str(name).strip().lower() == 'general':
+                        general_audience = item
+                        break
+                
+                if general_audience:
+                    audience_id = general_audience.get('id') if isinstance(general_audience, dict) else getattr(general_audience, 'id')
+                else:
+                    audience_id = items[0].get('id') or items[0].id
+                
                 logging.info(f"  📋 Auto-discovered audience ID: {audience_id}")
 
             contacts = resend.Contacts.list(audience_id=audience_id)
