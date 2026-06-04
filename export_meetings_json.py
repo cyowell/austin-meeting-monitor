@@ -1,0 +1,80 @@
+import sqlite3
+import os
+import json
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent
+OUTPUT_DIR = BASE_DIR / 'real-time'
+
+def write_meeting_json(row):
+    # row is a sqlite3.Row
+    meeting_id = row['meeting_id']
+    try:
+        date_short = row['date'] # "YYYY-MM-DD"
+        year = int(date_short.split('-')[0]) if date_short else None
+
+        filename = f"{date_short}_{meeting_id}.json"
+        path = OUTPUT_DIR / filename
+        path.parent.mkdir(parents=True, exist_ok=True)
+
+        summary = row['post_meeting_summary'] or row['gemini_summary']
+        title = ""
+        if summary:
+            # retrieved from the summary AI in first line
+            for line in summary.split('\n'):
+                if line.strip():
+                    title = line.strip()
+                    if title.lower().startswith('title:'):
+                        title = title[6:].strip()
+                    break
+
+        data = {
+            'meeting_id': meeting_id,
+            'title': title,
+            'meeting_type': row['meeting_type'],
+            'date': date_short,
+            'year': year,
+            'pdf_url': row['transcript_url'],
+            'agenda_url': row['agenda_url'],
+            'summary_source': 'gemini-2.5-flash',
+            'summary': summary,
+            'topics': [], # We don't have topics extraction natively yet in DB
+            'transcript': row['transcript_text'],
+        }
+
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2)
+            
+        return f"OK: {path}"
+
+    except Exception as e:
+        return f"FAILED {meeting_id}: {type(e).__name__}: {e}"
+
+def main():
+    conn = sqlite3.connect(BASE_DIR / 'austin_meetings.db')
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+    
+    cursor.execute("""
+        SELECT 
+            meeting_id,
+            date,
+            meeting_type,
+            agenda_url,
+            gemini_summary,
+            post_meeting_summary,
+            transcript_url,
+            transcript_text
+        FROM meetings
+        WHERE date LIKE '%05-28%'
+    """)
+    
+    rows = cursor.fetchall()
+    print(f"Processing {len(rows)} rows...")
+    
+    for row in rows:
+        result = write_meeting_json(row)
+        print(result)
+
+if __name__ == '__main__':
+    main()

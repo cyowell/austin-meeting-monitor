@@ -98,6 +98,7 @@ class AustinCouncilMonitor:
             ('video_url', 'TEXT'),
             ('post_meeting_summary', 'TEXT'),
             ('completed_processed_at', 'TEXT'),
+            ('transcript_text', 'TEXT'),
         ]
         for col_name, col_type in migrations:
             if col_name not in existing_columns:
@@ -325,9 +326,7 @@ class AustinCouncilMonitor:
             return self._simple_summary(agenda_text)
 
         try:
-            prompt = f"""Summarize this Austin City Council agenda in 3-5 bullet points.
-Focus on the most important items, public hearings, and policy decisions.
-Keep it concise and accessible to the general public.
+            prompt = f"""Summarize this Austin City Council agenda in 3–5 bullet points. Put a title that is SEO friendly for the summary in the first line prepended by "Title:" that itself is under 50 characters, mentions key interesting content and doesn't mention the council, the year or that it's a summary. Focus on the most important items, public hearings, and policy decisions. Keep it concise and accessible to the general public.
 
 Agenda text:
 {agenda_text[:100000]}"""
@@ -681,6 +680,7 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                     actions_url = ?,
                     video_url = ?,
                     post_meeting_summary = CASE WHEN ? IS NOT NULL THEN ? ELSE post_meeting_summary END,
+                    transcript_text = ?,
                     completed_processed_at = ?
                 WHERE meeting_id = ?
             ''', (
@@ -689,6 +689,7 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                 post_data['video_url'],
                 post_summary,  # used in CASE check
                 post_summary,  # used as new value
+                transcript_text,
                 datetime.now().isoformat(),
                 meeting_id
             ))
