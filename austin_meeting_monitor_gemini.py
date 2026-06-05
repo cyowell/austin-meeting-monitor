@@ -247,6 +247,7 @@ class AustinCouncilMonitor:
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
 
+            agenda_links = []
             for link in soup.find_all('a', href=True):
                 href = link['href']
                 link_text = link.get_text().lower()
@@ -255,9 +256,18 @@ class AustinCouncilMonitor:
                     full_url = urljoin(meeting_url, href)
                     if not full_url.startswith('http'):
                         full_url = 'https://www.austintexas.gov' + href
-                    return full_url
+                    agenda_links.append((link_text, full_url))
 
-            return None
+            if not agenda_links:
+                return None
+
+            # Prioritize links with "final" in the text
+            for text, url in agenda_links:
+                if 'final' in text:
+                    return url
+
+            # Default to the first matching agenda link
+            return agenda_links[0][1]
 
         except Exception as e:
             logging.error(f"✗ Error finding agenda URL: {e}")
@@ -596,12 +606,13 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
         if cursor.rowcount:
             logging.info(f"  ✓ Newly marked {cursor.rowcount} meeting(s) as completed")
 
-        # Now fetch all completed meetings that haven't been post-processed
+        # Now fetch all completed meetings that haven't been fully post-processed
         cursor.execute('''
-            SELECT meeting_id, date, meeting_type, meeting_url
+            SELECT meeting_id, date, meeting_type, meeting_url, agenda_url, gemini_summary,
+                   transcript_url, actions_url, video_url, transcript_text, post_meeting_summary
             FROM meetings
             WHERE is_completed = 1
-              AND (completed_processed_at IS NULL OR transcript_url IS NULL)
+              AND (completed_processed_at IS NULL OR transcript_url IS NULL OR actions_url IS NULL OR video_url IS NULL)
             ORDER BY date DESC
         ''')
         rows = cursor.fetchall()
@@ -613,26 +624,56 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
 
         processed = []
         for row in rows:
-            meeting_id, meeting_date, meeting_type, meeting_url = row
+            meeting_id, meeting_date, meeting_type, meeting_url, old_agenda_url, old_summary, db_transcript_url, db_actions_url, db_video_url, db_transcript_text, db_post_summary = row
 
             logging.info(f"\n  📋 Post-processing: {meeting_date} {meeting_type} ({meeting_id})")
 
+            # Check for updated/final agenda URL
+            new_agenda_url = self.get_agenda_url(meeting_url)
+            agenda_url = old_agenda_url
+            summary = old_summary
+
+            if new_agenda_url and new_agenda_url != old_agenda_url:
+                logging.info(f"  🔄 Found new/updated agenda URL: {new_agenda_url} (was: {old_agenda_url})")
+                agenda_url = new_agenda_url
+                pdf_path = f"temp_agenda_update_{meeting_id}.pdf"
+                if self.download_pdf(new_agenda_url, pdf_path):
+                    agenda_text = self.extract_text_from_pdf(pdf_path)
+                    try:
+                        os.remove(pdf_path)
+                    except Exception:
+                        pass
+                    if agenda_text:
+                        new_summary = self.summarize_agenda(agenda_text)
+                        if new_summary:
+                            summary = new_summary
+                            logging.info("  ✓ Successfully re-summarized updated agenda")
+                
+                conn = sqlite3.connect(self.db_path)
+                cursor = conn.cursor()
+                cursor.execute(
+                    'UPDATE meetings SET agenda_url = ?, gemini_summary = ? WHERE meeting_id = ?',
+                    (agenda_url, summary, meeting_id)
+                )
+                conn.commit()
+                conn.close()
+
             post_data = self.scrape_post_meeting_data(meeting_url)
 
-            # If none of the post-meeting resources are available yet, skip for now
-            if not any(post_data.values()):
-                logging.info(f"  ⏳ Post-meeting resources not yet available for {meeting_id}")
-                # Still mark so we don't continually hammer very old or non-standard meetings
-                # Only skip recent ones that might still be pending
-                meeting_date_obj = None
-                try:
-                    meeting_date_obj = datetime.strptime(meeting_date, '%Y-%m-%d').date()
-                except ValueError:
-                    pass
+            new_transcript = post_data['transcript_url'] and post_data['transcript_url'] != db_transcript_url
+            new_actions = post_data['actions_url'] and post_data['actions_url'] != db_actions_url
+            new_video = post_data['video_url'] and post_data['video_url'] != db_video_url
 
-                days_past = (date.today() - meeting_date_obj).days if meeting_date_obj else 999
+            meeting_date_obj = None
+            try:
+                meeting_date_obj = datetime.strptime(meeting_date, '%Y-%m-%d').date()
+            except ValueError:
+                pass
+            days_past = (date.today() - meeting_date_obj).days if meeting_date_obj else 999
+
+            # If no new resources are found, check if we should give up (14 days)
+            if not (new_transcript or new_actions or new_video):
                 if days_past > 14:
-                    # Give up after 2 weeks — mark as processed with no data
                     conn = sqlite3.connect(self.db_path)
                     cursor = conn.cursor()
                     cursor.execute(
@@ -641,37 +682,47 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                     )
                     conn.commit()
                     conn.close()
+                else:
+                    logging.info(f"  ⏳ No new post-meeting resources yet for {meeting_id}")
                 continue
 
-            # Fetch text sources
-            transcript_text = None
-            if post_data['transcript_url']:
-                pdf_path = f"temp_transcript_{meeting_id}.pdf"
-                if self.download_pdf(post_data['transcript_url'], pdf_path):
-                    transcript_text = self.extract_text_from_pdf(pdf_path)
-                    try:
-                        os.remove(pdf_path)
-                    except Exception:
-                        pass
-
+            needs_new_summary = new_transcript or new_actions
+            transcript_text = db_transcript_text
             actions_text = None
-            if post_data['actions_url']:
-                actions_text = self.fetch_actions_text(post_data['actions_url'])
+            post_summary = db_post_summary
 
-            # Generate the post-meeting summary
-            meeting_data_dict = {
-                'id': meeting_id,
-                'date': meeting_date,
-                'meeting_type': meeting_type,
-                'url': meeting_url
-            }
-            post_summary = self.generate_post_meeting_summary(
-                meeting_data_dict, transcript_text, actions_text
-            )
+            if needs_new_summary:
+                if post_data['transcript_url']:
+                    if new_transcript:
+                        pdf_path = f"temp_transcript_{meeting_id}.pdf"
+                        if self.download_pdf(post_data['transcript_url'], pdf_path):
+                            transcript_text = self.extract_text_from_pdf(pdf_path)
+                            try:
+                                os.remove(pdf_path)
+                            except Exception:
+                                pass
+                    # If not a new transcript, we keep using db_transcript_text
 
-            # Save everything to DB.
-            # Only store post_meeting_summary if Gemini produced real content
-            # (None means failed/unavailable — publisher falls back to agenda summary).
+                if post_data['actions_url']:
+                    actions_text = self.fetch_actions_text(post_data['actions_url'])
+
+                meeting_data_dict = {
+                    'id': meeting_id,
+                    'date': meeting_date,
+                    'meeting_type': meeting_type,
+                    'url': meeting_url
+                }
+                
+                new_post_summary = self.generate_post_meeting_summary(
+                    meeting_data_dict, transcript_text, actions_text
+                )
+                if new_post_summary:
+                    post_summary = new_post_summary
+
+            # Only set completed_processed_at if we have everything or if 14 days have passed
+            all_found = post_data['transcript_url'] and post_data['actions_url'] and post_data['video_url']
+            completed_processed_at = datetime.now().isoformat() if (all_found or days_past > 14) else None
+
             conn = sqlite3.connect(self.db_path)
             cursor = conn.cursor()
             cursor.execute('''
@@ -679,24 +730,27 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                     transcript_url = ?,
                     actions_url = ?,
                     video_url = ?,
-                    post_meeting_summary = CASE WHEN ? IS NOT NULL THEN ? ELSE post_meeting_summary END,
+                    post_meeting_summary = ?,
                     transcript_text = ?,
-                    completed_processed_at = ?
+                    completed_processed_at = ?,
+                    agenda_url = ?,
+                    gemini_summary = ?
                 WHERE meeting_id = ?
             ''', (
-                post_data['transcript_url'],
-                post_data['actions_url'],
-                post_data['video_url'],
-                post_summary,  # used in CASE check
-                post_summary,  # used as new value
+                post_data['transcript_url'] or db_transcript_url,
+                post_data['actions_url'] or db_actions_url,
+                post_data['video_url'] or db_video_url,
+                post_summary,
                 transcript_text,
-                datetime.now().isoformat(),
+                completed_processed_at,
+                agenda_url,
+                summary,
                 meeting_id
             ))
             conn.commit()
             conn.close()
 
-            logging.info(f"  ✅ Post-processing complete for {meeting_id}")
+            logging.info(f"  ✅ Post-processing update complete for {meeting_id}")
             processed.append(meeting_id)
 
             time.sleep(2)  # Be polite to the city's servers
