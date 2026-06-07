@@ -66,7 +66,7 @@ def main():
             transcript_url,
             transcript_text
         FROM meetings
-        WHERE date LIKE '%05-28%'
+        WHERE completed_processed_at IS NOT NULL
     """)
     
     rows = cursor.fetchall()

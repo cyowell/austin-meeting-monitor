@@ -44,6 +44,21 @@ jobs:
       run: |
         python3 github_pages_publisher.py
     
+    - name: Export JSON Archives
+      run: |
+        python3 export_meetings_json.py
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Build Astro Archives
+      run: |
+        cd archives
+        npm install
+        npm run build
+    
     - name: Commit and push updates
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
