@@ -22,7 +22,8 @@ const { meeting } = Astro.props;
 const summaryHtml = meeting.summary ? marked.parse(meeting.summary) : '<p>No summary available.</p>';
 
 // Formatting helpers
-const formattedDate = new Date(meeting.date).toLocaleDateString('en-US', {
+// Add T12:00:00Z to ensure it doesn't shift backward in local time
+const formattedDate = new Date(meeting.date + 'T12:00:00Z').toLocaleDateString('en-US', {
   weekday: 'long',
   year: 'numeric',
   month: 'long',
@@ -46,10 +47,28 @@ const formattedDate = new Date(meeting.date).toLocaleDateString('en-US', {
       </h1>
       
       <div class="action-buttons">
+        {meeting.meeting_url && (
+          <a href={meeting.meeting_url} class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+            Meeting Page
+          </a>
+        )}
         {meeting.agenda_url && (
-          <a href={meeting.agenda_url} class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+          <a href={meeting.agenda_url} class="btn btn-outline" target="_blank" rel="noopener noreferrer">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
-            View Agenda
+            Agenda
+          </a>
+        )}
+        {meeting.actions_url && (
+          <a href={meeting.actions_url} class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+            Actions
+          </a>
+        )}
+        {meeting.video_url && (
+          <a href={meeting.video_url} class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+            Video
           </a>
         )}
         {meeting.pdf_url && (

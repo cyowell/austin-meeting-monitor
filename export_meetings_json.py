@@ -34,8 +34,11 @@ def write_meeting_json(row):
             'meeting_type': row['meeting_type'],
             'date': date_short,
             'year': year,
-            'pdf_url': row['transcript_url'],
+            'meeting_url': row['meeting_url'],
             'agenda_url': row['agenda_url'],
+            'video_url': row['video_url'],
+            'actions_url': row['actions_url'],
+            'pdf_url': row['transcript_url'],
             'summary_source': 'gemini-2.5-flash',
             'summary': summary,
             'topics': [], # We don't have topics extraction natively yet in DB
@@ -60,13 +63,16 @@ def main():
             meeting_id,
             date,
             meeting_type,
+            meeting_url,
             agenda_url,
+            video_url,
+            actions_url,
             gemini_summary,
             post_meeting_summary,
             transcript_url,
             transcript_text
         FROM meetings
-        WHERE completed_processed_at IS NOT NULL
+        WHERE date = '2026-05-28'
     """)
     
     rows = cursor.fetchall()
