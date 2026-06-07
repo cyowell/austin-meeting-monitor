@@ -1,0 +1,39 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Austin City Council Meeting Archives" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title} | Austin City Council Archives</title>
+		<ClientRouter />
+	</head>
+	<body>
+		<header class="site-header">
+			<h1 class="site-title">🏛️ Austin City Council Meeting Monitor</h1>
+			<p class="site-subtitle">Automated AI-powered summaries of Austin City Council meetings</p>
+		</header>
+		<main class="main-container">
+			<slot />
+		</main>
+		<footer style="text-align: center; padding: 2rem; color: var(--color-text-muted); font-size: 0.9rem; margin-top: auto;">
+			<p><strong>About This Site</strong></p>
+			<p>Summaries are generated using Google Gemini AI. For official information, always refer to the City of Austin website.</p>
+			<div style="margin-top: 1rem;">
+				<a href="https://austincouncil.app" style="color: var(--color-primary-base);">Back to Home</a>
+			</div>
+		</footer>
+	</body>
+</html>
