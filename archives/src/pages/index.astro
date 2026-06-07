@@ -19,6 +19,7 @@ const meetings = getAllMeetings();
     {meetings.length > 0 ? (
       meetings.map((meeting) => {
         const formattedDate = new Date(meeting.date).toLocaleDateString('en-US', {
+          timeZone: 'UTC',
           year: 'numeric',
           month: 'long',
           day: 'numeric',
