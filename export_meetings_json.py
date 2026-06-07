@@ -72,7 +72,7 @@ def main():
             transcript_url,
             transcript_text
         FROM meetings
-        WHERE date = '2026-05-28'
+        WHERE date >= '2026-03-12' AND completed_processed_at IS NOT NULL
     """)
     
     rows = cursor.fetchall()

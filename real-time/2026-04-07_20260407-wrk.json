@@ -1,0 +1,16 @@
+{
+  "meeting_id": "20260407-wrk",
+  "title": "Here's a summary of what the Austin City Council discussed at this work session:",
+  "meeting_type": "Work Session",
+  "date": "2026-04-07",
+  "year": 2026,
+  "meeting_url": "https://www.austintexas.gov/council/2026/20260407-wrk",
+  "agenda_url": "https://services.austintexas.gov/edims/document.cfm?id=470371",
+  "video_url": "http://austintx.swagit.com/play/381314/0/",
+  "actions_url": null,
+  "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=470918",
+  "summary_source": "gemini-2.5-flash",
+  "summary": "Here's a summary of what the Austin City Council discussed at this work session:\n\n*   **Austin Police Overhaul Use of Force Policies:** The Council received a detailed update on significant changes to the Austin Police Department's (APD) Use of Force policies, which took effect on January 1, 2026. These changes streamlined seven previous policies into two main documents and updated key definitions, shifting from \"response to resistance\" to \"use of force.\"\n*   **Emphasis on De-escalation and Training:** New policies explicitly require officers to use force that is \"necessary and proportional\" in addition to being \"objectively reasonable.\" All APD officers completed mandatory training in evidence-based de-escalation techniques, including programs like ICAT (Integrating Communications Assessments and Tactics) and Able (Active Bystandership for Law Enforcement).\n*   **New System for Reporting Minor Incidents:** APD removed the \"Level Four\" category, which previously counted many minor physical actions (like basic control holds) as \"use of force.\" Many such actions are now classified as \"Reportable Incidents\" (e.g., displaying a taser's warning arc or actively targeting a firearm), requiring mandatory reporting and immediate supervisor review, but no longer inflating overall \"use of force\" statistics.\n*   **Improved Data Transparency and Analysis:** APD corrected and re-released past use of force reports (2020-2022) and issued new reports (2023-2025) using an automated, subject-focused counting method for better analysis. This updated data is now available on the city's open data portal, and APD plans to provide quarterly updates to the Council.\n*   **No Racial Disparities Found in Force Use:** New analysis presented to the Council, using multiple statistical methods, concluded that there are no significant racial or ethnic disparities in the likelihood of force being used against Black and Hispanic individuals compared to white individuals when other relevant factors are considered.\n*   **Downtown Area Highlighted for High Force Incidents:** Data consistently showed the George Sector, which includes downtown and Sixth Street, has a disproportionately higher number of use of force incidents and arrests compared to other areas, a trend explained by high public activity and discussed by police leadership.",
+  "topics": [],
+  "transcript": null
+}
