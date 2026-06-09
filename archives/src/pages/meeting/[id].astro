@@ -27,22 +27,17 @@ const formattedDate = new Date(meeting.date + 'T12:00:00Z').toLocaleDateString('
   day: 'numeric',
 });
 
-// Configure marked to render bold list items as H3
-const renderer = new marked.Renderer();
-renderer.listitem = function({text}) {
-  let processedText = text;
-  // Check if text starts with strong tags and extract the content
-  if (processedText && processedText.startsWith('<strong>')) {
-    processedText = processedText.replace(/^<strong>(.*?)<\/strong>[:\-]?\s*/i, '<h3>$1</h3>');
-  }
-  return `<li>${processedText}</li>`;
-};
-
 // Format summary text by making the introductory boilerplate an H2
-const boilerplateRegex = new RegExp("^Here's a summary of what.*?meeting:", "is");
-const modifiedSummaryText = meeting.summary 
-  ? meeting.summary.replace(boilerplateRegex, (match) => `## ${match}\n\n`) 
+const boilerplateRegex = new RegExp("^Here's.*?meeting.*?:\\s*", "is");
+let modifiedSummaryText = meeting.summary 
+  ? meeting.summary.replace(boilerplateRegex, (match) => `## ${match.trim()}\n\n`) 
   : '';
+
+// Pre-process bullet points to turn bold titles into H3
+if (modifiedSummaryText) {
+  // Convert bullet items starting with bold text to have an H3
+  modifiedSummaryText = modifiedSummaryText.replace(/^[*-]\s+\*\*(.*?)\*\*[:\-]?\s*/gm, '* <h3>$1</h3> ');
+}
 
 // Clean summary text for SEO description
 const cleanSummaryText = meeting.summary 
@@ -50,7 +45,7 @@ const cleanSummaryText = meeting.summary
   : '';
 
 // Convert markdown summary to HTML safely
-const summaryHtml = modifiedSummaryText ? marked.parse(modifiedSummaryText, { renderer }) : '<p>No summary available.</p>';
+const summaryHtml = modifiedSummaryText ? marked.parse(modifiedSummaryText) : '<p>No summary available.</p>';
 
 // Extract a plain text description for SEO
 const metaDescription = cleanSummaryText ? cleanSummaryText.replace(/[#*]/g, '').substring(0, 150) + '...' : 'Austin City Council Meeting Archive';
