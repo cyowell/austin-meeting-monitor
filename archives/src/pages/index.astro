@@ -32,7 +32,7 @@ const meetings = getAllMeetings();
               <span class="badge" style="font-size: 0.75rem;">{meeting.meeting_type}</span>
             </div>
             <p style="font-size: 0.9rem; color: var(--color-text-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: auto;">
-              {meeting.summary ? meeting.summary.replace(new RegExp("Here's a summary of what the .*? did at .*? meeting:\\\\s*", "i"), '').replace(/[#*]/g, '').substring(0, 150) + '...' : 'No summary available.'}
+              {meeting.summary ? meeting.summary.replace(new RegExp("^Here's a summary of what.*?meeting:\\\\s*", "is"), '').replace(/[#*]/g, '').substring(0, 150) + '...' : 'No summary available.'}
             </p>
           </a>
         );

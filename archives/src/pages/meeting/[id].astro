@@ -27,25 +27,30 @@ const formattedDate = new Date(meeting.date + 'T12:00:00Z').toLocaleDateString('
   day: 'numeric',
 });
 
-// Configure marked to render bold list items as H2
+// Configure marked to render bold list items as H3
 const renderer = new marked.Renderer();
 renderer.listitem = function({text}) {
   let processedText = text;
   // Check if text starts with strong tags and extract the content
   if (processedText && processedText.startsWith('<strong>')) {
-    processedText = processedText.replace(/^<strong>(.*?)<\/strong>[:\-]?\s*/i, '<h2>$1</h2>');
+    processedText = processedText.replace(/^<strong>(.*?)<\/strong>[:\-]?\s*/i, '<h3>$1</h3>');
   }
   return `<li>${processedText}</li>`;
 };
 
-// Clean summary text by stripping the introductory boilerplate
-const boilerplateRegex = new RegExp("Here's a summary of what the .*? did at .*? meeting:\\\\s*", "i");
+// Format summary text by making the introductory boilerplate an H2
+const boilerplateRegex = new RegExp("^Here's a summary of what.*?meeting:", "is");
+const modifiedSummaryText = meeting.summary 
+  ? meeting.summary.replace(boilerplateRegex, (match) => `## ${match}\n\n`) 
+  : '';
+
+// Clean summary text for SEO description
 const cleanSummaryText = meeting.summary 
   ? meeting.summary.replace(boilerplateRegex, '') 
   : '';
 
 // Convert markdown summary to HTML safely
-const summaryHtml = cleanSummaryText ? marked.parse(cleanSummaryText, { renderer }) : '<p>No summary available.</p>';
+const summaryHtml = modifiedSummaryText ? marked.parse(modifiedSummaryText, { renderer }) : '<p>No summary available.</p>';
 
 // Extract a plain text description for SEO
 const metaDescription = cleanSummaryText ? cleanSummaryText.replace(/[#*]/g, '').substring(0, 150) + '...' : 'Austin City Council Meeting Archive';
@@ -62,10 +67,6 @@ const metaDescription = cleanSummaryText ? cleanSummaryText.replace(/[#*]/g, '')
         </span>
         <span class="badge">{meeting.meeting_type}</span>
       </div>
-      
-      <h1 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; line-height: 1.2; text-wrap: balance; margin-bottom: 1.5rem; color: var(--color-primary-dark);">
-        Here's a summary of what the {meeting.meeting_type} did at their {formattedDate} meeting:
-      </h1>
       
       <div class="action-buttons">
         {meeting.meeting_url && (
