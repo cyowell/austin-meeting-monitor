@@ -18,9 +18,6 @@ export async function getStaticPaths() {
 
 const { meeting } = Astro.props;
 
-// Convert markdown summary to HTML safely
-const summaryHtml = meeting.summary ? marked.parse(meeting.summary) : '<p>No summary available.</p>';
-
 // Formatting helpers
 // Add T12:00:00Z to ensure it doesn't shift backward in local time
 const formattedDate = new Date(meeting.date + 'T12:00:00Z').toLocaleDateString('en-US', {
@@ -29,21 +26,45 @@ const formattedDate = new Date(meeting.date + 'T12:00:00Z').toLocaleDateString('
   month: 'long',
   day: 'numeric',
 });
+
+// Configure marked to render bold list items as H2
+const renderer = new marked.Renderer();
+renderer.listitem = function({text}) {
+  let processedText = text;
+  // Check if text starts with strong tags and extract the content
+  if (processedText && processedText.startsWith('<strong>')) {
+    processedText = processedText.replace(/^<strong>(.*?)<\/strong>[:\-]?\s*/i, '<h2>$1</h2>');
+  }
+  return `<li>${processedText}</li>`;
+};
+
+// Clean summary text by stripping the introductory boilerplate
+const boilerplateRegex = new RegExp("Here's a summary of what the .*? did at .*? meeting:\\\\s*", "i");
+const cleanSummaryText = meeting.summary 
+  ? meeting.summary.replace(boilerplateRegex, '') 
+  : '';
+
+// Convert markdown summary to HTML safely
+const summaryHtml = cleanSummaryText ? marked.parse(cleanSummaryText, { renderer }) : '<p>No summary available.</p>';
+
+// Extract a plain text description for SEO
+const metaDescription = cleanSummaryText ? cleanSummaryText.replace(/[#*]/g, '').substring(0, 150) + '...' : 'Austin City Council Meeting Archive';
+
 ---
 
-<Layout title={`${meeting.title || meeting.meeting_type}`}>
+<Layout title={`${formattedDate} ${meeting.meeting_type}`} description={metaDescription}>
   <article class="glass-card">
     <header style="margin-bottom: 2rem; border-bottom: 1px solid rgba(0,0,0,0.1); padding-bottom: 1.5rem;">
       <div class="meeting-meta">
-        <span class="badge">{meeting.meeting_type}</span>
         <span class="meeting-date">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: -3px; margin-right: 4px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
           {formattedDate}
         </span>
+        <span class="badge">{meeting.meeting_type}</span>
       </div>
       
       <h1 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; line-height: 1.2; text-wrap: balance; margin-bottom: 1.5rem; color: var(--color-primary-dark);">
-        {meeting.title || `${meeting.meeting_type} Meeting`}
+        Here's a summary of what the {meeting.meeting_type} did at their {formattedDate} meeting:
       </h1>
       
       <div class="action-buttons">
