@@ -5,9 +5,10 @@ import '../styles/global.css';
 interface Props {
 	title: string;
 	description?: string;
+	hideHeader?: boolean;
 }
 
-const { title, description = "Austin City Council Meeting Archives" } = Astro.props;
+const { title, description = "Austin City Council Meeting Archives", hideHeader = false } = Astro.props;
 ---
 
 <!doctype html>
@@ -22,10 +23,12 @@ const { title, description = "Austin City Council Meeting Archives" } = Astro.pr
 		<ClientRouter />
 	</head>
 	<body>
+		{!hideHeader && (
 		<header class="site-header">
 			<h1 class="site-title">🏛️ Austin City Council Meeting Monitor</h1>
 			<p class="site-subtitle">Automated AI-powered summaries of Austin City Council meetings</p>
 		</header>
+		)}
 		<main class="main-container">
 			<slot />
 		</main>
