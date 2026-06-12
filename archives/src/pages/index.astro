@@ -41,24 +41,31 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
 
   <div class="layout-with-sidebar">
     <aside class="sidebar-container">
-      <div class="glass-card" style="padding: 1.5rem;">
-        <h3 class="sidebar-header">Browse by Decade</h3>
-        <button class="all-meetings-btn active" data-reset-filter>All Meetings</button>
-        
-        {decades.map(d => (
-          <details class="decade-details" data-decade-group={d.decade}>
-            <summary class="decade-summary">
-              {d.decade}
-            </summary>
-            <ul class="year-list">
-              {d.years.map(y => (
-                <li class="year-item">
-                  <button class="year-btn" data-filter-year={y}>{y}</button>
-                </li>
-              ))}
-            </ul>
-          </details>
-        ))}
+      <div class="glass-card sidebar-card">
+        <details class="sidebar-details" id="sidebar-details">
+          <summary class="sidebar-main-summary">
+            <h3 class="sidebar-header">Browse by Decade</h3>
+            <span class="main-toggle-icon">⌄</span>
+          </summary>
+          <div class="sidebar-content">
+            <button class="all-meetings-btn active" data-reset-filter>All Meetings</button>
+            
+            {decades.map(d => (
+              <details class="decade-details" data-decade-group={d.decade}>
+                <summary class="decade-summary">
+                  {d.decade}
+                </summary>
+                <ul class="year-list">
+                  {d.years.map(y => (
+                    <li class="year-item">
+                      <button class="year-btn" data-filter-year={y}>{y}</button>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ))}
+          </div>
+        </details>
       </div>
     </aside>
 
@@ -120,16 +127,25 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
     </div>
   </div>
 
-  <script>
-    document.addEventListener('astro:page-load', () => {
+  <script is:inline>
+    function initArchiveSearch() {
       const searchInput = document.getElementById('meeting-search');
       const yearSelect = document.getElementById('year-select');
       const resetBtn = document.querySelector('[data-reset-filter]');
       const yearBtns = document.querySelectorAll('[data-filter-year]');
       const meetingCards = document.querySelectorAll('.meeting-card');
       const resultsText = document.getElementById('results-text');
+      const sidebarDetails = document.getElementById('sidebar-details');
+      
+      if (sidebarDetails && window.innerWidth >= 768) {
+        sidebarDetails.open = true;
+      }
       
       if (!searchInput || !meetingCards.length) return;
+
+      // Prevent multiple listener bindings
+      if (searchInput.dataset.initialized) return;
+      searchInput.dataset.initialized = 'true';
 
       let currentSearch = '';
       let currentYear = 'all';
@@ -200,6 +216,9 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
           updateFilters();
         });
       });
-    });
+    }
+
+    initArchiveSearch();
+    document.addEventListener('astro:page-load', initArchiveSearch);
   </script>
 </Layout>
