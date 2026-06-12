@@ -8,6 +8,16 @@ const allYears = [...new Set(meetings.map(m => m.year).filter(Boolean))].sort((a
 
 const decadesObj = {};
 meetings.forEach(m => {
+  // Ensure we have a year
+  if (!m.year && m.date) {
+    m.year = new Date(m.date).getUTCFullYear();
+  }
+  
+  // Ensure we have a decade
+  if (!m.decade && m.year) {
+    m.decade = Math.floor(m.year / 10) * 10 + 's';
+  }
+
   if (m.decade && m.year) {
     if (!decadesObj[m.decade]) decadesObj[m.decade] = new Set();
     decadesObj[m.decade].add(m.year);
