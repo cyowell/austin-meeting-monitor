@@ -51,6 +51,16 @@ const summaryHtml = modifiedSummaryText ? marked.parse(modifiedSummaryText) : '<
 // Extract a plain text description for SEO
 const metaDescription = cleanSummaryText ? cleanSummaryText.replace(/[#*]/g, '').substring(0, 150) + '...' : 'Austin City Council Meeting Archive';
 
+// Format transcript for mobile display (removes hard line breaks within paragraphs)
+let formattedTranscript = meeting.transcript;
+if (formattedTranscript) {
+  formattedTranscript = formattedTranscript
+    .replace(/\r\n/g, '\n')
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.replace(/\n/g, ' '))
+    .join('\n\n');
+}
+
 ---
 
 <Layout title={`${formattedDate} ${meeting.meeting_type}`} description={metaDescription}>
@@ -101,13 +111,13 @@ const metaDescription = cleanSummaryText ? cleanSummaryText.replace(/[#*]/g, '')
 
     <div class="prose" set:html={summaryHtml} />
 
-    {meeting.transcript && (
+    {formattedTranscript && (
       <div class="transcript-container">
         <h3 style="margin-top: 0; margin-bottom: 1rem; color: var(--color-primary-dark); position: sticky; top: -1.5rem; background: var(--color-bg-surface); padding-block: 1.5rem 0.5rem; z-index: 1;">
           Full Transcript
         </h3>
         <div class="transcript-content">
-          {meeting.transcript}
+          {formattedTranscript}
         </div>
       </div>
     )}
