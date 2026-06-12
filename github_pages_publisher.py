@@ -506,6 +506,8 @@ class GitHubPagesPublisher:
             <a href="/about" style="color:white;text-decoration:none" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.8">About &amp; Methodology</a>
             &nbsp;·&nbsp;
             <a href="/about#journalists" style="color:white;text-decoration:none" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.8">For Journalists</a>
+            &nbsp;·&nbsp;
+            <a href="/archives/" style="color:white;text-decoration:none" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.8">Archives</a>
         </nav>
         <div class="subscribe-box">
             <h3>📬 Never Miss a Meeting</h3>
@@ -578,6 +580,7 @@ class GitHubPagesPublisher:
         <p style="margin-top:12px">
             <a href="/about">About &amp; Methodology</a> &nbsp;|&nbsp;
             <a href="/about#journalists">For Journalists</a> &nbsp;|&nbsp;
+            <a href="/archives/">Archives</a> &nbsp;|&nbsp;
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
