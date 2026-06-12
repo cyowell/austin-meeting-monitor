@@ -19,8 +19,9 @@ export async function getStaticPaths() {
 const { meeting } = Astro.props;
 
 // Formatting helpers
-// Add T12:00:00Z to ensure it doesn't shift backward in local time
-const formattedDate = new Date(meeting.date + 'T12:00:00Z').toLocaleDateString('en-US', {
+// Use timeZone: 'UTC' to ensure dates parsed as UTC midnight (like YYYY-MM-DD) don't shift backward
+const formattedDate = new Date(meeting.date).toLocaleDateString('en-US', {
+  timeZone: 'UTC',
   weekday: 'long',
   year: 'numeric',
   month: 'long',

@@ -3,6 +3,20 @@ import Layout from '../layouts/Layout.astro';
 import { getAllMeetings } from '../utils/getMeetings.js';
 
 const meetings = getAllMeetings();
+
+const allYears = [...new Set(meetings.map(m => m.year).filter(Boolean))].sort((a, b) => b - a);
+
+const decadesObj = {};
+meetings.forEach(m => {
+  if (m.decade && m.year) {
+    if (!decadesObj[m.decade]) decadesObj[m.decade] = new Set();
+    decadesObj[m.decade].add(m.year);
+  }
+});
+const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)).map(d => ({
+  decade: d,
+  years: [...decadesObj[d]].sort((a, b) => b - a)
+}));
 ---
 
 <Layout title="Meeting Archives">
@@ -15,32 +29,167 @@ const meetings = getAllMeetings();
     </p>
   </div>
 
-  <div style="display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
-    {meetings.length > 0 ? (
-      meetings.map((meeting) => {
-        const formattedDate = new Date(meeting.date).toLocaleDateString('en-US', {
-          timeZone: 'UTC',
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric',
-        });
+  <div class="layout-with-sidebar">
+    <aside class="sidebar-container">
+      <div class="glass-card" style="padding: 1.5rem;">
+        <h3 class="sidebar-header">Browse by Decade</h3>
+        <button class="all-meetings-btn active" data-reset-filter>All Meetings</button>
         
-        return (
-          <a href={`/archives/meeting/${meeting.meeting_id}`} class="glass-card" style="display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 1.5rem;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-              <span style="font-size: 0.85rem; font-weight: 600; color: var(--color-primary-base);">{formattedDate}</span>
-              <span class="badge" style="font-size: 0.75rem;">{meeting.meeting_type}</span>
-            </div>
-            <p style="font-size: 0.9rem; color: var(--color-text-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: auto;">
-              {meeting.summary ? meeting.summary.replace(new RegExp("^Here's.*?meeting.*?:\\s*", "is"), '').replace(/[#*]/g, '').substring(0, 150) + '...' : 'No summary available.'}
-            </p>
-          </a>
-        );
-      })
-    ) : (
-      <p style="grid-column: 1 / -1; text-align: center; color: var(--color-text-muted); padding: 3rem; background: var(--color-bg-surface); border-radius: var(--radius-md);">
-        No meetings found in the archives.
-      </p>
-    )}
+        {decades.map(d => (
+          <details class="decade-details" data-decade-group={d.decade}>
+            <summary class="decade-summary">
+              {d.decade}
+            </summary>
+            <ul class="year-list">
+              {d.years.map(y => (
+                <li class="year-item">
+                  <button class="year-btn" data-filter-year={y}>{y}</button>
+                </li>
+              ))}
+            </ul>
+          </details>
+        ))}
+      </div>
+    </aside>
+
+    <div class="content-area">
+      <div class="search-toolbar">
+        <div class="search-input-wrapper">
+          <span class="search-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </span>
+          <input type="text" id="meeting-search" class="search-input" placeholder="Search meetings..." />
+        </div>
+        <select id="year-select" class="year-select">
+          <option value="all">All Years</option>
+          {allYears.map(y => (
+            <option value={y}>{y}</option>
+          ))}
+        </select>
+      </div>
+
+      <div class="results-count">
+        <span class="records-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+        </span>
+        <span id="results-text">{meetings.length} records found</span>
+      </div>
+
+      <div id="meetings-grid" style="display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+        {meetings.length > 0 ? (
+          meetings.map((meeting) => {
+            const formattedDate = new Date(meeting.date).toLocaleDateString('en-US', {
+              timeZone: 'UTC',
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            });
+            
+            // Prepare search text safely by escaping quotes if any
+            const rawSearchText = `${meeting.title || ''} ${meeting.summary || ''} ${meeting.meeting_type || ''} ${formattedDate}`.toLowerCase();
+            const searchText = rawSearchText.replace(/"/g, '&quot;');
+            
+            return (
+              <a href={`/archives/meeting/${meeting.meeting_id}`} class="glass-card meeting-card" data-year={meeting.year} data-decade={meeting.decade} data-search={searchText} style="display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+                  <span style="font-size: 0.85rem; font-weight: 600; color: var(--color-primary-base);">{formattedDate}</span>
+                  <span class="badge" style="font-size: 0.75rem;">{meeting.meeting_type}</span>
+                </div>
+                <p style="font-size: 0.9rem; color: var(--color-text-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: auto;">
+                  {meeting.summary ? meeting.summary.replace(new RegExp("^Here's.*?meeting.*?:\\s*", "is"), '').replace(/[#*]/g, '').substring(0, 150) + '...' : 'No summary available.'}
+                </p>
+              </a>
+            );
+          })
+        ) : (
+          <p style="grid-column: 1 / -1; text-align: center; color: var(--color-text-muted); padding: 3rem; background: var(--color-bg-surface); border-radius: var(--radius-md);">
+            No meetings found in the archives.
+          </p>
+        )}
+      </div>
+    </div>
   </div>
+
+  <script>
+    document.addEventListener('astro:page-load', () => {
+      const searchInput = document.getElementById('meeting-search');
+      const yearSelect = document.getElementById('year-select');
+      const resetBtn = document.querySelector('[data-reset-filter]');
+      const yearBtns = document.querySelectorAll('[data-filter-year]');
+      const meetingCards = document.querySelectorAll('.meeting-card');
+      const resultsText = document.getElementById('results-text');
+      
+      if (!searchInput || !meetingCards.length) return;
+
+      let currentSearch = '';
+      let currentYear = 'all';
+
+      function updateFilters() {
+        let visibleCount = 0;
+        
+        meetingCards.forEach(card => {
+          const cardYear = card.getAttribute('data-year');
+          const cardSearch = (card.getAttribute('data-search') || '').toLowerCase();
+          
+          const matchYear = currentYear === 'all' || cardYear === currentYear;
+          const matchSearch = currentSearch === '' || cardSearch.includes(currentSearch);
+          
+          if (matchYear && matchSearch) {
+            card.style.display = 'flex';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        if (resultsText) {
+          resultsText.textContent = `${visibleCount} record${visibleCount !== 1 ? 's' : ''} found`;
+        }
+
+        if (yearSelect) yearSelect.value = currentYear;
+
+        yearBtns.forEach(btn => {
+          if (btn.getAttribute('data-filter-year') === currentYear) {
+            btn.classList.add('active');
+            const details = btn.closest('details');
+            if (details) details.open = true;
+          } else {
+            btn.classList.remove('active');
+          }
+        });
+
+        if (resetBtn) {
+          if (currentYear === 'all' && currentSearch === '') {
+            resetBtn.classList.add('active');
+          } else {
+            resetBtn.classList.remove('active');
+          }
+        }
+      }
+
+      searchInput.addEventListener('input', (e) => {
+        currentSearch = e.target.value.toLowerCase().trim();
+        updateFilters();
+      });
+
+      yearSelect.addEventListener('change', (e) => {
+        currentYear = e.target.value;
+        updateFilters();
+      });
+
+      resetBtn.addEventListener('click', () => {
+        currentSearch = '';
+        searchInput.value = '';
+        currentYear = 'all';
+        updateFilters();
+      });
+
+      yearBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          currentYear = e.target.getAttribute('data-filter-year');
+          updateFilters();
+        });
+      });
+    });
+  </script>
 </Layout>
