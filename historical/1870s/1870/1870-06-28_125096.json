@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-06-28_125096",
-  "title": "",
+  "title": "** Austin City Land Sale and Public Health Ordinances 1870",
   "meeting_type": "special called",
   "date": "June 28, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125096",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Hospital Block Sale Authorized** – The city council voted to allow the mayor to sell a valuable piece of city property known as the \"Hospital Block\" to raise funds, with a minimum sale price of $1,200.\n\n• **\"Houses of Ill Fame\" Regulation** – Council introduced a special ordinance to regulate or restrict brothels in Austin, referring it to a committee for further discussion and recommendations at the next meeting.\n\n• **Quorum Issues** – Two aldermen were absent from the meeting, though enough council members were present to conduct official business and pass the property sale ordinance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

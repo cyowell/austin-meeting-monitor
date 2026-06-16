@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-01-10_124792",
-  "title": "",
+  "title": "Austin Budget Crisis: City Debt Vote Coming",
   "meeting_type": "special called",
   "date": "January 10, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124792",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Debt Crisis Solution**: Austin is struggling with $39,500 in floating debt and faces severe budget shortfalls. The council approved an election for February 11th to allow the city to issue $50,000 in new bonds to pay off existing debts and fund essential services like street repairs and sewerage systems.\n\n• **Salary Cuts Across the Board**: In response to financial constraints, the council slashed salaries for city employees—the City Clerk's pay dropped from $1,500 to $1,200 annually, the City Engineer from $1,200 to $900, and fire department engineers from $1,000 to $720 per year.\n\n• **Fire Department Funding**: The council allocated $300 for November and December 1881 to maintain the fire department, based on Chief John Bremond's annual budget proposal of approximately $4,524.\n\n• **Smallpox Relief**: The Charity Committee recommended awarding $20 to a local resident, Mrs. Walter, who cared for a smallpox victim and suffered financial losses when her bedding had to be destroyed for health reasons. An additional $1,000 was budgeted for sanitary purposes in infected districts.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

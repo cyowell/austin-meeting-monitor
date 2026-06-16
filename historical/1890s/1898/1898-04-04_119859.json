@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-04-04_119859",
-  "title": "",
+  "title": "Austin's April 1898: Street Clocks and Bridges",
   "meeting_type": "regular",
   "date": "April 04, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119859",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **New Public Infrastructure**: The council approved a street clock to be erected at 622 Congress Avenue by the F.A. Bahn Optical & Diamond Company and authorized $100 to build a bridge at Congress Avenue and West Fifth Street (later amended to add another $100 for a bridge at Congress Avenue and West Second Street).\n\n• **Municipal Finances**: The city reported a healthy balance of approximately $26,000 across various funds, with nearly $22,000 collected in taxes and fees in March. Significant payments were made for bond interest and warrants.\n\n• **Citizen Petitions**: Residents of the 9th and 10th Wards requested that Attayac Street be opened, while dairymen and milk dealers petitioned to repeal certain milk sales regulations—both matters referred to committees for further review.\n\n• **Printing Contract Dispute**: The council resolved a dispute over newspaper printing by directing the Printing Committee to solicit new bids, opening the bidding process after the Evening Tribune challenged the previous award to the Statesman Publishing Company.\n\n• **Employment and Pay Approvals**: Multiple ordinances passed to authorize employee salaries and back-pay, including $2,823.90 for March salaries and backpay for sanitary workers, drivers, and street department staff.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

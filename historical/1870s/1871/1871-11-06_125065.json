@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-11-06_125065",
-  "title": "",
+  "title": "** Austin Fire Safety & Transportation Rules 1871",
   "meeting_type": "regular",
   "date": "November 06, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125065",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Safety Crackdown** — The council passed strict ordinances limiting storage of flammable materials like kerosene oil (max 50 gallons), gunpowder (max 25 pounds), and hay/straw (max 500 pounds unless baled). Violators faced fines of $25-$100.\n\n• **Taxi Fare Regulation** — New rules set cab fares at 50 cents per passenger during daytime hours and $1-$1.50 per hour for hourly rentals. Drivers had to stay within 10 feet of their vehicles and display printed ordinances and license numbers on their cabs.\n\n• **Theater Licensing** — Austin established a $250 annual licensing fee for theatrical exhibitions (paid quarterly) or $5 per individual show to regulate entertainment venues.\n\n• **Fire District Expansion** — The city extended its fire limits to include all blocks along Congress Avenue from the Capitol to the Colorado River, likely to improve fire protection in the growing downtown area.\n\n• **Tax Authority Request** — Council drafted a memorial to petition the state legislature for permission to levy a property tax of up to one-half percent on Austin real estate and personal property.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

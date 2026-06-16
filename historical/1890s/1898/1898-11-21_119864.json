@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-11-21_119864",
-  "title": "",
+  "title": "** Austin Building Permits and Tax Budget Debates 1898",
   "meeting_type": "regular",
   "date": "November 21, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119864",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Roof Construction Approved**: Mrs. M. Smith received permission to install a corrugated iron roof on her building at the corner of East 6th and Brazos Streets.\n\n• **Contentious Tax Ordinance Passed**: After heated debate and a failed amendment attempt, the council finally approved the annual tax ordinance. A special committee was convened to resolve disagreements, particularly over water and light bond funding levels.\n\n• **Land Compensation**: The council considered paying Mrs. L.H. Randolph $335 for land submerged by the city lake, referring the matter to the Water and Light Commission for review.\n\n• **Municipal Asset Management**: The city sold four mules from its stock and directed the City Engineer to bring in four more from pasture, selling two while keeping two for city street and sanitary departments.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

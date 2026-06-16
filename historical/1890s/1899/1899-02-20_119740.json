@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-02-20_119740",
-  "title": "",
+  "title": "** Austin's 1899 Fire Equipment and Infrastructure Plans",
   "meeting_type": "regular",
   "date": "February 20, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119740",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Upgrades Approved** – The council passed funding ($1,520 and $550) to purchase new hose wagons and 1,000 feet of fire hose for multiple fire companies across Austin, with unanimous support.\n\n• **Infrastructure Projects Rejected** – Two proposed bridge and culvert projects totaling $1,800 failed to advance, with aldermen voting against moving them to the next stage of approval.\n\n• **Hose Company Driver Hired** – The council authorized hiring a driver for North Austin Hose Company No. 6 at $50 per month, plus $25 monthly for food and equipment repairs.\n\n• **Sewer Connection Initiative** – A three-member committee was formed to negotiate connecting the Driskill Hotel's drainage system to the city sewer.\n\n• **Ceremonial Invitations Extended** – Austin extended a formal invitation to the Knights of Pythias to hold their 1900 state convention in the city, and the mayor accepted an invitation to a Governor's reception.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

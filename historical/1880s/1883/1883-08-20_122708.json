@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-08-20_122708",
-  "title": "",
+  "title": "Austin's 1883 Pavement Disputes & City Bonds",
   "meeting_type": "regular",
   "date": "August 20, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122708",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New aldermen sworn in**: Thomas E. Snead and J.W. Driskill were elected and sworn in as aldermen for the 8th and 6th wards, respectively.\n\n• **Pavement pushback**: Property owners on Congress Avenue petitioned the city council to avoid being forced to build and pay for sidewalks in front of their properties—the request was sent to the street committee for consideration.\n\n• **Tax and payroll approved**: Council passed an ordinance establishing that tax rates must be set by the first Monday in September each year, and approved $1,496.47 to pay city employees for July.\n\n• **$25,000 bond proposal debated**: A proposal to sell city bonds worth $25,000 at 6% interest over 20 years was referred to a special committee for further review.\n\n• **Mayor vetoes flawed ordinance**: The mayor rejected a real estate lease ordinance due to suspicious hand-written changes (dates altered in pencil) that weren't properly recorded in official meeting minutes.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

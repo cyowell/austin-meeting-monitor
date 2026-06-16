@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-08-16_119839",
-  "title": "",
+  "title": "Austin's Hog Ban & Fire Safety Debate",
   "meeting_type": "regular",
   "date": "August 16, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119839",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New Hog Ordinance Advanced** - The council approved a sanitary committee report recommending an ordinance that would make keeping hogs in certain city limits illegal with penalties, though a final vote to fast-track its passage initially failed.\n\n• **Mayor Vetoes Tax Relief & Fire Code Enforcement** - Mayor Lewis Hancock rejected a resolution to remit taxes for erroneous assessments and refused to enforce stricter fire safety codes city-wide, arguing the council lacked authority to override the Board of Equalization and that property owners had relied on prior council permissions for existing structures.\n\n• **Street Department Improvements Approved** - The council budgeted $1,353.36 to repair and paint city wagons and street equipment, with oversight responsibilities assigned to the superintendent and street committee.\n\n• **Building Permit Case Resolved** - The council dismissed a citation against Charles Wolf for unauthorized building modifications after he obtained the required fire safety permit, allowing him to address the chamber directly.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

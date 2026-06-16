@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-01-23_119738",
-  "title": "",
+  "title": "Austin Charter Fight: Council Blocks Legislative Proposal",
   "meeting_type": "special called",
   "date": "January 23, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119738",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Charter Battle**: Austin City Council appointed a committee to prevent the Texas Legislature from adopting a new city charter unless it aligns with public interests and receives voter approval.\n\n• **Public Input Required**: The council passed a resolution inviting all interested citizens to advise and cooperate with the charter committee, opening the process to community participation.\n\n• **Strong Support**: The charter prevention resolution passed with overwhelming support (16 votes in favor, only 1 opposed), showing unified council backing for protecting local control.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

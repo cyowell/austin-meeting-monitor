@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-05-11_125007",
-  "title": "",
+  "title": "Austin's 1874 Fire Engine and Street Improvements",
   "meeting_type": "regular",
   "date": "May 11, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125007",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Engine Purchase Approved**: City council unanimously endorsed the \"Champion Fire Extinguisher Engine\" after it successfully prevented a building fire during a public test, and authorized construction of a new engine house for the Central Depot Fire Company.\n\n• **Fire Response Incentives**: Council passed a resolution offering cash rewards ($2.50 to wagon drivers and $1.00 to the first person ringing the church bell) to encourage faster emergency response to fires.\n\n• **Street and Infrastructure Projects**: Approved proposals for opening a new street on College Hill, laying pavement on Congress Avenue near the State Department, and authorized a committee to negotiate lower gas prices for street lighting.\n\n• **Budget Cuts and Efficiency**: Abolished the Recorder's Clerk position effective June 1st and capped the street lighter's salary at $35/month to reduce expenses.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

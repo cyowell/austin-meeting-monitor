@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-02-01_124938",
-  "title": "",
+  "title": "Austin Market House Upgrades & Tax Collection",
   "meeting_type": "special called",
   "date": "February 01, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124938",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Market House Improvements Approved**: The council authorized renovations to the City Market House including a new ceiling, removal of damaged rock flooring, and replacement with stone blocks and cement—work to be supervised by the Market House Committee and Mayor.\n\n• **Back Taxes Collection**: The council passed ordinances to collect unpaid taxes dating back to January 1870 and to handle delinquent property taxes, dismissing pending lawsuits against tax delinquents and transferring tax collection duties from the City Attorney to the City Clerk.\n\n• **Market Regulations Updated**: New ordinances governing market privileges, stall rentals, and licenses were approved for the year ahead, with a note that the Coffee Stand area would be filled under committee direction.\n\n• **Public Petitions Reviewed**: The council received requests to establish shooting galleries in the city (referred to Street Committee) and petitions regarding railroad rights-of-way, a bridge at Congress and Mulberry streets, tax credits for street improvements, and vehicle restrictions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

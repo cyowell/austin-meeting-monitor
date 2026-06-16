@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-03-07_124796",
-  "title": "",
+  "title": "Austin Rock Quarry & Infrastructure Improvements 1881",
   "meeting_type": "regular",
   "date": "March 07, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124796",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Rock quarrying dispute**: A resident petitioned to stop rock quarrying operations on West Avenue, which was referred to a special committee for investigation and resolution.\n\n• **Public infrastructure projects approved**: The council approved street grading near St. David's Church, a bridge construction across a slough on Hickory Street, and improvements to the public square bounded by Cedar, Pecan, San Antonio, and Guadalupe streets.\n\n• **Fire department cost-cutting**: City leaders initiated a review of fire department expenses, directing the fire chief and committee to develop cost-reduction strategies and compare Austin's fire services with similar-sized Texas cities.\n\n• **Convict labor employment**: The council authorized a committee to negotiate with the county judge about employing convict labor for city work projects.\n\n• **Police force expansion**: The council appointed John Deef to fill a vacancy on the police force and referred a new sergeant of police position to committee for charter compliance review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-10-16_124743",
-  "title": "",
+  "title": "Austin's 1893 Infrastructure & Tax Plans",
   "meeting_type": "regular",
   "date": "October 16, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124743",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Street Lighting Expansion**: Council approved installing new street lights at three Swedish Lutheran Church locations for $2.50/month, responding to a petition from the church community.\n\n• **Bull Creek Bridge Project**: Council voted to partner with Travis County Commissioners on a $1,500 project to build a permanent bridge and road over Bull Creek to replace a damaged pontoon bridge, with both entities splitting costs.\n\n• **Tax Levies Approved**: Four tax ordinances passed unanimously, including a 70-cent general levy, 33-cent school levy, and taxes to pay bonds and support water/electric infrastructure (total: 2.04 cents per $100 property value).\n\n• **Smallpox Camp Damages Settlement**: Council debated and reduced compensation for a landowner (W.H. Tobin) whose property was used for a smallpox camp and burial ground, eventually settling on $200 instead of the requested $400.\n\n• **Water Works Sinking Fund Investment**: Council authorized the Mayor to invest $20,000 in accumulated bond funds into unsold water and light bonds to finance repairs to the headgate and powerhouse.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

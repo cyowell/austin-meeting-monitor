@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-01-07_122643",
-  "title": "",
+  "title": "Austin's Smallpox Crisis & Street Improvements",
   "meeting_type": "special called",
   "date": "January 07, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122643",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Smallpox Emergency Response**: The City Physician reported setting up 13 quarantine tents across the river and establishing strict isolation protocols using the telephone system to prevent mail contamination. The council voted to thank the physician for his efforts and referred funding requests to the finance committee.\n\n• **Street and Infrastructure Projects**: Multiple petitions requested street improvements including grading and guttering on Bacon and Colorado streets near the federal building, cutting through Chestnut Street in the fifth ward, and $50 appropriated for two carriage bridges at the city cemetery.\n\n• **City Services Contracts**: The council awarded printing contracts to W.Y. Leacy for ordinances and E.B. Berckman for job work, authorized a 25-year lease of Crough's Docks for $20/year, and discussed a street-sprinkling contract.\n\n• **Administrative Changes**: The council accepted City Clerk S.W. Patterson's resignation and unanimously elected J.L. Burns as his replacement with a $1,000 bond requirement.\n\n• **Personnel & Budget Matters**: Multiple employees requested back pay for sick leave and work performed. The council appropriated $2,007.98 for December employee salaries and $100 for firewood, while requesting a larger appropriation to cover smallpox patient expenses.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-04-17_124960",
-  "title": "",
+  "title": "Austin Railroad Right-of-Way Approved 1876",
   "meeting_type": "regular",
   "date": "April 17, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124960",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Railroad expansion approved**: Austin City Council unanimously passed an ordinance granting the International and Great Northern Railroad Company permission to build tracks through the city, a major infrastructure decision for the growing Texas capital.\n\n• **Fast-track process**: The council suspended normal rules to expedite the railroad ordinance through all three required readings and final passage in a single meeting, showing strong support for the project.\n\n• **Unanimous vote**: All seven aldermen present voted in favor with no opposition, indicating consensus that the railroad would benefit Austin's development and commerce.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

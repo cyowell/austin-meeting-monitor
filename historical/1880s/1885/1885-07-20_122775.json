@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-07-20_122775",
-  "title": "",
+  "title": "Austin Cemetery Expansion and Infrastructure Improvements",
   "meeting_type": "regular",
   "date": "July 20, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122775",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Cemetery Expansion Debate** – The council approved purchasing the Savante Palm tract (Lot 39) to expand the city cemetery for $1,500 cash, with remaining payments spread over two years. This decision followed heated debate over whether to buy the Palm tract or the alternative Wheeler property (40 acres for $13,600).\n\n• **Fire Department Building Progress** – Funding of $350 was approved to complete excavation work for a new Fire Department building on Hickory Street, which was already half-finished. Previous work had cost $712.42 to grade the street.\n\n• **Cemetery Opposition** – Citizens living near the cemetery filed a formal protest against the expansion, petitioning the city to prevent use of the purchased Riley tract for cemetery purposes.\n\n• **Market House Status Quo** – The council decided against centralizing Austin's markets at a single city market house, determining citizens preferred the existing decentralized arrangement.\n\n• **Minor Approvals** – The council granted Laura Brinkwell permission to establish a shooting gallery on Pecan Street and confirmed Wm Wagenfuhr as a special police officer.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

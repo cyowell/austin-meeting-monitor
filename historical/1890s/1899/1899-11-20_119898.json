@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-11-20_119898",
-  "title": "",
+  "title": "Austin Water Plant Crisis Sparks Investigation",
   "meeting_type": "regular",
   "date": "November 20, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119898",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water supply emergency**: The city's Water & Light Plant had shut down twice during the year due to insufficient water supply, prompting urgent action to prevent future disruptions to residents and business growth.\n\n• **Investigation committee formed**: Council appointed a joint committee of four citizens and aldermen to investigate the water plant's problems and recommend solutions, including whether to build an auxiliary steam plant.\n\n• **Bond purchases approved**: The council passed three financial measures totaling $6,630 to purchase bonds for the city's sinking fund and cover legal costs in a federal court case.\n\n• **Corporation Court delayed**: An ordinance to establish a new Corporation Court was postponed until December, indicating ongoing debate about the city's judicial structure.\n\n• **Miscellaneous petitions**: The council granted a citizen's request to remit a fine, approved removal of wagon scales within city limits, and referred several property and tax matters to committees for further review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-12-05_119863",
-  "title": "",
+  "title": "Austin's 1898 Budget Battle and Building Permits",
   "meeting_type": "regular",
   "date": "December 05, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119863",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Tax Rate Controversy:** Council members fiercely debated the tax levy for the year, ultimately approving a lower rate of 90 cents per $100 of property value (down from the proposed 98 cents) after multiple amendments and failed procedural motions.\n\n• **Building Permits Within Fire Limits:** The council approved three construction permits with strict safety conditions (including fireproof materials requirements) but denied one application for a wooden servants' room as unsafe—reflecting growing fire safety concerns in the growing city.\n\n• **Land Damage Settlement:** The city agreed to pay Mrs. L.H. Randolph $225 to settle her lawsuit over property flooded by the newly constructed city dam, a significant infrastructure cost.\n\n• **Election for New Commissioners:** Council ordered a December election to elect two Water and Light Commissioners and aldermen for each ward, including filling a vacant 14th Ward seat left by Captain R.C. Roberdeau's military commission.\n\n• **City Finances:** Monthly reports showed solid city operations with $10,579 in collections and ongoing water/light bond payments, though significant budget scrutiny suggested concerns about municipal spending.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

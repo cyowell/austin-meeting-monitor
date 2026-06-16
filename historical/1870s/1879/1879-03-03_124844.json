@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-03-03_124844",
-  "title": "",
+  "title": "** Austin 1879: Water, Fire Safety, and Police",
   "meeting_type": "regular",
   "date": "March 03, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124844",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Infrastructure Investment**: Council approved a $4,678 ordinance to expand the city water company's mains and add fire hydrants, marking a significant public safety and infrastructure upgrade.\n\n• **Stray Animals Crisis**: The City Marshal reported numerous complaints about loose animals roaming Austin streets but had nowhere to confine them after the public pound closed, prompting council attention to the ordinance.\n\n• **Fire Safety Regulations**: Council considered petitions for building permits within fire limits, including a request to maintain a wood yard and approve a 12-foot wooden structure, all referred to the Fire Commissioners.\n\n• **Police Controversy**: Mayor's nominations of 28 special police officers were unanimously rejected by the council, suggesting internal conflict over policing decisions or the appointees' qualifications.\n\n• **City Attorney Investigation**: Council launched an inquiry into the City Attorney's conduct regarding his advice on restraining tax collection from the International and Great Northern Railroad Company.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

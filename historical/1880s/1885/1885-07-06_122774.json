@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-07-06_122774",
-  "title": "",
+  "title": "Austin Cemetery Expansion and Public Health",
   "meeting_type": "regular",
   "date": "July 06, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122774",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Cemetery Expansion Approved**: The city council voted to purchase 20 acres of land adjacent to the existing cemetery from Mr. Riley for approximately $12,000. The project was made financially feasible through a private citizen's (A.P. Wooldridge) offer to advance $6,000, with the city covering the initial $6,000 and repaying through future lot sales, as the current cemetery is full.\n\n• **Police Force Increase Rejected**: A proposed resolution to expand the police force to 25 men was rejected due to the city's poor financial condition, despite the finance committee's support for the expansion in principle.\n\n• **Sanitation Crisis Warning**: The city physician issued a stark report recommending the abolishment of the privy vault sewage system, stating it was contaminating the entire city and causing disease. He urged immediate reforms to prevent further public health disasters.\n\n• **Budget Approved**: The council approved a $2,814.36 payroll ordinance for July officers' salaries and accounts.\n\n• **Administrative Accountability**: A new resolution required the police marshal to maintain detailed time books tracking prisoners assigned to work gangs, improving oversight of the city's labor system.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

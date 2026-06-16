@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-07-31_122704",
-  "title": "",
+  "title": "** Austin's 1883 Water & Street Disputes",
   "meeting_type": "special called",
   "date": "July 31, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122704",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Quick meeting with attendance penalties**: The Austin City Council met on July 31, 1883, and fined five absent aldermen $1 each for skipping the session.\n\n• **Limited agenda with rapid adjournment**: The meeting was called to order by Mayor W.A. Saylor but was adjourned almost immediately after addressing attendance issues, suggesting either urgent business was handled quickly or the meeting had minimal matters to discuss.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

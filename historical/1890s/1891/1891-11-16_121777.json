@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-11-16_121777",
-  "title": "",
+  "title": "** Austin's 1891 Plans for Dam, Streets & Fire Hydrants",
   "meeting_type": "regular",
   "date": "November 16, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121777",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Dam Construction Approved**: City Council allocated $5,000 to cover engineer salaries, inspectors, and expenses for building a new dam for Austin.\n\n• **New Streets Proposed**: Two petitions requested the city open new streets—one through private property in the Eleventh Ward and another through the Benedict Estate (which stretched about 4 miles from the Colorado River), with landowners agreeing to donate the necessary land.\n\n• **County Hands Over Roads & Bridges**: Travis County transferred control of all streets, roads, highways, and bridges within city limits to Austin's government, effective November 24, 1891, requiring the city to formally accept its new maintenance obligations.\n\n• **Fire Hydrant Requests**: Citizens petitioned for new fire hydrants in specific locations to improve firefighting capabilities across the growing city.\n\n• **Cemetery Improvements**: Council approved $100 to improve the City Cemetery after residents complained about its condition, and authorized a contract with C.P. Stiles for a new cemetery and pauper burial services.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

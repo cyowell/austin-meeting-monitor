@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-01-02_122682",
-  "title": "",
+  "title": "Austin Council Fines Absent Aldermen 1883",
   "meeting_type": "special called",
   "date": "January 02, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122682",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Attendance Problem**: Multiple city council meetings in January 1883 were poorly attended, with numerous aldermen absent each session. The council imposed $1 fines on absent members to encourage participation.\n\n• **Sparse Quorum**: Only 2-3 aldermen showed up to meetings, making it difficult for the council to conduct business. At least seven aldermen were regularly absent.\n\n• **Repeated Adjournments**: Unable to accomplish much with limited attendance, the council kept rescheduling meetings, pushing business forward to the following week multiple times.\n\n• **Enforcement Measures**: The city took a firm stance by levying fines against non-attending aldermen—an early attempt to enforce accountability on elected officials.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

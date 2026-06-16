@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-04-28_122656",
-  "title": "",
+  "title": "Austin Council Meeting Adjourned Without Action",
   "meeting_type": "special called",
   "date": "April 28, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122656",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Meeting called to order** – Mayor A.I. Taylor presided over a called meeting in Destin, Texas with all aldermen present, establishing a quorum\n\n• **Immediate adjournment** – Alderman Plank moved to adjourn the council, and the motion passed before any business was conducted\n\n• **No recorded agenda items** – The meeting minutes contain no documented discussion of policies, public hearings, or decisions",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

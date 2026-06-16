@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-04-19_122802",
-  "title": "",
+  "title": "Austin Expands Cemetery and Street Lights in 1886",
   "meeting_type": "regular",
   "date": "April 19, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122802",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Cemetery Expansion**: Eugene Bremond and associates received permission to add a 35-foot-wide strip of land to the east side of the city cemetery, with half the land going to the city at no cost.\n\n• **Street Naming Overhaul**: The council approved renaming multiple streets to eliminate duplicates and clarify the city grid (e.g., Willow to Birch, San Bernard to Rio Grande, Chineapin to Rosewood).\n\n• **New Street Lights**: The council approved funding for additional street lights throughout Austin to improve public safety and visibility.\n\n• **Barbed Wire Ban**: A new ordinance prohibited stacking or placing barbed wire on sidewalks and streets, protecting pedestrians from injury.\n\n• **Running Animals Ordinance**: The council passed a law prohibiting animals from roaming freely in the city, with provisions for capturing and selling stray animals.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

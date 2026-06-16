@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-01-23_125043",
-  "title": "",
+  "title": "Austin's 1873 Animal Control & Railway Plans",
   "meeting_type": "special called",
   "date": "January 23, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125043",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Railway depot deal**: Council pledged to transfer half of Block 59 to the Houston and Texas Central Railway Company for a passenger depot, pending state approval of the city's land title.\n\n• **Strict animal control laws**: New ordinance banned loose hogs, cattle, and goats within city limits, with impounded animals to be sold at auction—owners could reclaim proceeds with proof of ownership.\n\n• **Dog licensing required**: Dog owners had to pay taxes and equip their pets with numbered collar plates or face misdemeanor charges.\n\n• **Smallpox cemetery ban**: Council instructed the city sexton to prohibit burial of smallpox victims in the city cemetery, likely a public health precaution.\n\n• **City physician search**: Council formed a committee to review Dr. J.W. Stalnaker's application for the city physician position.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

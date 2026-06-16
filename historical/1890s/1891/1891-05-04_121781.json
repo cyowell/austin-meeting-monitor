@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-05-04_121781",
-  "title": "",
+  "title": "Austin's Water Works & Infrastructure Investments",
   "meeting_type": "regular",
   "date": "May 04, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121781",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water and Utilities Expansion Approved**: The council passed ordinances authorizing approximately $5,400 in payments toward Bernard Corrigan's water works and electric light system contract, plus $5,000 for bond interest payments—reflecting major ongoing investment in the city's infrastructure.\n\n• **Street and Bridge Repairs Needed**: The East First Street bridge over Waller Creek was deemed unsafe and closed, with estimates of $125 for repairs. The council debated a $450 appropriation for street improvements, including sewer drainage piping in the eastern portions of the city.\n\n• **Tax Refunds and Claims Decisions**: The council approved a $19.55 tax refund to James O'Reilly but rejected a $107.90 claim from a smallpox patient for out-of-pocket medical expenses, showing selective financial relief.\n\n• **Ice Manufacturing Facility Approved**: The Capital Ice Company received authorization to expand its operations on city-leased riverfront property to include tanning and general manufacturing—diversifying the facility's use.\n\n• **Administrative Adjustments**: Meeting times shifted to 8:30 p.m., and the council adjusted a property owner's house position in the Tenth Ward under city engineering supervision.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

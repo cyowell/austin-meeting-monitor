@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-10-20_125066",
-  "title": "",
+  "title": "Austin's 1871 Plans for Water Works and Fire Safety",
   "meeting_type": "special called",
   "date": "October 20, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125066",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water works proposal**: A petition from C.R. Johns to construct a city water system was referred to a special committee to develop contract terms, marking an early effort to bring modern utilities to Austin.\n\n• **Fire safety expansion**: The city extended fire limits along Congress Avenue from the Capitol to the Colorado River, requiring stricter building standards in this growing commercial corridor.\n\n• **Gas lighting consideration**: A petition from the Eureka Gas Light Company of New Orleans was submitted for review, potentially bringing streetlights to the city.\n\n• **Tax authority request**: Council moved to petition the state legislature for permission to levy a property tax (up to 0.5%) to fund city improvements and operations.\n\n• **Market house revenue**: A petition regarding market house revenues was referred to the street committee, suggesting debate over how public market income should be managed.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

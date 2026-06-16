@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-02-06_124891",
-  "title": "",
+  "title": "Austin's 1878 City Equipment Sale",
   "meeting_type": "special called",
   "date": "February 06, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124891",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Quorum Issues**: The February 6th meeting struggled to achieve a quorum, with five aldermen initially absent. The Marshal had to be dispatched to bring in missing members before business could proceed.\n\n• **City Equipment Auction**: The council debated selling off city carts, horses, mules, and harnesses (except those used for sanitation purposes) located at the S.E. Corner of Block 40.\n\n• **Finance Committee vs. Direct Vote**: Alderman Crow proposed referring the equipment sale to the Finance Committee, but his motion failed. Alderman Platt's motion to directly adopt the resolution passed instead.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

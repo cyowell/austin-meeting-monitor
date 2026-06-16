@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-03-21_125038",
-  "title": "",
+  "title": "Austin Market Hall Lease & Fire Department Elections",
   "meeting_type": "special called",
   "date": "March 21, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125038",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Market Hall Leased**: City Council approved a two-year lease of the City Market Hall to F. Dohme for $300 per quarter, with the butcher stalls generating $2,255 in annual rental revenue from individual vendors.\n\n• **Fire Department Chief Selection Process**: Council established a new election procedure where one representative from each organized fire company would serve as judges to elect the Fire Department Chief.\n\n• **Meat Vending Expansion**: H. Brown received permission to sell butcher meat in the eastern portion of Austin at the same minimum rates charged at the City Market House, expanding commercial activity beyond the main market.\n\n• **City Physician Deadlocked**: Two doctors—J.W. Stalnaker and B. Hadra—tied 3-3 in the first ballot for city physician; the election was postponed to the next meeting with no decision reached.\n\n• **Infrastructure Improvements Approved**: Council authorized construction of a fire cistern on Pecan Street and approved digging a well at the city cemetery, plus extended an invitation to host visiting generals Belknap and Sheridan.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-06-07_122809",
-  "title": "",
+  "title": "Austin Cemetery Plans & Street Name Changes",
   "meeting_type": "regular",
   "date": "June 07, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122809",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Cemetery Project Advances**: Council approved a special committee to evaluate the Stiles homestead property as a potential public cemetery for Austin, with plans to reconvene in two weeks for a decision.\n\n• **Street Reorganization Approved**: Council passed an ordinance to number and reorganize some of Austin's east-west streets, improving the city's layout and organization.\n\n• **Infrastructure Expansion**: Citizens petitioned successfully to have obstructions removed from Laurel Street, with residents agreeing to pay for grading the street and bridging Waller Creek themselves.\n\n• **City Finances & Public Health**: May financial reports showed over $26,000 in available funds; the hospital treated patients during a scarlet fever outbreak that caused 2 deaths and 30 cases citywide.\n\n• **Municipal Modernization**: Council established a new parks committee and authorized printing of codified city ordinances, consolidating and publishing city rules for better public access.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

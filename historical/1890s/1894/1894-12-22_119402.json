@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-12-22_119402",
-  "title": "",
+  "title": "Austin Water System Funding & Election Dispute",
   "meeting_type": "special called",
   "date": "December 22, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119402",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water and Electric System Funding**: Council appropriated $7,500 to cover engineering expenses, contractor payments for motors, wheels, and pumps for Austin's new waterworks and electric light system.\n\n• **Election Date Dispute**: A candidate challenged the Eleventh Ward alderman election held on Friday, December 21st, arguing it violated city charter rules requiring elections on Mondays. The challenge was ultimately withdrawn, and L.H. Glascock was officially sworn in as alderman.\n\n• **Close Election Results**: Glascock defeated challenger R. Weyerman by a narrow margin of 89 to 85 votes in the contested ward election.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

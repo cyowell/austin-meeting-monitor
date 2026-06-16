@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-07-20_122078",
-  "title": "",
+  "title": "** Austin Council Meeting July 1891",
   "meeting_type": "regular",
   "date": "July 20, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122078",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Low Attendance:** Only 9 of 22 aldermen showed up to the meeting, with 13 absent—raising questions about quorum and council participation in the late 1800s.\n\n• **Quick Adjournment:** The council immediately moved to adjourn with no substantive business conducted, suggesting either a routine procedural meeting or lack of agenda items.\n\n• **Close Vote on Adjournment:** The motion to adjourn passed narrowly (5-4), indicating some disagreement among present members about whether to end the session.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

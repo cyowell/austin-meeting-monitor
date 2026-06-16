@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-10-03_119861",
-  "title": "",
+  "title": "Austin Approves Streetcar Line, Cocaine Regulation",
   "meeting_type": "regular",
   "date": "October 03, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119861",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Streetcar expansion approved**: The council voted to grant E.A. Ellis and associates the right to build and operate street railways along Austin streets, though the vote was close (11-10), indicating significant opposition to the project.\n\n• **New cocaine sales regulations enacted**: Austin passed an ordinance restricting cocaine sales to physicians and dentists (dentists were added as an amendment), making it one of the early drug regulations in the city.\n\n• **Property values declining**: The mayor reported that taxable property values dropped nearly $778,000 from the previous year to $10.75 million, prompting recommendations for a 1% general tax rate and a new 10-cent levy to fund street paving projects.\n\n• **Water system testing requested**: The council approved forming a committee to test new filtering ditches at the city's water pumping station, though members disagreed on the scope and timeline of the evaluation.\n\n• **City infrastructure investments authorized**: Council approved approximately $1,230 in spending for approved accounts and a new sanitary department cart, while also addressing dangerous bridge conditions requiring an estimated $4,500 in repairs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

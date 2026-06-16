@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-04-07_125035",
-  "title": "",
+  "title": "Austin City Charter & Tax Changes",
   "meeting_type": "regular",
   "date": "April 07, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125035",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Charter Amendment Approved**: The city council unanimously agreed to amend the new city charter to extend city limits and remove voting restrictions on delinquent taxpayers, addressing the governor's concerns before signing it.\n\n• **City Hall Leased to F. Dohme**: The council approved a two-year lease of City Hall for $300 annually ($75 paid quarterly). Dohme must maintain the facility and can add improvements that become city property after the lease ends. The public retains rights to use it for meetings.\n\n• **Meat Market Regulations Established**: New ordinances created rules for butchers selling outside the city market house, requiring licenses, inspections for wholesomeness, and cleanliness standards with misdemeanor penalties for violations.\n\n• **Water Works Company Recommended**: The council recommended the Texas legislature incorporate the \"Austin and Colorado Valley Water Works and Navigation Company\" to supply the city's water needs.\n\n• **Property Tax Set at 0.5%**: The city levied a half-percent ad valorem property tax for 1873 on all property within city limits as established by law.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-08-01_124787",
-  "title": "",
+  "title": "Austin 1887: Water, Power & Cemetery Crisis",
   "meeting_type": "regular",
   "date": "August 01, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124787",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Infrastructure expansion**: Council considered multiple ordinances to bring water, gas, and electric services to Austin, including proposals from the Sylvester Watts Company and the Austin Water, Light and Power Company for poles and wiring systems.\n\n• **Cemetery overcrowding**: The city cemetery ran out of space for pauper burials, forcing the council to redirect future burials to Greenwood Cemetery—a practical solution to an urgent public health issue.\n\n• **Street sanitation problems**: A sanitary inspector reported foul odors from streets, prompting the council to task the Sanitation and Sewers Committee with immediate action to eliminate the nuisance.\n\n• **Hospital improvements**: Council approved a measure extending the hospital physician and matron's terms from one to two years, suggesting efforts to stabilize medical services and staff.\n\n• **Tax settlement and prostitution ordinance**: The council authorized back tax settlements with property owners and postponed a controversial ordinance regulating brothels for further debate.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-10-04_124806",
-  "title": "",
+  "title": "Austin Street Improvements & Cotton Storage Rules 1880",
   "meeting_type": "regular",
   "date": "October 04, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124806",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street Infrastructure Upgrades**: The council approved $500 per ward (with the 9th Ward receiving $750) to improve city streets, addressing concerns about sidewalk repairs and establishing street grades in various blocks.\n\n• **Cotton Trade Expansion**: Residents petitioned to allow A. Levin and Morris Hano to weigh and store cotton at East Pecan and Trinity Streets, which the council granted after repealing restrictive cotton storage regulations.\n\n• **Public Services**: The city approved permits for a new meat market and street lamp lighting services, while denying requests from D.W. Bell and Illusion Rose to operate variety shows.\n\n• **Cost-Cutting Measures**: A budget reduction committee recommended eliminating the Police Court day clerk position, selling an underutilized fire engine, and outsourcing prisoner meal services to the lowest bidder to reduce government expenses.\n\n• **Administrative Changes**: City Clerk S.M. Bradley resigned after nearly three years of service (his books were audited and found accurate), and C.B. Cornell was elected as his replacement.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

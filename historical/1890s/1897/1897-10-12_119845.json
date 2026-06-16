@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-10-12_119845",
-  "title": "",
+  "title": "Austin Yellow Fever Quarantine Debate 1897",
   "meeting_type": "special called",
   "date": "October 12, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119845",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Public Health Crisis Response**: Mayor Lewis Hancock called an emergency city council meeting after yellow fever was officially declared in several Texas cities, including Galveston and Houston, prompting swift action to protect Austin residents.\n\n• **Medical Consultation**: The council invited local physicians to consult on quarantine measures; doctors unanimously recommended strict quarantine against infected cities and a proclamation warning travelers not to enter Austin.\n\n• **Contentious Ordinance**: The proposed quarantine ordinance faced significant opposition, with citizens submitting a formal protest, leading to heated debates and multiple failed attempts to pass the measure across three council sessions.\n\n• **Political Disagreement**: Council members were sharply divided on how much authority to grant the Mayor—some wanted him to have full power to declare quarantine unilaterally, while others preferred legislative oversight and conditions.\n\n• **Unresolved Outcome**: After three days of meetings, the ordinance was ultimately tabled (postponed indefinitely), leaving Austin's yellow fever response uncertain despite the public health emergency.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

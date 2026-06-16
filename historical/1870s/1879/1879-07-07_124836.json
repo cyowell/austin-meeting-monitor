@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-07-07_124836",
-  "title": "",
+  "title": "Austin's July 1879 Business Licenses & Bridge Repairs",
   "meeting_type": "regular",
   "date": "July 07, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124836",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Three liquor licenses granted** – The council approved retail liquor license petitions from I. Conova, Reismer & Haschke, and Eddy and Smith.\n\n• **Infrastructure investments approved** – The city allocated $200 to repair the Chestnut Street bridge and $100+ for improvements in the sixth ward, including a new bridge across a ditch on San Jacinto Street.\n\n• **Market master position eliminated** – An ordinance abolished the separate market master and health inspector offices, consolidating those duties under the city marshal to save money.\n\n• **City clock relocated** – B.C. Wells donated his clock tower to the city and offered free labor to move the clock to the city market house (later changed to city hall), providing Austin with a public timepiece.\n\n• **Municipal jobs and regulations** – The council filled a city policeman vacancy (James King was hired) and established standardized liquor license expiration dates while adjusting occupation taxes, including reducing nine-pin alley fees from $500 to $50 annually.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

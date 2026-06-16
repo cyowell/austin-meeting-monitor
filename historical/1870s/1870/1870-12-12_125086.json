@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-12-12_125086",
-  "title": "",
+  "title": "Austin's 1870 Push for Federal Post Office",
   "meeting_type": "special called",
   "date": "December 12, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125086",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Federal Building Proposal**: The city council unanimously offered land to the U.S. Government to build a permanent Post Office and Federal Courthouse in Austin, with plans to lobby their congressional representatives to secure federal funding for the project.\n\n• **City Clock Installation**: Council approved $1,000 in funding to purchase a clock and bell for the New Market House, passing the measure unanimously on its final reading.\n\n• **Ferry House Permit**: A petition from S.M. Swisher to build a ferry house on the north bank of the Colorado River near Congress Avenue and Brazos Street was granted by the council.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

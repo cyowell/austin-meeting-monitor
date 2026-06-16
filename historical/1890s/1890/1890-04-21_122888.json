@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-04-21_122888",
-  "title": "",
+  "title": "Austin's 1890 Street Railway and Cemetery Plans",
   "meeting_type": "regular",
   "date": "April 21, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122888",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street Railway Approved**: The city granted M.M. Shipe permission to build and operate street railways across Austin, with detailed regulations including a 5-cent fare cap, free rides for children under 5 and police officers, and speed limits (10 mph general, 8 mph on business streets, 4 mph on curves).\n\n• **New Cemetery Land Purchase Authorized**: The council voted to allow the mayor and cemetery committee to purchase land within city limits for burial purposes, passing 12-1.\n\n• **Infrastructure Investments**: The city approved $500 for a street roller and $290.25 for street maintenance labor to improve public roads.\n\n• **Monthly Payroll and Legal Fees**: Council allocated $3,200 for April employee salaries and $250 for attorney fees related to an ongoing lawsuit over cemetery land known as \"Patterson land.\"\n\n• **Election Preparations**: New judges of election were appointed for the Fifth, Sixth, and Ninth wards as replacements for those who requested to step down from the pending election.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

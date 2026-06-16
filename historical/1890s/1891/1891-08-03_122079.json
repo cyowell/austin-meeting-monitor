@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-08-03_122079",
-  "title": "",
+  "title": "Austin Water Works Dam & Light System Progress",
   "meeting_type": "regular",
   "date": "August 03, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122079",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Dam and water system advancement**: The city is constructing a water-works and electric light system with a dam that's \"well advanced\" and expected to finish within 15-18 months. Multiple budget allocations totaling over $12,900 were approved for contractor payments and engineering expenses.\n\n• **Proposed water company acquisition**: The mayor advocated for purchasing the existing private water company's plant to integrate with the new public system. The Board of Public Works was authorized to negotiate terms and assess the company's value, citing efficiency benefits and cost savings for residents.\n\n• **Street lights petition and sanitation issues**: Citizens protested the removal of an arc light at Second and Congress Avenue (referred to committee), while complaints about unsanitary conditions on East 11th Street and the city's \"bone yard\" and dump grounds led to a decision to relocate the dump near the river east of Montopolis bridge.\n\n• **Electric street car regulation proposed**: A new ordinance was introduced to regulate the speed of electric street cars on Congress Avenue and Sixth Street, including rules for turning corners.\n\n• **Administrative matters**: The council created a Board of Equalization for tax oversight, approved various budget appropriations, and granted several fine remissions and damage claims petitions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

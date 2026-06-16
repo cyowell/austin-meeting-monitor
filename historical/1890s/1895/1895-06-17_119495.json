@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-06-17_119495",
-  "title": "",
+  "title": "Austin's 1895 Power Plant & Water System",
   "meeting_type": "regular",
   "date": "June 17, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119495",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Infrastructure Project Nearly Complete**: Austin's new electric power plant and water/light system were substantially finished, with the city electrician F.S. Scovill confirmed to oversee ongoing operations at $150/month. The 31-tower lighting system and water distribution infrastructure represented an ambitious undertaking for a city of its size.\n\n• **Fishing Violations Forgiven with New Signage Required**: The council remitted fines against residents caught illegally fishing near the dam, acknowledging they had no knowledge of fishing restrictions. In response, the city marshal was ordered to post conspicuous warning notices about fishing laws on the power house.\n\n• **Water Service Expansion Plan Approved**: The city agreed to install water service pipes free of cost to residents along water mains, recognizing that installation fees ($3.29 per consumer) had deterred adoption. A solicitor would be hired to actively recruit customers for the new water and light services.\n\n• **Bond Measure Critical for Tax Rates**: The mayor warned that a proposed $200,000 bond issue was necessary to keep taxes reasonable. If approved, the tax rate would be $1.65 per $100 of property value; without it, rates would jump to $2.35 per $100.\n\n• **Fire Department Hose Testing Revealed Equipment Problems**: Testing showed nearly one-third of the fire department's 5,500 feet of hose was unusable, prompting a recommendation to purchase 2,000 feet of new hose to ensure adequate fire protection.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

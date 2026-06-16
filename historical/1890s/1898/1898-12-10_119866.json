@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-12-10_119866",
-  "title": "",
+  "title": "Austin's Water Works Expansion & Police Reforms",
   "meeting_type": "regular",
   "date": "December 10, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119866",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Honored retiring alderman:** Alderman R. Platt was formally recognized and awarded the title \"Father of Austin City Council\" after more than 20 years of service to the city.\n\n• **Election results approved:** New Water and Light Commissioners (D.W. Doom and W.B. Wortham) and aldermen from all 11 wards were officially elected to their upcoming terms.\n\n• **Police force restructured:** The police department was reorganized—the Sergeant of Police position was abolished and replaced with a new Police Captain role (H. Maddox elected), while maintaining the overall force at 14 officers.\n\n• **Major water infrastructure project:** The Mayor highlighted an ambitious water filtration system to be completed by April, noting the Water & Light Plant would eventually generate enough revenue to pay for city operations without tax dollars.\n\n• **Budget concerns addressed:** The Mayor warned that city expenses ($124,919) exceeded estimated income and urged the council to control spending carefully while still paying debts from the previous water company contract.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

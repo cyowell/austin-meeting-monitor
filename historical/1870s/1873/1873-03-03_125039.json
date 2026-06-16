@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-03-03_125039",
-  "title": "",
+  "title": "Austin's 1873 Market Hall & Fire Department Plans",
   "meeting_type": "regular",
   "date": "March 03, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125039",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Market Hall Lease Approved**: The city council voted unanimously to lease the City Market Hall to F. Dohme for two years at $300 annually, with quarterly payments required in advance.\n\n• **Butcher & Vendor Regulations Passed**: New rules allowed licensed butchers to deliver fresh meat anywhere in the city at any time, and vegetable vendors to deliver without a license fee after 8 a.m.\n\n• **City Physician Position Under Review**: A special committee was appointed to consider hiring a full-time city physician after receiving an application from J.B. Shepherd.\n\n• **Fire Department Engine House Authorized**: The council approved plans to construct a new fire engine and truck house without delay and established a process for electing a Fire Department Chief.\n\n• **Monthly Budget Approved**: The council appropriated $150 for city office expenses in March 1873 and authorized the City Marshal to sell warrants to fund the fire cistern.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

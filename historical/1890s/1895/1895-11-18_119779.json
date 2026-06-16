@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-11-18_119779",
-  "title": "",
+  "title": "Austin Water Expansion & City Development 1895",
   "meeting_type": "regular",
   "date": "November 18, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119779",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Service Expansion Debate**: Citizens living just outside city limits petitioned for water connections, requesting the city install 1,700 feet of pipe at a cost of about $180. The council referred the matter to the Water and Light Commission to determine fair pricing for out-of-city residents.\n\n• **Fine Remission Denied**: A petition to forgive a fine assessed in Recorder's Court was rejected 12-6, with the council voting against Mayor McDonald's recommendation to grant the remission.\n\n• **Major Budget Appropriations**: The council approved nearly $134,000 in spending to pay accounts against the Water and Light Fund, demonstrating significant municipal investment in public utilities.\n\n• **Convention Bid**: Austin successfully positioned itself as a candidate to host the National Prison Association's 1896 annual convention, with state penitentiary officials and local leaders having nominated the city at the Denver convention.\n\n• **Voting Location Change**: The polling place in the Ninth Ward was moved from Searight's stable to the B.H. Smith Building at East Sixth and Trinity Streets.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

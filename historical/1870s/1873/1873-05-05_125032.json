@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-05-05_125032",
-  "title": "",
+  "title": "Austin 1873 Budget & Police Forces Expanded",
   "meeting_type": "regular",
   "date": "May 05, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125032",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New Police Appointments & Market Master Duties**: Council approved three new police officers and expanded the Market Master's role to enforce city ordinances, giving them the same pay as a policeman.\n\n• **City Attorney Fee Structure**: Established payment rules for the City Attorney—$2 for guilty pleas and $5 for trial cases—requiring daily attendance at the Mayor's office to prosecute misdemeanors.\n\n• **Infrastructure & Safety**: Authorized funding to keep fire cisterns constantly filled with water and approved West Avenue survey to remove obstructions blocking access between Pecan and Cedar Streets.\n\n• **Public Order Ordinance**: Made it illegal to sleep in public streets, alleys, or sidewalks, classifying it as a misdemeanor offense.\n\n• **New City Surveyor Elected**: C.D. Anderson elected as City Surveyor; a committee also formed to explore establishing a shared City and County Hospital for the poor.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

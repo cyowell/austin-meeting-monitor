@@ -1,6 +1,6 @@
 {
   "meeting_id": "1869-11-01_125106",
-  "title": "",
+  "title": "Austin Budget Approves $1,400+ in City Expenses",
   "meeting_type": "regular",
   "date": "November 01, 1869",
   "year": 1869,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125106",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **City budget approved**: The council unanimously passed nearly $1,423 in appropriations for the final quarter of 1869, covering salaries for the mayor, police officers, and city officials, plus expenses for street work and animal removal.\n\n• **Salary dispute delayed**: A former mayor's petition requesting unpaid wages from 1866-1867 was postponed to the next meeting, suggesting financial tensions from the post-Civil War period.\n\n• **Police and infrastructure focus**: The budget included three police officers' monthly pay and significant funding for street repairs and maintenance, indicating the city's priorities for public safety and infrastructure.\n\n• **Routine administrative business**: The meeting covered standard items like approving previous minutes, reviewing quarterly reports from city officers, and addressing the city sexton's (gravedigger's) duties.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

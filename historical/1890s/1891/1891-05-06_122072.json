@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-05-06_122072",
-  "title": "",
+  "title": "Austin Approves Dam Railroad and Smallpox Camp Funding",
   "meeting_type": "special called",
   "date": "May 06, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122072",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Smallpox Crisis Response**: City Council allocated $1,000 to establish and maintain a dedicated facility for caring for smallpox patients, reflecting a public health emergency in 1891.\n\n• **Dam Railroad Project Approved**: After two failed votes, aldermen narrowly approved $5,517.41 from the water and light fund to construct a railroad to the dam site—a key infrastructure project for the growing city.\n\n• **City Charter Expansion**: The new city charter expanded Austin's boundaries significantly, requiring surveys of new property lines and expansion of postal services to the annexed territories.\n\n• **Property Tax Authority**: The city attorney confirmed the council's legal right to tax all newly acquired property within the expanded city limits and to conduct a census of inhabitants.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-01-07_119482",
-  "title": "",
+  "title": "Austin Water, Light & Infrastructure Updates 1895",
   "meeting_type": "regular",
   "date": "January 07, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119482",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water and Electric Utility Rates Approved** – The city council passed a comprehensive ordinance governing water and electric service, including water connection fees (ranging from $1.50-$5.00 depending on lot size) and establishing that bills must be paid quarterly in advance for water and monthly for electricity.\n\n• **Infrastructure Projects Funded** – The council approved $1,687.50 for a road around Bull Creek and $600 for a stone bridge over Little Shoal Creek at Nueces and West 11th Street to improve city transportation and drainage.\n\n• **Fire Department Expansion** – The council authorized purchase of a $2,500 fire truck for the Hook and Ladder Company and directed procurement of a new fire truck through a competitive bidding process.\n\n• **Railroad Property Dispute** – The city instructed its marshal to order Central Railroad and Houston Railroad companies to remove obstructions (a wood yard) from a street and properly grade their rail lines for public travel.\n\n• **New Water and Light Commissioners Elected** – Aldermen Tobin and Fischer were elected to serve long-term positions, and Aldermen Lawless and Schneider to short-term positions on the Water and Light Commission.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

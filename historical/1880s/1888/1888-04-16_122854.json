@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-04-16_122854",
-  "title": "",
+  "title": "Austin's 1888 Fire Department & Market Plans",
   "meeting_type": "regular",
   "date": "April 16, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122854",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Equipment**: The city approved $800 to purchase a new two-horse fire carriage for the East Austin Fire Company, plus $60 for repairs to Protection Hose Company No. 3's truck house.\n\n• **Farmers Market Approved**: The council authorized the city to lease part of downtown land (south half of block 54) to the Farmers Alliance for a cotton and produce market, a project the Alliance planned to present to the state legislature.\n\n• **Slaughter Pen Denied**: The council rejected a petition to operate a slaughter pen near Shoal Creek in the Sixth Ward, following citizen opposition and an unfavorable committee report.\n\n• **Street Improvements Stalled**: Two separate proposals to fund street graveling ($500 for Water Street and $800 for streets near drill grounds) both failed to pass, each losing by the same narrow margins.\n\n• **Financial Oversight**: The council addressed minor tax and fee errors, refunding $9.54 to one resident and $3.50 to another, and approved $3,885.19 in payroll for city employees and hospital staff.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

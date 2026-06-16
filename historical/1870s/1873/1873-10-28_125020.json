@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-10-28_125020",
-  "title": "",
+  "title": "Austin Election Setup & Gas Works Proposal",
   "meeting_type": "special called",
   "date": "October 28, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125020",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Election Preparations**: City council appointed judges, clerks, and designated two voting locations for the November 1873 general election—one on the west side of Congress Avenue and one on the east side.\n\n• **Alley Realignment Approved**: Council unanimously approved an ordinance allowing the Green family heirs to redirect an alley in Block 63 from running east-west to north-south, in exchange for dedicating a new 20-foot-wide public alley.\n\n• **Public Well Request**: Citizens from East Brazos Street petitioned for funding to dig a public well near the freight depot; the request was referred to the Street Committee for consideration.\n\n• **Mayor's Report Distribution**: Council authorized printing 1,000 copies of the mayor's annual report in pamphlet form and distributing them throughout the city and to local newspapers.\n\n• **Gas Works Proposal**: A joint committee recommended accepting Col. Watts' proposition to build gas works in Austin, with the city council working to finalize the ordinance with additional details.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

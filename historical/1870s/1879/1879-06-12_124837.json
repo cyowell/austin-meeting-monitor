@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-06-12_124837",
-  "title": "",
+  "title": "Austin Sets 1879 Tax Rate and Liquor License",
   "meeting_type": "special called",
   "date": "June 12, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124837",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax Rate Approved**: City council unanimously passed an ordinance setting the property tax rate at nine-tenths of one percent for 1879.\n\n• **Liquor License Granted**: Joseph Amon received approval for a retail liquor license after petitioning the council.\n\n• **Property Tax Appeal Denied**: The council rejected a resident's request to lower her property assessment, ruling they had no authority to override the board of appraisers' decisions.\n\n• **Ordinance Amendment Passed**: An amendment to Article 344 of the city's revised ordinances was unanimously approved through all three required readings.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-12-19_121801",
-  "title": "",
+  "title": "Austin's 1892 Police Force and City Jobs",
   "meeting_type": "regular",
   "date": "December 19, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121801",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police Force Elections:** Austin elected 15 police officers for the coming year, including a Sergeant of Police (N. Montgomery) and one colored officer (Gus Evans). The department also hired a day clerk and appointed a bridge keeper and pound officer.\n\n• **Standing Committees Established:** The mayor announced committees for 1892-93 to oversee key city functions including streets, finance, parks, fire department, sanitation, water/light, hospital, and markets.\n\n• **Animal Control Dispute:** The Police Committee reported a conflict in city ordinances—rules requiring loose animals to be tied conflicted with rules against tying animals to city property, making enforcement impossible. They recommended repealing the latter rule.\n\n• **Election and Budget Approvals:** Council approved $150 to pay election judges and $2,640 for aldermen's salaries for the coming year, plus destroyed leftover ballots from the December 5 election.\n\n• **Tax Penalty Debate:** Aldermen debated an ordinance adding penalties for unpaid taxes and giving the City Attorney 10% commission on collected taxes. The controversial commission provision was removed before the measure was tabled for further consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

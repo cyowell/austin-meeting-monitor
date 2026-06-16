@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-07-03_119886",
-  "title": "",
+  "title": "Austin's Budget Battles and Street Repairs",
   "meeting_type": "regular",
   "date": "July 03, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119886",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Mayor's Spending Vetoes Mostly Overruled** – The mayor vetoed a new city driver position and a $900 sanitary worker salary increase due to budget concerns, but the council voted to override both vetoes, prioritizing city services over fiscal caution.\n\n• **Street and Infrastructure Improvements Planned** – Citizens petitioned to open streets at the dam area and remove obstructions on Comal Street, while the council approved funds for bridge repairs in Fair View Park ($380) and a 160-foot railroad switch extension.\n\n• **Tax Assessment Corrections Approved** – Multiple residents requested tax relief for 1897-1898 assessments, with the council granting at least one pound fee refund and referring others to committees for investigation.\n\n• **Hospital and Sanitary Services Expanded** – The hospital served 27 patients and the city recorded 32 deaths in June; the council allocated funds for hauling paupers to the hospital and moved to hire extra workers for weed-cutting and sanitation.\n\n• **New Council Schedule and Board Appointments** – The council changed meeting times to the 1st and 3rd Mondays at 8 p.m. and considered nominations for the board of equalization, which handles property tax assessments.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

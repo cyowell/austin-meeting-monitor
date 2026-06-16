@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-04-04_124795",
-  "title": "",
+  "title": "Austin's 1881 Water & Police Plans",
   "meeting_type": "regular",
   "date": "April 04, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124795",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Cemetery Water Project Approved**: The council authorized spending $685 to install water pipes and 20 hydrants at the city cemetery, with the city paying $200 annually for three years—addressing a petition to supply water from the city water works.\n\n• **Police Force Expansion**: Two new officers (George Hutcheson and E.C. Burcher) were elected to fill vacancies on the police force, and a new sergeant of police position was officially created.\n\n• **Federal Sewer Line Granted**: The city approved allowing the federal government to run a sewer line from the new U.S. courthouse and post office to the Colorado River.\n\n• **Tax & Debt Management**: The council processed multiple back tax payment requests and passed an ordinance to refinance the city's outstanding 10% bonds into lower-cost 6% bonds, improving the city's financial position.\n\n• **Local Business Permits**: New licenses were granted for a meat market and a bar room in the South Ward.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

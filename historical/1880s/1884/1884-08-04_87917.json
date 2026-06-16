@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-08-04_87917",
-  "title": "",
+  "title": "Austin 1884-1887 City Council Meetings",
   "meeting_type": "regular",
   "date": "August 04, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=87917",
   "agenda_url": "",
   "ocr_source": "pymupdf",
-  "summary": "",
+  "summary": "• **Infrastructure & Public Works**: The council approved numerous projects for street improvements, bridge construction and repairs (including bridges over Waller Creek and Little Shoal Creek), water main extensions, sewer connections, and cemetery expansion—with significant bond financing of $350,000 for water and sewer infrastructure.\n\n• **Public Safety & Police**: Major focus on police force reorganization and expansion, hiring of special police officers, fire department establishment and equipment purchases (hoses, carts, hydrants), and efforts to suppress gambling houses and other lawlessness.\n\n• **Municipal Services & Finance**: Regular approval of payroll, equipment purchases, and contracts for city operations; management of hospital operations; water company disputes over rates and service; gas lighting contracts for street illumination.\n\n• **Elections & Governance**: Multiple aldermen elections and contested seats, officer appointments and confirmations, establishment of standing committees, and charter amendments to clarify city authority and procedures.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

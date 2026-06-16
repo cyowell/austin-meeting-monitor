@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-03-09_124934",
-  "title": "",
+  "title": "Austin Water Works Hydrant Dispute 1877",
   "meeting_type": "special called",
   "date": "March 09, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124934",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Mayor Vetoes Hydrant Expansion**: Mayor Wheeler rejected the council's plan to add seven fire hydrants, arguing the locations unfairly favored wealthy Avenue/Pecan Street neighborhoods while leaving three-fourths of the city unprotected. He also blocked a proposed tax exemption for the Water Company.\n\n• **Budget and Fairness Concerns**: The mayor warned that expanding hydrants city-wide could cost $24,000 annually—nearly half the city's entire budget—and argued it was unjust to exempt the profitable Water Company from taxes while ordinary citizens and city employees struggled to pay theirs.\n\n• **Council Partially Sustains Veto**: The council voted to uphold the mayor's veto, with Alderman Cook publicly supporting the mayor's position that the Water Company's pipe installation was inadequate to support the proposed hydrants.\n\n• **Compromise Committee Formed**: Council created a committee (Taylor, Robinson, Cook, and the Mayor) to develop a more equitable hydrant placement plan and draft formal regulations governing their installation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

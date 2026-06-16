@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-12-21_122788",
-  "title": "",
+  "title": "Austin Infrastructure Investments & Alderman Elections",
   "meeting_type": "regular",
   "date": "December 21, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122788",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Bridge and street improvements**: Council allocated $800 to improve gutters on Congress Avenue and $400 to rebuild a dangerously deteriorating bridge over Little Shoal Creek that had partially washed away and posed safety risks\n\n• **Election ordered**: Special elections scheduled for January 5, 1886 in two city wards to fill alderman positions after two council members resigned (one from the 4th ward, one from the 5th ward)\n\n• **Infrastructure planning**: Council directed the mayor to hire a civil engineer to survey the city and develop permanent street grades, drainage systems, and a citymap—marking an effort to modernize Austin's public works with coordinated planning\n\n• **Police appointments approved**: The city marshal's appointments of seven new police officers were confirmed by the council\n\n• **Payroll and official bonds**: Council approved the December city payroll of $2,335.85 and confirmed the official bonds of five city officers including the treasurer, marshal, and clerk",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

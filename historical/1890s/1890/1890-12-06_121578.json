@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-12-06_121578",
-  "title": "",
+  "title": "Austin Approves $60K Railroad to Dam Site",
   "meeting_type": "special called",
   "date": "December 06, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121578",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Infrastructure Investment**: The city council unanimously approved spending $60,000 from the Water and Light fund to build a railroad connecting Austin to a proposed dam site on the Colorado River, aimed at supporting dam construction efforts.\n\n• **Additional Dam Funding**: Council also approved a separate payment of $5,584.16 to cover work already completed on the Colorado River dam project.\n\n• **Near-Unanimous Support**: Both ordinances passed with overwhelming approval—the railroad project received only one dissenting vote (Alderman Schneider), while the dam payment passed unanimously 18-0.\n\n• **Emergency Meeting Called**: This special midnight meeting (scheduled for 9:35 p.m.) was convened specifically to address these time-sensitive water infrastructure projects.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

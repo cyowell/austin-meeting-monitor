@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-07-12_124812",
-  "title": "",
+  "title": "Austin's 1880 Police Force & Infrastructure Plans",
   "meeting_type": "regular",
   "date": "July 12, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124812",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Police Force Expansion**: The city council approved increasing the police department to eight patrolmen plus support staff (day/night clerks and a jailer), citing a rise in serious cases requiring professional attention and the need to protect citizens' lives and property.\n\n• **Telephone Service Approval**: S.L. Jones petitioned to establish and operate a telephone system in Austin, marking the city's early adoption of this new communication technology.\n\n• **Cemetery Access & Street Improvements**: Citizens requested a new street to the city cemetery, and the council authorized the mayor to seek contractor bids for grading and filling streets throughout the city.\n\n• **Police Leadership Election**: Aldermen elected Birkley as President of the Police Force after a ballot vote among six candidates.\n\n• **Tax Relief for Butchers**: Local butchers petitioned for property tax relief, with their request sent to the assessor and collector for consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

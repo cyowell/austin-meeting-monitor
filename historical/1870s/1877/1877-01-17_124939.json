@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-01-17_124939",
-  "title": "",
+  "title": "Austin Pushes for Federal Building, Theater Regulation",
   "meeting_type": "special called",
   "date": "January 17, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124939",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Theater Regulation Approved**: City Council unanimously passed a new ordinance (No. 87) regulating theatrical and other public exhibitions, expediting it through all three readings in a single meeting.\n\n• **Federal Building Initiative**: Mayor Wheeler proposed creating a committee to petition Congress for a federal building in Austin to house the U.S. Court, Post Office, and other government departments, citing the city's rapid growth and status as state capital.\n\n• **Committee Appointed**: Council formed a committee (Aldermen Taylor, Bremond, James, Larmour, and Mayor Wheeler) to advocate for federal construction in Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

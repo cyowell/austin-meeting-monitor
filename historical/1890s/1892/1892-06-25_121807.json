@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-06-25_121807",
-  "title": "",
+  "title": "Austin Water Works Construction Contracts Approved",
   "meeting_type": "special called",
   "date": "June 25, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121807",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major infrastructure project moving forward**: Austin approved contracts to complete a new citywide water works system, including 230 hydrants, 169 valves, and pipe laying, with total costs around $9,225\n\n• **Expert hired to guide the project**: The city brought in Col. J.J. Fanning, described as \"one of the most eminent hydraulic engineers in the world,\" to oversee water power utilization, reservoir design, and distribution planning\n\n• **Public information plan**: Council voted to print and distribute 2,500 copies of Fanning's engineering report to Austin's taxpayers, signaling commitment to transparency about the major public works investment",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-04-06_125077",
-  "title": "",
+  "title": "Austin's 1871 Fire Engine & Public Decency Laws",
   "meeting_type": "regular",
   "date": "April 06, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125077",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Steam Fire Engine Purchase Approved** – The city authorized Mayor to order a first-class steam fire engine and 600 feet of hose from the Silsby Manufacturing Company, with the Washington Fire Company No. 1 contributing $2,000 toward the $4,000+ total cost.\n\n• **Public Decency Ordinance Passed** – New law made it illegal to bathe, swim, or wash in the Colorado River or other city water sources while naked or inadequately clothed during daylight hours, with violators facing misdemeanor charges.\n\n• **Market House Accounts Audited** – Council appointed a three-person committee to review and settle all financial accounts between contractors and the city regarding construction of the new Market House.\n\n• **Various City Expenses Approved** – Council approved nearly $670 in payments for routine services including prisoner maintenance, printing, street work, fire equipment, and burial of paupers.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

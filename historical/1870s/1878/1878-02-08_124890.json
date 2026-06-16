@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-02-08_124890",
-  "title": "",
+  "title": "Austin Approves $5,000 for Odd Fellows Temple",
   "meeting_type": "special called",
   "date": "February 08, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124890",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major funding approved**: The city council unanimously voted to appropriate $5,000 to help the Independent Order of Odd Fellows (a fraternal organization) construct their grand temple in Austin.\n\n• **Public land lease granted**: Council also approved leasing an unused public square to the Odd Fellows for their building project, passing all votes unanimously.\n\n• **Fast-tracked legislation**: Both ordinances were expedited through all three required readings in a single meeting, with council suspending normal procedural rules to speed up the process.\n\n• **Official notification**: The council appointed two aldermen to formally notify the Odd Fellows organization of their approval and funding commitment.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

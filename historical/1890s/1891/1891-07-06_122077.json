@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-07-06_122077",
-  "title": "",
+  "title": "Austin City Council Election Results & Budget Plans",
   "meeting_type": "regular",
   "date": "July 06, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122077",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New aldermen elected**: Robert Weyerman and H. J. Sketchum were elected to represent the 11th Ward and sworn in during the meeting.\n\n• **Industrial relocation ordered**: The council voted to remove all slaughter pens from within city limits by January 1, 1892, addressing public health and sanitation concerns.\n\n• **Major appropriations approved**: The council allocated nearly $6,000 across multiple ordinances for street work, dam construction, and city operations, including $1,629 for Bernard Carrigan's dam construction project.\n\n• **Financial snapshot**: City revenues for June totaled $13,488 in general funds and $3,324 for schools. The treasury reported a balance of $7,389.66 as of July 6.\n\n• **Public complaints addressed**: Citizens petitioned to relocate an arc light on Congress Avenue and move the \"bone yard\" outside city limits; both requests were referred to appropriate committees.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

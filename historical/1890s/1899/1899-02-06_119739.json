@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-02-06_119739",
-  "title": "",
+  "title": "** Austin Road Projects & Hospital Staffing**",
   "meeting_type": "regular",
   "date": "February 06, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119739",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "- **Hospital Leadership Change**: City Council voted to elect Mrs. M. Hamilton as the new Matron of the City and County Hospital after the passing of Mrs. S.M. Ritter.\n\n- **New Court Funding**: The city approved spending $750 to hire attorney S.R. Fisher to help defend three pending lawsuits against the city in federal court over water hydrant rental fees.\n\n- **Infrastructure Improvements**: Council allocated $250 to grade and gravel the street leading from Congress Avenue to Montopolis Bridge and approved necessary supplies and equipment for fire protection services.\n\n- **Annual Budget Approved**: Finance Committee presented a balanced budget for 1899 showing projected income of $100,185 and expenses of $85,083, leaving a surplus of about $15,100.\n\n- **Fire Department Upgrades**: Council appropriated $950 to purchase a new bell for Protection Hose Company No. 3 to improve emergency response capabilities.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

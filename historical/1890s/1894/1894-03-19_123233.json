@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-03-19_123233",
-  "title": "",
+  "title": "Austin Votes on Electric Light Plant Deal",
   "meeting_type": "regular",
   "date": "March 19, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=123233",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major electrical contract approved**: The council authorized Mayor McDonald to sign a contract with the Fort Wayne Electric Company to build an electric light plant in Austin, with the city's old Dam railroad accepted as partial payment (valued at $43,300). The city negotiated the right to sell the railroad independently before January 1, 1895.\n\n• **Cemetery improvements and water service**: The Ladies Cemetery Association petitioned for better grounds maintenance and water service. The council authorized a $75/month contract with the Austin Water, Light and Power Company to provide water to the cemetery starting May 1st.\n\n• **Infrastructure repairs and improvements**: The city allocated funds for bridge repairs on Bouldin Creek (southwest wing wall damage requiring ~$125) and authorized a new floor for the East 16th Street bridge.\n\n• **Fire department issues flagged**: A petition raised concerns about irregularities in the March 19 election of fire department officers, alleging that 28 Colorado Company No. 2 members were illegally elected by acclamation rather than ballot. The fire committee was directed to investigate.\n\n• **Bond payments and contractor payments approved**: The council passed two major appropriations totaling over $26,000 to cover bond interest payments and final contract payments to construction company John T. Hard & Co.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

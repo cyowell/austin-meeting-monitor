@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-04-20_122692",
-  "title": "",
+  "title": "Austin Tax Sale Relief Debate 1883",
   "meeting_type": "special called",
   "date": "April 20, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122692",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Attendance enforcement**: The council fined three aldermen $1 each for missing the meeting, and the mayor sent the marshal to fetch absent members.\n\n• **Mayor's tax relief veto**: Mayor Thayer rejected an ordinance offering relief to property owners whose land was sold for unpaid city taxes, arguing an existing 1880 ordinance already covered the issue.\n\n• **Veto override fails**: The council attempted to pass the tax relief ordinance anyway despite the mayor's rejection, but the vote failed with seven aldermen voting against it.\n\n• **New ordinance introduced**: The council introduced a revised tax relief ordinance for properties sold due to unpaid taxes where at least two years had passed since the sale, though details were deferred.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-03-20_119743",
-  "title": "",
+  "title": "** Austin Infrastructure & Fire Department Updates 1899",
   "meeting_type": "regular",
   "date": "March 20, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119743",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Infrastructure investments approved:** Council passed funding for multiple bridge and road projects including $150 repairs at North 2nd & Congress Avenue, $150 at West 5th & Congress Avenue, and $50 for a culvert on East Avenue, overriding the mayor's veto on some projects.\n\n• **Fire department upgrades:** The city purchased two new fire hose wagons for $410 each, 1,000 feet of new hose, and a fire bell, with Jo. S. Stumph elected as Fire Chief.\n\n• **Water and sewer concerns:** Citizens near the dam requested water supply changes, and council directed investigation into how multiple city sewers empty into the Colorado River.\n\n• **Rail expansion approved:** The International and Great Northern Railway Company was permitted to connect a switch and lay track along West 3rd Street near the Old Court House.\n\n• **Monthly payroll and bonds:** Council approved approximately $19,900 in salaries and bond interest payments for March-April 1899.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

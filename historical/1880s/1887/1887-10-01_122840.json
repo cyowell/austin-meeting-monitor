@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-10-01_122840",
-  "title": "",
+  "title": "** Austin Cemetery Lot Sales Halted Pending Review",
   "meeting_type": "special called",
   "date": "October 01, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122840",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Main Decision**: The City Council voted to suspend all sales of cemetery lots at Greenwood Cemetery until after the next council meeting, with the City Assessor and Collector instructed to stop selling or offering lots for sale immediately.\n\n• **Close Vote**: The resolution passed narrowly 8-7, indicating significant disagreement among aldermen about whether the cemetery lot sales should be paused.\n\n• **Procedural Amendment**: An alderman successfully amended the resolution to add a time limit (\"until after the next meeting\") rather than implementing a permanent ban, giving the council another opportunity to reconsider the policy soon.\n\n• **Attendance Issues**: Several aldermen were absent due to illness, and the meeting required multiple procedural votes just to get enough members present to conduct business.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-09-18_124747",
-  "title": "",
+  "title": "Austin's Water Bills and Bridge Disputes",
   "meeting_type": "regular",
   "date": "September 18, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124747",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Company Settlement**: The Austin Water Light and Power Company proposed settling the city's $7,000 debt by providing fire protection and water services for cemetery and public buildings, with rates of 2¢ per barrel or 50¢ per 1,000 gallons—the council referred this to a special committee for review.\n\n• **Bouldin Bridge Accepted Despite Flaws**: Engineers found cracks in the bridge's arch and wing walls but deemed them non-serious, leading the council to narrowly accept the structure (14-6 vote) despite construction concerns.\n\n• **Street Repairs Disputed**: A petition to repair dust-covered Nueces Street north of 19th Street was referred to committee rather than immediately approved, with aldermen voting 14-7 to defer the decision.\n\n• **Cemetery Maintenance Issues**: The Ladies Cemetery Association requested the city provide regular upkeep of 32 grave lots and pauper grounds, install hitching posts to protect trees, and enforce a dog ordinance to eliminate strays from the grounds.\n\n• **Worker Payment Delayed**: A proposed $1,300 payment for laborers on the Bouldin Creek Bridge failed to pass (8-12 vote), with only $1,000 approved pending confirmation of county responsibility.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

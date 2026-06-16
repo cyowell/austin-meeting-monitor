@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-04-03_125078",
-  "title": "",
+  "title": "West Pecan Street Repair Request",
   "meeting_type": "regular",
   "date": "April 03, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125078",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Brief Meeting**: The Austin City Council convened on April 3, 1871, with six of seven aldermen present, then immediately adjourned until April 6th.\n\n• **Road Conditions Crisis**: Residents petitioned the council to grade and pave West Pecan Street, describing the roadway from Congress Avenue to Shoal Creek as \"almost impassable.\"\n\n• **Community Action**: Multiple property owners along West Pecan Street formally requested the council take action through ordinance or other means to improve the deteriorating street conditions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

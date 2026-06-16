@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-09-21_124783",
-  "title": "",
+  "title": "Austin Honors Ex-Mayor Saylor's Death",
   "meeting_type": "special called",
   "date": "September 21, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124783",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Ex-Mayor W.A. Saylor's funeral**: The city council called a special meeting to pay respects to former Mayor Saylor, who died unexpectedly in his prime. Council members unanimously adopted resolutions expressing their condolences to his family and pledging to attend his funeral as a body.\n\n• **Legal authorization granted**: Alderman Cummings moved to authorize the mayor to hire an attorney to represent the city in a lawsuit brought by Miss Maud Shelley. The motion was adopted.\n\n• **Quorum present**: 12 of 20 aldermen attended the meeting, with 8 absent.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

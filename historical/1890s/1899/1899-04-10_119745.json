@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-04-10_119745",
-  "title": "",
+  "title": "1899 Austin Approves Official Bonds, Budget",
   "meeting_type": "special called",
   "date": "April 10, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119745",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **New city officials approved**: The council approved bonds for a new City Engineer, City Marshal, and Treasurer, ranging from $1,000 to $50,000, to ensure they would faithfully perform their duties and account for public money.\n\n• **Monthly payroll authorized**: The council appropriated nearly $3,200 to cover April 1899 salaries for police, street workers, sanitation crews, and other city employees—routine budget maintenance.\n\n• **Telegraph company gets approval**: The Southwestern Telegraph and Telephone Company was authorized to install underground conduits through Austin streets and alleys to lay telephone lines.\n\n• **Standing committees assigned**: The Mayor announced assignments for 14 standing committees overseeing areas like streets, water, fire, police, and parks for the upcoming term.\n\n• **Minor city business**: The council addressed an alley petition, removed improper property tax assessment on a former Methodist church building, and approved $159 for election judges' compensation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

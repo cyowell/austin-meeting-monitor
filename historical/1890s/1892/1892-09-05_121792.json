@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-09-05_121792",
-  "title": "",
+  "title": "Austin's 1892 Street Lights and Cemetery Expansion",
   "meeting_type": "regular",
   "date": "September 05, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121792",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street lighting approved**: Citizens petitioned for an arc light at Congress Avenue and First Street; the council voted to authorize a contract with the Austin Water, Light and Power Company to install it.\n\n• **City cemetery expansion debated**: The Austin City Cemetery Association proposed adding 8 acres of land for burials, offering discounted lot prices ($75-$150) and free pauper burial grounds. After split opinions, the association was allowed to withdraw its petition temporarily.\n\n• **Sewer system resolved**: A complaint about the Lewis-Mercer Construction Company's river outlet was resolved after the company modified its system to properly direct water flow and installed disinfecting tanks to prevent odors.\n\n• **Property cleanup ordered**: Mayor McDonald recommended requiring property owners to clean weeds and rubbish from sidewalks and alleys, with the city authorized to complete cleanups at the owner's expense if they refused.\n\n• **Financial approvals**: The council approved nearly $24,600 in contracts and payments for ongoing city work, including street maintenance and construction projects.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-09-09_122669",
-  "title": "",
+  "title": "Austin Inspects Capitol Building Safety",
   "meeting_type": "special called",
   "date": "September 09, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122669",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Capitol Building Safety Inspection Ordered**: The city council voted unanimously to appoint a three-person committee (including the city engineer and two expert citizens) to inspect the Temporary Capitol Building and report on whether it was safe to use.\n\n• **Coordination with State**: The committee was instructed to work with a similar committee appointed by the State of Texas to conduct the joint inspection and deliver their findings to the mayor as quickly as possible.\n\n• **Committee Members Named**: Mayor Clark appointed William Von Rosenberg, J.K. Robinson, and J.K. Pine (the city engineer) to conduct the safety review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

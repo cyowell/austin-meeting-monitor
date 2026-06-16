@@ -1,6 +1,6 @@
 {
   "meeting_id": "1869-12-06_125105",
-  "title": "",
+  "title": "Austin Cemetery Lots Sold, Police Paid in 1869",
   "meeting_type": "regular",
   "date": "December 06, 1869",
   "year": 1869,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125105",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Cemetery Property Changes**: The city council voted to sell cemetery lots #254 and #255 while condemning lots #249 and #260 to be converted into a street through the cemetery.\n\n• **Police and City Services Funded**: The council approved nearly $193 in monthly expenses, including $120 for three police officers' November salaries, plus costs for jail operations, animal removal, and equipment maintenance.\n\n• **Medical Bill Delayed**: A doctor's invoice for medical services provided to a patient in Austin was presented but tabled (postponed) for future consideration.\n\n• **Routine Government Operations**: The city secretary's November financial report was received and reviewed during this regular monthly council meeting held on a Monday evening.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

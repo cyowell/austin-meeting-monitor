@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-06-14_122743",
-  "title": "",
+  "title": "Austin Elects New Mayor in 1884",
   "meeting_type": "special called",
   "date": "June 14, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122743",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **New Mayor Elected**: John W. Robertson won the mayoral election with 811 out of 2,055 votes cast, taking over from resigned Mayor W.A. Saylor. He was sworn in immediately that evening.\n\n• **Alderman Resignation**: J.W. Robertson's resignation from the 5th ward alderman position created a vacancy, prompting the city to schedule a special election for June 27th to fill the seat.\n\n• **Leadership Changes**: L.M. Crooken was elected President of the Board of Aldermen, and the council appointed a special committee to review city appraisal and equalization procedures.\n\n• **Election Details**: The vote count shows Miller received 654 votes and Dummings received 588 votes, making Robertson's victory clear but not overwhelming.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

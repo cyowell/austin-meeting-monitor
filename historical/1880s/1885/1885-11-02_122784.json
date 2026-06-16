@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-11-02_122784",
-  "title": "",
+  "title": "Austin's Dengue Epidemic and Cemetery Expansion Plans",
   "meeting_type": "regular",
   "date": "November 02, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122784",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Dengue Fever Crisis**: The city's six-month dengue epidemic is finally winding down. The city physician reported it as an imported disease and emphasized the importance of quarantine and sanitation measures.\n\n• **New Cemetery Land**: City council considered a proposal to purchase 4 acres of land northeast of Austin to use as a new cemetery, with 32 deaths recorded in October alone.\n\n• **Financial Reports**: The city collected nearly $87,000 in the past fiscal year from property taxes, business licenses, and court fines, with an October balance of over $21,000 in the city treasury.\n\n• **Street and Infrastructure Improvements**: Council discussed renaming Spruce Street to East Live Oak and explored plans to install street lamps on Pine Street, though a proposed $2,000 bridge-widening project was rejected.\n\n• **Hospital Operations**: The city hospital treated 17 patients in October with three successful major surgeries, with praise for staff management and patient care.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

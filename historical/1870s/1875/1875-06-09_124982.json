@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-06-09_124982",
-  "title": "",
+  "title": "** Austin Water Works Contract & City Services",
   "meeting_type": "regular",
   "date": "June 09, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124982",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Infrastructure Deal Finalized** – City Council approved a 10-year contract with the Austin Water Company (successor to Brown & Freeman) to install 50 fire hydrants at $80/year each, with completion required by January 1, 1876. The system must include an 75,000-gallon reservoir at least 60 feet high.\n\n• **Liquor License Restrictions Tightened** – Council passed new rules requiring petitions for liquor retail licenses to verify that signers are actual property owners and residents of the ward where the business would operate, preventing fraudulent applications.\n\n• **Fire Department Funding** – Council approved $600 to purchase and equip a new truck for Hope Hook & Ladder Company No. 2, demonstrating investment in public safety infrastructure.\n\n• **Government Accountability Measures** – Council established a formal order system requiring the Mayor to issue and track all city work contracts with specified details, preventing unauthorized spending and improving financial oversight.\n\n• **Police Force Reduction** – The city marshal was directed to reduce the police department to 11 officers, giving him discretion on staffing decisions during this period of municipal restructuring.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

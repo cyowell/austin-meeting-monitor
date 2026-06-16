@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-07-16_122702",
-  "title": "",
+  "title": "Austin's 1883 Election Results & Railroad Expansion",
   "meeting_type": "regular",
   "date": "July 16, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122702",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Ward 5 alderman elected**: Henry Pfannekuche won the election with 74 votes over John W. Wayland's 36 votes and will be installed at the next meeting.\n\n• **Railroad expansion approved**: The Capitol Compress Company was granted permission to build railroad tracks across Bowie Street, West Avenue, and Cypress Street, connecting to the International and Great Northern Railroad.\n\n• **Prison food investigation ordered**: Council appointed a committee to inspect how city prisoners were being fed and assess the quality of food provided.\n\n• **Tax dispute filed**: The City Water Company petitioned the council to waive property tax assessments for 1883, referred to the Finance Committee for review.\n\n• **Attendance penalties enforced**: Two aldermen were each fined $1 for missing the meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

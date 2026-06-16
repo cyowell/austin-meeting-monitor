@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-09-03_125092",
-  "title": "",
+  "title": "Austin Hospital Block Sale Funds Market House",
   "meeting_type": "regular",
   "date": "September 03, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125092",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Hospital Block Sale**: The city received $1,200 from Mayor Leander Brown from the sale of the Hospital Block property\n\n• **Market House Construction**: The funds were designated specifically for building a new Market House in Austin\n\n• **Treasury Management**: Secretary Baker documented the transaction as treasurer, recording the financial allocation for the public project",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

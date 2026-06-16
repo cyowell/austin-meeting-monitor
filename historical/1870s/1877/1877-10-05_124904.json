@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-10-05_124904",
-  "title": "",
+  "title": "Austin's 1874 Bridge, Tax & Election Plans",
   "meeting_type": "special called",
   "date": "October 05, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124904",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Infrastructure Projects Approved**: Council authorized $1,000 to build a stone bridge in Ward #8 and approved a 1% tax on property owners along Block #69's alley to fund street paving, plus authorized an iron pipe or culvert installation on Pecan Street.\n\n• **City Election Set for November**: First Monday in November designated for city officer elections, with specific polling places assigned across all 10 wards and judges/clerks appointed to oversee voting.\n\n• **Street Improvements**: Multiple lamp posts ordered for Guadalupe & Mesquite Streets and Wilmon Boulevard; street repairs authorized in Wards #6 and #10.\n\n• **Property Disputes Resolved**: A property owner's assessment was reduced by $1,000 after the city acknowledged an appraisal error, and a contractor received partial payment in U.S. currency after being paid in devalued city warrants.\n\n• **Building Permits Granted**: Permission granted to add an external stairway to Bremond's Bank building on Congress Avenue.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

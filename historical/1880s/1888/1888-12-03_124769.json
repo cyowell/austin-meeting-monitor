@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-12-03_124769",
-  "title": "",
+  "title": "Austin Land Sale & Aldermen Elections Dec 1888",
   "meeting_type": "regular",
   "date": "December 03, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124769",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Land Sale**: The city authorized selling 4,428 acres of land in Newton County (part of the John J. Allan estate) to Alexander Gilmer for $2 per acre—a business decision to convert inherited property into cash.\n\n• **Aldermen Elections Canvassed**: Election results were officially counted and 11 new aldermen were sworn in alongside returning council members, with W.B. Wortham elected as board president.\n\n• **Public Health Report**: The city hospital treated 154 patient visits in November with mostly minor cases of scarlet fever and diphtheria reported; overall health conditions were good.\n\n• **Budget Approvals**: The council approved nearly $1,400 in payments for approved bills and $3,100 for city employee payroll while transferring funds between accounts.\n\n• **Infrastructure & Utilities**: A streetlight was relocated to the corner of Fifth and Brazos Streets, while requests for additional street work and fire department improvements were referred to committees pending budget availability.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-01-01_123847",
-  "title": "",
+  "title": "Austin 1894: Water, Sewers & Police Debates",
   "meeting_type": "regular",
   "date": "January 01, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=123847",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water management conflict**: Citizens owning lakefront property petitioned the city to close dam waste pipes because rising water levels (2-3 inches daily) were saturating their land and killing livestock, though the request was referred to the Board of Public Works for further review.\n\n• **Sewerage expansion delayed**: The Austin Sewerage Company requested relief from installing new sewer lines on multiple streets, claiming there was insufficient immediate need—the matter was sent to the sanitation committee.\n\n• **First Ward police request**: Residents requested an additional night-shift police officer for the First Ward, with a specific candidate recommended; the petition was referred to the police committee.\n\n• **Failed salary ordinance**: The council rejected a proposed two-year salary and compensation ordinance for city employees (9-11 vote), leading to creation of a three-person committee to draft a new version.\n\n• **Budget and maintenance updates**: The city treasurer reported nearly $21,000 in available funds across various accounts, and engineers flagged that the Stone Arch Bridge (\"Brawes bridge\") was in dangerous condition and needed approximately $400 in repairs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

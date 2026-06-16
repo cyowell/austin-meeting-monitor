@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-06-15_119799",
-  "title": "",
+  "title": "Austin Water Plant Leadership Crisis 1896",
   "meeting_type": "regular",
   "date": "June 15, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119799",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water & Light Plant Management Crisis:** Mayor Lewis Hancock sent a formal message urging the council to hire a trained electrical engineer to professionally manage the city's water and light utility, citing that current staff lacked experience with similar plants despite being \"zealous and faithful.\"\n\n• **Major Bond Interest Payment:** The council approved $27,687.50 in bond interest payments due July 1, 1896, for the city's Water Works and Electric Light system—a significant financial commitment reflecting Austin's substantial debt.\n\n• **Operational Funding Approved:** The council allocated $5,000 from earnings to cover operating expenses of the Water & Light Plant, plus an additional $575 to pay principal and interest on older bonds.\n\n• **Infrastructure Improvements:** Minor appropriations passed for fire department equipment ($68.15 for a bell tower and $136.90 for horse hitches) and a $750 reserve fund purchase was approved for future water system expansion.\n\n• **Routine Petitions Granted:** The council addressed citizen requests, including refunding pound fees and opening an alley, while referring a damage claim from a bridge collapse to the Claims Committee.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

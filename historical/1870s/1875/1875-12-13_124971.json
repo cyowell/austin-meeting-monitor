@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-12-13_124971",
-  "title": "",
+  "title": "Austin Circus License Debate & Water Works Delays",
   "meeting_type": "special called",
   "date": "December 13, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124971",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Circus License Dispute**: The council rejected a petition from Howes Great London Circus to reduce their daily exhibition license fee from $500 to $357, but later approved a compromise fee of $250 per day with proceeds directed toward paying city debts.\n\n• **Municipal Debt Management**: Council appointed a three-member committee to arrange payment of bond coupons due January 1, 1876, and authorized the circus license fees to help cover these obligations.\n\n• **Water Company Extension**: The City Water Company received approval to extend their construction deadline to February 1, 1876, citing contractor delays, transportation issues, and expanded project scope beyond the original contract.\n\n• **Pauper Care Proposal**: Council referred a proposal from Jacob Fountain to house the city's poor at $42 per month to the Charity Committee for consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

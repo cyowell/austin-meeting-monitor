@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-06-06_124956",
-  "title": "",
+  "title": "Austin Property Taxes & Street Lamps Debated in 1876",
   "meeting_type": "special called",
   "date": "June 06, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124956",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street lamp lighting approved**: The city council voted to let John Condon continue lighting street lamps for one more month, provided he kept them lit to the satisfaction of the Street Committee and City Marshal.\n\n• **Widespread property tax appeals**: A special Court of Appeals spent multiple days hearing dozens of petitions from Austin property owners challenging their assessed property values, which had been significantly increased by the Board of Equalization.\n\n• **License application rejected**: The council voted down a petition to issue J Selva a liquor license to sell spirits and wine in Ward #1, with a 6-3 vote against the proposal.\n\n• **Legal review requested**: The council directed the Mayor and City Attorney to research the city's legal authority to regulate liquor licenses, adjust tax assessments, and enforce building codes in fire-restricted areas.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-12-27_119902",
-  "title": "",
+  "title": "Austin Water Bonds & Power Plant Funding Debate",
   "meeting_type": "special called",
   "date": "December 27, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119902",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Funding Crisis:** Mayor McGall urged the council to approve $42,157 in emergency appropriations—$20,000 for water/light services and $22,157 in bond interest due January 1, 1900—warning that delays could damage the city's credit rating.\n\n• **Split Decision:** The council deadlocked 4-3, with Aldermen Dunham, Glass, Mortimer, and Nolen voting to table both spending ordinances, while Fischer, Morris, and Stumpf supported immediate approval despite having sufficient funds ($39,906) in the city treasury.\n\n• **Steam Power Expansion:** The mayor emphasized that approving these payments was critical to securing financing for a new steam power plant to supplement the city's aging water-powered electric system—a major infrastructure upgrade citizens were demanding.\n\n• **Political Gridlock:** Multiple absences and a narrow vote margin left Austin's water and power funding in limbo heading into the new century, with the council unable to reach consensus on basic financial obligations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

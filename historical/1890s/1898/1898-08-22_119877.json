@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-08-22_119877",
-  "title": "",
+  "title": "Austin Bonds & Water Debt 1898",
   "meeting_type": "special called",
   "date": "August 22, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119877",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Debt Reduction**: Council considered spending $10,150 to buy back and retire Water and Light bonds, though the vote to fast-track it failed after aldermen disagreed on the amount.\n\n• **Sinking Fund Approved**: Council unanimously passed a $6,000 ordinance to purchase bonds for a city sinking fund covering debts issued before May 1900—essentially setting aside money to pay down old municipal debt.\n\n• **Budget Debate**: Alderman Taylor attempted to reduce the water bond spending from $10,150 to $5,650, but the amendment was defeated 11-5, suggesting council wanted to prioritize debt repayment.\n\n• **Procedural Disagreement**: Council blocked a motion to expedite the water bonds ordinance, indicating some aldermen wanted more deliberation before final passage on this larger expenditure.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

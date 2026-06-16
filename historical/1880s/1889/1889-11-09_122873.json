@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-11-09_122873",
-  "title": "",
+  "title": "Austin Orders December Election Vote",
   "meeting_type": "special called",
   "date": "November 09, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122873",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Called for December 2, 1889** – The City Council passed a resolution to hold a general election on Monday, December 2, 1889, though the specific positions or issues being voted on are not detailed in this meeting record.\n\n• **Unanimous Council Support** – All 11 aldermen present voted in favor of the election resolution, indicating strong agreement across the board.\n\n• **Significant Absenteeism** – Nine aldermen were absent from the meeting, representing nearly half of the council's membership.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

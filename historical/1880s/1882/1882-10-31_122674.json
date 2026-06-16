@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-10-31_122674",
-  "title": "",
+  "title": "Austin Election Dispute and Police Appointments",
   "meeting_type": "special called",
   "date": "October 31, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122674",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Election Postponement Rejected**: City Council voted to proceed with scheduled November 7, 1882 elections for City Marshal and school tax decision, rejecting aldermen's request to reschedule the vote.\n\n• **Citizens Petition Against Delay**: Austin residents formally protested the proposed postponement of city elections, and the council received their petition and sided with the public's wishes.\n\n• **New Police Officers Appointed**: The mayor nominated Henry Brown and Henry Bannbruche as special police officers, and the council unanimously confirmed both appointments.\n\n• **Attendance Penalties**: Three aldermen (Cook, Kuepperitz, and Kinney) were each fined one dollar for missing the October 31st meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-12-01_122758",
-  "title": "",
+  "title": "Austin Water Dispute and December 1884 Budget",
   "meeting_type": "regular",
   "date": "December 01, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122758",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water Company Contract Dispute**: The city council voted to pay $5,000 in overdue hydrant fees from July 1884 to the City Water Company, but added legal language stating this payment did NOT validate the contract—reserving the city's right to challenge the agreement's validity in court due to poor service complaints.\n\n• **Annual Finances**: The city treasurer reported total receipts of $183,405.96 for fiscal year ending December 1, 1884, with most money spent on general operations ($85,888.90) and school funding ($55,407.50).\n\n• **November Public Safety Stats**: The city marshal made 177 arrests and collected $895 in fines; the city sexton reported 44 deaths (25 white, 19 Black residents).\n\n• **Infrastructure Improvements**: Council approved $600 to extend the bridge on West Pecan Street and $10,000 to build a new market house on market square.\n\n• **Monthly Operations**: Approved $8,151.85 for city payroll and authorized investigation into the Compress Company's $480 billing for a bridge construction over Shoal Creek.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

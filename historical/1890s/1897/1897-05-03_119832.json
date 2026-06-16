@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-05-03_119832",
-  "title": "",
+  "title": "Austin's 1897 Infrastructure & Budget Decisions",
   "meeting_type": "regular",
   "date": "May 03, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119832",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **City Funding & Financial Management**: The council approved multiple salary appropriations totaling over $22,000 for city officers and employees through November 1897, plus resolved to destroy old municipal bonds as part of debt management procedures.\n\n• **Street Infrastructure & Maintenance**: Residents petitioned for street improvements and new street openings in the 11th Ward, while the Mayor urged action on the dangerous river bridge at Avenue foot, citing unclear responsibility between the city and county.\n\n• **Police & Public Safety**: The 11th Ward citizens requested the appointment of D. Cargill as a new police officer assigned to their district.\n\n• **City Cost-Cutting**: Mayor Hancock proposed furloughing idle city teams (horses/equipment) to reduce wasteful expenses and directed the Street Superintendent to use city prisoners for street labor, a cost-saving measure the council approved.\n\n• **Minor Appropriations**: The council approved funding for extra street labor ($20.75), a culvert construction ($40), and authorized allowing taxpayers to use city teams for street work.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

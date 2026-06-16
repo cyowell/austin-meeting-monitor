@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-11-13_122715",
-  "title": "",
+  "title": "** Austin Gas Company Contract & Cemetery Land Dispute",
   "meeting_type": "special called",
   "date": "November 13, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122715",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Gas streetlight contract approved** – The Council passed an amended ordinance allowing the Capital Gas Light Company to continue operating gas works and street lamps in Austin after revising key contract terms.\n\n• **December election logistics set** – Ten voting locations were designated across Austin's wards with appointed judges to oversee an election scheduled for December 3, 1883.\n\n• **Mayor vetoes cemetery land deal** – Mayor Taylor rejected a proposal to purchase 20 acres of land from a private owner for cemetery expansion, arguing the $7,575 price was unreasonably high compared to other available land ($100-$600 per acre) and that the city should own cemetery property outright.\n\n• **Hospital location contested** – Property owners near the proposed site of a new hospital on Block 166½ filed a protest, asking the Council to prevent construction there; the matter was referred to committee.\n\n• **Fire company repair costs investigated** – The Council ordered the City Attorney to determine whether the gas and streetcar companies should pay $100 in repairs for the Colorado Fire Company's damaged equipment.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

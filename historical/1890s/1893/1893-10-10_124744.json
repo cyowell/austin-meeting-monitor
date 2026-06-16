@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-10-10_124744",
-  "title": "",
+  "title": "Austin Water Rates Dispute Resolved",
   "meeting_type": "special called",
   "date": "October 10, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124744",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Rate Settlement**: Council unanimously approved paying the Austin Water, Light and Power Company's receiver $1,712.06 for water services from July through September 1893, rejecting the company's larger claim of $13,050 as excessive.\n\n• **Rate Framework**: The council established $8,075 annually as fair compensation for water used in fire hydrants, street flushing, and public buildings—a rate previously adopted in July 1893.\n\n• **Ongoing Legal Battles**: The city is simultaneously pursuing lawsuits against the water company to void an 1883 contract and recover control of streets, while the state is attempting to revoke the company's franchise altogether.\n\n• **Service Interruption**: The water company failed to provide service for 14 days in September due to equipment breakdown, forcing the city to haul water manually to fill its cisterns.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

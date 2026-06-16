@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-04-16_122732",
-  "title": "",
+  "title": "** Austin City 1894 Bridge Repairs & Waterworks",
   "meeting_type": "regular",
   "date": "April 16, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122732",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Safety Concern**: The city approved $350 in emergency repairs for Bouldin Creek Bridge after recent rain damage left the structure in dangerous condition, with a hole washed out near the east wing walls.\n\n• **Cemetery Equity Decision**: The council voted to allow colored (Black) residents to be buried in Bethany Cemetery on the same terms and fees as other citizens, starting in August 1894.\n\n• **Infrastructure Funding**: The council appropriated $6,648.84 for waterworks and electric light system expenses, plus $1,000 for additional street and sanitary labor.\n\n• **Land Settlement**: The city agreed to pay $2,500 to resolve long-standing property disputes with the Pease and Harris estates over railroad right-of-way and street extension issues.\n\n• **Tribute to Col. DeGress**: The council officially mourned the death of Colonel J.C. DeGress, a long-serving public official, and ordered his portrait in city hall draped in black for 30 days.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

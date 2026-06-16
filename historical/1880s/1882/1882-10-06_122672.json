@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-10-06_122672",
-  "title": "",
+  "title": "Austin Market Tax Vetoed by Mayor",
   "meeting_type": "special called",
   "date": "October 06, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122672",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Mayor vetoes market tax ordinance**: Mayor W.H. Dayly rejected a new law that would have taxed goods sold outside a central market, citing concerns it would spark lawsuits, was unconstitutional, and would inconvenience citizens.\n\n• **Attendance penalties imposed**: Four aldermen were each fined $1 for missing the October 6th meeting, a standard enforcement measure of the era.\n\n• **City Marshal's leave extended**: The council postponed a decision on City Marshal Ben Thompson's leave of absence request until the next regular meeting.\n\n• **Council votes to delay veto override**: Rather than immediately challenge the mayor's veto, aldermen voted to postpone action on whether to override it, suggesting uncertainty about pushing the market tax forward.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-03-15_119828",
-  "title": "",
+  "title": "Austin's 1897 Prostitution Ban and Water Plant Spending",
   "meeting_type": "regular",
   "date": "March 15, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119828",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New Prostitution Law**: The city passed an ordinance making it a misdemeanor for \"lewd women or prostitutes\" to stand, walk, or loiter on streets and alleys at night, with penalties to be determined.\n\n• **Water & Light Infrastructure**: City approved major equipment purchases for the new pumping station, including $1,050 for electric arc machines, cast iron piping, carbons, and steel shafting from multiple suppliers.\n\n• **Tax Dispute Settlements**: Council approved compromise settlements for multiple pending tax cases in county court, adjusting property valuations for banks and businesses that had appealed their assessments.\n\n• **Fire Department Elections**: Joseph Stumpf was elected Fire Chief and Julius Schutze as Assistant Chief in balloting held that day.\n\n• **Budget Appropriations**: Council allocated $2,000 for water plant salaries, $1,945.50 for bond interest payments, and $955 for city employee salaries for March.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

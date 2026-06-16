@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-11-22_122639",
-  "title": "",
+  "title": "Austin Railroad Right-of-Way and City Finances 1881",
   "meeting_type": "special called",
   "date": "November 22, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122639",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Financial Crisis Investigation**: The council unanimously approved a resolution to hire an expert accountant (budget: $100) to audit all city records and determine Austin's true financial condition, as public distrust was causing city warrants to be heavily discounted.\n\n• **Railroad Expansion Delayed**: A proposed right-of-way for the Austin and Northwestern Railroad was postponed until the next meeting after citizens and property owners submitted a petition opposing the railroad's passage through Cedar Street.\n\n• **Priority Shift**: Despite some aldermen wanting to address the railroad question first, the council voted to prioritize the city's financial crisis, reflecting concerns that Austin's creditworthiness was at stake.\n\n• **Accountability Review Ordered**: The finance committee was instructed to examine records from previous administrations to provide a complete picture of the city's assets, debts, and resources by January's next regular meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

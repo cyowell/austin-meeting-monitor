@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-12-12_119817",
-  "title": "",
+  "title": "Austin Water System Overhaul & Budget Crisis",
   "meeting_type": "special called",
   "date": "December 12, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119817",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water Supply Crisis**: The city's water system is failing—current capacity only delivers 5 million gallons daily while demand exceeds 6 million. Mayor recommends a $70,000 pumping station on the Colorado River to provide pure, flood-safe water.\n\n• **Major Infrastructure Spending**: City needs approximately $95,000 in improvements including a new water pumping station ($70,000) and power house upgrades ($21,714) to modernize the aging Water and Light Plant.\n\n• **Budget Deficit and Cost Cuts**: City faces a $13,300 deficit and must reduce spending significantly. Mayor proposes cutting his own salary by $600, reducing City Council meetings from two to one per month, and overhauling the street department to cut costs by $4,655 annually through contract work instead of direct city employment.\n\n• **New Aldermen Elected**: Eleven new aldermen were sworn in after the December 7 election. Alderman Linn was elected President of the Board of Aldermen, and standing committees were appointed to oversee various city departments.\n\n• **Charter Reform Committee Created**: Mayor requested creation of an 8-person committee (4 aldermen, 4 citizens plus city attorney) to draft amendments to the city charter, particularly regarding control of the Water and Light Plant.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

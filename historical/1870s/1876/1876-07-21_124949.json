@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-07-21_124949",
-  "title": "",
+  "title": "Austin Street Repair & Gutter Maintenance 1876",
   "meeting_type": "special called",
   "date": "July 21, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124949",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency Meeting Called**: City Council held a special session to address urgent infrastructure issues on Pecan Street, specifically problems with street grading and damaged gutters.\n\n• **Gutter Cleaning Resolution Passed**: Council adopted a resolution requiring the Street Committee and City Engineer to develop and implement a plan to keep gutters clean and prevent waste water from disturbing neighbors.\n\n• **Accountability Focus**: The measure emphasized that city officers must fully discharge their duties to prevent residents from being annoyed by water drainage problems on neighborhood streets.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

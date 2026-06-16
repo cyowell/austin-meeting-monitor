@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-04-17_125034",
-  "title": "",
+  "title": "Austin Butcher Shops, Fire Code Updates Approved",
   "meeting_type": "regular",
   "date": "April 17, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125034",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Meat Market Licenses Granted**: Two petitions to operate butcher shops on East Avenue were approved, including one opposite the Iron Bridge over Waller Creek.\n\n• **City Surveyor Election Deadlocked**: The council tied 3-3 in voting between candidates R.W. Ford and C.D. Anderson and postponed the decision to the next meeting.\n\n• **Bridge Safety Ordinance Passed**: Riders and drivers must cross city bridges at a walk or face a $5 fine, with informants earning half the penalty amount.\n\n• **Fire Safety Standards Tightened**: New ordinance expanded fire limits and banned wooden building construction on Pecan, Pine, and Congress Streets, with violations resulting in demolition.\n\n• **Financial Restructuring Approved**: The council passed a complex ordinance allowing citizens to exchange old warrants and claims for 10% interest city bonds, creating a financial recovery mechanism for the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

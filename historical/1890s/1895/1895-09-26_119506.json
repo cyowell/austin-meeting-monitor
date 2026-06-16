@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-09-26_119506",
-  "title": "",
+  "title": "Austin's Water System Funding Dispute (1895)",
   "meeting_type": "special called",
   "date": "September 26, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119506",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Mayor Vetoes $5,000 Water Fund Request** — Mayor John McDonald rejected an attempt to use Water and Light bond money for operating expenses, arguing those funds were designated only for expanding and completing the system, not day-to-day operations. The council upheld his veto unanimously.\n\n• **Alternative Funding Approved** — The council passed a $5,000 appropriation from the Water and Light earnings fund instead to cover operating expenses and getting the plant running, receiving unanimous support.\n\n• **Infrastructure Investment** — The council approved $2,000 for engineering, labor, and other costs to complete and extend the Water and Light system, showing commitment to expanding Austin's utilities.\n\n• **Street and Board Funding** — The council allocated $250 to pay street laborers and $160 for the Board of Appraisers' per diem, with near-unanimous support for both measures.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

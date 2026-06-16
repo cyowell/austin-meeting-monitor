@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-01-25_123849",
-  "title": "",
+  "title": "Austin City Salaries Debate 1894",
   "meeting_type": "special called",
   "date": "January 25, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=123849",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Salary Ordinance Passed**: The Austin City Council voted 12-8 to pass a new ordinance setting salaries for city officers and employees, with significant debate over individual positions.\n\n• **Street Superintendent Pay Dispute**: A contentious amendment to raise the Street Superintendent's salary from $360 to $1,000 failed 8-12, reflecting disagreement over the city's spending priorities.\n\n• **Close Votes Throughout**: The council was deeply divided, with several amendments failing narrowly, including attempts to reduce the proposed $1,000 salary to $900 and to eliminate the $2,760 Secretary Inspector position.\n\n• **Minority Opposition**: Eight aldermen consistently voted against the salary ordinance, suggesting concerns about municipal spending during what may have been an economically challenging period.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

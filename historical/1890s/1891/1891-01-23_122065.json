@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-01-23_122065",
-  "title": "",
+  "title": "Austin's Smallpox Response Plan",
   "meeting_type": "special called",
   "date": "January 23, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122065",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency Health Measure**: Austin City Council passed an ordinance to prevent smallpox spread by establishing a \"pest house\"—a quarantine facility to isolate infected residents during a disease outbreak.\n\n• **Public Health Funding**: The council approved $1,000 in emergency funding to establish, furnish, and maintain the isolation facility (some aldermen pushed for $2,000 but were outvoted).\n\n• **Expedited Approval Process**: To address the health crisis quickly, council suspended normal procedures to fast-track the ordinance through all three required readings in a single emergency meeting.\n\n• **Limited Transparency**: The council voted to prevent publication of meeting minutes, keeping details of their smallpox response plan from the general public.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

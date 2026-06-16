@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-09-19_119879",
-  "title": "",
+  "title": "Austin's 1898 Water, Light & Building Permits",
   "meeting_type": "regular",
   "date": "September 19, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119879",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water & Light Commission Spending Scrutiny**: Commissioner Geo. A. Brush filed a scathing minority report accusing the Water & Light Department of inflated expenses (approximately $30,000 annually), misallocated costs, poor record-keeping, and incompetent management under Superintendent Patterson, specifically questioning expensive filtering trenches and an inadequate hydraulic knowledge by leadership.\n\n• **Building & Infrastructure Permits Granted**: The council approved construction permits for a wooden building addition within city fire limits (after referral to Fire Commissioners), a corrected iron roof building by Lone Star Securities Company, and allowed architect S. Synes temporary use of Colorado Street to move a church building.\n\n• **Utility Growth & Revenue Reports**: The Water & Light Commission reported significant growth with 1,128 incandescent light consumers (+17 for the quarter) and 2,508 water customers (+77), though total operating expenses of nearly $8,000 for the quarter exceeded revenues.\n\n• **Municipal Bond Appropriations**: Council approved $16,312.50 for Water & Light Bond interest and $2,145.00 for Funding Bond interest due October 1st, with some aldermen voting against the financial obligations amid budget concerns.\n\n• **Dam Damage Settlement & Sanitary Issues**: The council referred a lawsuit compromise claim from a property owner harmed by the city dam to committee investigation, and adopted a resolution directing the sanitary inspector to drain a pond near Hyde Park.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

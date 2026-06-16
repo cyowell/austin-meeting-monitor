@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-08-24_124911",
-  "title": "",
+  "title": "Austin Sewerage Plan & Mayor Pay Debate 1877",
   "meeting_type": "special called",
   "date": "August 24, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124911",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Sewerage System Proposal**: City council discussed a major infrastructure project to build a sewer from the Capitol to the river, with a proposed cost-sharing arrangement where Austin would pay one-third, Travis County would pay one-third, and citizens would fund the remainder through subscription. The proposal was ultimately postponed for further discussion.\n\n• **Mayor's Fee Dispute**: A special committee ruled that the Mayor should receive court fees even when convicted criminals work out their fines on public streets rather than paying cash. This decision reversed a controversial 1875 amendment that had reduced the Mayor's compensation and was being challenged in court as unconstitutional.\n\n• **Cotton Platform Request**: A petition was received from citizens R.C. Roerberg and Joseph Nall seeking permission to build a covered platform on Pecan Street for receiving cotton deliveries, which was referred to committee for consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

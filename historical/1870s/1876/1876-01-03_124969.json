@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-01-03_124969",
-  "title": "",
+  "title": "Austin Budget Crisis and Street Repairs Dominate 1876",
   "meeting_type": "regular",
   "date": "January 03, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124969",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Severe fiscal crisis**: The city faced nearly $98,000 in outstanding debt with expenses exceeding income, forcing hard decisions about which city services to fund or cut.\n\n• **Infrastructure neglected**: Citizens repeatedly petitioned for basic street and bridge repairs—Orange Street, Bois d'Arc Street, and multiple wooden bridges were in disrepair, but the city lacked funds and equipment to address all requests.\n\n• **Licensing and regulations debated**: The council wrestled with business regulations, approving liquor licenses while debating whether to allow street peddlers and establishing new rules for butchers selling meat in the city.\n\n• **Police and fire department reviewed**: Council discussed restructuring the police force and managing fire department expenses as part of broader cost-cutting efforts.\n\n• **Tax collection struggles**: Over $9,800 in delinquent taxes from 1875 went uncollected, with city officials noting that many taxpayers were likely insolvent, making collection efforts costly and futile.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

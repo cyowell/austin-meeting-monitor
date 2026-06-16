@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-02-12_124888",
-  "title": "",
+  "title": "Austin Markets & Infrastructure Planning 1878",
   "meeting_type": "special called",
   "date": "February 12, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124888",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Market Regulation Debate**: The council adopted a majority report on a new Markets Ordinance, with disagreement over market boundaries and whether vendors could operate outside designated market limits. A minority faction wanted more freedom for private market operators.\n\n• **Infrastructure Spending**: The council approved $250 for street repairs near the White Place and $200 for building a bridge across Haller Creek on Chestnut Street.\n\n• **Transportation & Safety Rules**: New ordinances were passed regulating hacks (taxis), drays (carts), and other vehicles, plus a nuisance ordinance to address public health and safety issues.\n\n• **Government Operations**: The council codified rules defining aldermen qualifications and clarified how markets would be regulated by city authority.\n\n• **Fire Department Support**: The council approved $75 for an addition to the Hope Hook and Ladder No. 2 firehouse.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

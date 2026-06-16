@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-04-01_124985",
-  "title": "",
+  "title": "Austin's 1875 Water Works Deal",
   "meeting_type": "special called",
   "date": "April 01, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124985",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major water infrastructure agreement approved**: The city council voted unanimously to accept a proposition from Brown & Freeman to supply water to Austin, including 50 fire hydrants on Congress Avenue and Pecan Street, and a water tower on Market Hill—addressing both fire protection and street maintenance needs.\n\n• **Budget allocations for essentials**: The council approved $100 for charity purposes and $225.23 for insurance and freight charges related to a new steam fire engine.\n\n• **Business licenses and tax relief requests**: The council granted a bar room license petition while referring a ferry operator's request for tax relief (citing heavy street maintenance costs) to committee for further review.\n\n• **Rejected prisoner amenity proposal**: An alderman's motion to provide chewing tobacco to city prisoners was voted down by the council.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

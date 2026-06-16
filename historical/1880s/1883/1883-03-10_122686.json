@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-03-10_122686",
-  "title": "",
+  "title": "** Austin's 1883 Budget, Roads & Market Repairs",
   "meeting_type": "special called",
   "date": "March 10, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122686",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Approved nearly $2,000 in city expenses** and allocated funds for fire department operations throughout 1886, though council reduced the requested fire department budget from $346 to $156 per month.\n\n• **Passed new rules for livestock in the city**, including regulations on when dairy cows could roam freely, reflecting Austin's transition from frontier town to organized municipality.\n\n• **Invested $1,100 in infrastructure improvements** to build a sewer at Congress Avenue and construct a culvert where Pine and Red River streets intersect.\n\n• **Authorized repairs to the deteriorating City Market House**, including a new gallery and roof fixes, citing the building's \"dangerous condition\" and need for immediate attention.\n\n• **Approved a $500 bridge construction contract** over Waller Creek on Pine Street and contracted with a local builder to continue sewer work at previously negotiated rates.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

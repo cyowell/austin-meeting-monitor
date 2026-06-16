@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-08-07_124998",
-  "title": "",
+  "title": "Austin's Stone Bridge & Police Conduct Investigation",
   "meeting_type": "special called",
   "date": "August 07, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124998",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Stone Bridge Project Funded**: City Council authorized the Mayor to issue $1,600 in bonds to pay J. Limerick for excavation and fill work on the approaches to the stone bridge on Ash Street.\n\n• **Police Officer Disciplined**: After a hearing, Officer P.L. Hopkins was reprimanded for disorderly conduct at a local saloon but retained on the police force, marking the department's first complaint against him.\n\n• **Gas Infrastructure Expansion**: Council approved laying gas pipes to the city market house at public expense, with the market's occupants covering the cost of gas usage.\n\n• **Municipal Upgrades**: The city approved purchases for office improvements (matting for the Mayor's Office) and authorized the Street Committee to acquire a horse and cart for city operations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

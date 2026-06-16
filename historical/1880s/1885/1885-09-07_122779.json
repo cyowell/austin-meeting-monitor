@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-09-07_122779",
-  "title": "",
+  "title": "Austin Infrastructure & Fire Safety 1885",
   "meeting_type": "regular",
   "date": "September 07, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122779",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fire Department Building Expansion**: The city approved an additional $1,500 appropriation (raising total budget to $6,000) to construct a proper firehouse for two fire companies, as initial bids exceeded the original budget.\n\n• **Fire Safety Violations**: Fire commissioners reported multiple frame buildings illegally constructed within the city's fire limits, urging the marshal to enforce building ordinances more strictly.\n\n• **Public Infrastructure Requests**: Citizens petitioned for basic city improvements including a water trough and street lamp at Pecan and East Avenue, and requested sidewalk cleanup on Pecan Street where vendors blocked pedestrian access.\n\n• **Police Coverage**: A petition recommended appointing an additional police officer to patrol the railroad depot area, reflecting growing safety concerns around the transportation hub.\n\n• **City Budget & Operations**: August reports showed 106 arrests generating $866.25 in fines, 27 deaths recorded, and a healthy city treasury balance of $27,639 after paying warrants and bond interest.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-01-03_125104",
-  "title": "",
+  "title": "** Austin City Budget & Market House Plan 1876",
   "meeting_type": "regular",
   "date": "January 03, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125104",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Market House Project Delayed** – The council recommitted its building committee to develop a concrete plan for constructing a public market house, with a final report due at the next meeting.\n\n• **$100 Approved for City Horse** – The mayor received funding to purchase a horse and harness for official city use, recognizing the need for improved municipal transportation.\n\n• **Police and City Staff Payroll** – The council approved approximately $244 in monthly wages for three police officers ($40 each) and various city workers, including staff for animal removal, prisoner care, and engine maintenance.\n\n• **Municipal Services Funded** – Approved payments covered essential city functions like printing expenses, stationery supplies, and the care of police horses and detained individuals.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

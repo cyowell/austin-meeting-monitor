@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-08-03_124999",
-  "title": "",
+  "title": "Austin Police Officer Faces Investigation",
   "meeting_type": "regular",
   "date": "August 03, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124999",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police uniform adoption:** The police chief requested the council approve a standard uniform for city police officers, referred to the Police Committee for consideration.\n\n• **Fire company equipment:** The Fire Committee recommended against repairing the old Hook & Ladder truck (deemed worthless) but suggested the mayor inquire about purchasing a small hand engine for the newly organized Hope Fire Company if city finances allowed.\n\n• **Street improvements and bonds:** The council authorized street gutter grading work and approved issuing $1,600 in city bonds to J. Limerick for excavation work on the Ash Street stone bridge approaches.\n\n• **Financial reorganization:** The council consolidated city funds into two categories (general fund and interest/sinking fund) and directed the treasurer to transfer all other fund balances accordingly.\n\n• **Police misconduct investigation:** A special meeting was called to investigate charges against Police Officer P.L. Hopkins, who allegedly entered a saloon and attempted to provoke a quarrel with a bartender while on duty.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

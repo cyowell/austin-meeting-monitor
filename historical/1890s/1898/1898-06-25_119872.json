@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-06-25_119872",
-  "title": "",
+  "title": "Austin's $1,545 Bond Interest Payment Dispute",
   "meeting_type": "special called",
   "date": "June 25, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119872",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency funding request**: The city council met in special session to consider paying $1,545 in interest on bonds from before 1890, due July 1st, 1898.\n\n• **Payment rejected**: The ordinance to fund this interest payment failed to pass, with 9 aldermen voting yes and 5 voting no—not enough support to approve the measure.\n\n• **Legal questions raised**: After the vote failed, the council asked the city attorney to investigate whether those old bonds were even valid, suggesting concerns about whether Austin should pay interest on questionable debt.\n\n• **Poor attendance**: About one-third of aldermen were absent during the debates, with some out of town and the marshal having to track down others.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

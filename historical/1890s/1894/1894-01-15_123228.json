@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-01-15_123228",
-  "title": "",
+  "title": "Austin's 1894 Infrastructure and Salary Debates",
   "meeting_type": "regular",
   "date": "January 15, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=123228",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Infrastructure Projects Approved**: The council authorized multiple public works, including a footbridge on East 12th Street over Waller Creek ($85) and authorized the city to negotiate opening Sabine Street between 4th and 7th Streets while removing obstructions like fences and houses blocking the route.\n\n• **Controversial Salary Ordinance Passed**: After lengthy debate with multiple amendments, the council adopted a two-year salary ordinance covering 25 different city positions. A contentious vote rejected attempts to raise the Recorder's and Superintendent of Streets' salaries, though the Assistant City Attorney's salary was increased from $1,000 to $1,500 annually.\n\n• **Fire Department Equipment Issues**: A communication reported the city's Washington Steam Fire Engine and Hook and Ladder truck were both in \"dangerous and dilapidated condition.\" The council approved $75 for engine repairs and referred the truck replacement request to the Fire Commission for further action.\n\n• **Police Force Unchanged**: The council rejected petitions requesting an additional police officer for the first ward and denied a request to retain officer Gus Evans on the force, maintaining the current staffing levels.\n\n• **Tax and Assessment Matters**: The council addressed tax disputes including remitting penalties for one property owner (Miss Anna Armour) and referring a high-profile assessment case involving merchant John Bremond & Co. to the City Attorney after an irregular reduction in their property valuation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

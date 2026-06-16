@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-11-10_122785",
-  "title": "",
+  "title": "Austin's 1885 Budget Surplus & Crime Mystery**",
   "meeting_type": "special called",
   "date": "November 10, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122785",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Finances Stabilized**: Mayor Robertson reported the city turned around a serious cash shortage through a $35,000 loan and tax collection, eliminating nearly all floating debt while maintaining a $21,611 balance in the treasury and keeping the bonded debt at $125,000.\n\n• **Streets Improved Dramatically**: The city spent approximately $11,100 to open, repair, and grade nearly 28 miles of streets across 10 wards at roughly $200 per mile—praised as cheaper than any other Texas city's improvements.\n\n• **Serious Crime Problem**: Multiple unsolved murders and violent assaults of Black women shocked the community. Despite offering rewards and employing detectives, the perpetrators remained unidentified, with the grand jury unable to bring charges.\n\n• **Hospital, Schools & Services**: The new City and County Hospital was operational with 179 treated patients, while public schools showed dramatic growth (enrollment increased from 2,113 to 3,103 children), and the volunteer fire department prevented any major property losses despite 24 fires.\n\n• **Municipal Election Called**: Council scheduled elections for December 7, 1885, to select a new mayor, nine aldermen, and three school trustees, along with a resolution to improve street lighting in underserved neighborhoods.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-12-04_122679",
-  "title": "",
+  "title": "Austin's 1882 Budget, Horse Sales & Heated Depot Debate",
   "meeting_type": "regular",
   "date": "December 04, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122679",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Budget Approved**: Council passed a $4,362.42 spending bill to cover approved city accounts, with all present aldermen voting in favor.\n\n• **Horse Pound Sales Refunds**: Citizens successfully petitioned to recover money from horses sold at the city pound, receiving sale proceeds minus expenses—a small but meaningful victory for residents.\n\n• **Fire Department Funding**: The council allocated $346 monthly for fire department operations, though the vote was contested with one alderman opposing the measure.\n\n• **Union Depot Ordinance Dispute**: A contentious amendment to the Union Depot ordinance sparked multiple heated procedural votes and appeals, ultimately getting referred to committee for further review.\n\n• **Police Force Expansion Request**: The City Marshal requested at least two additional police officers and changes to prisoner work programs, with the request sent to the police committee for consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

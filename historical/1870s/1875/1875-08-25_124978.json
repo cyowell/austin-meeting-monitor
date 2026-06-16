@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-08-25_124978",
-  "title": "",
+  "title": "Austin's 23-Acre Park Gift and Tax Relief Decisions",
   "meeting_type": "special called",
   "date": "August 25, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124978",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major Land Donation Accepted**: Austin formally accepted a generous donation of 23 acres from Governor E.M. Pease and his wife for a public park, with city council extending official thanks to the donors.\n\n• **Tax Relief Granted and Denied**: The council approved a pro-rata tax refund for J.W. Wayman & Co. for their business closing, but tabled a petition from G.W. Erwin seeking relief from water wagon license taxes, while denying a property assessment reduction request.\n\n• **Infrastructure Improvements Approved**: The city authorized street improvements including creek work on Magnolia Avenue, a new culvert on Robertson's Hill, and repairs to Nuys Quile Street, with contracts to be given to the lowest bidder.\n\n• **Street Lighting Expansion**: Council voted unanimously to install six new street lamps across different wards to improve nighttime safety and visibility throughout the city.\n\n• **Fire Ordinance Exemption Granted**: The city attorney was authorized to halt legal proceedings against Messrs. Lyster & French for their temporary wooden house on Block 53, allowing them a six-month exemption from fire code violations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

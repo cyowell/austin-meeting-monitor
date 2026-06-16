@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-06-07_122892",
-  "title": "",
+  "title": "Austin's 1890 Government Attendance Crisis",
   "meeting_type": "special called",
   "date": "June 07, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122892",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Lack of quorum**: The June 7th meeting was unable to proceed due to insufficient aldermen present (only 4 of 20), forcing an adjournment.\n\n• **Second meeting also failed**: Two days later on June 9th, the situation worsened with only 1 alderman showing up, preventing any city business from being conducted.\n\n• **Leadership absent**: Both the Mayor and Board President failed to attend the rescheduled meeting, highlighting serious government dysfunction.\n\n• **No business conducted**: Due to the attendance failures, no agenda items, policy decisions, or public hearings could take place during this period.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

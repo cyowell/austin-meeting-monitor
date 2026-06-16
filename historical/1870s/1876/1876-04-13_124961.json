@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-04-13_124961",
-  "title": "",
+  "title": "Austin Plans 1876 San Jacinto Veterans Celebration",
   "meeting_type": "special called",
   "date": "April 13, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124961",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Budget Dispute Over Fire Department**: The Fire Commissioners rejected a $500 appropriation for their parade, demanding $800 instead to host visiting Texas Veterans. The council rescinded the original funding and approved $500 for broader veteran entertainment instead.\n\n• **Major April 21st Celebration Planned**: Austin organized a large public event to welcome Texas Veterans visiting April 20-22, featuring a procession, speeches, and a San Jacinto Day celebration marking Texas independence.\n\n• **Fire Department Incentive**: Each fire company received a $25 donation from the city to help cover costs for participating in the veteran celebration procession with their equipment.\n\n• **Extensive Committee Assignments**: The Mayor appointed committees overseeing entertainment, transportation, music, speakers, and parade organization—involving dozens of citizens and aldermen to coordinate the event.\n\n• **Medical Services Payment Approved**: The council authorized payment of $550 to Dr. R.M. Swearinger for operating a public hospital over the past year.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

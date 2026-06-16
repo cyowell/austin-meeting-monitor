@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-12-03_124994",
-  "title": "",
+  "title": "Austin Water Works Plan & Liquor Licenses Debated",
   "meeting_type": "special called",
   "date": "December 03, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124994",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water Works Project Moves Forward Cautiously** – Austin's city council received a proposal from a St. Louis engineering firm to conduct preliminary surveys for a new water system. However, the council insisted on financial guarantees that the project could be built and paid for using city bonds before approving any funds, reflecting concerns about wasting money on incomplete projects.\n\n• **Multiple Liquor Licenses Approved** – The council granted three petitions allowing merchants to sell liquor in smaller quantities (less than one quart) in different wards of the city, streamlining the licensing process for local retailers.\n\n• **Street Improvement Request for Fourth Ward** – Residents petitioned the council to improve passable conditions on Fourth Ward streets, particularly Nurses Street and the intersection of Nurses and Walnut Streets, which was referred to the Street Committee for consideration.\n\n• **Ordinance Committee Tasked with Poison Sales Regulation** – A petition requesting regulations on the erection of privies and the sale of poison by druggists was referred to the Ordinance Committee for further action.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

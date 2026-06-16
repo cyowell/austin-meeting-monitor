@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-01-09_119820",
-  "title": "",
+  "title": "Austin Charter Reforms: Major City Boundaries and Council Changes 1897",
   "meeting_type": "special called",
   "date": "January 09, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119820",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Expanded city boundaries**: Council voted to significantly extend Austin's city limits, incorporating new territory north and south of the Colorado River with detailed surveying requirements.\n\n• **Restructured city council**: Changed the alderman system from 11 wards to 8 wards, with each ward electing two aldermen—one local representative and one citywide representative—to take effect after the December 1897 election.\n\n• **Capped government salaries**: Set maximum salary limits for city officials including the City Marshal, Clerk, and Attorney at $1,500 each; the City Engineer and Assessor at $1,200-$1,800 to control spending.\n\n• **Consolidated city positions**: Combined the separate City Engineer and Superintendent of Streets into one position, while creating a new Board of Equalization with a one-year term.\n\n• **Modernized election and tax procedures**: Made publication of council proceedings optional, allowed mayors to call special meetings with three council members, and prioritized city tax claims over other debts on delinquent properties.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

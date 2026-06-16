@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-03-01_119826",
-  "title": "",
+  "title": "Austin Property Tax Refunds & Water Infrastructure",
   "meeting_type": "regular",
   "date": "March 01, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119826",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Property Tax Refunds Approved**: The city approved refunds totaling approximately $56 for erroneous tax assessments on property owned by W.M. Miller and Dr. R.H. Smoot, acknowledging evaluation errors made by the Board of Equalization.\n\n• **Newspaper Printing Contract**: After the Mayor vetoed a poorly-written resolution, the council successfully approved awarding the newspaper printing contract to G.W. Mendell Jr. for publishing city council proceedings in the \"Statesman\" newspaper for 1896-7.\n\n• **Street Maintenance Funding Overridden**: Despite the Mayor's veto citing tight city finances (only $588 budget surplus), aldermen voted to approve a $150 appropriation for extra street labor, showing tension between fiscal concerns and infrastructure needs.\n\n• **Water Infrastructure Expansion**: The Water & Light Committee recommended accepting bids for extending the water trench at Crockett Street and constructing a new pumping station, with contracts going to the lowest bidders.\n\n• **Water & Sewer Elections Scheduled**: The council approved holding an election on March 22, 1897 for the Board of Water & Sewer Commissioners, and authorized various municipal services contracts for the upcoming year.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-03-05_125010",
-  "title": "",
+  "title": "Austin's 1877 Fire Department & Market Hall Changes",
   "meeting_type": "regular",
   "date": "March 05, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125010",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Market Hall lease revoked** – The city terminated F. Dohme's lease for the Market Hall effective March 1st, with the Mayor authorized to re-rent it while reserving space for public meetings.\n\n• **New Fire Department established** – Council passed an ordinance creating and regulating Austin's Fire Department, with 200 printed copies to be distributed to firefighters.\n\n• **Street contract rules approved** – A new ordinance was adopted standardizing how the city awards and manages contracts for street work projects.\n\n• **Board leadership election** – G.T. Boardman was elected President of the Board of Aldermen, winning a close vote over J.H. Robinson.\n\n• **Travis Rifles offered armory use** – A militia group requested to use City Hall as an armory in exchange for serving as a special fire police force (referred to committee).",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

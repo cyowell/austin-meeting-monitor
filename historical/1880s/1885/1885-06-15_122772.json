@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-06-15_122772",
-  "title": "",
+  "title": "Austin's Smallpox Crisis and City Growth Plans",
   "meeting_type": "regular",
   "date": "June 15, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122772",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Smallpox Response**: The City Physician reported successfully containing a smallpox outbreak by isolating an infected resident outside city limits. He urged the council to build a dedicated isolation facility for future cases, emphasizing humane care despite the health threat.\n\n• **Hospital Bed Shortage**: The city hospital only had 16 public beds total for low-income patients—an insufficient number. The Physician warned the city couldn't properly serve all sick poor residents needing charitable care.\n\n• **Cemetery Expansion Stalled**: The Mayor couldn't afford the $12,000 asking price for 20 acres of land to expand the cemetery. A committee was appointed to negotiate a trade deal instead of an outright purchase.\n\n• **Police Force Staffing**: The council approved maintaining 20 regular policemen after the Police Committee's recommendation, pending finance committee review.\n\n• **Ordinances Need Updating**: The City Recorder requested all city ordinances be compiled and published in one document since many had been amended or repealed, making it unclear which rules were actually in effect.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

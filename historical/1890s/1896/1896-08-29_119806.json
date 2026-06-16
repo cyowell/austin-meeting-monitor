@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-08-29_119806",
-  "title": "",
+  "title": "Austin Water Works and Electric Light Rate Changes 1896",
   "meeting_type": "special called",
   "date": "August 29, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119806",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major utility rate changes approved**: The city council passed an amended ordinance governing Austin's Water Works and Electric Light and Power Plants, though the vote was close (13-4) with some aldermen planning to challenge it.\n\n• **New management structure established**: The mayor appointed a three-person Water and Light Committee (Aldermen Tobin, Lawless, and Fischer) and hired two temporary superintendents—Walter Johnson to oversee the power house and H.A. Stuckey to manage outside works.\n\n• **Contentious vote with reconsideration attempts**: Four aldermen voted against the ordinance, and two others immediately gave notice they would move to reconsider it at the next meeting, indicating significant disagreement over the utility policy changes.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

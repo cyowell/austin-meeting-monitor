@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-02-23_124883",
-  "title": "",
+  "title": "Austin's 1878 Bridge Repairs and Business Permits",
   "meeting_type": "special called",
   "date": "February 23, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124883",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Construction Funding Approved**: The city council authorized $1,200 in warrants to repair the Pecan Street Bridge over Waller Creek and construct a new iron bridge on Cedar Street.\n\n• **Wood Yard Permission Granted**: George S. Hume received approval to establish a wood yard at the corner of Congress Avenue and Cedar Street.\n\n• **Butcher Tax Debate**: The council debated a new license tax on meat retailers but failed to advance it through procedural votes, leaving the measure stalled.\n\n• **Multiple Butcher Shop Petitions**: Four business owners (including the Thiele brothers and John Stolzinger) requested permission to sell butcher meat outside the city market limits.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

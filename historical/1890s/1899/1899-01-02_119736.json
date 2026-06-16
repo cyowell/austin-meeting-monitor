@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-01-02_119736",
-  "title": "",
+  "title": "Austin's 1899 Plans for High School on Public Square",
   "meeting_type": "regular",
   "date": "January 02, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119736",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **High School on Public Square Approved**: The council unanimously backed a petition to the state legislature allowing a new public high school building to be constructed on the Public Square. Property owners around the square agreed to give up their rights to keep it as a park.\n\n• **Landmark Cotton Yard Dispute Resolved**: The city attorney clarified that the council can control public squares and prevent private use. The council declared the Alliance Cotton Yards block as public city property, subject to the mayor and council's authority.\n\n• **Large Judgment Payment Authorized**: The council approved $12,000 to pay the final installment of a court judgment against the city owed to receiver E.C. Bartholomew.\n\n• **City's Financial Health**: December revenues totaled nearly $10,000, with the general fund holding about $14,790. The city maintained healthy balances across multiple accounts.\n\n• **Hospital & Public Health Activity**: The city hospital treated 31 patients in December with 183 prescriptions issued, one diphtheria case reported, and 19 deaths recorded in the city that month.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

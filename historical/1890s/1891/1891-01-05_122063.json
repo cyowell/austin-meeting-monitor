@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-01-05_122063",
-  "title": "",
+  "title": "Austin Dam & Water Works Bonds Approved",
   "meeting_type": "regular",
   "date": "January 05, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122063",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major infrastructure project approved**: City council voted overwhelmingly (1,354 to 50) in May 1890 to issue $400,000 in bonds for constructing a dam on the Colorado River to power water works and provide electric lighting for Austin.\n\n• **Street and sidewalk improvements underway**: Council approved multiple ordinances for building stone culverts, drainage systems, and rock crossings on various streets, with specific attention to improving transportation routes and infrastructure throughout the city.\n\n• **New city charter being debated**: Aldermen spent multiple lengthy meetings reviewing and amending a proposed new charter section-by-section, ultimately adopting it on January 17, 1891, which will update the city's governing framework.\n\n• **Cemetery crisis and annexation discussions**: Council acknowledged overcrowding at the city cemetery and considered annexing the neighboring town of South Austin, which offered cooperation on fire protection, police services, and schools in exchange for improved roads and bridges.\n\n• **Municipal services reports**: City physician reported excellent public health with only 3 diphtheria cases in December, while police and other departments submitted financial reports showing $871.70 in collected fines and various city funds totaling over $14,000.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-05-20_119493",
-  "title": "",
+  "title": "1895 Austin Approves $200K Water Bond",
   "meeting_type": "regular",
   "date": "May 20, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119493",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Water Bond Election Approved** - Council authorized a $200,000 bond election for voters to approve funds for completing Austin's water system and expanding electric lights throughout the city.\n\n• **Power Plant Accident Investigation** - An incident at the electric power station caused two dynamos to fail due to operator error. Council appointed a committee to investigate equipment safety, employee qualifications, and whether an expert electrician should be consulted for upgrades.\n\n• **Budget Concerns and Debt Relief** - The city sold $27,500 in funding bonds and redeemed $16,500 in older high-interest bonds to reduce debt, while also accepting a compromise with a taxpayer owed back taxes from 1891-1893.\n\n• **Service Contracts Approved** - Council approved water and light service contracts with the Lunatic Asylum ($3,600/year) and two local railroads ($75/month) to expand revenue, and limited future contracts to two-year terms to protect the city's sustainability.\n\n• **Nuisance Complaint** - Residents on Robertson Hill filed a petition against a stock pen and dairy operation on Tenth Street, referring the matter to the sanitation committee for action.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

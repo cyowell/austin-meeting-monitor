@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-02-01_119823",
-  "title": "",
+  "title": "Austin Bridge Repairs and Budget Crisis 1897",
   "meeting_type": "regular",
   "date": "February 01, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119823",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Colorado River Bridge repairs approved** – Council voted to refloor the bridge due to dangerous conditions, requesting the county commission help share repair costs ($2,500 allocated)\n\n• **Tight city budget passed narrowly** – The budget committee warned of \"depleted\" finances and \"hard times,\" presenting a spending plan with only $1,011 projected surplus for the coming year\n\n• **Pound Master office kept** – Council rejected a proposal to eliminate this position (13-6 vote), overruling majority committee recommendation\n\n• **City service expansions granted** – Added arc lighting on Magnolia Street and approved a new wagon scale on Trinity Street\n\n• **Employee reduction attempted** – Committee recommended eliminating the City Attorney's assistant position to save $416.68, though other job elimination proposals were rejected by Council votes",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

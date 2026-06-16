@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-08-06_122707",
-  "title": "",
+  "title": "Austin 1883 Water, Bonds & Prisoners**",
   "meeting_type": "regular",
   "date": "August 06, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122707",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water and recreational improvements approved** – The Austin Athletic Association received permission to build a bathhouse on the riverfront south of the Jones Iron Foundry, while property owners requested a water hydrant at the Hebrew burial ground cemetery section.\n\n• **Prison feeding controversy** – An investigation found prisoners had sometimes received spoiled meat, undercooked bread, and poor-quality coffee, despite the contractor charging more than competitors. The council demanded better oversight to ensure quality.\n\n• **City finances and new bonds** – The city collected nearly $16,500 in quarterly taxes and approved a proposal to issue $75,000 in 6 percent bonds to fund municipal projects over 20 years.\n\n• **Neighborhood railroad dispute** – Citizens east of Shoal Creek protested against the Cromner Company laying railroad tracks on local streets, with the matter referred to the street committee for resolution.\n\n• **Tax relief petition denied** – A Methodist church requested exemption from a city tax levied in 1880, though the outcome wasn't recorded in this session.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

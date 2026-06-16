@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-10-27_124901",
-  "title": "",
+  "title": "Austin's 1877 Fire Department & Street Improvements",
   "meeting_type": "special called",
   "date": "October 27, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124901",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Investment**: The city owned two steam fire engines valued at $13,000, two engine houses, and 2,000 feet of hose—representing a major municipal commitment to firefighting capability during the late 1800s.\n\n• **Budget Challenges**: Austin faced significant uncollected taxes ($72,300 owed from previous years and current year) against a small cash treasury of just $3,038, indicating serious municipal financial strain.\n\n• **Street & Infrastructure Work**: The city completed street improvements using prisoner labor and approved construction of a bridge over a gutter on Pecan Street near the Utah Railroad crossing to improve public access.\n\n• **Alcohol Licensing**: Council approved five new liquor retailer licenses for selling beer, wine, and spirits in small quantities across different city wards.\n\n• **Vehicle Regulation**: The city established its first vehicle licensing system, charging $1-$2.50 per week depending on the number of horses (1, 2, or 4) used for transporting passengers.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

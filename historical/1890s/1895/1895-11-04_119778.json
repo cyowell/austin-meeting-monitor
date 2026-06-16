@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-11-04_119778",
-  "title": "",
+  "title": "Austin Infrastructure and Claims Disputed in 1895",
   "meeting_type": "regular",
   "date": "November 04, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119778",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water System Equipment Purchase Approved**: The Water and Light Commission secured council approval to purchase pumps and turbine equipment from the Gould Company for $8,655 to expand the power system under the Power House, contingent on 90 days of successful operation.\n\n• **Dam Damage Claims Blocked**: Mayor McDonald vetoed two ordinances reimbursing property owners for land submerged by the city dam—one for $300 and another for $350—citing improper documentation and lack of legal verification of ownership. Both veto cases were referred to a special committee for further review.\n\n• **Animal Control Ordinance Passed**: The council passed an updated law banning livestock (cattle, horses, mules, etc.) from being staked out or hitched on city streets and public squares, with fines between $5-$25 for violations.\n\n• **Election Called for Mayor and School Board**: An ordinance was passed ordering an election across all city wards to elect a mayor, three school board trustees, and aldermen representatives from each ward.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

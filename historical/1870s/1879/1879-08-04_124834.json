@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-08-04_124834",
-  "title": "",
+  "title": "** Austin's 1879 Fire Company and Water Infrastructure Investments",
   "meeting_type": "regular",
   "date": "August 04, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124834",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Funding**: Council approved $71.33 to the Austin Hook and Ladder Company for equipment hauling and repairs, plus $400 to rebuild a truck house for Protection Hook and Ladder Company No. 3.\n\n• **Water Access Expansion**: The city authorized contracts with the Water Company to install stock water troughs (public watering stations) in multiple locations, including converting a fire hydrant near the Blind Asylum into a community water trough.\n\n• **Tax Relief Decisions**: Council denied one resident's request to remit half his back taxes from 1877 but approved another citizen's petition for corrected tax assessment from 1876.\n\n• **Street Improvements**: Officials instructed the city marshal to open and repair a street and address a deteriorating causeway in the seventh ward that was guaranteed for five years.\n\n• **Property and Ordinance Updates**: Council rejected a proposed water company protection ordinance, deeming existing laws sufficient, while approving amendments to property tax sale relief procedures.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-10-08_122754",
-  "title": "",
+  "title": "** Austin Water Company Contract Dispute Resolved",
   "meeting_type": "special called",
   "date": "October 08, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122754",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water Company Contract Annulled**: The City Council voted to terminate its contract with the City Water Company after finding they failed to meet their obligations. Rather than fighting in court, the city appointed a three-person committee to negotiate a fair settlement of any remaining payments owed.\n\n• **Disputed Payment Resolved**: The water company claimed $5,000 was due to them. The council deadlocked on whether to pay it, with some aldermen arguing the investigation was unfair because the company wasn't allowed to present its side. A compromise was reached to let a settlement committee handle it.\n\n• **Appointment of Special Police Officers**: The mayor nominated four men—J.W. Williams, J.A. Connor, Louis Walker, and F.H. Linthicum—as special police officers for the city, approved without opposition.\n\n• **Local Infrastructure Issue**: An alderman presented a petition requesting removal of an obstruction blocking an alley in Block 109, referred to the street committee for action.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

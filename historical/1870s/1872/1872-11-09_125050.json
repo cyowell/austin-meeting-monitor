@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-11-09_125050",
-  "title": "",
+  "title": "Austin Election Results and 1872 Municipal Spending",
   "meeting_type": "regular",
   "date": "November 09, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125050",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Results Certified**: Austin held a four-day municipal election (November 5-8, 1872) with 1,230 votes cast from 1,320 registered voters, with results formally adopted by City Council with one alderman absent.\n\n• **$399 Appropriated for Election Administration**: Council approved spending for voter registration services ($275), newspaper advertisements, and printing certificates related to conducting the election.\n\n• **Legal Battle Over Seized Gambling Equipment**: The city council appropriated up to $500 to appeal a $275 court judgment against Mayor John Glenn and Marshal William Evans after they seized gambling devices; the resolution supported officers acting under city ordinances.\n\n• **Significant City Expenditures Documented**: Records show numerous payments for essential services including hauling deceased persons, maintaining streets and market halls, police salaries, and various materials and supplies (approximately $3,000+ in documented expenditures across several months).\n\n• **Multiple Revenue Sources Tracked**: Council recorded collections from business licenses ($2,000+), merchandise taxes, and real estate taxes across multiple years, processed through various endorsements and warrants.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-02-15_124936",
-  "title": "",
+  "title": "Austin Rails Over Mayor's Veto",
   "meeting_type": "special called",
   "date": "February 15, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124936",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Railroad right-of-way approved despite mayor's veto**: Council voted to allow two railroad companies (Austin and Pacific Short Line, and Houston and Texas Central Railway) to lay tracks through city streets and cross Congress Avenue, overriding Mayor Wheeler's concerns about safety, property damage, and public access.\n\n• **Mayor's safety concerns rejected**: Wheeler argued that allowing trains to cross Congress Avenue would endanger residents and families crossing railroad tracks daily and damage the city's principal thoroughfare and property values.\n\n• **Infrastructure improvements authorized**: Council directed the city engineer to prepare cost estimates for a 500-foot sewer to the river to prevent erosion and property damage on Congress Avenue, with the finance committee tasked with finding funding.\n\n• **Market regulations updated**: New ordinances established a marketplace for selling certain articles and amended regulations for renting market stalls and vendor privileges through February 1878.\n\n• **Cedar Street bridge repairs approved**: A committee reported the Cedar Street bridge over Waller Creek needed repairs and recommended advertising for proposals capped at $100.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

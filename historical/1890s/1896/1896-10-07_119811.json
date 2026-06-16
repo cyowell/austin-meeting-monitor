@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-10-07_119811",
-  "title": "",
+  "title": "Austin Dam Damage Claim Settled for $450",
   "meeting_type": "special called",
   "date": "October 07, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119811",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Dam damage payout approved**: The council passed an ordinance to pay T.S. Hughes $450 in damages caused by the city's dam construction project.\n\n• **Special meeting called**: Aldermen requested and the mayor approved a special October 7th meeting specifically to address Hughes's damage claim.\n\n• **Attendance issues**: The initial meeting lacked a quorum (not enough members present), forcing a 10-minute recess before enough aldermen arrived to conduct business.\n\n• **Official notice procedures**: The city marshal personally served meeting notices to most aldermen, with copies left at businesses or homes for those not immediately available.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

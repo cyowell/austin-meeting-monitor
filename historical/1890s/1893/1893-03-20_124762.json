@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-03-20_124762",
-  "title": "",
+  "title": "** Austin Infrastructure & Fire Safety Investments",
   "meeting_type": "regular",
   "date": "March 20, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124762",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Bridge repairs approved**: Council authorized $2,500 to build a new bridge over Waller Creek on East Seventh Street and voted to repair two dangerous bridges (Fifth and First Streets), with the committee warning they were unsafe and liable to collapse.\n\n• **Fire department equipment**: Council approved $2,000 to purchase 2,000 feet of hose for the fire department to improve emergency response capabilities.\n\n• **Street maintenance**: A petition requesting full grading and paving of East Avenue was scaled back due to budget constraints; instead, the city agreed to construct a 50-foot roadway and repair East Sixth Street.\n\n• **Recreation ground approved**: The Young Mens Recreation Association was granted permission to use the old courthouse square as a public recreation area, with a commitment to maintain the grounds and keep them safe for families.\n\n• **Electric streetlight requested**: Residents near Eighth Avenue and Eighth Street petitioned for an electric light installation, which was referred to the Gas and Light Committee.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

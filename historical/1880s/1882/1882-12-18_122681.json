@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-12-18_122681",
-  "title": "",
+  "title": "** Capitol Rail Road Dispute Divides Austin Aldermen",
   "meeting_type": "regular",
   "date": "December 18, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122681",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Railroad Route Disagreement**: The council received competing petitions from Congress Avenue business owners—some supporting and others opposing a proposed rail line to the State Capitol grounds. The competing interests led aldermen to table a vote on granting Abner Taylor's company the rights to build on Congress Avenue, though they later approved a route using East and College Avenues instead.\n\n• **Four Capitol Access Routes Evaluated**: The City Engineer submitted detailed survey reports with cost estimates for four different rail routes to the Capitol grounds, ranging from $28,178 to $50,094, helping inform the infrastructure decision.\n\n• **Budget and Financial Matters**: Council approved nearly $3,104 in city accounts and authorized the Treasurer to delay collecting certain warrants to manage upcoming bond interest payments.\n\n• **Cemetery Land Purchase**: Discussion included directing a committee to negotiate with a property owner (Mr. Riley) about acquiring land needed for cemetery expansion.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-05-06_119491",
-  "title": "",
+  "title": "Austin's 1895 Cotton Mill & Water System",
   "meeting_type": "regular",
   "date": "May 06, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119491",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major investment opportunity**: City Council debated a major proposition from George N. Todd to build a large cotton factory in Austin. The project promised significant growth, including construction within 18 months with 15,000 spindles initially and expansion to 30,000 spindles over five years. The city would provide free water/power for 25 years.\n\n• **Water and electric systems launching**: The city's new water and electric light systems were operational, with over 500 water customers and 106 electric light applications already filed. The council approved contracts to supply water and electricity to the Deaf and Dumb Asylum and the International & Great Northern Railroad.\n\n• **Debt management and financial restructuring**: The council approved a complex series of bond exchanges designed to reduce the city's $1.4 million waterworks debt by $50,000, with the Finance Committee recommending strategic purchases of lower-cost bonds.\n\n• **Infrastructure and safety regulations**: The council passed fire safety ordinance requirements for escape routes at public gathering places and authorized citizens to privately construct water line extensions at their own expense, expanding service to underserved areas.\n\n• **Public services expansion**: Monthly reports showed the city providing hospitalization, cemetery services, fire protection, and police services. Officers also managed water distribution challenges as demand grew faster than infrastructure could reach outlying areas.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

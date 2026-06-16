@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-04-03_119744",
-  "title": "",
+  "title": "Clustia Iowa Public Works, Tax Collections, Arrests",
   "meeting_type": "regular",
   "date": "April 03, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119744",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "- **Tax collections and city finances reviewed**: The assessor reported March collections totaling $17,938.41 across general revenue, bond interest/sinking funds, and school taxes, with city treasurer balances ranging from $3,000-$5,317 across various accounts.\n\n- **Cemetery and public safety improvements approved**: Council passed a $100 ordinance to purchase and install an iron gate at the city cemetery's south entrance, and approved the appointment of Special Policeman Jos. Evans.\n\n- **Small pox victim compensation granted**: After a committee review, the council approved payment to John B. Taylor for household goods destroyed during a 1890 small pox outbreak, adding this claim to a larger $1,018 appropriations ordinance (one alderman dissented).\n\n- **Law enforcement activity**: City Marshal reported 33 arrests in March with $190 in fines assessed; 25 deaths recorded citywide (with a small measles outbreak noted but no contagious diseases formally reported).\n\n- **Infrastructure decisions deferred**: A special committee investigation into the city's sewer system was postponed, referring the complex matter involving federal, state, and private sewer company negotiations to the incoming council.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

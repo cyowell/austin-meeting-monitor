@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-04-05_119881",
-  "title": "",
+  "title": "Austin Elections 1899: Mayor and City Officers Sworn In",
   "meeting_type": "special called",
   "date": "April 05, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119881",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Results Certified**: John D. McCall was re-elected mayor with 1,367 votes out of 1,369 cast, along with six new aldermen and various city officials including marshal, clerk, attorney, treasurer, and physician.\n\n• **New City Positions Created**: The council passed an ordinance creating several new city positions with one-year terms, including city sexton, pound master, sanitary inspector, bridge supervisor, hospital matron, and city hall porter.\n\n• **Hospital Matron and Inspector Elected**: Mrs. Prudence Hamilton was elected matron of the City and County Hospital, and physicians petitioned the council to elect a qualified doctor as sanitary inspector—R.D. Bell was ultimately chosen.\n\n• **Multiple Ballot Rounds for Pound Master**: The selection of pound master required four rounds of voting before G.W. Powell was finally elected, indicating disagreement among council members over the appointment.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

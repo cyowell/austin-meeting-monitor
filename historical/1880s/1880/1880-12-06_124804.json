@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-12-06_124804",
-  "title": "",
+  "title": "Austin's 1880 City Marshal Election & Tax Relief",
   "meeting_type": "regular",
   "date": "December 06, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124804",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New City Marshal Election**: The council ordered an election for December 17th to fill the vacancy left by Marshal Ed Creasy's resignation, after he was elected Travis County Sheriff.\n\n• **Tax Forgiveness**: The council passed an ordinance forgiving delinquent taxes on lands assessed before 1893, and approved relief for property owners whose real estate was sold for unpaid taxes.\n\n• **Fire Department Investments**: The council appropriated $60 to pay off the Hook and Ladder Company's truck debt and $1,000 to build a new truck house for Hook and Ladder Company No. 2.\n\n• **Tribute to Outgoing Marshal**: Resolutions honored Ed Creasy's service as city marshal, praising his faithfulness and ability while acknowledging the police department's financial self-sufficiency.\n\n• **Various Administrative Matters**: The council addressed sidewalk improvements, grocery/warehouse building permits, police officer positions, and authorized the mayor to solicit bids for feeding city prisoners.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

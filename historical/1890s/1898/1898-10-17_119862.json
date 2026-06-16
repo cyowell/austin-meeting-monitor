@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-10-17_119862",
-  "title": "",
+  "title": "** Austin's 1898 Street Plans, Tax Rates & Dog Catcher Pay",
   "meeting_type": "regular",
   "date": "October 17, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119862",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Infrastructure Debates**: The council rejected several street improvement proposals (State Street repair, East 4th Street opening, Ottayac Street opening) citing depleted city finances, though they did approve removal of a stand pipe at Trinity and 6th Street based on citizen petition.\n\n• **Tax Levy for 1898**: Council introduced a tax ordinance setting property tax rates ranging from 7 to 68 cents per $100 of property value, with funds designated for city operations, schools, water/electric infrastructure, and bond payments. Consideration was postponed to the next meeting.\n\n• **Printing Cost Dispute**: Mayor vetoed $106.08 in newspaper printing expenses, arguing the Statesman and Tribune charged excessive rates compared to the city's contract price with the Evening News—the council overrode his veto.\n\n• **Street Sprinkler Initiative**: Council authorized a committee to explore operating an electric street sprinkler via the Rapid Transit Railway line and to test hydrant-based street sprinkling, following San Antonio's model.\n\n• **Routine Approvals**: The council approved a fire company's conversion of a hose cart to wagon, appropriated funds for a dog catcher position, and authorized building permits and account payments.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-03-16_122764",
-  "title": "",
+  "title": "Austin Cemetery Expansion Divides City in 1885",
   "meeting_type": "regular",
   "date": "March 16, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122764",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Cemetery Expansion Sparks Major Public Debate**: Over 1,000 citizens petitioned against expanding the city cemetery by purchasing the \"Dwarty Palm tract\" of land, while over 800 others supported it. Due to the controversy, the council postponed a decision and appointed a committee to investigate cheaper or better burial ground alternatives.\n\n• **Private Cemetery Proposal Considered**: E.W. Shands & Sons offered to establish a private cemetery 2¾ miles outside city limits on 10½ acres, either selling 10 acres to the city for $1,500 or renting it for $50 per acre.\n\n• **Cemetery Lot Maintenance Issues Addressed**: The council instructed the city attorney to draft rules requiring cemetery lot owners to maintain their plots, and allowing the city to clean up abandoned graves and charge owners for the work.\n\n• **City Infrastructure and Services**: The council approved funding for fire hydrants on West Pecan Street and appropriated money for sewer connections at the city jail and offices.\n\n• **Fire Department Elections Confirmed**: New fire department leadership was elected and confirmed, including S.W. French as Chief Engineer and F. Green as Recorder.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

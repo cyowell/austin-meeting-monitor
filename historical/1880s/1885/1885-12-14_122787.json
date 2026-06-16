@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-12-14_122787",
-  "title": "",
+  "title": "Austin Police Overhaul & Election Disputes",
   "meeting_type": "special called",
   "date": "December 14, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122787",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Police Department Reorganized** - The city approved a new ordinance restructuring the police force to consist of a marshal, one sergeant, and 20 policemen, with 12 officers assigned to night patrol and mounted units for city-wide coverage. The marshal was given power to hire, discipline, and fire officers immediately for infractions.\n\n• **Contested Election Investigation** - Two disputed alderman elections (Willis vs. Brush and McAnally vs. Duvall) were referred to a special five-member committee to take testimony. A stenographer was hired to document the proceedings.\n\n• **Officer Salaries Approved** - The council reaffirmed salary compensation for city officers (assessor, collector, marshal, clerk, and treasurer) for the current two-year term, having found city finances and records in \"neat and businesslike shape.\"\n\n• **Public Works Permission Granted** - Fred Olley and William Wright received council approval to build a small frame house on the river walk, one of few local development matters addressed.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

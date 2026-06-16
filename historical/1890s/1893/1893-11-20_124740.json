@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-11-20_124740",
-  "title": "",
+  "title": "Austin's Water Bond Crisis & City Finances",
   "meeting_type": "regular",
   "date": "November 20, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124740",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Bond Investigation**: Council requested the mayor telegraph the National City Bank of New York to verify that 438 Austin water and electric light bonds are held for the city's benefit and not as collateral for other parties—addressing rumors the bonds may have been improperly pledged.\n\n• **Sinking Fund Preservation**: The Finance Committee recommended protecting a $26,908.83 fund reserved for future bond payments, warning that slow tax collection could deplete it if the money was invested elsewhere.\n\n• **Street Improvements Approved**: Council authorized grading improvements on Brazos Street between Ninth and Eleventh Streets.\n\n• **Fire Department Reimbursement**: Council allocated $62.25 to reimburse the Austin Fire Department for labor costs during a recent cotton fire.\n\n• **Infrastructure Cost Estimate**: The City Engineer estimated a stone culvert project at West Eleventh and Nueces Streets would cost $587.65.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

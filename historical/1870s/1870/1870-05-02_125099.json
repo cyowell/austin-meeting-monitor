@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-05-02_125099",
-  "title": "",
+  "title": "Austin's 1870 Budget & Municipal Payroll",
   "meeting_type": "regular",
   "date": "May 02, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125099",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **City Budget Approved**: The council allocated $704.26 for May 1870 expenses, including salaries for the Mayor ($125), City Attorney ($25), and police officers ($40-44 each).\n\n• **Marshal's Payment Authorized**: S.N. Farr received payment for five months of service as Marshal, approved by the council.\n\n• **Prisoner Care & Cemetery Work**: The budget included $6 for engine care, $18 for cemetery maintenance, and funds for prisoner food—basic municipal services of the era.\n\n• **Administrative Reports Filed**: Reports from the Mayor, City Assessor, Collector, and Treasurer were submitted to the Finance Committee for review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-02-16_122763",
-  "title": "",
+  "title": "Austin Prepares New City Charter, Market Improvements",
   "meeting_type": "regular",
   "date": "February 16, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122763",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **New City Charter Proposed**: Council approved a revised city charter to be sent to the Texas Legislature, with plans to request state senators and representatives to advocate for its passage.\n\n• **Market House Improvements**: Council contracted with William Keyes to build brick walls and repair the market house roof for $109, while also addressing complaints about condemned market stalls and the ongoing city clock maintenance contract.\n\n• **Infrastructure Investment**: Council approved $704 for paving Congress Avenue gutters and ordered construction of fire hydrants on the city's west side to improve fire safety.\n\n• **Fire Department Proposal Postponed**: A committee recommendation against establishing a paid city fire department was shelved rather than voted down, leaving the decision for later consideration.\n\n• **Public Opposition to Cemetery Expansion**: Citizens filed multiple petitions protesting the city's plans to expand the cemetery, which were referred to committee for further review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

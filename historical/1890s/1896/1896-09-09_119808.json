@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-09-09_119808",
-  "title": "",
+  "title": "Austin Water Works & Electric Plant Rules 1896",
   "meeting_type": "special called",
   "date": "September 09, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119808",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Infrastructure Protection**: Council passed an ordinance to protect the city's Water Works, Electric Light, and Sewer Plants with penalties for damage or unauthorized access.\n\n• **Utility Rate Setting**: Approved new rules for managing and operating Austin's water and electric systems, including establishing service rates and eliminating conflicting previous regulations.\n\n• **Budget Approval**: Allocated $110 to pay approved city accounts from the general fund.\n\n• **Legal Settlement**: Council reviewed a special committee report on settling a lawsuit filed against the city by William S. Hughes (details not fully documented).",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

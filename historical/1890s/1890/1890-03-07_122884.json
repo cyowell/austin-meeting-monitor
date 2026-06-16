@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-03-07_122884",
-  "title": "",
+  "title": "** Austin Seeks 1890 Democratic Convention, Expands Cemetery",
   "meeting_type": "special called",
   "date": "March 07, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122884",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Democratic Convention Bid** – The city council voted to invite the Texas Democratic Executive Committee to hold the next state convention in Austin, appointing a 10-member committee to meet with state officials in Lampasas on April 15th to make the pitch.\n\n• **Cemetery Expansion** – Alderman Ziller's motion authorized city leadership to negotiate purchasing additional land for a burial ground, addressing what appears to have been a pressing need for more cemetery space in the growing city.\n\n• **Low Attendance** – With 9 of 20 aldermen absent, the council operated with less than two-thirds of its members present for these significant decisions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

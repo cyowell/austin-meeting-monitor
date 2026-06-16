@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-03-07_125101",
-  "title": "",
+  "title": "Austin's 1870 Building Code & Military School Funding",
   "meeting_type": "regular",
   "date": "March 07, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125101",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Military Institute Funding** – City Council approved $1,000 in financial support for a new Military Institute, paid in installments over 18 months, with a clause that the money would revert to the city if the property was sold or stopped being used as a school.\n\n• **Fire Safety Building Standards** – Council enacted a new ordinance requiring all buildings on Congress Avenue to have fire-resistant exteriors (brick, rock, or cast iron) and fireproof roofs (slate or metal), with the City Marshal authorized to demolish non-compliant structures.\n\n• **City Marshal Removal** – Council unanimously requested the removal of City Marshal John W. Farr, stating he failed to perform his duties and the police force could adequately handle public safety without him, saving the city his salary.\n\n• **Monthly Budget Allocations** – The council approved routine spending of $170 for police officer salaries ($40/month each), engine maintenance, and prisoner care.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-07-19_122813",
-  "title": "",
+  "title": "Austin's New Cemetery Plans & City Budget**",
   "meeting_type": "regular",
   "date": "July 19, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122813",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Greenwood Cemetery Approved**: The City Council established a new cemetery called Greenwood Cemetery, purchasing 120 acres from J.H. Patterson. The council allocated 10 acres specifically for the burial of Black residents (increased from 5 acres), and created a separate pauper burial section with numbered graves.\n\n• **Cemetery Regulations Set**: The city established lot prices ($25 for half-lots, $15 for quarter-lots) and new rules including restricting children under 12 unless accompanied by adults, banning dogs, and requiring the City Sexton to organize and number lots designated for Black residents.\n\n• **July Payroll & City Services Funded**: The council approved $3,083 to pay city officers and employees for July, plus $167 for hospital staff wages.\n\n• **Street & Infrastructure Improvements**: The council approved $150 to improve the street in front of the Fire Hall on Hickory Street and ordered the removal of chili stands from Pecan Street.\n\n• **Miscellaneous City Business**: The council addressed a property tax refund request for the Swedish Church, investigated a collision damage claim, and approved funding for printing the city's revised ordinances.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

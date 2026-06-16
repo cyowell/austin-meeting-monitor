@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-07-21_122895",
-  "title": "",
+  "title": "** Austin's $1.4M Water Works and Bond Plan Approved",
   "meeting_type": "regular",
   "date": "July 21, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122895",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major Bond Passage**: City Council unanimously approved issuing $1.4 million in bonds to build a water works system and electric lighting infrastructure, marking a major infrastructure investment for Austin.\n\n• **Everyday City Rules**: Council passed ordinances banning baseball and ball games in city streets, and prohibiting livestock from being staked or hitched on public property—practical quality-of-life regulations for the growing city.\n\n• **Budget Approvals**: The council approved multiple funding measures, including $500 for appraisers, $3,200 for city employee salaries, and over $14,500 for approved accounts and bonded debt payments.\n\n• **Street and Infrastructure Plans**: Discussed opening alleys, relocating public water troughs, and investigating streetlight quality (with thanks given to University of Texas professor for testing).\n\n• **Future Sewer Study**: Council created a special committee to evaluate options for providing the city with a sewage system, either through purchasing or building new infrastructure.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

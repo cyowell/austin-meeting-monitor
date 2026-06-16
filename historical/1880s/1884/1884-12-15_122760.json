@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-12-15_122760",
-  "title": "",
+  "title": "Austin's 1884 Street Lamps & Infrastructure Plans",
   "meeting_type": "regular",
   "date": "December 15, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122760",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Street lighting expansion**: Council approved a contract with Austin Gas Light and Coal Company to add 125 street lamps around the city at $2.50-$3.00 per month each—though some aldermen wanted to wait and compare bids from rival gas companies first.\n\n• **Bridge and drainage improvements**: The council allocated $3,000 to build a bridge over Waller Creek at Pine Street and authorized construction of culverts along West Cypress Street to prevent flooding that had been damaging homes and property.\n\n• **Fire department upgrades**: Two fire companies requested support—one asking for a truck operator position and the other seeking funds to expand their truck house and hire a horse carriage driver to maintain equipment.\n\n• **Gambling ordinance**: The city attorney was directed to draft a law banning the public display and sale of lottery and gambling devices on city streets.\n\n• **Public amenities**: The council approved lighting at multiple street corners including spots near the Jewish congregation synagogue and Christian Church, and proposed creating a public park on the Academy Block with $1,000 in improvements.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

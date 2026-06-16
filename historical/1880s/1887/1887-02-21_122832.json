@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-02-21_122832",
-  "title": "",
+  "title": "Austin Streets, Bridges & Sanitary Inspection 1887",
   "meeting_type": "regular",
   "date": "February 21, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122832",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Street Infrastructure & Funding** – Council approved $1,200 to purchase land for extending East Live Oak Street, San Marcos Street, and Cypress Street through downtown Austin to improve traffic flow and connections.\n\n• **Bridge Construction Projects** – Multiple bridge proposals moved forward, including $600 for a wooden bridge across Waller Creek on Willow Street, plus initiatives to extend culverts and repair roads at various city intersections.\n\n• **Sanitary Inspector Position Created** – After debate, Austin established a new city role of Sanitary Inspector at an annual salary of $800 (reduced from $1,000) to oversee public health and sanitation issues.\n\n• **Fire Department Staffing** – Council approved hiring a \"tillerman\" (equipment specialist) for Hook & Ladder Company No. 1, adding the position to the regular paid fire department payroll.\n\n• **Mayor Defends Detective Fund** – Mayor Robertson publicly responded to newspaper accusations of fund misappropriation by presenting receipts from Pinkerton detectives and winning council approval confirming all expenditures were properly documented.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

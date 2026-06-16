@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-06-01_122075",
-  "title": "",
+  "title": "Austin Water Works and Cemetery Projects, 1891",
   "meeting_type": "regular",
   "date": "June 01, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122075",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water Infrastructure Expansion**: The city approved nearly $5,000 to pay contractor Bernard Corrigan for dam construction work, plus over $1,400 for railroad labor and materials needed to transport materials to the dam site. These projects represented major investments in Austin's water works system.\n\n• **Disease Response and Public Health**: The council paid a police officer $100 for extra work during a smallpox outbreak and approved $107.90 in medical expenses for a resident treated for the disease, showing how the city managed disease prevention.\n\n• **City Ward Reorganization**: An ordinance redrew Austin's city district boundaries to include newly annexed territory while attempting to keep existing aldermen in their current wards and equalize population across districts.\n\n• **Multiple Property Damage Claims**: Residents submitted various damage claims—some approved, others denied—related to street grading, cemetery proximity affecting farmland, and small pox property confiscation.\n\n• **Regular Budget Management**: The council reviewed monthly financial reports, approved over $3,000 in general expenses, and transferred $180 between cemetery and general funds.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

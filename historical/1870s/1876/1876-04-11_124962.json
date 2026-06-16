@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-04-11_124962",
-  "title": "",
+  "title": "Austin Fire Department Rejects City Funding",
   "meeting_type": "special called",
   "date": "April 11, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124962",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Funding Dispute**: The city council approved $500 for the Fire Department's San Jacinto Day Parade expenses, but the Board of Fire Commissioners later rejected the appropriation, prompting a second meeting to address the disagreement.\n\n• **Smallpox Crisis Resolved**: Dr. R.M. Swearinger successfully treated 11 smallpox patients (3 deaths) over six weeks and resigned from his hospital position. The council approved his $550 bill for services rendered from late February through April.\n\n• **Legal Action Against City**: A lawsuit filed by J.R. Gorley against Austin was referred to a special committee for review and potential settlement.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-06-20_121805",
-  "title": "",
+  "title": "Austin Land Disputes & Hospital Funding 1892",
   "meeting_type": "regular",
   "date": "June 20, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121805",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Land acquisition disputes**: The city struggled to purchase strips of land for street expansion, with property owners asking exorbitant prices ($250 and $1,200) that the Street Committee deemed unreasonable.\n\n• **Hospital improvements approved**: Council allocated $186.65 (from patient fees) to furnish rooms for paying patients at the City Hospital, recognizing a new revenue source.\n\n• **Tax relief granted**: The Methodist church successfully got its property taxes waived as a religious institution, and 17 citizens received credits for road taxes paid before annexation into city limits.\n\n• **Hog pen complaint dismissed**: A petition against George Washington for keeping hog pens in the Fifth Ward was rejected after inspection found the premises in \"good sanitary condition.\"\n\n• **Infrastructure maintenance**: Council authorized the city engineer to inspect the Waller Creek footbridge on East 7th Street and estimate rebuilding costs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

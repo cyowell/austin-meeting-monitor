@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-02-23_125082",
-  "title": "",
+  "title": "** Austin Street Improvements and Market Regulations 1871",
   "meeting_type": "special called",
   "date": "February 23, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125082",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Congress Avenue Reconstruction**: The council unanimously approved a major infrastructure project to standardize the grade (elevation) of Congress Avenue from the Capitol to the river, including new 12-foot-wide sidewalks paved with stone and improved gutters. Property owners fronting the avenue would be assessed for the costs.\n\n• **Market House Changes**: New rules moved the annual stall rental date from April 15th to March 1st and raised the minimum rental price to $300 per year. Unlicensed vendors selling produce anywhere in the city other than the designated market space would face misdemeanor charges.\n\n• **Charter Request to State Legislature**: The council unanimously asked Mayor Adams to forward Austin's proposed new city charter to state Senator M.M. Bowers and other legislators, requesting they pass it into law.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

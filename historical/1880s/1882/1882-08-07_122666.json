@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-08-07_122666",
-  "title": "",
+  "title": "Austin's Street Naming Plan and Railroad Regulation",
   "meeting_type": "regular",
   "date": "August 07, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122666",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street Naming & House Numbering Initiative**: Council passed an ordinance requiring Austin's streets to be officially lettered and named with street signs posted at intersections, plus mandating all houses be numbered. The city appropriated $8,000 to implement this project.\n\n• **Train Speed Regulation**: Council debated an ordinance to regulate train speeds within city limits and set penalties for violations, though the vote to finalize the measure initially failed before being amended.\n\n• **State Sewer Access Granted**: Council approved allowing the State of Texas to build and maintain a sewer line from the Colorado River to the state public buildings, with residents allowed to connect their properties under state-prescribed conditions.\n\n• **Fire Department Changes**: The Fire Commissioners were authorized to dissolve Hope Hook and Ladder Co. No. 4 and consolidate leadership, and were approved to sell off the company's equipment to generate revenue for the city.\n\n• **City Marshal's Resignation**: Popular lawman Ben Thompson submitted his resignation effective September 1st, but Council granted him a 60-day leave of absence instead and postponed action on the resignation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

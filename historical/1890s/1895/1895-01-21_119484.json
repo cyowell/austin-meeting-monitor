@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-01-21_119484",
-  "title": "",
+  "title": "Austin Infrastructure Investments",
   "meeting_type": "regular",
   "date": "January 21, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119484",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water and Light System Funding**: Council approved a $10,000 appropriation to get Austin's new water and light system operational, addressing a major infrastructure priority for the growing city.\n\n• **Bridge and Culvert Construction**: Approved $600 for a stone bridge over Little Shoal Creek at Nueces and West 11th Street, though a separate $1,649.30 culvert project stalled over disagreement about the final vote.\n\n• **New Cemetery Expansion**: After significant debate, council accepted a proposal from the Austin City Cemetery Association to establish and expand the city cemetery, including space for burial of paupers, with cemetery lots capped at $75 each.\n\n• **Police Force Expansion Rejected**: A proposal to add another police officer was defeated, with aldermen citing tight city finances and the burden of the incomplete water and light system as reasons.\n\n• **Annual Salaries Approved**: Council passed a $41,488 appropriation for city employee and officer salaries through November 1895, indicating Austin's growing municipal workforce.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

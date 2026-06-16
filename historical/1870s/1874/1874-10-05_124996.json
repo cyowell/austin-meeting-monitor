@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-10-05_124996",
-  "title": "",
+  "title": "Austin City Nightlife & Public Safety",
   "meeting_type": "regular",
   "date": "October 05, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124996",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Barroom licenses approved** - The council granted permission for W. H. Klement and C. C. Johanson to open bars in Wards 1 and 2.\n\n• **Church noise complaint addressed** - Property owners in Ward 3 filed a major complaint about two African American churches operating late into the night (until 2-3 a.m.), with screaming and yelling disturbing neighbors and hurting property values. The council referred the matter to a special committee for investigation.\n\n• **Public works upgrades planned** - The city approved funds for a water level survey to explore bringing canal water to Austin's outlying areas, and authorized construction of two new fire cisterns at key intersections for fire safety.\n\n• **Fire safety regulations tightened** - The city marshal was instructed to inspect all businesses in fire-prone areas and enforce strict limits on storing kerosene oil and gunpowder to prevent fires.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

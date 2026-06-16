@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-12-04_119899",
-  "title": "",
+  "title": "** Austin Roads Convention & City Infrastructure Updates",
   "meeting_type": "regular",
   "date": "December 04, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119899",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Roads & Streets Convention Funding**: The council approved $150 in funding for a Good Roads and Street Convention scheduled for December 11-12, 1899, reflecting Austin's interest in improving transportation infrastructure.\n\n• **Street Drainage & Bridge Work Completed**: The Street Committee reported that petitions for draining West 10th Street and building a bridge on 1st Street (Onion Street) had both been successfully completed.\n\n• **Public Scale Permission Granted**: A.S. Noit received approval to install a public scale on Lot 7 Block 2, fronting west on 2nd Street for commercial use.\n\n• **Board of Equalization Amendment**: Council passed an ordinance amending the powers and duties of the Board of Equalization to allow them additional time to complete their work.\n\n• **Water & Light Commission Nominations**: The mayor nominated two members to the Water & Light Commission, though the council voted to refer the nominations to committee for further review rather than confirm them immediately.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

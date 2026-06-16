@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-05-19_122890",
-  "title": "",
+  "title": "Austin City Council Meeting May 1890",
   "meeting_type": "regular",
   "date": "May 19, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122890",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Low attendance**: Only 8 of 20 aldermen showed up for the meeting, with 12 absent.\n\n• **Quick adjournment**: The council immediately moved to adjourn with a narrow 5-3 vote, suggesting minimal business to conduct.\n\n• **No substantive agenda items**: The meeting minutes contain no discussion of policies, public hearings, or city business—only procedural matters.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

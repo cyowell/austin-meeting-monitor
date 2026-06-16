@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-12-05_125087",
-  "title": "",
+  "title": "** Austin Guns and City Surveyor Rules 1876",
   "meeting_type": "regular",
   "date": "December 05, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125087",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Weapons Ban in Public**: Austin passed an ordinance prohibiting firearms, bowie knives, and other weapons at churches, schools, social gatherings, elections, and other public assemblies—with fines of $25-$100 for violations (exempting law enforcement).\n\n• **New City Surveyor Position Created**: The city established a paid surveyor role to officially mark property corners, requiring property owners to pay up to 50 cents per corner; those who failed to comply faced $50+ fines and could lose their structures.\n\n• **Street Improvements Requested**: Citizens from the northeast part of the city petitioned for street grading and improvements, which was referred to the Street Committee for action.\n\n• **Bridge Survey Approved**: The mayor was authorized to work with the Ohio Bridge Company to survey a potential bridge project and hire a city engineer to assist.\n\n• **Monthly Budget Approved**: The council unanimously approved about $213 in appropriations for police salaries, prisoner care, equipment maintenance, and city services.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

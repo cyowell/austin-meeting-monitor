@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-05-16_122659",
-  "title": "",
+  "title": "** Austin Infrastructure & Railroad Disputes 1882",
   "meeting_type": "special called",
   "date": "May 16, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122659",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Tax and Hospital Funding** – Council voted on the city's tax rate for 1882, allocating one-tenth of collected taxes specifically for hospital operations.\n\n• **Railroad Right-of-Way Approval** – The Austin and Northwestern Railroad was granted passage through the city toward the Capitol and University grounds, referred to a special committee for final details.\n\n• **Major Infrastructure Repairs Needed** – City Engineer reported $4,000 needed to rebuild a wooden sewer on Congress Avenue and warned that many city bridges were in dangerous condition and required immediate repairs.\n\n• **Railroad Company Sanctioned** – Council formally denounced the International & Great Northern Railroad for illegally laying tracks across Avenue Street without permission, instructing the Mayor and City Attorney to pursue legal action and recover damages.\n\n• **Fire Department and Bridge Funding** – Council approved $200 for repairs to a bridge over Water Creek and addressed Fire Department budget allocations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

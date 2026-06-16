@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-07-06_122664",
-  "title": "",
+  "title": "Austin Cemetery Lot Limits and Sewer System Approved",
   "meeting_type": "special called",
   "date": "July 06, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122664",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Cemetery Restrictions Enacted**: The council passed new rules limiting property purchases in the city cemetery to one lot per person, unless proving absolute necessity for family burials. All cemetery lot sales revenue must be dedicated exclusively to cemetery operations and maintenance.\n\n• **Sewer System Approved**: The city granted W.B. Brush and associates the right to build an underground sewer system throughout Austin, with permanent rights to operate and maintain the infrastructure at reasonable prices.\n\n• **Saloon Permits Granted**: Two separate petitions to open saloons—one from S. Cordova at the corner of Live Oak and Lavaca streets, and another from T.C. Denney and W.R. Brown—were approved by the council.\n\n• **State Capitol Sewer Project Referred**: Governor O.M. Roberts's request for the state to lay a sewer line from the Colorado River to the State Capitol and Blind Asylum was referred to the City Attorney and Ordinance Committee for further action.\n\n• **Sand Pit Regulation Set**: The council adopted pricing regulations for sand extracted from the Colorado River—5 cents per horse load within city limits, 10 cents for two-horse loads, with double rates for sand transported beyond city boundaries.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

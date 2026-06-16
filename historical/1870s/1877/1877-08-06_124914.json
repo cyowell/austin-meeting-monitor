@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-08-06_124914",
-  "title": "",
+  "title": "Austin Fire Department Seeks Cemetery Space 1877",
   "meeting_type": "regular",
   "date": "August 06, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124914",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Quorum Issues**: The August 6th meeting was adjourned immediately due to insufficient aldermen present—a common problem showing attendance challenges on the council.\n\n• **Fire Department Burial Request**: The Fire Department's Chief Engineer petitioned the city to donate four blocks in the new cemetery addition as a dedicated burial ground for deceased firefighters.\n\n• **Committee Review**: The petition was referred to the Cemetery Committee for consideration rather than decided immediately, suggesting it required further study.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

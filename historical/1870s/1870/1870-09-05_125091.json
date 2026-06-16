@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-09-05_125091",
-  "title": "",
+  "title": "Austin's 1870 Hospital Plans & City Infrastructure",
   "meeting_type": "regular",
   "date": "September 05, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125091",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Hospital Construction Approved**: The council unanimously allocated $500 to purchase land adjacent to Austin for building a city hospital, appointing a committee to find suitable property at the lowest price.\n\n• **Flood Safety Standards**: The council directed a committee to establish standardized flood grade markers throughout the city to guide future building construction, addressing public safety concerns.\n\n• **New Market House Rules**: A committee was tasked with drafting regulations for managing the newly established City Market House to ensure proper operations.\n\n• **Monthly Budget**: The council approved approximately $1,273 in September expenses, including salaries for the city marshal, police officers, and street improvements.\n\n• **Property Tax Credit Granted**: Two property owners received assessment credits for their expenses paving gutters on Hickory Street, recognizing their infrastructure contributions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-05-14_122695",
-  "title": "",
+  "title": "Austin's 1883 Street Disputes and Attendance Fines",
   "meeting_type": "special called",
   "date": "May 14, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122695",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Aldermen Fined for Absenteeism** – Eight city council members (Kinney, Metz, Lawrence, Schuber, Brueggerhoff, Hupfield, and Moeller) were each fined $1 for missing the May 14 meeting, a strict attendance enforcement policy.\n\n• **Quorum Issues** – Only three aldermen showed up to the called meeting presided over by Mayor W.A. Taylor, raising questions about civic engagement in 1880s Austin.\n\n• **Called Meeting Format** – This was a specially convened meeting rather than a regular session, suggesting urgent business needed addressing despite low attendance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

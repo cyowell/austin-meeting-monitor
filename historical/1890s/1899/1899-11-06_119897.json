@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-11-06_119897",
-  "title": "",
+  "title": "Austin Approves Corp Court, Bonds",
   "meeting_type": "regular",
   "date": "November 06, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119897",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Corporation Court established**: Council passed an ordinance creating a new Corporation Court, setting its effective date for January 1, 1900 after multiple rounds of voting and debate over specific details like judge compensation.\n\n• **High school bond sale proceeds**: The city sold $35,500 worth of Austin High School bonds and directed $10,100 from the proceeds to support the city's water and light bond sinking fund.\n\n• **Infrastructure improvements approved**: Council approved extending the pound (livestock containment) area boundaries to prevent animals from running loose in more parts of the city, plus addressed drainage issues on West 10th and 11th Streets.\n\n• **Property disposal authorized**: The city confirmed the sale of 160 acres of land in Mason County (part of the Otto Dehne survey) that the School Board owned.\n\n• **Monthly finances show solid city reserves**: October collections totaled $7,764.80, with the general fund balance reaching nearly $42,000, demonstrating healthy municipal finances heading into the new century.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

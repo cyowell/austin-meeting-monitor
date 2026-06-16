@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-09-04_122668",
-  "title": "",
+  "title": "Austin 1882: Budget Approvals & Building Restrictions",
   "meeting_type": "regular",
   "date": "September 04, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122668",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "- **Budget Approvals**: City council approved roughly $1,856 in various spending measures, including police board expenses, fire department horse care, council member per diem payments, and $300 to drain \"exontown\"\n\n- **Railroad Speed Limits**: New ordinance passed limiting trains to 6 mph within city limits and at Congress Avenue crossing, with fines of $25-$100 for violations\n\n- **Building Permits Required**: New fire safety ordinance required property owners to get the mayor's permission before construction and limited wooden fences inside fire-prone areas to 6 feet high\n\n- **Failed School Tax Vote**: Council rejected a proposal to let taxpayers vote on a special property tax to fund public free schools, with aldermen divided 4-4 on the measure\n\n- **Property Disputes Referred**: Conflicting petitions over fencing near Block 184 and market house boundaries were sent to committees for further review",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

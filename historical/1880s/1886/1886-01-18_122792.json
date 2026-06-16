@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-01-18_122792",
-  "title": "",
+  "title": "Austin Street Railway & Cemetery Fence Approved",
   "meeting_type": "regular",
   "date": "January 18, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122792",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Three new aldermen elected and sworn in** – C.G. Caldwell (4th Ward), August Giesen (5th Ward), and F.E. Jones (10th Ward) were officially declared elected and took their oaths of office.\n\n• **Cemetery fencing approved** – The council appropriated $1,000 to enclose the city cemetery with a substantial fence, with the Cemetery Committee tasked with preparing plans and requesting bids.\n\n• **Street railway rights granted** – The council approved a street railway ordinance granting right-of-way to D.M. Wilson, Joseph Nalle and others to construct and operate a streetcar line through Austin.\n\n• **New saloon regulations enacted** – Bars and liquor establishments are now required to close by midnight and cannot open before 5 a.m., making violations a misdemeanor.\n\n• **Infrastructure improvements ordered** – The city authorized an iron water trough at Waller and Mesquite streets and approved various street lamp and water hydrant expansion plans.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

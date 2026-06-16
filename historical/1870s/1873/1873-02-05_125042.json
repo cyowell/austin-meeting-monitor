@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-02-05_125042",
-  "title": "",
+  "title": "** Austin's 1873 City Decisions on Health, Licenses, and Budgets",
   "meeting_type": "regular",
   "date": "February 05, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125042",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Smallpox Safety Measure**: The City Council prohibited burials of smallpox victims in the city cemetery, reflecting period public health concerns about disease prevention.\n\n• **City Physician Appointment**: A petition from Dr. J.W. Strutnaker to become the city physician was submitted to a committee for review and recommendation.\n\n• **Budget and Staff**: The council approved funding for a new clerk position in the Assessor and Collector's office at $75 per month, acknowledging increased administrative work demands.\n\n• **Business License Disputes**: Multiple petitions were reviewed regarding business licenses, including requests for meat market privileges and release from Market Hall lease obligations, with decisions deferred for further investigation.\n\n• **Court Settlement**: Council appropriated $350 from city funds to pay off a legal judgment from the previous year, though this decision would later face mayoral opposition.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

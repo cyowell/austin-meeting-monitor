@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-02-05_124937",
-  "title": "",
+  "title": "** Austin City Infrastructure & Business Permits 1877",
   "meeting_type": "regular",
   "date": "February 05, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124937",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Construction Approved**: The council authorized construction of bridges across Waller Creek at multiple locations (Bois d'Arc and Cedar Streets) to improve city infrastructure and drainage, addressing citizen petitions for better transportation access.\n\n• **Business Licensing Decisions**: The council reviewed several petitions to establish new businesses, including shooting galleries, warehouses for storing oil and turpentine, and an exclusive bill-posting service—most referred to committees for further evaluation.\n\n• **Railroad Right-of-Way Dispute**: Citizens petitioned against granting railroads passage through city streets, indicating public concern about railroad expansion and its impact on the community.\n\n• **Long-Standing Property Claim Resolved**: The council approved compensation to Bahn and Schumann for a hospital block purchased years earlier, awarding them $1,200 plus interest and taxes—settling a dispute that had accumulated since 1870.\n\n• **Tax and Street Maintenance Issues**: The council addressed multiple petitions regarding street maintenance (gutter grading, drainage problems), tax assessment errors, and compensation for laborers and property owners affected by city improvements.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-03-23_124965",
-  "title": "",
+  "title": "** Austin Prison Plans & Fire Equipment Funding",
   "meeting_type": "special called",
   "date": "March 23, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124965",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Prison Security Committee Formed** – Council appointed a committee (including the Mayor, City Marshal, and three aldermen) to develop a plan for improving the city jail and better securing prisoners, after rejecting an initial proposal to set up a prison at the Market House.\n\n• **Fire Equipment Purchase Approved** – Council voted unanimously to pay $253 to the Silsby Manufacturing Company in New York for buckets and hoses for the Hook and Ladder Companies (volunteer fire brigades).\n\n• **Water Company Inspection Pending** – A committee tasked with inspecting the Austin City Water Company's compliance with its contract to the city requested more time to complete their report.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

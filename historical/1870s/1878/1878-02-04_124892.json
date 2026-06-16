@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-02-04_124892",
-  "title": "",
+  "title": "Austin Street & Bridge Projects, Licensing Petitions",
   "meeting_type": "regular",
   "date": "February 04, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124892",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street infrastructure upgrades**: Council addressed drainage problems on San Jacinto Street and approved funding for two stone walls and a culvert on East Pecan Street to improve road conditions and access to a wagon yard.\n\n• **Bridge repairs debated**: Multiple ordinances for East Pecan Street bridge repairs and a new bridge across Muller Creek on Cedar Street generated significant discussion, with amendments proposed to increase repair budget from $250 to $600.\n\n• **Public petitions granted**: A widow's son received permission to sell fruit without a license, and a liquor retailer was authorized to sell small quantities—both deemed worthy causes by aldermen.\n\n• **Street lighting modernization**: Council voted to reduce oil lamps from their current number to 25 maximum, rejecting a proposal to switch to gas lights on major streets, citing the city's poor financial condition.\n\n• **Police and city assets**: The council filled a police officer vacancy and authorized the sale of city horses, mules, carts, and equipment at public auction to raise funds.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

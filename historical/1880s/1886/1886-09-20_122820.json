@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-09-20_122820",
-  "title": "",
+  "title": "Austin 1886 Considers $350K Bond Issue**",
   "meeting_type": "regular",
   "date": "September 20, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122820",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "- **Major bond referendum**: Council approved an election (set for December 6, 1886) asking voters to authorize $350,000 in city bonds—tripling the existing $125,000 debt—with interest capped at 5 percent.\n\n- **Infrastructure improvements**: Citizens petitioned for sidewalk widening on West College Avenue, a water trough at 16th and Cherry Streets, and a fire hose cart placement in the fifth and sixth wards.\n\n- **Tax foreclosures and property sales**: The city assessor reported properties sold for unpaid 1885 taxes, with multiple lots purchased by investors like Mrs. T.J. Houston and developer Charles Lundell.\n\n- **City finances and payroll**: Council passed ordinances appropriating nearly $6,500 for approved claims, employee payroll, and cemetery fence maintenance.\n\n- **Water company dispute**: A council committee reported the private City Water Company refused to sell its works to the city; a proposal asking the city attorney to investigate legal options for building municipal water works was defeated.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

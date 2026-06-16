@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-02-01_125084",
-  "title": "",
+  "title": "Austin's 1871 Mayor Change & Budget Approvals",
   "meeting_type": "special called",
   "date": "February 01, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125084",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New Mayor Appointed**: Homer H. Gleason was officially commissioned as Austin's new mayor by Texas Governor C.S. Davis, replacing outgoing Mayor Leander Brown.\n\n• **Budget Passed**: The city council unanimously approved $784.25 in spending to cover government salaries, police pay, jail expenses, and infrastructure maintenance.\n\n• **Farewell Resolution**: Council members unanimously passed a formal resolution thanking outgoing Mayor Brown for his \"long and faithful services\" and courteous leadership.\n\n• **Key City Expenses**: Major budget items included officer salaries, prisoner care ($75), bridge maintenance and construction, and dead animal removal services.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

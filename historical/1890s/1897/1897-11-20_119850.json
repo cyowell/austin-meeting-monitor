@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-11-20_119850",
-  "title": "",
+  "title": "Austin Election Rules Changed for Second Ward",
   "meeting_type": "special called",
   "date": "November 20, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119850",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election ordinance amended**: The council passed changes to polling place locations in Austin's Second Ward, which was the primary reason for calling this special meeting.\n\n• **City-wide election scheduled**: An ordinance was approved to hold elections across all wards for a new Mayor, three School Board members, two Water & Light Commission members, and one Alderman per ward.\n\n• **Quorum issues**: The meeting initially lacked enough council members present to proceed, requiring additional aldermen to be called into the chamber before business could commence.\n\n• **Unanimous passage**: The election ordinance passed with 15 votes in favor and no opposition, indicating strong council agreement on the election framework.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

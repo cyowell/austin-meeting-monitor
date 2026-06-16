@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-03-27_124964",
-  "title": "",
+  "title": "** Austin's 1876 Fire Equipment & Jail Plans",
   "meeting_type": "special called",
   "date": "March 27, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124964",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Equipment Purchase Approved** – The council voted unanimously to pay $253 to the Silsby Manufacturing Company in New York for buckets and hose equipment for the city's Hook and Ladder Companies.\n\n• **Temporary Jail Proposal Rejected** – A committee recommended converting space in the City Market House into a temporary jail, courthouse, and police headquarters due to budget constraints, but the council narrowly voted down the proposal (3-4).\n\n• **Budget Constraints Drive Decisions** – The city's financial limitations were cited as the reason for seeking temporary solutions rather than building permanent facilities, reflecting Austin's modest resources in the post-Civil War era.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

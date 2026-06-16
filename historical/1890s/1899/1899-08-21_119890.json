@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-08-21_119890",
-  "title": "",
+  "title": "Austin 1899 Street Plans & Bond Proposals",
   "meeting_type": "regular",
   "date": "August 21, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119890",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **South Austin Street Development**: Citizens petitioned to open a new street from Fredericksburg Road to Congress Avenue in South Austin; the request was referred to the Street Committee for further consideration.\n\n• **Municipal Bond Financing**: The Finance Committee received a proposal from First National Bank to provide the city with $125,000 in water and light bonds at a 5% rate for the city's sinking fund, though no immediate action was taken.\n\n• **Street & Alley Petitions Denied**: The Street Committee rejected multiple petitions to open new streets and alleys in various parts of Austin, including proposals near a brickyard in West Austin and Robertson Hill in East Austin.\n\n• **Board of Equalization Appointment**: The council confirmed A.J. Ziker to the Board of Equalization, while rejecting the mayor's nomination of Knott Robinson Jr.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

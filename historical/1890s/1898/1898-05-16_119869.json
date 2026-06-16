@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-05-16_119869",
-  "title": "",
+  "title": "Austin's 1898 Tax Disputes and City Budget Votes",
   "meeting_type": "regular",
   "date": "May 16, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119869",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax Assessment Appeals**: The council rejected petitions from citizens seeking reductions on their 1897 taxes, ruling the council lacked authority to overturn assessments set by the Board of Equalization—though they did approve a $115.69 tax credit for Mrs. L.T. Truse due to illegal collection.\n\n• **Water & Light Utility Dispute**: A contentious debate emerged over how much the city owed the Water and Light Commission, with aldermen divided on whether to form a special committee or refer the matter to an existing committee to settle the amount.\n\n• **Infrastructure Challenges**: A proposed bridge project on Congress Avenue couldn't proceed because costs would exceed the allocated budget, and the city sent four unused mules to pasture to cut expenses.\n\n• **Budget Approvals**: The council unanimously passed three spending ordinances totaling roughly $1,376 to pay for approved accounts, sanitary labor, and street work from the previous year.\n\n• **Administrative Changes**: The council voted to increase meeting times from 8 p.m. to 8:30 p.m., and approved adding Mrs. M.M. Milby to the city's regular payroll.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

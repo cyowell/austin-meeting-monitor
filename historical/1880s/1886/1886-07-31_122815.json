@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-07-31_122815",
-  "title": "",
+  "title": "Austin's $350K Water & Sewer Bond Plan",
   "meeting_type": "special called",
   "date": "July 31, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122815",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Infrastructure Investment**: City council approved creation of a special committee to prepare an ordinance for a $350,000 bond election—allowing voters to decide whether to buy out the existing Water Works, build new ones, or establish a modern sewer system.\n\n• **Sewer Project Green Light**: An existing $25,000 sewer bond ordinance was repealed and replaced with a new framework, signaling the city's commitment to overhauling its sewage infrastructure.\n\n• **Additional Bonding Authority Sought**: Council introduced an ordinance to ask voters for permission to extend the city's debt limit beyond $125,000, with a proposed $100,000 bond and a $5,000 bond for the August 11 election.\n\n• **Street Repairs Ordered**: The council directed city teams to complete work on the East Pecan bridge and rock bridge, and to immediately fix a nuisance area between Red River and Neches Streets.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-01-06_125013",
-  "title": "",
+  "title": "Austin Fire Safety Rules and Business Licenses 1874",
   "meeting_type": "regular",
   "date": "January 06, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125013",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New Fire Safety Ordinance**: Council passed strict building regulations requiring fireproof materials (brick, stone, slate, tin, or iron) for any new or repaired buildings in designated fire-limit zones around Congress Avenue and Bean Street. Wooden buildings were banned in these areas, with violators facing fines and city demolition of non-compliant structures.\n\n• **Business License Tax**: Council approved formation of a special committee to develop a new merchant licensing tax ordinance, signaling efforts to regulate and generate revenue from local businesses.\n\n• **Retail Liquor Permit Approved**: Louis Breshiani received permission to sell spirits in quantities under one quart, expanding retail beverage options in the city.\n\n• **City Sexton Position Confirmed**: After heated debate, C.C. Nitschke's election and bond as City Sexton (cemetery and burial official) were ratified, though several aldermen opposed the decision.\n\n• **Minor Infrastructure**: Council authorized repairs to gutters at the Fire Engine House and approved a new city safe for protecting government records and documents.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

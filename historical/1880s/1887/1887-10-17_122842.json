@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-10-17_122842",
-  "title": "",
+  "title": "Austin Invites Mexican War Veterans to Visit",
   "meeting_type": "regular",
   "date": "October 17, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122842",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Mexican War Veterans Welcomed**: The council unanimously invited surviving veterans of the Mexican-American War to visit Austin after their reunion in Fort Worth, offering the city's hospitality to honor their service.\n\n• **October Payroll Approved**: The council approved $3,312 in funds to pay city officers, employees, and the city-county hospital staff for October 1887.\n\n• **Street Lighting & Repairs Delayed**: A petition to light and repair Pine Street between two locations was presented, but action was postponed pending a new street lighting contract.\n\n• **Circus Proposal Tabled**: A proposal to rent the public park on Fifth Street for circus purposes at $25 per day was set aside for further consideration.\n\n• **Cemetery Ordinance Stalls**: An ordinance to establish Greenwood Cemetery failed to advance to final passage, with the vote split between supporters and opponents.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

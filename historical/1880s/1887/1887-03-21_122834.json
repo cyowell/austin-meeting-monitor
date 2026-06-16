@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-03-21_122834",
-  "title": "",
+  "title": "Austin's 1887 Bridge Battle and Public Works Plans",
   "meeting_type": "regular",
   "date": "March 21, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122834",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Multiple Bridge Petitions Clash**: Citizens submitted competing petitions about Waller Creek bridges—some wanted the Cherry Street bridge widened, others protested and asked to use that money for a North Avenue bridge instead, while a separate group requested a new bridge on East 14th Street. All were referred to committee.\n\n• **$3,500 City Survey Approved**: The council voted to hire surveyor J.F. Pope to conduct a complete topographical survey of Austin with maps and profiles, though one alderman wanted to open bidding first.\n\n• **Public Improvements Budget Passed**: After amendments, the council approved spending on various infrastructure projects including culverts, street openings, and a new bridge over Little Shoal Creek on West 11th Street.\n\n• **$500 River Project to Fight Sewage**: Alderman Platt proposed a $500 dam project on the Colorado River intended to redirect the water flow northward so the current would wash away sewage buildup from city drains.\n\n• **Fire Department Elections Held**: Monroe Miller won the Chief position by 12 votes, F.E. Jones narrowly won Assistant Chief by just 1 vote, and John Miller was elected Recorder unopposed.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

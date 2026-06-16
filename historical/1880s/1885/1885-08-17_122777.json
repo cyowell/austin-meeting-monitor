@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-08-17_122777",
-  "title": "",
+  "title": "** Austin Cemetery Expansion Proposal Sparks Debate",
   "meeting_type": "regular",
   "date": "August 17, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122777",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Cemetery Land Controversy**: The council debated purchasing the Palm tract for a new cemetery, with committee chair Alderman Erwin strongly opposing it. He argued prominent physicians had warned the location would endanger eastern residents' health and cause property values to plummet, suggesting alternative sites like the Stiles or Wheeler tract instead.\n\n• **Street and Infrastructure Improvements**: Citizens petitioned for Mesquite Street to be graded east from East Avenue to create a direct route to Congress Avenue via a new bridge over Waller Creek. The council also approved purchasing 800 feet of fire hose and nozzles for the fire department.\n\n• **Private Property Requests**: Two residents requested permission to relocate houses on city property—one near the old tannery and another to erect a shed on city land. Both were referred to committees for consideration.\n\n• **Personnel and Legal Matters**: The council granted one prisoner's release on the City Physician's recommendation, remitted a fine against Charles Alexander, and dismissed complaints against Police Sergeant Chenneville after finding them without merit.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

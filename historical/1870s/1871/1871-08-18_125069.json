@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-08-18_125069",
-  "title": "",
+  "title": "Austin Tax Authority Dispute Resolved",
   "meeting_type": "special called",
   "date": "August 18, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125069",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax Rate Legal Challenge**: The Mayor questioned whether Austin had authority to collect property taxes at one-half of one percent after military rule ended, citing conflicting city charter versions from 1857, 1862, and 1869.\n\n• **Attorney General's Ruling**: The state's top legal official determined the city could only legally collect one-twelfth of one percent in taxes, invalidating higher collections made under previous military orders.\n\n• **Refund Plan Approved**: The council authorized the Mayor to stop over-collecting taxes and issue warrants (IOUs) to refund excess taxes paid by citizens, redeemable toward future tax obligations.\n\n• **Legislature Appeal**: The city was instructed to petition the state legislature for permission to collect the higher tax rate, with plans to issue refunds if the request was denied.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

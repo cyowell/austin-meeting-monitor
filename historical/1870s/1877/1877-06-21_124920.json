@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-06-21_124920",
-  "title": "",
+  "title": "** Austin's July 4th Celebration Plans & City Budget Approvals",
   "meeting_type": "special called",
   "date": "June 21, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124920",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Independence Day Planning**: Council appointed a special committee to coordinate with fire departments, military companies, and civic groups to organize Austin's Fourth of July celebration, with recommendations due at the next meeting.\n\n• **Police Officer Confirmations**: Two men—John Robinson and J.H. Patterson—were unanimously confirmed as police officers after the mayor's nominations.\n\n• **City Accountant Hired**: Council passed an ordinance authorizing the mayor to employ an accountant to audit the city's books, with funds allocated from the general budget.\n\n• **Safety Investigation**: A dangerous chimney or stove pipe at a house next to the Raymond House was referred to the Fire Department committee for investigation and safety assessment.\n\n• **City Engineer Support**: Council agreed to prepare an ordinance defining the city engineer's duties and compensation, and to consider purchasing surveying instruments upon request.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

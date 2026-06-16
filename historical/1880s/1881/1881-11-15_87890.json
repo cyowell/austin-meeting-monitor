@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-11-15_87890",
-  "title": "",
+  "title": "** Austin's New Mayor Takes Office in 1881",
   "meeting_type": "regular",
   "date": "November 15, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=87890",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New Leadership Installed** – W.A. Saylor was sworn in as the new Mayor of Austin, replacing retiring Mayor L.M. Crooker, along with a full slate of newly elected aldermen and city officials.\n\n• **Financial Concerns Highlighted** – The incoming Mayor emphasized the city's financial struggles and called for strict economy measures and cost-cutting across all city departments to improve Austin's prosperity.\n\n• **Administrative Appointments Made** – The Mayor established nine standing committees to oversee key city functions including Finance, Fire Department, Streets, Police, Market House, and Cemetery operations.\n\n• **Delayed City Clerk Report Approved** – The council granted outgoing City Clerk E.B. Connell additional time to complete his financial reports and account settlements due to recent illness.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

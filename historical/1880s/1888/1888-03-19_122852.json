@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-03-19_122852",
-  "title": "",
+  "title": "** Austin 1888: Fire Department, Streets and City Contracts",
   "meeting_type": "regular",
   "date": "March 19, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122852",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Fire Department Leadership Election**: The council elected August Ziller as Fire Chief, R.D. Cunningham as Assistant Chief, and L. Boemer as Recorder for a one-year term.\n\n• **Infrastructure Projects**: Approved $1,500 to build a wooden bridge across Waller Creek at First Street and authorized safety railings at the stone bridge over Waller Creek at East Second Street.\n\n• **City Printing Contract Dispute**: After rejecting bids from multiple companies including the Dispatch Publishing Company, the council awarded the job printing contract to Eugene Von Boeckmann following heated debate and procedural votes.\n\n• **Public Works and Parks**: Proposed $300 for fencing and gates at Pease Park (vote failed), and established a street committee to name unnamed streets and rename undesirable street names.\n\n• **Sanitation**: Passed an ordinance prohibiting the curing and poisoning of hides within city limits due to sanitation concerns.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

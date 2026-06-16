@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-03-11_122652",
-  "title": "",
+  "title": "1882 Fire Department Budget Cuts Debated",
   "meeting_type": "special called",
   "date": "March 11, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122652",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Fire Department Restructuring**: The council voted to reconsider an ordinance that would eliminate the position of Steam Fire Engine Engineer and disband the Hook and Ladder Company keepers, with heated debate from firefighters present at the meeting.\n\n• **Budget Cap Implemented**: A new ordinance was proposed to limit fire department monthly expenses to $200, with the measure referred to committee for refinement and to resolve conflicting regulations.\n\n• **Healthcare Committee Formed**: The Mayor appointed a three-person committee (along with W.A. Naegler) to arrange care for sick city residents, with authority to set up systems that would remain in place until the council decided otherwise.\n\n• **Business License Granted**: H. Rodgers & Co. received permission to open a shooting gallery on the avenue between Ash and Mulberry streets in a brick building.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

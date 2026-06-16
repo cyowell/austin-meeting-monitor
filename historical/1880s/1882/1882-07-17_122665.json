@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-07-17_122665",
-  "title": "",
+  "title": "** Austin Fines Absent Council Members",
   "meeting_type": "regular",
   "date": "July 17, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122665",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Attendance enforcement:** Four aldermen (Metz, Cook, Radkey, and Wilson) were each fined $1 for missing the July 17th council meeting\n\n• **Quorum issues:** Only 5 of 9 aldermen were present, prompting the marshal to fetch absent members before suspending the roll call\n\n• **Minimal business conducted:** The meeting was brief with no major policy decisions or public hearings documented on the agenda",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

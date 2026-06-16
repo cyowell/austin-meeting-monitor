@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-03-31_122653",
-  "title": "",
+  "title": "** Fire Protection & Water System Expansion Plans",
   "meeting_type": "special called",
   "date": "March 31, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122653",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Fire Safety Upgrade**: The council considered an ordinance to increase water supply and improve fire protection, with a citizen petition requesting the city contract for a \"Holly system\" to protect Austin from fire without relying on steam-powered fire engines.\n\n• **Committee Formed**: A five-member special committee was appointed to review the water/fire protection ordinance and petition, tasked with determining the best path forward for the city's safety infrastructure.\n\n• **Message to Governor**: Council passed a resolution appointing three aldermen to prepare an official address to the Governor of Texas on behalf of the city.\n\n• **Financial Records Dispute**: A letter from former finance committee chairman Joseph Hall clarified confusion about missing city bonds and warrants, explaining that a sealed box of documents was handed over to the City Clerk for safekeeping but later taken by another committee member (Dr. Tobin).",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

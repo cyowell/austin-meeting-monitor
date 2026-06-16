@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-07-16_122085",
-  "title": "",
+  "title": "Austin's Electric Power Grid Upgrade Battle",
   "meeting_type": "regular",
   "date": "July 16, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122085",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Infrastructure Investment**: Council approved nearly $30,000 in spending for Austin's new Water and Light system, marking a significant investment in the city's modernization and infrastructure development.\n\n• **Electric Generator Showdown**: Two competing companies (General Electric and Fort Wayne Electric) proposed different power technologies for the city's electrical system. Council accepted proposals to upgrade from direct current to three-phase alternating current generators, with one company offering a free 150-foot tower as incentive.\n\n• **Street Development**: City approved purchasing a plot of land through the Duval property for $350 to open a much-needed street connecting West Fourth Street to the railroad, addressing First Ward residents' access issues.\n\n• **Liquor Licensing & Regulations**: Council passed updated ordinances regulating the sale of alcohol and levying occupation taxes on liquor dealers and distributors.\n\n• **Board Elections**: Council elected three members (P. L. Wren, A. R. Morris, and R. C. Shelby) to the Board of Equalization, which handles property valuations and tax assessments, following significant debate over board composition and procedures.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

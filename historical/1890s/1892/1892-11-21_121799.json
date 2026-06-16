@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-11-21_121799",
-  "title": "",
+  "title": "Austin's 1892 Ice Factory and Fire Company Funding Decisions",
   "meeting_type": "regular",
   "date": "November 21, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121799",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Firefighter Injury Relief**: The council approved $100 to reimburse A. Wilkie, a Hook and Ladder Company firefighter who was seriously injured when his truck overturned while responding to a fire, and authorized his employment for two additional months while he recovered.\n\n• **Ice Factory Lease Terminated**: After investigation, the council declared the Capitol Ice Factory lease null and void, finding the company had ceased operations five years prior and was no longer in business, with the property now being illegally sublet by current occupant Geo. B. Gimpelman.\n\n• **Municipal Bonds and Services**: The council approved $11,250 to pay interest on the city's waterworks and electric light bonds, demonstrating Austin's investment in modern infrastructure.\n\n• **Tax Relief for Newly Annexed Residents**: Property owners in the newly expanded city limits who had paid county road taxes in 1891 were granted relief by allowing them to credit those payments toward their 1892 city taxes.\n\n• **Fire Company Celebration**: Council members were invited to a ball on November 25 celebrating the completion of the Austin fire companies' new hall.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

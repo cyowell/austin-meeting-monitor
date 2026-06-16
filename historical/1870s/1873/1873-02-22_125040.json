@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-02-22_125040",
-  "title": "",
+  "title": "Austin Vaccination Order 1873",
   "meeting_type": "special called",
   "date": "February 22, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125040",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Mandatory Vaccination Campaign**: The city council unanimously approved a resolution authorizing the Mayor to hire a physician to vaccinate all Austin citizens for free, with the Mayor directed to publicly announce the urgency of immediate vaccination.\n\n• **Market House Management**: The Committee on Market House was granted authority to lease the market halls as they deemed appropriate.\n\n• **Quorum Issues**: One agenda item was deferred to the next regular meeting due to insufficient council members present.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

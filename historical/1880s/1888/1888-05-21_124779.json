@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-05-21_124779",
-  "title": "",
+  "title": "Austin Budget Crisis Forces City Cuts",
   "meeting_type": "regular",
   "date": "May 21, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124779",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Mayor proposes $6,100 in annual savings** through employee cuts, including reducing the police force from 20 to 15 officers, eliminating the sanitary inspector position, and abolishing the city secretary role. The city faced a budget shortfall and was inheriting a $16,000+ deficit from the previous year.\n\n• **City Hospital spending under scrutiny** — The mayor recommended a special committee investigate whether the hospital's operational costs could be reduced and whether some patients could be transferred to the county poor farm.\n\n• **Four public squares officially named** — The council passed an ordinance establishing Hamilton Square, Bell Square, Hemphill Square, and Brush Square within Austin.\n\n• **Arsenal block donation remains rejected** — The council voted to prevent reconsideration of its earlier decision to refuse a free arsenal lot from the federal government for educational purposes, citing lack of support from specific city wards.\n\n• **Disputes over bridge construction** — The council delayed a $300 bridge project across Waller Creek, referring it to committee to determine the best location among three proposed sites.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

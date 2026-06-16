@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-06-12_124867",
-  "title": "",
+  "title": "Austin Fire Safety and Budget Disputes 1878",
   "meeting_type": "special called",
   "date": "June 12, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124867",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Alarm Bell Relocation Vetoed**: Mayor De Gress rejected a $1,000 proposal to purchase and install a new fire alarm bell, instead recommending it be placed at the Market House where a police officer on duty could sound it promptly and accurately report which district needed help.\n\n• **Bridge Construction Denied Over Budget Concerns**: The Mayor vetoed a $500 appropriation for a rock bridge on West Bois d'Arc Street, arguing the city faced an $18,000 revenue shortfall due to reduced property values and couldn't afford non-essential projects.\n\n• **Police Force Reduced to Eight Officers**: A committee recommended maintaining eight police officers (including a night clerk and chain gang overseer) instead of the proposed six-person reduction, with the Marshal instructed to select the best available officers.\n\n• **Emergency Assistance Approved**: Council approved $25 to help relocate the destitute Todd family to their home, demonstrating early municipal welfare efforts.\n\n• **Fire Equipment Funded**: The council unanimously approved $30 to purchase hose for a chemical fire extinguisher, showing commitment to fire prevention infrastructure.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-06-24_124814",
-  "title": "",
+  "title": "Austin Street Improvements and Meat Market Permits, 1880",
   "meeting_type": "regular",
   "date": "June 24, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124814",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Street Improvements Approved**: The council allocated $50 each to improve Wall Street (between San Jacinto and Rector) and West Ash Street near Leon Creek, with unanimous support from aldermen present.\n\n• **New Meat Markets Authorized**: Five residents received permission to open meat markets outside city limits, including P. Morgadun, Allen Bradley, Jan Skowr, Floura H. Luckeniger, and Phillip Schiedieker.\n\n• **Youth Crime Concerns Raised**: A physician's letter warned of increasing juvenile vagrancy and petty crimes, proposing the creation of a workhouse to punish and reform young offenders rather than recruit them into criminal life.\n\n• **Police Rewards and Reorganization**: The council debated pistol case rewards for police officers ($25-$200) and considered restructuring the police force, though final decisions were deferred or tabled.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

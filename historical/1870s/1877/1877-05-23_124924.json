@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-05-23_124924",
-  "title": "",
+  "title": "** Austin's 1877 Water Waste and Business License Issues",
   "meeting_type": "special called",
   "date": "May 23, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124924",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Leadership Election**: Alderman Taylor was elected President of the Board of Aldermen after a close 4-3 vote against Alderman Robinson, following the resignation of the previous president.\n\n• **Sewage Problem**: The Raymond House hotel petitioned the city council to develop a system for disposing of wastewater from their building, which was referred to the Streets Committee for solutions.\n\n• **Attendance Issues**: Multiple council meetings were disrupted by absent aldermen, with the marshal having to retrieve members to maintain a quorum.\n\n• **Business Licensing Dispute**: A butcher named Joseph Clay filed a complaint about his business license (#1894) that he obtained on March 1, 1877, though the specific issue was cut off in the record.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

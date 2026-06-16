@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-05-02_124794",
-  "title": "",
+  "title": "Austin's 1881 Meat Markets and Fire Engine Sale",
   "meeting_type": "regular",
   "date": "May 02, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124794",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Meat market expansion**: The council approved two petitions to open outside meat markets from J.D. Connell and W.D. Milliemes, expanding food retail options in the city.\n\n• **Fire engine modernization**: After the city installed fire hydrants, a resolution was introduced to sell the Colorado steam fire engine No. 2, which had become redundant and cost about $2,500 annually to maintain.\n\n• **Infrastructure improvements**: The Street Committee recommended approving a $1,000 appropriation to build a bridge across a ravine behind the Bellevue House on Headory Street and make related street improvements.\n\n• **Police force staffing**: The council confirmed two new police appointments—John Chenneville as Sergeant of Police and E.R. Ohermoller to fill a vacant officer position.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

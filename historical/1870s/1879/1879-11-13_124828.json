@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-11-13_124828",
-  "title": "",
+  "title": "Austin Fire Safety and City Finances 1879",
   "meeting_type": "special called",
   "date": "November 13, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124828",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Expenses Approved**: The council unanimously passed a resolution to spend $77.50 to cover costs from the recent election.\n\n• **Cotton Storage Fire Risk**: Citizens petitioned against storing cotton in certain city areas due to fire hazards. The issue was referred to the incoming council's fire committee for review.\n\n• **Strong Financial Position**: Despite a property value decline of $265,040, the city maintained fiscal health with $73,100 in receipts versus $70,951 in expenses, and reduced tax rates to help residents.\n\n• **Improved Fire Protection**: New fire hydrants and water infrastructure were installed across the city, a new firehouse replaced one destroyed by fire, and the department responded to 22 fires in six months with relatively minimal damage.\n\n• **Rising Arson Concerns**: Nine fires were attributed to deliberate incendiarism, prompting the fire chief to urge stronger measures to prosecute arsonists and prevent future disasters.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

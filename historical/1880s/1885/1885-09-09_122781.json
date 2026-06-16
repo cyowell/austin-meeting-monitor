@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-09-09_122781",
-  "title": "",
+  "title": "Austin Fire Department Building & City Budget Approved",
   "meeting_type": "special called",
   "date": "September 09, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122781",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Station Funding Approved**: Council voted to spend $1,500 to complete a new engine and truck house for the fire department, though the measure was contentious with 4 aldermen voting against it.\n\n• **General City Budget Passed**: Aldermen approved a $5,220.37 appropriation bill that included city operational expenses and printing costs for council meeting minutes.\n\n• **Business License Changes**: Council unanimously passed an ordinance allowing the transfer of occupation licenses between businesses, streamlining local commerce rules.\n\n• **Market House Renovation**: The council considered (but didn't finalize) a $175 payment to architect A.M.C. Nixon for designing renovations to the city's public market house.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

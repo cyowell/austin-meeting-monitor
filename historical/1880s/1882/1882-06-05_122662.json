@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-06-05_122662",
-  "title": "",
+  "title": "Austin 1882 City Budget & Infrastructure Repairs",
   "meeting_type": "regular",
   "date": "June 05, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122662",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Bridge Repairs Needed**: The City Engineer reported that Austin's bridges (both foot and carriage) require $500 in repairs and rebuilding materials, highlighting significant infrastructure maintenance issues.\n\n• **Fire Department Funding Approved**: Council allocated $346 per month for fire department expenses from April through October 1882.\n\n• **Liquor License Granted**: A petition to sell spirits in quantities under one quart on Live Oak Street was approved, expanding commercial licensing in the city's 1st Ward.\n\n• **Public Health Reports**: The City Physician made 56 visits and filled 36 prescriptions in May; the City Sexton reported 18 deaths for the month (8 white, 10 colored residents).\n\n• **Meeting Schedule Change**: Council approved changing from monthly to twice-monthly meetings, now scheduled for the 1st and 3rd Mondays of each month.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

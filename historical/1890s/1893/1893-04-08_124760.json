@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-04-08_124760",
-  "title": "",
+  "title": "** Austin Oil Company Gets Railroad Switch Approval",
   "meeting_type": "special called",
   "date": "April 08, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124760",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Main Decision:** The city council approved a resolution allowing the Austin Oil Manufacturing Company to build and operate a railroad track across Austin streets, connecting to existing rail lines (the H&TC and A&NW railroads).\n\n• **Quick Process:** The meeting was called specifically for this single purpose, with the resolution presented, amended, and approved the same day—showing the city moved fast on industrial development.\n\n• **Minor Technical Change:** Aldermen North proposed changing the formal designation from an \"Ordinance\" to a \"Resolution,\" which was accepted and adopted.\n\n• **Attendance:** 14 of 22 council members were present, with 8 absent.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

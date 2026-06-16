@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-02-09_122649",
-  "title": "",
+  "title": "Austin Election Rules & City Debt Expansion",
   "meeting_type": "special called",
   "date": "February 09, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122649",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Election Qualification Discussion**: Council convened to address voter qualification rules ahead of an election scheduled for February 11th, though specific eligibility changes weren't detailed in the minutes.\n\n• **Debt Limit Increase Approved**: The council unanimously approved the mayor's election proclamation allowing the city to extend its debt limit, with 7 aldermen voting in favor and none opposed.\n\n• **Sparse Attendance**: Three of ten aldermen were absent from the meeting, limiting representation during these important financial and electoral decisions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

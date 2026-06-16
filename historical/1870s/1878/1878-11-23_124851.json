@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-11-23_124851",
-  "title": "",
+  "title": "Austin Crackdown on Guns and Midnight Chaos",
   "meeting_type": "special called",
   "date": "November 23, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124851",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Gun Violence Ordinance Passed** – The city banned firing firearms within city limits, responding to the mayor's concerns about nightly gunshots that endangered residents and caused public alarm.\n\n• **Security and Public Safety Measures** – Mayor De Bress proposed offering rewards for information leading to arrest of people illegally carrying weapons, to be funded by fines collected from offenders.\n\n• **Infrastructure & Prisoner Care Approved** – The council allocated $500 for a fire truck and $58 for blankets for jail prisoners, showing investments in emergency services and basic humane conditions.\n\n• **Hotel Regulations Established** – A new ordinance was passed to regulate hotels and boarding houses, part of the city's broader effort to maintain order.\n\n• **Military Barracks Repair Request** – City leaders appointed a committee to advocate to Congress for $10,000 to repair deteriorating federal barracks on the edge of town.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

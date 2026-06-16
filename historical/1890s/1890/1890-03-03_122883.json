@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-03-03_122883",
-  "title": "",
+  "title": "Austin's Cow Dispute and Infrastructure Debate",
   "meeting_type": "regular",
   "date": "March 03, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122883",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Controversial Cow Ordinance**: The council clashed over whether to allow milk cows to run loose during daytime. After heated debate and multiple rejected amendments, they approved a compromise allowing cows to roam only between Waller Creek and Shoal Creek.\n\n• **Mayor Vetoes Detective Position**: Mayor John McDonald rejected a new city detective role, citing tight finances. He argued the city already paid $13,560 annually for 17 police officers and couldn't afford additional expenses with only $7,000 available for public improvements for the entire year.\n\n• **Major Infrastructure Needs**: City engineers reported urgent bridge repairs needed, including a $1,184 stone arch bridge on East 8th Street. The council also debated purchasing a $500 street roller for road maintenance.\n\n• **Fire Station Funding Approved**: The council moved forward with spending $3,500 to build a new Protection Hose Company No. 3 fire station, after receiving petitions from multiple neighborhoods requesting the facility.\n\n• **Other Business**: The council approved $50 annual repairs for city clerk operations and made routine financial reports, with quarterly tax collections totaling $17,604.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

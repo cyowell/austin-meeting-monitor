@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-02-22_124988",
-  "title": "",
+  "title": "Austin's 1875 Bond Sale & Fire Engine Dispute",
   "meeting_type": "special called",
   "date": "February 22, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124988",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **City Bond Sale Approved**: Council passed an ordinance to sell forty $500 bonds to fund city projects, with a $100 appropriation for printing costs.\n\n• **Fire Company Conflict Over New Equipment**: A committee was formed to resolve tensions between fire companies fighting over possession of a newly purchased steam fire engine.\n\n• **Water Works Plan Presented**: A citizen proposed a feasible plan for bringing water service to Austin; council appointed a committee to review the proposal and cost estimates.\n\n• **Market House Improvements**: Council directed the Market House Committee to develop plans and cost estimates for vegetable stand sheds to be added to the city market.\n\n• **Staff Changes**: The City Market Master resigned and was replaced by W. P. Hulbert, confirmed unanimously by council.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

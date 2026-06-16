@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-10-04_122821",
-  "title": "",
+  "title": "Austin's $350,000 Bond and Fire Equipment Push",
   "meeting_type": "regular",
   "date": "October 04, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122821",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Bond Election Approved**: The council passed an ordinance to hold a public election on a $350,000 bond—nearly triple the city's existing $125,000 debt—though three aldermen opposed it as unnecessary and likely to fail\n\n• **Fire Department Improvements**: The council approved $880 for a new hose cart for Protection Hook and Ladder Company No. 3 and authorized the fire chief to purchase an additional four-wheel carriage on credit\n\n• **Street and Infrastructure Updates**: Approved sidewalk widening on West College Avenue (15 feet wide), new gas lamps at Valley Creek bridge and Masonic Temple, and various repairs totaling $938.16\n\n• **Tax Relief Granted**: Charles Schaffer was exempted from 1886 taxes on property improvements destroyed by fire in January, and a fine against J.B. Cassidy for sleeping in public was remitted\n\n• **Monthly Reports Reviewed**: The marshal reported 126 arrests and $791.95 in collected fines; the city physician noted excellent health with only 3 scarlet fever cases and 1 diphtheria case (no deaths); and 22 total deaths were recorded for the month",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

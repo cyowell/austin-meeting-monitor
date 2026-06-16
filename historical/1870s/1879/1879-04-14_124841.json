@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-04-14_124841",
-  "title": "",
+  "title": "Austin 1879 Alley Closure & Water Infrastructure",
   "meeting_type": "special called",
   "date": "April 14, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124841",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Saengerfest Event Space**: City Council approved closing an alley in Block 111 for four days to serve as a dining hall for the Saengerfest (a German-American singing festival).\n\n• **Water Infrastructure**: Granted permission for a property owner named Gillewyn to install a standpipe (water tower/distribution point) on West Pecan Street at no cost to the city, with the City Marshal and Mr. Erwin to determine its exact location.\n\n• **Unpaid Meeting**: Alderman Farnes successfully moved to have council members receive no compensation for attending this particular meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

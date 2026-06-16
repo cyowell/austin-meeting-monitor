@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-03-06_119741",
-  "title": "",
+  "title": "Austin Infrastructure Spending & City Improvements",
   "meeting_type": "regular",
   "date": "March 06, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119741",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Memorial to Late Alderman H.A. Linn**: The council unanimously honored the death of longtime alderman and former Board President H.A. Linn, who served from 1887-1897 and was praised for his fair leadership and integrity.\n\n• **Infrastructure Projects Funded**: Council approved $100 for a bridge at Congress Avenue and 2nd Street, $350 for bridge repairs at Jennings Branch in Fair View Park, and $200 for additional street labor and teams.\n\n• **City Park Beautification**: The Austin Auditorium Association received official authority to improve City Park (opposite the old courthouse) with backing from the Commercial Club.\n\n• **Financial Reports**: July revenues totaled $6,769.57 across general, school, and bond funds, with normal city operations continuing smoothly under the treasurer's oversight.\n\n• **Municipal Services Update**: The City Physician reported 27 hospital patients in July, while the Marshal's office logged 26 arrests and $145 in fines, demonstrating ongoing public safety and health operations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

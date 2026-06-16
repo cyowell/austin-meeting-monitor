@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-08-17_121769",
-  "title": "",
+  "title": "** Austin Electric Streetcars & Public Works 1891",
   "meeting_type": "regular",
   "date": "August 17, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121769",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Aldermen Salary Approved**: City Council passed a $1,000 ordinance to pay aldermen for attending regular council meetings, marking a shift toward compensating public service.\n\n• **Streetcar Regulation Rejected**: A proposed ordinance regulating electric street car speed and safety on Congress Avenue and 6th Street failed because the committee believed the threat of lawsuits was sufficient incentive for safe operations.\n\n• **New Streetcar Tracks Amendment**: Council approved rules for placing electric streetcar tracks down the center of streets and restricted additional Congress Avenue tracks to no more than 6 feet east of existing tracks to standardize transit infrastructure.\n\n• **Postal Service Expansion**: City Engineer was directed to name new streets and number houses in recently annexed areas to enable postal carrier service expansion for new residents.\n\n• **Public Utilities & Street Damage Claims**: Council addressed various property damage claims related to street construction for railroad access and waterline installation, granting some claims while denying others based on available evidence.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

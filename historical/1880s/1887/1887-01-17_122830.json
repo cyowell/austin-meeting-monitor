@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-01-17_122830",
-  "title": "",
+  "title": "Austin Infrastructure and Fire Equipment Needs",
   "meeting_type": "regular",
   "date": "January 17, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122830",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fire Department Equipment**: The city council approved purchasing a hose carriage from Washington Engine Company No. 1 for $700 to replace their inadequate one-horse equipment that couldn't properly handle their 2,635-pound carriage during emergency responses.\n\n• **Street Repairs and Bridge Construction**: Engineers presented cost estimates for multiple infrastructure projects, including a new $5,204 iron bridge over Shoal Creek on West Sixth Street, relocating an existing bridge for $1,543, and widening a street crossing for $1,077.\n\n• **Publishing Contract Awarded**: After competitive bidding from multiple newspapers, the city awarded its official publication contract to the Austin Daily Statesman at three cents per line for first publication and one cent for reprints.\n\n• **New Sanitation Inspector Position Debated**: A majority committee supported creating a dedicated city sanitation inspector position, while a dissenting minority argued police and existing ordinances could handle health matters more cost-effectively.\n\n• **Rifle Club Shut Down**: The council revoked permission for the Austin Rifle Club to operate target practice within city limits, citing safety or nuisance concerns.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

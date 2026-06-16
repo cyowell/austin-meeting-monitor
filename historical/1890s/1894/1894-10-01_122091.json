@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-10-01_122091",
-  "title": "",
+  "title": "Austin's Electric Wiring Regulations & Water System",
   "meeting_type": "regular",
   "date": "October 01, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122091",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Electric infrastructure nearing completion**: Engineers reported significant progress on Austin's new water and electric light system, with over 180 miles of wire installed across poles and towers throughout the city, and expected completion by December 1894.\n\n• **Tax rates reduced while maintaining services**: The council approved four tax ordinances that actually *reduced* overall property taxes by 12 cents per $100 valuation compared to 1893, while still funding schools, water/light bonds, and municipal operations.\n\n• **Mayor urges affordable pricing strategy**: Mayor McDonald recommended setting the lowest possible water and electricity rates to maximize adoption and create revenue that could eventually eliminate the water/light tax entirely.\n\n• **Nuisance livestock and street conditions addressed**: The council referred multiple petitions about a problematic stockpen on Congress Avenue and flooding issues at a church building caused by improper street grading to appropriate committees.\n\n• **Electric wiring ordinance passed despite controversy**: After a contentious, lengthy reading session, the council passed a six-page electric wiring regulation ordinance, though one alderman publicly objected that it was too complex to enforce and would burden citizens.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

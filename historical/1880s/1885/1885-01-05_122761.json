@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-01-05_122761",
-  "title": "",
+  "title": "Austin Gas Lights and Hospital Improvements",
   "meeting_type": "regular",
   "date": "January 05, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122761",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **City Gets 47 New Gas Lamps**: The Capital Gas Company offered to install and light 47 gas lamps for free for one month along Pecan Street and Congress Avenue, and the city accepted the deal.\n\n• **Fire Chief Resigns**: Chief A. Gieun of the Austin Fire Department resigned effective immediately on January 5, 1885.\n\n• **Hospital Struggles with Organization**: The new City and County Hospital, which opened in August 1884, needed additional funding and equipment. The city approved $1,000 in emergency expenses and asked the City Attorney to write clearer rules for hospital operations.\n\n• **Market House Project Rejected**: The council voted down a $5,000 proposal to build a new market house, citing concerns about the city's finances and uncertainty about whether the city actually owned the proposed land.\n\n• **Pauper Burials Need Better System**: The City Physician reported that burying poor residents required coordinating with five different city officials, and recommended streamlining the process.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

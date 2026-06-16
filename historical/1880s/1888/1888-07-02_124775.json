@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-07-02_124775",
-  "title": "",
+  "title": "1888 Austin Tax Rate, Crime Stats & Street Disputes",
   "meeting_type": "regular",
   "date": "July 02, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124775",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **School Funding Approved**: City council voted to levy a one-third percent property tax to fund public schools, narrowly defeating a proposal to lower the rate to one-fourth percent\n\n• **Public Safety Report**: 55 arrests were made in June with $455 in fines assessed; the marshal's report was referred to the Police Committee for review\n\n• **Health & Sanitation Concerns**: The City Physician reported 2 deaths and recommended using disinfectants in gutters during summer months to prevent disease spread\n\n• **Property Tax Errors Corrected**: Council approved refunds of $20, $9.09, and $9.54 to residents who were overcharged on property taxes through assessor mistakes\n\n• **Disputed Rental Debt**: Council instructed the City Attorney to sue W.N. Cruchen for unpaid rent on city-owned River Walk property after he refused payment",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

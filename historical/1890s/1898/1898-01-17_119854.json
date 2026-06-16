@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-01-17_119854",
-  "title": "",
+  "title": "Austin Eyes Tax Collection and Telegraph Lines",
   "meeting_type": "regular",
   "date": "January 17, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119854",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax Enforcement Initiative**: The council passed a resolution directing the city attorney to aggressively pursue unpaid property taxes from 1896 and earlier, with a significant backlog of over $58,000 in delinquent taxes. They authorized the attorney to draft additional legal measures if current ordinances proved insufficient.\n\n• **Telegraph Infrastructure Approval**: Despite some opposition, the council approved an ordinance allowing the Postal Telegraph Cable Company to build poles and wires throughout Austin's streets and alleys—with a key amendment prohibiting the lines from crossing Congress Avenue unless placed underground.\n\n• **Budget-Related Postponements**: Multiple budget matters were delayed, including a proposal to hire two extra street team drivers and a resolution to number streets in North Austin, pending final budget adoption.\n\n• **Municipal Maintenance**: The council reviewed reports on street bridge costs and police activities, and addressed requests from the Fire Department and East Austin Hose Company for facility upgrades.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

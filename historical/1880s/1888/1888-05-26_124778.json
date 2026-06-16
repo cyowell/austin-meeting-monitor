@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-05-26_124778",
-  "title": "",
+  "title": "Austin Budget Cuts Debate: Police & Hospital",
   "meeting_type": "special called",
   "date": "May 26, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124778",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police Force Reduced**: The city council voted to cut the police force from 20 to 15 officers as a cost-saving measure.\n\n• **Sanitary Inspector Kept**: Despite budget pressures, the council rejected a proposal to eliminate the separate sanitary inspector position, with members arguing that public health was worth the cost, especially during warm months when disease was a concern.\n\n• **Hospital Management Upheld**: The council found that hospital operations were already being managed efficiently and made no significant changes, though one alderman suggested consolidating the physician positions.\n\n• **Fire Department Pay Preserved**: The council rejected proposed salary cuts for fire department drivers, deciding that their skilled, dangerous work warranted their current $50/month pay.\n\n• **Tax Office Assistant Saved**: Council members voted to keep the assistant assessor and collector position, arguing it would be unwise to burden one person with managing all of the city's property and tax assessments.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

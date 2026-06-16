@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-10-04_119844",
-  "title": "",
+  "title": "Austin's 1897 Tax Rates & Street Safety Decision",
   "meeting_type": "regular",
   "date": "October 04, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119844",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Tax Increases Proposed** – Mayor recommended raising the city tax rate to 170⅓ cents per $100 of property value to fund roads, water, light services, schools, and city operations like fire and police departments\n\n• **Streetcar Safety Issue** – Council ordered the Austin Rapid Transit Company to fix dangerous railroad tracks that stuck 2-4 inches above street level, creating a hazard for wagons and vehicles, with 30 days to comply\n\n• **City Budget Overview** – Approved roughly $95,000 in spending covering officer salaries, police, fire department, hospital services, and sanitation\n\n• **Board of Plumbers Proposal** – Discussed but delayed a new ordinance to create an official examining and supervising board for plumbers\n\n• **Payroll Approved** – Allocated funds to pay street team drivers ($81) and sanitation workers ($375) for the upcoming months",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

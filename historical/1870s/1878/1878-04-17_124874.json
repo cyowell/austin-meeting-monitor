@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-04-17_124874",
-  "title": "",
+  "title": "Austin Water Company Legal Battle 1878",
   "meeting_type": "special called",
   "date": "April 17, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124874",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Company Lawsuit**: The City of Austin faced a legal challenge from the City Water Company, with a petition and citation presented to the council requiring an official response in court.\n\n• **Legal Defense Committee Formed**: The council appointed a special committee consisting of the Mayor, Alderman Platt, and Alderman Millett to hire lawyers to defend the city in the water company dispute.\n\n• **Budget Flexibility Granted**: The committee was given authority to negotiate and set attorney fees without needing council approval for each payment, allowing them to act quickly in the case.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

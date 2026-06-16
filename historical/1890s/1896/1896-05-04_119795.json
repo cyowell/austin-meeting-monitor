@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-05-04_119795",
-  "title": "",
+  "title": "Austin Leaders Mourn Mayor's Daughter, Tackle City Issues",
   "meeting_type": "regular",
   "date": "May 04, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119795",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Mayor's Daughter Dies**: Austin's city council halted regular business on May 4 to draft sympathy resolutions following the death of the mayor's daughter, adjourning until May 6 to honor the grieving family.\n\n• **Ball Games Banned from Public Park**: Citizens living near the city park on North 5th Street successfully petitioned to prohibit ball playing, prompting the marshal to enforce the new restriction.\n\n• **Turbine Damage Threatens Power Supply**: A damaged water turbine at the city's power plant required a $150 replacement wheel, potentially affecting the ability to supply all 766 electric light customers until repairs were completed.\n\n• **Cemetery Theft Problem Addressed**: The council directed the city marshal to crack down on theft from the city cemetery and assigned regular police patrols to patrol the grounds.\n\n• **City Finances and Infrastructure**: The council approved $300 for street labor, transferred $3,500 from the earnings fund to cover general expenses, and appropriated funds for bridge repairs and dam work improvements.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-04-17_122855",
-  "title": "",
+  "title": "** Austin Street Improvements and Drill Ground Access",
   "meeting_type": "special called",
   "date": "April 17, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122855",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street Improvement Funding**: The council approved $800 to gravel streets leading to the drill grounds, addressing concerns about road conditions to this military training facility.\n\n• **Water Street Project**: An ordinance was passed to gravel Water Street from Congress Avenue eastward to the city limits, with funding increased from $500 to $800 to also include graveling East Avenue from Olean Street to State Street.\n\n• **Contentious Votes**: A small group of aldermen (Caldwell, Townsend, Wilson, and Platt) consistently opposed the street improvement measures, but the majority supported infrastructure development for the growing city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-11-19_125793",
-  "title": "",
+  "title": "Austin Appoints City Officers and Streamlines Government",
   "meeting_type": "special called",
   "date": "November 19, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125793",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New city leadership confirmed**: Austin's council appointed a new City Treasurer, elected Alderman Platt as council president, and selected Dr. Cummings as City Physician after multiple rounds of voting.\n\n• **Police force expanded**: The council hired 11 new police officers from 22 applicants and confirmed John Chenoweth as City Attorney, with a new Police Sergeant also appointed.\n\n• **Government positions eliminated**: The council voted to abolish the Market Master and Pound Master positions, directing the City Attorney to draft ordinances to formalize these changes—a move toward streamlining city operations.\n\n• **Uniform and duty rules debated**: A proposed resolution requiring police officers to wear uniforms while on duty and preventing them from working as day clerks was introduced but failed to pass.\n\n• **Board of Health established**: Four doctors were appointed to serve on Austin's new Board of Health to oversee public health matters.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

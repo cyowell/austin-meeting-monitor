@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-05-01_122658",
-  "title": "",
+  "title": "Austin Saloon Permits & Hospital Fund Debate",
   "meeting_type": "regular",
   "date": "May 01, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122658",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Saloon permits granted**: The council approved two petitions to open saloons—one on Pecan Street in Ward 9 and another on Congress Avenue in Ward 2—as the city regulated alcohol businesses.\n\n• **Hospital funding proposed**: An ordinance was introduced to dedicate one-tenth of collected taxes toward building a hospital, though it faced opposition and didn't immediately pass.\n\n• **City finances reviewed**: The treasurer reported over $37,000 in total revenue for the quarter, with significant income from property taxes ($27,763), licenses, and court fines.\n\n• **Public health updates**: The city physician made 66 patient visits and admitted four to the hospital in April; the city sexton recorded seven deaths for the month.\n\n• **Railroad right-of-way blocked**: A controversial ordinance granting the I.S. & S.N. Railroad access across Cypress Street failed to advance, with aldermen divided on the decision.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

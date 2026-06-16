@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-04-17_124759",
-  "title": "",
+  "title": "Austin Infrastructure & Hospital Upgrades",
   "meeting_type": "regular",
   "date": "April 17, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124759",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Bridge Construction Projects**: Council approved funding for multiple bridge improvements across Waller Creek, including a $1,945 project to remodel Fifth Street bridge and relocate an iron bridge to First Street, plus a $99 wooden footbridge on East Seventeenth Street.\n\n• **Hospital Sewer Connection**: Approved a $500 ordinance to connect the City and County Hospital to the sewer system, addressing sanitation concerns and preventing $100 in immediate repairs.\n\n• **Special Police Force**: Council considered hiring 20 special police officers for a June regatta and dam completion celebration (June 6-12).\n\n• **Publishing Changes**: Voted to stop printing council meeting minutes as pamphlets and instead publish summaries in the Freeman newspaper, reducing costs and changing how the public accessed government records.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

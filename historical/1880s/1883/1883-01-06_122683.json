@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-01-06_122683",
-  "title": "",
+  "title": "Austin Railroad Rights & City Services 1883",
   "meeting_type": "special called",
   "date": "January 06, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122683",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Capitol Syndicate Gets Railroad Rights**: City Council approved a railroad track for transporting construction materials to the new state capitol, with protections ensuring the rights revert to the city if construction is abandoned or contracts fail.\n\n• **Union Depot Approved on Cypress Street**: Council authorized construction of a railroad depot for the I&N Railroad on Cypress Street between Congress and Colorado, with a minimum $15,000 building requirement.\n\n• **Sewer Project & Police Expansion**: Council allocated $675 for 78 feet of sewer work at Congress Avenue and approved adding one police officer to the force to supervise prisoners.\n\n• **Street Lighting Contract**: City authorized lighting up to 40 lamps on Congress Avenue and Pecan Street at $7 per lamp monthly through the Austin Hose Light and Coal Company.\n\n• **Public Concerns on Railroad Routes**: Residents petitioned against granting Capitol Syndicate rights-of-way on College Avenue, though the council ultimately passed the ordinance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

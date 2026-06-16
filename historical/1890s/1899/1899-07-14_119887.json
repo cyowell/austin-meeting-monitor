@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-07-14_119887",
-  "title": "",
+  "title": "Austin Hires Tax Collector for Back Taxes",
   "meeting_type": "special called",
   "date": "July 14, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119887",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Special tax collection effort**: City Council approved hiring C.H. Millen as special counsel to work with the City Attorney to collect unpaid taxes on intangible personal property (like stocks and bonds).\n\n• **Bond requirement**: Council required Millen to post a surety company bond rather than a personal bond, ensuring financial protection for the city.\n\n• **Close vote**: The ordinance passed 5-1, with only Alderman Glass voting against the measure.\n\n• **Quick approval process**: Despite one alderman's attempt to delay the vote, the council suspended normal procedures and passed the ordinance on the same day it was introduced.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

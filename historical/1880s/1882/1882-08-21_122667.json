@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-08-21_122667",
-  "title": "",
+  "title": "Austin Railroad Speed Limits & City Engineer Pay Hike",
   "meeting_type": "regular",
   "date": "August 21, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122667",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Railroad Safety Rule Passed**: Council approved a new ordinance regulating train speeds through Austin, reducing the speed limit from 3 miles per hour to 1 mile per hour and controlling trains crossing Congress Avenue\n\n• **City Engineer Salary Doubled**: Officials voted to increase the City Engineer's annual salary from $500 to $1,200 per year\n\n• **Rail Crossing Improvements Promised**: The railroad company superintendent agreed to fix dangerous crossings on Blanco and Bower streets\n\n• **Attendance Penalties**: Four aldermen were each fined $1 for missing the meeting; another alderman's prior absence fine was forgiven\n\n• **Health Inspectors Appointed**: Two citizens were appointed as health inspectors for the city for 30-day terms",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-12-01_121820",
-  "title": "",
+  "title": "Austin's 1890 Dam, Street Rails & Elections",
   "meeting_type": "regular",
   "date": "December 01, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121820",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Election Results Certified:** Austin held municipal elections on December 1, 1890, electing new aldermen across ten city wards. The most significant victory was J.B. Nitschke's landslide in the Seventh Ward with 183 votes (nearly 3-to-1 margin).\n\n• **Proposed Dam Project Moves Forward:** The city approved $500 to settle property damage claims related to construction of a dam across the Colorado River, clearing a legal hurdle. However, heated debate erupted over a railroad requirement—the contractor demanded the city build a free rail line to the dam site or accept time delays. A special committee was appointed to investigate funding options.\n\n• **Street Expansion Stalled:** A controversial proposal to spend $10,000 extending Fourth and Fifth Streets to the city limits narrowly failed (9-8 vote), facing opposition despite support from the Mayor.\n\n• **Street Railway Franchise Rejected:** The Brackenridge group offered to surrender their street railway franchise in exchange for reimbursement, citing citizen opposition to their use of Fourth and Fifth Streets—the city accepted further study of the matter.\n\n• **Infrastructure Spending Approved:** The council passed routine appropriations of $3,200 for December payroll, $500 for property damages, and $571.50 for street workers.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

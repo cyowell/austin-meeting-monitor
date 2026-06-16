@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-01-15_122684",
-  "title": "",
+  "title": "Austin Streets Need $1,075 Repair Budget",
   "meeting_type": "regular",
   "date": "January 15, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122684",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street repair funding request**: The City Engineer requested $1,075 (equivalent to roughly $30,000 today) to fix streets across all 10 wards, with funds distributed based on need—the Street Committee was instructed to draft an ordinance.\n\n• **Sidewalk fruit stands under investigation**: City officials launched an investigation into unauthorized fruit vendors operating on city sidewalks; a separate petition to allow a fruit stand on a specific corner was referred to committee.\n\n• **Cemetery land development deal**: A property owner proposed donating half his 20-acre tract to the city if they would fence and improve it, with the city receiving half the proceeds from future lot sales.\n\n• **Fire safety regulations coming**: The Fire Department was directed to draft new building codes regulating awning construction and repairs within the city's fire limits to prevent hazards.\n\n• **Multiple budget and personnel actions**: The council authorized street repair equipment purchases, addressed overdue employee payments, appointed special police officers, and moved to stop calling in certain city warrants until March 1883.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

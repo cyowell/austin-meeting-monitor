@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-08-18_122897",
-  "title": "",
+  "title": "Austin Addresses Utility Failures and Infrastructure",
   "meeting_type": "regular",
   "date": "August 18, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122897",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Streetlights Underperforming**: The city's electric company failed to meet contract requirements—arc lamps produced only 700 candles of light instead of the required 2,000, and incandescent lights fell short of 25 candles. The council voted to reduce the company's payment proportionally.\n\n• **$800 Bridge Repair Approved**: Austin authorized funds to rebuild a bridge on East Eighteenth Street, one of several infrastructure projects discussed to improve city streets and roads.\n\n• **Railway Restrictions Enacted**: New ordinance prohibited unauthorized riding on local trains (Houston & Texas Central, International & Great Northern, and Austin & Northwestern railways), allowing only ticketed passengers and authorized railroad employees.\n\n• **Major Water Works Bond Funding**: The council appropriated $5,300 to reimburse city expenses and $5,000 to continue construction of a major dam project, funded by $1.4 million in water and electric light bonds.\n\n• **Special Election Scheduled**: Following Alderman M. Boland's death, the council scheduled a September 9 election to fill the Ninth Ward vacancy.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

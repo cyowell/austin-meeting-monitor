@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-06-05_124957",
-  "title": "",
+  "title": "Austin Public Works & Finance Overhaul",
   "meeting_type": "regular",
   "date": "June 05, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124957",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Debt Restructuring**: City council approved a $20,000 bond ordinance to address floating debt, following Mayor Wheeler's report that Austin was owed $20,000-$30,000 in unpaid back taxes and faced financial challenges.\n\n• **Street & Infrastructure Improvements**: Multiple petitions approved for public works including well repairs, street cleaning/paving, cemetery gate replacement, and culvert construction; also resolved to improve street lamp maintenance after terminating a contractor's lighting agreement.\n\n• **Water Supply Concerns**: City pressured the Austin Water Company to immediately install backup water tanks holding 30,000 gallons due to delayed reservoir completion and vulnerability to supply disruptions.\n\n• **License & Business Petitions**: Council approved new liquor retail license in Ward 9 and addressed various business refund requests (auctioneers, fare store operators) through table motions for later consideration.\n\n• **Financial Reforms**: Mayor Wheeler proposed comprehensive budget management reforms, including monthly appropriations prioritizing fire, water/gas, police, and street maintenance in that order to keep spending within revenue.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

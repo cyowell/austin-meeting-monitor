@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-04-01_125036",
-  "title": "",
+  "title": "Austin City Charter Amendment & Hall Rental",
   "meeting_type": "special called",
   "date": "April 01, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125036",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Charter Amendment Approved**: The City Council unanimously agreed to amend Austin's new city charter to extend city boundaries and remove a clause that prevented people behind on taxes from voting in city elections, after the Governor threatened to veto the original charter.\n\n• **Legislative Request**: The council passed a resolution asking the Texas Legislature to enact the amended charter into law.\n\n• **City Hall Lease Terms**: During the regular meeting on April 7th, Alderman Hannig requested that the special rental terms for F. Dohme's use of City Hall be officially recorded in the meeting minutes.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

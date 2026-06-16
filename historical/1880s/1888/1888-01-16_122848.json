@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-01-16_122848",
-  "title": "",
+  "title": "Austin Cemetery Crisis & $200K Street Improvement Bonds",
   "meeting_type": "regular",
   "date": "January 16, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122848",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Cemetery Crisis Demands Urgent Action**: Mayor Joseph Nalle urged the Council to address a critical shortage of burial space, particularly for poor residents, requesting that a committee develop solutions by the next meeting while also prohibiting future cemetery lot fencing.\n\n• **Massive Bond Proposal Faces Opposition**: The Mayor proposed issuing $200,000 in bonds for permanent street and park improvements plus $75,000 for a new city hall, arguing the investment would triple property values and pay for itself. However, taxpayers submitted multiple petitions opposing the measure, citing concerns about increased taxation and property assessments.\n\n• **Electric Streetlights Spark Competition**: The Council debated contracts with the Austin Water, Light and Power Company to install electric arc and incandescent lights, but rejected the measure when the existing Gaslight and Coal Company protested that electric lights would cost nearly double what Austin currently paid for gas lamps.\n\n• **Fire Alarm System Approved**: The Council authorized a one-year rental contract with the Union Fire Alarm Company of New York for an electric fire alarm system, responding to the Fire Chief's recommendation for modernized safety infrastructure.\n\n• **Administrative Changes Blocked**: Two proposed new city positions—a City Secretary and Fire Inspector—failed to gain council support, suggesting resistance to expanding government operations amid budget concerns.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

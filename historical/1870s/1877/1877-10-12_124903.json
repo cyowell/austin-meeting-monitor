@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-10-12_124903",
-  "title": "",
+  "title": "** Austin 1877: Alley Paving Tax & Vehicle Stands",
   "meeting_type": "special called",
   "date": "October 12, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124903",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Alley Paving Tax Reduced**: Council reconsidered and significantly lowered a property tax for paving an alley in Block 69, reducing it from 1% to 1/60th of 1% after aldermen voted to amend the ordinance.\n\n• **New Rules for Carriages & Taxis**: Council passed an ordinance establishing designated stands (parking areas) for vehicles used to transport people around the city.\n\n• **Bridge Construction Proposal**: A contractor named J.P. Downie proposed building a bridge across Waller Creek on Mesquit Street, with payment split between completion and two installments over a year.\n\n• **Accessibility Exception Granted**: The council approved a petition from James Davis, described as a cripple, allowing him to sell goods without obtaining a business license.\n\n• **Routine Maintenance**: Council authorized whitewashing (cleaning/painting) the interior of the City Markethouse.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

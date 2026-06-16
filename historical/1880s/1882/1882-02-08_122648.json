@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-02-08_122648",
-  "title": "",
+  "title": "Austin's 1882 Budget & Prisoner Feeding Dispute",
   "meeting_type": "special called",
   "date": "February 08, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122648",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Salary Payments Approved**: Council authorized $1,808.38 to pay city officials' salaries for January, though one alderman voted against it.\n\n• **Major Expense Ordinance Passed**: The council approved $2,304.33 to cover various city bills including gas/coal costs, engine house maintenance, prisoner and horse feeding ($74.62), and dead animal removal services.\n\n• **Prisoner Feeding Controversy**: A citizen named I. Emrett addressed the council regarding concerns about how city prisoners were being fed and questioned an account submitted by Ed. Emory for these services.\n\n• **Property Tax Redemption Granted**: A woman named Mrs. S. Dowell was permitted to reclaim property lots she had lost to a tax sale, provided she paid all back taxes and costs owed.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

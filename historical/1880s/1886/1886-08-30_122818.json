@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-08-30_122818",
-  "title": "",
+  "title": "** Austin Budget Approvals & Fine Remissions 1886",
   "meeting_type": "special called",
   "date": "August 30, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122818",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Monthly payroll approved** - City council authorized $3,496.10 to pay city officers, employees, and the city hospital for August, including additional funds for roof repairs and animal feed.\n\n• **Ordinance pricing set** - Council voted to sell copies of Austin's revised city laws (civil and criminal ordinances) for $1.25 each through the city assessor's office.\n\n• **Two fines forgiven** - The mayor remitted a drunk and disorderly fine for Joe Ledger (deemed a sober man with sick leave and family needs) and a vagrancy fine for James C. Glover on condition he leave the city immediately.\n\n• **Liability relief granted** - A man named J.M. Odell was released from responsibility for paying another person's unpaid fine since that person had already left Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-04-08_125008",
-  "title": "",
+  "title": "** Austin City Bridges and Fire Safety Laws",
   "meeting_type": "regular",
   "date": "April 08, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125008",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New bridge and ferry regulations** — The city council passed a new ordinance (No. 25) establishing rules governing bridges and ferries in Austin.\n\n• **Census authorization** — Officials approved procedures for conducting a city census to count Austin's population.\n\n• **Fire department upgrades** — The city purchased 500 feet of rubber fire hose and elected new fire department leaders, including Chief Engineer Joe Nagle and Assistant Chief A. Ziller.\n\n• **Street and cemetery improvements** — The council received multiple requests to survey and open new streets (particularly on College Hill) and to formally map the city cemetery with numbered lots for record-keeping.\n\n• **Property assessments** — Dozens of Austin property owners had their land values reassessed for tax purposes, with values ranging from $250 to $6,000.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

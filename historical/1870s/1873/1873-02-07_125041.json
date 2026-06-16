@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-02-07_125041",
-  "title": "",
+  "title": "Austin Vaccination Drive & Market House Rules",
   "meeting_type": "special called",
   "date": "February 07, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125041",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Public Health Initiative**: The City Council unanimously authorized the Mayor to contract with a physician to offer free vaccinations to all Austin residents, with the Mayor instructed to issue a public proclamation urging immediate vaccination.\n\n• **Budget Approval**: Council passed a February spending ordinance to cover necessary expenses across different city departments.\n\n• **Market Regulations**: The Committee on Market House was given authority to lease market halls as needed, and a separate ordinance allowing butchers to sell meat anywhere in the city (by paying standard market stall fees) was proposed but deferred for further discussion.\n\n• **Legal Matter Delayed**: The Mayor vetoed a $350 appropriation related to a lawsuit (Steward and Fitch v. Glenn and Evans), with the Council deferring action until the next regular meeting due to insufficient attendance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

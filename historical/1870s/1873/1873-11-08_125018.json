@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-11-08_125018",
-  "title": "",
+  "title": "Austin's 1873 Gas Works & New Election Results",
   "meeting_type": "special called",
   "date": "November 08, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125018",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Gas Works Franchise Confirmed** - Mayor Wheeler and businessman Sylvester Watts signed an agreement on November 4th confirming rights to construct and operate a gas works in Austin, provided it operates according to specified terms.\n\n• **Election Results Certified** - City council certified November 3rd election results, officially electing Mayor Wheeler, Marshal King, Treasurer Howard, and 10 aldermen for two-year terms.\n\n• **Election Dispute Filed** - Alderman Thomas Sneed challenged H.M. Metz's election to the Ward 1 alderman position, claiming Metz didn't meet residency requirements and that fraudulent votes were cast; the case was referred to the new board for investigation.\n\n• **Tax Payment Policy Changed** - The council approved a new payment system effective December 1st requiring half of city taxes and license fees be paid in U.S. currency and the other half in city warrants or bonds, intended to help fund city improvements.\n\n• **City Engineer Position Eliminated** - Council abolished the City Engineer office created just three months earlier in August 1873.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

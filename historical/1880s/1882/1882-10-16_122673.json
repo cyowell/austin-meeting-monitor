@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-10-16_122673",
-  "title": "",
+  "title": "** Austin's Railroad Fights and Fair Week Police",
   "meeting_type": "regular",
   "date": "October 16, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122673",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Railroad disputes dominated debates**: The council wrestled with multiple proposals for railroad tracks through the city—one to carry Capitol building materials and another for a union depot—with citizens petitioning against Congress Avenue routes. Committees were appointed to study alternative paths.\n\n• **Police force expanded for fair week**: Due to an upcoming fair bringing crowds of strangers to town and the small regular police force, the council authorized hiring four special policemen and nominated additional officers to maintain order.\n\n• **City Marshal resigned, special election called**: The council accepted City Marshal Ben Thompson's resignation and scheduled a November 7 election to replace him. A police sergeant was temporarily appointed to fill the vacancy.\n\n• **Land purchase approved for cemetery**: The council authorized a six-member committee with full purchasing power to acquire land for a new city cemetery.\n\n• **Tax redemptions and minor pay disputes**: Several property owners were allowed to redeem land previously sold for back taxes, while the council reviewed compensation requests for assessment work and sick leave claims.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

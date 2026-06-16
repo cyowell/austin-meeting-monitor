@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-12-11_122827",
-  "title": "",
+  "title": "Austin Fire Company Funding & Council Elections",
   "meeting_type": "special called",
   "date": "December 11, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122827",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **City Council Election Results**: Citizens elected a new slate of aldermen for the next two years, with B.S. Fulmore winning as trustee of public schools. The newly elected officials were sworn in during this meeting.\n\n• **Fire Company Pay Equity**: The council voted to give East Austin Hose Company the same pay and allowance as other fire companies in the city, effective December 1st—addressing a fairness issue for the fire service.\n\n• **Infrastructure & Safety**: Council approved $30 to purchase land from a local property owner for a burial ground, ordered inspection of wooden structures being built illegally in fire-restricted areas, and directed engineers to assess erosion damage at City Hall.\n\n• **Business Permits Granted**: Two property owners received permission to operate new ventures—one for platform scales at Waller and Eleventh streets, and another for a shooting gallery on East Mesquite Street.\n\n• **Leadership Change**: Alderman Wortham was elected president of the board to serve as interim leader during Mayor Robertson's requested 10-day leave of absence starting December 16th.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

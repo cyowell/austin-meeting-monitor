@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-03-30_124818",
-  "title": "",
+  "title": "** Austin's 1880 Sewer Plan and Bar Licenses",
   "meeting_type": "special called",
   "date": "March 30, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124818",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Three new bars approved**: The council granted licenses for barrooms to open in three different locations across Austin, including one on Pecan Street.\n\n• **Major sewer project debated**: Council discussed a controversial ordinance to build a sewer line from downtown buildings to the Colorado River. The proposal was amended multiple times to address concerns about routing and private access, but ultimately failed to advance to final passage.\n\n• **Health concerns drove urgency**: Aldermen pushed for quick action on the sewer project before warm weather arrived, citing public health risks and the time needed to obtain pipes.\n\n• **Property purchase authorized**: Council moved forward with spending $1,000 to purchase property from Caroline Wahrenberger, though the vote faced procedural complications.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

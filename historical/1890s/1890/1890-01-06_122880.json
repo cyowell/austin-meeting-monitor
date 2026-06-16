@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-01-06_122880",
-  "title": "",
+  "title": "Austin Electric Lights & Police Hiring 1890",
   "meeting_type": "regular",
   "date": "January 06, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122880",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Electric Light Proposal**: The city received a bid from the Heisler Electric Light Company (St. Louis) to install a complete electric light system with 500 lights for $6,500, payable over six years—a modernization project referred to committee.\n\n• **Police Force Elected**: The council elected 15 new police officers and a sergeant (C.C. Palmer) through a formal voting process, establishing Austin's law enforcement for the coming year.\n\n• **Municipal Budget Approvals**: The council passed three financial ordinances totaling over $16,000 to cover January 1890 salaries ($3,200), bond interest payments ($5,200), and approved city accounts ($7,589.77).\n\n• **Infrastructure & Building Projects**: The council approved funding for two fire department hose company buildings ($800 and $3,500) and granted the City National Bank permission to expand its Congress Avenue building with a 14-inch sidewalk encroachment.\n\n• **Disputed Court Judgment**: The council debated but ultimately rejected (for third reading) an ordinance to pay a $3,060.35 judgment against the city in favor of S.E. Emanuel, indicating disagreement over the city's liability.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

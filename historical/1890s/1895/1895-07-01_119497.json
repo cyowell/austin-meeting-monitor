@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-07-01_119497",
-  "title": "",
+  "title": "Austin Water Works Expansion Approved with $200,000 Bond",
   "meeting_type": "regular",
   "date": "July 01, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119497",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Infrastructure Bond Approved**: Austin voters overwhelmingly approved ($1,219 to 115) a $200,000 bond measure on June 24, 1895, to complete the city's water works system and expand electric lighting, expanding the city's total debt to $1.725 million.\n\n• **Streetcar Franchise Granted**: The City Council granted the Austin Dam and Suburban Railway Company a 50-year franchise to operate street railroads throughout Austin with a 5-cent fare cap, though the company must complete at least one mile of additional track within three years.\n\n• **Major Industrial Investment Attracted**: The Burt Construction Company proposed building a large ice and refrigeration plant in Austin, requesting city rates of $2.00/horsepower for electricity and $5.00/month for water—the council approved modified rates to encourage the investment.\n\n• **State Capitol Gets Power & Lighting**: The council contracted to provide electricity and water service to the State Capitol at $125/month for the remainder of fiscal year 1895, then $150/month thereafter, plus granted churches special electric rates at half-price since they don't use lights nightly.\n\n• **City Health & Services Report**: In June, the city served 850 water customers and 332 electric light customers with roughly 5,000 lights operational, handled 18 arrests, and reported good overall health with only one diphtheria case.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

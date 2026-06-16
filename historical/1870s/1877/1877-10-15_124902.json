@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-10-15_124902",
-  "title": "",
+  "title": "Austin Mayor's Annual Report 1874",
   "meeting_type": "special called",
   "date": "October 15, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124902",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Meeting Called for Mayor's Report**: Mayor De Gress convened the city council to present his mandatory annual report to aldermen, a key accountability measure for the city's leadership.\n\n• **Quorum Issues**: The October 15th meeting had to be adjourned due to insufficient attendance—only 4 of 10 aldermen showed up, preventing any official business from being conducted.\n\n• **Successful Second Meeting**: A follow-up meeting on October 24th achieved quorum with 7 aldermen present, allowing the mayor's report to proceed as planned.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

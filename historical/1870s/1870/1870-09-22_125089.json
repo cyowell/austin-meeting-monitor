@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-09-22_125089",
-  "title": "",
+  "title": "** Austin Railroad Depot Land Offer 1870",
   "meeting_type": "special called",
   "date": "September 22, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125089",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Railroad Support Initiative**: The City Council unanimously approved offering alternative land to the Central Railroad Company if they didn't want to use previously donated lots from 1868, demonstrating the city's commitment to attracting rail service.\n\n• **Flexible Development Terms**: Rather than forcing a specific location, Austin offered flexibility by allowing the railroad to choose any suitable site in the city for a passenger depot, prioritizing the project's completion over rigid terms.\n\n• **Economic Priority**: The resolution emphasized that railroad connections to the outside world were considered vital to Austin's growth and prosperity, reflecting the city's focus on infrastructure and commerce in the post-Civil War era.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

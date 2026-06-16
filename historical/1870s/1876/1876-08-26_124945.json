@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-08-26_124945",
-  "title": "",
+  "title": "Austin Fire Department Upgrades, 1876",
   "meeting_type": "special called",
   "date": "August 26, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124945",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire alarm bell relocation approved**: The council authorized the Fire Department and Market House committees to either move the fire alarm bell to the City Market House or repair the existing bell tower, whichever they deemed best for the city.\n\n• **Hose purchase proposal rejected**: A proposal to purchase 1,000 feet of fire hose (2½ inches diameter) failed to pass because it didn't receive the required two-thirds vote, though the Fire Chief had recommended the Boyd Hose brand from a New York supplier.\n\n• **Gas lights installed at fire stations**: The council approved adding gas lighting to both the Austin Hook & Ladder House and the Colorado Engine House to improve visibility and safety at these facilities.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-10-11_122870",
-  "title": "",
+  "title": "Austin Railway Right-of-Way Ordinance Debate",
   "meeting_type": "special called",
   "date": "October 11, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122870",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Railway ordinance was the main focus**: The council held a special meeting to discuss and potentially amend an ordinance granting the Houston and Texas Central Railway Company right-of-way through Austin.\n\n• **Public input was allowed**: Council members voted to permit citizens present at the meeting to make statements about the railway ordinance before any final votes.\n\n• **Attendance issues disrupted proceedings**: With 7 absent aldermen at the start and 10 absent after a recess, the council struggled to maintain a quorum, requiring multiple roll calls and procedural motions to keep the meeting going.\n\n• **Meeting ended without a decision**: After the ordinance was read a second time and public comments were invited, the council adjourned without voting on the measure, leaving the railway agreement unresolved.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

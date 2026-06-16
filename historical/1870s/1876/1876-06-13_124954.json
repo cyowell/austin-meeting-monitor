@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-06-13_124954",
-  "title": "",
+  "title": "Austin Property Tax Appeals from 1876",
   "meeting_type": "special called",
   "date": "June 13, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124954",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Property Tax Assessment Disputes Dominated June 1876 Meetings**: Multiple Austin property owners petitioned the Court of Appeals to reduce their assessed property values, with mixed results. Some reductions were granted (like B.M. Swenson's lot reduced from $7,500 to $6,500), while others were denied and assessments stood as fixed by the Board of Appraisers.\n\n• **City Budget Projected at Over $54,000**: The Finance Committee presented estimated annual expenses covering administration ($5,715), police ($10,280), fire department ($4,985), and street maintenance ($16,326)—substantial sums for the time that required further review.\n\n• **Charitable Relief Provided to Vulnerable Residents**: The council granted a three-month business license waiver for two blind citizens to sell fruit without paying fees, and approved refunds for unused business licenses paid in advance.\n\n• **Public Health and Sanitation Concerns Addressed**: The council reviewed damages from a smallpox hospital and directed the City Marshal and Physician to determine fair compensation for destroyed clothing and items.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-02-04_119485",
-  "title": "",
+  "title": "Austin Infrastructure & Cemetery Plans 1895",
   "meeting_type": "regular",
   "date": "February 04, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119485",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Sewerage System Completion**: The Austin Sewerage Company finished its citywide sewerage system in compliance with city specifications, signaling a major step forward in Austin's modernization.\n\n• **Cemetery Expansion Blocked**: Mayor John McDonald vetoed a proposed cemetery extension (bringing it from the Austin City Cemetery Association), stating it violated previous protections given to nearby residents who had filed injunctions against city cemetery use. The veto held as the council could not override it.\n\n• **New Infrastructure Investments**: The council approved approximately $11,154 in spending for the emerging water and light system, including $6,978.70 for electric dynamos from Fort Wayne Electric Company.\n\n• **Tax Collection Enforcement**: The council authorized the City Attorney to pursue lawsuits against all delinquent taxpayers and established penalties (up to $2 per transaction) for levying property and collecting back taxes.\n\n• **Street & Municipal Improvements**: Several infrastructure projects were debated—including a Bull Creek road ($1,687.50 approved), street labor funding ($400 for February approved), and a $100 appropriation for a city mule.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

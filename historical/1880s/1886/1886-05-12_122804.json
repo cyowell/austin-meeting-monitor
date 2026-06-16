@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-05-12_122804",
-  "title": "",
+  "title": "Austin Bridge Repair and Cemetery Fence Disputes",
   "meeting_type": "special called",
   "date": "May 12, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122804",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Project**: City Council convened to address filling in a bridge on East Pecan Street, indicating infrastructure maintenance needs in the city.\n\n• **Cemetery Fence Controversy**: Officials needed to resolve disputed questions regarding the cemetery fence, suggesting a disagreement among stakeholders about its construction or maintenance.\n\n• **Low Attendance**: With only 7 of 19 aldermen present, the council lacked a quorum and adjourned without conducting business, highlighting participation challenges in 1886 governance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-02-03_122882",
-  "title": "",
+  "title": "1890 Austin City Services and Spending Plan",
   "meeting_type": "regular",
   "date": "February 03, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122882",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Cemetery Expansion and Repairs**: The city approved $85 for cemetery repairs and authorized the purchase of additional burial ground for Black residents and paupers, whose existing plots were full.\n\n• **City Detective Position Reinstated**: Aldermen voted to create a city detective office (likely reappointing John Chenneville) with a strict ethics clause preventing detectives from accepting private payment for detective work.\n\n• **Financial Snapshot**: Austin's finances showed roughly $7,200 in cash on hand but faced nearly $19,000 in liabilities and expenses through the end of 1890, giving only about $15,300 in available revenue for other purposes.\n\n• **Printing and Records**: The council voted to stop printing council minutes as pamphlets and instead publish them in a daily newspaper—a cost-saving measure with similar overall expenses.\n\n• **Street and Infrastructure Projects**: The council approved opening Driskill Street and allocating $242.50 to build a culvert on Curve Street, while directing property owners to maintain sidewalks per existing ordinances.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

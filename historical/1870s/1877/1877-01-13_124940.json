@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-01-13_124940",
-  "title": "",
+  "title": "Austin Theater Ban & Hospital Plan 1877",
   "meeting_type": "special called",
   "date": "January 13, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124940",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Capital Theatre Shut Down**: City Council voted to declare the Capital Theatre on Congress Avenue a public nuisance and ordered the City Marshal to immediately stop all theatrical performances there, citing disorderly conduct complaints. One alderman dissented.\n\n• **Public Health Initiative**: Mayor Wheeler raised concerns about sick and homeless residents lacking proper care, proposing the city and county work together to convert the Old Court House into a hospital with shared funding.\n\n• **Theater Regulation Law Passed**: Just days earlier (January 17), Council fast-tracked a new ordinance regulating theatrical exhibitions through all three required readings with unanimous approval.\n\n• **Federal Building Proposal**: Council appointed a committee to petition Congress to construct a federal courthouse, post office, and government building in Austin, reflecting the city's growth ambitions as the state capital.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

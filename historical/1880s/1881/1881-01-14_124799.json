@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-01-14_124799",
-  "title": "",
+  "title": "Austin Railway Ordinance Debate 1881",
   "meeting_type": "special called",
   "date": "January 14, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124799",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Railway Ordinance Under Review**: The city council held a special meeting to discuss reinstating an ordinance related to the Houston and Texas Central Railway Company, indicating ongoing negotiations with the railroad about its operations in Austin.\n\n• **Committee Assignment**: Mayor Crooker appointed a three-person committee (Aldermen Tobin, Boardman, and Duff) to review a substitute ordinance and report back to the council as soon as possible.\n\n• **Attendance Issues**: The council had to send the marshal to retrieve absent aldermen to establish a quorum, and one alderman was excused from a fine due to illness—showing common attendance challenges of the era.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

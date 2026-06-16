@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-12-21_119818",
-  "title": "",
+  "title": "Austin's Water Plant Overhaul and Police Force Decisions",
   "meeting_type": "regular",
   "date": "December 21, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119818",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water and Light Plant Requires Major Upgrades** – New superintendent H.C. Patterson submitted a comprehensive report recommending $5,000 in immediate improvements to reorganize the power distribution system, plus approximately $20,000 for a new water station to improve water quality from Barton Creek. He also recommended purchasing additional equipment and warned that current rates for arc lights were too low compared to national averages.\n\n• **Police Force Reduced to 14 Officers** – Despite Mayor's suggestion to cut the police force, the Police Committee recommended maintaining their current small force due to public safety needs. Council ultimately amended the police ordinance to set the force at 14 policemen plus a sergeant (down from 17), and elected Harry Montgomery as Sergeant of Police with 22 unanimous votes.\n\n• **Eleventh Ward Petition for Separation** – Citizens from the 11th Ward filed a petition asking to be excluded from the City of Austin, which was referred to the Charter Amendments Committee for consideration.\n\n• **Multiple Budget Appropriations Passed** – Council approved approximately $30,000 in spending, including funds for employee salaries, fire department expenses, bond interest payments, and street improvements, all passing with minimal opposition.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-12-04_124739",
-  "title": "",
+  "title": "** Austin Elects City Leaders in 1893",
   "meeting_type": "regular",
   "date": "December 04, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124739",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Mayoral Election & Leadership**: John McDonald was re-elected mayor with 2,565 votes, defeating C.G. Caldwell (2,460 votes) and J.M. Burke (862 votes). New aldermen were sworn in across Austin's 11 wards, and Henry A. Linn was elected City Council President.\n\n• **Public Works & Infrastructure**: The council approved $575 for an arch bridge construction over Little Shoal Creek at Nueces and West 11th streets, and authorized negotiations with the Austin and Northwestern Railroad for cheaper granite for street repairs.\n\n• **Claims & Compensation Dispute**: Theodore Reisner's injury claim for $27.90 after falling from a wagon at 14th and Brazos streets was denied—the committee ruled the city had no legal liability despite sympathizing with his losses.\n\n• **Major Hiring & Staffing**: A 17-person police force was elected, with Neil McBashin as day clerk. The council also hired a 60-day street work crew at $100/month and elected other city officials including City Marshal J.E. Lucy, Treasurer J.S. Myrick, and Assessor Fred Sterzing.\n\n• **Tax Recovery**: The city successfully recovered property from the Capital Gas Light Company through a tax sale for unpaid 1891 taxes, acquiring company pipes, machinery, and equipment valued at $264.46.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-04-20_122767",
-  "title": "",
+  "title": "Austin's Infrastructure Crisis After 1885 Floods",
   "meeting_type": "regular",
   "date": "April 20, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122767",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major bridge damage reported**: Heavy rains destroyed or severely damaged multiple bridges across the city, including structures over Waller Creek, Cedar Street, and Walnut Street, with the City Engineer detailing extensive repairs needed.\n\n• **Cemetery expansion approved**: The council voted to purchase 20 acres from Mr. Riley to expand the existing cemetery rather than create a new one, with new regulations including minimum 6-foot grave depths and lot prices ranging from $50-$150.\n\n• **Separate burial grounds for Black residents**: The council approved purchasing 3.5 acres for a cemetery specifically for \"persons of color,\" adjacent to the existing segregated burial area.\n\n• **Fire station lot purchase authorized**: The mayor was empowered to buy land from Mr. Day for $1,500 to build new engine houses for the fire department.\n\n• **Various property petitions**: The council considered requests including a riverfront lease for building, a sidewalk widening project on Brazos Street, and a refund claim for water pipe repairs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-05-19_122729",
-  "title": "",
+  "title": "Austin Fine Remissions & Hotel Land Deal",
   "meeting_type": "regular",
   "date": "May 19, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122729",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Firearm Fine Reduced**: The mayor successfully petitioned the council to reduce a $50 fine against Theo Killyer for illegally discharging firearms in the city to just $10, though the vote was close (9-6).\n\n• **Historic Hotel Project**: J.L. Driskill requested to purchase four city lots to construct part of a hotel, leading the council to form a special committee to negotiate terms and report back.\n\n• **River Walk Lease Dispute**: A resident sought a $17.50 refund after the city canceled his lease on part of the riverfront, which was sent to the finance committee for review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

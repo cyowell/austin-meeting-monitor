@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-12-28_124970",
-  "title": "",
+  "title": "** Austin Water Company Gets Extension, Budget Approved",
   "meeting_type": "special called",
   "date": "December 28, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124970",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Company Deadline Extended**: The City Water Company received a deadline extension to February 1, 1876 to complete construction, citing contractor delays and expanded project scope beyond original contract terms.\n\n• **Bond Interest Funded**: The council authorized using the city's sinking fund to pay bond interest due January 1, 1876, with all future tax revenue required to replenish the fund before any new spending.\n\n• **Liquor License Decisions**: Two applications for retail liquor licenses were considered—one approved for the 9th Ward while another in Ward 1 was referred to committee for further review.\n\n• **Property Tax Appeal**: A merchant requested their property assessment be reduced from $3,000 to $1,500, though the council asked for clarification on the property location before ruling.\n\n• **Street Maintenance Request**: Citizens petitioned to have Orange Street cleaned and potentially improved, indicating infrastructure concerns in the community.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

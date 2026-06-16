@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-12-06_122826",
-  "title": "",
+  "title": "** Austin Addresses Water Works and Street Repairs",
   "meeting_type": "regular",
   "date": "December 06, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122826",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "Unfortunately, this agenda document is too sparse to provide substantive bullet points. The transcript only records:\n\n• **Meeting called to order** with Mayor J.W. Robertson presiding, though notably only 6 of 20 aldermen were present\n\n• **Immediate adjournment** — Alderman Brush moved to adjourn almost immediately, which was adopted\n\nThe agenda contains no recorded discussion of actual business items, public hearings, or policy decisions. This appears to be either an incomplete record or a meeting that was postponed without conducting regular business.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-11-20_122677",
-  "title": "",
+  "title": "Austin Street Repairs & Union Depot Plans 1882**",
   "meeting_type": "regular",
   "date": "November 20, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122677",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street Infrastructure:** The city engineer requested $75 to repair Congress Avenue, Pecan Street, and the College Avenue bridge—the council approved these funds and authorized the work.\n\n• **Union Depot Development:** Aldermen debated and amended an ordinance regulating construction of a new Union Depot, including specifications that it be built with wood, brick, or iron and extend between Congress and Colorado streets; the final vote stalled before third reading.\n\n• **Police Disability Pay:** Council proposed a new ordinance requiring the city to compensate police officers for time lost due to injuries sustained while making arrests, though the measure didn't advance to final passage.\n\n• **Cemetery Funding:** The city established a dedicated fund from cemetery lot sales to cover cemetery expenses and maintenance, rather than general city operations.\n\n• **Compliance Enforcement:** The council authorized the city to compel the Austin City Railroad Company to properly grade streets along its tracks and authorized the city to do the work itself if the company refused, billing the company for costs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

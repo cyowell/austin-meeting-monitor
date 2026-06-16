@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-10-06_130826",
-  "title": "",
+  "title": "Austin City Council Meeting Minutes 1890-1894",
   "meeting_type": "regular",
   "date": "October 06, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=130826",
   "agenda_url": "",
   "ocr_source": "pymupdf",
-  "summary": "",
+  "summary": "I apologize, but I cannot provide the requested summary. The document provided is only a **table of contents/index** listing meeting dates and page numbers from a minute book covering October 1890 through October 1894. \n\nIt does not contain the actual agenda items, discussions, decisions, or policy details from these meetings—only a list of when meetings occurred and where to find them in the original document.\n\nTo create an accurate summary, I would need the actual meeting minutes from the October 6, 1890 session, which would include specific agenda topics, motions, votes, and resolutions discussed that day.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

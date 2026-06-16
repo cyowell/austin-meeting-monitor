@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-06-09_124955",
-  "title": "",
+  "title": "Austin Property Tax Appeals & Liquor License Dispute",
   "meeting_type": "special called",
   "date": "June 09, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124955",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Liquor License Petition Rejected**: A petition from T. Selva to sell alcohol in Ward #1 was denied by city council. The mayor and city attorney were directed to review local laws regarding licensing authority.\n\n• **Property Tax Appeals Flood Courts**: A special Court of Appeals spent multiple days (June 10-13) hearing dozens of property owner complaints about inflated tax assessments. Many residents successfully argued for reductions after the Board of Appraisers had raised their valuations.\n\n• **Tax Assessment Authority Questioned**: City council requested legal clarification on whether they had the power to change property tax assessments and regulate wooden building construction in fire-prone areas.\n\n• **Mixed Outcomes for Taxpayers**: While some property owners won significant reductions (like Sophia Burnham getting her lots reduced from $1,600 to $1,200), others saw their appeals denied and assessments upheld at higher rates.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

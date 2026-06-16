@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-09-15_119842",
-  "title": "",
+  "title": "** Austin's Business License Tax Overhaul",
   "meeting_type": "special called",
   "date": "September 15, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119842",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency tax vote redo**: The council called an emergency meeting to re-vote on a business occupation tax ordinance after the previous vote didn't follow proper legal procedures under the city charter.\n\n• **New peddler tax**: Approved a $125 annual tax on traveling salespeople selling items like clocks, stoves, wagons, and sewing machines—though regular merchants who already paid occupation taxes were exempt from this extra fee.\n\n• **Unanimous final approval**: After making amendments to the tax ordinance, the council voted 17-0 to pass the revised business licensing and occupation tax regulations for Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

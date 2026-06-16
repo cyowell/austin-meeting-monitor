@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-08-25_122749",
-  "title": "",
+  "title": "** Austin's $38,000 Bond Sale & Tax Dispute",
   "meeting_type": "special called",
   "date": "August 25, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122749",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Bond Sale Report**: Mayor Robinson announced the successful sale of $40,000 in city bonds to New York investors for $38,000 (95 cents per dollar), with minimal expenses (~$139 total). The city received funds to pay outstanding debts and maintain operations.\n\n• **Tax Discount Ordinance Repealed**: The council eliminated a policy allowing citizens to pay taxes early and receive a discount, effectively requiring all taxes to be paid on the city's original schedule.\n\n• **Contentious Appropriations Bill**: A $14,714 ordinance to pay approved city claims (including debts to the Water Company and a court judgment) failed its third reading after a split vote, leaving several bills unpaid.\n\n• **Fire Hydrant Request**: Residents of districts 1 and 2 petitioned to install fire hydrants on West Pecan Street, referred to the Fire Commissioner for review.\n\n• **Street Committee Resignation**: Alderman Driskill resigned from the Street Committee.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

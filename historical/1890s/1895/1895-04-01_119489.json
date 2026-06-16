@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-04-01_119489",
-  "title": "",
+  "title": "Austin 1895 Water Works and Confederate Monument",
   "meeting_type": "regular",
   "date": "April 01, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119489",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water and Light Infrastructure Approved**: The city council authorized free water and electric service to the University of Texas through December 1895 and approved $7,376.66 in expenses for water works and electric light system construction, with plans discussed for extending 25 miles of water pipe and building a 100-million-gallon reservoir.\n\n• **Confederate Monument Approved**: The city granted John B. Hood Camp Confederate Veterans permission to erect a $25,000-50,000 monument to Confederate dead on Eleventh Street, with supporters addressing the council about the project.\n\n• **Major Bond Refinancing**: The council passed an ordinance to issue $72,500 in 30-year bonds to consolidate the city's existing debt, reducing interest rates from 10% to 6% and establishing a tax collection plan to pay principal and interest.\n\n• **Health and Safety Issues**: Citizens petitioned the council to shut down a dairy operated by John D. Jackson in a residential area, citing health and nuisance concerns, though the dairy owner disputed the claims.\n\n• **Cemetery and Infrastructure Partnerships**: The council negotiated proposals with Highland Park Cemetery Association to improve cemetery management and discussed cost-sharing agreements with Travis County for road construction around Mount Barker.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

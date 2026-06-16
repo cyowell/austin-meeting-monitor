@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-10-07_124856",
-  "title": "",
+  "title": "1878 Austin Water Quality & Infrastructure",
   "meeting_type": "regular",
   "date": "October 07, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124856",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Company proposes cleaner water infrastructure**: The City Water Company requested relief from lining the reservoir in exchange for building water filters to address muddy water issues during river flooding. The council referred this to a special committee for further consideration.\n\n• **Fire department equipment upgrades approved**: The council allocated $1,000 total ($500 additional to $500 already budgeted) to purchase a truck for Protection Hook & Ladder Company No. 3, and accepted the resignation of the Fire Chief.\n\n• **Tribute to fallen physician Dr. T.D. Manning**: The council honored Dr. Manning, who died volunteering to fight yellow fever in Mississippi. They resolved to provide him a grave plot in Austin's City Cemetery and erect a memorial monument.\n\n• **Various city business permits granted**: The council approved applications for a shooting gallery, meat market, liquor retail operations, and warehouse facilities for cotton storage.\n\n• **Street and public works funding**: The council appropriated funds for repairs on College Avenue, East Bois d'Arc Street, and street improvements east of East Avenue, plus repairs to public wells in the 8th ward.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

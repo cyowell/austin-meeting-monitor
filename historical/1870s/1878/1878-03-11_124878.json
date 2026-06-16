@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-03-11_124878",
-  "title": "",
+  "title": "** Austin Market Stall Fees & Street Project Debate",
   "meeting_type": "special called",
   "date": "March 11, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124878",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Market revenue collection**: Only six vendors had paid their City Market stall fees as of March 11, ranging from $13 to $34.50 for butcher and vegetable stands.\n\n• **Pecan Street Market delayed**: Council debated an ordinance to establish and build the Pecan Street Market, with Alderman Lorrow successfully pushing to postpone the decision until the next regular meeting.\n\n• **Alderman resignation**: Ward 4 Alderman W.A.K. Miller resigned during the meeting, with his resignation accepted immediately.\n\n• **Attendance enforcement**: The Mayor ordered the Marshal to bring in absent aldermen after a council member moved for a formal call of the roll to ensure a quorum.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

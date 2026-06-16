@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-11-06_124974",
-  "title": "",
+  "title": "Austin Election Results & City Budget Reform Plan",
   "meeting_type": "special called",
   "date": "November 06, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124974",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Certified**: Mayor T.B. Wheeler and ten new aldermen were elected and sworn in on November 11, 1875, with various city officials confirmed for two-year terms.\n\n• **Tax Collection Crisis**: Mayor Wheeler warned the council that many citizens had failed to pay city taxes for two years, creating a floating debt equal to half of unpaid taxes. He urged immediate action to collect delinquent payments and proposed a \"cash basis\" policy requiring funds in the treasury before issuing warrants.\n\n• **Market Price Reduction**: The mayor recommended lowering market stall rents from $300 to nominal fees, arguing high rents were passed to consumers through inflated meat prices. He also proposed allowing farmers to sell fresh meat anywhere in the city for a small inspection fee.\n\n• **City Infrastructure & Services**: New committees were appointed to oversee cemeteries, streets, fire department, and other services. The council approved a public weigher position and discussed infrastructure improvements like bridge repairs and cemetery expansion.\n\n• **Licensing & Ordinances**: The council granted liquor licenses, passed an ordinance taxing street drummers (traveling salesmen), and prohibited dances at establishments connected to saloons—reflecting efforts to regulate commerce and public morality.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-12-11_124972",
-  "title": "",
+  "title": "** Austin Circus License & City Budget Debates",
   "meeting_type": "special called",
   "date": "December 11, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124972",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Circus License Dispute**: The council debated whether to reduce the license fee for Howes Great London Circus from $500 to $357 per day. The initial petition was rejected, but the council reconsidered the matter at a subsequent meeting, ultimately settling on a $250 fee instead.\n\n• **Financial Crisis**: Austin faced immediate money troubles, with bond coupons due January 1st. The council appointed a committee to find emergency funding to cover these payments.\n\n• **City Hall Rental Decision Pending**: A proposal to rent City Hall to someone named Banks for school use remained under committee review, with the Market House Committee requesting more time to issue a report.\n\n• **Infrastructure & Services**: The council authorized street repairs for the West College Avenue bridge to prevent deterioration and discussed installing a fire bell at the Market House for public safety.\n\n• **Pauper Care Proposal**: A citizen offered to board all city indigent residents for $42 per month using city warrants, referred to the Charity Committee for consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

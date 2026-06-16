@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-12-02_125046",
-  "title": "",
+  "title": "Austin 1872: Street Repairs, Skating Rink, and City Finances",
   "meeting_type": "regular",
   "date": "December 02, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125046",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street and Infrastructure Updates**: The council authorized the City Marshal to repair bridges and streets immediately, light the city streets, and purchase blankets for prisoners—showing focus on basic municipal services and public safety.\n\n• **Skating Rink Lease**: Weed & Holmes were permitted to use City Hall as a skating rink for three months at $50/month, with the council retaining rights to the hall when needed for citizens.\n\n• **Financial Oversight**: A committee was appointed to investigate the sale of city real estate by a previous administration and recover assets, while another committee was instructed to audit the city's financial records—indicating concerns about past mismanagement.\n\n• **Cleanup Enforcement**: The council unanimously passed resolutions to strictly enforce ordinances against sidewalk obstructions, dog control laws, and cemetery ground violations, prioritizing public order.\n\n• **New Business Applications**: Two petitions were reviewed—one to open a meat market in the 8th Ward and another to grade a street west of Mrs. Collins's residence—both referred to appropriate committees for consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-12-08_119400",
-  "title": "",
+  "title": "** Austin's 1894 Aldermen Election Results & Swearing In",
   "meeting_type": "special called",
   "date": "December 08, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119400",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Results Certified** – Ten aldermen were officially elected from their respective wards on December 3rd, with candidates winning by margins ranging from 50 to 70 votes. The newly elected officials were sworn in that same evening.\n\n• **Tied Election Requires Runoff** – The Eleventh Ward election ended in a dead tie (83 votes each), so the city scheduled a special election for December 21st to break the stalemate and select that ward's representative.\n\n• **Same-Day Swearing In** – Rather than wait for the next regular meeting, the newly elected aldermen were immediately escorted before the council and administered the oath of office by Mayor John McDonald on December 8th.\n\n• **High Turnout in Some Wards** – The Tenth Ward recorded the highest vote count with 518 total votes cast, while several other wards saw similarly robust participation in this local election.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

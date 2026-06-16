@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-07-20_119802",
-  "title": "",
+  "title": "** Power Plant Repairs & Water Supply Debate",
   "meeting_type": "regular",
   "date": "July 20, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119802",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "- **Electrical System Overhaul**: Austin approved major repairs to its power plant's equipment, including overhauling Fort Wayne Electric Corporation's aging switchboard and dynamos. The company agreed to modernize outdated parts and improve safety features while the city paid for skilled labor at $3.50 per day.\n\n- **Water Infrastructure Challenge**: The council debated competing proposals to utilize surplus spring water for the city's water supply, ranging from $2,648 to $9,000. Engineers disagreed on the best approach, with a superintendent recommending the cheaper employee-designed solution over pricier consultant recommendations.\n\n- **Sanitary Regulations**: Austin passed an ordinance limiting when garbage and waste could be hauled through the city, with an exemption for odorless tanks—an early public health measure.\n\n- **Fire Department Reimbursement**: The council approved $135 to reimburse East Austin Hose Company for repair costs, and referred another $148.85 reimbursement request for further review.\n\n- **Board of Equalization Election**: After multiple rounds of voting, the council elected two members to the Board of Equalization: W.H. Randolph and D.M. Wilson.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

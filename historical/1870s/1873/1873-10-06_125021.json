@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-10-06_125021",
-  "title": "",
+  "title": "Austin's 1873 Licensing & Public Safety Decisions",
   "meeting_type": "regular",
   "date": "October 06, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125021",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Business Licensing Approved**: Council granted liquor licenses to two new barroom operators (J.S. Holbert & B.R. Woods, and McArthur & Co.), while tabling a controversial meat market petition\n\n• **Railroad Safety Issue Resolved**: After complaints about an unsafe railroad crossing on East Avenue, council ordered the Houston & Texas Central Rail Road to repair the dangerous track crossing immediately\n\n• **Sunday Closing Rules for Barber Shops**: A proposed ordinance limiting barber shop hours to 11 a.m. on Sundays was introduced but tabled after a close council vote, leaving the issue unresolved\n\n• **Public Health & Infrastructure**: Council approved funds for digging a public well on Boan Street and paid George Doolittle $484.75 for city work\n\n• **Voter Registration Requirements**: Council established mandatory voter registration for the upcoming city election, with registration books open through November 1st, 1873",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-07-19_119837",
-  "title": "",
+  "title": "Austin Street Railway Fares & Drain Pipes Approved",
   "meeting_type": "regular",
   "date": "July 19, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119837",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Police Force Expansion Rejected** - Mayor vetoed adding a city detective position, arguing the current police force was adequate and budget constraints made the expense wasteful. The council upheld his veto with a narrow 7-13 vote.\n\n• **Street Railway Fares Regulated** - Council introduced new fare regulations for street railway operators, sending the ordinance to committee for further review before potential approval.\n\n• **Hyde Park Infrastructure Approved** - The city agreed to provide drainage pipes for newly graveled streets in Hyde Park, with a property owner offering to install them at his own expense to prevent water damage.\n\n• **Publishing Contract Awarded** - The Statesman newspaper reduced its printing rate from half-cent to one-third cent per word, winning the contract to publish council proceedings and city documents for the remainder of the fiscal year.\n\n• **Property Tax Appeal Referred** - A doctor challenged his property assessment of $10,000, claiming he only owned $4,000 in property, and requested tax relief pending committee review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-03-06_124966",
-  "title": "",
+  "title": "Austin's 1876 Hospital Plan and City Jobs",
   "meeting_type": "regular",
   "date": "March 06, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124966",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Hospital establishment approved**: The Travis County Medical Society's proposal to build a hospital was referred to a select committee for further planning and development.\n\n• **Deputy marshal gets expanded role and pay raise**: The city consolidated multiple positions into one, appointing the deputy city marshal to also serve as assessor, collector, city clerk, and recorder at an annual salary of $1,500 (a significant amount at the time).\n\n• **New ordinances passed**: The council enacted laws regulating vagrants and defining the duties of the city assessor and collector to improve municipal operations and record-keeping.\n\n• **Liquor license granted**: A merchant received permission to sell spirits and malt liquors in smaller quantities in Ward 9, expanding the city's retail options.\n\n• **Street expansion underway**: Cypress Street extension received approval to move forward, with property owners who met agreed-upon terms eligible for compensation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

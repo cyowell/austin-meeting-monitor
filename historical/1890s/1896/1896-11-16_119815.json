@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-11-16_119815",
-  "title": "",
+  "title": "Austin's 1896 Street Sprinkling & Water Rates Debate",
   "meeting_type": "regular",
   "date": "November 16, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119815",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street Sprinkling Contract Dispute**: The city reduced water rates for street sprinkling contractors from $6 to $4 per month after complaints that private citizens were watering their own lawns and streets, unfairly competing with the contracted service.\n\n• **Municipal Elections Ordered**: Council passed an ordinance to hold ward-by-ward elections for aldermen positions across the city.\n\n• **Budget Approvals**: The council appropriated $1,200 for Water and Light Plant salaries, $177.65 for professional services, and $50 for fire department equipment (a respirator).\n\n• **Property Protection Request**: A petition was submitted to build a protective rock wall around private property in Block 10, referred to the Street Committee for consideration.\n\n• **Colorado River Bridge**: The City Engineer requested council attention to a needed bridge across the Colorado River, with the Street Committee instructed to report back at the next meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

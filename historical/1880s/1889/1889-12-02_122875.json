@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-12-02_122875",
-  "title": "",
+  "title": "** Austin Budget & Street Improvements 1889",
   "meeting_type": "regular",
   "date": "December 02, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122875",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Budget Approved**: City Council passed a $3,100 payroll ordinance to cover officer and employee salaries for November, plus $1,985.81 for approved accounts and $250 to pay lawyers handling a lawsuit against the city.\n\n• **Street Work**: Council approved grading improvements to a portion of Sabine Street as part of ongoing infrastructure development.\n\n• **Court Fines Dismissed**: Mayor recommended remitting criminal fines against two men (Robert Schieffer and Will Lambert) assessed in recorder's court.\n\n• **Financial Status**: The city maintained a healthy general fund balance of $13,138.84 as of early December, with total receipts of nearly $3,000 during the period.\n\n• **Low Attendance**: Only 13 of 20 aldermen were present for the key December 3rd meeting where budget votes took place.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-12-21_121780",
-  "title": "",
+  "title": "Austin's 1891 Hospital Lease and Winter Job Plans",
   "meeting_type": "regular",
   "date": "December 21, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121780",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Hospital Management Proposal**: Doctors offered to lease and operate the City and County Hospital for $3,600 annually plus $1 per patient per day for those sent by the city physician exceeding 11 per month. A five-member committee was formed to review the offer.\n\n• **Winter Employment Initiative**: Mayor recommended expanding the street maintenance crew after the holidays through February, budgeting up to $1,000 monthly to provide winter work for citizens in need.\n\n• **Fire Safety Requirements**: The Board of Fire Commissioners requested that all cotton yard owners hire night watchmen and provide water supplies near their properties as a fire prevention measure.\n\n• **Infrastructure Improvements**: City approved street crossing assessments on Congress Avenue (3 crossings) and East and West 6th Streets to evaluate costs for granite or limestone construction.\n\n• **Personnel Actions**: Henry Ziller was elected Assistant Assessor and Collector, while the council declined to elect a hospital resident physician pending a special committee review on whether the position should be abolished.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

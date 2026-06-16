@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-06-06_119870",
-  "title": "",
+  "title": "Austin Infrastructure and City Services June 1898",
   "meeting_type": "regular",
   "date": "June 06, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119870",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "**Key Decisions from Austin City Council Meeting on June 6, 1898:**\n\n• **Street Infrastructure** – The council approved $89.50 (after debate) to build bridges on West 2nd and 5th Streets and Congress Avenue, addressing a key transportation need across the growing city.\n\n• **Standpipe Relocation** – Responding to a resident complaint, the council directed the City Engineer to move a standpipe from the corner of Congress Avenue and 18th Street to the middle of the block on 8th Street.\n\n• **Land Acquisition** – The city received a petition from a property owner offering to sell a strip of land to the city for street purposes, referred to the Street Committee for consideration.\n\n• **Blind Asylum Dust Control** – The council authorized the Superintendent of the Blind Asylum to use a small portion of Red River Street (between 18th-19th Streets) to build a dust bin, showing city support for the institution's operations.\n\n• **Municipal Finances & Services** – Monthly reports showed the city collected $8,550.69 in taxes and fees, operated a city hospital serving an average of 15-16 patients, made 33 arrests, and recorded 16 deaths during May 1898.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

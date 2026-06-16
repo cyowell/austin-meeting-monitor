@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119860",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "# Title: Austin Railroad Expansion & City Finance Debates\n\n• **Railroad expansion approved**: City Council voted to grant the Houston & Texas Central Railway right-of-way to lay new side tracks within Austin, moving the city forward on rail development despite some opposition.\n\n• **Medical conference recruitment**: Austin extended a formal invitation to host the 1898 Texas State Medical Association's annual meeting, a major civic event to attract prominent doctors and visitors to the city.\n\n• **Municipal spending constraints upheld**: The mayor vetoed an ordinance that would have removed safeguards on city spending, successfully defending rules requiring budget authorization before issuing financial warrants—emphasizing the need for economic accountability.\n\n• **Cemetery security problems**: The Council directed the cemetery committee to investigate significant theft issues including stolen flowers and plants from graves, as well as unauthorized access to the burial grounds.\n\n• **Employee and street maintenance budget approvals**: The Council passed salary appropriations totaling over $4,000 for city workers including street team drivers, sanitary cart drivers, and municipal employees through the end of 1898.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-05-05_122038",
-  "title": "",
+  "title": "Austin Voters Approve $1.4M Water & Light Bond",
   "meeting_type": "regular",
   "date": "May 05, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122038",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Massive Bond Approval**: Voters overwhelmingly approved expanding the city's debt by $1.4 million (1,354 votes for, 50 against) to fund water works and electric lighting infrastructure for Austin.\n\n• **Fast-Tracked Election**: The city held the election on May 5, 1890, after passing an ordinance on March 31st, with the mayor issuing a 30-day notice allowing all property-owning taxpayers to vote across 10 ward locations.\n\n• **Infrastructure Investment**: The bond funds were designated specifically for constructing a water system and providing electricity to the city and its citizens—major modernization efforts for late 19th-century Austin.\n\n• **Street Safety & Animal Control**: The council passed enforcement resolutions targeting reckless horse driving and unattended teams left unhitched on streets, and introduced a controversial cow ordinance (with a carve-out for the area north of 6th Street/west of Shoal Creek).\n\n• **Project Planning Underway**: A special committee was appointed to draft bond issuance ordinances, while separate funding was approved for fire hall improvements ($800) and a hospital sewer project in the coming weeks.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

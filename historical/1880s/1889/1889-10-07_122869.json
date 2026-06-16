@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-10-07_122869",
-  "title": "",
+  "title": "Gas Works Expansion & Fire Independence Plan",
   "meeting_type": "regular",
   "date": "October 07, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122869",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Gas infrastructure approved**: The council unanimously passed an ordinance allowing Sylvester Watts and associates to establish gas works and lay pipes throughout Austin, signaling expansion of the city's utilities.\n\n• **Water company standoff**: Officials reported the Water Company refused to negotiate lower rates, so the city moved to fix its own fire engines and cisterns to operate independently rather than rely on commercial water services.\n\n• **Hospital funding secured**: The county agreed to pay the city $1,750 annually to manage the city and county hospital through the end of the year, establishing shared responsibility for healthcare operations.\n\n• **Crumbling fire cisterns**: A city marshal's report revealed only 2 out of 6 fire cisterns were functioning properly—highlighting Austin's urgent need to repair firefighting infrastructure amid the water company dispute.\n\n• **Budgets and street improvements approved**: The council appropriated nearly $2,000 for vendor payments and $3,100 for October city employee salaries, while residents petitioned for street grading and lighting improvements around town.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-02-15_121785",
-  "title": "",
+  "title": "Austin 1892: Bridge, Hospital & Street Improvements",
   "meeting_type": "regular",
   "date": "February 15, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121785",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Responsibility Dispute**: County commissioners held the city liable for damages to the Avenue bridge and dyke across the Colorado River, requiring the council to appoint a committee to investigate and draft a response.\n\n• **Hospital Renovation Approved**: Council approved $350 to repair the deteriorating City and County hospital, which had cracked plaster, blackened walls, decayed woodwork, and drainage problems.\n\n• **Police Hiring**: D.A.J. Howell was elected as a new city policeman, winning 16 votes against the other candidate's 9 votes.\n\n• **Infrastructure Disputes**: Council tabled controversial proposals for street crossings ($850) and broader street improvements, suggesting disagreement about spending priorities.\n\n• **Public Health Concerns**: A slaughter house near the State Lunatic Asylum was reported as a nuisance and referred to the Sanitary Inspector for action.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-08-06_122086",
-  "title": "",
+  "title": "Austin Infrastructure Investments & City Services 1894",
   "meeting_type": "regular",
   "date": "August 06, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122086",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Water & Power Project**: The city is actively constructing a new powerhouse and water system, with significant spending ($39,000+) on pipes, foundations, and electric towers. By August, the dam's water level had stabilized and concrete work on turbine foundations was underway.\n\n• **Street Improvements Approved**: Council allocated funds for a new stone arch bridge over Waller Creek on East First Street ($1,568.85) and approved $380 for street maintenance labor, addressing citizen concerns about an unsafe bridge at Lampasas and Twenty-ninth streets.\n\n• **Public Health & Safety**: The city operated a hospital with 8-10 patients, recorded 16 deaths in July, and arrested 107 people. Council also proposed new regulations restricting cattle grazing within city limits without permits.\n\n• **Budget & Finances**: The Water and Light Fund showed a healthy balance of $97,717.65, while the General Revenue Fund had only $1,063.13. Multiple routine payments for salaries, police, fire, and sanitation services were approved.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-09-01_122750",
-  "title": "",
+  "title": "Austin's 1884 Gun Fine Debates & Hospital Expansion",
   "meeting_type": "regular",
   "date": "September 01, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122750",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Gun Owners Got Fines Reduced:** Two men caught carrying pistols requested relief from their $50-$100 fines. The council voted to reduce one fine to $25 and remitted $75 from the other, showing sympathy for firearm violation penalties.\n\n• **New City Hospital Needed $600 More:** The newly opened hospital (opened August 1) requested additional funding to finish essential improvements like fencing, privies, stairways, and heating—plus furnish private patient rooms to generate income for operations.\n\n• **River Walk Access Dispute:** The council rejected a tannery owner's request to keep private possession of riverfront property, affirming that all citizens have the right to unobstructed access to the river walk.\n\n• **Water Contract Investigation Ordered:** Aldermen questioned whether the water company fulfilled its obligations and formed a committee to investigate before approving $3,550 in hydrant rental payments.\n\n• **Standing Committees Appointed:** The Mayor announced 12 city committees overseeing streets, fire, finance, police, cemetery, hospital, water, and other civic functions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

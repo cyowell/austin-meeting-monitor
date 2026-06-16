@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-04-03_124963",
-  "title": "",
+  "title": "Austin Approves Water Works, Converts Market House",
   "meeting_type": "regular",
   "date": "April 03, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124963",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water infrastructure approved**: City Council accepted the newly completed water works system, which nearly doubled fire department efficiency with 48 hydrants installed and pressure-tested machinery exceeding safety requirements.\n\n• **Market House conversion planned**: Council authorized a committee to convert the City Market House into a combined city prison, mayor's court room, and police headquarters, with contracts to go to the lowest bidder.\n\n• **Livestock ordinance modified**: New rules allowed dairy cows to roam freely during daytime (except in fire limits) but prohibited them from running loose at night, addressing concerns from residents.\n\n• **Business licensing decisions**: Council granted exemptions to several petitioners, including a poultry seller and elderly book subscription solicitor, while refunding a butcher's license fee.\n\n• **Fire safety enforcement**: City Marshal ordered the immediate removal of a wooden shed built illegally within fire limits, demonstrating enforcement of building codes.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

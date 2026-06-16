@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-12-05_121800",
-  "title": "",
+  "title": "Austin Water System Funding and Alderman Election Dispute",
   "meeting_type": "regular",
   "date": "December 05, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121800",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Infrastructure Funding**: Council approved approximately $29,837.89 in funding for water works and electric light system construction, including costs for acquiring submerged land and clearing expenses—a significant public works project for late 1892 Austin.\n\n• **Election Dispute Over Alderman Seat**: The 8th Ward alderman election was contested, with A.W. Newton challenging H.B. Hancock's claimed victory due to allegations of 45 illegal votes. After hearing testimony from multiple witnesses, the Council ruled Newton failed to prove his case and installed Hancock as alderman.\n\n• **Facility Regulation Issues**: Citizens petitioned to prevent the \"Palm property\" from being used as a burial ground, and aldermen discussed whether to enforce horse-hitching ordinances on city streets, reflecting growing urbanization concerns.\n\n• **Ice Factory Property Resolution**: A special committee was tasked with deciding the fate of Capital Ice Company's city lease after the company ceased operations years earlier and sublet the property for unauthorized uses.\n\n• **Routine Government Operations**: Council approved city payroll ($3,660), vendor accounts ($1,810.01), authorized the sale of two city mules, and allowed construction of an iron stairway on the First National Bank building.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

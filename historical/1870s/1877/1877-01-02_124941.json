@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-01-02_124941",
-  "title": "",
+  "title": "Austin 1876 City Finances and Police Reforms",
   "meeting_type": "regular",
   "date": "January 02, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124941",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax Collection Crisis Threatens City Budget**: Austin faced over $60,000 in unpaid taxes, forcing the city to maintain debt despite income shortfalls. The mayor urged aggressive enforcement to collect overdue taxes and improve the city's financial health.\n\n• **Police Officers Removed for Negligence**: Two police officers were fired after failing to properly respond to a disturbance at the Capital Theatre, highlighting the council's commitment to police accountability.\n\n• **Multiple Infrastructure Requests Approved**: The council addressed citizen petitions for new bridges across Waller Creek and Stalls Creek, hydrant extensions, and repairs to fire stations—delegating most decisions to the Committee on Streets.\n\n• **Alcohol License Approvals**: The council granted liquor licenses to at least 10 petitioners selling spirits in small quantities across various wards, showing continued revenue interest in alcohol licensing.\n\n• **Market System to Prioritize Affordability**: Mayor Wheeler recommended eliminating rent on meat stalls in favor of lighter licensing fees, aiming to reduce the cost of essential food items for residents.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

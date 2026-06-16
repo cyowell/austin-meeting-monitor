@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-10-23_119396",
-  "title": "",
+  "title": "Austin Debates Water and Electric Utility Rules",
   "meeting_type": "special called",
   "date": "October 23, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119396",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Utility Infrastructure Management**: The city council held a special meeting to review and act on two ordinances governing Austin's waterworks, electric light, and power plants, including operational rules and service rates.\n\n• **Public Safety Protections**: One ordinance focused on protecting the city's water and electrical infrastructure and property, with penalties established for violations.\n\n• **Service Rate Setting**: The council addressed establishing rates for water and electrical services to the public through the new regulatory framework.\n\n• **Publication and Continued Debate**: The ordinances were read aloud and scheduled for publication in The Statesman newspaper, with the council adjourning to reconvene Friday evening to continue deliberations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

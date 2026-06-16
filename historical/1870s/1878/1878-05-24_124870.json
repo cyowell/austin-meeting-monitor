@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-05-24_124870",
-  "title": "",
+  "title": "Austin's 1878 Tax and Business Regulations",
   "meeting_type": "special called",
   "date": "May 24, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124870",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax ordinance passed**: Council approved a 1% property tax for 1878, with one-sixth of revenues dedicated to paying off city bonds.\n\n• **Corporate property assessment rules established**: New regulations were passed to standardize how companies and corporations would have their property assessed and taxed within Austin.\n\n• **Liquor licenses granted**: Two petitions for retail liquor licenses were approved for Max Pehrmann and W.E.H. Dymock.\n\n• **City appraisers funded**: The council allocated $200 to pay the Board of Appraisers and Equalization for their services in assessing property values.\n\n• **Street lighting ordinance stalled**: A proposed ordinance regulating street lamps failed to advance, with the motion to move it forward defeated by a narrow vote.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

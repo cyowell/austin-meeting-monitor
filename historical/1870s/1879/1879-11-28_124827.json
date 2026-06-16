@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-11-28_124827",
-  "title": "",
+  "title": "Austin Alderman Dispute Resolved in 1879",
   "meeting_type": "special called",
   "date": "November 28, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124827",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Challenge Dismissed** – E. Rains filed a complaint alleging that J.J. Tobin was illegally holding the position of alderman for Ward 4, but the city council ruled the demurrer (legal objection) in Tobin's favor, declaring him the legitimate alderman.\n\n• **Formal Hearing Conducted** – The council held a two-day special meeting to hear arguments from both sides, with each party's lawyer given 15 minutes to present their case before the council voted.\n\n• **Street Infrastructure Review** – The city appointed a Street Committee to inspect and appraise the value of all city-owned lamp posts currently under municipal contract.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-05-07_124780",
-  "title": "",
+  "title": "Austin Election Results and City Budget Approved",
   "meeting_type": "special called",
   "date": "May 07, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124780",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Election Results Certified**: Joseph Nalle won the mayoral race with 1,822 votes over opponent Cummings (703 votes), securing his election as Austin's mayor for a two-year term. School trustees and aldermen from all 10 city wards were also officially elected.\n\n• **Budget Approved**: The City Council appropriated $4,197.54 to pay approved bills, including a $10 payment to Dr. C.E. Fisher for medical care and a $3.50 refund to Mrs. Pfannekuche for pound fees charged when redeeming her milk cow.\n\n• **Public Health Report**: The city physician reported increased sickness among poorer residents due to exposure, with 18 hospital admissions, 3 deaths (from dysentery), and 2 scarlet fever cases in November.\n\n• **Outgoing Mayor Honored**: The Council unanimously passed a resolution thanking outgoing Mayor John M. Robertson for four years of service, praising his \"uniform courtesy, ability and dignity\" in office.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-02-01_122794",
-  "title": "",
+  "title": "Austin's 1886 Street Railway Battles & Infrastructure**",
   "meeting_type": "regular",
   "date": "February 01, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122794",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street Railway Dispute Rejected**: The council repealed a previously granted right-of-way for a streetcar line, then withdrew a new competing proposal after amendments sparked a tie vote that required the mayor to break, highlighting disagreements over where the railways could operate.\n\n• **City Improvements Approved**: Council approved multiple infrastructure projects including a $3,000 iron bridge over Waller Creek, a new arched bridge on College Avenue, and 39 new fire hydrants with extended water mains across the city.\n\n• **City Finances & Services Reported**: January reports showed 91 arrests, modest tax collections totaling $4,137, and 17 deaths recorded by the city sexton, while the city physician noted good public health with only a few measles and scarlet fever cases.\n\n• **Engine House & City Hall Costs Paid**: Council approved $176.50 for extra work on the new engine house and paid an architect $183.05 for city hall improvement plans, settling the latter claim through compromise.\n\n• **Committee Assignments Updated**: Mayor Robertson reassigned three aldermen to fill vacant committee positions, including Cemetery/Charity, Printing/Sanitation, and Fire Department roles.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

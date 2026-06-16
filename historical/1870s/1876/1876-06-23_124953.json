@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-06-23_124953",
-  "title": "",
+  "title": "** Austin Creates City Clerk Office, Relocates Mayor's Office",
   "meeting_type": "special called",
   "date": "June 23, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124953",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New City Clerk Position Established**: The council created the office of City Clerk and appointed John F. Herbert to the role, though the vote was close (5-4), suggesting some disagreement among aldermen.\n\n• **Mayor's Office Moving**: Plans were approved to relocate the Mayor's Office from its current location to a hall above the City Market House, freeing up space for the Washington Fire Company and Hope Hook & Ladder Company.\n\n• **Budget Discussion Delayed**: The Finance Committee's report on city government expenses was discussed but no final decision was made, with a resolution passed to prepare a formal appropriations ordinance for the next meeting.\n\n• **Bond Interest Payment Committee**: A special committee was appointed to arrange payment for city bond interest due July 1st, indicating the city had outstanding debt obligations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-03-06_124763",
-  "title": "",
+  "title": "Austin's Water System & Street Improvements Plan",
   "meeting_type": "regular",
   "date": "March 06, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124763",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water System Infrastructure Investment**: City Council approved a major contract with Howard Harrison Iron Company (lowest bid at $178,750) to supply over 6,700 tons of cast iron water pipe and special castings for Austin's water system expansion.\n\n• **Bridge Construction Debate**: Council postponed a decision on a $2,500 Waller Creek bridge at East Seventh Street after receiving conflicting petitions—123 citizens supported it while 279 opposed it, reflecting community division over the project.\n\n• **Fire Department Equipment Needs**: The Fire Board requested immediate funding for 1,000 feet of fire hose, prompting Council to draft an ordinance appropriating $2,000 to purchase 2,000 feet for the fire department.\n\n• **Major Street Reconstruction**: Council introduced an ordinance to allocate $17,411 for rebuilding the Fifth Street bridge over Waller Creek and repairing other river bridges.\n\n• **Financial Report**: The city treasurer reported a healthy balance of over $265,000 across all funds as of March 6, 1893.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

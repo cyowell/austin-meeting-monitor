@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-02-18_124967",
-  "title": "",
+  "title": "Austin Market Stalls & Hospital Plan 1876",
   "meeting_type": "special called",
   "date": "February 18, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124967",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Market regulations updated**: City council passed an ordinance regulating market stall rentals and coffee stands for the upcoming year, though they debated reducing market boundaries by one block in multiple directions.\n\n• **Hospital proposal considered**: A woman with nursing experience petitioned to convert the old courthouse into a hospital and serve as its superintendent, with the petition referred to the charity committee for review.\n\n• **Liquor licenses approved**: The council granted one license for selling spirits and malt liquors in Ward 2, while referring another application to a special committee for background investigation of the applicants.\n\n• **Street repair dispute**: A property owner requested to use $23 in owed city taxes toward fixing a badly deteriorated street crossing on College Hill that had become impassable due to poor drainage, with the request sent to the streets committee.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-02-05_123229",
-  "title": "",
+  "title": "Austin Infrastructure & Street Safety Improvements",
   "meeting_type": "regular",
   "date": "February 05, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=123229",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Street and Safety Projects**: The council approved multiple street improvements including a $125 footbridge over Waller Creek on East 12th Street, repairs to the Manor Road from East Avenue to city limits, and construction of bridges over Shoal Creek, addressing community transportation needs.\n\n• **Public Health & Sanitation**: Ordinances passed to restrict the display of fresh meats, fish, and oysters on downtown sidewalks (Congress and 6th Streets), reflecting growing urban sanitation concerns in the 1890s.\n\n• **City Budget & Finances**: The council reviewed revenue collection of over $13,000 for the month and approved appropriations totaling $136,710 to cover city employee salaries and operations through November 1894.\n\n• **Fire Department Expansion**: Approved formation of \"Street Austin Hose Company No. 5\" in the 11th Ward with a $600 appropriation, and recommended purchase of a new fire truck for approximately $2,500.\n\n• **Sewerage System Delays**: The Austin City Sewerage Company received a one-year extension to complete sewer construction, particularly on the West side of Shoal Creek, after property owners blocked access through private alleys.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

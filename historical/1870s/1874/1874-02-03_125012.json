@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-02-03_125012",
-  "title": "",
+  "title": "Austin's 1874 Liquor Licenses & Fire Engine Debate",
   "meeting_type": "regular",
   "date": "February 03, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125012",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Multiple liquor licenses approved**: The council granted three petitions for retail liquor privileges in small quantities (less than one quart) to N. P. Jensen, A. G. Bradbury, and Meachell Brothers.\n\n• **Fire engine request sent to mayor**: Residents petitioned for the purchase of a steam fire engine for the Colorado Fire Company No. 2, with the request referred to the mayor for consideration.\n\n• **Four major ordinances passed**: The council unanimously passed new regulations covering business licenses, property taxes, market stall rentals, police conduct, and city marshal fees for 1874.\n\n• **12 new police officers appointed and confirmed**: The Police Committee recommended and the council confirmed a slate of regular policemen to serve the city.\n\n• **Water works project initiated**: A new ordinance for constructing a water system in Austin was introduced and referred to a special five-member committee for further development.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-02-03_124846",
-  "title": "",
+  "title": "** Austin Officials Accept Odd Fellows Lodge Reception",
   "meeting_type": "special called",
   "date": "February 03, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124846",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Main Decision:** The city council unanimously accepted an invitation to attend a reception for the Grand Lodge of the Independent Order of Odd Fellows (a fraternal organization), with officials planning to meet at Congress Avenue and Bois d'Arc Streets at 12:30 PM.\n\n• **Attendance:** Eight aldermen were present for the brief called meeting, with Alderman Crow excused due to illness.\n\n• **Purpose:** This was a special meeting convened solely to decide whether Austin's city leaders would participate in welcoming the state-level Odd Fellows organization to the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

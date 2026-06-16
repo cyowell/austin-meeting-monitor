@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-08-01_121812",
-  "title": "",
+  "title": "** Austin Sewers, Street Work, and Fire Engine Repairs",
   "meeting_type": "regular",
   "date": "August 01, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121812",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Sewer System Contract Approved**: The Lewis Mercer Construction Company accepted the city's agreement to build underground sanitary sewers throughout Austin's streets and alleys.\n\n• **Street Improvements Requested**: St. Mary's Academy petitioned the council to excavate and widen streets north and west of block 60, referred to the Street Committee for action.\n\n• **Waste Disposal Concerns**: Citizens submitted a petition asking the city to prohibit the transport of offensive materials through streets during daytime hours, sent to the Sanitation Committee.\n\n• **Fire Engine Repairs Needed**: The Fire Commissioners requested expedited repairs on a steam fire engine at a local foundry, including modifications to connect to fire hydrants or cisterns.\n\n• **Budget Approvals**: The council approved two spending measures totaling over $22,000 for contractor payments and city accounts.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

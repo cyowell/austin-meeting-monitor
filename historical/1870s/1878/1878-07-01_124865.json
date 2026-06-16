@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-07-01_124865",
-  "title": "",
+  "title": "Austin's Fire Department & Holiday Plans",
   "meeting_type": "regular",
   "date": "July 01, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124865",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fourth of July Celebration Approved** – The council authorized Mayor De Gress to declare July 4th a city holiday and appointed a committee of aldermen and local citizens to organize suitable Independence Day festivities.\n\n• **Fire Department Equipment Debate** – Mayor De Gress questioned whether the city could afford a $500 fire equipment purchase for a new Hook & Ladder Company north of the Capitol, suggesting the city's existing $2,650 fire extinguisher might be repurposed instead due to budget concerns.\n\n• **City Officer Salaries Established** – The council passed new salary ordinances for municipal positions, including the Mayor ($2,000/year), City Marshal ($1,800/year), and various other officials, with several amendments to increase compensation.\n\n• **Infrastructure Improvements Authorized** – Funding was approved for a $250 footbridge over Waller Creek on Red River Street and a $167 bridge repair at Chestnut Street, plus $100 for tax roll preparation.\n\n• **Business Licenses & Ordinances** – The council granted a retail liquor license, established new fire regulations and safety limits for the city, and contracted with the Texas Capital newspaper to print the city's updated charter and ordinances.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-08-07_124750",
-  "title": "",
+  "title": "Austin's 1893 water contracts and dyke expansion debate",
   "meeting_type": "regular",
   "date": "August 07, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124750",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water & Gas Service Contracts**: The Austin Water Light and Power Company proposed continuing fire hydrant service (170 hydrants for $6,050) and public water utilities through the end of 1893, while the Gas Light and Coal Company offered street lighting with 100 gas lamps and 20 gasoline lamps at $3.60 per lamp monthly.\n\n• **Failed Dyke Expansion**: A proposed project to widen the riverbank dyke (south side of the Colorado River) was indefinitely postponed after debate, despite county willingness to contribute workers and equipment—the council voted 13-9 to delay amid concerns about costs and land owner compensation.\n\n• **Tax Assessment Overhaul**: The council passed an ordinance expanding the board of equalization from 3 to 5 members and allowing them to correct assessment errors within 60 days of completing their work, improving taxpayer appeal processes.\n\n• **Liquor Tax Ordinance**: The council quickly approved a new occupation tax on spirits, wine, beer, and medicated bitters sales, establishing a licensing and tax collection system with penalties for violations.\n\n• **Infrastructure Repairs**: The city approved funds to repair a decaying bridge over Bouldin's Creek on the Bastrop road and directed the city marshal to remove an obstructing water hydrant on Sixteenth Street.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-06-25_122699",
-  "title": "",
+  "title": "Austin Honors Deceased Alderman Brueggerhoff",
   "meeting_type": "special called",
   "date": "June 25, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122699",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Memorial Meeting Called**: Mayor W.A. Saylor convened an emergency City Council session on June 25, 1883, primarily to honor the passing of Alderman William Brueggerhoff, described as one of Austin's most energetic and active citizens.\n\n• **Official Mourning Period**: The council unanimously adopted resolutions requiring all council members and city officials to wear mourning badges for 30 days and to have the council chambers draped in mourning for the same period.\n\n• **Full Funeral Attendance**: The entire City Council agreed to attend Brueggerhoff's funeral as a body, and official condolences were extended to his widow and children.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

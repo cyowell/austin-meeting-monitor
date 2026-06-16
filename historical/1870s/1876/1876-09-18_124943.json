@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-09-18_124943",
-  "title": "",
+  "title": "** Austin's 1876 Street Lights and Mill Projects",
   "meeting_type": "special called",
   "date": "September 18, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124943",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street lamp contract cancelled:** The city ended its contract with John Louden for maintaining public oil street lamps at the end of September 1876, with the city marshal taking charge of all lamps and equipment.\n\n• **Lawsuit settlement authorized:** Council members were empowered to negotiate a settlement or compromise in a pending lawsuit against the city in district court (specific details illegible in the record).\n\n• **Cotton and wool mill deadline extended:** J.J. Brown, who leased the old Mills property, requested and received additional time until June 1877 to complete construction of a cotton and woolen mill with machinery.\n\n• **Ordinance #86 passed:** The council unanimously advanced a key ordinance through all three required readings in an expedited process.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

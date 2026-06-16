@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-04-01_124877",
-  "title": "",
+  "title": "Austin's 1878 Fire Bell and Market House Debates",
   "meeting_type": "regular",
   "date": "April 01, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124877",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Leadership Confirmed** – The council unanimously elected Jos A Nagle as Fire Chief, C F Millett as Assistant Chief, and J Ruchman as Fire Department Recorder, and approved a $1,500 ordinance to purchase and install a 3,000-pound fire alarm bell on the Market House.\n\n• **Controversial Market House Ordinance Tabled** – After contentious debate, the council postponed a decision on the Pecan Street Market House ordinance, with Mayor DeGruis defending the process against concerns from multiple aldermen who disagreed over market boundaries and free market access.\n\n• **Tax Exemptions Approved for Local Industries** – The council passed an ordinance exempting certain manufacturers and industries from city taxes to encourage business development in Austin.\n\n• **Street and Infrastructure Improvements Discussed** – Multiple petitions addressed city infrastructure, including requests to replace kerosene street lamps with gas lights, install new lamp posts, and repair water damage to private property caused by city-altered water flow.\n\n• **Routine City Business and Licenses Granted** – The council approved several liquor retail licenses, meat market permits, and property use requests, plus compensated a citizen $25.25 for property damage from a shooting incident.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

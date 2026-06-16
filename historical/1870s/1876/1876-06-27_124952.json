@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-06-27_124952",
-  "title": "",
+  "title": "** Austin Tax Collection & City Hall Move 1876",
   "meeting_type": "special called",
   "date": "June 27, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124952",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax ordinances passed unanimously** – The council swiftly approved two tax-related measures: one establishing the process for collecting taxes and another levying taxes for 1876, though two aldermen (Goodale and Taylor) opposed the second measure.\n\n• **City hall consolidation approved** – Most city offices were ordered to relocate to the new City Hall building once it was ready, streamlining government operations in one location.\n\n• **Citizen petitions addressed** – The council handled requests including assistance for a woman needing travel funds to Missouri, release from a liquor dealer's bond, and continued contract negotiations for street lamp maintenance.\n\n• **Financial oversight requested** – The city clerk was instructed to prepare a comprehensive report on the city's debt, outstanding warrants, and budgetary needs for the next meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

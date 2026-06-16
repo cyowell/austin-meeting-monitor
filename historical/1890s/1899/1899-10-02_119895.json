@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-10-02_119895",
-  "title": "",
+  "title": "** Austin Water Crisis and Fire Safety Rules 1899",
   "meeting_type": "regular",
   "date": "October 02, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119895",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water company franchise expired**: The Water, Light and Power Company's permission to use city streets for poles and wires expired in October 1897, prompting the city to demand their removal.\n\n• **Water shortage restrictions**: During a water scarcity, the council requested citizens stop using city water for sprinkling trees and yards, asking the Water & Light Commission to enforce the ban.\n\n• **Fire safety enforcement**: New rules mandated that fire companies must use only approved water sources and follow the fire chief's orders, with violations resulting in 30-day suspensions or expulsion from the department.\n\n• **Investigation of water plant troubles**: A proposal to create a 30-citizen committee to investigate complaints about the Water & Light Plant's poor performance was introduced but defeated by the council.\n\n• **Routine city business**: The council approved $1,490.90 in expenses, authorized oil purchases for street sprinkling, and moved meeting times to 8 p.m.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

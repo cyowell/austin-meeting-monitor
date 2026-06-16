@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-02-21_119856",
-  "title": "",
+  "title": "Austin Plans 1898 G.A.R. Encampment and Budget",
   "meeting_type": "regular",
   "date": "February 21, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119856",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **G.A.R. State Encampment Coming April 21-24** – The city council appointed a committee to coordinate with the Grand Army of the Republic (a Civil War veterans organization) and the Commercial Club to welcome the state encampment to Austin during San Jacinto Day celebrations.\n\n• **Annual Budget Approved** – Council adopted a $91,968 budget for the fiscal year, covering salaries, police, fire department, street lighting, charity, and hospital services.\n\n• **Railroad Spur Line Proposed** – Gas and ice companies requested permission to build a new railroad switch connecting to the International & Great Northern Railroad along West Third Street to the riverfront.\n\n• **Property Tax Redemption Ordinance Passed** – Residents were authorized to reclaim property previously sold for unpaid taxes by paying the full amount owed, allowing property owners a second chance at recovery.\n\n• **Water Company Disputes Continue** – Council directed the Finance Committee to attempt settlement negotiations with the Old Water and Light Company over pending lawsuits affecting city operations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

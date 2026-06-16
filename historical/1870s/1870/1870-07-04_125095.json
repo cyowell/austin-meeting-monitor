@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-07-04_125095",
-  "title": "",
+  "title": "Austin's 1870 Fight Against Red Light Districts",
   "meeting_type": "regular",
   "date": "July 04, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125095",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Regulation of Brothels**: The council debated an ordinance to regulate \"houses of ill fame\" (brothels), approving most sections while rejecting two controversial provisions.\n\n• **Constitutional Review Requested**: Mayor Leander Bowers was asked to consult with the Governor about whether the ordinance's fifth section was legally constitutional before the next meeting.\n\n• **City Marshal Authority Question**: Council sought clarification from the Governor on whether he would appoint a City Marshal or allow the council to hire someone for this law enforcement role.\n\n• **June Budget Approved**: The council approved approximately $184 in expenses, including police officer salaries ($40 each), prisoner care, and city administrative costs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

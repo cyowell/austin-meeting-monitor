@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-07-01_122866",
-  "title": "",
+  "title": "Austin's 1889 Budget & School Tax",
   "meeting_type": "regular",
   "date": "July 01, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122866",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **School funding approved**: Council passed a tax ordinance to levy one-third of one percent on all property to fund Austin's public schools for 1889.\n\n• **City payroll and expenses**: Council approved $3,100 for July city employees and $7,766.45 to pay approved accounts, including a legal fee for a court case against the city.\n\n• **Fireman uniform requirement**: New ordinance mandated that firefighters wear uniforms when responding to fires or face expulsion from the scene.\n\n• **Water company negotiations**: Council formed a special committee to negotiate a new contract with the water company, potentially seeking better rates for Austin.\n\n• **Business licensing regulations**: Council debated an ordinance regulating occupation licenses and taxes, including $5/month fees for street vendors, though final passage was delayed.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

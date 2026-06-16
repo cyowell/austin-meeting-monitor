@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-04-29_122657",
-  "title": "",
+  "title": "** Austin Railroad Crossing Permissions 1882",
   "meeting_type": "special called",
   "date": "April 29, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122657",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Railroad Expansion Approved**: The council granted the International & Great Northern Railroad permission to cross Congress Avenue, with the requirement that the railroad maintain the crossing in good repair.\n\n• **Special Committee Formed**: A committee of three aldermen, plus the Mayor and City Attorney, was appointed to oversee the railroad crossing agreement and ensure compliance.\n\n• **Attendance Enforcement**: Three aldermen were each fined $1 for missing the meeting, showing the council took attendance seriously.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

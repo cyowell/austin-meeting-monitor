@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-09-03_122089",
-  "title": "",
+  "title": "** Austin's Dam Power House Faces Pump Problems",
   "meeting_type": "regular",
   "date": "September 03, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122089",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Power Plant Delays:** A major construction project for the city's new power house foundation hit a roadblock due to flooding and inadequate pumps. The city engineer recommended replacing current pumps with better equipment to complete the work within 20 days.\n\n• **Contractor Payment Dispute:** The council voted 18-4 to pay contractor Brown & Dabney $3,642.79 for their work, despite one alderman's concerns that the contractors were behind schedule and forfeiting $50 per day in penalties.\n\n• **Waller Creek Bridge Approved:** The council unanimously approved spending $1,568.85 to construct a stone arch bridge over Waller Creek on East First Street.\n\n• **Police and Butcher Market Regulations:** The council considered multiple petitions to appoint new police officers and received a proposal from local butchers to consolidate their business at the old market square rather than operate throughout the city.\n\n• **Electric Wiring Safety Standards:** The council passed new regulations to supervise electric wiring in Austin and establish penalties for violations of the standards.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-05-16_121803",
-  "title": "",
+  "title": "** Austin Approves Dam Boulevard, Cemetery Upgrades, Streetcar Franchise",
   "meeting_type": "regular",
   "date": "May 16, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121803",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Purchased five mules for city use** – Council approved spending $617.45 to buy mules for municipal operations, part of ongoing city infrastructure needs in 1892 Austin.\n\n• **Approved $5,000 for Colorado River dam project** – Largest expenditure authorized to fund engineering department costs for planning and constructing a proposed dam across the Colorado River.\n\n• **Granted streetcar franchise to J. Deyes Newlenbeck** – City approved a street railway with safety amendments, including protections against river flooding and provisions for firefighters traveling to emergencies.\n\n• **Funded cemetery improvements ($150)** – Council appropriated money for trash boxes and maintenance work at City Cemetery, responding to requests from the Ladies Cemetery Association to beautify the grounds.\n\n• **Ordered slaughter houses removed from city limits** – Council directed immediate enforcement of health codes against nuisance slaughterhouses (like August Frick's facility near the Lunatic Asylum), giving owners 10 days to relocate operations outside city boundaries.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

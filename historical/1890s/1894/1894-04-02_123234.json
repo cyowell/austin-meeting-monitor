@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-04-02_123234",
-  "title": "",
+  "title": "Dam Railroad Land Purchase and Fire Department",
   "meeting_type": "regular",
   "date": "April 02, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=123234",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Land Acquisition Settlement**: The council approved a $2,500 appropriation to settle a dispute with Mrs. L.C. Pease and the heirs of John W. Harris for land occupied by the dam railroad, resolving a longstanding property rights case.\n\n• **Fire Department Leadership Elected**: Albert Peterson was elected Chief and William P. Ford as Assistant Chief of the Austin Fire Department; the council also approved $60 annually for regular maintenance and testing of the fire department's steam engine.\n\n• **Cemetery and Infrastructure Improvements**: The council approved $300 for water at City Cemetery and $125 to repair the damaged Baudlin Creek Bridge wing wall on South Congress Avenue, plus passed an ordinance prohibiting dogs from entering the cemetery.\n\n• **Bond Investment and Municipal Finance**: The council authorized investing accumulated waterworks and electric light funds ($29,980+) into purchasing $33,500 worth of outstanding 10 percent city bonds, demonstrating commitment to paying civic obligations.\n\n• **Tribute to Former Mayor**: A petition from the Grand Army of the Republic urged the council to formally recognize the death of former Mayor J.C. De Gress and drape his portrait in the council chambers for 30 days.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

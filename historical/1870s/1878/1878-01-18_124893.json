@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-01-18_124893",
-  "title": "",
+  "title": "Austin Water Reservoir Fails Inspection",
   "meeting_type": "special called",
   "date": "January 18, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124893",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water Company Didn't Meet Contract Terms** – A special committee found the City Water Company's new reservoir incomplete, lacking protective masonry lining. Without it, the reservoir would deteriorate quickly and require frequent costly cleanups, failing to meet the January 1st deadline promised in their contract with Austin.\n\n• **Mayor Vetoes Railroad Culvert Project** – Mayor De Gress blocked a council resolution to fill culverts on the railroad's property, arguing the city lacked legal authority to interfere with corporate property and could face damage lawsuits. The matter was referred to the ordinance committee.\n\n• **Fire Department Needs Bigger Equipment House** – The Hoffe Hook and Ladder Company requested a 15-foot extension to their truck house to properly store firefighting equipment, which the fire chief recommended.\n\n• **Street Projects Getting Funding Adjustments** – The Street Committee rejected a $250 appropriation for repairing the Chat River Bridge approaches and proposed a $1,200 ordinance instead for removing a building on Black River Street.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

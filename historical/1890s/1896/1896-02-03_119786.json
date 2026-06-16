@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-02-03_119786",
-  "title": "",
+  "title": "Austin 1896 Dam Compensation, Water Expansion",
   "meeting_type": "regular",
   "date": "February 03, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119786",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water & Electric Growth**: The city added 60 new water customers and 41 new electric customers in January, with revenues of over $3,000 for the month. The system continued expanding with work on service extensions and connections.\n\n• **Property Damage Settlements**: The council approved compensation payments for citizens whose land was damaged by the city's dam construction and sewers, including $263.75 to Mrs. Eliza Marshall and $18 to W.M. Platt.\n\n• **Baseball Park Decision**: After a close vote decided by the Mayor's tie-breaking vote, the council granted the Austin Baseball & Athletic Association free use of the city barn for one year to improve and maintain as an athletic ground.\n\n• **Infrastructure Improvements**: The council approved funding for multiple city projects including street improvements, rock culverts, extra sanitary and street laborers, and maintenance of the dam and water system.\n\n• **City Finances**: The city treasurer reported total funds of over $95,000 on hand, with various funds tracked for general operations, water/light utilities, paving, and bonds.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

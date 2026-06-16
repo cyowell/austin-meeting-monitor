@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-11-04_122872",
-  "title": "",
+  "title": "Austin Plans December Election, Approves Fire Department Funds",
   "meeting_type": "regular",
   "date": "November 04, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122872",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Municipal Election Scheduled**: The city council voted to hold a general election on Monday, December 2, 1889, with disputes over polling locations and election judges reflecting divisions within the council.\n\n• **Fire Department Funding Approved**: After the mayor withdrew his veto, the council unanimously passed a $2,000 appropriation to purchase fire hoses for the city's fire department.\n\n• **New Gas Works Authorized**: Sylvester Watts officially accepted the city's contract to establish and operate gas works in Austin, marking a major infrastructure development.\n\n• **Street and Infrastructure Improvements**: The council approved funding for a footbridge over Waller Creek on Sabine Street ($75) and referred requests for water hydrant relocation and electric street lights to committee for further review.\n\n• **Routine City Operations**: The council approved various departmental reports, minor appropriations for fire department equipment ($50 for nozzles), and authorized routine city expenses totaling over $5,000 for November payroll and accounts.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

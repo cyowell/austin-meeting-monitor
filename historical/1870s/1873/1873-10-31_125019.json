@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-10-31_125019",
-  "title": "",
+  "title": "Austin Gas Works Franchise Approved 1873",
   "meeting_type": "special called",
   "date": "October 31, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125019",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Gas monopoly granted**: The city council approved an exclusive 25-year contract with Sylvester Watts of St. Louis to build and operate Austin's first gas works, giving him sole rights to lay pipes and supply gas throughout the city.\n\n• **Price controls established**: Gas prices were capped at $7 per 1,000 cubic feet, with a requirement that the company provide quality gas equivalent to at least 15 candlepower. If Houston charged less, Austin's price would match it.\n\n• **Construction deadline set**: Watts was required to begin construction by February 1877 and complete the gas works by December 1877, or lose his franchise rights.\n\n• **Tax incentive offered**: In exchange for providing gas to the city at a 10% discount for public use, the gas company and all its property would be exempt from city taxes for the 25-year contract period.\n\n• **Election results certified**: The council also certified the results of the November 3rd municipal election, confirming J.B. Wheeler as mayor and approving nine new aldermen for two-year terms.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

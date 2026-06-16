@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-01-04_119819",
-  "title": "",
+  "title": "Austin 1897 Water Safety Plan & Fire Dept Upgrade",
   "meeting_type": "regular",
   "date": "January 04, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119819",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water Quality Improvement Project Approved**: City Council authorized a bond issue and new equipment to provide clean water to Austin residents, reflecting growing concerns about water safety in the city.\n\n• **Fire Department Gets Lifesaving Equipment**: Council approved $50 funding to purchase a Loeb Respirator for firefighters—an early respiratory protection device—over the objections of some aldermen concerned about city finances.\n\n• **City Treasurer's Financial Oversight Strengthened**: Council increased the City Treasurer's required bond from $30,000 to $50,000, ensuring better protection of public water and light funds during this period of growth.\n\n• **Government Accountability Measures**: City received competitive bids for printing council proceedings and job printing services, while committees oversaw municipal operations including hospital services (24 patients), water service growth (+24 new customers that month), and public safety (63 arrests in December).",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

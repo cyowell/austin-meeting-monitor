@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-09-06_124977",
-  "title": "",
+  "title": "Austin's 1875 Liquor Licenses and City Charter",
   "meeting_type": "regular",
   "date": "September 06, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124977",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Liquor licensing boom**: The council granted five new licenses to sell spirits and malt liquor in small quantities across different city wards, showing a growing commercial demand for alcohol retail.\n\n• **Infrastructure investments**: Approved $2,810 for building a stone bridge across Shoal Creek and $20 to deepen a public well, plus agreed to explore a new street parallel to Cypress Street.\n\n• **Charter amendments for voter approval**: Proposed sweeping changes to city government including new powers for tax collection, dog and livestock regulation, creation of a City Recorder position, and established official salaries (Mayor: $2,000/year; City Marshal: $1,800/year).\n\n• **Cemetery expansion and street improvements**: Authorized surveying and beautifying newly purchased cemetery grounds and committed to improving a gulch crossing on Mesquite and San Antonio streets.\n\n• **Election preparations**: Authorized the Mayor to register voters and hire two additional special police officers for an upcoming convention or election period.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-03-08_124881",
-  "title": "",
+  "title": "Austin's 1870s Crime Laws and City Infrastructure",
   "meeting_type": "special called",
   "date": "March 08, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124881",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New ordinances passed to regulate weapons and public order**: Austin's council enacted laws defining and punishing vagrants, prohibiting unlawful assemblies, and regulating the carrying of deadly weapons—showing the city's growing efforts to maintain public safety and order.\n\n• **Infrastructure improvements approved**: The council authorized $25.46 in funding for a drainage system at a storehouse on Pecan Street, with the city engineer presenting cost-effective options for the project.\n\n• **Police force reduction considered**: A proposal to reduce the police force from its current size to 24 men was referred to the Police Committee for further review and recommendation.\n\n• **Plans for a public market on Pecan Street**: An ordinance was introduced to establish and build a Pecan Street Market, though it required further committee review before moving forward.\n\n• **Fire department supply request approved**: The city authorized the fire department to purchase discounted cotton waste for cleaning fire engines from a bankrupt stock sale.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

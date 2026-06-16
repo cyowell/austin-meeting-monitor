@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-06-26_124919",
-  "title": "",
+  "title": "Austin's 1877 Drainage Crisis and Safety Concerns",
   "meeting_type": "special called",
   "date": "June 26, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124919",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Dangerous ammunition storage abated**: City residents petitioned against a hazardous arsenal building on Walnut and Brazos streets filled with powder and ammunition. The City Marshal was ordered to give owners 10 days to remove all explosives from the neighborhood.\n\n• **Major drainage problems plague downtown**: The City Engineer reported serious flooding issues in the 10th Ward caused by the Central Railroad's poorly maintained culverts, creating standing ponds that damaged businesses and health. The railroad was directed to improve water drainage systems.\n\n• **Congress Avenue gutters clogged with debris**: Sand and mud accumulated after every rain due to inconsistent street grades that blocked water flow. The engineer recommended laying flagstone in gutters to improve drainage.\n\n• **New Market Master and Health Officer hired**: Council created a police officer position for market and health oversight at $50/month, though the vote was so close the mayor had to break a tie.\n\n• **Engineer's back pay approved**: The city authorized $450 in overdue salary for the City Engineer covering nine months of work.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",
