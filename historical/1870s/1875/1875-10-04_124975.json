@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-10-04_124975",
-  "title": "",
+  "title": "Austin's 1875 Fire Department & Infrastructure Budget",
   "meeting_type": "regular",
   "date": "October 04, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124975",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Fire Department Funding & Equipment**: Council approved $400 for fire department supplies and authorized the Fire Committee to purchase requested items from the Chief Engineer, plus authorized a new fire truck location for Hofstetler and Ladder Company No. 2.\n\n• **Ice Factory & Business Licenses**: Confirmed Joseph Brunet's lease for an ice factory on the river-walk and allowed him to transfer partial ownership to R.J. Swanscoat; also granted multiple liquor retail licenses across different city wards.\n\n• **Infrastructure Improvements**: Allocated $800 for a drainage ditch and culvert on Robertson Hill, plus $75 to fill a fire cistern at Congress and Mulberry, with additional street lamp repairs authorized.\n\n• **Cemetery & Tax Matters**: Established a special fund from cemetery lot sales to improve the new addition, and extended the tax payment deadline to November 1st with a 10% penalty waiver.\n\n• **Election Regulations**: Required voter registration (office open until 9 PM on October 30th) and denied a fourth ward petition for an additional polling location.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-12-02_124850",
-  "title": "",
+  "title": "Austin's 1878 Plans for Sewers, Fire Chief Farewell**",
   "meeting_type": "regular",
   "date": "December 02, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124850",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Infrastructure Investment**: City Council approved funding and directed the engineer to survey and design a major sewer system running from the Capitol grounds along Congress Avenue to the Colorado River—an ambitious project aimed at improving the city's sanitation.\n\n• **Fire Department Transition**: The council accepted the resignation of Fire Chief Joseph A. Nagle after five years of service, with warm remarks from leadership, and ordered an election for his replacement.\n\n• **Healthcare Partnership**: The city approved a contract to purchase five beds (later reduced to three) at the City Hospital for $25/month per bed, partnering with local doctors to provide public health services.\n\n• **Street and Infrastructure Repairs**: Multiple funding resolutions passed to improve streets and bridges across different wards, including repairs to Sabine Street, Waller Creek bridges, and various crossings throughout the city.\n\n• **City Governance Change Failed**: A proposal to eliminate aldermen's meeting compensation and attendance fines ended in a tie vote, with the mayor casting the deciding vote against it—reflecting disagreement among council members about how to handle their own benefits.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

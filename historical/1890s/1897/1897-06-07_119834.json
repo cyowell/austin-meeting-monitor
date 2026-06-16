@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-06-07_119834",
-  "title": "",
+  "title": "Austin Infrastructure & Police Disputes in 1897",
   "meeting_type": "regular",
   "date": "June 07, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119834",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Mayor Vetoed Police Force Expansion**: Mayor Lewis Hancock vetoed an ordinance to increase the police force, citing budget constraints and arguing the current force was already sufficient. The council failed to override his veto (5 yes, 15 no).\n\n• **Street & Infrastructure Projects Approved**: The council approved a $40 culvert project on San Antonio Street and a $83.91 roof repair for the South Austin Fire Company, while also commissioning a committee to push county commissioners to repair the Colorado River Bridge.\n\n• **Financial Reports & Budget Status**: City finances showed a general fund balance of $682.84 with $8,716.66 collected in taxes that month, though the mayor warned the tight budget left little room for additional spending.\n\n• **Public Service Requests**: Citizens petitioned for a new police officer assignment to the 5th Ward and requested water mains be installed at Austin City Cemetery, both referred to appropriate committees.\n\n• **Investigation Into Street Department**: The council appointed a 3-member committee to investigate allegations against the Street Superintendent regarding how city prisoners were being utilized in street work.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

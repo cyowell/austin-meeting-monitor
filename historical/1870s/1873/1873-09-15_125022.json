@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-09-15_125022",
-  "title": "",
+  "title": "Austin Gas & Water Works Bond Approved",
   "meeting_type": "regular",
   "date": "September 15, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125022",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Gas and Water Works Bond Passes**: Voters approved a $100,000 bond issue to fund Austin's new gas and water works system, with 385 votes in favor and 152 opposed.\n\n• **Public Infrastructure Improvements**: The city approved funding for a public well near the railroad freight depot ($250), authorized repairs to the Waller Creek bridge on Pecan Street, and granted permission to open Ash Street between Guadalupe and Nueces streets.\n\n• **Health and Safety Measures**: The council passed a resolution authorizing the mayor to implement quarantine regulations and take sanitary actions if Austin received communications from infected cities like Galveston or Houston.\n\n• **Local Business Regulations**: The council addressed Sunday business hours by instructing that barbershops remain closed until 11 a.m. on Sundays, and reviewed applications for new meat market permits.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

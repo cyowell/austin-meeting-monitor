@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-11-07_125088",
-  "title": "",
+  "title": "** Austin City Budget & Street Improvements 1870",
   "meeting_type": "regular",
   "date": "November 07, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125088",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Municipal Budget Approved**: The council unanimously approved nearly $532 in quarterly appropriations to cover essential city services including salaries for the mayor, city marshal, police officers, and the sexton (cemetery caretaker).\n\n• **Public Health Report**: The city sexton reported 13 deaths in October (5 adults and 8 children), reflecting mortality rates in this period and the council's role in tracking public health.\n\n• **Cemetery Maintenance Funded**: The council approved $27.50 in additional funding for cemetery upkeep and improvements, showing civic investment in burial grounds.\n\n• **Street Improvements Requested**: Citizens from the northeast part of Austin petitioned the city for continued street grading and improvements, which was referred to the Street Committee for consideration.\n\n• **New City Surveyor Position Proposed**: An alderman introduced an ordinance to create a new city surveyor position, suggesting Austin was growing and needed better infrastructure planning.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

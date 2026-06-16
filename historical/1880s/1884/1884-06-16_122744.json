@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-06-16_122744",
-  "title": "",
+  "title": "Austin Cemetery Site Selection Battle",
   "meeting_type": "regular",
   "date": "June 16, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122744",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Cemetery Site Debate**: The council received competing proposals for a new cemetery location, with a majority committee recommending Col. Breckenridge's 520-acre tract west of the city (costing approximately $39,600), while a minority report urged purchasing a nearby 20-acre expansion from the existing cemetery instead for a much lower cost.\n\n• **Bridge Controversy on Congress Avenue**: Residents petitioned against removing bridges at street crossings on Congress Avenue, while another petition requested permission to install water standpipes if the bridges were removed—the council granted the standpipe request conditionally.\n\n• **Infrastructure Improvements**: The council allocated $800 for sewer repairs at the foot of Congress Avenue and approved establishing proper grades in front of specific city blocks.\n\n• **Police Appointment**: John Legier was confirmed as a special police officer on recommendation of the police committee.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

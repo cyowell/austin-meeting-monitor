@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-03-16_119792",
-  "title": "",
+  "title": "Austin 1896 Water Project and Fire Hall Spending Approved",
   "meeting_type": "regular",
   "date": "March 16, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119792",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Mayor Vetoed Bridge-Building Plan**: Mayor Lewis Hancock rejected a proposal to use surplus water pipes for bridge construction, citing the city's financial strain and the potential need for those pipes in future water storage systems and industrial development like a planned cotton mill.\n\n• **Fire Department and Infrastructure Funding**: Council approved $500 for fire hall entrance repairs and $5 for enlarging the fire department's door, reflecting ongoing investments in emergency services.\n\n• **Bond Payments Authorized**: The city passed ordinances appropriating $16,687.50 and $2,175 to cover interest payments due on water works, electrical, and funding bonds—major financial obligations for the city's infrastructure projects.\n\n• **Street and Bridge Petitions**: Citizens requested improvements including opening East Fourth Street, bridging Waller Creek on Third Street, and sprinkling Lavaca Street—all referred to appropriate committees for further study.\n\n• **Electric Utility Rates Stalled**: A proposed ordinance setting rates for alternating electric current for heating, cooking, and arc lamps advanced only to second reading, facing resistance that prevented final passage.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

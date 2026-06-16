@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-04-06_122070",
-  "title": "",
+  "title": "Austin Cemetery & Dam Projects Advance in 1891",
   "meeting_type": "regular",
   "date": "April 06, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122070",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Competing Cemetery Plans**: The council reviewed two proposals for establishing Austin's first public cemetery. The committee recommended Mrs. Maggie Stiles' plan to create an 80-acre cemetery with 10 acres dedicated free for pauper burials, with final approval deferred to a special committee.\n\n• **Major Water Infrastructure Investment**: The council approved over $11,000 in payments for dam construction and railroad infrastructure connecting to the water system, signaling significant investment in the city's water and light system development.\n\n• **Smallpox Hospital Funding**: Approved $1,000 appropriation to maintain a dedicated facility for treating smallpox patients, reflecting public health concerns of the era.\n\n• **Employee Payroll Approved**: Authorized $3,450-$5,200 in funding to pay city officers and workers for upcoming months, with an amendment extending coverage through September 1891.\n\n• **Fire Department Election Dispute**: The fire department chief election ended with no clear winner, as no candidate received a majority of votes despite two candidates tying with 53 votes each, requiring further council action.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

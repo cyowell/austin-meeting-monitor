@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-04-26_124926",
-  "title": "",
+  "title": "** Austin Mill Lease & Ward 10 Election Results 1877",
   "meeting_type": "special called",
   "date": "April 26, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124926",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New Alderman Elected**: Louis Maas won the Ward 10 alderman election with 43 votes, defeating two other candidates, and was sworn in during the meeting.\n\n• **Mill Property Development**: J.D. Boudenant requested to lease the old mill property for manufacturing purposes; the council approved sending the petition to a three-person committee (including the Mayor) to review and decide on the lease terms.\n\n• **Butcher License Relief**: A petition from butchers Trunk sought exemption from paying business licenses; the council referred this to the Mayor and Market House Committee for decision.\n\n• **Legal Representation**: The council hired the law firm Hancock & [illegible] to represent the city's interests in pending district court cases.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

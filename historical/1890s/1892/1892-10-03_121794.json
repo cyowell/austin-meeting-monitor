@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-10-03_121794",
-  "title": "",
+  "title": "Austin's Water System Expansion & Tax Relief",
   "meeting_type": "regular",
   "date": "October 03, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121794",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major infrastructure spending approved**: The council appropriated over $53,000 to fund the construction and expenses of Austin's new water works and electric light system, marking a significant modernization effort for the city.\n\n• **Tax break for utilities**: An ordinance passed that reduced taxes owed on water and electric light bonds for 1892, providing financial relief related to the new infrastructure projects.\n\n• **Barbed wire fences banned**: A new ordinance was introduced to prohibit barbed wire fences on city property, reflecting concerns about public safety or aesthetics in residential areas.\n\n• **Cemetery expansion withdrawn**: The Austin City Cemetery Association dropped its proposal to expand the city cemetery, simplifying land use planning for that area.\n\n• **Property accountability issue**: The council formed a special committee to investigate the Capitol Ice Company's failure to pay rent on leased city property for several years, with the goal of potentially reassigning the land to new tenants interested in operating a foundry.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

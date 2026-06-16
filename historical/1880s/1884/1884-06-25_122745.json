@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-06-25_122745",
-  "title": "",
+  "title": "** Austin's 1884 Financial Crisis and City Bond Sale",
   "meeting_type": "special called",
   "date": "June 25, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122745",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Critical budget shortfall**: Austin faced a severe financial crisis with nearly $95,000 in immediate debt obligations, forcing the city to drain its treasury. The council approved issuing $40,000 in bonds to pay off outstanding warrants and fund permanent improvements.\n\n• **Street and bridge repairs**: Mayor Robertson highlighted that Austin's streets and bridges were in terrible condition and urged the council to focus on permanent, quality improvements rather than temporary fixes that waste money.\n\n• **School tax increase approved**: Voters narrowly passed a measure to increase school taxes, with the community expressing strong support for expanding the city's public school system.\n\n• **Tax and appraisal board delays**: The council addressed administrative failures, including the failure to set tax rates on time and appoint required board members to handle property assessments—issues that needed immediate correction.\n\n• **Police and utility oversight**: The mayor recommended reforms to the police department's accounting systems and suggested the city maintain better supervision over the expensive water company contract and negotiate improved gas lighting service.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-05-18_125073",
-  "title": "",
+  "title": "** Austin's 1871 Hospital, Tax, and Railroad Plans",
   "meeting_type": "special called",
   "date": "May 18, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125073",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Public Health Initiative**: The Board of Health recommended establishing a permanent City Hospital with a dedicated City Physician to oversee public health matters in Austin.\n\n• **Merchant Tax Clarification**: City Council unanimously approved a resolution clarifying that a tax increase on merchandise applied only to real estate and personal property, not to goods received by merchants for sale—keeping merchant taxes at the lower rate of one-quarter of one percent.\n\n• **Famous Visitor Cancellation**: Horace Greeley, the prominent New York newspaper editor, had to skip his planned visit to Austin due to lost luggage and severe flooding that made roads impassable.\n\n• **Infrastructure Developments**: The council received proposals from the Austin City Gas Company and the International Railroad Company regarding bridge construction over the Colorado River near Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

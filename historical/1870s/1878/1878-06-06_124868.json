@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-06-06_124868",
-  "title": "",
+  "title": "Austin's 1878 Bird Protection & Bridge Plans",
   "meeting_type": "special called",
   "date": "June 06, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124868",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Meat Market Approved**: The council granted C.P. Naigler permission to open a meat market at the corner of Pecan Street and West Avenue.\n\n• **Rock Bridge Construction**: Aldermen approved $500 for building a stone bridge on West Bois d'arc Street (25 feet wide, 2 feet high) to improve street grading in that area.\n\n• **Wildlife Protection Law**: The city passed an ordinance to protect mockingbirds and other native singing birds within Austin's city limits.\n\n• **River Front Lease**: The mayor was authorized to advertise and lease the city's riverfront property to the highest bidder, from the western city boundary to Shoal Creek.\n\n• **Multiple Ordinances Passed**: The council also enacted regulations covering public wells/cisterns, street and sidewalk standards, misdemeanor punishments, and alley maintenance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

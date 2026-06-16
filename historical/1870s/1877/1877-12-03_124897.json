@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-12-03_124897",
-  "title": "",
+  "title": "Austin's 1877 Police, Budget & Bridge Debates",
   "meeting_type": "regular",
   "date": "December 03, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124897",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police Force Expansion & Confirmations**: Council confirmed most police officer nominations but rejected two candidates. Additionally, aldermen passed a resolution to appoint two more police officers for the underserved 5th, 6th, and 7th wards due to insufficient protection.\n\n• **Budget Crisis**: The city treasurer reported a $1,269 deficit for upcoming bond interest payments due in New York, requesting council authorization to convert silver currency to cover the shortfall.\n\n• **Bridge Construction Approved**: Council passed a $2,800 appropriation to build a stone arch bridge over Valley Creek at Pecan Street and relocate an iron bridge to Cedar Street.\n\n• **Market & Street Improvements**: Petitions requested extended market hours (from 8am to 9am closing) and repairs to a deteriorating public well in Ward 6; council also appropriated funds for East Pecan Street improvements.\n\n• **Regulatory Updates**: Council passed an ordinance regulating loose animals in city limits and referred a proposal to regulate market hours to committee.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

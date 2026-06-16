@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-11-23_122825",
-  "title": "",
+  "title": "Austin Elections & School Trustee Votes Set",
   "meeting_type": "special called",
   "date": "November 23, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122825",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Special council meeting called** to discuss appointing additional election judges for each ward in Austin\n\n• **December 6 election scheduled** for city aldermen positions and to elect a new public school trustee to replace J.M. Brackenridge who resigned\n\n• **Election judges and polling places finalized** using locations already established for a separate vote on increasing the city's debt that same day\n\n• **Proposal for extra judges rejected** — a motion to add three additional judges per ward failed (5-8 vote), though the council did approve the revised election resolution",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-10-03_125090",
-  "title": "",
+  "title": "Austin Fire Department Equipment Proposal",
   "meeting_type": "regular",
   "date": "October 03, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125090",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Equipment Decision Pending**: City council appointed a committee (including Mayor Leander Brown) to review a proposal from the Fire Department to purchase a new fire engine and construct an engine house, with a report due at the next meeting.\n\n• **September Death Report**: The city recorded 26 deaths in September 1876, comprised of 11 adults and 9 children, as reported by the Sexton (cemetery/burial official).\n\n• **Monthly Budget Approved**: Council approved approximately $245 in appropriations for September expenses, including salaries for the Marshal ($40), two city police officers ($40 each), prisoner care ($29), and alderman compensation ($63).\n\n• **Committee Extensions Granted**: Previously appointed committees requested additional time to complete their reports, which was approved by the council.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

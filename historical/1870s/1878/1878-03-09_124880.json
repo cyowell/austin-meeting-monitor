@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-03-09_124880",
-  "title": "",
+  "title": "Historic Austin Laws Target Gaming, Disorderly Houses",
   "meeting_type": "special called",
   "date": "March 09, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124880",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Multiple public safety ordinances passed** — The council unanimously approved new regulations cracking down on illegal gambling, disorderly houses, public disturbances, and reckless riding/driving throughout the city.\n\n• **City Marshal sold surplus equipment** — A public auction of used government property (horses, carts, and a mule) raised about $206, though one buyer tried to settle with a legal judgment instead of cash, triggering an investigation.\n\n• **Theater and entertainment regulations sent for review** — New rules for bill posters, theaters, and circuses were referred to committees rather than immediately passed, suggesting more deliberation needed.\n\n• **Created City Engineer position** — The council established a new city job with free office space in the Market building, though they rejected spending money on surveying instruments for the engineer's use.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

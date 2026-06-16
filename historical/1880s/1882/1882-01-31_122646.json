@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-01-31_122646",
-  "title": "",
+  "title": "Austin's 1882 Hospital Plans and Budget Vote",
   "meeting_type": "special called",
   "date": "January 31, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122646",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Hospital Project:** Council approved a $5,000 city appropriation to work with Travis County in building the city's first public hospital, with support from the board of health, local physicians, and prominent citizens concerned about Austin falling behind San Antonio, Houston, and Galveston.\n\n• **Budget Approval:** Aldermen passed a nearly $900 spending ordinance covering city expenses including sewer work, prisoner care, infirmary operations, fire engine maintenance, and election costs from late 1881.\n\n• **Charity Assistance:** Council authorized $200 to help Clarence Kennedy support his afflicted son, reflecting the era's informal approach to social welfare before modern government programs.\n\n• **Financial Controls:** Three separate ordinances strengthened checks on the mayor's spending authority, requiring city council appropriations and proof of available funds before any money could be withdrawn from the treasury—establishing accountability measures.\n\n• **Election Preparations:** Council confirmed judges and polling locations for a February 1883 vote on expanding Austin's debt limit, with voting sites established across 10 city wards and polls open from 9 a.m. to sunset.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

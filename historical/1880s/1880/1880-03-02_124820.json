@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-03-02_124820",
-  "title": "",
+  "title": "Austin's 1880 street improvements and fire funding**",
   "meeting_type": "regular",
   "date": "March 02, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124820",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fire Department Funding Approved**: The city council passed an ordinance allocating $41.50 monthly to each of the three volunteer hook and ladder companies to cover operating expenses. The fire leaders argued the growing city had made costs unsustainable for individual firefighters to cover themselves.\n\n• **Street and Infrastructure Projects**: The council approved funding to repair Congress Avenue and Bois d'Arc streets with $148 in rock and lumber work, and granted a petition to install a new street lamp at Pine and San Jacinto streets. However, they rejected a $750 improvement plan for the seventh ward due to budget constraints.\n\n• **Property Purchase Negotiated**: The finance committee recommended the city buy Mrs. Caroline Harbenberger's real estate on Bois d'Arc street (with an existing engine house) for $4,500, with $3,000 paid in cash and the remainder offset against her tax obligations.\n\n• **Sanitation Standards Updated**: The board of health opposed the Blind Asylum's plan for a dry well, recommending instead a sealed cistern with regular cleaning—reflecting evolving public health standards of the era.\n\n• **Deputy Assessor Position Created**: The city approved a new $50-monthly position to assist the assessor and collector due to recent commission cuts that had reduced that official's income significantly.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

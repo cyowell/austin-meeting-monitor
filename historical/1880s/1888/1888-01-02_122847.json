@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-01-02_122847",
-  "title": "",
+  "title": "Austin Electric Lights and City Hall Bond Proposals",
   "meeting_type": "regular",
   "date": "January 02, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122847",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Electric Street Lighting Proposal**: The Austin Water, Light and Power Company proposed installing 25 electric arc lamps in business and residential areas at $12.50 per month each, plus 100+ incandescent lamps at $25 annually to replace gas and oil lamps under a 10-year contract.\n\n• **Major Bond Elections Planned**: Council approved moving forward with two significant bond measures—a $200,000 bond to expand the city's debt (beyond the existing $125,000), and a $75,000 bond specifically for building a new City Hall and Market House, with elections scheduled for later in 1888.\n\n• **Salary Disputes**: Council debated and amended employee compensation, including raises for the City Engineer (from $100 to $1,000 annually) and fire department drivers (from $480 to $600), reflecting tensions over municipal spending priorities.\n\n• **Street Improvements and Cleanup**: The council allocated $10,000 for street improvements across the city's wards and resolved to remove the railroad track laid during the State Capitol construction, requiring the contractors to restore and grade the affected streets.\n\n• **Police Force Confirmed**: The mayor's nominations for a sergeant, day clerk, and 18 police officers and detectives were confirmed by council.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-06-18_124776",
-  "title": "",
+  "title": "Austin's 1888 Budget and Public Park Protections",
   "meeting_type": "regular",
   "date": "June 18, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124776",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Budget Approvals**: City Council appropriated funds for June employee payroll ($3,144.60), street improvements ($113.25), debt interest payments ($5,200), and debt payment obligations ($729.11).\n\n• **Parks Protection Ordinance**: Council passed a new law protecting public parks and squares on its third reading—one of the few measures that passed on the same day.\n\n• **Fire Department Authority**: Chief of the fire department was instructed to test the newly constructed fire alarm system and report results at the next meeting; Council also authorized selling unused fire apparatus.\n\n• **School Tax Approved**: Council approved levying a one-third of one percent tax on all city property to fund Austin's public schools.\n\n• **Policy Stalled**: An ordinance modifying the assistant assessor and collector position was referred back to the city attorney for further review after failed attempts to amend or table the measure.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

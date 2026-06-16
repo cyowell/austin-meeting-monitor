@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-07-23_122703",
-  "title": "",
+  "title": "** Austin Streets & Taxes in 1883",
   "meeting_type": "special called",
   "date": "July 23, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122703",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Tax increase approved**: Council members debated and narrowly passed a property tax increase from 0.75% to 1.0% on all real and personal property in Austin to fund city operations.\n\n• **Congress Avenue improvements**: Council authorized grading, curbing, and sidewalk construction on Congress Avenue between Bear and Water Streets—a major infrastructure project for the growing downtown area.\n\n• **New street regulation**: Council passed an ordinance requiring developers to file street plans with the City Engineer before laying out new streets, alleys, or naming them—establishing early urban planning controls.\n\n• **Special election called**: Following Alderman Radkey's resignation due to moving out of his district, the council scheduled a special election in the Sixth Ward to fill his seat.\n\n• **New alderman sworn in**: Henry Pfannenkuckh was sworn in as a new council member, and Bart Long was appointed as a special police officer.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

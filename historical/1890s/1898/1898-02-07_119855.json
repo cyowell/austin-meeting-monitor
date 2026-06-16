@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-02-07_119855",
-  "title": "",
+  "title": "Austin Disputes Tax Authority, Approves Utility Wires",
   "meeting_type": "regular",
   "date": "February 07, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119855",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Tax Levy Legal Questions**: The City Attorney delivered a lengthy analysis of whether Austin had authority to impose additional taxes to pay a federal court-ordered debt, ultimately requesting more time to investigate due to ambiguities in the city charter about tax limits.\n\n• **Sewerage System Expansion Approved**: The Austin Sewerage Company was granted authority to extend its pipeline system under city streets and alleys without needing special council approval for each project, allowing them to make immediate customer connections.\n\n• **Telephone Wire Permission Granted**: Graham & Andrews received approval to run a telephone line from their Congress Avenue business to connect with Dr. Wooten's office on East Sixth Street.\n\n• **Salary Budget Reduced to Monthly Basis**: After debate, council cut the proposed officers' salary appropriation from an 11-month amount of $31,085.08 down to just $4,873.90 for January 1898, suggesting financial constraints.\n\n• **Municipal Services Reports**: City officials reported 49 arrests in January, 16 deaths in the city, and 17 patients remaining in the city hospital, along with various property damage claims referred to committees for investigation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

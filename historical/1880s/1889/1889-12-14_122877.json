@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-12-14_122877",
-  "title": "",
+  "title": "Austin's 1889 Dam, Arsenal & City Officer Plans",
   "meeting_type": "special called",
   "date": "December 14, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122877",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Colorado River Dam Project**: Council approved $2,000 to survey the Colorado River for building a dam to create a city-owned water and power system—an ambitious early infrastructure plan.\n\n• **Arsenal Block Land Acceptance**: After rejecting the property in 1888, the council reversed course and accepted a federal deed for the Arsenal Block land for educational purposes.\n\n• **Street Commissioner Office Elimination**: A failed vote attempted to abolish the Street Commissioner position and transfer duties to the City Engineer, reflecting broader debates about government structure.\n\n• **New City Leadership Elected**: H.A. Linn became president of the board of aldermen, while Dr. F.P. McLaughlin and Mrs. Alla Wright were elected to hospital positions for two-year terms.\n\n• **Election Ballot Reform**: Council considered new rules for printing and distributing election ballots and regulating voting procedures at city and ward elections.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

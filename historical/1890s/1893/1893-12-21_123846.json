@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-12-21_123846",
-  "title": "",
+  "title": "** Austin Bond Interest and Aldermen Pay Approved",
   "meeting_type": "special called",
   "date": "December 21, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=123846",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bond Interest Payment**: Council approved $52.00 appropriation to pay interest on city bonds issued before May 1890, passing the ordinance unanimously with all 15 present aldermen voting yes\n\n• **Aldermen Compensation**: Approved $2,650 to pay aldermen salaries for attending regular council meetings from January through November 1894\n\n• **Emergency Meeting**: Mayor John McDonald called this special Thursday evening meeting specifically to address these two financial matters\n\n• **Procedural Note**: Council suspended normal rules to fast-track both ordinances through all three readings and final passage in a single session, indicating urgency around the bond interest payments",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

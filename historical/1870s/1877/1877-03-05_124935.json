@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-03-05_124935",
-  "title": "",
+  "title": "Congress Avenue Sewer Project & Street Repairs",
   "meeting_type": "regular",
   "date": "March 05, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124935",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Infrastructure Issue**: Austin faced significant erosion damage on Congress Avenue where a washer/gully was washing out both sides of the street. The City Engineer was directed to prepare cost estimates for building a 500-foot sewer to the river, with the Finance Committee tasked with finding funding for the project.\n\n• **Multiple Street & Infrastructure Petitions**: The council received numerous requests from property owners for street repairs, alley grading, and drainage improvements across different city wards, most of which were referred to the Committee on Streets for review.\n\n• **Fire Hydrant Installation Approved**: A new fire hydrant was approved for the corner of Live Oak and Nueces Streets, to be installed once water pipes were laid in that area.\n\n• **Market House Dispute Resolved**: The council rejected a petition to keep the Pecan Street Market in its current location, confirming it sat within official city market limits. They appointed a night clerk from Police Headquarters to serve as Market Master.\n\n• **Ordinance Updates**: The council passed a revised digest of city ordinances and enacted a new rule requiring that all street and alley work be formally authorized by the Mayor and City Council before payment would be allowed.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

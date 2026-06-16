@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-01-01_87914",
-  "title": "",
+  "title": "Austin Infrastructure & Utilities Drive Late 1800s Budget",
   "meeting_type": "regular",
   "date": "January 01, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=87914",
   "agenda_url": "",
   "ocr_source": "pymupdf",
-  "summary": "",
+  "summary": "**Summary:**\n\n• **Water and Light System Expansion**: The city pursued major infrastructure investments in its water and light systems, including new pumping stations, water main extensions throughout neighborhoods, and ongoing rates negotiations with various institutions and businesses seeking service connections.\n\n• **Public Works & Transportation**: City Council managed extensive street improvements, bridge repairs, and alleys while granting railroad companies permission to lay tracks through Austin's streets. Bridge keeping, street sprinkling, and maintenance of public parks required continuous attention and appropriations.\n\n• **Financial Management & Bond Issues**: The council repeatedly dealt with issuing bonds, managing sinking funds, and setting tax levies to fund city operations. They also tackled property redemption for unpaid taxes and negotiated settlements with outside parties claiming damages against the city.\n\n• **Appointments & Elections**: Regular election of city officers (mayor, aldermen, city clerk, marshal, superintendent positions) occurred alongside hiring of police, fire department staff, and department heads managing water, light, streets, and sanitation services.\n\n• **Claims & Petitions**: Citizens continuously petitioned council for street work, damage reimbursement, fee remissions, and permission to build structures—showing active civic engagement around neighborhood concerns and personal grievances.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

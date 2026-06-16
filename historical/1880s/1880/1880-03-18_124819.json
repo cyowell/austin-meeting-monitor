@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-03-18_124819",
-  "title": "",
+  "title": "Austin's 1880 Sewage & Street Lighting Debate",
   "meeting_type": "special called",
   "date": "March 18, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124819",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Sewage Disposal Controversy**: The city debated how to handle sewage from the post office, with the health board recommending an \"irrigation process\" to treat waste safely rather than dumping it directly into the Colorado River. A compromise was reached to allow sewers to empty east of Congress Avenue.\n\n• **General Grant's Visit**: Austin invited former President Ulysses S. Grant to visit the city during his Texas tour, appointing a committee of aldermen and citizens to extend the invitation.\n\n• **Street Lighting Contract Decision Delayed**: The city considered switching from expensive gas lamps ($45.50 per lamp annually) to a cheaper Watkins gas attachment system ($26.50 per lamp), which would save nearly $2,000 per year. However, the Austin Gas Light & Coal Company protested, claiming they had a long-term contract and the gas system was the best available. A final decision was postponed to the next meeting.\n\n• **Minor Approvals**: The council granted requests to build a fire hose drying frame for Washington Engine Company and approved a hay scale for local business.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-08-21_124912",
-  "title": "",
+  "title": "Austin 1877: Smallpox, Sanitation, and Bridge Plans",
   "meeting_type": "special called",
   "date": "August 21, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124912",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Small Pox Safety Issue**: A school building near the city's Small Pox Hospital contained contaminated bedding and furniture that posed disease risks. The city appointed a committee to determine whether the items should be safely moved or destroyed before the building could be reused.\n\n• **Sanitation Contract Approved**: Council authorized the hiring of private contractors (Moore and Brossman) to manage the city's waste and sewage systems, including cleaning vaults and privies, with costs ranging from 25 cents to $10 per job until the city could afford better equipment.\n\n• **Fire Department Cemetery Land Granted**: The city donated four cemetery lots to the Fire Department specifically for burying deceased firefighters, honoring their service.\n\n• **Long-Delayed Bridge Project Moves Forward**: After a petition signed by 347 citizens in 1875 requesting a wagon bridge over Walnut Creek went ignored by the street committee for over two years, the city engineer was finally ordered to develop plans and advertise for construction bids.\n\n• **Hide Yard Regulations Repealed**: The council voted unanimously to repeal regulations governing hide yards, reflecting changing industrial policies.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

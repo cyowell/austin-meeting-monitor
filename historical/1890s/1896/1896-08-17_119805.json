@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-08-17_119805",
-  "title": "",
+  "title": "Austin Water Works & Police Discipline Issues",
   "meeting_type": "regular",
   "date": "August 17, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119805",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police Misconduct Investigation**: Officers Jane Platt and Scott Wilson faced charges of rough treatment during an arrest in July, but the committee found insufficient evidence. Officer Wilson received a reprimand for attempting to strike the prisoner with his pistol; the committee recommended Austin acquire a police patrol van to prevent future public incidents.\n\n• **Water and Light Plant Funding**: Council approved $3,500 in emergency funding from the Earnings Fund to cover operating expenses and startup costs for the city's newly operational Water and Light Plants.\n\n• **Damage Claims Under Review**: The council received multiple petitions for compensation, including claims from Mrs. Fannie Z. Huddle for property damage from dam construction and E.S. Hughes for levee-related losses, both referred to the Committee on Claims and Accounts.\n\n• **School Tax Collector Bond Approved**: Fred. Skerzing's bond as Assessor and Collector of School Taxes was verified as correct and officially filed.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

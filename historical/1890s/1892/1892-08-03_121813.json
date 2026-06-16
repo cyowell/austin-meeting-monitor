@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-08-03_121813",
-  "title": "",
+  "title": "** Bouldin Creek Bridge Repair Meeting",
   "meeting_type": "special called",
   "date": "August 03, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121813",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Infrastructure Crisis** - The city council held an emergency meeting to address urgent repairs needed on the Bouldin Creek bridge along the San Antonio road, which was in poor condition and at risk of deterioration.\n\n• **Committee Formed** - Three aldermen were appointed to meet with Travis County commissioners to discuss repair costs and coordinate between the city and county on who would pay for the work.\n\n• **Low Attendance Issues** - The meeting struggled with attendance, with 12 of 22 aldermen initially absent, requiring the marshal to round up council members and a 5-minute recess to establish a quorum.\n\n• **County Cooperation** - The county commissioners court proactively reached out to the city, offering to hold a special meeting at the council's convenience to negotiate the bridge repairs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

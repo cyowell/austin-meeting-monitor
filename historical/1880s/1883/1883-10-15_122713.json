@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-10-15_122713",
-  "title": "",
+  "title": "** Austin Infrastructure & Hospital Plans 1883",
   "meeting_type": "regular",
   "date": "October 15, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122713",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Hospital construction approval**: Council authorized $3,000 from the hospital fund to build a city hospital on the hospital block, appointing a three-member aldermen committee to oversee the project in partnership with Travis County authorities.\n\n• **Street improvements and bridge**: A private company (Capital Compress Company) proposed building a bridge over Shoal Creek with the city reimbursing them by January 1884; separately, the council approved grading and paving sidewalks on Picard Street.\n\n• **Public water infrastructure**: The Street Committee was tasked with researching iron water troughs for public use by livestock and reporting back on costs and feasibility.\n\n• **Street railway regulation rejected**: Council denied P.B. Forister's request for an unrestricted right-of-way to build a street railway, citing concerns about the existing railway's poor service and deciding that future street railway franchises should generate revenue for the city.\n\n• **Sidewalk enforcement dispute**: The Ordinance Committee rejected a proposed ordinance making sidewalk construction mandatory, recommending instead that the city use its taxing powers under the city charter to fund and enforce sidewalk improvements.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

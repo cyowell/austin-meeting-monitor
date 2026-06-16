@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-12-08_122719",
-  "title": "",
+  "title": "Austin's 1883 Officer Elections & Sewerage Plans",
   "meeting_type": "special called",
   "date": "December 08, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122719",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New City Leaders Elected** – The newly sworn Austin City Council held elections for key city positions including recorder, city attorney, clerk, marshal, treasurer, physician, engineer, and other officials for two-year terms.\n\n• **Sewerage & Infrastructure Priorities** – Mayor W.A. Daylor called for a new sewerage committee to investigate modern sewer systems and a water/gas committee, noting Austin needed to keep pace with other cities on these critical services.\n\n• **Cemetery Relocation Needed** – The aging downtown cemetery was expanding into residential areas and creating complaints from nearby residents; the council recognized the city would soon need to relocate remains or face encroachment by houses and development.\n\n• **Officer Salaries & Bonds Set** – The council adopted an ordinance establishing annual salaries for city employees, ranging from $250 for the sexton to $1,000 for the assessor/collector, and confirmed bonding requirements for key officials.\n\n• **New Standing Committees Established** – Twelve permanent committees were created covering areas like streets, fire department, finance, police, cemetery, hospital management, and sewerage to handle ongoing city affairs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

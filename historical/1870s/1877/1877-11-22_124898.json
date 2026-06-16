@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-11-22_124898",
-  "title": "",
+  "title": "Austin Street Repairs & Animal Control Rules",
   "meeting_type": "special called",
   "date": "November 22, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124898",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street Infrastructure Issues**: A committee examined East Pecan Street's new gutters and found significant defects including poorly laid cobblestones, incorrect drainage slope, and inadequate water flow capacity, recommending lowering gutters and flattening street crossings with $125 in contractor compensation\n\n• **Animal Control Enforcement**: The City Attorney confirmed that existing ordinances prohibiting horses, cattle, and other animals from running loose within city limits are legally valid and enforceable\n\n• **City Clerk Nomination Rejected Twice**: Mayor De Gress's nomination of D.B. Withers for City Clerk was rejected 8-2, and when he renominated S.B. Withers (with strong community recommendations), the council again rejected the nomination 8-2\n\n• **Ordinance Codification Project**: Council approved forming a committee to obtain proposals from local attorneys and publishers for compiling and publishing the city's charter and ordinances in an organized format\n\n• **Salary Review Underway**: A special five-member committee was appointed to review and set compensation levels for city officers",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

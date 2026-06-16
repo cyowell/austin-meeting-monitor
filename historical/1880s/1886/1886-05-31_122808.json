@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-05-31_122808",
-  "title": "",
+  "title": "** Austin's 1886 Police Powers and Debt Election Debate",
   "meeting_type": "special called",
   "date": "May 31, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122808",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police Leadership Confirmed with Controversy**: The council narrowly confirmed C.C. Palmer as Sergeant of Police by a vote of 8-6, with one alderman immediately announcing he would challenge the decision at the next meeting. Seventeen additional police officers were unanimously confirmed.\n\n• **Mayor and Marshal Gain More Power**: Aldermen voted to restore the mayor and marshal's authority to fire police officers \"for any cause to them seeming just and sufficient,\" giving leadership more direct control over the police force.\n\n• **City Debt Expansion Stalls**: The council debated—but failed to advance—an ordinance that would allow taxpayers to vote on extending Austin's bonded debt beyond $125,000, suggesting disagreement over the city's financial expansion.\n\n• **New City Ordinances Adopted**: The council passed a comprehensive revision of Austin's civil ordinances on a strong 14-1 vote, establishing updated rules for city governance.\n\n• **Ward Leaders Gain Street Authority**: A new provision gave individual aldermen power to direct where street work would be done in their respective neighborhoods.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

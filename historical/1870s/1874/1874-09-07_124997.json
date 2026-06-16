@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-09-07_124997",
-  "title": "",
+  "title": "** Austin 1874 Police Reform & City Infrastructure",
   "meeting_type": "regular",
   "date": "September 07, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124997",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Police Officer Discipline**: Officer F.L. Hopkins was reprimanded for disorderly conduct—described as the first formal complaint against an Austin police officer—but retained his position on the force.\n\n• **Police Uniform Standardization**: The city adopted Galveston's police uniform style, with the city purchasing coats and pants while officers paid for them through salary deductions.\n\n• **Railroad Development**: Austin City Rail Road Company was granted right-of-way through the city limits, advancing the region's transportation infrastructure.\n\n• **Stray Animal Control**: The council authorized a 25-cent bounty for unlicensed dogs and hogs running loose in the city, to be turned in at designated times.\n\n• **Public Services & Infrastructure**: Gas pipes were approved for the city market house, street improvements were authorized including Cypress Street opening and Wall Street crossing repairs, and a building for pauper burials was approved for the cemetery.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

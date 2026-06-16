@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-08-05_124862",
-  "title": "",
+  "title": "Ice Factory Whistles & Fire Station Relocation**",
   "meeting_type": "regular",
   "date": "August 05, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124862",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Removed City Attorney**: Sam H. Wildy was fired for abandoning his post—he took a two-week leave to visit Indianola, Texas but disappeared for three weeks, traveling to Fort Worth and El Paso instead with no communication to city officials.\n\n• **Fire Department Reorganized**: Council voted to move the engine house from the 10th Ward to the 5th Ward to save $25/month in rent, with the new building to be completed in August 1878 and operational by September 1st.\n\n• **Public Health Focus**: The city allocated $250 for disinfectants and established a three-person Sanitary Committee (led by the Mayor) to prevent contagious diseases, reflecting concerns about health and sanitation.\n\n• **Noise Ordinance Stalled**: An ordinance to regulate factory whistles—particularly ice factories blowing them at night—was introduced but tabled after failed amendment attempts.\n\n• **Business Licenses Granted**: Two retail liquor licenses were approved, plus a special permission granted to a blind man to sell liquor without a license due to family hardship.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

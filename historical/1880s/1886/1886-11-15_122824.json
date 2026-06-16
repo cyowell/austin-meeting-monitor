@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-11-15_122824",
-  "title": "",
+  "title": "Austin City Growth, Bonds & Police Force Expansion",
   "meeting_type": "regular",
   "date": "November 15, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122824",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Increased Bonded Debt and Revenue**: Austin's bonded debt totaled $135,000, with the city collecting $128,085 in revenue from taxes, fines, and other sources during the fiscal year. City officials approved additional borrowing to fund infrastructure improvements.\n\n• **Expanded Police Force**: The police force was significantly enlarged to include a marshal, sergeant, and 20 officers. This expansion cost $17,042 but resulted in 896 convictions and restored public confidence in law enforcement and public safety.\n\n• **Growing Schools and Population**: Austin's school system flourished with 2,096 students enrolled across 47 teachers. The city's school-age population grew by 361 children (to 3,464), and a new school building was constructed in the Sixth Ward at a cost of $14,000.\n\n• **Infrastructure Projects**: The council approved a new fire station at East Austin Hose Company No. 4, extended water mains and hydrants, improved streets and bridges (including stone arch construction on Waller Creek), and commissioned a city-wide survey to establish permanent street grades.\n\n• **Declining Cemetery Space**: The original city cemetery was nearly full, prompting the city to purchase 120 acres for a new cemetery. Officials urged immediate fencing, lot layout, and sales of burial plots to generate revenue for the purchase payments due in 1887.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

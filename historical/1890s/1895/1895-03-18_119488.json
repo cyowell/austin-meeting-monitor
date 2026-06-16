@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-03-18_119488",
-  "title": "",
+  "title": "Austin Water System Expansion & Cemetery Dispute",
   "meeting_type": "regular",
   "date": "March 18, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119488",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **$200,000 Water Bond Authorization** – Mayor proposed issuing additional bonds to complete the waterworks system, including extending pipes to all neighborhoods, building a reservoir, and resolving a $45,494 funding shortfall from original construction costs.\n\n• **Cemetery Extension Approved** – Despite citizen protests about property value depreciation, the council voted 16-6 to allow the Austin City Cemetery Association to expand. A compromise amendment capped burial plot prices at $25 per block (reduced from $100).\n\n• **Fire Department Funding Reduced** – South Austin Fire Company No. 5 requested $100/month for operational expenses but was approved for only $50/month to cover driver hire and horse feed.\n\n• **Tax Dispute Settlement** – The council referred S.J. Drake's tax delinquency to committee after he offered to pay $500 on $697.38 owed for 1891-1893, citing property damage from fire that destroyed improvements he never owned.\n\n• **Cemetery Cemetery Boundary Error Corrected** – The council authorized the mayor to fix a deed error for Mrs. M.L. Andrews, changing the cemetery lot designation from the \"northwest quarter\" to \"southeast quarter.\"",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

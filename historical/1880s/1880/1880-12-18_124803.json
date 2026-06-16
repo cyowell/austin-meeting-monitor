@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-12-18_124803",
-  "title": "",
+  "title": "** Austin's 1880 Sewer Plan & Marshal Election",
   "meeting_type": "special called",
   "date": "December 18, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124803",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Marshal Election Results**: Ben Thompson won the city marshal race with 849 votes, defeating John Reilly (621 votes) and three other candidates in a December 17th election.\n\n• **Sewer System Under Review**: The council convened to consider a new ordinance for building a sewer system, which had been referred to the Board of Health for consideration.\n\n• **Quorum Issues**: Multiple aldermen were absent from both meetings, though enough members were present to conduct official business.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

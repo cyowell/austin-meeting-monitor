@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-09-04_124748",
-  "title": "",
+  "title": "Austin's Crumbling Bouldin Bridge Poses Safety Risk",
   "meeting_type": "regular",
   "date": "September 04, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124748",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Defective Bridge Construction** - City engineers found the Bouldin Bridge failed to meet specifications in multiple ways: limestone courses varied from 4-15 inches instead of 6-10 inches, stone riprap slopes were too steep, and the roadway width varied from 37-45 feet instead of the required 40 feet. The structure was already cracking and concern was raised about its ability to withstand high water.\n\n• **Tax and Fine Remission Requests** - The council approved remitting a $10 fine against Fritz Saething for failing to remove a dead cow (as he didn't own it) and postponed a property tax dispute involving over $1,130 in taxes owed by developer Charles Meuming.\n\n• **City Budget and Staffing** - Approved three spending ordinances totaling roughly $1,573 for board of equalization pay ($130), dead animal disposal facility rent ($72.44), and general accounts ($1,171.18). Several city employees were granted leaves of absence.\n\n• **Water Utility Negotiations** - Council authorized its water committee to negotiate terms with the Austin Water Light and Power company for continued city water service and present a pricing proposal at the next meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

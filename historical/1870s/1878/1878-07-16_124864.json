@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-07-16_124864",
-  "title": "",
+  "title": "Austin's 1878 Business Licenses & Street Improvements",
   "meeting_type": "special called",
   "date": "July 16, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124864",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Business licenses granted**: The council approved retail liquor sales for William J. Horton, a shooting gallery for Groo & Alexander, and fruit/cake peddling without a license for Leopold Schlinger.\n\n• **City attorney under investigation**: Mayor reported that City Attorney S.A. Wildy abandoned his post without permission; a committee was appointed to file formal charges against him at the next meeting.\n\n• **Printing contract dispute denied**: The council rejected a claim from printer John D. Elliott seeking extra payment beyond city warrants, ruling he had agreed to accept warrants as full payment.\n\n• **Street and infrastructure projects**: Orange Street opening was referred to committee, and the mayor was authorized to seek bids for curbing and flagging work on East Pearl Street and Congress Avenue.\n\n• **Record storage approved**: Council appropriated $6 to purchase a trunk for storing old city records and vouchers.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

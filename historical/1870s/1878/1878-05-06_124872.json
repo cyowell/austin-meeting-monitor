@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-05-06_124872",
-  "title": "",
+  "title": "Austin Budget Cuts and City Attorney Dispute",
   "meeting_type": "regular",
   "date": "May 06, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124872",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Economic challenges prompt tax reduction**: With property values dropped by over $1 million due to economic hardship, the Mayor recommended reducing the city's tax rate from 1% to five-sixths of 1% to ease residents' burden while maintaining essential services.\n\n• **City Attorney misconduct allegations**: The Mayor formally complained that City Attorney B.N. Wildy held public tax collection money for months without proper authorization, raising concerns about his legal qualifications and competence. The matter was postponed to a special meeting after Wildy refused to resign.\n\n• **Public infrastructure investments approved**: The city approved funding for several improvements including bridges over Waller Creek, street upgrades, and a fire alarm bell system, with much of the work being done by prisoners breaking stone for street macadamization.\n\n• **New city positions created**: The council established the offices of City Engineer and Street Commissioner to better manage municipal infrastructure projects.\n\n• **Sunday conduct and pigeon regulations passed**: The council enacted ordinances prohibiting certain activities on Sundays and banning pigeon-keeping within city limits.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

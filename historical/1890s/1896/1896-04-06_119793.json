@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-04-06_119793",
-  "title": "",
+  "title": "1896 Austin Infrastructure & Street Repairs Approved",
   "meeting_type": "regular",
   "date": "April 06, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119793",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water System Expansion**: A new centrifugal pump was successfully tested at the water works, capable of pumping 5-6 million gallons daily. City leaders approved plans to further upgrade capacity with additional pump installations at an estimated cost of $2,500.\n\n• **Street & Infrastructure Projects**: The council approved three separate petitions to improve Austin streets and drainage, including repairs to 26th Street between Lampasas and Guadalupe, opening an alley in outlot #6, and installing drainage for a resident's property.\n\n• **Electricity Rate Setting**: New rates for alternating electric current used for heating, cooking, and arc lamps were officially established, passing with strong support (16-4 vote).\n\n• **Livestock Banned from Public Spaces**: An ordinance prohibiting cattle and horses from being staked on city parks and public squares passed with majority support.\n\n• **State Land Dispute**: A longstanding legal dispute over River Avenue between the State and City of Austin was set for compromise, allowing occupants to remove their improvements while the State retained land rights.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

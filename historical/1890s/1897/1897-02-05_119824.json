@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-02-05_119824",
-  "title": "",
+  "title": "** Austin Budget Crisis: 1894 Council Fights Financial Rules",
   "meeting_type": "special called",
   "date": "February 05, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119824",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Budget Compliance Issue** – The Mayor warned the Council that their previously adopted budget violated city charter requirements by failing to account for employee salaries (including mandatory $5/month aldermen payments) and wrongly including street work expenses, which threatened to halt city operations.\n\n• **Spending Freeze Problem** – Under charter law, without a proper budget, the city couldn't legally pay for fuel, supplies, printing, or hire street workers—even if council members wanted to pay these bills, creating a financial gridlock.\n\n• **New Budget Approved** – Council reconsidered and adopted a revised budget of approximately $64,343 in expenditures against $50,270 in projected revenue, leaving a small surplus of about $5,886 for street maintenance and bridge repairs.\n\n• **Debate Over Fire Department Funding** – Aldermen debated cutting rent payments to the Washington Fire Company's Hall from $600 to $300, but voted to table the amendment and keep the original amount.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

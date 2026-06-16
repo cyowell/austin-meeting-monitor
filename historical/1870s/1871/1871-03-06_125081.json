@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-03-06_125081",
-  "title": "",
+  "title": "Austin's Fire Safety and Cemetery Plans",
   "meeting_type": "regular",
   "date": "March 06, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125081",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Upgrades**: The city approved construction of three new water cisterns to improve firefighting capabilities after recent fires revealed inadequate water supplies. A new suction hose was also ordered for the Washington Fire Engine Company.\n\n• **Cemetery Expansion for Colored Persons**: The Cemetery Committee recommended designating additional burial grounds for people of color, as the existing burial place was nearly full. One lot owner was promised title to an additional lot.\n\n• **City Hall Improvements**: Council authorized furnishing City Hall with suitable seats and lights to make it usable for public gatherings and events.\n\n• **Market House Financing**: The Mayor was authorized to use payment notes from market stall lessees to settle the city's debts from the market house construction, with a discount rate not exceeding 12 percent annually.\n\n• **Real Estate License Debate**: A citizen petition requesting reduced licensing fees for real estate brokers was deferred for further discussion at the next council meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

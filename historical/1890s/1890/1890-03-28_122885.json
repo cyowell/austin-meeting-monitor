@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-03-28_122885",
-  "title": "",
+  "title": "** Austin Dam Project Engineer Report 1890",
   "meeting_type": "special called",
   "date": "March 28, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122885",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Dam proposal discussed**: Engineer Frizzell presented a report on a planned dam across the Colorado River, which was the primary reason for calling this special city council meeting.\n\n• **Public engagement planned**: The council voted to have Mayor McDonald present the dam report to citizens at a public meeting that evening at the Opera House, ensuring transparency and community input on the project.\n\n• **Media coverage ordered**: The engineer's report was directed to be published in the Daily Statesman newspaper, making the technical details accessible to the general public.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-06-16_125003",
-  "title": "",
+  "title": "Austin Appoints New City Marshal in 1874",
   "meeting_type": "special called",
   "date": "June 16, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125003",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **City Marshal Resignation**: Police chief M. Mc Long resigned on June 16, 1874, and the council unanimously accepted his resignation.\n\n• **Special Election Called**: The mayor was authorized to hold an election for a new city marshal on June 30, 1874, at two locations—George Mamerke's building and the Mayor's Office.\n\n• **New Marshal Installed**: Following the June 30 election, the council met on July 2 to receive the election results and officially install the newly elected city marshal.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

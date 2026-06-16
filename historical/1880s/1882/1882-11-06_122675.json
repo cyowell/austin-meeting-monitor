@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-11-06_122675",
-  "title": "",
+  "title": "Austin's 1882 Year-End Budget Reports Submitted",
   "meeting_type": "regular",
   "date": "November 06, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122675",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fiscal Year Reports Reviewed**: City officials submitted annual financial reports covering the fiscal year ending October 31, 1882, including accounts from the Treasurer, Assessor, Collector, and City Clerk for committee review.\n\n• **Department Reports Filed**: Major departments including Fire, Police, Health, Cemetery, and Charity services submitted their yearly performance reports to relevant committees for evaluation.\n\n• **Petitions Postponed**: The council delayed accepting public petitions until the next meeting, deferring community concerns for later consideration.\n\n• **Administrative Housekeeping**: The council suspended roll call procedures after initially calling for absent members, streamlining the meeting process.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

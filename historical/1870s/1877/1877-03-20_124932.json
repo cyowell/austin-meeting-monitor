@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-03-20_124932",
-  "title": "",
+  "title": "Austin Infrastructure & Water Company Disputes 1877",
   "meeting_type": "special called",
   "date": "March 20, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124932",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Sewer and drainage improvement**: Council approved construction of a sewer system and gully improvements at the foot of Congress Avenue with allocated funding.\n\n• **Water company negotiations**: The city grappled with disputes over fire hydrant locations, stock fountains, and reservoir completion timelines with the Water Company, ultimately reconsidering an ordinance to better serve both parties.\n\n• **Fire alarm relocation**: The fire alarm bell was moved from its original location to the front of the City Market Hall.\n\n• **Vehicle parking restrictions**: Council passed an ordinance prohibiting commercial delivery vehicles from idling on certain streets when not actively working.\n\n• **Theater permit denial upheld**: Mayor Wheeler refused a permit request from the Capital Theater proprietor, bringing the disputed decision before council for review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

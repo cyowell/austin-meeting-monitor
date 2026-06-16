@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-02-18_119486",
-  "title": "",
+  "title": "Austin Water Project Approved, Fire Department Upgrades",
   "meeting_type": "regular",
   "date": "February 18, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119486",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water and Light System Funding Approved:** The council appropriated $13,905.22 for engineering costs and General Electric Company payments related to Austin's new water and light system.\n\n• **Fire Truck Purchase Reduced and Passed:** Despite initial concerns, the council approved a $1,800 fire truck purchase (originally proposed at $2,500) to modernize the fire department.\n\n• **Theater Safety Requirements Added:** New ordinances passed requiring all theatres and public amusement venues to have 3-foot-wide emergency aisles kept clear during performances to prevent fire hazards.\n\n• **County Hospital Funding Dispute:** The council voted to pressure Travis County to cover half the costs of maintaining the city and county hospital, which was currently costing Austin $4,000-5,000 annually.\n\n• **Cemetery and Tax Collection Updates:** Minor ordinances adjusted cemetery services and reduced the fee for executing tax sale deeds from $2 to 50 cents.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

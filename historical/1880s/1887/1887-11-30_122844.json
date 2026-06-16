@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-11-30_122844",
-  "title": "",
+  "title": "Austin Payroll Funding & Property Tax Assessments",
   "meeting_type": "special called",
   "date": "November 30, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122844",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Payroll Appropriation Passed**: The city council approved $3,267 in funding to pay municipal employees and hospital staff for November 1887. The measure required a second meeting (Nov. 30-Dec. 1) to gather enough aldermen for a vote.\n\n• **Quorum Challenges**: The first meeting lacked sufficient aldermen present to pass the ordinance, forcing city leadership to reconvene the next morning—highlighting attendance issues on the council.\n\n• **Comprehensive Property Reassessment**: The agenda included detailed property value adjustments across all 10 city wards as determined by the Board of Equalization and Appraisement for 1887 tax purposes.\n\n• **Rising Property Values**: Notable properties like Lewis Hancock's holdings increased significantly in assessed value (e.g., from $24,000 to $27,000), suggesting Austin's real estate market was growing.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

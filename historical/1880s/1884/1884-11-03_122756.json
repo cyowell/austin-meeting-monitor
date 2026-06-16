@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-11-03_122756",
-  "title": "",
+  "title": "** Austin's 1884 Fire Safety & City Budget**",
   "meeting_type": "regular",
   "date": "November 03, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122756",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "**November 3-30, 1884 Austin City Council Summary**\n\n• **Fire Department Challenges**: The city's fire department reported 18 fires in the past year with $16,500 in losses (mostly insured). The fire chief recommended installing an electric fire alarm system, noting the current system is unreliable and response times are slow due to poor communication.\n\n• **Infrastructure Improvements**: City Council approved an $800 ordinance to build a bridge over Mesquite Street (later adjusted from the proposed $1,200), allocated $264 for gutter improvements on Congress Avenue, and authorized new water troughs and fountains throughout the city.\n\n• **Financial Operations**: Treasurer reported approximately $31,770 in cash balances for October 1884, with the city approving nearly $1,300 in expenses for payroll and accounts, plus $400 for a new wagon and equipment.\n\n• **Police & Public Safety**: Council passed an ordinance standardizing fine collection procedures in Recorder's Court and appointed special police officers. The monthly arrest report showed 148 arrests with $1,246.40 in fines assessed.\n\n• **City Maintenance Disputes**: Council resolved to sue property owner Martin Townsend for maintaining an obstructing stone building in an alley after he refused official orders to remove it.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

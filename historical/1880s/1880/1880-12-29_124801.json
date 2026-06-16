@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-12-29_124801",
-  "title": "",
+  "title": "Federal Sewer Project Approved in Austin",
   "meeting_type": "special called",
   "date": "December 29, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124801",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major sewer infrastructure deal approved**: Austin City Council authorized the U.S. government to construct an underground sewer system in the city, with final amendments specifying minimum pipe sizes of 12 inches for the main trunk lines.\n\n• **Technical specifications debated and refined**: Aldermen made detailed engineering adjustments during the third reading, including changing language from \"size\" to \"capacity\" and increasing minimum pipe diameter requirements from 10 to 12 inches.\n\n• **Police department staffed**: The council appointed John Bennett to fill an open position on the Austin police force by unanimous acclaim.\n\n• **City engineer granted leave**: D.H. Harkine, the city engineer, was approved for a 30-day leave of absence.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

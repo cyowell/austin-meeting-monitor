@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-05-18_122769",
-  "title": "",
+  "title": "** Austin 1885: Street Lights & Tax Plans",
   "meeting_type": "regular",
   "date": "May 18, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122769",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Street Lighting Deal**: The city approved a contract with Capital Gaslight Company to light Austin's streets at $1.75 per lamp monthly for at least two years.\n\n• **New Taxes Approved**: The council passed two new property tax measures—a 1% general tax and a 0.33% tax specifically for public schools.\n\n• **Water Crisis**: The council expressed serious concern about the city's water supply being completely shut down and demanded the mayor investigate and force the water company to fix the problem.\n\n• **Fire Department Staffing**: The Finance Committee recommended paying two fire department crew members (tillermen) but rejected paying salaries for the Fire Chief, Assistant Chief, and Recorder.\n\n• **Police Force Expansion**: A proposal to nearly double the police force from 12 to 20 members was introduced and referred to committee for further review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

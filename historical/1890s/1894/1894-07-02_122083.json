@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-07-02_122083",
-  "title": "",
+  "title": "Austin Railroad Depot Dispute Heats Up",
   "meeting_type": "regular",
   "date": "July 02, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122083",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Heated Debate Over Railroad Depot:** The council approved a contentious proposal allowing the Austin and Northwestern Railroad to use Third Street for a passenger depot, despite significant opposition. The measure passed 11-9 after multiple attempts to block or delay it. A minority report warned the move would damage nearby property owners and was unnecessary since alternatives existed.\n\n• **City Finances Strong:** Treasurer reports showed healthy collections totaling over $20,400 in June, with the water and light fund holding over $125,000. The city approved multiple spending measures, including $275 for cemetery water and $1,485 for approved accounts.\n\n• **Infrastructure Investments:** Council voted to repair the Fairview Bridge ($140), fix fire department equipment ($125-$157), and continue major water and light system construction ($18,165). Street improvements and cemetery maintenance also received funding.\n\n• **Water/Sewer System Expansion:** A sewerage company won approval to use new automatic flush tank technology, while significant spending on the water and light system indicated ongoing infrastructure development across the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

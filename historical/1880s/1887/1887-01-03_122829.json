@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-01-03_122829",
-  "title": "",
+  "title": "Austin 1887 Infrastructure Projects and City Services",
   "meeting_type": "regular",
   "date": "January 03, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122829",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major infrastructure investments approved**: The council passed an ordinance for a topographical survey of Austin (with a reduced budget after amendments) and requested cost estimates for multiple bridge and street projects, including a stone arch bridge over Shoal Creek and relocating an iron bridge on Pecan Street.\n\n• **New public safety position created**: An ordinance was introduced to establish a Sanitary Inspector position for the city, reflecting growing concerns about public health and sanitation in the growing community.\n\n• **Public health concerns noted**: The City Physician reported increased illness during December, particularly pneumonia and lung diseases from cold weather exposure, with cases of diphtheria and scarlet fever also documented.\n\n• **Cemetery expansion underway**: The council discussed opening Greenwood Cemetery for burial purposes and debated leasing 100 acres of the cemetery, addressing the city's growing population needs.\n\n• **Street and utility improvements**: Multiple resolutions passed to improve infrastructure, including extending culverts, clearing fire cisterns, widening bridges, and relocating a watering trough—showing the city's focus on basic public services.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

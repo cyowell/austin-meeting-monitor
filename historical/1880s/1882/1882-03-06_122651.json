@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-03-06_122651",
-  "title": "",
+  "title": "Austin's 1882 Budget Crisis and Business Permits",
   "meeting_type": "regular",
   "date": "March 06, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122651",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Financial Hardship Forces Service Cuts** – The city suspended all charity spending and restricted street improvements to work done only by prisoners and city carts due to lack of funds, signaling severe budget constraints.\n\n• **Business Licenses Approved** – The council granted permits for new saloons, meat markets, and a shooting gallery, showing ongoing commercial activity despite financial challenges.\n\n• **Police Force Reduced** – The force was cut to a maximum of six officers plus a sergeant, reflecting the city's cost-cutting measures.\n\n• **School Treasurer Position Created** – A new elected school treasurer role was established with strict financial oversight requirements, including a $1,000 bond and city council inspection powers.\n\n• **Debt Payment Plan Enacted** – The city prioritized paying off old 10% warrants from 1875 and gradually addressing 6% warrants as revenue accumulated.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

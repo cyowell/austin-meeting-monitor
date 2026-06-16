@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-07-02_122700",
-  "title": "",
+  "title": "Austin Approves Taxes, Sidewalk Rules, Water Services",
   "meeting_type": "regular",
   "date": "July 02, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122700",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Tax Levies Passed**: Council approved new tax ordinances to fund schools and public services, levying 2 mills on the dollar for state/county purposes and 0.75% for additional city needs\n\n• **Sidewalk Cleanup Order**: The Street Committee recommended enforcing existing city ordinances to clear obstructions from sidewalks, citing safety and public convenience\n\n• **Water Service Enforcement**: Council threatened to cancel the water company's contract if they refused to adequately flush city gutters for sanitation purposes\n\n• **Sewer Disputes Unresolved**: Multiple proposals about sewer rights for private citizens and state buildings were debated and failed to pass, suggesting ongoing infrastructure disagreements\n\n• **Corporate Property Taxation**: Council confirmed plans to tax property owned by the Water Works Company, Gas Light and Coal Company, and the Great Northern Railroad for 1883",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

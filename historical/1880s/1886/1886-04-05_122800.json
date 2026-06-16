@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-04-05_122800",
-  "title": "",
+  "title": "Smallpox Outbreak & Cemetery Expansion",
   "meeting_type": "regular",
   "date": "April 05, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122800",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Smallpox Response**: Mayor Robertson reported discovering smallpox in the city and ordered isolation of infected individuals and exposed persons to grounds south of the river, with the infected premises thoroughly disinfected.\n\n• **Cemetery Expansion**: Council approved a special committee to evaluate a proposal from Thomas H. Wheeless to sell 40 acres of land for a new city cemetery, with the Water Company offering to install water mains to the site.\n\n• **Public Services**: Council approved street improvements for Red River Street (damaged by the railroad company), authorized a bridge over Waller Creek at Mulberry Street, and granted a lamp installation request for the Second Colored Baptist Church.\n\n• **Building Regulations**: Council advanced ordinances regulating wooden building construction and prohibiting animals from running loose within city limits, with amendments to exclude dairy cows and calves at night.\n\n• **Financial Matters**: Council reviewed March treasury reports showing $15,671 in collections and $8,897 in expenditures, and tabled a debate over whether to purchase or lease the city sewer system from G.A. Brush.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

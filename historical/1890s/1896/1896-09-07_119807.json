@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-09-07_119807",
-  "title": "",
+  "title": "Water Plant Legal Crisis Resolved",
   "meeting_type": "regular",
   "date": "September 07, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119807",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water Works Management Crisis**: A legal challenge emerged when the city attorney discovered that water plant ordinances passed in January 1895 and August 1896 were never properly published, making them invalid. The council quickly moved to draft and pass corrected ordinances to restore legal authority over the plant's operations.\n\n• **Superintendent Resignation**: Superintendent J.W. Maddox resigned amid the management disputes, with the council voting narrowly (11-10) to accept his resignation immediately rather than wait for a replacement to be appointed.\n\n• **Street and Infrastructure Work**: The council approved multiple projects including a public scale on Trinity Street, repairs to the bridge over Steenrying Creek in South Austin ($230), and funded extra street and sanitary labor for September.\n\n• **Financial Reports**: August revenues included $1,153.80 from water service and $918.96 from electric light service, with the water system pumping over 130 million gallons during the month.\n\n• **Bond Investment Strategy**: The Finance Committee reported that previous bids for city bonds had been withdrawn and recommended re-advertising for new bids to be opened at the next council meeting to secure better rates.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

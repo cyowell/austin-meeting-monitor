@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-08-01_122705",
-  "title": "",
+  "title": "Austin Council Fines Absent Members in 1885",
   "meeting_type": "special called",
   "date": "August 01, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122705",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Attendance enforcement**: The City Council imposed $1 fines on four aldermen (Schuber, Pfannekucke, Moeller, and Wilson) for missing the meeting, showing early efforts to hold officials accountable.\n\n• **Quick session**: This called meeting was brief, with the council suspending the call and adjourning shortly after addressing attendance issues.\n\n• **Quorum achieved**: Despite absences, enough aldermen eventually showed up (including Alderman Lawrence who arrived late) to conduct official business.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

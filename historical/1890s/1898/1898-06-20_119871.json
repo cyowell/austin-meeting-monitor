@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-06-20_119871",
-  "title": "",
+  "title": "Austin Streets, Streetcar Noise, and Bond Payments",
   "meeting_type": "regular",
   "date": "June 20, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119871",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Streetcar noise complaint:** The council passed a resolution demanding the Austin Rapid Transit & Railway Company operate their streetcars quietly as required by their charter, responding to citizen complaints about excessive noise disrupting the community.\n\n• **Bridge funding approved:** After initial rejection, the council voted to approve $1,770 to repair bridges on West 3rd and 5th Streets, addressing infrastructure needs on the west side.\n\n• **Major bond and utility payments:** The council allocated over $28,000 to pay bond interest and utility commission expenses, reflecting Austin's growing infrastructure investments in water and electric services.\n\n• **Water & Light infrastructure expanding:** Quarterly reports showed significant investment in plant extensions and a new pumping station, with 1,141 electric light customers and 2,431 water consumers served by the city.\n\n• **Board of Equalization elections:** The council elected members to the Board of Equalization through multiple rounds of voting, requiring eight separate ballots to fill all positions on the board.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

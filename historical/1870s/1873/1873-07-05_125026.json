@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-07-05_125026",
-  "title": "",
+  "title": "Austin Meat Markets & Liquor Licenses Approved",
   "meeting_type": "special called",
   "date": "July 05, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125026",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New meat markets approved**: The city granted permits for C.P. Haigler and P.J. Tracy to open meat markets on Pecan Street, responding to public petitions.\n\n• **Liquor retail licenses issued**: Two petitions for alcohol sales were approved—one for Carley Cooney (small quantities under one quart) with strict conditions including a $500 bond, and another for H. Green and F. Richman (larger quantities of one quart or more).\n\n• **Moral conduct requirements**: Cooney's liquor license came with unusual restrictions prohibiting dance halls, prostitutes, vagabonds, and idle persons from his premises, reflecting the city's effort to maintain order.\n\n• **New aldermen elected and sworn in**: A.H. Longley and Scipie Thompson were elected to represent the 9th and 10th wards and immediately took office.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

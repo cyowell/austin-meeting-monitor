@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-04-11_122655",
-  "title": "",
+  "title": "** Austin Water Works Contract Approved in 1882",
   "meeting_type": "special called",
   "date": "April 11, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122655",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major Water Infrastructure Deal**: City Council approved a 20-year contract granting a private Water Company the right to supply water to Austin for fire protection and household use, with the city able to buy the entire system after 10 years.\n\n• **Fire Protection Standards Set**: The water system must deliver water pressure high enough to power six fire streams simultaneously at 100 feet height, with hydrants spaced no more than one mile apart on city extensions.\n\n• **Payment Terms Negotiated**: The city agreed to pay $100 per hydrant annually for the first five years, then $75 per year thereafter, for approximately 100-150 hydrants throughout Austin.\n\n• **Public Water Access Guaranteed**: Citizens could tap into water mains for fire protection at no charge, and the city received free water for public fountains, schools, watering troughs, and street/sewer flushing.\n\n• **Hospital Proposal Delayed**: A separate proposal from local doctors to build a hospital on city property for treating the city's poor was tabled for later consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

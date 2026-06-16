@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-01-07_122857",
-  "title": "",
+  "title": "Austin's $200K Debt Plan & City Operations",
   "meeting_type": "regular",
   "date": "January 07, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122857",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major Bond Expansion Proposed** – The city introduced a controversial ordinance to increase Austin's bonded debt from $125,000 to $325,000 (a $200,000 increase), requiring voter approval on February 18, 1889. Aldermen debated strict qualifications limiting voting rights to those who could prove they paid city taxes in 1887-1888.\n\n• **Infrastructure and Utilities Concerns** – Citizens petitioned for street improvements and public services, including opening San Marcos Street to 60 feet, abating a nuisance pond near August and Twenty-Second Streets, and installing lights and hydrants in underserved areas.\n\n• **Police and Fire Department Staffing** – The city marshal submitted the police force roster (including 13 officers and detectives) for council approval, while a competing proposal from the Gamewell Fire Alarm Telegraph Company offered to install a fire alarm system for $100/month over 43 months.\n\n• **Property and Legal Disputes** – The council addressed cemetery property damage (with owners threatening legal action), two tax settlement cases, and an ongoing lawsuit against A.R. Ritz requiring potential travel costs.\n\n• **Monthly Appropriations Approved** – The council quickly approved spending of $3,100 for employee salaries and $16,250.53 for approved accounts and bond interest payments.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

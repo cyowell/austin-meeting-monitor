@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-08-23_122709",
-  "title": "",
+  "title": "** Austin 1883 Tax and Bridge Plans",
   "meeting_type": "special called",
   "date": "August 23, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122709",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Tax Rate Set:** The city council approved a 1% property tax on all real and personal property in Austin for 1883, rejecting two competing tax proposals in favor of a compromise ordinance.\n\n• **Market Houses and Hospital Rejected:** Alderman Kinney proposed dedicating portions of tax revenue to build public market houses and a city hospital, but the amendment failed to pass.\n\n• **Bridge Construction Approved:** The King Bridge Company received permission to unload materials for the Colorado Bridge along Congress Avenue near the waterfront.\n\n• **Attendance Penalty:** Two absent aldermen (Lawrence and Wilson) were each fined one dollar for missing the meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

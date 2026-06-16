@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-11-10_124900",
-  "title": "",
+  "title": "** Austin Elections 1877: City Officials Sworn In",
   "meeting_type": "special called",
   "date": "November 10, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124900",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Results Certified** – Austin held municipal elections on November 5, 1877. The city council formally opened and counted all voting returns, confirming J. C. DeGuss as Mayor, along with new treasurers, marshals, engineers, and aldermen representing 10 city wards.\n\n• **Newly Elected Officials Sworn In** – On November 12, incoming officials took the oath of office, with the new Mayor immediately swearing in his cabinet. However, one election was contested: James McCullough challenged alderman C. F. Millett's eligibility from Ward 8.\n\n• **Economic Opportunity for Business Growth** – Merchants and business owners requested permission for the Insurance Oil Tank Company to use a downtown building as a warehouse, and the city received notice that a trade delegation from northern states (Wisconsin, Iowa, Illinois, Indiana, Michigan) would visit to explore investment opportunities.\n\n• **City Government Gets Organized** – The new board appointed nine standing committees to handle finances, police, fire, streets, and other city services, and elected G. Crow as Board President.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

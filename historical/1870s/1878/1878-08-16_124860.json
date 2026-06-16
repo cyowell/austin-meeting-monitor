@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-08-16_124860",
-  "title": "",
+  "title": "Austin Liquor License Dispute 1878",
   "meeting_type": "special called",
   "date": "August 16, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124860",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Unlicensed Liquor Sales Challenge**: Licensed liquor dealers protested the city council's decision to allow Ch. A. Olsen to sell alcohol without a license, arguing it was unfair competition. The council agreed to halt Olsen's license pending further review.\n\n• **Public Health Report**: The city's physicians submitted a sanitary conditions report warning Austin was vulnerable to epidemics and offering recommendations for improvement. The council ordered the report printed for public distribution.\n\n• **Council Action**: Six aldermen were present at the meeting, establishing a quorum to conduct business on these two main items before adjourning.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

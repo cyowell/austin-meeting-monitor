@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-11-02_121775",
-  "title": "",
+  "title": "Austin Dam Railroad Lease & City Election Plans",
   "meeting_type": "regular",
   "date": "November 02, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121775",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Dam Railroad Lease Approved**: City Council approved an ordinance leasing Austin's Dam railroad to William Morgan, Richard Snell, and D.L. McMartin, with an important safeguard requiring all tracks and improvements revert to the city if the operators fail to purchase the property within the lease period.\n\n• **Cemetery Beautification Requested**: Local women petitioned the council to clean and beautify the city cemetery, requesting a $200 appropriation that was referred to the Cemetery Committee for action.\n\n• **Dam Construction Payment**: Council approved a nearly $29,082 payment to contractor Bernard Carrigan for labor and materials provided on the ongoing dam project.\n\n• **December City Election Scheduled**: The council established a process for the first Monday in December elections, appointing committees to secure polling places in each ward and recruit election judges.\n\n• **Financial Reports Filed**: City officers reported October finances across multiple funds, including nearly $20,000 in utilities expenditures, with reports referred to the Finance Committee for review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

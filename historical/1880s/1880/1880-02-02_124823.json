@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-02-02_124823",
-  "title": "",
+  "title": "Austin's 1880 Street Lamps and Fire Station Debate",
   "meeting_type": "regular",
   "date": "February 02, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124823",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Shortage of aldermen forced postponement**: February 2nd meeting had to be rescheduled to the next day because not enough council members showed up to conduct business.\n\n• **Multiple street lamp requests approved**: The council granted petitions to install gas lamps at several intersections around Capitol Square, Lavaca and Walnut streets, and other locations to improve public safety and visibility.\n\n• **Fire department property purchase proposal debated**: Caroline Haksenberger offered to sell property currently housing the fire department for $4,500 (or just the building for $3,000). The fire chief endorsed the purchase, recommending the vacant land for a centralized bell tower to improve fire alarms.\n\n• **Waller Creek bridge funding issue**: A stone arch bridge project over Waller Creek on Mesquit Street needed an extra $585.22 after the lowest bidder refused to complete the work as originally specified.\n\n• **Irish famine relief committee formed**: The council appointed a committee of 10 people (aldermen and citizens) to raise funds for Irish famine victims following a request from Irish relief organizers.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

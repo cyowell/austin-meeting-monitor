@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-07-01_124753",
-  "title": "",
+  "title": "** Austin's Battle with Electric Light Company",
   "meeting_type": "special called",
   "date": "July 01, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124753",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Subpar lighting service**: The Austin Water, Light and Power Company delivered only 42% of promised candlepower—700 candles instead of 2,000 per arc lamp—prompting the city to stop paying since November 1892 and pursue legal action.\n\n• **Contract dispute and payment**: The council approved $1,875.42 payment for actual lights received (8 months of service) and $8,075 for water/fire hydrant services, rejecting the company's new demand for $650/month (triple the contractual rate).\n\n• **Switching to gas**: Rather than renew the electric contract, the city authorized the mayor to negotiate a 6-month agreement with the Austin Gas Light and Coal Company at $2.50 per 1,000 cubic feet per month.\n\n• **Illegal contract challenged**: The Water and Light Committee found the company illegally possessed the original City Water Company's infrastructure without authorization and recommended hiring outside lawyers to annul the 1882 contract and recover city street control.\n\n• **Tax evasion claim**: The Power Company owed $3,671.15 in unpaid city taxes, adding to the council's grievances against the utility provider.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

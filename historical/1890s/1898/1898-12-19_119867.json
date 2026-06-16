@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-12-19_119867",
-  "title": "",
+  "title": "Austin 1898 Bond Purchases and Street Improvements",
   "meeting_type": "regular",
   "date": "December 19, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119867",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bond Management & Financial Planning** – The city purchased $16,000 in Water and Light bonds for its sinking fund (a savings account for future debt payments) and approved exchanging damaged bonds, showing careful financial oversight during the late 1800s.\n\n• **Budget Approvals** – Council passed four spending ordinances totaling nearly $6,700, covering bond interest payments, aldermen salaries, election expenses, and city employee wages for December 1898.\n\n• **Street Maintenance Plan** – A special committee was formed to solicit bids for street sprinkling services during the upcoming fiscal year, indicating the city was planning infrastructure improvements.\n\n• **Wagon Scales Permit** – Edward Robinson received permission to install wagon scales at the corner of San Marcos and East 6th Street, likely for weighing goods in commerce.\n\n• **Cotton Yard Lease Dispute** – A German community organization requested a five-year lease renewal for their cotton yard, though the council postponed the decision pending investigation into the property's condition.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

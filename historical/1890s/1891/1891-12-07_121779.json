@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-12-07_121779",
-  "title": "",
+  "title": "Austin's Dam, Streets, and Elections in 1891",
   "meeting_type": "regular",
   "date": "December 07, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121779",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Dam Construction Payment** – The council approved a major $21,732 appropriation for contractor Bernard Corrigan's work on the city dam, representing significant investment in public infrastructure during this period.\n\n• **Street Development & Property Issues** – Multiple petitions addressed street encroachments and property disputes, including electric street car track conflicts and land donations for public streets in the Eleventh Ward.\n\n• **City Elections Held** – The December 7 election results were officially canvassed, confirming John McDonald as mayor and electing aldermen across ten wards; new city officials were subsequently sworn in.\n\n• **Municipal Officer Elections** – The new council elected key city officials including James E. Lucy as City Marshal, J.S. Myrick as Treasurer, and various other administrative positions necessary to run the city.\n\n• **Regulatory Changes** – An ordinance repealing rules about slop hauling (waste disposal) was passed, reflecting the city's evolving public health and sanitation concerns.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

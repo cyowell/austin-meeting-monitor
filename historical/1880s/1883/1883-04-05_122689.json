@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-04-05_122689",
-  "title": "",
+  "title": "Austin's Sparse 1883 City Meeting",
   "meeting_type": "special called",
   "date": "April 05, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122689",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Quorum Issues**: The council meeting on April 5, 1883 was severely understaffed, with only 3 of 11 aldermen present and 8 absent, raising questions about governance capacity in early Austin.\n\n• **Immediate Adjournment**: Rather than conduct business, the council voted to adjourn the meeting almost immediately, suggesting either lack of urgent matters or inability to proceed without more members present.\n\n• **Leadership Present**: Mayor W.A. Saylor presided over the brief session, with City Clerk J.S. Purnell recording the minimal proceedings.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

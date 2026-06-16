@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-07-15_124811",
-  "title": "",
+  "title": "** Austin Officials Resign, Streets Need Repair",
   "meeting_type": "special called",
   "date": "July 15, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124811",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Mayor's Resignation**: Mayor L.L. Austin resigned due to health issues and ongoing legal challenges about his eligibility to hold office, citing physician recommendations for rest.\n\n• **Street Infrastructure Crisis**: The City Engineer reported dangerous road conditions throughout Austin, particularly between Bois d'Arc and Rio Grande streets near the cemetery, with multiple washed-out areas and deteriorating bridges requiring immediate repairs.\n\n• **Liberty Street Bridge Project**: Council approved an ordinance to build a wooden bridge with stone supports over a water branch on Liberty Street after inspecting damage caused by erosion.\n\n• **Business Permits Approved**: The council granted several petitions to open new establishments, including a bar room and outside market, while postponing consideration of a new saloon.\n\n• **Public Health Reports**: The City Physician reported treating 31 patients at the hospital during July, with 9 released, 3 deaths, and 12 remaining under care.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

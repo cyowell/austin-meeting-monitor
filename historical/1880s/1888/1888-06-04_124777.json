@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-06-04_124777",
-  "title": "",
+  "title": "Austin's $15,000 Budget Crisis Threatens Tax Hikes",
   "meeting_type": "regular",
   "date": "June 04, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124777",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Severe budget shortfall:** Mayor Joseph Nalle warned the council that Austin faces a projected $10,000-$15,000 deficit by the end of the fiscal year (November 1888), with expenses at $59,441.50 versus available revenues of only $48,112.69. He blamed repeated council rejection of cost-cutting measures and urged immediate expense reductions.\n\n• **Growing debt burden:** The city carried $135,000 in bonded debt from previous years, consuming $10,000 annually in interest payments (one-eighth of total revenues) with \"nothing to show in return.\" The Mayor criticized the council for violating the city charter, which explicitly prohibits creating debt beyond revenues.\n\n• **Street lighting expansion:** Despite financial troubles, the council approved plans to install 25 arc lights and 100 incandescent lights throughout Austin's wards, though debate erupted over fair distribution among neighborhoods.\n\n• **Cost-cutting measures passed:** The council reduced fire department driver and hostler salaries from $600 to $480 annually, cut the police force, and eliminated the City Secretary position to help address the budget crisis.\n\n• **Revenue challenges:** Only $37,139.69 of property taxes had been collected from the current year, and the mayor cautioned that the deficit estimate assumes full tax collection—an unlikely scenario.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

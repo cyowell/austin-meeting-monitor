@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-06-02_124838",
-  "title": "",
+  "title": "Austin's 1879 Infrastructure Plans: Bridges, Fire Safety & Sewers",
   "meeting_type": "regular",
   "date": "June 02, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124838",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Bridge Construction Debated**: Council approved $600 to rebuild a stone bridge on West Pecan Street and debated a $700 appropriation for a new bridge across Waller Creek, with disagreement over whether Mesquite Street or College Avenue offered the better route.\n\n• **Fire Department Support**: Council allocated $15 monthly per fire company to cover horse care and shoeing for Austin's three Hook and Ladder Companies, after the fire commissioners requested funding.\n\n• **Sewerage System Initiative**: Mayor authorized a joint committee of nine citizens and five aldermen to develop Austin's first comprehensive sewerage system for the growing city.\n\n• **Municipal Services**: Council granted liquor licenses to two applicants, approved a new street lamp at Mulberry and San Jacinto Streets, and passed ordinances regulating transportation (hacks and cabs) and providing tax relief for property owners.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

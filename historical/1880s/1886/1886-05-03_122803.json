@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-05-03_122803",
-  "title": "",
+  "title": "** 1886 Austin Health Ordinance & Sewer Bond Vote",
   "meeting_type": "regular",
   "date": "May 03, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122803",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Public Health Regulations Passed**: Council approved new ordinances regulating treatment of infectious and contagious diseases, and requiring health protections for schoolchildren—documents were to be distributed to all local medical practitioners\n\n• **Street Improvement Investment**: Council approved $3,000 to purchase teams and equipment for street maintenance work in each city ward, reallocating funds from existing street improvement budgets\n\n• **Sewer System Debate**: Proposal to lease the city sewer system from a private owner was tabled pending state legislative action; a separate resolution for issuing $25,000 in bonds to build an underground sewerage system was introduced but not yet voted on\n\n• **Budget Shows Modest Surplus**: City treasurer's report indicated a projected surplus of $8,676.73 for the fiscal year, with plans to use some funds for purchasing land to open new streets in the South Ward\n\n• **Monthly Statistics**: April saw 20 deaths in the city, 94 arrests, and collection of approximately $45,000 in property taxes and $13,700 in school taxes",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

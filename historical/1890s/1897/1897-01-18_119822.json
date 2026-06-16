@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-01-18_119822",
-  "title": "",
+  "title": "Austin's 1897 Budget Crisis & City Improvements",
   "meeting_type": "regular",
   "date": "January 18, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119822",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fiscal Emergency**: Mayor Lewis Hancock warned the city faced a $13,889 budget shortfall (revenues of ~$70,000 vs. projected expenses of ~$83,900), urging immediate action to prevent financial collapse and damage to Austin's credit.\n\n• **Infrastructure & Services**: The council approved contracts for street sprinkling ($81.50/month), city fuel supplies ($5.69/ton), and addressed citizen petitions for an arc lamp at Congress Avenue & 7th Street and street grading on West 10th Street.\n\n• **Payroll & Approved Spending**: Multiple ordinances passed to pay January salaries ($3,535.60 for city employees, $250 for aldermen) and allocate $12,488.90 from the Earnings Fund for approved accounts.\n\n• **Administrative Changes**: The council passed a new ordinance redefining the Street Commissioner's duties and considered rules for building permits, signaling efforts to reorganize city operations amid the budget crisis.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

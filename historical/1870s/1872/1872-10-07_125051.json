@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-10-07_125051",
-  "title": "",
+  "title": "Austin's 1872 Sunday Saloon Closure & Murder Reward",
   "meeting_type": "regular",
   "date": "October 07, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125051",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Sunday Barber Shop Closing Hours**: Citizens petitioned the city to prohibit barber shops from operating after 10 P.M. on Sundays, reflecting concerns about business hours and religious observance\n\n• **Murder Investigation Reward**: The council unanimously approved paying Policeman F.M. Hartson and City Marshal W.E. Evans a combined $250 bounty for apprehending the murderer of James Philpot\n\n• **Police Salary Increase Request**: The city police department formally petitioned for higher wages, referred to committee for consideration\n\n• **Election Law Consultation**: Council unanimously appointed a committee to meet with the state governor to discuss laws governing city elections\n\n• **City Revenue Report**: Tax collections totaled approximately $6,168, primarily from business licenses (bar rooms, retail liquor, hotels) and property taxes, with assessor commissions deducted at varying rates",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

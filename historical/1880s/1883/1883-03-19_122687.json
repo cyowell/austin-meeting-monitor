@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-03-19_122687",
-  "title": "",
+  "title": "Fire Hydrants & Street Paving in 1883 Austin",
   "meeting_type": "regular",
   "date": "March 19, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122687",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Fire hydrants needed**: Citizens petitioned the city to install fire hydrants in multiple locations (first ward and fifth ward), and the council authorized contracting with the City Water Company to add equipment where needed most.\n\n• **Pecan Street paving requirement**: Property owners along Pecan Street (between Guadalupe and Colorado) were ordered to grade and pave sidewalks in front of their properties using limestone within 10 days of notice—or face consequences.\n\n• **Underground sewer issues**: The State of Texas had been laying sewers along East Avenue without proper city approval; the council demanded they restore streets to passable condition and level them properly.\n\n• **Veteran's tax exemption**: A Texas war veteran requested tax relief to open a news stand, which the council referred to the Charity Committee to determine if an exemption ordinance was warranted.\n\n• **Cemetery deed authorization**: The mayor was empowered to issue deeds to cemetery lot owners who purchased property before 1863 and lacked proper documentation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

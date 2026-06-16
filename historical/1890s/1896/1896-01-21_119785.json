@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-01-21_119785",
-  "title": "",
+  "title": "** Austin Railway Expansion Approved for Downtown",
   "meeting_type": "special called",
   "date": "January 21, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119785",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Main Decision**: Austin City Council unanimously approved an ordinance allowing the Austin Demo and Suburban Railway Company to lay streetcar tracks from Fourth Street to a car shed on the old courthouse square.\n\n• **Fast-Track Process**: Council suspended normal rules to move the ordinance through all three required readings in a single special meeting, indicating strong support for the project.\n\n• **Safety Requirements Added**: An amendment required the railway company to construct and maintain proper crossings and safety boards, ensuring public protection along the new route.\n\n• **Solid Support**: All 15 aldermen present voted in favor with no opposition, demonstrating unified backing for this infrastructure expansion.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

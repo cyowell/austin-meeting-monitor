@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-02-28_124882",
-  "title": "",
+  "title": "Austin's 1878 Street Lights and Butcher Permits",
   "meeting_type": "special called",
   "date": "February 28, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124882",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Heated debate over street lighting:** The city council initially voted to reduce oil street lamps to 25, but Mayor DeGress vetoed the measure, arguing it was passed improperly and unfairly deprived citizens without street lighting. Multiple wards had petitioned for *more* lamps, not fewer.\n\n• **Multiple new butcher permits:** The council approved several petitions allowing butchers to sell meat outside the traditional market limits at various locations throughout the city, and refunded one merchant $18.75 for overpaying his license.\n\n• **Major street and bridge improvements:** Council passed a $12,000 ordinance for street and bridge improvements across the city's eight wards.\n\n• **Public building projects approved:** Council authorized a $5,000 donation to support the Odd Fellows' temple construction and approved plans to establish a new Pecan Street Market with dedicated funding.\n\n• **Organizational restructuring:** Council reorganized city offices, directing the Assessor and Collector to move to the old City Clerk's office and authorizing the partition of the Mayor's Court Room to create a dedicated City Clerk's office.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

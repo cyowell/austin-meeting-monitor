@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-11-17_121819",
-  "title": "",
+  "title": "Austin's Bicycle Safety & Rail Expansion 1890",
   "meeting_type": "regular",
   "date": "November 17, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121819",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bicycle Night Lighting Required**: The council passed an ordinance prohibiting people from riding bicycles, tricycles, or velocipedes on Austin's streets and sidewalks after dark without displaying a light—an early public safety measure for the emerging vehicle technology.\n\n• **Brackenridge Railroad Franchise Approved**: Despite some opposition and debate over restricting steam locomotives in favor of electric or horse power, the council granted George W. Brackenridge the right to build and operate a railroad line through Austin's western expansion areas.\n\n• **Telephone Company Gets Limited Rate Breaks**: The Southwestern Telegraph and Telephone Company won approval to continue operating telephone poles and wires in the city, with a new amendment requiring them to ring fire alarm gongs at fire stations for free while the city gets free telephone wire access.\n\n• **Hog Ordinance Fails**: The mayor's veto of a proposed ban on keeping hogs within city limits was upheld when the council voted against overriding it, meaning pig farming remained permitted in Austin proper.\n\n• **Multiple Street Railway Proposals in Review**: The council considered several competing proposals from different groups seeking rights to build electric street railways, referring some to committees for further evaluation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

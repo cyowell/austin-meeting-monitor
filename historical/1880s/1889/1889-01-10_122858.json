@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-01-10_122858",
-  "title": "",
+  "title": "Austin Schools Funding Dispute 1889",
   "meeting_type": "special called",
   "date": "January 10, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122858",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency school funding vote failed**: Council called a special evening meeting to consider authorizing the mayor to issue warrants (financial orders) to pay the school board treasurer, but aldermen voted down a motion to expedite the ordinance to final passage.\n\n• **Narrow support, stronger opposition**: The measure had 8 votes in favor but needed more support to pass; 5 aldermen opposed it, suggesting disagreement over the city's ability or willingness to fund schools at that time.\n\n• **Procedural drama**: The meeting included multiple procedural moves—including a \"call of the council\" (attendance check) and attempts to suspend rules—indicating contentious debate over how to handle the school funding issue.\n\n• **Significant absenteeism**: Eight of 21 aldermen were absent from this specially-called meeting, potentially affecting the vote outcome on an urgent financial matter.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

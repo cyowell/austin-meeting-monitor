@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-09-14_124807",
-  "title": "",
+  "title": "Austin's 1880 Budget Cuts, Bar Room & Bridge Plans",
   "meeting_type": "special called",
   "date": "September 14, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124807",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New alderman elected**: N.N. Duff won the 6th Ward election with 60 votes and was immediately sworn in to the city council.\n\n• **Cost-cutting committee formed**: Council appointed five aldermen to investigate how to reduce city government expenses, signaling fiscal concerns.\n\n• **Infrastructure investment**: Approved $125.22 to build a bridge on Cherry Street, with one alderman dissenting.\n\n• **Business licenses granted and delayed**: Approved a petition to open a bar room in the 10th Ward, but postponed a decision on a vaudeville theatre on East Pecan Street until the next meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

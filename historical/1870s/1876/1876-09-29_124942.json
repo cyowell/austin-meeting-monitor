@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-09-29_124942",
-  "title": "",
+  "title": "Austin Mill Project Gets Time Extension",
   "meeting_type": "special called",
   "date": "September 29, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124942",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Mill Construction Deadline Extended**: The city council granted J.J. Brown, lessee of the old Mill property, an extended deadline until June 1877 to complete construction of a cotton and woolen mill and install necessary machinery.\n\n• **Three New Barrooms Licensed**: The council approved liquor licenses for three new barroom establishments across different wards of the city.\n\n• **Fire Department Equipment Crisis**: Aldermen raised concerns about the fire department's deteriorating hose supply, with a significant portion described as \"rotten\" and unusable. A special committee was appointed to inspect the equipment and report back on replacement needs.\n\n• **Tax Refund Petition Under Review**: Residents requested refunds for overpaid taxes exceeding state-authorized amounts; the petition was forwarded to the finance committee for further investigation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

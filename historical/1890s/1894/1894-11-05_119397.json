@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-11-05_119397",
-  "title": "",
+  "title": "Austin Telephone Franchise Debate 1894",
   "meeting_type": "regular",
   "date": "November 05, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119397",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Telephone Competition:** Two companies—National Telephone Company and Anthony Electric Company—both petitioned the city for permission to build telephone exchanges and infrastructure, sparking significant council debate over which company should operate Austin's first telephone system.\n\n• **Water and Electricity Investment:** The city approved over $16,000 to cover construction expenses for a new municipal water and electric light system, demonstrating Austin's commitment to modernizing its infrastructure.\n\n• **Election for Ward Representation:** The council passed an ordinance creating ward-based elections to select aldermen from 11 different districts across the city, establishing voting locations and poll judges for each ward.\n\n• **Infrastructure Projects:** The council authorized construction of a stone arch bridge over Little Shoal Creek and approved purchasing land to connect West Fifth Street to West Sanita Street, improving city transportation routes.\n\n• **Small Municipal Expenses:** Routine business included spending $100 on a street mule for city operations and $500 on street and sanitary labor—showing day-to-day costs for running a growing city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

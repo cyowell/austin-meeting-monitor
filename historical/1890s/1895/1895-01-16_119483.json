@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-01-16_119483",
-  "title": "",
+  "title": "Austin Funds Legal Defense Against Insurance Lawsuit",
   "meeting_type": "special called",
   "date": "January 16, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119483",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Legal Battle Funding**: The city council approved a $1,500 appropriation to pay attorneys defending Austin against a lawsuit filed by Penn Mutual Life Insurance Company and others in New Orleans.\n\n• **Swift Action**: The council suspended normal procedural rules to fast-track the ordinance through all three readings and pass it in a single emergency meeting, indicating urgency around the legal matter.\n\n• **Quorum Present**: 15 of 22 aldermen attended the special evening meeting called by Mayor John McDonald, with 7 absent.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

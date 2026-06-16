@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-07-10_125024",
-  "title": "",
+  "title": "Austin Water Works & City Expansion Plans",
   "meeting_type": "special called",
   "date": "July 10, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125024",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major infrastructure investment**: The council voted unanimously to hold a public election on August 16, 1873 for citizens to decide whether Austin should invest $100,000 in a new gas and water works system.\n\n• **Mounted police force approved**: City leaders authorized the creation of a new mounted night police unit consisting of two officers selected from existing police staff, each earning an additional $25 in salary and required to provide their own horses.\n\n• **City ward redistribution**: Austin was officially divided into ten new city wards with detailed boundary lines, effective November 1873, to better organize municipal governance and representation.\n\n• **Female academy development**: The city granted a 10-year lease of half the Academy Block to establish a German-American Female Academy (to be built in stone or brick, costing at least $8,000), with the city retaining purchase options after the lease term.\n\n• **Business regulations**: The council limited meat markets to one per ward to regulate commercial development in growing neighborhoods.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

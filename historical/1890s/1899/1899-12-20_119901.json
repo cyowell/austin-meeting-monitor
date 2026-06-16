@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-12-20_119901",
-  "title": "",
+  "title": "Austin Officials Accept New Year's Ball Invite",
   "meeting_type": "special called",
   "date": "December 20, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119901",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New Year's Celebration**: City officials accepted an invitation from East Austin Hose Co. No. 4 to attend their Annual New Year's Ball on January 1st, 1900, marking the turn of the century.\n\n• **Sidewalk Expansion Request**: Citizens petitioned to widen sidewalks on both sides of East 12th Street between Lavaca and Rio Grande Streets; the request was referred to the Street Committee for review.\n\n• **Quorum Problems**: The council struggled to maintain a quorum across two meetings (December 20-21), with only 3 of 7 aldermen present on the second day, forcing the marshal to attempt to round up absent members.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

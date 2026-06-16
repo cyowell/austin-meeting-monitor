@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-07-15_119498",
-  "title": "",
+  "title": "** Austin Infrastructure & Board Elections 1895",
   "meeting_type": "regular",
   "date": "July 15, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119498",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Funding:** Council approved a $1,800 appropriation to purchase additional fire hoses for the city's fire department.\n\n• **City Hall Improvements:** Allocated $450 to expand the lower story of city hall and build a secure vault for the tax assessor and collector's office.\n\n• **Board Appointments:** Elected three members to the Board of Equalization (P.L. Wren, P.H. Miller, and Rhoads Fisher Sr.) and began proceedings to fill two vacancies on the Board of Public Works.\n\n• **Livestock & Safety Regulations:** Proposed an ordinance to prevent livestock from running loose east of Waller Creek and directed the city attorney to draft regulations requiring owners of unsafe buildings and decaying structures to make repairs or remove them.\n\n• **New Municipal Services:** Introduced an ordinance to create a solicitor and collector position for the Austin Water system, and approved establishing a new cemetery on city property.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

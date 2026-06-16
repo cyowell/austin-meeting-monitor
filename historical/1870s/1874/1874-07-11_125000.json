@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-07-11_125000",
-  "title": "",
+  "title": "** Austin 1874: New Police, Dumping Carts, Gas Lamps",
   "meeting_type": "special called",
   "date": "July 11, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125000",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police Force Expansion** – Mayor Wheeler appointed three new policemen (W. P. Allen, A. H. Cox, and M. L. Langford) to strengthen law enforcement in the growing city.\n\n• **Waste Management Infrastructure** – The council authorized purchasing two dumping carts and animals to haul them, addressing Austin's growing sanitation needs.\n\n• **Street Lighting Upgrades** – A committee was tasked with inspecting new gas street lamps to ensure they met contract standards and deciding what to do with older lamps.\n\n• **Public Scales Installation** – The city appointed Val. C. Giles as city weigher and directed the Street Committee to find a location for public scales, likely for commercial use and trade regulation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

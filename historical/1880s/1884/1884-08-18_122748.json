@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-08-18_122748",
-  "title": "",
+  "title": "Austin's 1884 Street and Sanitation Crisis",
   "meeting_type": "regular",
   "date": "August 18, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122748",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Critical Infrastructure Issues**: The Street Committee's report highlighted desperately poor conditions in Austin's alleys and streets, warning of epidemics due to contaminated water running through neighborhoods. They recommended immediate enforcement of sanitation ordinances and called for increased funding to repair roads.\n\n• **Water and Fire Safety Improvements**: The council approved paving gutters on Congress Avenue, purchasing iron foot bridges, and debated installing fire hydrants on West Pecan Street—ultimately approving four hydrants instead of the requested five due to budget constraints.\n\n• **Property Tax Increases**: The Board of Equalization added nearly $300,000 in property value assessments (including previously untaxed utility companies), raising city taxes by approximately $2,925 for 1884.\n\n• **Street Encroachments**: The council adopted stricter rules prohibiting future obstructions on public streets and alleys, while allowing existing encroachments time to be removed to avoid causing financial hardship to property owners.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

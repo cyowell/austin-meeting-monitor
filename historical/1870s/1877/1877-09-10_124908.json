@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-09-10_124908",
-  "title": "",
+  "title": "** Austin Approves Fire Relief Fund for Paris",
   "meeting_type": "special called",
   "date": "September 10, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124908",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency aid passed:** Austin City Council approved a $500 appropriation to help residents of Paris, Texas, whose city had been largely destroyed by fire—demonstrating early municipal disaster relief efforts.\n\n• **Attendance problems:** The council struggled with quorum issues across multiple sessions, requiring the marshal to track down absent aldermen to conduct official business.\n\n• **New licensing authority:** The mayor was authorized to issue licenses for night scavengers (sanitation workers), establishing a system for regulating this essential city service.\n\n• **Quick action:** Despite initial procedural delays, council passed the Paris relief ordinance on its second reading within the same meeting, showing urgency in responding to the disaster.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

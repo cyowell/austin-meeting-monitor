@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-09-07_124808",
-  "title": "",
+  "title": "Austin Elections & Vanity Show Permit Debated",
   "meeting_type": "special called",
   "date": "September 07, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124808",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Setup**: Mayor Crocker called an emergency meeting to officially appoint judges and polling places for the upcoming city officer elections scheduled for August 20th, 1880.\n\n• **Vanity Show Permit Denied**: A petition by T. M. Bell to operate a \"vanity show\" (likely a traveling entertainment or circus act) on East Pecan Street was rejected by the City Council in a tied 3-3 vote, with the Mayor casting the deciding vote against it.\n\n• **Attendance Issues**: Alderman Halle was excused from fines for missing previous council meetings due to being out of town, and the council suspended all fines for absent members.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

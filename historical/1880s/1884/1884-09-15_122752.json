@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-09-15_122752",
-  "title": "",
+  "title": "Austin Water Company Contract & Police Hiring 1884",
   "meeting_type": "regular",
   "date": "September 15, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122752",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Company Contract Review**: City Council appointed a 7-member special committee to examine the contract and funding arrangement between Austin and the City Water Company\n\n• **Police Force Expansion**: Council approved filling vacant positions on the police force and elected two new regular police officers—Fred Beck and A.R. Finlay—through ballot voting\n\n• **Officer Resignation**: Accepted the resignation of police officer C.A. Lawson\n\n• **Low Attendance**: The September 15 meeting lacked a quorum with 11 aldermen absent, forcing an immediate adjournment",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

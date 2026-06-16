@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-06-08_125004",
-  "title": "",
+  "title": "Austin's 1874 Fire Safety & Business License Rules",
   "meeting_type": "special called",
   "date": "June 08, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125004",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Safety & Gas Regulations**: City passed new ordinances establishing fire limits, fire regulations, and rules for gas companies—part of efforts to modernize Austin's public safety infrastructure.\n\n• **Business Licensing**: Council approved licenses for new enterprises including a Galveston Gift Enterprise branch office, while postponing decisions on multiple bar room applications pending police committee review.\n\n• **Infrastructure & Public Works**: Approved funding for improvements including a new fire company depot, authorized bridge construction over Waller Creek, and considered a footbridge project on West Pecan Street.\n\n• **Municipal Code Overhaul**: Passed 13 new ordinances covering everything from market regulations and house numbering to shooting galleries, street naming, and tax procedures—establishing Austin's formal city code.\n\n• **Budget Cut**: Eliminated the deputy marshal position and salary for William Henrichs effective July 1st, 1874.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

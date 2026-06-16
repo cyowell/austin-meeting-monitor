@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-01-02_124768",
-  "title": "",
+  "title": "Austin's 1893 Police Expansion & Bicycle Ban",
   "meeting_type": "regular",
   "date": "January 02, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124768",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Police Force Denied Expansion**: Citizens requested additional police protection for the northern sections of the city, but the council voted down the motion to increase the police force (15 voted no, 12 yes). However, one new police officer, F.L.S. Davis, was elected to the force.\n\n• **Sidewalk Bicycle Ban Passed**: The council approved an ordinance prohibiting riding bicycles, tricycles, and velocipedes on city sidewalks, with an exemption for children under 10 years old. This addressed a growing transportation issue of the era.\n\n• **Major Infrastructure Investment**: The council approved nearly $19,039 in construction expenses for the new waterworks and electric light system, plus authorized a contract with James Waterston to build the power house foundation.\n\n• **Street Improvements Requested**: Multiple petitions from residents asked the council to grade, drain, and open new streets in various wards, including East 9th Street and improvements near the lunatic asylum. All were referred to the Street Committee for consideration.\n\n• **Charter Amendments Proposed**: A significant resolution proposed expanding voting rights in city elections—changing several city officer positions from council-elected to voter-elected, which would require legislative approval.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-07-23_119499",
-  "title": "",
+  "title": "Austin Water Works Bond Sales and Pipe Contracts",
   "meeting_type": "special called",
   "date": "July 23, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119499",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bond Sale Approved**: The city accepted a bid from E. H. Gay & Co. to purchase $2,282 in premium bonds for the water works and electric light system, generating additional revenue for the project.\n\n• **Pipe Contract Controversy**: The council voted 19-0 to award a water pipe contract to Walter Pips (the lowest bidder at $87,585.50), despite Mayor McDonald's public objection that the pipes came from convict labor and were inferior quality—he urged acceptance of a higher bid instead.\n\n• **Public Works Board Dissolved**: The council thanked and formally relieved the Board of Public Works from duty after completing their assigned infrastructure projects, with special recognition given to the company Jas H. Raymond & Co. for providing interest-free financing to the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

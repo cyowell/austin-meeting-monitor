@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-05-01_125075",
-  "title": "",
+  "title": "** Austin Fire Engine & Sherman Visit Updates",
   "meeting_type": "regular",
   "date": "May 01, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125075",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **General Sherman declined** Austin's invitation to visit, citing prior commitments made before the invitation arrived from San Antonio\n\n• **New steam fire engine acquisition** approved for Washington Fire Engine Company No. 2, with Joseph Ragle authorized to travel to Galveston to retrieve it and funds appropriated for expenses\n\n• **Colorado Fire Company No. 2 officially chartered** and granted use of a fire engine once the city's new equipment arrives\n\n• **Tax exemption granted** to the \"Garrison Varieties\" military theater group for performances held on Block No. 100\n\n• **Horace Greeley invited to visit** Austin—the prominent journalist and advocate for workers' education and progress was formally extended the city's hospitality",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-04-07_122727",
-  "title": "",
+  "title": "Austin Expands Services; Denies Police Pay Raise",
   "meeting_type": "regular",
   "date": "April 07, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122727",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Police Pay Increase Rejected**: The City Council declined to raise police officer salaries to $75/month, citing financial concerns despite acknowledging the officers' good work.\n\n• **Infrastructure Investment**: The council approved $300 for repairs at the Hook and Ladder fire station, $1,500 for a new city stable, and multiple bridge projects—addressing deteriorating infrastructure across the city.\n\n• **Gas Company Tax Exemption Granted**: The Austin Gaslight and Coal Company successfully had its 1883 tax assessment cancelled based on contractual exemptions, a controversial decision with council members split on the vote.\n\n• **Animal Control Crisis**: Citizens from the southwest part of town petitioned against hogs running loose in the streets, prompting the council to draft ordinances to regulate stray animals and create a poundmaster position.\n\n• **City Recorder Under Investigation**: The council launched an investigation into City Recorder E.D. Johns following complaints about his conduct at a public event, appointing a committee to determine if disciplinary action was warranted.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

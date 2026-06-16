@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-10-05_119810",
-  "title": "",
+  "title": "Austin 1896 Street Improvements & Water Service Expansion",
   "meeting_type": "regular",
   "date": "October 05, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119810",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Growing utilities demand**: The city's water service expanded from 2,083 to 2,110 customers, while electric light customers grew from 854 to 879, showing rapid demand for these new services\n\n• **Street maintenance petition**: Multiple residents requested improvements including drain pipes on Eighth Street and grading work on Comal and Garden Streets, reflecting ongoing efforts to improve city infrastructure\n\n• **Damage claim settlement**: The council approved a $1,450 compromise to settle a lawsuit related to damages from the construction of a dam, demonstrating the city's approach to liability disputes\n\n• **Fire department expansion approved**: The North Austin Fire Company was referred to committee for potential admission into the city's fire department after initial approval from fire commissioners\n\n• **Street sprinkling study ordered**: Council established a committee to investigate the costs and feasibility of sprinkling dust from Austin's main streets and thoroughfares, an early public health initiative",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-07-29_122814",
-  "title": "",
+  "title": "Austin Debates $100K Sewer Bond Plan",
   "meeting_type": "special called",
   "date": "July 29, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122814",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major infrastructure vote**: Citizens requested the city increase proposed sewer bond funding from $25,000 to $100,000, with a public election scheduled for the following Monday to decide the measure.\n\n• **Council deadlock**: Aldermen were deeply divided on whether to fast-track the ordinance change, with multiple failed motions to suspend rules and advance the proposal to a second reading.\n\n• **Time pressure**: The mayor called an emergency evening meeting specifically to address the sewer bond question before the upcoming election, emphasizing the decision's importance to the community.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

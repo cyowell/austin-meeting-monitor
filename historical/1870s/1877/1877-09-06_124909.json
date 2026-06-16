@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-09-06_124909",
-  "title": "",
+  "title": "Austin Responds to Paris Texas Fire Disaster",
   "meeting_type": "special called",
   "date": "September 06, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124909",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency relief request**: City Council convened to consider providing assistance to Paris, Texas, which had recently suffered a devastating fire that destroyed most of the city and left residents in dire need.\n\n• **Quorum problems**: The meeting was hampered by multiple absences, forcing the marshal to bring in absent members. Even after reconvening that evening, only three aldermen were present, preventing any official business from being conducted.\n\n• **Delayed action**: Due to insufficient attendance, Council adjourned and rescheduled to consider making the necessary financial appropriations to help Paris, Texas residents.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

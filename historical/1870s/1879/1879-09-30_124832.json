@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-09-30_124832",
-  "title": "",
+  "title": "Austin's 1879 Budget and City Services",
   "meeting_type": "special called",
   "date": "September 30, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124832",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Repair Funding**: Council approved $155 to pay for extra work on a bridge over Shoal Creek on West Pecan Street, with the resolution passing unanimously after expedited voting procedures.\n\n• **Election Scheduled**: Mayor authorized to hold a city election on the first Monday in November 1879 for all city officer positions, including establishing voting locations and appointing judges.\n\n• **New City Pound**: The City Marshall was instructed to procure (establish) a city pound to manage stray animals, with a report due at the next meeting.\n\n• **Ordinance Review**: Two ordinances were referred to committee for examination and recommended changes—one general ordinance and one specifically addressing stock (livestock) regulations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

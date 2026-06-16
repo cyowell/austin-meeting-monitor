@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-01-15_124798",
-  "title": "",
+  "title": "** Austin Railroad Right-of-Way Approved 1881",
   "meeting_type": "special called",
   "date": "January 15, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124798",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New Alderman Elected:** Ed. Huppertz won the seventh ward election with 125 votes, narrowly defeating J. W. Odell (109 votes) and was immediately sworn in.\n\n• **Railroad Expansion Approved:** The Houston and Texas Central Railroad Company received permission to cross through Austin's sixth ward, marking significant infrastructure development for the city.\n\n• **Damage Compensation Required:** The council established a mandatory arbitration board (with representatives from both the railroad and city) to assess and ensure fair payment to property owners whose land would be affected by the railroad's passage.\n\n• **Planking Proposal Rejected:** An amendment requiring the railroad to construct wooden plank roads along the entire track was defeated, likely due to cost concerns.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

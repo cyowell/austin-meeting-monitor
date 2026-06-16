@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-01-20_122793",
-  "title": "",
+  "title": "Austin Street Railway Track Rules 1886",
   "meeting_type": "special called",
   "date": "January 20, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122793",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street Car Track Controversy:** Business owners and property holders on East Pecan Street petitioned the city council to prevent a street railway company from laying tracks on their street, or if legally required, to do so in a way that wouldn't block wagon traffic and business operations.\n\n• **Track Construction Standards Approved:** The council passed an ordinance requiring the railway company to build tracks with 10-inch-wide heart pine planks spiked to ties, with rail tops level with the street surface to minimize disruption to regular traffic and commerce.\n\n• **Street Railway Operating Rights Granted:** The council approved a separate ordinance giving D.M. Nilsson, Joseph Nalle, and their associates the right to construct and operate a street railway throughout Austin, with requirements that they maintain bridges and culverts at full street width.\n\n• **Penalties Established:** Violators of the track construction standards would face fines between $25 and $100—significant penalties for the time period.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

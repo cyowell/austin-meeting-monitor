@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-06-20_119496",
-  "title": "",
+  "title": "** Austin Water Pipe Extension Plans Debated",
   "meeting_type": "special called",
   "date": "June 20, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119496",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Infrastructure Expansion**: City council met to approve locations for new 6-inch water mains across Austin streets, with aldermen from different districts proposing specific neighborhoods for pipe installation.\n\n• **Funding Through Bonds**: The meeting focused on whether the city should increase its bonded debt to finance the water pipe extension project.\n\n• **Payment Plan for Water Bills**: Council considered allowing residents to pay property taxes using water and light bills, with revenues going toward bond interest and maintenance costs.\n\n• **Close Vote on Pipe Routes**: The resolution approving the proposed water main locations passed narrowly (10-6), indicating disagreement among aldermen about which streets should receive pipes first, including a last-minute addition of Cypress Street and boulevard sections.\n\n• **Delayed Decision**: A special committee requested more time to review the water revenue ordinance, postponing final approval on how the city would manage finances from the new water system.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

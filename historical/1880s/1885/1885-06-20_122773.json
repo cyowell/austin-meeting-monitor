@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-06-20_122773",
-  "title": "",
+  "title": "Austin Debates Smallpox Doctor Payment",
   "meeting_type": "special called",
   "date": "June 20, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122773",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Smallpox Doctor's Compensation Rejected**: Mayor J.W. Robertson vetoed a $200 payment to Dr. W.J. Burt, the city physician who treated a smallpox patient in May 1885. The mayor argued that Burt's $600 annual salary already covered all official duties and that state law prohibited extra compensation for public officers.\n\n• **Hack Driver's Claim Denied**: The council also rejected a $50 claim from a hack driver (taxi operator) whose vehicle was quarantined after transporting the smallpox patient. The mayor deemed it an unfounded claim since the driver was paid for the original service and the quarantine resulted from circumstances beyond the city's responsibility.\n\n• **Council Upheld Mayor's Veto**: When aldermen attempted to override the mayor's veto, the motion failed with only one council member supporting it and 14 opposing, effectively killing both disputed payments.\n\n• **Budget Approved**: The council passed a separate $9,792.50 appropriation for July interest payments on public debt and other city claims and salaries.\n\n• **Tax Collection Law Enacted**: The council also passed an ordinance to improve tax collection from bankrupt individuals and those making financial assignments.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

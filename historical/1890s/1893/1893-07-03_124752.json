@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-07-03_124752",
-  "title": "",
+  "title": "Austin Water System Construction Costs Approved",
   "meeting_type": "regular",
   "date": "July 03, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124752",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Water & Light System Funding**: Council approved a $45,489.33 appropriation to cover final construction expenses for Austin's new water and electric light system, including the main contractor's final payment and power house costs.\n\n• **Bridge and Infrastructure Repairs**: Multiple small projects approved, including repairs to an unsafe East Fifth Street bridge and construction of new bridges and culverts across the city's creeks and streets.\n\n• **Cemetery Name Change**: The new \"Woodside Cemetery\" was renamed \"Austin City Cemetery\" in a close 12-7 vote, indicating some aldermen disagreement over the facility's official name.\n\n• **Financial Reports**: City treasury showed strong balances with over $27,000 in general revenue and nearly $40,000 in the water and light fund, while tax collection and law enforcement fines were running normally.\n\n• **Public Health**: Hospital and public physician reports showed stable conditions with no contagious diseases reported, though 18 deaths were recorded in June across Austin's population.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-10-15_121816",
-  "title": "",
+  "title": "Austin Water Works Bond Sale Approved",
   "meeting_type": "special called",
   "date": "October 15, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121816",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Infrastructure Funding**: The City Council unanimously approved the sale of $400,000 in bonds to fund water works and electric light improvements for Austin, with a local investment group (including the Brackenridge and Hancock families) purchasing the bonds at par value.\n\n• **Dam Construction Green Light**: The bond proceeds will finance construction of a proposed dam to supply the city with reliable water and electricity services, addressing critical infrastructure needs.\n\n• **Treasury Oversight**: The council approved a $100,000 bond for city treasurer J.S. Myrick to ensure proper handling of water and light fund finances.\n\n• **Swift Approval Process**: All measures passed with overwhelming support (16 votes in favor), with the ordinance expedited through three readings in a single meeting, indicating strong council consensus on the project's importance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

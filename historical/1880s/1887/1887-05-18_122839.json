@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-05-18_122839",
-  "title": "",
+  "title": "** Austin Bids for Printers' Home, Eyes Electric Lights",
   "meeting_type": "special called",
   "date": "May 18, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122839",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Printers' Home Bid:** Council voted to pursue establishing a Typographical Union Printers' Home in Austin, with a requirement that construction begin within two years or the deal becomes void.\n\n• **Electric Street Lighting Study:** A committee was appointed to travel to Waco at their own expense to investigate the \"Jenny system\" of electric street lighting for potential implementation in Austin.\n\n• **Railroad Right-of-Way Amendment:** Council approved changes to an 1881 ordinance granting the Austin & Northwestern Railroad right-of-way, specifically removing a 100-foot section on San Marcos Street.\n\n• **Water Infrastructure:** The City Water Company was ordered to expand water mains and install fire hydrants throughout the city.\n\n• **Street Improvements Stalled:** A proposed $650 appropriation for Eighth Ward street improvements failed to advance, with aldermen voting 8-8 on whether to table the measure.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-09-04_125067",
-  "title": "",
+  "title": "Austin Looks for New Mayor's Office",
   "meeting_type": "regular",
   "date": "September 04, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125067",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "- **Office Relocation Crisis**: Property owners (Thompson Bros.) are reclaiming the space used as the Mayor's office by October 1st, forcing the city to find a new location immediately.\n\n- **Fare Regulation Concerns**: Council members are troubled by inconsistent transportation charges in the city and appointed a committee to investigate and propose standard rates.\n\n- **Infrastructure Investment**: The city approved $1,500 in warrants for embankment work on Waller Road, reflecting investment in street infrastructure.\n\n- **Staff Changes**: Two city officials resigned—the city treasurer (B.W.D. Butler) and the city assessor/collector—with their resignations accepted.\n\n- **Community Requests**: Council approved forming a committee to evaluate a land petition from citizens wanting to build a colored Methodist church in Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-10-15_124855",
-  "title": "",
+  "title": "Austin Fire Chief Election & Budget Approvals",
   "meeting_type": "special called",
   "date": "October 15, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124855",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Leadership**: The city council confirmed the election of Jas. A. Nade as Fire Chief and August Zeller as Assistant Chief Engineer, based on a vote by fire department officers.\n\n• **Fire Alarm Bell Relocation**: Council approved spending $250 to move the city's fire alarm bell from its current location to the Market House.\n\n• **New Businesses Approved**: The council granted three petitions to establish new enterprises—a butcher market outside city limits, a cotton warehouse on Pine Street, and a shooting gallery on Congress Avenue.\n\n• **Bridge Construction Funding**: Council allocated $500 to build a new bridge over a branch on West Brierly Alto Street, located between Rio Grande and San Antonio Streets.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

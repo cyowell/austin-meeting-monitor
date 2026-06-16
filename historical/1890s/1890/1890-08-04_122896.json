@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-08-04_122896",
-  "title": "",
+  "title": "Austin Infrastructure & Tax Plans from 1890",
   "meeting_type": "regular",
   "date": "August 04, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122896",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street Improvements Approved**: Council approved opening Red River Street and appropriated $100 for a brick culvert on Magnolia Avenue and San Antonio Streets, while rejecting a petition to open Comal Street. Citizens also petitioned for macadamizing (paving) East 6th Street.\n\n• **Telephone & Utility Monopoly Restrictions**: Council granted the Southwestern Telegraph and Telephone Company continued rights to erect poles and wires, but added strict amendments preventing them from interfering with other companies' electrical rights and reserving the city's own right to build competing systems.\n\n• **Water & Transportation Issues**: Council debated removal of a watering trough in Masontown (ultimately reversing an earlier decision to remove it) and approved a new trough on Mesquite Street near Congress Avenue.\n\n• **Taxes & Salaries Enacted**: Council passed a 1% ad valorem tax for city expenses and a special 1/3% tax for public schools, along with $3,200 in salary appropriations for city officers and employees.\n\n• **Street Railway Amendment**: Council approved an ordinance amending rights previously granted to M.M. Shipe for operating street railways throughout Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

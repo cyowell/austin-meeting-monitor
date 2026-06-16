@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-04-24_125033",
-  "title": "",
+  "title": "Austin's Water System & Butcher Shop Permits",
   "meeting_type": "special called",
   "date": "April 24, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125033",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Infrastructure Project Approved**: The Erwin brothers received permission to install a steam engine on the Colorado River banks and build a water tank near Congress Avenue to supply the city with water, marking a major step toward Austin's water system.\n\n• **Multiple Butcher Shop Licenses Granted**: The council approved three separate petitions to open butcher stalls across different wards, reflecting growing commercial activity in the expanding city.\n\n• **Railroad Depot Deal Referred to Committee**: The Houston Texas Central Railroad Company requested a 99-year lease of city land to build a passenger depot—a significant decision that was sent to a committee for further review.\n\n• **Street Obstruction Resolution**: The council passed a measure requiring a survey of West Avenue and gave property owners five days to remove obstructions (fences, houses) before the city would remove them at the owner's expense.\n\n• **Routine City Business**: Elections were held for a new alderman and city surveyor, property assessments were adjusted, and the city authorized sale of warrants to pay various bills including fire cistern maintenance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

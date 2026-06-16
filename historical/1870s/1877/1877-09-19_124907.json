@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-09-19_124907",
-  "title": "",
+  "title": "Austin's 1877 Truck License Refund Dispute",
   "meeting_type": "special called",
   "date": "September 19, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124907",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Truck License Refund Request**: Local business owners who paid for city truck licenses petitioned the council for refunds after a county court ruled the licensing fees unconstitutional, raising questions about the city's authority to collect such fees.\n\n• **Attendance Problems**: Multiple council meetings suffered from low attendance, with aldermen repeatedly absent and one 1899 meeting failing to achieve a quorum, forcing adjournments until enough members could attend.\n\n• **Pending Legal Cases**: The city attorney briefed the council on several active lawsuits involving the city, including a case against \"Buddington et al.\" being appealed to a higher court.\n\n• **Fire Emergency**: A fire alarm interrupted the September 21st meeting mid-session, forcing the council to adjourn before completing their business.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-05-02_119868",
-  "title": "",
+  "title": "Austin's 1898 Railroad Debate and City Finances",
   "meeting_type": "regular",
   "date": "May 02, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119868",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Railroad Track Controversy**: First Ward citizens petitioned against granting railroad right-of-way on city streets. The council tabled the ordinance for companies including Lone Star Ice Company and Austin Gas Light and Coal Company, with 11 voting to delay and 8 opposing.\n\n• **Tax Relief and Financial Management**: The council approved an ordinance allowing Mrs. S.L. Pease a $1,158.92 tax credit for illegally collected 1891 taxes, but postponed final action pending a review of other similarly affected taxpayers.\n\n• **Public Parks Regulation**: Council passed a new ordinance to regulate public parks and enclosed grounds, including penalties for violations. An amendment specifically prohibited grazing animals in parks without permission.\n\n• **City Treasury Report**: Monthly collections totaled $7,804.85 from various sources including property taxes and fines, with the city maintaining sinking funds of approximately $19,877.85 for water and light bond redemption.\n\n• **Community Invitation**: Council unanimously invited the Sons of Hermann lodge to hold their 1899 annual meeting in Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

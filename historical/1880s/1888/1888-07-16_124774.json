@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-07-16_124774",
-  "title": "",
+  "title": "1888 Austin Council Debates Fire Safety and Cemetery Expansion",
   "meeting_type": "regular",
   "date": "July 16, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124774",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Monthly Council Meetings** – Council voted to change from multiple meetings per month to just one regular meeting on the first Monday of each month, streamlining government operations.\n\n• **Cemetery Expansion Deal** – A property owner (J.G. Palm) offered the city 20 burial lots plus fence work in exchange for permission to expand the city cemetery by two acres—referred to a special committee for review.\n\n• **Budget and Payroll** – Council approved nearly $3,500 to pay city officers and employees for July 1888, with city funds totaling around $2,900 at mid-month.\n\n• **Fire Department Testing** – The fire chief was granted additional time to test the city's new fire alarm system, showing early investment in public safety infrastructure.\n\n• **Police Reinstatement Petition** – Citizens requested the rehiring of two former police officers, with the matter referred to the Police Committee for consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

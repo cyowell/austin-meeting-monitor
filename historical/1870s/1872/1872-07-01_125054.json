@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-07-01_125054",
-  "title": "",
+  "title": "Austin Gas Lights & Police Expansion",
   "meeting_type": "regular",
   "date": "July 01, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125054",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Gas Company Proposal**: The Creston Gas Light Company of New Orleans requested a 30-year exclusive contract to build gas works and light Congress Avenue and surrounding streets. A committee was appointed to investigate feasibility.\n\n• **Police Force Increase**: The council unanimously approved hiring two additional police officers to improve city protection.\n\n• **City Mapping Project**: A committee was tasked with evaluating the purchase of an official map of Austin from Mr. Klappenbuch, with the bill approved for payment.\n\n• **Church Land for Colored Community**: The council unanimously approved allowing a church society to build a new church for Black residents on the same block as an existing colored church.\n\n• **Standing Committees Established**: Six committees were appointed to oversee Finance, Fire Department, Parks, Cemetery, Market, and Police operations for the coming period.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

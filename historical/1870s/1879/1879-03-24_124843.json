@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-03-24_124843",
-  "title": "",
+  "title": "Austin Fire Department Elections & Water Works Dispute",
   "meeting_type": "special called",
   "date": "March 24, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124843",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Fire Department Leadership Elected**: John Brown was elected Chief, F. Ziller as Assistant Chief, and F. Buchanan as Recorder of the Austin Fire Department following the March 17 election.\n\n• **Mayor Vetoes Water Infrastructure Spending**: Mayor J.B. De Gress rejected a $4,578 appropriation to expand the city water system, arguing it violated an existing contract with the private City Water Company that held exclusive rights to construct and operate Austin's water supply.\n\n• **Water Company Refuses City Control**: The City Water Company declined to allow Austin to own or control any pipes or hydrants, though agreed to install infrastructure at \"reasonable terms\" negotiated case-by-case for fire protection purposes.\n\n• **Lumber Yard Zoning Decision**: The council approved A. Van Patten's request to keep his lumber yard in the 7th Ward but rejected S. Saur's similar petition for a wood yard in the fire-restricted district.\n\n• **Public Amenities Approved**: The council authorized a public stock fountain at the corner of Sabine and Cherry Streets and approved Ed. Mabeller's shooting gallery.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-02-06_122850",
-  "title": "",
+  "title": "Austin's New Electric Lights and Infrastructure Plan",
   "meeting_type": "regular",
   "date": "February 06, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122850",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Electric street lighting upgrade**: The city contracted with Austin Water, Light and Power Company for 50 electric arc lights over five years (instead of the originally proposed mix of arc and incandescent lights), with a price guarantee that future additional lights would cost the same or less.\n\n• **Farmers' Alliance warehouse**: A committee was established to arrange for the Farmers' Alliance Exchange to use city property to build storage facilities for local agricultural products.\n\n• **Public health concerns**: The Sanitary Inspector recommended banning hog pens within city limits and prohibiting dumping of water on Congress Avenue and Pecan Street to improve sanitation.\n\n• **Cemetery expansion**: The city authorized the sale of new burial lots in the cemetery at $25 per full lot, with smaller options available for $12.50 and $5.00.\n\n• **Infrastructure repairs**: Multiple street and bridge repairs were approved, including work on Congress Avenue gutters, Brazos Street ground, and bridges on East 11th, 15th, and 16th Streets.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

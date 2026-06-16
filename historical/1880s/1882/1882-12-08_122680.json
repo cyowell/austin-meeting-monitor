@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-12-08_122680",
-  "title": "",
+  "title": "** Austin Council Fines Absent Aldermen 1882",
   "meeting_type": "special called",
   "date": "December 08, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122680",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Attendance Crisis**: Five aldermen were absent from the December 8th meeting, resulting in $1 fines per person for non-attendance—a disciplinary measure meant to enforce accountability.\n\n• **Failed Quorum**: Despite sending the city marshal to locate the missing aldermen, the council couldn't gather enough members present to conduct official business.\n\n• **Meeting Adjourned**: Unable to reach a quorum, the council voted to adjourn the session without addressing any scheduled agenda items, making it a largely unproductive gathering.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

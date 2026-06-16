@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-08-20_124859",
-  "title": "",
+  "title": "Austin's 1878 Quarantine Response",
   "meeting_type": "special called",
   "date": "August 20, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124859",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Disease Control Measures**: Austin City Council enacted an emergency quarantine against people traveling from infected areas, appointing four quarantine officers at $3 per day to enforce travel restrictions.\n\n• **Health Department Created**: The city established a Board of Health with five doctors, including a designated City Physician, to oversee public health efforts during what appears to be a disease outbreak.\n\n• **Public Health Funding**: Council allocated $300 (significant money at the time) to purchase disinfectants for disease prevention and sanitation purposes.\n\n• **Community Involvement**: A Health Inspector position was created with funding coming from voluntary citizen contributions rather than city budget, showing public commitment to addressing the health crisis.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

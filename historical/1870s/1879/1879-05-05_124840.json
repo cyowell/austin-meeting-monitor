@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-05-05_124840",
-  "title": "",
+  "title": "Austin's 1879 Infrastructure Plans",
   "meeting_type": "regular",
   "date": "May 05, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124840",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Three liquor licenses approved** — The city granted retail liquor licenses to three local businesses (McKinney and Newton, Morrison & Mulim, and L. M. Bell).\n\n• **Street improvements debated** — Citizens from the 8th ward petitioned for improvements to College Avenue and a new bridge over Waller Creek on Mesquit Street; the council approved $700 for the bridge construction and referred street work to committee.\n\n• **Sewer system proposal rejected** — Despite one private company offering to build sewers downtown at no cost to the city, the council's majority voted against the deal, citing concerns about fairness to all taxpayers.\n\n• **Water infrastructure moving forward** — The council approved funding for public drinking fountains and authorized contracts with the City Water Company for ten additional fire hydrants.\n\n• **City cemetery and health oversight strengthened** — The physician was required to submit monthly reports on mortality and patient care, centralizing health record-keeping through the city clerk.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

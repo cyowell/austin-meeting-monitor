@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-07-05_124981",
-  "title": "",
+  "title": "** Austin Fire Department & Police Force Changes 1875",
   "meeting_type": "regular",
   "date": "July 05, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124981",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire and Police Operations**: The city authorized a new shelter for the fire department's hand engine and hook-and-ladder truck, and reduced the police force from an unspecified number to eleven officers at the Marshal's discretion.\n\n• **Peddling Regulations**: Austin passed a new ordinance requiring all street peddlers to obtain licenses before conducting business in the city.\n\n• **Water Infrastructure Upgrade**: The City Water Company negotiated relief from building a water tower on Market House Hill in exchange for constructing a massive 750,000-gallon reservoir by May 1876 and ensuring water availability for street sprinkling and fire protection by January 1876.\n\n• **Cemetery Expansion**: The council investigated purchasing land adjacent to the city cemetery to address overcrowding and create additional burial plots for sale, generating revenue while meeting community needs.\n\n• **Cost-Cutting Measures**: The city switched to a competitive bidding system for prescription medications to reduce healthcare expenses, requiring the mayor to solicit proposals from July through December 1875.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

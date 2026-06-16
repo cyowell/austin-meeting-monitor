@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-10-18_128978",
-  "title": "",
+  "title": "Austin Election Officials & Street Lamp Appointments",
   "meeting_type": "special called",
   "date": "October 18, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=128978",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Election Officials Appointed**: The city council designated judges and clerks for Austin's November 1875 election across all 10 wards, with each official receiving $2.50 for their services\n\n• **Mayor Given Backup Authority**: Mayor Wheeler was authorized to appoint replacement judges if any of the designated officials were unable to serve\n\n• **Street Lighting Improvement**: The council approved installation of a new street lamp between von Rosenberg's residence and Schroeder's store to improve public safety and visibility",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

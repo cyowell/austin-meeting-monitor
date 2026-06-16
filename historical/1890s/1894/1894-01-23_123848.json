@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=123848",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "# Title: Austin Water Works & Payroll Disputes\n\n• **Rejected salary veto overturned**: The City Council attempted to override Mayor John McDonald's veto of a salary ordinance that had reduced the Street Superintendent's pay to just $1 per year (later fixed at $360). The veto failed to be overridden, with the Council ultimately supporting a revised ordinance with reasonable compensation.\n\n• **Water works contracts approved**: The council ratified a contract with the Stewart Harrison Iron Company of Alabama for Austin's water works system, including water pipes, involving $1,000 in city bonds.\n\n• **Railroad franchise dispute unresolved**: A special committee recommended that the Council reject the Austin Dam Street Railroad Company's request for franchise release but investigate unpaid rents owed to the city, with the matter referred back to committee for further review.\n\n• **Multiple contentious votes**: The meeting featured numerous failed motions to adjourn and sharp 10-10 splits on procedural votes, reflecting significant internal disagreement among aldermen on how to proceed with business.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

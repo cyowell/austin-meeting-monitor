@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-05-19_124839",
-  "title": "",
+  "title": "Austin Budget for Tax Assessment Work 1879",
   "meeting_type": "special called",
   "date": "May 19, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124839",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax Assessment Funding Approved**: The city council unanimously voted to spend $300 to pay assessors and the mayor for property tax work in 1879—$200 for appraisers working 10 days at $10/day and $100 for the mayor to prepare assessment rolls and receipts.\n\n• **Quick Passage**: The budget resolution was rushed through all three required readings and passed without opposition, suggesting it was routine and uncontroversial.\n\n• **Full Attendance Enforced**: The council used an official \"call\" to track down absent members, ensuring a quorum was present before conducting business—a sign of strict procedural standards.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

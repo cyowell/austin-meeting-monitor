@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-05-01_119882",
-  "title": "",
+  "title": "** Austin Budget and Infrastructure, 1899",
   "meeting_type": "regular",
   "date": "May 01, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119882",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax rates set for 1899**: The council levied taxes on property valuations including 90 cents per $100 for general city purposes, $1.00 for water and light bonds, and 33⅓ cents for public schools.\n\n• **Employee and equipment funding approved**: Multiple ordinances appropriated funds for city salaries (~$19,890 for officers through December), street drivers, sanitation workers, and equipment repairs—totaling thousands of dollars.\n\n• **Sanitation and sewer improvements**: Two new ordinances were introduced to regulate trash removal from properties and establish sewerage district boundaries with mandatory sewer connections for all properties.\n\n• **Monthly financial report**: The city collected over $11,400 in April 1899 across various funds, with ongoing management of general, interest, and earnings accounts handled by the treasurer.\n\n• **Minor petitions granted**: The council approved a $5 refund to resident W.J. Johnson for pound fees and appropriated $100 to install a bell on Fire Protection House No. 3.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

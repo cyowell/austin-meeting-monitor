@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-12-09_119781",
-  "title": "",
+  "title": "Austin's New Mayor, City Dam Completed",
   "meeting_type": "special called",
   "date": "December 09, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119781",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **New Mayor and Aldermen Elected:** Lewis Hancock won the mayoral race with 1,610 votes, defeating W.B. Brush and two other candidates. New aldermen were elected from all 11 city wards to serve two-year terms.\n\n• **Dam Project Officially Completed:** The city's major water, power, and light dam project—six years in the making—was formally completed. The council approved engraving the names of the Mayor, Public Works Board, and City Council on a commemorative tablet in the dam to honor those who oversaw its construction.\n\n• **City Leadership Honored:** The outgoing Mayor John McDonald received a formal commendation from the council for his faithful service and sacrifice to the city, with council members tendering their appreciation through multiple resolutions.\n\n• **Extensive Slate of City Officers Elected:** The new council filled 19 city positions including City Clerk, Treasurer, Marshal, Engineer, and various other administrative posts through a series of nominations and votes.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-08-21_124946",
-  "title": "",
+  "title": "** Austin Fire Department & Street Regulations 1876",
   "meeting_type": "special called",
   "date": "August 21, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124946",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Alarm Bell Emergency**: The council addressed a dangerous fire alarm tower and authorized an inspection to determine if repairs were feasible or if the bell should be relocated to the City Market House.\n\n• **Bridge Flooring Contracts**: Three bridges at Congress Avenue intersections were approved for flooring work, with the contract awarded to Calvin H. Cutter for $490 (beating a competing bid of $648).\n\n• **Vehicle Parking Ban**: City council passed an ordinance prohibiting certain licensed vehicles from waiting on Congress Avenue between Pine and Hickory Streets while seeking employment.\n\n• **Tax Refund Granted**: A liquor license holder was refunded the portion of his $62.50 license fee that exceeded legal limits under the new state constitution that had recently gone into effect.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

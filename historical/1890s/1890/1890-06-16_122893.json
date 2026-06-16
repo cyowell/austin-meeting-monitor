@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-06-16_122893",
-  "title": "",
+  "title": "Austin's 1890 Sand Mining and Street Disputes",
   "meeting_type": "regular",
   "date": "June 16, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122893",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Sand and Gravel Mining Debate**: The council repeatedly voted on an ordinance to prevent removal of sand and gravel from the riverbank and public lands. After multiple failed motions, consideration was indefinitely postponed in a 7-7 tie (broken by the mayor voting against it), leaving the issue unresolved.\n\n• **Infrastructure Requests**: Citizens and the Board of Trade requested four iron footbridges on Congress Avenue at Fourth Street, and residents asked the city to open a street between East Eleventh and Chinespin streets. Both were referred to committees for review.\n\n• **Rejected Fee Relief Petitions**: The council denied three requests for remission of fines and fees from residents Isom Rabbit, S.L. McCulloch, and W.L. McKeen, indicating strict enforcement of city penalties.\n\n• **Failed Public Safety Ordinances**: Alderman Carleton proposed two new rules—one to ban ball games on streets and another to prevent obstruction of sidewalks—but both failed to advance past first reading due to lack of support.\n\n• **Approved Budget and Invitations**: The council approved $2,316.65 in expenses and unanimously invited the Texas Teachers Association to hold its next annual meeting in Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

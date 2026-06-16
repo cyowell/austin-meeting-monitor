@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-02-17_119787",
-  "title": "",
+  "title": "Austin Infrastructure & Spending 1896",
   "meeting_type": "regular",
   "date": "February 17, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119787",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fire Department Equipment**: The city approved a $1,800 contract to purchase 1,500 feet of fire hose from a New York manufacturer, guaranteed to last four years and withstand 400 pounds of pressure per square inch.\n\n• **Park Improvements & Labor**: Council allocated $300 to improve the park at the Dam and authorized four city work teams to labor there for two weeks, demonstrating civic investment in public spaces.\n\n• **Infrastructure Projects**: The council approved funding for multiple street improvements, including $66 for a drainage culvert on Branco Street and $75 for a rock culvert on Congress Avenue in South Austin.\n\n• **Private Railroad Permission**: A.H. Pressler was granted permission to construct and operate a railroad on West Third Street in front of the Travis Beer House, showing growth in private development.\n\n• **Budget Constraints**: The council rejected a $700 park improvement proposal due to the city's tight financial condition, illustrating fiscal limitations despite other spending approvals.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

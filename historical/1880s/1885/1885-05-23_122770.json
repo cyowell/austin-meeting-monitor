@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-05-23_122770",
-  "title": "",
+  "title": "Austin Battles Smallpox Outbreak",
   "meeting_type": "special called",
   "date": "May 23, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122770",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Public Health Emergency**: Mayor Robertson called an emergency meeting on May 23, 1885, after a single confirmed smallpox case was discovered in Austin. He emphasized that swift action was needed to prevent the disease from spreading throughout the city.\n\n• **Immediate Quarantine Measures**: The infected person (Mr. Crow) was placed under strict isolation starting at 8 a.m., with a close guard posted and no contact allowed except through the attending physician. The city followed advice from the City Physician and State Health Officer.\n\n• **Removal Decision**: After hearing from local doctors and physicians, the council voted to authorize the health physician to remove Mr. Crow outside city limits. If suitable housing couldn't be found, the physician was authorized to build a temporary structure, with police assistance and additional guards as needed.\n\n• **Cost No Object**: The Mayor stated that public safety was the top priority and that \"the matter of cost and of convenience are not to be considered\" when deciding on disease prevention measures.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

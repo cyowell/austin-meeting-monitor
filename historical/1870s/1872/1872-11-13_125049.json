@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-11-13_125049",
-  "title": "",
+  "title": "Austin Elections & City Budget Approval 1872",
   "meeting_type": "regular",
   "date": "November 13, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125049",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Election Worker Pay Approved** – The council authorized $175 to compensate judges and clerks who worked the November 5th municipal election at $5 per day for seven days of service.\n\n• **Routine City Bills Paid** – The council approved approximately $40 in miscellaneous expenses including prisoner transport, office supplies, carcass removal, and telegraph costs.\n\n• **Major Budget Appropriation** – Over $15,000 in accumulated city expenses from September 1871 through October 1872 were formally approved and authorized for payment using both currency and coin.\n\n• **Meeting Minutes Correction** – A minor correction was made to previous meeting records regarding a $299 bill from H.C. Carroll and the State Journal.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

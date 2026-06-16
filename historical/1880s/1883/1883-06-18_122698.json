@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-06-18_122698",
-  "title": "",
+  "title": "Austin Sewer Project Connects State Capitol to River",
   "meeting_type": "regular",
   "date": "June 18, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122698",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **State Sewer Line Approved**: The council advanced an ordinance allowing Texas to construct and operate a sewer system from the Executive Mansion and temporary State Capitol down to the Colorado River.\n\n• **Attendance Enforcement**: Four aldermen were fined $1 each for missing the meeting, while two others were tracked down by the marshal after initial roll call showed them absent.\n\n• **Staff Leave Granted**: The City Engineer received a 4-day leave in June, and the City Marshal was approved for a 30-day absence during July and August.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

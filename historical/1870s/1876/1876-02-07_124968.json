@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-02-07_124968",
-  "title": "",
+  "title": "Austin Animal Control & Water Works Expansion 1876",
   "meeting_type": "regular",
   "date": "February 07, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124968",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Animals at Large Prohibited**: The council passed an ordinance banning horses, cattle, sheep, hogs and other livestock from roaming free within city limits (the area between Magnolia Avenue, Red River Street, Nueces Street and the Colorado River). A city pound was established to impound and manage stray animals in response to widespread citizen complaints.\n\n• **Fire Department Gets New Equipment**: With the new water works nearly complete, the mayor urged the council to establish a first-class fire hose company to prepare for fighting large fires and protect the city's infrastructure.\n\n• **School Building Approved**: The council passed an ordinance allowing the school board to construct a public school building on the University Block using existing school funds.\n\n• **Budget Deficit and No Tax Increase**: The city spent $16,178.65 against $13,409.66 in revenue during the first quarter, but the mayor opposed raising taxes due to citizens' financial hardship and argued that better property assessments and spending cuts would balance the budget.\n\n• **Relief Granted to Street Vendor**: The council approved a license for S.S. Bowles, a deaf and dumb resident, to sell maps, books, pictures and spectacles without charge, supporting a disadvantaged citizen.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

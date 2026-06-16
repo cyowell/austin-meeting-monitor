@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-02-13_125083",
-  "title": "",
+  "title": "Austin's 1871 Tax & Bridge Plans",
   "meeting_type": "regular",
   "date": "February 13, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125083",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New tax policy enacted**: Council unanimously approved a 0.5% property tax on all real estate to fund city operations, addressing the Mayor's concern that merchants were bearing unfair tax burdens while property owners paid too little.\n\n• **Peace and conduct ordinance passed**: New rules established fines for disruptive behavior including loud noises, profane language, fighting, and permitting such conduct on one's property.\n\n• **Bridge over Colorado River proposed**: Mayor strongly advocated for a publicly-owned permanent bridge to boost commerce and city importance, warning against allowing private companies to control it with exclusive tolls.\n\n• **Theater license reduction approved**: The New York Star Company's petition succeeded—theaters now pay $10/night for the first month, then alternate free months with paying months based on the Mayor's discretion.\n\n• **New city charter committee appointed**: Council formed a special committee to draft a new charter for legislative approval, recognizing the need for updated city governance laws.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

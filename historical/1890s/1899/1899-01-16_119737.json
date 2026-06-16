@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-01-16_119737",
-  "title": "",
+  "title": "Austin Water Works Finances and City Bonds",
   "meeting_type": "regular",
   "date": "January 16, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119737",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water and Light Commission reported strong quarterly growth**: The city's water service grew from 2,508 to 2,597 consumers, electric light service increased from 1,128 to 1,279 customers, and the utility earned nearly $20,000 in quarterly receipts with a healthy cash balance of $7,189.\n\n• **City faced ongoing contract disputes with water company**: Federal court cases worth approximately $17,000 per year were pending, requiring the city to decide whether to hire additional legal counsel to defend against claims from the city's former water company contractor dating back to 1882.\n\n• **Council approved spending for city services and infrastructure**: Approved appropriations totaling over $5,000 for employee salaries, sanitary workers, emergency supplies, and a fire hall water closet, while directing staff to plan the 1899 budget.\n\n• **Printing contract awarded at lowest bid**: The Evening News newspaper won the city's printing contract (council proceedings and ordinances) at 1/25 of a cent per word—significantly cheaper than competing bids from the Statesman and Tribune.\n\n• **Council rejected proposed new city charter**: Aldermen voted to petition the state legislature to require public approval for any new city charter, objecting to a proposed replacement drafted by a private committee without council input.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

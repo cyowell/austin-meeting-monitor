@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-02-04_122723",
-  "title": "",
+  "title": "Austin Street Improvements & Opium Ban Debated",
   "meeting_type": "regular",
   "date": "February 04, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122723",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street Improvements Approved for Some Areas**: The council approved necessary repairs on Lavaca Street in the 4th and 5th wards, but denied a request for $3,000 in improvements to West Blanca and Hickory Streets, offering only $1,000 instead.\n\n• **New Push Against Opium Dens**: An ordinance was introduced prohibiting opium dens and joints, with penalties for owners and visitors—reflecting growing concerns about drug use in Austin during this period.\n\n• **City Branding Crisis**: The council addressed damaging reports circulating in New York about Austin's financial stability that were hurting bond sales, directing the Finance Committee to investigate their source and plan an official response.\n\n• **Sidewalk Paving Requirements**: New regulations required property owners on Pecan, Lavaca, Sabine, and Nueces Streets to construct cement sidewalks in front of their properties.\n\n• **Pest House Plans**: The Hospital Committee authorized the City Engineer to develop plans for a pest house (isolation facility for contagious diseases) on city property across the river.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

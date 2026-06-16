@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-07-12_122812",
-  "title": "",
+  "title": "Austin Cemetery Land Purchase Debate 1886",
   "meeting_type": "special called",
   "date": "July 12, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122812",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Cemetery Expansion Decision**: The city council voted to authorize the mayor to purchase 120 acres of land from J.H. Patterson for a new cemetery at up to $140 per acre, with the final resolution passing 14-2 after debate over competing property offers.\n\n• **Competing Land Offers**: Two property owners submitted proposals—Patterson offered 120 acres for $16,800 with 8% interest on deferred payments, while Dr. Stiles offered the same acreage for $10,000 cash or on credit with 10% interest.\n\n• **Cotton Yard Request Rejected**: A proposal from J.H. Patterson to use a public square (between Nueces and Trinity Streets) as a cotton yard was tabled and did not move forward.\n\n• **Budget Approvals**: The council passed two financial measures totaling over $1,000, including $300 for a fire department hose cart building and $797.81 for various approved accounts.\n\n• **Committee Appointments**: The mayor established a new Parks Committee and appointed aldermen to oversee street numbering improvements across the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

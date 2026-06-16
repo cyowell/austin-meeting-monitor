@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-03-02_119790",
-  "title": "",
+  "title": "Austin Water, Streets & Damages Spending",
   "meeting_type": "regular",
   "date": "March 02, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119790",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Infrastructure Investment**: The council authorized $1,600 for stone culverts on Congress Avenue and West Fifth Street, plus $250 for extra street work and $1,067 for iron pipe installation—reflecting significant city improvements underway.\n\n• **Multiple Damage Claims Settled**: The city approved payments totaling over $1,900 for various injury and property damage claims, including $750 for Ben Holgate's lawsuit damages, $797.75 to Mrs. L. Walsh for land damages, and $50 to settle a personal injury claim.\n\n• **Railroad and Development Permissions**: The council granted the International and Great Northern Railroad permission to construct a switch on West Third Street, and approved E.J. Iglehart's petition to build a corrugated iron structure, continuing the city's industrial development.\n\n• **Tax Disputes Denied**: J.L. Ducksmeyer's petition for tax remission was rejected, while Mrs. S.E. Tease's request for penalty remission on South Austin property taxes was referred to committee, showing careful financial oversight.\n\n• **Monthly City Operations**: February revenues of $1,156.67 came in short of $1,243 in disbursements, with expenses spread across fire services ($675), hospital care ($543), and street maintenance, requiring council monitoring of city budget balance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

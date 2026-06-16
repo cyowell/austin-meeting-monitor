@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-09-24_124906",
-  "title": "",
+  "title": "** Austin's 1877 Street Repairs and Public Works Plans",
   "meeting_type": "special called",
   "date": "September 24, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124906",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street improvements approved** – City Engineer secured authorization to improve streets across multiple wards (1, 2, 3, 5, 6, 7, 8, and 10), with funding to hire workers for the project.\n\n• **Licensing refund dispute** – Truck and hack drivers who paid licenses later ruled unconstitutional by county court petitioned for refunds; the petition was referred to committee for further review.\n\n• **Public well and bridge projects** – Council approved plans for a public well in Ward 4 and authorized advertising for bids to construct a wagon bridge over Waller Creek on Mesquid Street.\n\n• **Liquor licenses granted** – Two petitions for retail liquor licenses in Wards 9 and 7 were approved, and a hospital establishment permit was granted to Dr. B.E. Hadra.\n\n• **City wins lawsuit** – The City Attorney reported a court victory against a defendant named Buddington, securing a judgment of approximately $300 plus $20 in costs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

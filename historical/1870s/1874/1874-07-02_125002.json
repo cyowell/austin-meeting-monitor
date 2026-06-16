@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-07-02_125002",
-  "title": "",
+  "title": "Austin City Marshall Election and New Code Reforms",
   "meeting_type": "special called",
   "date": "July 02, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125002",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New City Marshall Installed**: Ed. Cleary was elected and sworn in as Austin's City Marshall following a June 30 election, replacing the resigned Marshall Mr. McLong.\n\n• **$3,000 Bond Issued**: The council authorized bonds to settle outstanding debts with the city's financial agents at 75 cents on the dollar, helping manage floating city debt.\n\n• **New City Code Adopted**: Council approved a comprehensive city code to be printed and established procedures for how future amendments or repeals would be handled.\n\n• **Voter Registration Required**: A new ordinance mandated voter registration, part of a series of governance reforms establishing clearer election procedures.\n\n• **Additional Reforms Passed**: The council also enacted rules regulating public weighers, weights and measures standards, vagrancy laws, and formalized council meeting procedures.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

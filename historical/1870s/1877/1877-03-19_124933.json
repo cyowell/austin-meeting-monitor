@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-03-19_124933",
-  "title": "",
+  "title": "** Austin's 1877 Fire Hydrants and Street Repairs Plan",
   "meeting_type": "special called",
   "date": "March 19, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124933",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Hydrant System Approved** - The city council passed an ordinance to increase the number of fire hydrants across Austin and extended the deadline for completing the city's water reservoir, modernizing the city's fire safety infrastructure.\n\n• **Congress Avenue Bridge Repairs Ordered** - The Bridge Company requested immediate repairs to the street at the bridge's approach and installation of a public water fountain; the council referred the matter to the Streets Committee and scheduled an inspection for the next day.\n\n• **Water Company Objects to New Rules** - The City Water Company formally protested the fire hydrant ordinance, claiming it conflicted with their existing contract, forcing the council to reconsider the terms.\n\n• **New Vehicle License Fees Enacted** - The council unanimously passed an ordinance establishing licensing fees for carriages and other vehicles used for transporting passengers in the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

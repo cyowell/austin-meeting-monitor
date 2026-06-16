@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-07-04_121810",
-  "title": "",
+  "title": "Austin Infrastructure and Bridge Repairs, 1892",
   "meeting_type": "regular",
   "date": "July 04, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121810",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Infrastructure Investment**: The city approved multiple road and bridge projects including construction of foot bridges over Waller Creek ($72), Miller Creek, and across gutters on East 8th Street, plus road grading in the Clarksville neighborhood.\n\n• **Dam Construction Work**: City council ratified the Board of Public Works' decision to modify the downstream face of a dam project and accepted a $19,107 payment to contractor Bernard Corrigan for June work, showing major ongoing infrastructure development.\n\n• **Community Complaints**: Citizens petitioned the council to suppress a colored brass band practicing nightly in the Second Ward and to address a dangerous bridge defect that injured resident G.W. Patterson on West Sixth Street.\n\n• **Hospital and Services**: The council appropriated $250 to furnish rooms at the City and County Hospital for paying patients and authorized $8,729.23 to cover various city expenses and reimbursements.\n\n• **Equipment Needs**: The Fire Department requested 2,000 feet of new fire hose, which was referred to committee, indicating growing infrastructure demands for the expanding city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

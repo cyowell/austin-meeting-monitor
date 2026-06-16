@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-06-10_122865",
-  "title": "",
+  "title": "** Austin Ends Hospital Contract With County",
   "meeting_type": "special called",
   "date": "June 10, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122865",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Hospital Contract Terminated** – Travis County's Commissioners Court rescinded its agreement with Austin to jointly maintain the City and County Hospital, effective May 21, 1889.\n\n• **Emergency Meeting Called** – Mayor Joseph C. Nalle convened a special evening session to inform city aldermen of the contract cancellation and determine next steps.\n\n• **Committee Appointed** – The council unanimously voted to form a Hospital Committee of three aldermen to meet with county commissioners and report back on how to resolve the dispute.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

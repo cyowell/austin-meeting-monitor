@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-02-07_125102",
-  "title": "",
+  "title": "** Austin's $5,000 Market House Bond Plan",
   "meeting_type": "regular",
   "date": "February 07, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125102",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Market House Construction** – The city council approved issuing $5,000 in municipal bonds (in $100 increments at 10% interest) to build a new market house, with repayment spread over five years using revenue from the building's rentals.\n\n• **Ice Factory & Laundry Lease** – The council amended a previous resolution to clarify that an ice company could lease city land for an ice factory and public laundry, with rights to remove their improvements and rent obligations ending when they vacate.\n\n• **Infrastructure Improvements** – The city allocated funds for stone culverts on Bois de Arc and Hickory Streets ($550) and for filling ditches at the southern end of Congress Avenue ($100).\n\n• **Military School Investment** – A proposal to invest $1,000 of city funds in building a military school was referred to a special committee for further review, contingent on the mayor becoming a trustee.\n\n• **Asset Sale for Construction** – The city authorized selling its stock in the government building (at no less than 75 cents per dollar) to help fund the market house project.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

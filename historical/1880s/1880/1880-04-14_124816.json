@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-04-14_124816",
-  "title": "",
+  "title": "** Austin Beer License and Street Lamp Disputes",
   "meeting_type": "special called",
   "date": "April 14, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124816",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Beer License Dispute Resolved** – Mayor De Gress vetoed a council resolution granting John Rooney a free beer and cigar license, ruling the action illegal. The council accepted his veto but approved $12.50 from the charity fund to pay for a six-month license instead.\n\n• **Street Lighting Contract Delayed** – The Mayor also vetoed an ordinance to contract with an alderman for lighting oil street lamps. The council postponed the decision until the next regular meeting rather than override the veto.\n\n• **Police Force Appointments** – The council confirmed 13 new police officers from a list of candidates, including J.G. Wattle, F.R. Johnson, and H.B. Whitlere.\n\n• **Market Vendor Request** – The market master asked permission for fishermen and vegetable dealers to rent market stands for shorter periods (1-3 months) instead of paying daily fees, to avoid waiting until after 9 a.m. to sell. The request was referred to committee.\n\n• **Tax Rate Review Coming** – The Finance Committee was instructed to review and recommend a taxation rate for the coming year, with a report due at the next council meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

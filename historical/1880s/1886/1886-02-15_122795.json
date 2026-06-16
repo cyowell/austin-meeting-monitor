@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-02-15_122795",
-  "title": "",
+  "title": "Austin's 1886 Infrastructure & Fire Department Plans",
   "meeting_type": "regular",
   "date": "February 15, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122795",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New fire station approved**: East Austin Hose Company No. 4 was admitted to the fire department and given a hose cart, while the city directed repairs to a dangerous bridge near the fire station on West Hickory Street.\n\n• **$10,000 allocated for street improvements**: The council approved a significant ordinance appropriating funds to improve Austin's streets, addressing the growing need for infrastructure development.\n\n• **Multiple public safety regulations proposed**: The council introduced numerous ordinances addressing everything from stray dogs and animals running loose to regulating saloons, dance houses, and public disturbances—reflecting Victorian-era safety concerns.\n\n• **Tax relief granted to charitable organization**: The Lone Star Chapter of Royal Arch Masons requested tax exemption for their property used for benevolent purposes, and the council referred the request to the finance committee and city attorney.\n\n• **Government printing contract awarded**: The council awarded the official printing contract to the Austin Statesman newspaper after reviewing competing bids from the Dispatch and other providers.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

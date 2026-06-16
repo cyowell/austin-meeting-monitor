@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-08-21_119503",
-  "title": "",
+  "title": "Austin Approves Water System and Equipment Funding",
   "meeting_type": "special called",
   "date": "August 21, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119503",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water & Light System Funding**: City council approved a $5,000 appropriation to cover operating expenses for Austin's water and light system.\n\n• **Manufacturing Equipment Purchase**: Council passed a $2,293.48 payment to Norwich Belt Manufacturing Company for industrial belts needed for city operations.\n\n• **Low Attendance**: Only 16 of 22 aldermen were present after a recess, with several members out of the city requiring alternative service of the meeting notice.\n\n• **Emergency Session Called**: The mayor convened this special meeting specifically to vote on two pending appropriations that were already in the legislative process.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

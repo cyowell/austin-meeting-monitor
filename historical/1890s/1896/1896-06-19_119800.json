@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-06-19_119800",
-  "title": "",
+  "title": "Austin Water Crisis: 1896 Sprinkling Ban",
   "meeting_type": "special called",
   "date": "June 19, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119800",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water Shortage Crisis**: Austin's water system was overwhelmed during dry season, with demand exceeding the 5-million-gallon daily capacity of the main pipeline. Elevated areas faced constant water shortages while lower elevations consumed excess water.\n\n• **Sprinkling Restrictions Enacted**: The city passed an ordinance limiting lawn watering to 5-8 AM and 6-9 PM only, with penalties including service disconnection. Mayor Hancock cited wasteful all-day sprinkling as the main culprit—he noted his own lawn needed only 3 hours daily.\n\n• **Spring Water Backup System**: Council approved connecting backup pumps to the spring water supply (at a cost not to exceed $375) to reduce pressure on the main system and help during low lake levels.\n\n• **Enforcement Measures**: Police and city employees were tasked with reporting violations, and the ordinance committee was instructed to draft penalties making violations a crime.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

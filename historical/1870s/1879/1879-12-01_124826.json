@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-12-01_124826",
-  "title": "",
+  "title": "Austin's Debt Crisis and City Infrastructure Plans",
   "meeting_type": "regular",
   "date": "December 01, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124826",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Debt Restructuring Proposal**: The city had nearly $92,000 in outstanding bonds carrying 10% annual interest. The mayor recommended refinancing these bonds at 6% interest over 25 years, which would save taxpayers roughly $6,250 in interest payments and reduce immediate tax burden.\n\n• **Sewage System Urgently Needed**: Health and sanitation concerns prompted the mayor to appoint a committee to develop a citywide sewer system. The proposal included running a main sewer through an alley east of Congress Avenue to the Colorado River, with potential state funding for extensions to the Capitol building.\n\n• **Fire Safety Regulations Tightened**: The fire department successfully pushed new ordinances to ban cotton storage in downtown business areas and establish regular inspections to prevent fires—addressing concerns from both local firefighters and insurance underwriters.\n\n• **Public Infrastructure Improvements**: The council approved funding for bridge repairs on Chestnut Street ($200), equipment for the city engineer ($157.22), and authorized new street lamps in various neighborhoods while planning to continue street improvements as tax revenue increased.\n\n• **Personnel Changes**: The mayor pushed to separate the marshal's duties from pound master responsibilities due to workload, and the council confirmed various city officials including a new city physician and nine policemen.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

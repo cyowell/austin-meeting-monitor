@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-02-09_124889",
-  "title": "",
+  "title": "Austin Battles Spending on Horses and Bridges",
   "meeting_type": "special called",
   "date": "February 09, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124889",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Mayor vetoes horse sale plan**: Mayor DeGress rejected a resolution to auction off city horses, carts, and mules, arguing the city would lose money in a quick public auction during scarce times. Council agreed and instead authorized private sales for better prices.\n\n• **Bridge funding decisions**: The council approved $750 for a new wooden bridge on Cedar Street at Haller Creek and $450 to repair an existing iron bridge on Pecan Street, plus $25 to complete a bridge on North Avenue.\n\n• **Market regulations reviewed**: Council received a new ordinance regulating markets but referred it to a special committee for further study before final approval.\n\n• **Minor permits granted**: A jewelry store owner received permission to install an awning on Congress Avenue, with conditions that it match neighboring structures.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-04-20_122071",
-  "title": "",
+  "title": "** Austin's New Cemetery Plan & Fire Chief Vote 1891",
   "meeting_type": "regular",
   "date": "April 20, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122071",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Leadership**: August Jiller was officially confirmed as chief of the Austin Fire Department after receiving 63 votes in an election held the previous day.\n\n• **Cemetery Expansion**: The city council approved a proposal from Drake, Stein and associates to establish a new municipal cemetery on 120 acres of land outside the city. The company would maintain the grounds, set burial prices, and donate 10 acres for pauper burials.\n\n• **Street Infrastructure**: The council approved street repairs in the 10th Ward and authorized $450 in funding for materials and labor, plus approved opening a new street west of San Gabriel extending from Carrington Farm.\n\n• **Public Services Funding**: Passed two ordinances allocating $5,000+ to pay accumulated interest on city waterworks and electric light bonds.\n\n• **Property Matters**: Granted a tax refund of $8.75 to H.J. Perkins for overpayment and referred a damage claim from John Chenneville (whose basement was flooded when a street was raised) to committee for review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

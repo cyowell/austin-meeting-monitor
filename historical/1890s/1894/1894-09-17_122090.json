@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-09-17_122090",
-  "title": "",
+  "title": "Austin Fire Safety & Budget Disputes 1894",
   "meeting_type": "regular",
   "date": "September 17, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122090",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire safety regulations tightened**: Council debated new rules restricting hay, straw, and other combustible materials within city fire limits, requiring they be baled, pressed with iron ties, and stored in brick or stone buildings—addressing growing fire hazard concerns.\n\n• **Mayor vetoes bridge project over budget concerns**: Mayor McDonald rejected a $1,568 stone arch bridge over Waller Creek, citing the city was nearly out of money with only $2,984 remaining in the general fund for the final three months of the fiscal year. Council overrode the veto anyway.\n\n• **Major spending approved**: Council appropriated $17,500 for water and electric light bond interest, $5,601 for fire hydrant rentals, and $480 for property appraisers despite tight finances.\n\n• **Fire department nuisance complaint resolved**: Citizens' petition to shut down Chenico's Park on Robertson Hill as a public nuisance was addressed through a new police ordinance rather than condemnation.\n\n• **Meeting time changed to 8 p.m.**: Council shifted regular meeting start time from an unspecified earlier hour to 8 p.m.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

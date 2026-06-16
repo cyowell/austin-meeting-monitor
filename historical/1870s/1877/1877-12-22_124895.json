@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-12-22_124895",
-  "title": "",
+  "title": "Austin City Passes Ordinance Unanimously",
   "meeting_type": "special called",
   "date": "December 22, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124895",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Ordinance passed unanimously** – The council voted 8-0 to pass an ordinance after suspending standard procedural rules to expedite the process\n\n• **Strong attendance** – Eight of twelve aldermen were present for the vote, with only four members absent\n\n• **Quick adjournment** – The meeting concluded immediately after the ordinance passage with no additional business discussed",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

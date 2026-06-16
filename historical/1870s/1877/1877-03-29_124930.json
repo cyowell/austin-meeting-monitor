@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-03-29_124930",
-  "title": "",
+  "title": "** Austin Water & Liquor Permits Debated 1877",
   "meeting_type": "special called",
   "date": "March 29, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124930",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire hydrants approved**: City Council advanced an ordinance to add more fire hydrants and drinking fountains around Austin, plus extended the Water Company's deadline for completing a reservoir to January 1878.\n\n• **Theater bar license granted**: Aldermen voted to allow a liquor bar at the Capital Theater's variety hall after a committee inspection found it would cause no greater harm than other existing bars in the city.\n\n• **Street conditions flagged**: An alderman raised concerns about poor gutter conditions on Picace Street, referring the issue to the streets committee for repair.\n\n• **Close votes**: Both major items passed with aldermen deeply divided—Cook and Deffenbaugh consistently opposed the water company extensions and theater liquor permit.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

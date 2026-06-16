@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-03-11_119487",
-  "title": "",
+  "title": "Austin 1895: Water Lines, Cemetery Disputes, City Jobs",
   "meeting_type": "regular",
   "date": "March 11, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119487",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Infrastructure & Maintenance**: Council approved spending ~$2,847 to pay construction expenses for Austin's new water and light system, including pipe laying and power house work. They also authorized the superintendent to connect water service to homes for up to $5 per customer.\n\n• **Cemetery Expansion Debate**: 142 citizens petitioned against expanding the city cemetery, while another group supported adding land. The cemetery committee requested more time to study the competing proposals before making a recommendation.\n\n• **New City Auditor Position**: Council created the position of city auditor (a government financial watchdog role), with the first auditor earning $100 for the first three months, then $50 per quarter going forward.\n\n• **Street Damage Compensation**: J.H. Wells requested payment for injuries after falling from his cart due to obstructions left by water main construction workers. The council rejected his claim in a 15-5 vote.\n\n• **Other City Business**: Council approved $13,144 in general spending, allocated $400 for extra street laborers, hired a new power house engineer, and discussed installing a telephone in the assessor's office and repairing the broken city clock.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

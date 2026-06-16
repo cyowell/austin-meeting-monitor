@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-09-03_124772",
-  "title": "",
+  "title": "Austin Cemetery Expansion & Budget Approvals 1888",
   "meeting_type": "regular",
   "date": "September 03, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124772",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Cemetery Expansion Deal**: The council voted to accept J.S. Palm's offer to donate additional land to the city cemetery (60+ lots and 8 acres) in exchange for the city enclosing and platting the adjoining tract. The vote was contentious, with significant opposition, and at least one alderman announced plans to challenge it at the next meeting.\n\n• **Budget Approvals**: The council approved $1,457.60 for paying outstanding accounts and $3,100 for September city employee salaries, with unanimous support across both appropriations.\n\n• **Tax Relief Request**: A property owner's request to exempt church-donated land from taxation was referred to the city attorney for review, and a duplicate tax assessment error was corrected for another resident.\n\n• **Public Health & Safety**: August reports showed 40 deaths in the city, 67 arrests with $280 in fines collected, and the hospital admitted 14 new patients while treating various diseases including diphtheria and scarlet fever.\n\n• **Street Lighting Dispute**: A special committee was discharged after failing to reach agreement on installing a light near the Swedish Church, with authority delegated to the mayor to decide independently.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

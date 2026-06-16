@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-06-22_121806",
-  "title": "",
+  "title": "Austin Approves Major Sewerage System",
   "meeting_type": "special called",
   "date": "June 22, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121806",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Sewerage System Approved**: The city council voted unanimously (16-0) to accept plans from the Lewis Mercer Construction Company to build Austin's first comprehensive sewerage system.\n\n• **City Control Over Installation**: Council added an amendment requiring that pipe placement in streets be directed by the City Council, ensuring municipal oversight of the project.\n\n• **Second Amendment Debated**: A proposal to also include the Board of Public Works in installation oversight failed in a tie vote (8-8), leaving authority with the council alone.\n\n• **Further Changes Pending**: Another ordinance to amend sewerage system terms was referred to the Ordinance Committee for further review before final action.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

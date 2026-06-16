@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-10-19_122783",
-  "title": "",
+  "title": "Austin Police Force Expansion & Investigation",
   "meeting_type": "regular",
   "date": "October 19, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122783",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police Force Expansion**: Council approved plans to increase the police force to 20 officers (including marshal and sergeant), representing a significant expansion of law enforcement in the growing city.\n\n• **Police Conduct Investigation**: A special committee was appointed to investigate complaints against city detectives, including serious allegations of misconduct against a Black man named Alex Mack.\n\n• **Water Company Settlement**: The city agreed to pay the Water Company approximately $1,876 in compensation for services rendered under their contract, rather than fully refunding $2,500 in disputed taxes.\n\n• **Police Officer Transparency**: New rules required that all future police officer appointments be publicly announced in local newspapers before hiring, establishing early accountability measures.\n\n• **Street Improvements**: Council approved a budget amendment to redirect unused funds from Cedar and Cypress Street work toward general street improvements across Ward 10.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

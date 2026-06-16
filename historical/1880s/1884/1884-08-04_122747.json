@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-08-04_122747",
-  "title": "",
+  "title": "Austin Cholera Alert, Police & Finance",
   "meeting_type": "regular",
   "date": "August 04, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122747",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Cholera Prevention Campaign**: The city council passed a resolution requesting the mayor issue a proclamation urging residents to sanitize their properties (back yards, alleys, gutters) using lime and disinfectants due to fears of Asiatic Cholera spreading to America.\n\n• **Budget & Revenue Report**: The city treasurer reported approximately $4,400 in cash on hand as of July 31, 1884, with revenue collected from taxes, licenses, and fees; the council reviewed and authorized quarterly spending totaling over $43,000 across departments including police, fire, streets, and hospital.\n\n• **Police Staffing & Discipline**: The council authorized the mayor to appoint three special police officers and investigated officer misconduct from July 4th, recommitting officer Oberwetter but finding extenuating circumstances warranted only a reprimand rather than further punishment.\n\n• **Public Works Requests**: Citizens petitioned for infrastructure improvements including street boundary adjustments, a bridge at Waller Creek, and fire hydrants on Pecan Street—matters referred to appropriate committees for consideration.\n\n• **Committee Reorganization**: Several aldermen resigned from committee positions, prompting a major reshuffling of assignments with multiple committee chair changes.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

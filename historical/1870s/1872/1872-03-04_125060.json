@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-03-04_125060",
-  "title": "",
+  "title": "Austin Bridge, Railroad & Market House Approvals",
   "meeting_type": "regular",
   "date": "March 04, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125060",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Construction Approved**: City council granted a petition from 50-60 residents to build a private bridge across Waller Creek at Cedar Street crossing, pending final approval at the next meeting.\n\n• **Railroad Support Committee Formed**: A committee was appointed to consult with citizens and draft recommendations regarding support for the Austin City Rail Road Company, which had received a state charter in May 1871.\n\n• **Market House Lease Granted**: The Board of Trade was given free monthly use of the Market House on the second Thursday of each month.\n\n• **Financial Growth Reported**: Mayor's report showed property values doubled to over $3 million, with license revenues and court fines nearly doubling year-over-year, though the city faced constraints on tax collection limits.\n\n• **Infrastructure Planning**: Council approved an iron stairway for a downtown building and appointed a committee to oversee opening new streets (Chestnut, Linden, and Magnolia Avenue), while discussing future water and gas works projects.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

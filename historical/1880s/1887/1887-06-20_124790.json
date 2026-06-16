@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-06-20_124790",
-  "title": "",
+  "title": "Austin 1887: Fire Bell, Parks & Bawdy Houses",
   "meeting_type": "regular",
   "date": "June 20, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124790",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fire Bell Installation**: Council approved $200 to hang a fire bell for the city (increased from original $150 budget)\n\n• **Bawdy House Crackdown**: Citizens petitioned to suppress brothels near Lavaca and Fifth Streets; council introduced an ordinance to confine such establishments to specific city limits\n\n• **Pease Park Development**: The city accepted Governor Pease's land donation and ordered cost estimates for fencing and improvements to the new public park\n\n• **Public Park Naming**: Citizens invited to submit name suggestions for Austin's various parks and public squares by September 15\n\n• **Tax Enforcement**: Council authorized the city attorney to pursue legal action against delinquent taxpayers to recover owed taxes",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

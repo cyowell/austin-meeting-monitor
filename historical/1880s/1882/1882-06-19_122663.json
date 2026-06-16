@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-06-19_122663",
-  "title": "",
+  "title": "** Austin 1882: Fire Department Funding & Sewer Plans",
   "meeting_type": "regular",
   "date": "June 19, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122663",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fire Department Budget:** Council debated a $346/month appropriation for fire department expenses (April-October 1882) and a separate $3,000 allocation for hydrants and water pipes, though some votes on these measures failed to pass.\n\n• **Underground Sewer Project:** A petition from citizens was referred to a special committee to decide whether to allow W.B. Brush to construct and maintain an underground sewer system in Austin.\n\n• **Saloon License Approved:** A.Raggio & Co. received permission to open a saloon on Pecan Street in the Second Ward.\n\n• **Fire Safety Rules:** The Fire Commissioners announced they would begin enforcing all fire safety ordinances going forward, and approved a small storage shed behind the Capitol building for fire tools.\n\n• **Building Modifications:** The council granted one property owner permission to keep rear stairs as a fire escape (if replaced with iron stairs within a year) but denied another building owner's request for rear alley stairs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

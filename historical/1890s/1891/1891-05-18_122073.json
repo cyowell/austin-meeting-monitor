@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-05-18_122073",
-  "title": "",
+  "title": "Austin Tackles Smallpox, Cemetery Plans",
   "meeting_type": "regular",
   "date": "May 18, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122073",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Smallpox Response**: Council appropriated $700 to establish a quarantine facility for smallpox patients and an additional $200 to pay a doctor for treatment services during the April 1891 outbreak.\n\n• **New Private Cemetery**: After close voting (9-8), the council accepted a proposal from E.C. Stiles to operate a new cemetery with affordable burial rates for paupers and higher-priced plots for the general public.\n\n• **Municipal Finances**: Council approved $5,000 in interest payments on water and electric light bonds, reflecting the city's investment in these utility systems.\n\n• **Aldermen Compensation**: Council passed an ordinance to pay aldermen $500 annually for attending regular meetings.\n\n• **City Reorganization**: A 10-member committee was appointed to redivide Austin into wards following changes to the city charter.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

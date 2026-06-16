@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-08-12_124861",
-  "title": "",
+  "title": "** Austin's 1878 Clock Repair and Bridge Plans",
   "meeting_type": "special called",
   "date": "August 12, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124861",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **City Clock Contract:** The council approved a $50 annual contract with B.C. Mills to maintain and repair Austin's public clock, deciding to keep it in its current location.\n\n• **Infrastructure Projects:** The City Engineer's proposals for building a foot bridge over Waller Creek on Red River Street and paving East Pecan Street were referred to the Street Committee for further review.\n\n• **Public Safety Initiative:** Citizens were officially encouraged to report sanitary code violations and public nuisances directly to the City Marshal to improve neighborhood conditions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

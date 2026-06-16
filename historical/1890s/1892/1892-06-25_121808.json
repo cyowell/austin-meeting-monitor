@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-06-25_121808",
-  "title": "",
+  "title": "Austin Approves Underground Sewer System",
   "meeting_type": "special called",
   "date": "June 25, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121808",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Infrastructure Project Approved**: The City Council voted to grant the Lewis Mercer Construction Company permission to build a modern underground sanitary sewer system throughout Austin's streets and alleys.\n\n• **Unanimous Support (Nearly)**: The ordinance passed overwhelmingly with only two aldermen voting against it, signaling strong council support for this public infrastructure improvement.\n\n• **Fast-Tracked Approval**: The council suspended normal rules to rush the sewer project through all three required readings in a single special meeting, indicating urgency about getting the work underway.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

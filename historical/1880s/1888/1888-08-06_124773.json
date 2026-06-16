@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-08-06_124773",
-  "title": "",
+  "title": "Austin's 1888 Public Park, Street Lights & School Fund Debates",
   "meeting_type": "regular",
   "date": "August 06, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124773",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Religious meetings approved for public park**: Citizens were granted permission to use the public park in the First Ward for religious meetings for 60 days.\n\n• **Street light relocation disputed**: A petition to move a street light to Red River and Fifteenth Streets (near Swedish M.E. Church) was referred to the Seventh Ward aldermen for further consideration instead of being approved immediately.\n\n• **School tax custody debated**: The city attorney issued a lengthy legal opinion on whether the City Treasurer or School Board Treasurer should control school tax funds, ultimately recommending the City Treasurer but acknowledging common practice entrusts it to the School Board's treasurer.\n\n• **City finances reported**: The treasurer reported $8,246.86 in balance as of August 6, with approximately $26,000 in disbursements for the quarter and upcoming cemetery loan payments due.\n\n• **Public health snapshot**: The city hospital treated 15 new patients in July with 13 discharged, while the sexton reported 42 deaths that month in the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

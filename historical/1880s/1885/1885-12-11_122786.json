@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-12-11_122786",
-  "title": "",
+  "title": "Austin's 1885 Election Results & New Officers",
   "meeting_type": "special called",
   "date": "December 11, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122786",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Mayor J.W. Robertson Re-elected**: Robertson narrowly won re-election with a 52-vote majority (1,390 to 1,338 votes) for a second term, delivering an inaugural speech emphasizing unity and impartial governance.\n\n• **New City Officials Elected**: The council appointed eight key city officials including City Attorney G.F. Pendexter, City Treasurer J.W. Howard, City Engineer J.K.P. McFall, and City Physician R.S. Graves through competitive ballot voting.\n\n• **Ten Aldermen Confirmed**: New aldermen from all 10 city wards were certified after election returns were reviewed, though two candidates—J.C. DeGress and G.A. Brush—faced formal legal challenges to their eligibility.\n\n• **School Trustee Elections**: A.P. Wooldridge, J.W. Graham, and J.M. Brackenridge were elected as the three trustees of Austin Public Schools.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

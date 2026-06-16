@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-01-08_124800",
-  "title": "",
+  "title": "** Austin Infrastructure & Fire Department Updates 1881",
   "meeting_type": "regular",
   "date": "January 08, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124800",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street infrastructure improvements**: Council approved water plug installation at Lavaca and Burnet streets, authorized payment for rock wall and sewer construction on East Pecan Street ($1,394.59), and discussed street obstruction regulations to manage public right-of-way usage.\n\n• **Fire department leadership**: John D. Hink was appointed as Recorder of the Fire Department following the death of the previous recorder, and the Protection Hose and Ladder Company requested a lamp be installed in front of their truck house.\n\n• **Railroad right-of-way decision**: Council received a presentation from Houston and Texas Central Railroad representatives regarding proposed ordinance changes affecting the railroad's legal rights; a special committee was appointed to review the matter.\n\n• **Tax relief and refunds**: Council granted refund petitions from citizens and businesses, including property owners seeking reduced rent, tax relief for prior years (1873-1875), and pound master fee reimbursements.\n\n• **Memorial and personnel changes**: Council passed resolutions honoring deceased Alderman L.C. Fitch from the Seventh Ward and ordered a special election on January 15th to fill the vacancy; also appointed R.L. Stuart as a new police officer.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

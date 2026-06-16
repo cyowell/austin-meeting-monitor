@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-12-06_122759",
-  "title": "",
+  "title": "Austin Elects New Aldermen and Approves Street Improvements",
   "meeting_type": "special called",
   "date": "December 06, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122759",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Results Certified**: The council officially canvassed voting results from the December 1st aldermanic election across 10 wards, with 1,404 total votes cast. Ten new aldermen were sworn in, including E.S. Metz (Ward 1), B.R. Pillow (Ward 2), and others.\n\n• **Water Infrastructure Funded**: Despite opposition from four aldermen, the council narrowly approved a $5,050 appropriation to pay the City Hydrant Water Company for hydrant rental services—essential fire protection infrastructure for the growing city.\n\n• **Street Lighting Expansion**: The council decided to expand gas street lighting by adding ten new lamps per ward (excluding existing avenue and Pecan Street installations), improving nighttime safety and visibility across Austin.\n\n• **Charter Reform Committee Created**: Mayor Robertson appointed a committee of city officials and citizens to recommend amendments to Austin's city charter, signaling plans for governance updates.\n\n• **New Leadership Installed**: G.W. Crooker was unanimously elected as the new President of the Board of Aldermen.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

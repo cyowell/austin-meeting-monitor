@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-03-11_125100",
-  "title": "",
+  "title": "Austin Market House & Building Code Reforms",
   "meeting_type": "special called",
   "date": "March 11, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125100",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Market House Construction Contract Awarded**: The city council approved a contract with Cook, Loomis & Christian to build a new market house and city hall for $10,090—the lowest bid among three proposals—with completion required within six months.\n\n• **Downtown Fire Safety Standards Enacted**: New construction rules mandated that all buildings along Congress Avenue must have fire-resistant exteriors (brick, stone, or concrete) and fireproof roofs, with the city authorized to demolish non-compliant structures at the owner's expense.\n\n• **Market Bond Payment Restructured**: The council adjusted payment terms for $5,000 in municipal bonds, spreading repayment over three years instead of the original schedule.\n\n• **Fire Chief Elected**: Captain John H. Robinson was elected as the city's fire chief with 39 votes, defeating competitor P.H. Hopkins who received 18 votes.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

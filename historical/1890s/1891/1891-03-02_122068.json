@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-03-02_122068",
-  "title": "",
+  "title": "Austin Dam Construction & Street Projects 1891",
   "meeting_type": "regular",
   "date": "March 02, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122068",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major dam project progress:** The city's Colorado River dam continued construction with excavation for the canal and gate house nearly complete, and stone quarrying and preparation \"well organized.\" The city approved $9,138.18 in contractor payments for February and March work.\n\n• **New street and alley improvements:** Citizens requested a new street through Parkinson farm (connecting 19th-24th Streets) and repairs to streets in the 10th Ward; the city also reduced funding for alley improvements from $5,000 to $500.\n\n• **Dam railroad lease proposal:** The Board of Public Works sought council approval to lease the newly-built railroad to the dam site for up to 5 years at 6% annual rental, with the lessee operating it initially by dummy engines or electricity.\n\n• **Gas streetlights authorized:** The council instructed the Water and Light Committee to arrange with the Austin Gaslight and Coal Company for placing gas lamps throughout the city as needed.\n\n• **Monthly payroll and operational expenses approved:** The city passed ordinances funding $3,350 for municipal salaries, $1,947.75 for approved accounts, and $25 for cemetery entrance improvements.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

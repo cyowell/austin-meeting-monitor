@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-04-05_124984",
-  "title": "",
+  "title": "Austin Water Company & Bar Room Permits",
   "meeting_type": "regular",
   "date": "April 05, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124984",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Infrastructure Deal**: City Council approved a special committee to review a major petition from B. Radley to install water hydrants and pipes citywide, promising residents clean water at only 5 cents per barrel—a significant infrastructure development for the growing city.\n\n• **New Businesses Approved**: Granted bar room operating licenses to G.B. Smith (Ward 10) and C. Peterson (Ward 9), expanding commercial activity in Austin.\n\n• **Market House Revenue Plan**: Implemented a system to lease vegetable and market stands (9-foot frontage) on the first day of May each year, with daily fees from unlicensed vendors going toward building a covered structure over the market grounds.\n\n• **Public Funding Decisions**: Appropriated $90 for a police officer's funeral expenses and $75 to refund a citizen for a cemetery lot previously sold to another party, resolving long-standing disputes.\n\n• **Bridge Construction**: Authorized the Mayor to seek proposals for building a stone bridge on College Avenue over Shoal Creek to improve city transportation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

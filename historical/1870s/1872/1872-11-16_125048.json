@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-11-16_125048",
-  "title": "",
+  "title": "Austin Election & City Leadership Transition",
   "meeting_type": "regular",
   "date": "November 16, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125048",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Election Results**: The council certified new city officials including Mayor J.B. Wheeler, Marshal H.M. Long, and Treasurer J.W. Howard, along with aldermen representing eight wards across Austin.\n\n• **Budget Approvals**: The council approved approximately $1,313 in payments, including $200 for two years of cemetery sexton services and $125 for election judge and clerk compensation.\n\n• **Mayoral Transition**: Outgoing Mayor John H. Bennu delivered a farewell address crediting the council's guidance, while incoming Mayor J.B. Wheeler pledged fair governance \"without reference to race, color or nationality\" and promised to enhance Austin's status as Texas's newly designated capital.\n\n• **Routine City Services**: The council approved payment for basic municipal services like street cleaning, trash removal, and office maintenance totaling under $70.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

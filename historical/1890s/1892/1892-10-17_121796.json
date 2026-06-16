@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-10-17_121796",
-  "title": "",
+  "title": "Austin 1892: Labor Hours, Fire Company Taxes, Circus Bridge Damage",
   "meeting_type": "regular",
   "date": "October 17, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121796",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Labor Victory**: City workers won reduced hours—the council passed a resolution requiring the Street Commissioner to release all city laborers and mechanics at 5 p.m. daily, effectively establishing a shorter workday.\n\n• **Circus Damage**: Barnum & Bailey's Circus damaged the Red River Street bridge over Waller Creek, but the company paid $21 in damages; repairs were estimated at $15.\n\n• **Fire Company Tax Break**: East Austin Fire Company No. 4 petitioned for tax exemption on their property used for fire services, though the council delayed the decision pending legal review.\n\n• **Noise Complaint**: Students at Capital Business College complained that the Salvation Army's nightly meetings across the street disrupted their studies; the council referred the issue to the Ordinance Committee to draft a solution.\n\n• **Infrastructure Projects**: The council approved expanding San Marcos Street and authorized a special committee to open bids for a new bridge over Bauldin Creek in cooperation with county commissioners.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

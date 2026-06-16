@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-05-13_124871",
-  "title": "",
+  "title": "Austin's Attempt to Remove City Attorney",
   "meeting_type": "special called",
   "date": "May 13, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124871",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Failed removal proceeding**: City Council attempted to remove City Attorney Sam N. Hildy but the motion failed 6-2, with a majority voting to keep him in office after hearing evidence over three days of proceedings.\n\n• **Formal removal procedures established**: Council adopted detailed rules of procedure for officer removal cases, including witness examination protocols, argument time limits (30 minutes per side, 10 for the city's closing), and requirements for open council chamber doors.\n\n• **Federal building repair request**: Council petitioned U.S. Senators and Representatives to secure $10,000 to repair deteriorating Army barracks in Austin that had become a haven for \"tramps and disreputable characters.\"\n\n• **Fire department recognition**: Council passed a resolution thanking Hope Hook & Ladder Company #2 and other firefighters for their heroic conduct at a competition in Waco.\n\n• **City budget items**: Approved $27.50 for office window repairs and $100 for legal fees in a water company lawsuit.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

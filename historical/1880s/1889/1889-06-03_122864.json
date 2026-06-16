@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-06-03_122864",
-  "title": "",
+  "title": "** Austin Budget Debate & Fire Department Funding",
   "meeting_type": "regular",
   "date": "June 03, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122864",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fire Department Equipment Vetoed** — Mayor Joseph Nalle rejected a $2,000 ordinance to purchase fire hose, citing budget constraints. The city faced a projected $3,000+ deficit for the fiscal year, with revenues around $50,000 but estimated expenses over $53,000. The veto was upheld when aldermen failed to override it.\n\n• **Murder Defense Funding Rejected** — The council's attempt to appropriate $300 to pay for legal defense of William B. Davis, a city peace officer charged with murder, was vetoed by the mayor as setting a dangerous precedent for using public funds to cover officers' personal legal troubles.\n\n• **Tax Levies Approved** — The council passed a 1% property tax for general city operations and attempted (but failed on first vote) to pass a separate one-third of 1% tax for public school support, reflecting ongoing fiscal pressures.\n\n• **Street & Infrastructure Requests Denied** — Multiple citizen petitions for street improvements, alley openings, and gutter paving were rejected or deferred due to the city's tight financial situation.\n\n• **City Operations Funded** — Despite budget constraints, the council approved routine appropriations totaling over $11,000 for employee salaries, approved accounts, and bonded debt interest payments.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

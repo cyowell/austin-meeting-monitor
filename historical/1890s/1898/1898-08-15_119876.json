@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-08-15_119876",
-  "title": "",
+  "title": "Austin Infrastructure & Finance: 1898 Council Decisions",
   "meeting_type": "regular",
   "date": "August 15, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119876",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water & Light Bond Purchase Approved** – The council voted 11-5 to purchase and retire ten Water & Light bonds, allocating $10,160 from the Interest and Sinking Fund to upgrade the city's utilities.\n\n• **Street Improvements & Public Safety** – Approved funding for bridge construction on West 2nd, 5th Streets and Congress Avenue, and authorized new arc lights at West 6th and Rio Grande, near the Lunatic Asylum, and at the city limits streetcar stop.\n\n• **Business Permits Granted & Denied** – Approved show windows and sheds for local businesses, but rejected a variety show permit at 600 East 6th Street on police committee recommendation.\n\n• **July Financial Report** – City collected $97,377.66 in revenue from taxes, bonds, and general funds; the Earnings Fund held $12,507.47 after disbursements.\n\n• **Tax & Dog Licensing Corrections** – Council amended ordinances to fix tax levy errors from 1896 and earlier years, and updated dog licensing regulations with revised penalties.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-01-20_119784",
-  "title": "",
+  "title": "Austin Water Infrastructure & City Services, 1896",
   "meeting_type": "regular",
   "date": "January 20, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119784",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water System Improvements**: Council approved a $13.50/foot contract with Howard Shelly to lay new cast iron water pipes citywide and authorized engineers to oversee pump installation at the dam and reservoir construction.\n\n• **Public Safety Spending**: Passed a $1,800 appropriation to purchase fire hoses and a $480 measure to pay additional sanitary laborers for city cleanup.\n\n• **Rapid Transit Proposal**: Referred a citizen petition about the Austin Rapid Transit Railroad Company to a special committee for investigation and recommendation.\n\n• **Street Commissioner Authority**: Adopted a revised ordinance clarifying the Street Commissioner's duties while removing language requiring approval from the street committee.\n\n• **Various City Contracts**: Approved agreements to supply straw and timber for city needs and contracted H.F. Cook & Bro. for shoeing city mules.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

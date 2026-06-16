@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-01-06_125045",
-  "title": "",
+  "title": "Austin's 1873 Hospital, Water & Street Laws",
   "meeting_type": "regular",
   "date": "January 06, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125045",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Hospital and water proposals considered**: A doctor offered to serve as city physician and establish a hospital, while a group proposed supplying Austin with water—both petitions were sent to committees for further review.\n\n• **New street animal control law passed**: The city banned cattle and horses from roaming streets, with impounded animals to be sold at auction after 3 days, with proceeds funding street improvements (exempt: dairy cows).\n\n• **Professional licensing taxes rejected**: A proposed ordinance to tax doctors, lawyers, and barbers failed to pass, though police officer arrest fees and city attorney fees were approved.\n\n• **Fire station funding approved**: The council confirmed sufficient funds had been collected to begin construction of a new firehouse for two fire companies without further delay.\n\n• **Charter revision ordered**: The council appointed a committee to work with local lawyers to draft an amended city charter to present to the state legislature at the next session.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

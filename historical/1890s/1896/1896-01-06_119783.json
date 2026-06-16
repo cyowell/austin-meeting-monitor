@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-01-06_119783",
-  "title": "",
+  "title": "Austin's 1896 Budget Crisis and Water Emergency",
   "meeting_type": "regular",
   "date": "January 06, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119783",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **City faces major financial shortfall and water infrastructure crisis** – Mayor warned the council that aging, decaying water pipes threaten to collapse, risking interruption to the city's water supply. He emphasized that building a new water reservoir is critical and urgently needed to protect public health and property.\n\n• **Budget deficit expected despite spending cuts** – Even with estimated $74,568 in revenue and tight cost controls, the city faced a potential $568 deficit. The mayor also criticized the city's $63,000 total payroll as too high and urged salary reductions where practical.\n\n• **New street improvements and fire equipment approved** – Council authorized $300 for extra street labor and $50 to repair hills on Clinton, East Austin, and Colorado streets. They also approved $1,800 for new fire hose to get the Fire Department in working condition.\n\n• **Water and sewer system showing strong earnings growth** – The water utility added 51 new customers in December (reaching 1,717 total) and electric service added 57 new consumers. Monthly receipts totaled $8,755, with the earnings fund projected to have a $20,758 balance.\n\n• **Multiple contracts awarded for city services** – Council approved contracts for street sprinkling at $70/month, printing services, and feed supplies for city horses, while rejecting a proposal to lease the City Hospital to private operators.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

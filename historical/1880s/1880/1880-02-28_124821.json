@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-02-28_124821",
-  "title": "",
+  "title": "Austin's 1880 Market Ordinance Debate",
   "meeting_type": "special called",
   "date": "February 28, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124821",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Failed Meeting Due to Lack of Quorum** — The special city council meeting called for February 28, 1880, couldn't proceed because not enough aldermen showed up to conduct official business.\n\n• **Market Ordinance Under Review** — Six council members had requested the meeting to reconsider a market ordinance that had recently passed, indicating potential disagreement about the policy.\n\n• **Meeting Adjourned Without Action** — With insufficient attendance, the council was forced to adjourn without discussing or voting on the contested market ordinance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

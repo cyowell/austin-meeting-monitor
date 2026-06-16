@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-09-05_119878",
-  "title": "",
+  "title": "Austin Street Railway Franchise & Lake Boat Safety Rules",
   "meeting_type": "regular",
   "date": "September 05, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119878",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Street Railway Expansion Approved**: The city council granted E.A. Ellis a 50-year franchise to build and operate electric streetcar lines throughout Austin, with detailed safety requirements including speed limits (6 mph on Congress Avenue and 6th Street, 4 mph elsewhere), fare caps of 5 cents, and mandatory yearly expansion of at least one mile of track.\n\n• **Lake McDonald Boat Safety Regulations Passed**: New inspection and safety rules for passenger boats on Lake McDonald were adopted, requiring annual inspections, specification of passenger capacity limits, and penalties for overcrowding or operating without proper certification.\n\n• **Street Lighting Expansion Approved**: The council voted to add electric arc lights at Rio Grande and West 6th Street, on the Georgetown road, and near the City Cemetery streetcar terminus, despite divided opinion among council members.\n\n• **Mayor Vetoes Bridge Construction**: Mayor McCall blocked funding for two new bridges on West 5th and West 2nd Streets at Congress Avenue, citing insufficient city funds after accounting for monthly operating expenses, though street conditions were acknowledged as poor.\n\n• **Tax Settlement Compromise**: The council accepted a settlement with taxpayers Scarborough & Hicks to resolve a tax assessment dispute for 1897, avoiding costly litigation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

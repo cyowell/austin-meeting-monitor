@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-05-16_125098",
-  "title": "",
+  "title": "Austin's 1876 Tax Roll Approved with Minor Corrections",
   "meeting_type": "special called",
   "date": "May 16, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125098",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Tax Roll Approved**: The city council reviewed and approved the tax assessment roll after identifying and agreeing to correct several errors in the records.\n\n• **No Public Complaints**: Despite advertising the meeting for ten days to invite citizen input, no complaints were filed against the tax assessments.\n\n• **Administrative Corrections**: The mayor agreed to make necessary adjustments to fix errors found in the tax roll before final implementation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-03-21_119858",
-  "title": "",
+  "title": "Austin's 1898 Budget Crisis and Judgment Payments",
   "meeting_type": "regular",
   "date": "March 21, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119858",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Massive Financial Burden**: The city faced nearly $50,000 in unexpected expenses for 1898, including judgment payments to the Old Water Company and debts to the Water & Light Commission, straining the budget beyond normal operations.\n\n• **Judgment Payment Ordinance Passes**: After heated debate, council approved an ordinance setting aside 30% of general revenue receipts to pay a judgment owed to E.C. Bartholomew (Receiver), with aldermen divided on whether funds should come from general revenue or other sources.\n\n• **Water & Light Infrastructure Investment**: A quarterly report showed the Water & Light Commission spending nearly $19,000 on expanding water and light service, with efforts underway to supply the Sixth Ward with these utilities.\n\n• **Fire Department & Municipal Maintenance**: Council allocated $100 each for repairs to Protection Fire Hall and East Austin Fire Co., while approving extra pay for sanitary workers and authorizing street work in South Austin.\n\n• **Railroad Track Dispute**: Citizens protested a proposed Houston & Texas Central Railroad track on Colorado Street, with the matter referred to committee as the city balanced infrastructure expansion with neighborhood concerns.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

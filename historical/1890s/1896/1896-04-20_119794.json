@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-04-20_119794",
-  "title": "",
+  "title": "Austin 1896: Fire Station, Cemetery, River Land",
   "meeting_type": "regular",
   "date": "April 20, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119794",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Cemetery Maintenance Approved**: Council allocated $400 for cemetery improvements and granted a special policeman position request to better maintain the City Cemetery.\n\n• **River Walk Property Settlement**: The city agreed to settle a legal dispute with the State of Texas over River Walk property by accepting the state's offer to exchange the disputed riverside land for an improved street, allowing for better public use.\n\n• **Fire Department Inspection**: Council accepted an invitation to attend the Austin Fire Department's annual inspection (April 21) and evening ball, and approved $11 to repair and repaint the South Austin Fire Hall roof.\n\n• **Special Election Ordered**: Due to Alderman L.H. Glasscock's departure, a special committee was formed to organize a new election for the 11th Ward alderman seat.\n\n• **Infrastructure & Development**: Council approved ordinances for bridge repairs, street laborers' wages, and permitted the Austin Rapid Transit Railroad to construct a switch on South Street.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

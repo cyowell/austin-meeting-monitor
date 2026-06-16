@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-04-09_121790",
-  "title": "",
+  "title": "Austin Water Works Bonds Sale & 1892 Tax Levy",
   "meeting_type": "special called",
   "date": "April 09, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121790",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Bond Sale Approved**: The city council unanimously authorized the sale of $500,000 in municipal waterworks and electric light bonds to the U.S. Trust Company of Kansas City and San Antonio investor Geo W. Brackenridge at 95 cents per dollar, generating immediate revenue for Austin's infrastructure projects.\n\n• **Tax Increases Enacted for 1892**: Multiple tax ordinances passed, including levies for general revenue (80¢ per $100), waterworks bond payments ($1.11½ per $100), interest on prior bonds (10¢ per $100), and school funding (⅓ of 1%).\n\n• **Confidence in Municipal Finances**: The council formally recognized the finance committee's successful bond negotiations, noting they achieved good prices despite national financial troubles and negative rumors about Austin's creditworthiness.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

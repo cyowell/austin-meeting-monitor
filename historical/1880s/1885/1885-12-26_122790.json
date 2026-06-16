@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-12-26_122790",
-  "title": "",
+  "title": "Austin Hires Detectives to Fight Crime Wave",
   "meeting_type": "special called",
   "date": "December 26, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122790",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency Detective Force**: The city council authorized Mayor Robertson to hire skilled detectives for up to 90 days to address a public safety crisis, allocating $5,000 for their services and related expenses like travel and communication.\n\n• **Temporary Special Police**: In addition to hiring detectives, the council authorized the mayor to appoint unpaid volunteer \"special policemen\" to assist the city marshal in maintaining order during the emergency.\n\n• **Crime Alert System**: Fire bells throughout the city were designated to sound different alarm signals alerting citizens and fire companies when crimes had been committed, creating an early warning system for the community.\n\n• **Public Petition on Vice**: Citizens petitioned the council to crack down on gambling establishments, brothels, and unlicensed saloons—the petition was referred to a committee for consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

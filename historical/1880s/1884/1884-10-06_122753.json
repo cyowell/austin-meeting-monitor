@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-10-06_122753",
-  "title": "",
+  "title": "Austin Hospital Gets Funding, Water Contract in Question",
   "meeting_type": "regular",
   "date": "October 06, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122753",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Hospital Construction Crisis**: The newly built City and County Hospital needs nearly $1,700 in urgent repairs and supplies (including stairways, furnishings, and outdoor work) before it can properly operate, though contractors haven't even finished the building yet.\n\n• **City Water Company Disputes**: Citizens and the Mayor recommended declaring the water contract with the private water company void due to breaches, with the city considering building its own water system instead.\n\n• **Budget & Infrastructure Updates**: The city collected increased tax revenue of nearly $97,600 and approved multiple ordinances for street improvements, a new police force structure, and purchasing equipment like a cart horse for street cleaning.\n\n• **Market House Redesign**: The council authorized hiring an architect to redesign the City Market building to better serve as a combination city hall, jail, and market space on multiple floors.\n\n• **Fire Department Relocation Needed**: The city must vacate the building housing the fire department by January 1885, so council created a committee to find and secure new fire department quarters immediately.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

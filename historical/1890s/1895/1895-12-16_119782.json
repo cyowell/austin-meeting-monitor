@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-12-16_119782",
-  "title": "",
+  "title": "Austin's Water Plant & Election Concerns",
   "meeting_type": "regular",
   "date": "December 16, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119782",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Infrastructure Success**: Mayor celebrates nearly-completed water, light, and power plant ($1.6M investment), which should help citizens with reliable, clean water service while positioning Austin to attract manufacturing through surplus power sales\n\n• **Financial Caution Despite Success**: City faces tight budget ($74,568 revenue) with cautious outlook—previous administration left ~$25,000 in debts, so council urged to practice strict economy even as water plant potentially generates future income\n\n• **Election Integrity Problems**: Mayor warns of serious abuse by police and election officials engaging in political activism at polling places rather than performing duties, undermining voting credibility; recommends civil service reforms for police hiring based on merit rather than political connections\n\n• **Modest Salary Adjustments Approved**: After heated debate, council approved small raises for city detective, assistant clerk, and street commissioner (only three changes recommended by salary committee)\n\n• **Police Force Elections**: Council completed contentious selection of 17 policemen and 1 additional officer through multiple voting rounds, with considerable disagreement among aldermen about the process",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

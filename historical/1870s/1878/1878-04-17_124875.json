@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-04-17_124875",
-  "title": "",
+  "title": "** Austin Water Company Dispute & Street Improvements 1878",
   "meeting_type": "special called",
   "date": "April 17, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124875",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Company Negotiations**: Council appointed a three-person committee to meet with representatives from the City Water Company to work out a compromise on an ongoing dispute, with follow-up meetings scheduled.\n\n• **Legal Defense**: The council authorized hiring four lawyers (Hancock, West, North, and E.J. Davis) to represent the city in a lawsuit brought by the Water Company.\n\n• **Street Improvement Request**: Residents petitioned the city to grade (improve) Brazos Street between Pecan and Pine Streets, which was referred to the Streets Committee for consideration.\n\n• **Refund Approved**: A resident named Harriet Robinson successfully petitioned for a $1 refund after overpaying a fee for a dog that had been impounded by the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

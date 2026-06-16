@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-10-21_119508",
-  "title": "",
+  "title": "Austin's Cotton Mill & Water Projects Dominate 1895 Agenda",
   "meeting_type": "regular",
   "date": "October 21, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119508",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Cotton Mill Investment Gains Support**: The Board of Trade invited city council to a mass meeting to promote \"The Austin Cotton Mill,\" a major enterprise designed to utilize the city's water power. The project had already attracted over 900 stock subscribers, signaling significant community backing for this industrial development.\n\n• **Water Infrastructure Debate**: The council struggled to move forward on building a reservoir for the water distribution system. After receiving four bids ranging from $42,635 to $65,501, they appointed a committee to determine land acquisition costs before making a final decision, delaying the $30,000 project.\n\n• **Tax Levy Reduced Despite Debt**: The Finance Committee recommended a tax levy 11 cents lower per $100 valuation than the previous year, even though the city's bonded indebtedness increased by $135,000. This was achieved by destroying $65,000 in old bonds while issuing $200,000 in new ones.\n\n• **Carnival Regatta Gets Permission**: The American Carnival Regatta Association received approval to fence land near the dam for boat houses, allowing races to start and finish where spectators could easily view them—a convenience upgrade for the November event.\n\n• **Mayor Vetoes Crop Damage Claim**: Mayor McDonald rejected a $300 payment to S.J. White for crop damage from the dam, arguing White had already signed a release deed in 1893 and the crops appeared valueless anyway.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

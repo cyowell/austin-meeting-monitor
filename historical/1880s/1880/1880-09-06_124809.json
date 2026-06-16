@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-09-06_124809",
-  "title": "",
+  "title": "** Austin Business Licenses & Bridge Safety Issues",
   "meeting_type": "regular",
   "date": "September 06, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124809",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New Business Permits Approved**: The council granted licenses for a shooting gallery, bar room, and three outdoor meat markets, while tabling a variety theatre petition pending further review.\n\n• **Dangerous Bridges Need Immediate Repair**: The City Engineer warned that two bridges (Congress Avenue and Cherry Street) were decaying and posed safety risks, recommending urgent replacement of floor beams and timbers.\n\n• **Road Improvements Requested**: Citizens petitioned to improve College Avenue west of Shoal Creek, with the request referred to the Street Committee for action.\n\n• **Financial Matters**: The council approved a $3,650 payment to contractors Haught and Simms, and directed the City Attorney to investigate a $369.25 judgment claim against the city.\n\n• **Cotton Storage Approved**: The council authorized cotton storage on a downtown block after the Ordinance Committee's favorable review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

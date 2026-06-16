@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-10-15_122092",
-  "title": "",
+  "title": "Austin's 1894 Street Repairs and Water Projects",
   "meeting_type": "regular",
   "date": "October 15, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122092",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street Infrastructure Improvements**: Council approved $75 for a stone crossing at Guadalupe and Twenty-fourth streets to fix an impassable black soil road, and authorized $2,050 to purchase land for opening Fifth Street through private properties to connect to Bowie Street.\n\n• **Water System Expansion**: Allocated $7,409.46 for water and light system construction costs, including payments to Fort Wayne Electric Company and local contractor Braun + Dabney.\n\n• **Cemetery and Public Services**: Funded $75 for one month of water service to the city cemetery and hired an additional police officer (J.D. Plumb) to handle growing public safety needs.\n\n• **Property Tax Relief**: Granted partial fee remissions to a local stockowner and referred a doctor's request for tax payment extension to committee for further review.\n\n• **Infrastructure Verification**: Ordered a detailed inspection of the city's 164 fire hydrants to confirm they were actually connected to water mains.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

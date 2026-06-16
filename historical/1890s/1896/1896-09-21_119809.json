@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-09-21_119809",
-  "title": "",
+  "title": "Austin Bridge Funding Dispute and Infrastructure Investments 1896",
   "meeting_type": "regular",
   "date": "September 21, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119809",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Mayor Vetoes South Austin Bridge Repair**: Mayor Lewis Hancock rejected a $230 appropriation to repair Newning's Branch bridge, arguing the inconvenience affected only a dozen families and the city's tight finances didn't justify the expense. The council unanimously sustained his veto.\n\n• **City Approves $10,000 in Bond Purchases**: The Finance Committee recommended accepting competitive bids for municipal bonds (5% Water and Light Bonds) to fund the city's Sinking Fund, with the council unanimously approving the spending.\n\n• **Protective Equipment Installed at Power House**: The Water and Light Committee approved $229.75 for lightning arresters to protect valuable electrical machinery and ordered 65,000 pairs of carbon for arc lamps to ensure the city had adequate lighting supplies.\n\n• **Texas Military Payment and Major Infrastructure Spending**: The council appropriated $3,000 to pay Company F of the Fourth Regiment Texas Volunteer Infantry, plus $16,687.50 for Water and Light Bond interest and $2,175 for funding bond interest.\n\n• **National Prison Association Invitation**: Austin's officials were authorized to invite the National Prison Association of the United States to hold its 1897 annual congress in the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

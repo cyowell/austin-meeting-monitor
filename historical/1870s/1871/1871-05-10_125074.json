@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-05-10_125074",
-  "title": "",
+  "title": "Austin Property Tax Assessments Approved",
   "meeting_type": "regular",
   "date": "May 10, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125074",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Property tax assessments for Austin's first ward were officially approved and confirmed** for 1871 after no property owners filed appeals against the valuations.\n\n• **The city council convened as a special \"Board of Appeal\"** to review real estate and personal property assessments, following procedures required by law.\n\n• **No objections were raised by property owners**, allowing the assessments—which had already been approved by the mayor—to be quickly confirmed without dispute.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

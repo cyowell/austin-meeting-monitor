@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-06-15_122076",
-  "title": "",
+  "title": "** City Clock Contract & Water Company Bills",
   "meeting_type": "regular",
   "date": "June 15, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122076",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "- **City Clock Repair Contract:** After receiving competing bids, the council selected H.H. Schneider's proposal to repair and maintain the city clock for $58 annually (half the price of the competing bid), winning approval 11-8.\n\n- **Major Budget Approvals:** The council appropriated over $13,000 for essential services, including $5,200 for bond interest payments, $6,025 for water and hydrant service, and $2,042 for a water company account.\n\n- **Damage Claims from Railroad:** Multiple residents sought compensation for property damage caused by railroad construction, including damage to a homestead and a rock wall; claims were referred to committees with the city attorney for legal review.\n\n- **Street Improvements:** The council approved repairs to multiple properties including street grading and sidewalk work, and established sidewalk width standards for University Avenue.\n\n- **Advertising Restrictions:** A new ordinance was proposed to prohibit painted advertisements and notices on city sidewalks, addressing public space clutter concerns.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

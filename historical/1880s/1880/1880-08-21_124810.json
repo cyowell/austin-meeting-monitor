@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-08-21_124810",
-  "title": "",
+  "title": "Austin's Disputed 1880 Election & City Repairs",
   "meeting_type": "special called",
   "date": "August 21, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124810",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Election Challenge**: The city council questioned the legality of an August 16, 1880 mayoral election, alleging it violated charter requirements for proper notice and voting procedures. They appointed a committee to consult with lawyers before deciding the election's validity.\n\n• **Committee Restructuring**: The mayor announced several changes to aldermen committee assignments following Alderman Crooker's resignation, including new leadership for Finance and Street committees.\n\n• **Fire Station Repairs Approved**: The council appropriated $40 to repair the deteriorating Austin Hook & Ladder Company meeting hall, which needed painting and tin roof work.\n\n• **Entertainment Venues Denied Then Approved**: After initially rejecting permits for two variety show operators to perform on East Pecan Street, the council reconsidered and granted them permission for a 20-day period.\n\n• **Administrative Housekeeping**: The council authorized hiring clerical staff to audit city government records, books, and vouchers.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

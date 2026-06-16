@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-06-01_125005",
-  "title": "",
+  "title": "** Austin Street Lighting & Dog Control Ordinances",
   "meeting_type": "regular",
   "date": "June 01, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125005",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Gas Lamp Contract Dispute**: Council approved a $1,000 contract with Sylvester Watts for 20 gas street lamps at $50 each, plus $6 per 1,000 cubic feet of gas. The Mayor vetoed it, arguing the city couldn't afford the ~$200/month gas costs and should stick with cheaper oil lamps until finances improved. Council overrode the veto.\n\n• **Stray Dog Crackdown**: Council ordered the City Marshal to kill all unmuzzled dogs running loose starting June 4, 1874, after giving owners one day to claim them.\n\n• **Circus & Entertainment Licensing**: City raised license fees for circuses, menageries, and sideshows to generate more revenue.\n\n• **Police & Public Safety**: Approved reducing mounted police to just one officer and reviewed petitions for new police recruits and equipment needs for the fire department.\n\n• **Street & Commerce Regulations**: Banned street peddlers from selling goods on public streets and referred lumber storage regulations to the City Attorney for review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

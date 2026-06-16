@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-03-10_119742",
-  "title": "",
+  "title": "** Austin Election Set for April 1899",
   "meeting_type": "special called",
   "date": "March 10, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119742",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **City-wide election scheduled for April 3, 1899** to fill major positions including Mayor, City Marshal, City Clerk, City Attorney, Treasurer, Assessor, Physician, Engineer, seven ward Aldermen, and three school board members.\n\n• **Ordinance faced procedural delays** due to parliamentary disputes over whether the council could reconsider a previously postponed election measure, requiring multiple sessions across three days to resolve.\n\n• **Alderman removed from voting** when it was determined one council member had moved outside his ward and therefore lost voting privileges on city matters.\n\n• **Final passage required rule suspension** to fast-track the election ordinance through its final reading, ultimately passing with 15 aldermen in favor and none opposed.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

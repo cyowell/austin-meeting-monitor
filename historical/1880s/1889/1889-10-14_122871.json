@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-10-14_122871",
-  "title": "",
+  "title": "Austin Rails: 1889 Railway Right-of-Way Dispute",
   "meeting_type": "special called",
   "date": "October 14, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122871",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Railway expansion approved**: The City Council voted to pass an ordinance granting the Houston and Texas Central Railway Company rights to lay track through Austin, despite local opposition.\n\n• **Neighborhood objection**: Residents and property owners from the Tenth Ward submitted a formal petition against the ordinance, raising concerns about the railway's impact on their community.\n\n• **Public input allowed**: Council members voted to invite citizens to speak and share their concerns about the railway project before the final vote.\n\n• **Close attendance**: Only 11 of 20 aldermen attended the evening meeting, with 9 members absent when the vote took place.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

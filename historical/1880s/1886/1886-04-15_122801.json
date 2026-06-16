@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-04-15_122801",
-  "title": "",
+  "title": "** Austin's 1886 Fire Station Deal & Public Safety Rules",
   "meeting_type": "special called",
   "date": "April 15, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122801",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Company Headquarters Approved**: The city agreed to pay the Washington Fire Engine Company $3,500 for their current building and commit to $50/month rent for a new fire station to be built on Dr. Cummings' property on Brazos Street.\n\n• **Opium Dens & Building Safety**: New ordinances were passed to regulate theaters and dance halls, ban opium operations, and enforce fire safety standards for wooden buildings in the city.\n\n• **Public Health Crisis**: The council authorized the city physician to shut down the smallpox quarantine camp when safe and destroy all contaminated property.\n\n• **Infrastructure & Parks**: Plans moved forward for a new public park committee and a $450 stone culvert project on Congress Avenue.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-01-02_125085",
-  "title": "",
+  "title": "Austin's 1871 Budget & Office Changes",
   "meeting_type": "regular",
   "date": "January 02, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125085",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New City Surveyor Appointed**: Rueben H Ford was unanimously approved as the new City Surveyor for Austin.\n\n• **Outgoing Official Gets Transition Time**: The previous office holder (A.O. Morse Sr.) requested and received permission to delay his replacement until February 1st to settle his accounts—a courtesy the council unanimously granted.\n\n• **Budget Approved**: The council unanimously approved nearly $1,450 in appropriations for December expenses, including salaries for the city marshal and police officers, prisoner care, and market house repairs.\n\n• **School Funding Request Tabled**: A reverend's petition asking for a $3,000 loan to build a schoolhouse was postponed for later consideration.\n\n• **Monthly Death Report**: The Sexton reported 14 deaths in December (8 white residents, 3 Mexican, and 3 Black residents).",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

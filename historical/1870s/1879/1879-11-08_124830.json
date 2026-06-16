@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-11-08_124830",
-  "title": "",
+  "title": "Austin Election Results & Street Improvements 1879",
   "meeting_type": "special called",
   "date": "November 08, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124830",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "- **Election Results Certified**: J.C. De Gress won the mayoral race with 1,356 votes, defeating William Steele (597 votes). New city officials and aldermen across all 10 wards were declared elected.\n\n- **Election Dispute Withdrawn**: A local voter's protest over allegedly \"illegal tickets\" cast during the November 3rd election was formally withdrawn, as organizers believed prosecution would be futile and expensive.\n\n- **Street & Infrastructure Projects**: The council approved $36 for street opening work in division 7 and granted a petition to install a street lamp on Lochan and San Jacinto streets with fence adjustments.\n\n- **Liquor Licenses Granted**: Three retailers—Herman Schmidt Jr., Naschke J. Rittick, and S. Bastian—received approval for retail liquor licenses.\n\n- **Public Safety for Circus**: Six special police officers were unanimously appointed to maintain order during a circus's stay in the city, and a request for additional night watchmen in wards 4-6 was referred to the incoming council.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

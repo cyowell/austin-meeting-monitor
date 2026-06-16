@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-08-01_119875",
-  "title": "",
+  "title": "Austin's 1898 Water, Taxes & Bridge Disputes",
   "meeting_type": "regular",
   "date": "August 01, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119875",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Failed Budget Restriction**: The council rejected an ordinance that would have prohibited spending money the city didn't have in its treasury, with 10 aldermen voting against it—showing disagreement over fiscal controls.\n\n• **Tax Refund Denied**: A request to refund $1,158 to Mrs. S.E. Braze for illegally collected taxes from 1894 was rejected because the city couldn't afford it at the time.\n\n• **Bridge Projects Stalled**: An $899.50 appropriation to build three bridges on West 1st, 2nd, and 5th Streets failed to advance, as the council couldn't muster enough votes to move it forward.\n\n• **Water & Sanitation Concerns**: A resolution to investigate waste disposal at the city's new pumping station and stop trash dumping on city streets was tabled (postponed), suggesting growing environmental and public health issues.\n\n• **City Finances**: The treasury reported over $21,000 in receipts for July 1898, with $8,464 in disbursements, while the city physician treated 20 hospital patients and reported 19 deaths that month.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

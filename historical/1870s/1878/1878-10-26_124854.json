@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-10-26_124854",
-  "title": "",
+  "title": "Austin Ends Quarantine After Doctor Approval",
   "meeting_type": "special called",
   "date": "October 26, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124854",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Quarantine Lifted**: City Council voted unanimously to repeal a quarantine that had been in place since August 20, 1878, effective October 27th at 4 p.m.\n\n• **Medical Consensus**: Three doctors (Biff, Royth, and Nisselberg) advised the council it was safe to end the quarantine, giving officials confidence to proceed.\n\n• **Cost Savings**: The city had employed four quarantine officers at $3 per day; ending the quarantine would eliminate these positions and associated expenses.\n\n• **Quick Action**: The council suspended normal procedural rules to fast-track the resolution through all three required readings and pass it in a single meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

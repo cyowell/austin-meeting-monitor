@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-10-01_124771",
-  "title": "",
+  "title": "Austin Sidewalks, Fire Alarm, and City Budget 1888",
   "meeting_type": "regular",
   "date": "October 01, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124771",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Sidewalk upgrades approved**: Property owners of the Raymland House and Pease buildings on Congress Avenue requested permission to raise sidewalks at their locations, which was referred to the Mayor and Street Committee for approval.\n\n• **Fire alarm system failing**: The city's fire alarm contract with Union Fire Alarm Company was found unsatisfactory after months of testing. The council voted to have the city attorney draft an ordinance to cancel the contract if the company couldn't fix it within 30 days.\n\n• **Public health stable**: The city physician reported good health conditions with only 3 diphtheria cases and 2 scarlet fever cases in September, with 9 patients remaining in the city hospital.\n\n• **Monthly finances reviewed**: The city treasurer reported a balance of $14,865.94 as of October 1, with $7,528.87 on hand at the start of the month and $1,806.02 in disbursements.\n\n• **October payroll approved**: The council unanimously approved a $3,100 appropriation to pay city officers and regular employees for October 1888.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-01-05_124825",
-  "title": "",
+  "title": "Austin's First Street Lamps and Cemetery Improvements",
   "meeting_type": "regular",
   "date": "January 05, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124825",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Street Infrastructure Upgrades**: Council approved multiple petitions for new gas street lamps and drainage improvements, including a $200 appropriation to grade and improve streets in the ninth ward.\n\n• **Cemetery Modernization**: Authorized $800 to install drainage systems and build a mortuary building at the city cemetery; also reduced children's grave fees from $5 to $3 and contracted with the water company to install hydrants for irrigation.\n\n• **Animal Control**: Created a pound master position (paying policeman wages) to manage stray animals, establishing standardized fees ($2 for horses/cattle, $1 for hogs) and offering rewards for capturing them.\n\n• **Major Municipal Bond Issue**: Mayor proposed issuing $80,000 in new bonds to retire existing city debt, with repayment scheduled over 25 years—deferred for decision at next meeting.\n\n• **Police Staffing**: Confirmed three new police officers and appointed the first dedicated pound master to maintain public safety and animal management.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

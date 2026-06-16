@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-10-28_121797",
-  "title": "",
+  "title": "Austin's $500K Water & Electric Bond Sale",
   "meeting_type": "special called",
   "date": "October 28, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121797",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Infrastructure Funding**: Austin city officials approved the sale of $500,000 in Water Works and Electric Light bonds to a New York firm, securing funding for the city's essential utilities infrastructure.\n\n• **Competitive Bidding**: The city received offers from multiple New York firms, ultimately selecting one that charged less than 1.5% commission on the bond sale—demonstrating efforts to get the best financial deal.\n\n• **Quick Approval Process**: The ordinance authorizing the bond sale was fast-tracked through all three required readings and passed with overwhelming support (16-1 vote), with only one alderman dissenting.\n\n• **One Holdout**: Alderman Platt voted against the measure both on the third reading and final passage, though the reasons for his opposition were not recorded.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

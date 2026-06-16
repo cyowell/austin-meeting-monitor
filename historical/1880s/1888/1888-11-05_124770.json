@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-11-05_124770",
-  "title": "",
+  "title": "Austin's 1888 Elections, Street Closures, and City Contracts",
   "meeting_type": "regular",
   "date": "November 05, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124770",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Municipal Election Called**: City council voted to hold an election on December 3, 1888, with voting locations and election judges designated for all ten city wards.\n\n• **Mill Property Re-leased**: The council terminated the existing lease with Jones & Glass for the city mill property and approved a new 25-year lease to the Lone Star Ice Company (an effort to replace a defunct fire alarm contract also occurred).\n\n• **Street Closures and Infrastructure**: Cypress Street between Congress and Colorado Avenues was officially vacated as a public street; the Sixth Ward petitioned for relief due to severely deteriorated road conditions around the school building.\n\n• **Tax Compromise Cases**: Multiple residents requested forgiveness or reduction of back taxes and interest owed on city properties, with decisions referred to the city assessor and collector.\n\n• **City Operations Snapshot**: Monthly financial reports showed solid city finances ($13,000+ balance), police made 73 arrests in October, and the hospital treated 18 patients during the month with only 2 deaths recorded.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

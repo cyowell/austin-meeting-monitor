@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-10-05_121795",
-  "title": "",
+  "title": "Austin Approves Sewer Project and City Hall Use",
   "meeting_type": "special called",
   "date": "October 05, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121795",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Sewer System Approval**: The city council confirmed the Board of Public Works' decision to have Engineer Warenskield oversee the placement of sewer pipes by the Lewis Morcer Construction Company, ensuring they wouldn't interfere with existing water lines.\n\n• **Budget Appropriation**: Council passed an ordinance allocating $1,667.67 to pay approved city accounts, with only one alderman voting against it.\n\n• **Political Party Access**: The Peoples Party was granted unanimous permission to hold two campaign meetings at City Hall—one on October 20th and another on November 3rd.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

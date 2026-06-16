@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-05-14_119492",
-  "title": "",
+  "title": "** Austin Water Works Bond Election Set for 1895",
   "meeting_type": "special called",
   "date": "May 14, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119492",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major Infrastructure Bond**: Austin City Council approved a $125,000 bond measure to complete the city's water works system and install street lighting, with an amendment to increase it to $200,000 failing narrowly (7-9 vote).\n\n• **Election Scheduled**: Voters were set to decide on the bond measure in an election scheduled for June 24, 1895, with election judges and polling locations designated across Austin's 11 wards.\n\n• **Close Vote**: The ordinance passed with 14 aldermen in favor and only 2 opposed, showing strong council support for the infrastructure project despite some members wanting more funding.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

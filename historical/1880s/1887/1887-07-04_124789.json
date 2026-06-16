@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-07-04_124789",
-  "title": "",
+  "title": "Austin Streets & Cemetery Debts Dominate 1887",
   "meeting_type": "regular",
   "date": "July 04, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124789",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street Infrastructure & Bridge Work** – Council approved a contract to widen the bridge on East Cherry Street over Waller Creek after the original contractors abandoned the project. Some aldermen raised concerns about process and proper bidding procedures.\n\n• **Cemetery Debt Crisis** – The city faced a serious financial problem: a $1,000 note to J.H. Pallott for Greenwood Cemetery, due in June, remained unpaid. Mayor Robertson called for immediate action, warning that creditors deserved respect and the city couldn't ignore the obligation.\n\n• **Tight Budget with No Room for Growth** – Finance Committee reported the city would have only $76 left in the treasury by December 1887. Council could make no new appropriations beyond current operating expenses without risking a deficit.\n\n• **Minor Forgiveness & Fines** – Council forgave fines against an elderly resident due to health concerns (contingent on leaving the city), but refused to remit fines against another man for profane language.\n\n• **Public Health Updates** – City Physician reported 146 visits and 202 prescriptions in June; 19 deaths recorded (13 white, 6 colored). Overall health conditions were good for the season.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

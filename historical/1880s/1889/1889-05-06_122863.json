@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-05-06_122863",
-  "title": "",
+  "title": "Austin's 1889 Cotton Yard & Infrastructure Investments",
   "meeting_type": "regular",
   "date": "May 06, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122863",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Cotton Yard for Farmers**: City approved a 10-year lease of Brush Park (south of Block 59) to the Travis County Farmers Alliance for use as a cotton yard, supporting the region's agricultural community.\n\n• **Fire Department Upgrade**: Council allocated $2,000 to purchase new fire hoses, a significant equipment investment for the city's fire services.\n\n• **Legal Defense Funding**: The city appropriated $300 (reduced from $500) to pay for legal counsel defending William B. Davis in a murder case.\n\n• **Infrastructure Repairs**: Multiple ordinances passed funding street improvements, including a $400 culvert on West Eighteenth Street and $500 for a West Sixth Street culvert repair.\n\n• **City Salaries & Accounts**: Council approved $3,100 for May officer and employee payroll, plus $1,657.19 for approved accounts including a $10.92 refund to a citizen for erroneously taxed church property.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

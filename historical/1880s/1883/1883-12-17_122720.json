@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-12-17_122720",
-  "title": "",
+  "title": "Austin's 1883 Fight Over Electric Lights & Bridges",
   "meeting_type": "regular",
   "date": "December 17, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122720",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Electric light franchise debate** – The council debated allowing H.D. Franklin to build an electric lighting system throughout the city, though the vote to move forward failed. Some aldermen wanted to exempt Congress Avenue or bury the poles underground, but both amendments were rejected.\n\n• **Dangerous bridges require immediate repair** – The City Engineer reported that eight bridges spanning Congress Avenue and other streets were unsafe and should be removed or refloored, particularly the Cedar Street bridge over Wallar Creek, to prevent further damage.\n\n• **Lawsuit costs city $2,500** – Former City Attorney C.D. Johns won a judgment against Austin for $2,500 in commission fees on collected fines. The city hired attorney H.B. Barnhart for $50 to handle an appeal to the state supreme court.\n\n• **Fire department requests budget increase** – Austin's fire companies petitioned the council to raise their monthly funding from an unspecified amount to $50 per month to keep operations running.\n\n• **Police force approved with mounted officers** – The council confirmed two mounted police officers and six regular police officers after debating whether to include mounted positions in the force structure.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

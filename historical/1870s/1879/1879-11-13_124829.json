@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-11-13_124829",
-  "title": "",
+  "title": "Austin Fire Safety and Cotton Storage Rules",
   "meeting_type": "regular",
   "date": "November 13, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124829",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New city leadership sworn in**: Mayor J. C. De Gress and ten aldermen took their oaths of office, with L. W. Crooker elected as board president.\n\n• **Key city positions confirmed**: L. M. Bradley was confirmed as city clerk, but the council rejected Dr. R. H. L. Betts as city physician (voting 4-6 against confirmation). C. L. Kirschke was confirmed as city sexton.\n\n• **Fire safety petition addressed**: The board of underwriters submitted a formal protest against storing cotton and other flammable materials in certain areas of the city—a critical concern given Austin's fire risk—and the matter was referred to the fire committee for action.\n\n• **Standing committees established**: The mayor appointed committees to oversee finance, streets, police, fire department, market house, cemetery, and other municipal functions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-02-07_124797",
-  "title": "",
+  "title": "** Austin 1881 Gas Lights, Barrooms & Salary Changes",
   "meeting_type": "regular",
   "date": "February 07, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124797",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Gas company dispute**: City Marshal Ben Thompson refused to pay the gas company's full bill, demanding a 25% discount for consistently failing to keep street lamps lit throughout January. The gas company rejected the settlement offer.\n\n• **Sunday barroom permits approved**: The council granted two petitions allowing Charles Ratori and Gustav Sauter to operate barrooms on Sundays, marking a relaxation of alcohol sales restrictions.\n\n• **City engineer replaced**: Following the resignation of City Engineer D.H. Dinskind, the Mayor temporarily appointed E.P. McFall as his replacement, with a separate ordinance proposed to reduce the engineer's salary.\n\n• **Street improvements authorized**: The council approved sidewalk paving on the south side of Bois d'Arc Street and granted a lamp post for the Protection Hook and Ladder Company firehouse.\n\n• **Injured worker relief**: After street laborer John Leonard was severely injured, the council voted to pay him $1.50 per day for January and February 1881 as relief assistance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1881-12-07_122642",
-  "title": "",
+  "title": "Austin Tackles Smallpox Crisis & Budget Issues",
   "meeting_type": "special called",
   "date": "December 07, 1881",
   "year": 1881,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122642",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Smallpox Emergency Response**: The city council declared a public health emergency due to active smallpox cases in Austin. They voted to isolate infected patients and those exposed in tents outside city limits, appropriated $500 for removal and care, and appointed a sanitary committee to oversee containment efforts.\n\n• **Health & Safety Authority**: Mayor Saylor vetoed a measure to eliminate the Health Officer and Market Master position, arguing the city needed oversight to ensure food safety and protect citizens during disease outbreaks. The council ultimately overrode his veto and abolished the office anyway.\n\n• **Financial Planning Committee**: Council formed a committee to address the city's outstanding debt and develop a plan to meet current expenses, signaling budget concerns.\n\n• **Vaccine Concerns**: The Board of Health noted that vaccination practices in Austin had been inconsistent and urged stronger disease prevention measures, highlighting gaps in public health infrastructure.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-12-30_124849",
-  "title": "",
+  "title": "** Austin Invites Mexican Military Leaders to Visit",
   "meeting_type": "special called",
   "date": "December 30, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124849",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• Austin City Council unanimously approved an invitation for General Cogt (commanding U.S. Department of Texas) and General Trevino (commanding Mexican forces on the Rio Grande) to visit the city\n\n• Mayor De Gress was authorized to telegraph both military leaders with the invitation\n\n• If accepted, the Mayor was empowered to appoint a five-person committee to escort the visiting generals to Austin\n\n• This diplomatic gesture reflected post-Civil War efforts to maintain peaceful relations between U.S. and Mexican military forces along the Texas border",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

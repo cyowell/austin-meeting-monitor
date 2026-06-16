@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-09-18_122670",
-  "title": "",
+  "title": "Austin Infrastructure & Schools Investment Plan 1882",
   "meeting_type": "regular",
   "date": "September 18, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122670",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **School Funding Approved**: The council passed ordinances authorizing a special property tax election and implementing a 2-mill tax on all city property to fund Austin's free public schools.\n\n• **Bridge & Sewer Repairs**: Authorized $125 in funding for construction of two new bridges over Waller and Small Branch creeks on North Avenue, plus repairs to the Congress Avenue sewer system.\n\n• **Mill Relocation Request**: English & English petitioned the city to lease river walk land south of Block 13 to relocate their mill from Barton Creek to Austin—referred to committee for review.\n\n• **Drainage Problem**: Resident George Gehr requested the city force the railroad company to create proper water outlets, as the railroad embankment was flooding his property during wet weather.\n\n• **Capitol Building Dispute**: The city's investigation committee deferred their report on the temporary state capitol building's safety, waiting for the state's own committee findings to avoid conflicting recommendations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

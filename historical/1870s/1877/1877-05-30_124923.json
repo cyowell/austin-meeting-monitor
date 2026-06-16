@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-05-30_124923",
-  "title": "",
+  "title": "Austin Water Works & Tannery Petitions",
   "meeting_type": "special called",
   "date": "May 30, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124923",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Infrastructure requests approved**: The city referred petitions to the Committee on Streets for a waste water system at the Raymond House and a riverfront lease for a tannery and manufacturing business near the bridge.\n\n• **Tax rate set at 1%**: Despite budget constraints and reduced property valuations from the previous year, the council approved a 1% property tax rate to fund city operations estimated at approximately $44,600-$56,650.\n\n• **Business license transfers denied**: The council tabled petitions from butchers Joseph Clay and Thomas Patton requesting to transfer their business licenses to other operators, leaving decisions for future meetings.\n\n• **Financial housekeeping**: The council approved fire department reimbursements ($60), a warrant to the assessor ($21.84), and authorized the city attorney a 60-day health leave of absence.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-01-07_122721",
-  "title": "",
+  "title": "Austin's 1884 Electric Light and Cemetery Plans",
   "meeting_type": "regular",
   "date": "January 07, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122721",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Electric lighting approved**: The council unanimously passed an ordinance granting D. Mather and associates permission to erect poles throughout Austin and construct an electric light system for the city.\n\n• **Cemetery expansion needed**: The city's burial grounds were full, so aldermen authorized the mayor and cemetery committee to negotiate and purchase new land for a cemetery, with plans to divide it into blocks and improve the grounds.\n\n• **Legal conflict discovered**: The city attorney reported that several local ordinances conflicted with state law, particularly on gaming and disorderly houses, and recommended increasing the maximum penalty limit from $100 to $500—requiring a state charter amendment.\n\n• **Street improvements funded**: The council approved $300 to grade Mesquite Street and build a bridge there, plus an additional $300 for a bridge over Wallen Creek on Pine Street.\n\n• **Fire department funding blocked**: A proposal to allocate $80 monthly for fire company expenses and $1,698.29 for approved accounts failed to advance, though the council did pass a $174.72 payroll appropriation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-05-17_122805",
-  "title": "",
+  "title": "** Austin's 1886 Plans for Sewers and Fire Safety",
   "meeting_type": "regular",
   "date": "May 17, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122805",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major infrastructure investment approved**: Council authorized a $25,000 bond election to build Austin's first underground sewerage system, referring the proposal to a special committee for further review before the next meeting.\n\n• **Fire and public safety ordinance passed**: A new ordinance \"providing for the better protection of life and property\" was enacted with strong council support (16-2 vote), though one alderman attempted to limit its scope to contractors only.\n\n• **Local infrastructure funded**: The council approved multiple small appropriations including $200 for the new engine house, $150 for stable facilities, and around $475 for East Pecan Street bridge repairs and filling.\n\n• **Welcoming gesture to veterans**: The council accepted an invitation to participate in Decoration Day ceremonies alongside Confederate Veterans and the Grand Army of the Republic to honor fallen soldiers buried in city cemeteries.\n\n• **New business regulations introduced**: An ordinance regulating hotel drummers (salesmen) and others operating at railroad stations was passed, suggesting growing concerns about commerce and public conduct around the expanding rail industry.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

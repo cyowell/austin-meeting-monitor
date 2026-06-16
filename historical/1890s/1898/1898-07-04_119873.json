@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-07-04_119873",
-  "title": "",
+  "title": "Austin Building Permits & Budget Disputes (1898)",
   "meeting_type": "regular",
   "date": "July 04, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119873",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Building boom within fire limits**: The council approved multiple petitions to construct wooden sheds and structures in the city's fire-restricted areas, including properties owned by Mrs. Orr, H. Shaw, and D.S. Samme, plus a stairway project by P. Thomson.\n\n• **Mayor vetoes bridge funding over budget concerns**: Mayor McCall rejected a $874.50 bridge-building ordinance, citing a projected budget deficit of $15,567 and a shortage of $2,099 in available funds—the council upheld his veto 10-6.\n\n• **Council refuses to pay bond interest**: By a 13-3 vote, aldermen refused to appropriate $15,675 to pay laborers, and instructed the city attorney to notify bondholders of their refusal and reasons—signaling serious municipal financial strain.\n\n• **Sanitation crackdown**: The council directed city sanitary officers to enforce all cleanliness ordinances and require property owners to remove weeds, vegetation, and debris from their lots and sidewalks.\n\n• **Routine appropriations pass**: The council approved several spending measures totaling over $3,600 for street repairs, sanitary worker pay, dog catchers, and other city operations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

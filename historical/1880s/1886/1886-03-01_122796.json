@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-03-01_122796",
-  "title": "",
+  "title": "Austin 1886: Tax, Infrastructure & Public Order",
   "meeting_type": "regular",
   "date": "March 01, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122796",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Passed multiple public safety ordinances** regulating police interference, disturbances of peace, animal control, and public decency—establishing Austin's core crime and public welfare rules.\n\n• **Approved city street improvements**, including flagstone crossings on Congress Avenue and Pecan Street, a potential bridge on College Avenue, and regulations for railroad track maintenance.\n\n• **Levied municipal taxes** at 1% for general city operations and an additional 0.25% specifically for public schools, generating revenue for Austin's growth.\n\n• **Implemented transportation regulations** designating official taxi/hack stands on city streets and requiring lit lamps on licensed vehicles for public safety.\n\n• **Addressed health and sanitation** through ordinances against diseased animals, dead animal removal, and food safety to protect residents from disease.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-06-07_122081",
-  "title": "",
+  "title": "Austin Powerhouse Foundation Contract Dispute 1894",
   "meeting_type": "special called",
   "date": "June 07, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122081",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Contractor Hart & Co. Abandoned Work** – The company quit their contract on May 10th and refused to resume work despite receiving a 5-day notice, prompting the Board of Public Works to recommend re-bidding the powerhouse foundation construction.\n\n• **Heated Debate Over Tunnel Requirements** – Mayor John McDonald strongly protested added tunnel specifications, arguing they were unnecessary, would drive up bids significantly, and create uncertainty due to unclear tunnel dimensions and underwater construction challenges that few contractors could handle.\n\n• **Council Voted to Keep Amended Specifications** – Despite the Mayor's objections, the council voted 10-6 to adopt the Board's amended specifications allowing for potential tunneling work under the power house with separate contract bids.\n\n• **Cost and Timeline Concerns** – Key dispute centered on whether optional tunneling work should be included in the main contract (cheaper bids, but risks unknown costs) or bid separately (higher initial bids, but more financial certainty).",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

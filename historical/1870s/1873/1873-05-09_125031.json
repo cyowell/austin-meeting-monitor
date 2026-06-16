@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-05-09_125031",
-  "title": "",
+  "title": "Austin Property Assessments Revised",
   "meeting_type": "special called",
   "date": "May 09, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125031",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Property valuations adjusted**: The Court of Appeals revised property assessments in Block 69, raising improvements to $4,000 per half-lot and $8,000 for one lot, while also adjusting assessments in Block 173 and Block 81.\n\n• **1873 city assessment finalized**: After corrections were made, the final property assessment for Austin's old city limits was approved and certified to the Mayor.\n\n• **Water works committee formed**: Mayor Wheeler appointed a three-person committee (including himself) to meet with D. Humbolt to discuss plans for developing the city's water system.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-02-26_121786",
-  "title": "",
+  "title": "Austin Sewers & Sanitation Plan",
   "meeting_type": "special called",
   "date": "February 26, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121786",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Sewer System Contract**: Austin City Council approved a 10-year franchise agreement with the Lewis Mercer Construction Company to build and operate the city's first sanitary sewer system, with the city retaining an option to purchase the system after 10 years.\n\n• **User Fees Established**: Homeowners would pay quarterly sewer fees ranging from $2.50-$5 per room (depending on house size), with hotels and commercial properties charged by bedroom or fixture; rates needed council approval before implementation.\n\n• **Strict Construction Standards**: The sewer system must use high-quality materials (terra cotta or brick), be properly spaced with maintenance access points, and meet specific depth and slope requirements to ensure proper drainage.\n\n• **Dead Animal Disposal**: Council delegated the ongoing problem of removing dead animals from city streets to the Sanitation Committee and City Physician for a separate solution.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

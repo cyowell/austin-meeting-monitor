@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-11-01_124805",
-  "title": "",
+  "title": "Austin 1880 Public Works and Business Licenses",
   "meeting_type": "regular",
   "date": "November 01, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124805",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Business permits granted:** The city approved new barroom, meat market, and other commercial licenses while granting a policeman's week-long leave and allocating funds for child welfare assistance.\n\n• **Aging street lamps problem:** Austin's 82 oil street lamps ($860+ total value) were deteriorating and costing money with no clear plan for their upkeep—officials debated whether to store or sell them.\n\n• **Fire department expansion:** The Fire Committee recommended building a $1,000 brick firehouse for Hope Hose Company #2 on the Public Square to save on rent costs rather than continuing to lease their current spaces.\n\n• **Public health reports:** September and October death records were logged (35 and 24 deaths respectively), while the city physician treated 30-34 pauper patients per month with modest success rates.\n\n• **School board election results:** Three candidates (Wooldridge, Rector, Ludlow) won four-year terms as school trustees, with four additional candidates selected for two-year terms.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-01-21_122722",
-  "title": "",
+  "title": "Austin Street Repairs and Police Investigation",
   "meeting_type": "regular",
   "date": "January 21, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122722",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street improvements requested:** Citizens petitioned the council for $200 to fix West Blanco and Hickory Streets, and complained about poor conditions on Lavaca Street, with all requests referred to the Street Committee.\n\n• **Police force under scrutiny:** Following recent disturbances, the council voted to have the Police Committee investigate whether the Police Chief and officers failed in their duties, addressing public accusations of negligence or cowardice.\n\n• **Fire department funding approved:** The council voted to pay four fire companies $50 per month each for their services, with only two aldermen voting against the measure.\n\n• **Railroad time adopted as official city time:** In a unanimous decision, Austin adopted the new railroad standard time as its official city time, requiring all city officers to follow it.\n\n• **Sidewalk obstruction ordinance passed:** A new law was enacted requiring removal of obstructions from sidewalks, alleys, and public highways throughout the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

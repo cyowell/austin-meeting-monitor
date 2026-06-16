@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-08-03_122776",
-  "title": "",
+  "title": "Austin Cemetery Expansion & Hospital Contract Approved",
   "meeting_type": "regular",
   "date": "August 03, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122776",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **City-County Hospital Deal**: Austin took control of the city and county hospital for one year, with Travis County paying $2,000 toward patient care expenses\n\n• **Cemetery Debate**: The council approved purchasing the Palm Tract (8 acres) for cemetery expansion despite neighbor protests and disagreement from one alderman who argued better land was available elsewhere at lower cost\n\n• **Police & Budget Issues**: An investigation found the city marshal's office had accounting deficiencies totaling $150, though most reports were approved; the council appropriated $8,788.65 for August payroll\n\n• **Hospital Performance Report**: The city hospital treated 138 patients in its first year with about 22 deaths, though officials noted many were incurable cases admitted specifically to die—the physician praised the facility as clean and well-maintained\n\n• **Community Improvements**: Council approved new street lamps for multiple city neighborhoods and accepted an invitation to attend Texas's State Fire Tournament in nearby Lampasas",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

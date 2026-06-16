@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-07-06_119801",
-  "title": "",
+  "title": "Austin Water & Electric Plant Management Crisis",
   "meeting_type": "regular",
   "date": "July 06, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119801",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Electrical Plant Operation Disputes**: An extended critical report from the Fort Wayne Electric Corporation's Chief Engineer revealed serious mismanagement issues at Austin's electric light plant. The engineer blamed inadequate operator training, poor organization, and incompetent staff for service outages rather than equipment defects, and recommended paying higher salaries to attract more experienced management.\n\n• **City Infrastructure Investment**: Austin had invested approximately $1.6 million in combined waterworks and electric light facilities, requiring ongoing bond interest payments and maintenance. City Council was authorizing various appropriations to cover operational costs and repairs throughout July 1896.\n\n• **Water and Light Ordinance Overhaul**: Council debated and revised the management ordinance for water and electric systems, establishing stronger oversight through a standing committee of three council members, requiring a $5,000 superintendent bond, and implementing more stringent contractor regulations for plumbing work.\n\n• **Industrial Interest in City's Resources**: Outside companies from Kansas and Dallas petitioned to purchase large quantities of electric power and water for ice storage and calcium carbide manufacturing plants, indicating growing demand for Austin's utilities.\n\n• **Routine Government Operations**: Council approved various small appropriations for street repairs, bridge construction, sanitary labor, and claimed damage reimbursements while processing monthly reports from city departments.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

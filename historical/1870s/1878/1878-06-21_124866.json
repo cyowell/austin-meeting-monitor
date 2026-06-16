@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-06-21_124866",
-  "title": "",
+  "title": "Austin Infrastructure & Budget Decisions 1878",
   "meeting_type": "special called",
   "date": "June 21, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124866",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge repairs approved**: The council authorized the Mayor to seek bids for repairing two bridges—one over Waller Creek on Chestnut Street and another over Shoal Creek in the 5th Ward—plus allocated $250 to build a new footbridge over Waller Creek on Red River Street.\n\n• **Butcher stalls granted**: Petitions from Henry Santles and J.N. Link to establish butcher stalls in the city were approved.\n\n• **Aldermen pay raise passed**: The council voted 6-2 to fix (increase) compensation for city aldermen, with only Aldermen Crow and Millett voting against it.\n\n• **City attorney's claim denied**: A petition from City Attorney F.K. Britton requesting payment of allegedly owed fees was tabled (postponed indefinitely).\n\n• **Press coverage reduced**: The council resolved to publish only brief summaries of council proceedings in the official city newspaper, rather than full transcripts.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

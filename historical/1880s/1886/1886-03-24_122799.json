@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-03-24_122799",
-  "title": "",
+  "title": "Austin's 1886 Bridge, Streets & Safety Rules",
   "meeting_type": "special called",
   "date": "March 24, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122799",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Bridge improvements**: Council approved $900 to widen the Waller Creek bridge on East Pecan Street, with property owners responsible for filling and sidewalk costs—not the city.\n\n• **Traffic and animal control**: New ordinances set speed limits (7.5 mph for trotting) and prohibited loose livestock, animal droves, and uncontrolled stallions and bulls from city streets.\n\n• **Public health regulations**: Passed laws banning diseased animals, unwholesome food sales, and requiring proper disposal of dead animals within city limits.\n\n• **Sunday observance & morals**: Enacted ordinances regulating saloons and barrooms while establishing Sunday observance rules, though one morals ordinance faced controversy and was tabled.\n\n• **Infrastructure hazards**: Resolved to remove telegraph and telephone posts standing more than four feet from sidewalks, calling them dangerous obstructions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

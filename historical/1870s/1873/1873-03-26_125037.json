@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-03-26_125037",
-  "title": "",
+  "title": "Austin Funds General Sheridan's 1873 Visit",
   "meeting_type": "special called",
   "date": "March 26, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125037",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Major spending approved**: The city council unanimously authorized $1,000 (a substantial sum at the time) to entertain General Philip Sheridan and Secretary of War William Belknap during their visit to Austin.\n\n• **Fast-tracked decision**: Council suspended normal voting procedures to pass the entertainment budget immediately, indicating the visit was considered high priority and time-sensitive.\n\n• **Civic committee delegation**: Rather than manage the funds directly, the council handed the money over to a citizen committee appointed by the Mayor to handle all arrangements and expenses for the distinguished guests.\n\n• **Unanimous support**: All seven council members present voted in favor, with no opposition or debate recorded.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

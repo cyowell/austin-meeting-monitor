@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-02-18_122724",
-  "title": "",
+  "title": "Austin Civil Strife: Police & Public Safety",
   "meeting_type": "regular",
   "date": "February 18, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122724",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Police Force Criticized for Inefficiency**: A detailed investigation found multiple officers failed to respond promptly to disturbances, including shootings at the Iron Front Saloon (January 4) and a restaurant incident (January 1). While no major misconduct was proven, the committee called for better police organization and officer selection.\n\n• **Streets and Public Nuisances**: Residents petitioned to remove obstructions from streets and sidewalks, address hog problems, improve drainage on Pecan Street, and develop Cedar and Cypress Streets. The city approved an amendment requiring fair street improvement funding across all wards.\n\n• **Municipal Budget & Bond Debt**: The city held $99,400 in bonded debt and authorized $250,000 in new 6% bonds. However, the finance committee warned that \"incidental expenses\" (unclassified costs) would consume nearly the entire budget surplus, recommending strict cost controls.\n\n• **Administrative Accountability**: New police reporting requirements were implemented, requiring officers to submit weekly written reports on arrests, fines, and collections. A controversial motion to force the City Marshal and entire police force to resign was tabled.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

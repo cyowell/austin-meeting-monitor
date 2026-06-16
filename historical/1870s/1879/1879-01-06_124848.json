@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-01-06_124848",
-  "title": "",
+  "title": "Austin's 1879 Infrastructure and Business Licenses",
   "meeting_type": "regular",
   "date": "January 06, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124848",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Business Licenses Approved**: The council granted retail liquor licenses to four petitioners (R. Patton & Co., S. J. Yates, L. M. Bell, and J. F. Van Asdall) and approved two requests to operate butcher stalls outside the Market Limits.\n\n• **Infrastructure Improvements Funded**: Council appropriated $500 for bridge repairs and crossings in each ward, plus an additional $500 specifically for building a bridge on West Bois d'Arc Street (though this passed with 3 opposing votes).\n\n• **Healthcare Contract**: The city authorized contracts with four doctors to provide five beds per month at the City Infirmary for $25 per bed, with a provision allowing either party to cancel with 30 days' notice.\n\n• **Sewerage and County Cooperation**: A special committee was formed to work with Travis County Commissioners and petition the state legislature for financial aid regarding the city's sewerage system.\n\n• **Street Railway Ordinance Passed**: New regulations governing the street railway were approved under expedited procedures.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

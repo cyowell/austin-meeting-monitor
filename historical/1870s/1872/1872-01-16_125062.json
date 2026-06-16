@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-01-16_125062",
-  "title": "",
+  "title": "Austin Expands Roads & Bridges in 1872",
   "meeting_type": "regular",
   "date": "January 16, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125062",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Road Project Authorization**: The city council authorized Alderman Wheelock to consult with neighboring counties between Austin and Fredericksburg about building a new wagon road to El Paso, seeking community support for the project.\n\n• **Bridge Funding Approved**: The mayor was authorized to issue $5,000 in warrants to Mills & Smith for construction of iron bridges over Shoal and Waller creeks within Austin.\n\n• **Circus License Fee Increase**: The council increased the licensing fee for circus and menagerie exhibitions from $50 to $75, passing the ordinance unanimously.\n\n• **City Hall Rental Agreement**: The city leased its hall to D.O. Wood and J. House for $100 per month initially, then $50 monthly, with usage shared among several community groups including the Turnverein association.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-04-15_119490",
-  "title": "",
+  "title": "Austin Water Infrastructure & Cemetery Policies",
   "meeting_type": "regular",
   "date": "April 15, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119490",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water System Expansion**: The council approved allowing citizens to privately fund and lay water pipes in city streets at their own expense, with the city retaining the right to purchase them later at cost—an early form of public-private infrastructure partnership.\n\n• **Cemetery Disputes**: The council rejected two cemetery proposals (Highland Park and Alta Vista) due to financial concerns and organizational issues, though they did debate and amend pricing for an existing cemetery association's lot fees.\n\n• **Milk Regulation Blocked**: Legal constraints prevented the city from creating a milk inspector position or regulating milk sales, as state law exempted dairies from occupation taxes that would fund the inspector's salary.\n\n• **Road Funding Agreement**: The council agreed to help fund a $2,150 road project around Mount Barker in partnership with Travis County to resolve flooding issues from Bull Creek.\n\n• **Utility Incentives**: The council considered offering a 10% discount to water and light customers who paid their annual bills in advance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-04-04_121789",
-  "title": "",
+  "title": "Infrastructure Claims & Electric Light Disputes Austin 1892",
   "meeting_type": "regular",
   "date": "April 04, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121789",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Citizen Complaints:** Multiple residents filed damage claims, including Mary Seaberry seeking compensation for a broken buggy caused by a defective city drainage culvert, and property owners requesting tax refunds or credits for flood protection costs.\n\n• **Traffic & Public Safety:** Council passed a resolution to regulate electric and steam railroad car speeds throughout the city—restricting electric cars to 6-10 mph depending on location and steam cars to 6 mph through residential areas and under railroad bridges.\n\n• **Public Utilities:** Citizens petitioned to add electric street lighting at Trinity and East Fifth Streets, while city officials relocated an existing light from Fourteenth Street to improve illumination at Trinity and Fifteenth Streets.\n\n• **Infrastructure Upgrades:** City approved spending for fire engine repairs ($357.50), hospital repairs ($125), contractor payments for ongoing construction work ($2,088.70), and improved drainage systems and alleys.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

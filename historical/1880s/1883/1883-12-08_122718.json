@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-12-08_122718",
-  "title": "",
+  "title": "Austin's 1883 Mayoral Election Results",
   "meeting_type": "special called",
   "date": "December 08, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122718",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Election Results Certified**: W.A. Taylor won the mayoral race with 1,135 votes, defeating P. De Cordova who received 918 votes—a margin of 217 votes across Austin's 10 wards.\n\n• **New Board Elected**: Twenty aldermen were elected to represent Austin's 10 wards (two per ward), with results varying significantly by neighborhood, suggesting different voting preferences across the city.\n\n• **Ward-by-Ward Breakdown**: Ward 7 gave Taylor his strongest support with 203 votes, while Ward 3 was most competitive. De Cordova performed best in Ward 2 (117 votes) and Ward 6 (74 votes).\n\n• **Official Certification Process**: A three-person committee reviewed and certified all voting returns from the December 3rd election before the council formally adopted the results.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

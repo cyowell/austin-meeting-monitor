@@ -1,6 +1,6 @@
 {
   "meeting_id": "1871-08-07_125070",
-  "title": "",
+  "title": "Railroad Depot Location & City Improvements",
   "meeting_type": "regular",
   "date": "August 07, 1871",
   "year": 1871,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125070",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Railroad Depot Negotiations**: The Houston & Texas Central Railroad requested the city provide 30+ acres of land for a freight depot, with the company offering a $75,000 bonus to complete construction by January 1872. A dispute arose over property acquisition costs, forcing discussion of alternative depot locations.\n\n• **Police & Fire Department Expansion**: The city increased its police force to eight regular officers (generating $1,079 in fines over six months) and purchased a steam-powered fire engine for $4,095 to improve emergency response capabilities.\n\n• **Congress Avenue Reconstruction**: The Mayor proposed a major street improvement project with three grade levels to address drainage problems and create a more uniform appearance, though the plan faced citizen opposition that led to work suspension.\n\n• **Financial Status**: The city collected nearly $10,000 in revenues over six months, primarily from licenses and the market house, while spending approximately $7,244 on operations and infrastructure improvements.\n\n• **Miscellaneous Approvals**: The council authorized bathing houses on Water Street, re-published dog ordinances, and appropriated funds for various city services including streets, bonds, and charitable assistance.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

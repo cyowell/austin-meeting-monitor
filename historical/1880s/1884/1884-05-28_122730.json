@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-05-28_122730",
-  "title": "",
+  "title": "Austin Mayor Resigns, City Bonds Debated",
   "meeting_type": "special called",
   "date": "May 28, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122730",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Mayor W.H. Taylor resigned**, effective June 1, 1884, after two terms. In his farewell address, he praised Austin's growth but urged business leaders to develop manufacturing along the Colorado River to compete with rival Texas cities like Fort Worth and Houston.\n\n• **A $13,500 bond payment was approved** to pay off a city note to R.M. Swinson and Son in New York, passing unanimously with 18 aldermen voting in favor.\n\n• **A contempt of court fine was forgiven**—jurors in a case against J.W. Burns petitioned the council to remit a $100 fine, claiming no contempt was intended. The council agreed and canceled the penalty.\n\n• **A bond investor withdrew his offer** to purchase city bonds at 78 cents on the dollar, believing Austin could get better terms elsewhere and not wanting to hinder the city's interests.\n\n• **Special election procedures were established** for selecting a new mayor, with aldermen tasked with nominating election judges and designating polling places for the upcoming mayoral election.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

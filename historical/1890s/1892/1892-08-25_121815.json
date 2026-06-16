@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-08-25_121815",
-  "title": "",
+  "title": "Austin Railroad Extension Delayed",
   "meeting_type": "special called",
   "date": "August 25, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121815",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Railroad Project Timeline Extended**: The council voted to extend the deadline for J. Seyes Hamerbeck to file bonds related to a steam railroad project planned to run from western Travis County into Austin, originally approved in June 1892.\n\n• **Tax Assessment Notifications Modernized**: The Board of Appraisers was authorized to mail postal card notices to property owners whose tax assessments changed, streamlining the notification process for the 1892 tax year.\n\n• **Railroad Ordinance Fast-Tracked**: Council suspended normal procedures to rapidly pass an amended ordinance affecting the railroad right-of-way, moving it through second and third readings in a single meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

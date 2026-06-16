@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-07-07_122701",
-  "title": "",
+  "title": "Austin Sewer & Street Projects 1883",
   "meeting_type": "special called",
   "date": "July 07, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122701",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street Extension Approved**: The council allocated $500 to extend Brisguet Street through Robinson Hill and build a bridge, improving infrastructure in that area.\n\n• **State Capitol Sewer Rights Granted**: Austin approved allowing the State of Texas to construct a sewer system from the temporary Capitol building to the Colorado River, running through an alley between Congress Avenue and Brazos Street.\n\n• **Private Sewer Project Rejected**: The council blocked W.R. Brush's proposal to build and operate a private sewer in the city by voting to indefinitely postpone the ordinance.\n\n• **Alderman Attendance Issues**: Three council members (Kinney, Radkey, and Schuber) were each fined $1 for missing the meeting, showing the city enforced attendance rules.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

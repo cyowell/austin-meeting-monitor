@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-02-16_125061",
-  "title": "",
+  "title": "** Austin Fire Safety & Police Pay Upgrades 1872",
   "meeting_type": "special called",
   "date": "February 16, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125061",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Investment**: Council approved $475 for a fire alarm bell and authorized 500 feet of rubber hose for the Washington Fire Engine Company to improve the city's firefighting capabilities.\n\n• **Police Salary Increase**: Officers' monthly pay was raised from $50 to $60—a 20% increase—in recognition of their service to the city.\n\n• **Sanitation & Safety Order**: The City Marshal was instructed to remove filth and prevent dangerous fires in areas near R.M. Castleman's property, addressing public health and fire hazard concerns.\n\n• **Merchant Tax Dispute Tabled**: Local merchants requested a tax reduction on merchandise sales, but the council deferred the decision rather than approve the cost-saving measure.\n\n• **Infrastructure Projects Approved**: Council authorized a new hay scale in the city and approved a committee to investigate riverfront land use along the Colorado River.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-09-19_121793",
-  "title": "",
+  "title": "Austin's 1892 Cemetery Debate & Street Cleanup Plans",
   "meeting_type": "regular",
   "date": "September 19, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121793",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Cemetery Expansion Rejected**: Local doctors petitioned against expanding the city cemetery, citing health concerns from \"noxious vapors and gases\" from burial grounds. The council tabled the expansion proposal, requesting the Cemetery Committee submit a formal report.\n\n• **Street Cleaning Initiative**: The city launched a major sanitary cleanup effort, directing the Street Commissioner to prioritize street and alley cleaning in the First, Fourth wards and Robertson Hill. Work would be supervised by the City Physician and Sanitary Inspector.\n\n• **Public Lighting Approved**: An arc light was authorized for the intersection of Congress Avenue and First Street in response to citizen requests.\n\n• **Infrastructure Projects**: The council approved construction of a bridge over Bouldin Branch and required the Austin Rapid Transit Company to install safety timbers at street-rail crossings for vehicle passage.\n\n• **Land-for-Tax Settlement**: The city approved a unique arrangement allowing property owner L.L. Robertson to transfer land to the city for East Ninth Street expansion to satisfy her tax debt.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

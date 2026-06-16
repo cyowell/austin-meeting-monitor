@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-06-03_119494",
-  "title": "",
+  "title": "Austin's Water Works & Dam Lawsuit Settlement",
   "meeting_type": "regular",
   "date": "June 03, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119494",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Bond Retirement**: City Council burned $81,000 in bonds, permanently eliminating significant portions of debt from the new water and electric light system construction.\n\n• **Dam Lawsuit Settlement**: The city lost a lawsuit brought by William Walsh over property damages from the dam construction, with the jury awarding him $2,600.25 for submerged land, a destroyed house, and damage to his rock quarry.\n\n• **Water & Electric Infrastructure**: The newly constructed water works and electric light system was operational, with 191 electrical connections serving 750 water and light consumers, though the equipment had technical issues requiring ongoing adjustments.\n\n• **Rate Adjustments**: Council approved a $50 per month water rate for the Driskill Hotel and established flat-rate pricing for portable fans and arc lights to encourage adoption of the new electric service.\n\n• **Continued Expansion**: The city was managing applications from institutions like the State Lunatic Asylum for water service and exploring irrigation rates, while dealing with property owners requesting street improvements.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

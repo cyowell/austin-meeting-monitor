@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-08-21_124749",
-  "title": "",
+  "title": "Austin's 1893 Water Works Bonds and Fish Protection",
   "meeting_type": "regular",
   "date": "August 21, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124749",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water and Electric Light System Funding**: The city sold $12,000 in bonds at 95 cents on the dollar to finance the new water works and electric light system under construction, with the Board of Public Works tasked to verify the sale terms.\n\n• **Fish Protection Ordinance Passed**: Council enacted regulations to prevent overfishing in the Colorado River within city limits, with amendments restricting fishing activities more than 100 yards below a specific point.\n\n• **Public Nuisance Complaint**: Residents petitioned against a \"park\" operating near a beer saloon on East 11th Street, citing noise disturbances from brass bands at night that threatened the neighborhood's peace and dignity—referred to the police committee.\n\n• **Water Service Rejected**: The city rejected proposals from both the Austin Water Light and Power Company and Austin Gas Light & Coal Company as excessive in cost, instead instructing the city engineer to find alternative fuel sources.\n\n• **Infrastructure Projects**: Council approved widening the dyke between the Colorado River bridge and Bouldin Creek bridge through a cost-sharing partnership with Travis County, and assigned the street committee to investigate a new crossing at Bull Creek.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-03-01_124987",
-  "title": "",
+  "title": "Austin's 1875 Infrastructure and Veterans Plans",
   "meeting_type": "regular",
   "date": "March 01, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124987",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New City Market Master Appointment**: W. P. Hulbert was unanimously confirmed as City Market Master following Charles Marshall's resignation.\n\n• **Mexican War Veterans Celebration**: Austin agreed to host and participate in a major celebration for Mexican War veterans on May 8, 1875, with plans including a parade to the Capitol, a civic reception at the train station, fundraising efforts, and a public dinner.\n\n• **Drainage and Infrastructure Issues**: The city addressed water management problems, including a petition to dig a ditch on Cedar Street to prevent flooding in residential areas near the railway.\n\n• **Public Health Reporting**: New requirements were adopted requiring the City Physician to include patient names, diagnoses, and treatment duration in monthly reports to the council.\n\n• **Law Enforcement and Municipal Staffing**: Five police officers were confirmed to their positions, and various city department reports (Marshal, Sexton, Physician) were reviewed and assigned to appropriate committees.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

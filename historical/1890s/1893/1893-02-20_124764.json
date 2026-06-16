@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-02-20_124764",
-  "title": "",
+  "title": "Austin City Budget Approval & Bridge Construction Debate",
   "meeting_type": "regular",
   "date": "February 20, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124764",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **City Budget Approved**: Council adopted a fiscal year budget of $103,000 in projected income against $83,353.36 in expenses, leaving a balance of $17,646.64 for city operations including police, fire, water, and sanitation services.\n\n• **Bridge Spending Controversy**: Council voted to appropriate $2,500 to build a bridge over Waller Creek on East Seventh Street despite budget concerns, but rejected a $3,000 bridge project over the same creek, showing divided priorities on infrastructure spending.\n\n• **Property Encroachment Issues**: The City Engineer reported multiple property owners illegally encroaching on Congress Avenue, including buildings extending 20+ feet onto the public right-of-way. Council ordered the engineer to notify owners and show them proper property lines.\n\n• **Infrastructure Disputes**: Residents petitioned for drainage and grading improvements on 24th Street and Rush Avenue, but council declined both requests due to limited finances, citing the city's need to manage emergency spending for essential services.\n\n• **Miscellaneous Appropriations**: Council approved $11,250 for water works and electric light bond interest, $10,000 for freight charges on dam construction equipment, and $300 for a bridge near the deaf and dumb institute.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

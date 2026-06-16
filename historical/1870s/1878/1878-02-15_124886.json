@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-02-15_124886",
-  "title": "",
+  "title": "Austin Bridge Projects & City Ordinances 1878",
   "meeting_type": "special called",
   "date": "February 15, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124886",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Construction Bids Postponed**: The city delayed opening bids for an iron bridge across Waller Creek at Cedar Street until February 20th to allow time for additional proposals, with the mayor authorized to advertise for new bids.\n\n• **Street and Bridge Funding Increased**: Council approved $1,200 (up from $900) for street and bridge improvements across multiple city wards, expanding the project scope to include the First and Second Wards.\n\n• **New City Regulations Enacted**: The council passed three new ordinances regulating taxi-like vehicles (hacks and drays), establishing court procedures for the Mayor's Court, and defining the City Attorney's duties—requiring the attorney to attend all council meetings.\n\n• **Congress Avenue Bridge Approach Improvement**: Council appropriated $100 specifically to improve the approaches to the Congress Avenue bridge crossing the Colorado River, referring the broader improvement project to the Street Committee.\n\n• **Historical Tribute**: The council voted to commission and display portraits of former mayors Wheeler and DeArnmande in the Council Chamber at city expense.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

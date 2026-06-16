@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-12-02_119780",
-  "title": "",
+  "title": "Austin Water Rates & Street Repairs 1895**",
   "meeting_type": "regular",
   "date": "December 02, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119780",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water service expansion**: Council approved supplying water to residents outside city limits at a 15% markup above in-city rates, with customers responsible for laying their own pipes\n\n• **Infrastructure investments**: Multiple ordinances passed to pay for water pipe installation and repairs, totaling over $10,000 in expenses from contractors like W.B. and Howard Harrison Company\n\n• **Street improvements approved**: Committee recommended proceeding with work on Sabine Bank in the 7th Ward as soon as practicable following citizen petition\n\n• **Property damage claim denied**: Council sustained Mayor's veto rejecting a claim by S.G. White for crop damages from flooding in 1893, citing that White had previously signed a legal release\n\n• **Financial reporting**: Council approved publication of the Board of Public Works annual report in the Sunday newspaper edition",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

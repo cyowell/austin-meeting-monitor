@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-08-27_122088",
-  "title": "",
+  "title": "Austin Approves $3,642 Construction Payment",
   "meeting_type": "special called",
   "date": "August 27, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122088",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency meeting called** to approve payment to Brown & Dabney construction company for work completed under a June 1894 contract\n\n• **$3,642.79 appropriation** passed to cover the second estimate bill for construction materials and labor\n\n• **Close vote on adjournment** split the council 8-7, with supporters of quick passage narrowly winning to move the payment forward\n\n• **14 of 22 aldermen present**, with 8 absent from the called meeting held at Austin City Hall",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

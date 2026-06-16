@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-03-10_119791",
-  "title": "",
+  "title": "Austin settles $55,000 water company lawsuit",
   "meeting_type": "special called",
   "date": "March 10, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119791",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major Litigation Settlement**: Austin City Council approved a compromise to resolve multiple lawsuits with the Austin Water, Light & Power Company totaling approximately $55,000 in disputed claims for water and electric services.\n\n• **Payment Plan Approved**: Rather than pay the full amount immediately, the city agreed to pay $30,481.60 in three equal installments using tax revenue from 1896-1898, after crediting $15,030.17 in back taxes owed by the company.\n\n• **Court Cases Postponed**: The District Court delayed ongoing trial proceedings for one day to allow the council time to negotiate and vote on the settlement, which was recommended by both the City Attorney and Mayor.\n\n• **Multiple Claims Consolidated**: The settlement resolved six separate legal cases involving disputes over water for fire protection, electric lighting services, and unpaid judgments dating back to 1895.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

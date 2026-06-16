@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-01-04_122791",
-  "title": "",
+  "title": "Austin 1886: Morality Laws, Roads, and Railroads",
   "meeting_type": "regular",
   "date": "January 04, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122791",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Residents Demand Crackdown on Vice**: Citizens petitioned the city to ban gambling houses and \"bawdy houses\" (brothels) and tighten regulations on saloons—reflecting strong moral reform sentiment of the era.\n\n• **Early Warning System for Crime & Fire**: A proposal surfaced to install an electric alarm system throughout the city to alert police and fire departments to crimes and fires in real time—a cutting-edge technology idea for 1886.\n\n• **$2,800 Infrastructure Project**: The council approved funding to build a stone arch bridge on East Pecan Street and relocate an existing iron bridge, showing investment in Austin's roads and infrastructure.\n\n• **Rail Access for Capitol Construction**: Officials granted a private contractor (Gus Wilke) permission to connect two railroads and run temporary track on city streets to support the construction of the new State Capitol building.\n\n• **City Finances & New Business Taxes**: The council levied new annual licensing fees on livery stables, horse-drawn carriages, and commercial wagons—creating a new revenue stream for city operations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

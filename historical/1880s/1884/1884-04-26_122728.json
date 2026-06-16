@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-04-26_122728",
-  "title": "",
+  "title": "** Austin Budget Debate & Street Obstruction Rules 1884",
   "meeting_type": "special called",
   "date": "April 26, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122728",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Major Debt Payment Approved** – The city council authorized $18,000 to pay interest and principal on a debt to a New York creditor, with repayment expected once city bonds are sold.\n\n• **Street Obstruction Dispute** – Property owners on Congress Avenue and Pecan Street petitioned against street obstruction rules. The council suspended enforcement and created a special committee to review and potentially modify the ordinance.\n\n• **City Bonds Authorization** – Council approved authorization for $125,000 in 6% municipal bonds to fund city projects and debt management.\n\n• **Water Infrastructure Expansion** – An ordinance was introduced to plan the location and installation of water hydrants west of Rio Grande Street, referred to the finance committee for review.\n\n• **Attorney Fee Policy** – The council formally allowed the city attorney to collect legal fees in appealed cases, provided those fees were recovered from defendants.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-07-01_124813",
-  "title": "",
+  "title": "Austin 1880: Guns, Churches & Market Drama",
   "meeting_type": "regular",
   "date": "July 01, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124813",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Public Safety Concerns**: The Mayor challenged proposed ordinances about firearms regulation and safety measures at theaters, citing cost concerns and questioning their effectiveness. City Marshal reports showed 56 arrests for carrying deadly weapons and 23 for discharging firearms over a 19-month period.\n\n• **Church Access Dispute**: A petition from Alderman Reichert and citizens requested that colored churches be allowed to use streets under new police regulations to prevent disturbances—referred to a special committee after a church pastor addressed council directly.\n\n• **Market House Stall Investigation**: A five-person committee was appointed to investigate whether market stall sales violated city ordinances, after complaints that new regulations were unfairly cutting off merchants' business.\n\n• **Infrastructure Projects**: The fire committee recommended authorizing the Mayor to contract with the water company to build a water trough on Robertson Hill for horses and cattle in that area.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

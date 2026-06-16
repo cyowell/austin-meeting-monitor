@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-09-02_122868",
-  "title": "",
+  "title": "** Austin Infrastructure & Fire Safety Plans in 1889",
   "meeting_type": "regular",
   "date": "September 02, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122868",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water system concerns prompted fire engine repairs budget**: The city approved $800 to repair fire engines as backup protection against water company machinery failures, while a committee continued negotiating for lower water rates.\n\n• **Major ordinance overhauled business licensing rules**: Council passed an updated licensing and occupation tax ordinance with several amendments to align with state law, affecting everything from hackney carriages to various trades.\n\n• **Mayor vetoed Colorado Street work mandate**: Mayor Nalle rejected a resolution requiring 30 days of continuous street work, arguing it removed management flexibility and proper oversight of the street commissioner's operations.\n\n• **City rejected county's hospital proposal**: The council declined Travis County's offer to operate the joint city-county hospital for $2,000 annually, instead forming a committee to negotiate better terms.\n\n• **Infrastructure improvements approved**: Council funded small but important projects including a $100 wooden bridge over a drain on Convent Street and the relocation of street lighting on Bois d'arc Street.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

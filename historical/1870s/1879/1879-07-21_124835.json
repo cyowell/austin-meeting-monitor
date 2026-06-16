@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-07-21_124835",
-  "title": "",
+  "title": "** Austin's Water Infrastructure & Market Inspector Appointments",
   "meeting_type": "special called",
   "date": "July 21, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124835",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water System Expansion**: The city approved placement of 8 new fire hydrants across Austin neighborhoods (Cypress, Cherry, Magnolia, Emma, Elm, and San Marcos streets) plus 2 public water troughs for livestock, fulfilling a contract with the water company dating back to 1877.\n\n• **Market Master Replacement**: Following Val. C. Giles' resignation, W. B. Connell was elected as the new market master and health inspector after a close two-ballot voting process among aldermen.\n\n• **Infrastructure Priorities**: The council's focus on fire hydrants and public water access reflects late-1800s concerns about fire safety and animal welfare in growing Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

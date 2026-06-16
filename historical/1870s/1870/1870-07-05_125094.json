@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-07-05_125094",
-  "title": "",
+  "title": "** Austin's 1870 Ordinance Against Prostitution",
   "meeting_type": "special called",
   "date": "July 05, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125094",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Prostitution Ban Passed:** Austin City Council unanimously adopted an ordinance declaring brothels a public nuisance and making it illegal to operate or lease property for prostitution, with fines ranging from $50-$100 and up to 15 days in jail for repeat offenses.\n\n• **Landlord Accountability:** Property owners who knowingly allowed their buildings to be used as brothels faced the same penalties as operators, and had three days after being notified to report the violation to the mayor or face charges themselves.\n\n• **Law Enforcement Requirements:** Police officers and marshals were required to report violations immediately or face removal from office and fines of at least $25.\n\n• **Enforcement Incentives:** The mayor could reward citizens who voluntarily reported violations with up to half of any collected fines, and use remaining funds to hire investigators to find violations.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1872-03-12_125059",
-  "title": "",
+  "title": "Austin's 1872 Fire Department & Infrastructure Plans",
   "meeting_type": "special called",
   "date": "March 12, 1872",
   "year": 1872,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125059",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Upgrades**: Council approved $2,000 to purchase a new fire truck for the Austin Hook & Ladder Company and authorized $825 for 500 feet of additional fire hose, modernizing the city's firefighting capabilities.\n\n• **Water Works Investigation**: A petition regarding water works was referred to a committee tasked with investigating the proposal and reporting back at the next council meeting, signaling early city interest in public water infrastructure.\n\n• **Street Naming & Bridge Plans**: The council formally named four new streets in Division E (Cherry, Linden, Chestnut, and Magnolia Avenue) and appointed a committee to explore a privately-funded bridge across Waller Creek at Cedar Street.\n\n• **Property Tax & Financial Matters**: Council authorized a quarter-percent tax on real estate assessments for 1870 and approved $250 in treasury warrants to the Texas Military Institute, while also attempting to sell city stock in a local building association.\n\n• **City Engineer Position**: Council referred a proposal to appoint a civil engineer to a special committee for further consideration, reflecting growing municipal complexity.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

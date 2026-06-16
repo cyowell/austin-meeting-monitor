@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-09-01_124833",
-  "title": "",
+  "title": "Austin 1879: Fire House & Street Improvements",
   "meeting_type": "regular",
   "date": "September 01, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124833",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Station Project Approved**: Council confirmed Alderman Crooker's emergency decision to rebuild a truck house for the local fire company under budget at $347.85 (out of $400 appropriation), with the city purchasing the completed structure.\n\n• **Street Development Decisions**: A petition to open a new street from Pine to Burnet Street was rejected for lacking sufficient property owner signatures; however, the council approved $178.17 to open a street near J.H. Raymond's property.\n\n• **Bridge Repairs Funded**: Approved $200.22 to repair and extend the Chestnut Street bridge, with the contractor required to guarantee the work would last at least 12 months.\n\n• **Public Safety Updates**: Hired August Tiedeman as a mounted policeman (receiving 7 of 10 votes) and Michael Riley as a special policeman to replace a resigned officer.\n\n• **City Infrastructure**: Granted a street lamp for the Alta Vista Institute and accepted a land donation from A. Jeff Johnson for street purposes.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

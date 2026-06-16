@@ -1,6 +1,6 @@
 {
   "meeting_id": "1873-11-25_125017",
-  "title": "",
+  "title": "Austin Election Disputes & City Officer Elections",
   "meeting_type": "special called",
   "date": "November 25, 1873",
   "year": 1873,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125017",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Election Challenges Resolved**: The council investigated contested aldermen elections in wards 1 and 10. Alderman N.B. Mitchell was cleared to keep his seat, but H.M. Metz was disqualified for not living in his ward for the required 30 days before the election, triggering a new election for the first ward.\n\n• **New City Leadership Elected**: In a private session, Austin elected five key city officials for a two-year term: W.G. Thomas (City Attorney), Fred Sterzing (Assessor & Collector), J.W. Stalnaker (City Physician), C.L. Nitschke (City Sexton), and Charles Marshall (Market Master).\n\n• **Various Permit & License Requests**: The council fielded multiple petitions including requests to build a frame house, open a meat market, operate a steam foundry, and release certain business license fees—most were referred to appropriate committees for review.\n\n• **Fire Safety Improvements**: The Fire Committee's recommendation to clean and refill fire cisterns across the city and enforce fire ordinances was unanimously approved.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-07-06_125001",
-  "title": "",
+  "title": "Austin Street Improvements & Police Expansion 1874",
   "meeting_type": "regular",
   "date": "July 06, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125001",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Police Force Expansion**: Council appointed three new policemen (W.P. Allers, A.H. Cox, H.C. Langford) and set salaries at $75/month for regular officers and $90/month for mounted police, effective August 1st.\n\n• **Street & Infrastructure Projects**: Approved bids for stone pavement on state-owned lots along the Avenue, authorized purchase of two dumping carts with mules/horses for street maintenance, and inspected newly installed gas street lamps.\n\n• **Railroad Negotiations**: Referred a petition from the Houston & Texas Central Railroad to a special committee, as the company threatened to relocate its depot outside city limits unless the city protected their right-of-way.\n\n• **Tax Exemption Granted**: The Austin Turn-Verein (German cultural society) received a one-year tax exemption through November 1875 to support their organization.\n\n• **City Operations**: Hired a new city engineer/surveyor (J.C. Heirs), authorized a new public weigher position, and approved various facility improvements including a cemetery storage building and water tank for street watering.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

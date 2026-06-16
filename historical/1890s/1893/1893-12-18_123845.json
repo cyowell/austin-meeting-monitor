@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-12-18_123845",
-  "title": "",
+  "title": "Austin City Budget Decisions & Police Force Dispute",
   "meeting_type": "regular",
   "date": "December 18, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=123845",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Salary disputes**: Council debated (but couldn't finalize) a proposed ordinance to set officer and employee salaries for two years, with disagreement over the city recorder's pay ranging from $900-$1,200.\n\n• **Police retention fight**: Citizens from multiple wards petitioned to keep Officer Gus Evans on the force, with the request referred to the Police Committee for consideration.\n\n• **Cemetery lawsuit appeal**: The city lost its case against the Austin City Cemetery Association in District Court; council voted 17-3 to continue the appeal rather than abandon it.\n\n• **December payroll approved**: Council quickly passed an ordinance appropriating $3,700 to cover December 1893 salary payments for city officers and employees.\n\n• **Infrastructure and hospital funding**: Council approved approximately $4,000 in additional spending for city hospital bills and water/light infrastructure work by a contractor.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

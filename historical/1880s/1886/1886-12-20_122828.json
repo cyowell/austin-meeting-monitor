@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-12-20_122828",
-  "title": "",
+  "title": "Austin 1886: Water & Infrastructure Plans",
   "meeting_type": "regular",
   "date": "December 20, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122828",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water Infrastructure**: Council approved placement of a water trough at Blanco and West Twelfth streets after residents petitioned for one, with instructions to install it immediately.\n\n• **City Survey Funding Debate**: Two competing proposals were introduced to fund a topographical survey of Austin (one for $500, another for $3,000), referred to a special committee for further consideration.\n\n• **Syndicate Bridge Safety**: New ordinance passed prohibiting pedestrians from crossing railroad bridges on East College and East avenues, with plans to post warning signs at the city's expense.\n\n• **Monthly City Operations**: Reports showed solid financial position ($13,415 total receipts in November), 73 arrests made by police, and good overall public health with only 4 deaths and 18 scarlet fever cases reported.\n\n• **Staff Continuity**: Council extended employment terms for key city positions including police sergeant, hospital physicians, and firefighters through the 1887 elections.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

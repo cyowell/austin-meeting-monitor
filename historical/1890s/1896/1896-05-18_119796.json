@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-05-18_119796",
-  "title": "",
+  "title": "Austin's Water System Overhaul Plans",
   "meeting_type": "regular",
   "date": "May 18, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119796",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Major Water Infrastructure Investment**: The Council reviewed a comprehensive engineering report recommending a covered 3-5 million gallon reservoir north of the city and upgrades to the spring-fed water system to increase daily pumping capacity to 5 million gallons. The city approved purchasing 13 acres of land for approximately $650 to build the new reservoir.\n\n• **Water Quality & Safety**: A professional engineer examined Austin's water supply and determined the city's spring water is pure and reliable, but recommended monthly testing and enforcement of sewage disposal regulations to protect the water source from upstream pollution.\n\n• **Municipal Service Improvements**: The Council authorized the Washington Hose Company to upgrade their equipment, appropriated $950 to repair a bridge in South Austin, and directed the Water & Light Commission to investigate recent power outages and equipment failures affecting street lighting.\n\n• **Growing City Demands**: The engineer's report noted Austin's water needs are expanding rapidly—requiring service for an estimated 75,000 people (up from 14,000 in 1890)—and recommended reducing water meter rates from $12 to $6 annually to encourage residents to install meters and reduce waste.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

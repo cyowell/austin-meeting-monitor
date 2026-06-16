@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-05-02_122837",
-  "title": "",
+  "title": "Austin 1887 City Budget & Street Improvements",
   "meeting_type": "regular",
   "date": "May 02, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122837",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Budget & Spending**: The city council approved approximately $1,350 in expenditures, including $650 for Eighth Ward street improvements, $636.35 for approved accounts, and $660 for a fire department property purchase.\n\n• **Sanitation Concerns**: Citizens petitioned the council about poor sanitary conditions in the tenth ward. The council directed the sanitary inspector to repair gutters on Congress Avenue and Pecan Street, while indefinitely postponing a decision on extending sewers into the river.\n\n• **Utilities & Infrastructure**: The council voted to relocate a gas lamp and water hydrant to Rio Grande and Twenty-fifth Streets, and authorized the Water & Gas Committee to explore electric lighting options for the city (a relatively new technology at the time).\n\n• **Public Welfare**: The city donated seven acres of land to the Typographical Union to build a home for disabled printers, and directed the city physician to provide medical assistance to Mrs. Lizzie Reeves' family.\n\n• **Financial Status**: April receipts totaled nearly $44,000, with strong tax collection from 1886 ($40,500+), showing the city in relatively sound financial condition.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

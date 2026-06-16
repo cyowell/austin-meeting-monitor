@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-11-12_124852",
-  "title": "",
+  "title": "Austin Police Plan for 1878 Circus Visit",
   "meeting_type": "special called",
   "date": "November 12, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124852",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Extra police hired for circus**: The city authorized the marshal to employ 10 special policemen to work as detectives during a circus visit on November 16th, paying them up to $3 per day to maintain order.\n\n• **Mayor's annual report to be published**: Council voted to have the Mayor's fiscal year report printed in all local newspapers, though a separate proposal to print 500 pamphlet copies was rejected.\n\n• **Cemetery lot payment deadline set**: Property owners who buried relatives in city cemetery lots without paying were given 60 days to settle their debts or lose the plots, which would then be sold by the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

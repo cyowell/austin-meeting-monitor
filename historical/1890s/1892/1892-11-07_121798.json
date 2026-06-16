@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-11-07_121798",
-  "title": "",
+  "title": "Austin Street Repairs & Election Polling Places",
   "meeting_type": "regular",
   "date": "November 07, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121798",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Infrastructure Projects Approved**: City approved $10,374.03 contract for iron beams and materials, plus $20,439.45 for water works and electric light system expenses. Engineers were also tasked with estimating costs to repair or relocate deteriorating bridges over Waller Creek.\n\n• **City-Wide Election Ordered**: Council ordered elections in all 11 wards to elect new aldermen, with specific voting locations (ranging from wood yards to fire stations) and three judges assigned to each ward.\n\n• **Street Improvements Planned**: Petitions granted to clear obstructions from San Marcos and Guadalupe Streets, and to address vehicle congestion at Congress Avenue and Third Street.\n\n• **Worker Compensation Granted**: A firefighter injured while responding to a September fire received approval for continued salary payments during his recovery period (expected 2+ months).\n\n• **Minor Lease Approved**: City approved a two-year lease of riverfront property to C.J. Martin & Co. for $50 annually.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-09-29_124976",
-  "title": "",
+  "title": "Austin's 1875 Election Polling Locations",
   "meeting_type": "special called",
   "date": "September 29, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124976",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **City election scheduled** for the first Monday in November 1875, with voting polls to open in each of Austin's ten wards\n\n• **Ten polling places designated** across the city, including the Court House, Market House, and various local stores like Hickey's Store and Greenberg's Store\n\n• **Street expansion approved** to open the extension of Dryfork Street east of Waller Creek, expanding the city's infrastructure",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

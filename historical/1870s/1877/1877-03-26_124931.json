@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-03-26_124931",
-  "title": "",
+  "title": "Austin Theater Liquor Permit Dispute 1877",
   "meeting_type": "special called",
   "date": "March 26, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124931",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Theater Liquor License Controversy**: Alf Gardner, proprietor of the Capital Theater, petitioned to sell alcohol at his venue. The council initially tabled his petition, later referred it to a special committee for investigation rather than voting to approve or deny it outright.\n\n• **Water Company Negotiations**: The council reconsidered an ordinance regarding fire hydrants, drinking fountains, and reservoir completion timelines with the local Water Company, referring the matter to the Fire Committee for further review and negotiation.\n\n• **Sewer Construction Plans**: City Engineer specifications for building a sewer at the foot of Congress Avenue were submitted for council consideration and action.\n\n• **Insurance Agent Licensing**: The council adopted a fee schedule for insurance agents—$10 annually for general agents and $50 for life insurance agents, with payment required upfront before licenses were issued.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-08-09_124947",
-  "title": "",
+  "title": "Police Officer Fired, Cemetery Fence Bid Awarded",
   "meeting_type": "special called",
   "date": "August 09, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124947",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police Officer Dismissed**: Officer J.W. Lane was fired from the Austin Police Force after an investigation sustained charges brought by the City Marshal (August 9, 1876).\n\n• **Strengthened Police Oversight**: The council required the Chief of Police to report all derelictions of duty to create a more efficient police system, and voted to add an additional policeman to Ward No. 1.\n\n• **Cemetery Fence Contract Awarded**: After reviewing five competitive bids, the council selected Jeremiah Sheehan's proposal to build a new fence around City Cemetery at 19 cents per foot for cedar, with payment to come from cemetery lot sales.\n\n• **Public Infrastructure Repairs**: The council authorized bridge flooring improvements on Congress Avenue and directed repairs to drainage issues affecting property owners' lots during rainstorms.\n\n• **Fire Safety Concern**: An emergency meeting was called regarding a dangerously deteriorating Fire Alarm Bell tower, prompting the council to evaluate repair costs or relocation to the City Market House.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

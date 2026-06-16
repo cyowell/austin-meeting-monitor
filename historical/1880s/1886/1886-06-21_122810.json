@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-06-21_122810",
-  "title": "",
+  "title": "** Austin 1886: Fire Department & Cemetery Upgrades",
   "meeting_type": "regular",
   "date": "June 21, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122810",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Department Issues**: The Washington Fire Company complained that their engine hadn't received maintenance from the city's fire engineer since his appointment, prompting a referral to investigate the neglect.\n\n• **Cemetery Expansion Delayed**: A proposed ordinance to purchase land and enlarge the City Cemetery was tabled after failing to gain enough council support, with the special committee given more time to prepare recommendations.\n\n• **Monthly City Payroll Approved**: Council passed a $3,254 budget for June city employee salaries, plus an additional $5,050 to pay the Water Company for six months of service and $99 for street numbering.\n\n• **Fire Hydrant Placement Stalled**: A resolution allowing aldermen to install fire hydrants and lamps in their districts was tabled after the council rejected a motion to expedite its approval.\n\n• **Community Celebration**: Council accepted an invitation to attend festivities celebrating the completion of a new building for the East Austin Hose Company.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

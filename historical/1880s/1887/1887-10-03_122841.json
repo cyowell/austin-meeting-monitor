@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-10-03_122841",
-  "title": "",
+  "title": "Austin Electric Lights & Water Rights 1887",
   "meeting_type": "regular",
   "date": "October 03, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122841",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Electric power company approved**: The Austin Water, Light & Power Company received permission to install electric poles and wires throughout the city, with the company agreeing to provide free lighting to City Hall, fire stations, and the hospital. Price caps were set for residential customers ($10 for the first light bulb annually, declining to $2 for additional bulbs) and commercial users.\n\n• **Competing water company rejected**: City Council denied a similar franchise to Sylvester Watts, citing concerns he planned to assign his rights to an unnamed corporation rather than operate it himself, and that his water pipes wouldn't be large enough for adequate fire protection.\n\n• **Prostitution ordinance vetoed**: Mayor Robinson rejected an ordinance that would have restricted (but effectively legalized) prostitution to just eight city blocks, arguing it unfairly targeted only part of the city and that he couldn't approve legalizing what state law forbade. Council failed to override the veto.\n\n• **City budget and police changes proposed**: The council discussed reducing the police force from current numbers to 12 officers and eliminating the city physician position, with decisions deferred to committee review.\n\n• **Greenwood Cemetery dispute unresolved**: Multiple attempts to address the city's cemetery management failed as Council couldn't reach agreement on proposed changes.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-10-06_124831",
-  "title": "",
+  "title": "** Austin Saloons and Water Fountains Approved in 1879",
   "meeting_type": "regular",
   "date": "October 06, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124831",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Three new saloons licensed** – City Council granted petitions to open saloons in different wards, expanding Austin's drinking establishments\n\n• **$262 emergency relief granted** – Council approved funding to replace furniture and property lost when the Protection Hook and Ladder Company No. 3 building burned down\n\n• **Public water fountains planned** – Council moved forward on installing stock water fountains (animal watering troughs) at multiple street locations including West Pecan Street, though debate continued over exact placement\n\n• **Street improvements requested** – Multiple petitions asked for new roads, lamp posts, and street openings, with most referred to the street committee for further study\n\n• **Market regulations debated** – Council discussed amendments to allow peddlers with licenses to sell fish, meat, and vegetables, though votes failed to advance the ordinance quickly",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

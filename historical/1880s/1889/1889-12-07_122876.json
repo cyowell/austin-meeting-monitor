@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-12-07_122876",
-  "title": "",
+  "title": "Austin Elections 1889: New Mayor and City Officers",
   "meeting_type": "special called",
   "date": "December 07, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122876",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **New Mayor Elected**: John McDonald won the mayoral race with 1,534 votes, defeating incumbent Joseph Nalle (1,030 votes) by a margin of 504 votes.\n\n• **Complete Leadership Transition**: The council elected nine new city officers including treasurer, clerk, marshal, engineer, attorney, and physician. Notable hires included J.E. Lucy as City Marshal and J.K.P. McFall as City Engineer (the latter requiring four rounds of voting).\n\n• **Election Results Confirmed**: A committee canvassed voting returns from the December 2 election across ten wards and confirmed the results, including the election of ten new aldermen to the city council.\n\n• **Administrative Housekeeping**: The outgoing council approved $688.92 in payments for approved accounts before formally adjourning and transferring power to the newly elected officials.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

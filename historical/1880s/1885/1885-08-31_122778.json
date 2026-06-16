@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-08-31_122778",
-  "title": "",
+  "title": "Austin Crime Crackdown 1885",
   "meeting_type": "special called",
   "date": "August 31, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122778",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency meeting called to address crime wave**: Mayor Robertson convened a special city council session to respond to recent \"outrages and crimes\" in Austin and develop strategies for arrests and prosecution.\n\n• **Detective force authorized**: Council approved hiring one or more undercover detectives for up to six months to investigate and apprehend criminals, with operations kept secret and under the mayor's direct control.\n\n• **Significant budget allocated**: The city authorized up to $500 per month for detective services—a substantial sum for 1885—to be included in the general budget upon the mayor's request.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

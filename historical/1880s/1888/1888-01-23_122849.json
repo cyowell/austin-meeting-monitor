@@ -1,6 +1,6 @@
 {
   "meeting_id": "1888-01-23_122849",
-  "title": "",
+  "title": "Austin Honors Philanthropist John T. Allan",
   "meeting_type": "special called",
   "date": "January 23, 1888",
   "year": 1888,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122849",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Emergency Council Meeting Called**: Mayor Joseph Nalle convened a special midday session on January 23, 1888, specifically to allow the city council to attend the funeral of John T. Allan, a prominent Austin resident.\n\n• **Major Bequest to the City**: Allan left an estate to the City of Austin, recognizing him as a significant philanthropist and community benefactor whose generosity warranted official city recognition.\n\n• **Official Funeral Attendance**: The council unanimously passed a resolution to attend Allan's funeral as a body, with the mayor authorized to arrange carriages to transport council members from Allan's residence on San Antonio Street.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

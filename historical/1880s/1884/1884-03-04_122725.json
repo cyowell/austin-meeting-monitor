@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-03-04_122725",
-  "title": "",
+  "title": "Austin's Police Leadership Crisis Sparks Reforms",
   "meeting_type": "regular",
   "date": "March 04, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122725",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Police Force Overhaul**: City Marshal H.B. Lee faced removal amid complaints about inefficient police operations, though council members tabled direct action to allow for a formal investigation and impeachment process instead\n\n• **Police Accountability Concerns**: The City Marshal blamed aldermen for lack of support and complained he couldn't select or fire his own officers, highlighting structural problems in how police leadership operated\n\n• **Street and Infrastructure Projects**: Council approved several public works initiatives, including street improvements on Pecan Street and a new stable/equipment facility for city horses, while postponing a larger $3,000 street improvement plan\n\n• **Public Health Push**: The City Physician proposed building a municipal slaughterhouse with meat inspections to prevent diseased meat sales, addressing food safety concerns\n\n• **Regulatory Updates**: Council passed speed limit ordinances (limiting riders to 10 mph in most areas, 20 mph on San Bernard Street) and addressed nuisances like loose livestock with new pound regulations",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

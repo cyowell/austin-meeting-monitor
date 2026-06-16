@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-06-01_119798",
-  "title": "",
+  "title": "Austin's 1896 Water Crisis: Budget Battles Over Reservoir Plans",
   "meeting_type": "regular",
   "date": "June 01, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119798",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Mayor's Water Project Veto**: Mayor Lewis Hancock vetoed a proposal to expand water mains to East First Street, citing budget constraints. The city had already spent $200,000 in bonds on water infrastructure and had only $38,000 remaining—funds essential for building a critical new reservoir.\n\n• **Superintendent Resignation Drama**: After initial turmoil over Superintendent Maddox's resignation, the council voted to ask the Water and Light Commission to reconsider. However, three commissioners—Lawless, Tobin, and Fischer—resigned after losing the council's confidence in their management decisions.\n\n• **Infrastructure Debates**: The Water and Light Commission requested authority to advertise for bids on a new 3-3.5 million gallon reservoir on city property. The council postponed this vote, signaling disagreement over funding priorities between expanding service and maintaining critical infrastructure.\n\n• **City Finances**: Monthly reports showed collections of $12,076 and various fund balances including $44,361 in the Water and Light Fund, helping council members assess budget constraints during discussions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

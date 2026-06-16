@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-06-06_125097",
-  "title": "",
+  "title": "Austin's Hospital Block Sale & Budget Approvals",
   "meeting_type": "regular",
   "date": "June 06, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125097",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **City Attorney Resignation**: James W Smith resigned from his position as City Attorney, and the council accepted his resignation.\n\n• **Hospital Block Sale Approved**: The council unanimously voted to sell the city's Hospital Block, determining it was in Austin's financial interest.\n\n• **City Bylaws Reaffirmed**: Municipal bylaws were reviewed and unanimously continued without changes from the previous year.\n\n• **May 1870 Budget Approved**: The council allocated over $204 for city expenses, including $120 for three police officers' salaries, prisoner care, engine maintenance, and bridge repairs.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

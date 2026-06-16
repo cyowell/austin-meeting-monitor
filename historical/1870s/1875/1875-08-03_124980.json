@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-08-03_124980",
-  "title": "",
+  "title": "Austin Fire Safety and Cemetery Expansion Plans",
   "meeting_type": "regular",
   "date": "August 03, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124980",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Safety Improvements**: The Fire Department Chief reported nine recent fire alarms caused by inferior lamp oil and requested multiple new water cisterns around the city, including one on Market Hill holding 2,000 barrels. The Board of Underwriters also requested passage of an oil quality ordinance (minimum 110° standard) and stricter chimney requirements to prevent fires.\n\n• **Cemetery Expansion Approved**: City Council authorized purchasing 4.5 acres of land adjacent to the current cemetery from C.W. Shands for $300 per acre to accommodate the high demand for burial plots, with the added benefit of creating a new street access route through the cemetery.\n\n• **Fire Company Loan Repayment**: Council approved issuing $2,800 in warrants to repay a loan from Washington Steam Fire Engine Company No. 1, made in 1871 with interest, allowing the company to build its own engine house and meeting room.\n\n• **Street Improvements**: The council increased the street lamp lighter's salary to $60/month and authorized installation of three additional oil street lamps in Wards 1 and 3 to improve nighttime safety and visibility.\n\n• **Liquor and Business Licenses**: Several petitioners received license exemptions or approvals, including a boat operator exempted from liquor tax and a merchant relieved from license fees during temporary business closure.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

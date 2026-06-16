@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-01-01_87915",
-  "title": "",
+  "title": "Austin 1898 City Council Infrastructure & Taxes",
   "meeting_type": "regular",
   "date": "January 01, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=87915",
   "agenda_url": "",
   "ocr_source": "pymupdf",
-  "summary": "",
+  "summary": "• **Major Infrastructure Projects**: The council approved numerous bridge construction and street improvement initiatives, including work on Congress Avenue, Waller Creek, and Shoal Creek, with multiple appropriations for street maintenance and water/sewerage improvements across various wards.\n\n• **Bond Financing and Debt Management**: Significant focus on issuing and managing bonds for sinking funds, school buildings, and infrastructure projects, with extensive committee work on bond purchases, interest payments, and bond holder negotiations.\n\n• **Taxation and Assessment**: Extensive discussions on property tax levies, assessments, and tax collection, including numerous individual petitions for tax relief, assessment corrections, and redemption of properties sold for taxes.\n\n• **Municipal Operations**: The council addressed routine city business including police force organization, fire department management, cemetery operations, sanitary inspections, and various permit approvals for building and business operations.\n\n• **Public Service Regulation**: Ordinances regulating public utilities (water, light, telephone), street transportation franchises, saloon operations, and animal control, reflecting growing urban regulation during this period.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

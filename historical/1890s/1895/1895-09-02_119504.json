@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-09-02_119504",
-  "title": "",
+  "title": "Austin Expands Water Service, Eyes Cotton Mill Power",
   "meeting_type": "regular",
   "date": "September 02, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119504",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water Infrastructure Expansion**: Citizens petitioned for water pipes on 18th/19th Streets and East Sixth Street businesses asked to regulate water cart interference, with both requests referred to the Water and Light Commission for action.\n\n• **Cotton Mill Power Deal**: The city negotiated to provide power to a new cotton mill—offering water power at $4/horsepower annually or electric power at $10-$12.50/horsepower depending on terms.\n\n• **Personnel Changes**: Long-serving City Clerk Milton Morris resigned after 9.75 years, and was replaced by Jno. O. Johnson; G. A. Wheatley was elected new City Auditor.\n\n• **Legal Representation**: After a close vote, council authorized hiring attorney S. R. Fisher to represent the city in a Penn Mutual Life Insurance Company case before the U.S. Supreme Court.\n\n• **Budget Approvals**: Council passed several appropriations totaling over $43,000 for items including cast iron pipes ($11,108), bond interest ($2,405), water/light system expenses ($5,000), and street labor ($250).",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

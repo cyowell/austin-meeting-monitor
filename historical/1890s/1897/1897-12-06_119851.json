@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-12-06_119851",
-  "title": "",
+  "title": "Austin's Water Crisis and Election Changes",
   "meeting_type": "regular",
   "date": "December 06, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119851",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Water Quality Emergency**: The city struggled with muddy water from its spring source and invested heavily ($58,045) in a new filtering system using sand filters south of the city—a major public health concern for 1897 Austin.\n\n• **Financial Deficit Alert**: The new Water and Light Plant wasn't self-sustaining and required $15,650 in annual tax subsidies. Mayor Hancock urged raising water and electricity rates or implementing meters to make the utility profitable.\n\n• **New Leadership Elected**: John D. McCall won the mayoral race with 2,100 votes, defeating John S. Peeler. A full slate of new aldermen and city officials were sworn in for two-year terms.\n\n• **Budget Cuts and Street Complaints**: City spending dropped to its lowest in years ($61,963), but the mayor criticized insufficient street maintenance despite spending $300,000 over 15 years with little to show for it.\n\n• **Debt Concerns**: The city faced a $30,844 judgment owed to the Austin Water Light and Power Company for service from 1893-1895, with court enforcement likely and potential property seizures discussed.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

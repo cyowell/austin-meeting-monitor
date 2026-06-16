@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-11-01_122823",
-  "title": "",
+  "title": "Austin City Council Meeting Nov 1886",
   "meeting_type": "regular",
   "date": "November 01, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122823",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Low Attendance**: Only 9 of 20 aldermen showed up for the meeting, with 11 members absent\n\n• **Brief Session**: The council had no substantive business to conduct and immediately adjourned without taking any action or discussing agenda items\n\n• **Mayor Roberts Presiding**: Mayor J.N. Roberts led what appears to have been a largely ceremonial meeting",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

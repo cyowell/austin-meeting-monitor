@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-05-04_122768",
-  "title": "",
+  "title": "Austin Fire Department Gets New Headquarters and Market House Plan",
   "meeting_type": "regular",
   "date": "May 04, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122768",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Fire Engine House Approved**: The city approved a $2,500 ordinance to build a new headquarters for the Hook & Ladder Company and Steam Fire Engine Company on Market House Hill, with plans to grade Hickory Street to Congress Avenue for better access.\n\n• **Bridge Repairs Funded**: Austin allocated $4,668 to repair and rebuild multiple city bridges damaged by recent heavy rains, including critical damage to the Plum Street and Waller Creek bridges.\n\n• **Market House Struggles**: The city-owned market house, which cost $15,000 to build but generated little revenue, needed new protection regulations to keep butchers from abandoning it for private properties. The committee warned the property could revert to the state if abandoned.\n\n• **Gas Street Lighting Proposed**: The Capital Gaslight Company offered to install and maintain gas street lamps at $12 per month per post along major routes including Congress Avenue and surrounding areas.\n\n• **Financial and Personnel Reports**: The city received quarterly financial reports showing $34,090 in collected taxes and fees, while the marshal's office faced an investigation into alleged deficiencies.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

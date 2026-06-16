@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-01-14_119821",
-  "title": "",
+  "title": "Austin Reorganizes City Government Structure in 1897",
   "meeting_type": "special called",
   "date": "January 14, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119821",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **City Ward Restructuring**: Council debated and ultimately approved dividing Austin into seven wards (instead of six or eight), with each ward electing one alderman plus five additional aldermen elected city-wide—a significant change to how the city was organized geographically and politically.\n\n• **South Austin Boundary Dispute**: Citizens of South Austin petitioned to be excluded from city limits, but the Council instead adopted the north bank of the Colorado River as the new southern boundary of the city.\n\n• **Charter Amendment Deadlock**: After two days of contentious voting on proposed charter amendments, the Council voted to indefinitely postpone further consideration of the special committee's report, effectively stalling major governance reforms.\n\n• **Public Health and Regulation**: The Council approved new regulations addressing prostitution and assignation houses, including inspection systems aimed at preserving public health—a notable early public health intervention.\n\n• **Election Reform Debated**: The Council rejected a proposal to have all city officers elected directly by voters, instead maintaining appointment methods for certain positions like the City Marshal and City Clerk.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

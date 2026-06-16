@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-07-18_119874",
-  "title": "",
+  "title": "Austin's 1898 Budget Decisions & Infrastructure Plans",
   "meeting_type": "regular",
   "date": "July 18, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119874",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Bridge Repairs Approved**: The city allocated $345 to repair a bridge in Fair View Park and $165.50 to build new bridges on West 2nd, West 5th Streets, and Congress Avenue.\n\n• **Fiscal Responsibility Measure Stalled**: A proposed ordinance to prohibit spending money the city doesn't have in its treasury failed to advance, suggesting budget discipline concerns among council members.\n\n• **Tax Assessment Dispute Rejected**: A local merchant's petition to overturn a property tax increase was denied, with the council voting to uphold the Board of Equalization's 1897 assessment.\n\n• **City Services Funded**: The council approved $100 for sanitary workers to cut weeds and authorized payment for water and electric services provided by the city's utilities.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

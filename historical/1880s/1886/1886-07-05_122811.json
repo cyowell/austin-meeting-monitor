@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-07-05_122811",
-  "title": "",
+  "title": "1886 Austin Cemetery Plans & Fire Equipment Repairs",
   "meeting_type": "regular",
   "date": "July 05, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122811",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Cemetery Expansion Debate**: Council deferred a decision on purchasing outlots for a new cemetery, scheduling a site visit and requesting research into other cities' private cemeteries before voting on July 13th.\n\n• **Fire Department Funding**: Council appropriated funds to repair aging fire equipment, including a damaged engine and a new floor for a fire station building, though budget amendments faced close votes.\n\n• **Street & Infrastructure Issues**: The council addressed traffic control (limiting express wagons per block), approved public scales for a city corner, and established the survey for Rio Grande Street boundaries.\n\n• **Damage Claims & Permits**: Officials approved a new saloon license, granted permission for public scales, and referred a $52 damage claim from a collision with a fire cart to committee for investigation.\n\n• **City Health & Finances**: The city treasurer reported nearly $18,500 in general fund balance; the hospital had 13 patients with good overall city health for the season.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

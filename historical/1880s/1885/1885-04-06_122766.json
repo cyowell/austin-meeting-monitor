@@ -1,6 +1,6 @@
 {
   "meeting_id": "1885-04-06_122766",
-  "title": "",
+  "title": "Austin City Infrastructure & Public Health Issues 1885",
   "meeting_type": "regular",
   "date": "April 06, 1885",
   "year": 1885,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122766",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "**Key Decisions from Austin City Council Meeting (April 6, 1885):**\n\n• **Street Improvements** – Council approved $5,000 in funding for street improvements citywide, allocating $500 per ward and requiring the city engineer's supervision to ensure equitable distribution across all neighborhoods.\n\n• **Sanitary Conditions & Disease Prevention** – Mayor Robertson urged immediate action to clean up the city due to fears of cholera and other epidemics spreading across the country, recommending police inspections and enforcement of cleanliness ordinances.\n\n• **Water & Utilities** – Council approved $5,050 for hydrant rental payments to the water company and $400 to connect water closets and sewage systems in the jail and city offices.\n\n• **Hospital Management** – Council authorized the mayor and hospital committee to negotiate with county officials regarding a new arrangement where the county would pay the city $5,000 annually to manage the shared City and County Hospital.\n\n• **Fire Department Expansion** – Council approved plans to purchase property for two new fire engine houses at a cost of $1,500, with a special committee assigned to finalize the purchase and design.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

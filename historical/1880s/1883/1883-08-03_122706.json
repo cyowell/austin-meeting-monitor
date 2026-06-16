@@ -1,6 +1,6 @@
 {
   "meeting_id": "1883-08-03_122706",
-  "title": "",
+  "title": "Austin Tax Debate & Hospital Funding Fight",
   "meeting_type": "special called",
   "date": "August 03, 1883",
   "year": 1883,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122706",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Tax Rate Dispute**: Council members clashed over the 1883 tax rate, debating between 1%, 0.8%, and 0.75% levies on all property. Multiple voting attempts failed to reach consensus on how much residents should be taxed.\n\n• **Hospital Funding Proposal**: Alderman Lamperez introduced an ordinance to set aside one-tenth of collected taxes specifically for hospital purposes—an early attempt to dedicate public funds to healthcare.\n\n• **Special Election Called**: The Council voted to hold a special election in the eighth ward to fill an alderman seat left vacant after Alderman Moeller's removal from the area.\n\n• **Attendance Enforcement**: Alderman Wilson was fined $1 for missing the meeting, showing the council took attendance seriously and had consequences for no-shows.\n\n• **Public Health Request**: A resident named Mrs. Dooley petitioned the council for medical care for her sick children, which was referred to the Charity Committee for consideration.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

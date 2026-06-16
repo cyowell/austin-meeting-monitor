@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-08-16_122817",
-  "title": "",
+  "title": "** Austin's Water Works Fight & Tax Debt Crisis",
   "meeting_type": "regular",
   "date": "August 16, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122817",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Delinquent Tax Crisis**: The city identified nearly $4,300 in unpaid taxes from prominent, wealthy residents whose properties had been seized in previous years (1877-1885) but never redeemed. Mayor Robertson called for aggressive collection action against these affluent delinquent taxpayers.\n\n• **Water Works vs. Sewers Debate**: A special committee recommended prioritizing municipal water works over sewers, arguing the city could cut water rates in half (from $36 to $18 annually) if it owned its own facilities instead of relying on a private water company, potentially saving residents $100,000+ yearly.\n\n• **$350,000 Bond Election Proposed**: The council advanced a plan to issue bonds to either purchase the existing water company or build municipal water works, though the ordinance would require voter approval before implementation.\n\n• **Hospital Management Investigation**: A labor union (Knights of Labor assembly) petitioned the council to investigate the city hospital's management and operations.\n\n• **Routine Infrastructure Decisions**: The council approved closing an alley in the Graham addition, authorized street improvements on Lampasas Street, and earmarked funds for cemetery maintenance and payroll.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

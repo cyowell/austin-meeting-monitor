@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-11-17_124899",
-  "title": "",
+  "title": "Austin's 1877 Drainage & Finance Overhaul",
   "meeting_type": "special called",
   "date": "November 17, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124899",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Financial Reform**: The new mayor urged council to reduce taxes and bonded debt through harmony and cooperation, promising to improve the city's financial condition with help from the Finance Committee.\n\n• **Drainage Crisis**: Council authorized the mayor to negotiate with the Houston and Texas Central Railroad to fix drainage problems on Robinson's Hill that were causing property damage to residents south of the railroad and east of East Avenue.\n\n• **Contract Rebidding**: The city advertised for new bids on three expiring contracts—printing services, medical supplies, and oil lamp lighting—to ensure competitive pricing.\n\n• **City Clerk Nomination Rejected**: The mayor's nominee for city clerk, D.B. Withers, was rejected by council vote (6 against, 3 for), signaling political tension within the administration.\n\n• **Street Improvements**: Council established a special committee to oversee guttering work on East Pecan Street and authorized street sprinkling to improve city conditions.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

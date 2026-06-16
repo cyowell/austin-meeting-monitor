@@ -1,6 +1,6 @@
 {
   "meeting_id": "1895-08-05_119501",
-  "title": "",
+  "title": "Austin Water System Disputes Over Pipe Sizing",
   "meeting_type": "regular",
   "date": "August 05, 1895",
   "year": 1895,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119501",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water System Pipe Dispute**: Council deadlocked over whether new water pipes should be 4 inches or 6 inches in diameter across certain Austin neighborhoods, with multiple failed votes highlighting deep disagreement among aldermen about the best approach for the expanding water infrastructure.\n\n• **Wingfield Bros. Contract Decision**: The city attorney's opinion endorsed allowing contractor Wingfield Bros. to proceed with their water pipe-laying contract, with compensation determined by the work completed, resolving a key dispute about project scope.\n\n• **Major Infrastructure Investments Approved**: Council authorized $49,680.54 in payments for water and electric system construction costs, plus separate appropriations totaling $1,600 for employee wages and equipment purchases.\n\n• **Legal Case Update**: The city engaged lawyer S.R. Fisher for $500 (plus $500 if they win) to represent Austin before the U.S. Supreme Court in a bondholders' lawsuit against the city regarding the Water Company.\n\n• **Civic Growth Decisions**: The council addressed community concerns about livestock restrictions in East Austin, approved a fence for the Jewish congregation's cemetery land, and worked on regulations for street awnings and building safety.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

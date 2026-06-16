@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-11-19_119398",
-  "title": "",
+  "title": "Austin Telephone Franchise Battle from 1894",
   "meeting_type": "regular",
   "date": "November 19, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119398",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Two Telephone Companies Compete for City Contract**: The National Telephone Company and Anthony Electric Company both sought approval to build telephone systems in Austin, with the council ultimately granting franchises to both companies to operate telephone exchanges for 15-20 years.\n\n• **Free City Phone Service Negotiated**: As part of the telephone franchise deal, the National Telephone Company agreed to provide one free telephone at City Hall and 10 additional phones for city departments at $1.25 per month each (rather than the initially disputed \"free\" rate).\n\n• **Infrastructure Standards Set**: The council required that telephone wires on main business streets be placed underground in cables and mandated that all poles meet the city engineer's approval for height and construction quality.\n\n• **Bridge Funding Approved**: The council allocated $575 to construct an arch bridge over Little Shoul Creek at the intersection of Nueces and West Eleventh streets.\n\n• **City Payment to Fort Wayne Electric**: The council approved a $12,500 payment to Fort Wayne Electric Company for materials and work completed on their contract with the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

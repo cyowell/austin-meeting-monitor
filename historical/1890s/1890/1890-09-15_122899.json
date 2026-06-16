@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-09-15_122899",
-  "title": "",
+  "title": "Austin Removes Food Stand, Tackles Hog Pens",
   "meeting_type": "regular",
   "date": "September 15, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122899",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street Infrastructure & Opening**: The council approved opening Pine Street to connect with Burnet Street to provide better access to the western part of the city, and directed the city engineer to expand Fourth Street westward.\n\n• **Public Nuisance Removal**: Officials tackled two sanitation issues—directed the city marshal to remove a food stand (coffee, lunch, and chili stand) from Fourth and Colorado Streets after a citizen petition, and authorized health officers to remove hog pens in alleys near East Sixth and Seventh streets that neighbors considered dangerous.\n\n• **New Alderman Sworn In**: D. L. Wingfield was elected and sworn in as the new Alderman for the Ninth Ward with 129 votes, following the recent death of Alderman Michael Boland.\n\n• **Budget & Hack Regulations**: The council approved about $1,852 in city spending and passed new rules restricting taxi drivers and vehicles from entering railroad depot grounds except in designated areas.\n\n• **New City Charter**: Council members voted to form a committee to draft a completely new city charter and request the state legislature to approve it at the next session.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

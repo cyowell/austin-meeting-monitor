@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-01-06_124991",
-  "title": "",
+  "title": "Austin Approves New Steam Fire Engine Purchase",
   "meeting_type": "regular",
   "date": "January 06, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124991",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Fire Engine Purchase Approved** – City Council voted unanimously to buy a Silsby 4th Size Rotary Steam Fire Engine, complete with hose reel and equipment, to modernize the fire department.\n\n• **Alderman Resignation** – H.H. Metz resigned from his position on the council, creating a vacancy that needed to be filled.\n\n• **Special Election Ordered** – The Mayor was authorized to hold an election to fill Metz's vacant First Ward alderman seat, with power to appoint election judges and clerks.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

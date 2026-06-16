@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-07-03_124951",
-  "title": "",
+  "title": "Austin Street Lights & City Budget",
   "meeting_type": "regular",
   "date": "July 03, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124951",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Street Lighting Contract Renewed**: The city council voted to continue John Condon's contract for maintaining Austin's public oil street lamps, recognizing them as important safety features for neighborhoods with limited other improvements.\n\n• **City Budget Approved**: Council passed a spending plan totaling approximately $74,000+ for the fiscal year, covering salaries for city workers (from the mayor to street sweepers), police and fire departments, street maintenance, and public services like poor relief and cemetery upkeep.\n\n• **Railroad Platform Approved**: The Houston and Texas Central Railroad received permission to build a covered structure for passenger coaches at their station, subject to city regulations.\n\n• **Horse & Cart Purchase Recommended**: The city engineer requested funds to buy a horse, cart, and harness ($145) to replace worn-out city equipment used for street maintenance and prisoner transport.\n\n• **Cemetery Improvements Planned**: Council approved advertising for contractors to build a new fence around the cemetery's expansion grounds and repair the existing fence, with costs expected to be covered by selling burial lots.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

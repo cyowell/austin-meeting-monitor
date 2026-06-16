@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-02-22_124884",
-  "title": "",
+  "title": "Austin's 1878 Council Attendance Struggles",
   "meeting_type": "special called",
   "date": "February 22, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124884",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Attendance problems plagued two consecutive council meetings** (Feb. 22-23) with multiple aldermen absent, forcing the marshal to physically bring absentees to the sessions.\n\n• **Quorum calls were used to enforce attendance**, with council members voting to demand absent aldermen appear before suspending the enforcement measures.\n\n• **Meetings were briefly adjourned** with the first session on February 22 adjourning shortly after addressing attendance issues, suggesting the council struggled to conduct business.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

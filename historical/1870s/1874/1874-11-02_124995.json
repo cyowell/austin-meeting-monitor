@@ -1,6 +1,6 @@
 {
   "meeting_id": "1874-11-02_124995",
-  "title": "",
+  "title": "Austin Expands Police Force and Updates Vehicle Rules",
   "meeting_type": "regular",
   "date": "November 02, 1874",
   "year": 1874,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124995",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Police Expansion**: The city approved hiring two additional mounted police officers (earning up to $75/month with horses) to serve specific neighborhoods, responding to safety concerns from the 8th Ward.\n\n• **Vehicle License System**: A new standardized number plate system was adopted, with different shapes and colors for different vehicle types and expiration dates tied to June and December.\n\n• **Fire Department Upgrades**: The city authorized purchasing a new steam fire engine and directed repairs to all fire cisterns to improve emergency response capabilities.\n\n• **Street Improvements**: Multiple petitions were granted to install additional street lamps throughout the city and open a new alley in Block 29.\n\n• **Fish Protection & Public Meetings**: The council drafted ordinances to protect fish in the Colorado River and scheduled a November 9th community meeting to discuss water-related matters.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

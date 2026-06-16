@@ -1,6 +1,6 @@
 {
   "meeting_id": "1889-12-28_122879",
-  "title": "",
+  "title": "Austin's 1889 Dam, Police, and City Jobs",
   "meeting_type": "special called",
   "date": "December 28, 1889",
   "year": 1889,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122879",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water System Project**: The council directed a committee to investigate land acquisition and dam-building costs along the Colorado River, weighing whether Austin should pursue a major water and electric light project dependent on public voter approval.\n\n• **New Hires Approved**: J.W. Johnson was elected as the city's new Sanitary Inspector for a two-year term with 13 votes, and Ed Creary was elected Street Commissioner.\n\n• **Officer Salaries Approved**: The council passed an ordinance establishing government employee wages, including a $1,200 salary for the Street Commissioner, though some aldermen pushed for lower pay.\n\n• **Police Election Delayed**: Aldermen postponed hiring new police officers to the next regular meeting, giving the marshal more preparation time for the recruitment process.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

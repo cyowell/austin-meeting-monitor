@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-03-22_122798",
-  "title": "",
+  "title": "Austin 1886 Animal Control and Public Health Laws",
   "meeting_type": "special called",
   "date": "March 22, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122798",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Animal Control Ordinance Passed**: The council enacted a law prohibiting loose animals from running through Austin's streets and authorized their seizure and sale. Separate ordinances also banned diseased animals and restricted how stallions, bulls, and donkeys could be kept.\n\n• **Public Health and Safety Focus**: Multiple ordinances addressed sanitation including rules on dead animal disposal, food safety standards, fire safety for hay storage, and nuisance prevention to protect public health and cleanliness.\n\n• **Street Safety and Morality Laws**: The council passed regulations for safer horseback riding and driving speeds (settling on 6 miles per hour in some areas), while also establishing rules for bars/saloons, gambling prohibition, and Sunday observance.\n\n• **Bridge Expansion Approved**: A special committee recommended widening the Waller Creek bridge on East Pecan Street to 80 feet, with local citizens pledging $225 toward the project, which the council approved.\n\n• **Deliberative Legislative Process**: The meeting showcased careful lawmaking with multiple readings, amendments, and committee reviews—showing mid-19th century councils took time debating ordinance details before final passage.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1877-06-08_124922",
-  "title": "",
+  "title": "Austin Property Tax Disputes and Fire Safety",
   "meeting_type": "regular",
   "date": "June 08, 1877",
   "year": 1877,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124922",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Property Tax Assessments Challenged**: Multiple property owners petitioned the Court of Appeals to reduce their tax assessments, claiming overvaluation. The court granted several reductions, including reducing one property from $650 to $500 and another from $2,500 to $1,600, reflecting disputes over fair market value.\n\n• **Mayoral Election Results Disputed**: J.C. De Gress narrowly won the mayoral race with 428 votes over challenger Jeff Chandler's 420 votes. A formal protest was filed questioning De Gress's eligibility due to his retired military officer status, but a committee ultimately ruled he was qualified to serve.\n\n• **Public Health Nuisances Addressed**: Doctors reported that hide yards, livery stables, and poorly maintained cesspools created offensive odors and health hazards. The council passed an ordinance regulating hide yards and appointed a committee to research sewage solutions.\n\n• **Fire Hydrant Removal Approved**: The council authorized removal of at least ten fire hydrants from Canyon Avenue and Pecan Street after consulting with the Fire Department Chief.\n\n• **Municipal Debt Settlement**: The council approved issuing $2,000 in city bonds to pay off a two-year-old debt of $1,800 owed to the Selsby Manufacturing Company for a fire engine purchase.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

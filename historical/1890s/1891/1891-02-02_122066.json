@@ -1,6 +1,6 @@
 {
   "meeting_id": "1891-02-02_122066",
-  "title": "",
+  "title": "** Austin Cemetery Relocation & Dam Construction Updates",
   "meeting_type": "regular",
   "date": "February 02, 1891",
   "year": 1891,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122066",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New Cemetery Proposal**: A private company proposed relocating Austin's cemetery 2.5 miles east, offering 60 acres with identical lot prices ($50/block) as the current cemetery. In exchange, the city would maintain roads and eventually provide water and streetcar service to the new site. The council postponed a decision and asked for additional proposals.\n\n• **Dam and Canal Progress**: Construction on Austin's proposed dam continued despite weather delays. Granite quarrying was underway, masonry work was over half complete, and railroad grading was progressing, though heavy rains frequently halted work for multiple days.\n\n• **Printing Contracts Awarded**: The city awarded newspaper printing to the *Capitalian* and job printing to Eugene Von Boeckmann through December 1891.\n\n• **School Ordinance Dispute**: A proposal regarding school matters failed to advance, so it was referred to a special committee to consult with the school board before the next meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-02-03_124847",
-  "title": "",
+  "title": "Austin's 1879 Liquor Licenses and Market Rules",
   "meeting_type": "regular",
   "date": "February 03, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124847",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Liquor and Business Licenses Approved** – The council granted licenses to retail liquor for R.M. Leiber and W.F. Seltzer, and approved two butcher stalls to operate outside the designated market limits, though a petition against this decision was tabled for later consideration.\n\n• **New Tax on Auctioneers** – The council passed an ordinance imposing a new tax on auctioneers as part of updates to the city's licensing and occupation tax codes.\n\n• **Vehicle and Animal Transport Regulations** – New rules were established for licensing and taxing horse-drawn vehicles (hacks, drays, and carts) to regulate transportation services in the city.\n\n• **Public Infrastructure Improvements** – The council approved curbing and sidewalk improvements on two blocks of Pecan Street west of Congress Avenue, and heard a proposal from the Water Company for expanding water mains and fire hydrants (postponed for later review).\n\n• **Tribute to Fire Department Leader** – The council unanimously adopted a resolution honoring Captain C.F. Millett's resignation as assistant Fire Chief, praising his \"indomitable courage\" and service to the city.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

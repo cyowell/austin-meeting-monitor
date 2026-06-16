@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-10-19_119812",
-  "title": "",
+  "title": "Austin Water Chief & Liquor Rules Debated in 1896",
   "meeting_type": "regular",
   "date": "October 19, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119812",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **New Water & Light Superintendent Hired**: H.C. Patterson from Chicago was confirmed as the superintendent of the city's water, light, and power plant, with an annual salary of $3,000 for the first six months and a $5,000 bond requirement.\n\n• **Mayor Vetoes Equalization Board Payment**: Mayor Lewis Hancock rejected a $720 appropriation for the Board of Equalization's per diem, arguing it exceeded the legal 20-day limit and would cost no more than $300 based on existing ordinances.\n\n• **Dam Damage Settlement Approved**: The council passed an ordinance appropriating $1,450 to pay E.B. Hughes for damages caused by the city's dam construction.\n\n• **Fire Department Expansion Granted**: North Austin Fire Company was approved for admission into the fire department after debate, with South Austin Fire Company receiving $75 for feed and equipment repairs.\n\n• **Liquor Sales Regulations Amended**: An ordinance regulating the sale of alcohol was revised to broaden restrictions on selling, exchanging, or trafficking in any quantity of spirits.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1879-02-19_124845",
-  "title": "",
+  "title": "Austin's Hay Storage Debate & Water Works Approval",
   "meeting_type": "special called",
   "date": "February 19, 1879",
   "year": 1879,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124845",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water System Approved**: City council confirmed the new City Water Company reservoir is operating successfully and meets all contract requirements.\n\n• **Hay Storage Rules Rejected**: The mayor vetoed a proposed ordinance regulating hay and straw storage within city limits, arguing it lacked specific building standards and fire safety guidelines—the council upheld his veto.\n\n• **Market House Updates**: Council advanced amendments to multiple city ordinances related to market regulations, though butchers protested against expanding market limits.\n\n• **Infrastructure Improvements**: Approved widening and reconstructing approaches to the East Pecan Street bridge under city engineer supervision; also ordered the water company to supply water to the city cemetery.\n\n• **Special Guest Invitation**: Authorized the mayor to invite U.S. Supreme Court Justice Samuel Miller to visit Austin.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-05-18_122660",
-  "title": "",
+  "title": "Austin Railroad Rights & Tax Rate Debate",
   "meeting_type": "special called",
   "date": "May 18, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122660",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Railroad right-of-way approvals delayed**: The council granted a time extension for a committee reviewing the Austin and Northwestern Railroad's request for right-of-way access to the Capitol and University grounds, indicating the project wasn't ready for a vote.\n\n• **Tax rate ordinance narrowly blocked**: Aldermen deadlocked on the city's property tax rate for 1882, with the Mayor casting the deciding vote to postpone consideration indefinitely—reflecting disagreement over fiscal policy.\n\n• **H&T Railway ordered to comply with street standards**: The council rejected a railroad company's proposal for Pine Street bridge and grading work, instead requiring the H&T Railway to complete the street improvements according to existing ordinance requirements.\n\n• **Budget approvals**: The council approved two spending ordinances totaling approximately $232, including expenses for fire protection services and house warrant costs from the previous month.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

@@ -1,6 +1,6 @@
 {
   "meeting_id": "1884-07-07_122746",
-  "title": "",
+  "title": "Austin's 1884 Civic Infrastructure and Fire Department Deals",
   "meeting_type": "regular",
   "date": "July 07, 1884",
   "year": 1884,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122746",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Fire Department Gets New Home**: The city approved selling property to J.S. Driekel for $7,500 to build a hotel, with the condition that the Fire Department would receive better, centrally-located quarters in exchange.\n\n• **Public Market Requested**: Citizens petitioned the council to establish a public market square with scales and official weighers to help farmers and merchants fairly trade produce, cotton, and hay.\n\n• **City Built New Stable**: The city completed construction of a brick stable (24x48 feet) for $975, purchased four mules and a wagon, and requested an additional $50 to cover costs—all part of improving municipal operations.\n\n• **Bridge Repair Debate Lost**: Despite citizen petitions to repair bridges on city streets, the council voted to stick with the Engineer's recommendation to remove them instead, citing maintenance costs and liability concerns.\n\n• **Tax Ordinance Passed**: The council approved a new tax levy to support public free schools for 1884.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

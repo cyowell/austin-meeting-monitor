@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-07-03_126605",
-  "title": "",
+  "title": "** Austin Board Changes & Council Absences 1882",
   "meeting_type": "regular",
   "date": "July 03, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=126605",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Board of Equalization Reshuffled** – Two members resigned and were replaced with new appointees, though the exact reasons weren't documented.\n\n• **Attendance Problem** – Eight aldermen were fined $1 each for skipping a council meeting, prompting the marshal to track them down.\n\n• **Sparse Turnout** – Only 4 of the 12+ council members showed up for the July 6th meeting, forcing leadership to send someone to collect the missing aldermen.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

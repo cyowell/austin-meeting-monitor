@@ -1,6 +1,6 @@
 {
   "meeting_id": "1878-03-11_124879",
-  "title": "",
+  "title": "Austin Market Stalls and Bond Payment Dispute",
   "meeting_type": "special called",
   "date": "March 11, 1878",
   "year": 1878,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124879",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Pecan Street Market establishment**: Council debated an ordinance to build a new public market on Pecan Street, though the committee couldn't reach agreement on the proposal and the vote to table it failed.\n\n• **Bond payment error correction**: A St. Louis businessman's petition was approved requesting the city correct a clerical mistake from 1845 where the city treasurer underpaid interest on a municipal bond by approximately $11.\n\n• **Market vendor payments**: The city assessor reported that only six vendors had paid their fees for market stall privileges (ranging from $13-$34.50), suggesting slow collection from butchers and produce sellers.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

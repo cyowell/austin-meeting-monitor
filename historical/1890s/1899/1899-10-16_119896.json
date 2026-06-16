@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-10-16_119896",
-  "title": "",
+  "title": "Austin's 1899 Dog Rules and Council Transparency Plans",
   "meeting_type": "regular",
   "date": "October 16, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119896",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Dog Ordinance Debate**: Council reviewed a new dog regulation ordinance, with Alderman Mortimer proposing changes. The substitute version was sent to committee for further review, with disagreement among council members about moving forward.\n\n• **Publishing Government Proceedings**: Council approved a resolution to publish city council meeting minutes in local newspapers so citizens could stay informed about municipal decisions and actions.\n\n• **Police Activity Report**: The city marshal reported 66 arrests in September 1899, with $370 in fines issued. The council briefly reviewed crime and enforcement statistics for the month.\n\n• **Postponed Court Structure Decision**: A proposed Corporation Court ordinance was delayed for further consideration at the next meeting, indicating ongoing discussions about the city's judicial structure.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

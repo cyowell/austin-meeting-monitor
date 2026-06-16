@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-05-16_122838",
-  "title": "",
+  "title": "Austin's Cemetery Roads and School Tax Debates 1887",
   "meeting_type": "regular",
   "date": "May 16, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122838",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Cemetery Development & Road Widening**: The Council approved plans for Greenwood Cemetery's new map but ordered the City Engineer to expand roadways from 20-30 feet to 30-60 feet wide, as the original widths were deemed insufficient. The city is awaiting lot sales revenue to cover the first payment due June 1st.\n\n• **School Tax Controversy**: Debate erupted over a proposed one-third of one percent property tax to support Austin's public schools. After contentious voting and procedural disputes, the measure was held over without final passage, reflecting divided opinion on education funding levels.\n\n• **Infrastructure Repairs**: Officials identified unsafe wagon bridges on Congress Avenue at two major intersections and needed repairs to City Hall's south embankment, requesting a total appropriation of $320.\n\n• **Sanitation & Dumping Ground Issues**: The Council addressed complaints about manure piles and poor sanitary conditions in the 10th Ward, limiting pile sizes to 50 loads. They also directed the Sanitation Committee to locate a new dumping ground away from residential areas.\n\n• **Gas Lighting Contract**: The city authorized a temporary contract with Capital Gaslight Company at $2.50 per lamp monthly for street lighting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

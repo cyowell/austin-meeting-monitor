@@ -1,6 +1,6 @@
 {
   "meeting_id": "1897-06-21_119835",
-  "title": "",
+  "title": "** Austin Infrastructure & Bond Payments in 1897",
   "meeting_type": "regular",
   "date": "June 21, 1897",
   "year": 1897,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119835",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Infrastructure Investments**: The city approved funds for various improvements including $75 for repainting fire station roofs and $45 for a culvert at West 6th and San Antonio Streets.\n\n• **Large Bond Payments Due**: Council allocated over $23,800 to pay interest on water, light, and other city bonds coming due July 1st—indicating significant municipal debt.\n\n• **Police Force & Prisoner Labor Debate**: A petition to hire a new police officer for the 5th Ward was rejected; meanwhile, a special committee noted that female prisoners in the calaboose (jail) weren't being put to work like male prisoners were.\n\n• **Routine City Operations**: Council approved June payroll for city staff ($2,955) and aldermen ($705), processed damage claims from citizens, and reviewed monthly reports from police and city marshal.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

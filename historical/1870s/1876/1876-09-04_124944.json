@@ -1,6 +1,6 @@
 {
   "meeting_id": "1876-09-04_124944",
-  "title": "",
+  "title": "Austin Budget Cuts & Market Dispute (1876)",
   "meeting_type": "regular",
   "date": "September 04, 1876",
   "year": 1876,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124944",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Market Monopoly Dispute**: Butcher E.P. Caigler secured permission to open a new stall on Pecan Street after complaining that his market house monopoly was being violated by competitors selling meat in his territory.\n\n• **Major Cost-Cutting Measures**: The city council approved sweeping budget reductions including eliminating street oil lamps, cutting police pay from unspecified amounts to $50/month, and reducing the city engineer's salary to $50/month.\n\n• **Police Restructuring**: Officers would now receive only base salary plus $1 per arrest (when convicted and fines paid), shifting more enforcement costs to those convicted.\n\n• **Tax Collection Push**: Council passed an ordinance to speed up collection of taxes owed to the city, indicating financial strain.\n\n• **Minor Licensing Granted**: The council approved a liquor retail license request for Ward 9, allowing the sale of spirits in quantities less than one quart.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

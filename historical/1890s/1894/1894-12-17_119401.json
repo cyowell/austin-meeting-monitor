@@ -1,6 +1,6 @@
 {
   "meeting_id": "1894-12-17_119401",
-  "title": "",
+  "title": "1894 Austin Land Damages & Police Force Elections",
   "meeting_type": "regular",
   "date": "December 17, 1894",
   "year": 1894,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119401",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Water Lake Damage Lawsuits**: The city faced two major lawsuits from property owners (W.M. Johnson and E.S. Hughes) whose lands were submerged and damaged by a city-controlled lake. The jury awarded significantly lower settlements than claimed—Johnson received $390.66 instead of $1,243 and Hughes received $206.37 instead of $4,419.90. The city attorney recommended settling rather than appealing.\n\n• **Police Force Elections**: The council elected 17 policemen and key public safety officials, including H. Montgomery as sergeant of police. The election took multiple rounds of voting to fill the final position, with Hiram McGar eventually elected as the 17th officer.\n\n• **Leadership Changes**: Alderman Harry A. Lewis was elected president of the Board of Aldermen for the upcoming year, and several city positions were filled including bridge keeper and pound master.\n\n• **Budget Approvals**: The council passed nearly $26,000 in spending measures, including $17,500 for waterworks and electric light bond interest and $3,550 for December salaries.\n\n• **Infrastructure Project Delayed**: A $1,050 land acquisition project to connect West Fifth and West Fourth streets was postponed to the next meeting.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

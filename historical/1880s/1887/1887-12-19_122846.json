@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-12-19_122846",
-  "title": "",
+  "title": "Austin Fills City Jobs in 1887 Election",
   "meeting_type": "regular",
   "date": "December 19, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122846",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Multiple city positions were elected**, including City Sexton (D.C. Sandel), Hospital Resident Physician (Dr. Frank McLaughlin), Hospital Matron (Mrs. Allie Wright), Sanitary Inspector (D.W. Johnson), and Street Commissioner (Ed Creary). A City Hall porter position was also filled.\n\n• **A new Street Commissioner office was created** through an ordinance establishing the position, its salary structure, and duties—passing with strong council support after three readings.\n\n• **A special committee was appointed** to review and resolve conflicts between city ordinances and the city charter, with the City Attorney requested to work with them and report back at the next meeting.\n\n• **One election ended in a tie**, requiring a second ballot: C.L. Nitschke and D.C. Sandel each received 10 votes for City Sexton before Sandel won on the second round with 13 votes.\n\n• **The council requested a portrait** of former Mayor Robertson to hang in City Hall, following the customary practice with previous ex-mayors.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

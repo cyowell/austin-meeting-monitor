@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-03-15_122797",
-  "title": "",
+  "title": "Austin Streets, Bridges & Sewer Projects 1886",
   "meeting_type": "regular",
   "date": "March 15, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122797",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Infrastructure investments**: The city approved spending on multiple bridge projects, including a new arched bridge over College Avenue and the purchase of a private sewer system ($5,000) to improve sanitation on the west side of Congress Avenue.\n\n• **Water and utilities expansion**: Council passed an ordinance requiring the Water Company to extend water mains and install additional hydrants throughout the city, with ward aldermen given authority over specific placements.\n\n• **Public space and transportation rules**: New ordinances were passed regulating bill posters, restricting where animals (stallions, bulls) could be hitched in streets, and controlling livestock drives—reflecting growing urban management needs.\n\n• **Downtown property debates**: Council rejected allowing private businesses to lease public square space (Block 59), determining it should remain public property, though a minority argued the city should benefit from rental income.\n\n• **Fire department elections and funding**: Monroe Miller was elected Fire Chief, and council appropriated funds for a new Hose Cart Company house and regular monthly employee salaries.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

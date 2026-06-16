@@ -1,6 +1,6 @@
 {
   "meeting_id": "1887-02-07_122831",
-  "title": "",
+  "title": "Austin Plans Union Depot, Debates Rifle Range",
   "meeting_type": "regular",
   "date": "February 07, 1887",
   "year": 1887,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122831",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Union Depot Project**: Council unanimously approved allowing Missouri Pacific and Houston & Texas Central Railway Companies to build a new passenger station on Cypress Street, aiming to improve travel accommodations for the city.\n\n• **Rifle Club Controversy**: After a close vote, the Capital Rifle Club won a compromise allowing them to continue target practice at their current range through April 1887, buying time to relocate without destroying their equipment.\n\n• **Budget Reports**: The city treasurer reported nearly $13,600 in January receipts from taxes and school funds, with most money allocated to general city operations and schools.\n\n• **Police Improvements**: Council adopted requirements for officers to wear uniforms with visible police badges while on duty and remove them when off-duty—establishing professional standards for the force.\n\n• **Infrastructure Requests**: Petitions addressed street improvements including opening Driskill Street, repairing gutters on East Pecan Street, installing a street lamp at Waller Creek bridge, and appropriating funds for a Little Shoal Creek bridge.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

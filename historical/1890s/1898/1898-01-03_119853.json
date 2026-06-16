@@ -1,6 +1,6 @@
 {
   "meeting_id": "1898-01-03_119853",
-  "title": "",
+  "title": "Austin's Historic Police Hiring Process",
   "meeting_type": "regular",
   "date": "January 03, 1898",
   "year": 1898,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119853",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **12 Police Officers Elected After Marathon Voting**: The council struggled for hours selecting officers, requiring 11 rounds of voting before filling final positions. The majority of the 12 selected officers won their seats easily on the first ballot, but the last few positions sparked fierce competition.\n\n• **Emergency Repairs Approved for City Infrastructure**: The Fire Committee was authorized to seek bids for reflooring the Protection Fire Hall and repairing its bell tower, while a separate petition from Fairview Park residents requested bridge repairs.\n\n• **City Finances Balanced with Bond Payments**: The city treasurer reported collecting nearly $7,800 in taxes and fees during December 1897, with major expenditures including $15,715 in interest payments on old bonds and $22,312 on water and light bonds.\n\n• **Former Governor L.S. Ross Honored After Death**: The council unanimously adopted a resolution mourning the death of the former Texas governor, praising his service to the state and extending sympathy to his family.\n\n• **Hospital and Street Labor Funding Approved**: Small appropriations were granted for extra street workers ($43.50) and the hospital matron was given authority to purchase supplies as needed beyond contracted items.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

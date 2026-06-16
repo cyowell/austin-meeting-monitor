@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-09-04_119891",
-  "title": "",
+  "title": "Austin Garbage Dispute & Street Improvements 1899",
   "meeting_type": "regular",
   "date": "September 04, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119891",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Garbage dumping controversy**: Citizens petitioned the council to stop trash and garbage dumping at Lavaca Street's foot, sparking debate with public testimony. The city health officer was directed to cease operations while a sanitary committee investigated.\n\n• **Oil street sprinkling proposal**: A special committee was authorized to visit Fort Worth and St. Louis to study whether oil-based street sprinkling was practical and cost-effective for Austin.\n\n• **Market wagon regulations**: The council moved to designate a specific marketplace area and require hay, wood, and watermelon vendors to use it instead of parking wagons throughout the city.\n\n• **Municipal finances**: August 1899 reports showed total collections of $3,376.83 and a general fund balance of about $47,400, with the city hospital treating 26 patients and making 88 visits.\n\n• **Officer misconduct charge**: The city marshal accused the pound master of public drunkenness while on duty, referring the complaint to the police committee for investigation.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

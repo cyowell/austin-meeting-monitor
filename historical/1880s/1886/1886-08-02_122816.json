@@ -1,6 +1,6 @@
 {
   "meeting_id": "1886-08-02_122816",
-  "title": "",
+  "title": "** 1886 Austin Opium Ban, Budget Report & Street Issues",
   "meeting_type": "regular",
   "date": "August 02, 1886",
   "year": 1886,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122816",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Opium Smoking Banned** – City Council passed an ordinance prohibiting opium smoking and punishing opium den operators, reflecting growing concerns about drug use in Austin.\n\n• **City Budget Stable** – The treasurer reported a cash balance of $7,112.17 with estimated income of $47,869.55 through March 1887, against estimated expenses of $45,750.00.\n\n• **Street Damage Claims Rejected** – The Committee on Streets reported against claims from residents and merchants (Dr. Firebaugh, Carl Mayer, and J.F. McKinley) seeking compensation for damages caused by city street work and city vehicles, with no action taken.\n\n• **Public Health Concerns** – The physician's report noted considerable sickness in the city with 20 scarlet fever cases reported in July, and the sexton recorded 46 deaths, prompting hospital committee review.\n\n• **Alleyway Closure Approved** – Council authorized property owners in block 52 of Graham's addition to close a north-south alley running through their block.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

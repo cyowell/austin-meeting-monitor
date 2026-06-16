@@ -1,6 +1,6 @@
 {
   "meeting_id": "1896-07-23_119803",
-  "title": "",
+  "title": "Austin Water Works Ordinance Fails City Vote",
   "meeting_type": "special called",
   "date": "July 23, 1896",
   "year": 1896,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119803",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Water Works Ordinance Defeated**: Council voted 9-8 against a proposed amendment to rules governing Austin's Water Works, Electric Light, and Power Plants, blocking the measure from passing.\n\n• **Committee Selection Dispute**: Aldermen debated who should appoint the oversight committee for utilities—the Mayor or the City Council itself. Council members voted to elect the committee themselves rather than have the Mayor appoint it.\n\n• **Close Vote on Mayor's Authority**: A separate proposal to strip the Mayor's decision-making power over water and light operations failed narrowly (9-8), showing significant disagreement about executive authority.\n\n• **High Attendance After Multiple Recesses**: The meeting required three separate roll calls and two 10-minute recesses to achieve a quorum, with 17 of 22 aldermen eventually present, suggesting contentious debate over the utilities issue.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

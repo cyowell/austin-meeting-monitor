@@ -1,6 +1,6 @@
 {
   "meeting_id": "1890-10-06_121580",
-  "title": "",
+  "title": "Austin's 1890 Street Lights and Infrastructure Upgrades",
   "meeting_type": "regular",
   "date": "October 06, 1890",
   "year": 1890,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121580",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Three new electric street lights approved** for Tenth & Colorado Streets (near First Baptist Church), Tenth Ward, and Trinity & 19th Streets to improve public safety and nighttime visibility\n\n• **$5,000 allocated for water and dam project** to continue preliminary work on building a dam as part of the city's water and light infrastructure system\n\n• **$300 appropriated to repair hospital flues** after engineers determined the City and County Hospital's ventilation system was dangerously defective and needed complete rebuilding\n\n• **Frank Lotis's chili stand reprieved** when council reconsidered and tabled an earlier removal order for his food stand at Fourth and Colorado Streets\n\n• **Council meeting time moved to 8 p.m.** starting immediately, and various monthly appropriations passed including $3,200 for city salaries and $2,042 to the Water Light and Power Company",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

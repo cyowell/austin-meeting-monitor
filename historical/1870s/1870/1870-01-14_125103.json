@@ -1,6 +1,6 @@
 {
   "meeting_id": "1870-01-14_125103",
-  "title": "",
+  "title": "Austin Ice Company Lease Approved",
   "meeting_type": "regular",
   "date": "January 14, 1870",
   "year": 1870,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=125103",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Ice Manufacturing Venture**: The Austin Ice Company requested a 15-year lease of public land along the Colorado River (River Walk) to build an ice manufacturing facility using a patented secret invention, promising affordable ice for all residents.\n\n• **Land Deal Approved**: The City Council unanimously approved leasing the unused riverfront property between Brazos and San Jacinto Streets for $60 per year, with the option to renew after 15 years.\n\n• **Future Community Services**: The company indicated it might add a laundry or other useful machinery alongside ice production to serve community needs as the business grew.\n\n• **Infrastructure Stipulation**: The lease included a requirement for a 30-foot-wide street to remain between the ice manufacturing facility and nearby residential lots for public access.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

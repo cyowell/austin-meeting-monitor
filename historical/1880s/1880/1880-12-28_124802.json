@@ -1,6 +1,6 @@
 {
   "meeting_id": "1880-12-28_124802",
-  "title": "",
+  "title": "Austin Elects New City Marshal",
   "meeting_type": "special called",
   "date": "December 28, 1880",
   "year": 1880,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124802",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **City Marshal Election Results**: Ben Thompson won the election for Austin city marshal with 849 votes, defeating John Reely (621 votes) and other candidates. The council convened specifically to officially count and certify the election results.\n\n• **Federal Sewer Project Approved**: The city council passed an ordinance allowing the U.S. government to construct a sewer system in Austin and permit citizens to connect to it, modernizing the city's infrastructure.\n\n• **City Engineer Leave Granted**: The council approved a 30-day leave of absence request from city engineer D.H. Daskins.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

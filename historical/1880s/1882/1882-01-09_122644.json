@@ -1,6 +1,6 @@
 {
   "meeting_id": "1882-01-09_122644",
-  "title": "",
+  "title": "Austin 1882: Street Lights & Water Hydrants Investigated",
   "meeting_type": "special called",
   "date": "January 09, 1882",
   "year": 1882,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=122644",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-flash",
-  "summary": "",
+  "summary": "• **Street Infrastructure Review**: Citizens complained about the placement of gas lamps and water hydrants throughout the city, prompting the council to form a special three-person committee to investigate and recommend improvements.\n\n• **Police Personnel Changes**: A police officer requested six days of leave, and a new police officer nomination was referred to the Police Committee for review.\n\n• **City Budget Approval**: The council approved $46.48 for the city assessor and collector's office to cover collections and assessment work.\n\n• **Debt Refunding Debate**: An ordinance to refund the city's debt limit faced procedural challenges and failed to advance to final reading, revealing disagreement among council members.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

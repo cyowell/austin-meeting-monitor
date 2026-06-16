@@ -1,6 +1,6 @@
 {
   "meeting_id": "1893-11-11_124741",
-  "title": "",
+  "title": "Austin Elections & Bond Controversy",
   "meeting_type": "special called",
   "date": "November 11, 1893",
   "year": 1893,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124741",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Municipal Elections Ordered:** City Council scheduled elections for December 4, 1893, to choose a new mayor, three school board members, and one alderman per ward in Austin's 11 districts. Election judges were appointed at various polling locations across the city.\n\n• **Election Judge Dispute:** Alderman Dawson contested the selection of judges for the 11th Ward, arguing that allowing outgoing aldermen to appoint all election judges was \"a dangerous rule\" that could perpetuate power and enable corruption. He proposed alternative judges nominated by an opposing candidate.\n\n• **Fire Department Leadership Change:** The council confirmed Albert Peterson as Assistant Chief of the Austin Fire Department, replacing Henry W. Brown who resigned.\n\n• **Bond Security Concerns:** Mayor John McDonald addressed false rumors that the city's $500,000 in debenture bonds held by National City Bank of New York had been illegally pledged. He presented bank correspondence proving the bonds remained secure and unsold, and offered to have them returned to Austin at a cost of $240.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

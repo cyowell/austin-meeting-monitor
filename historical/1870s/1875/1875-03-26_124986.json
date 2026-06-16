@@ -1,6 +1,6 @@
 {
   "meeting_id": "1875-03-26_124986",
-  "title": "",
+  "title": "Austin Fire Engine & Water Works Decisions",
   "meeting_type": "special called",
   "date": "March 26, 1875",
   "year": 1875,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=124986",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **New steam fire engine assigned** – The city's newly purchased steam engine was assigned to Washington Steam Fire Engine Company No. 1, with the older engine transferred to Colorado Engine Company No. 2, and the oldest hand engine to be sold.\n\n• **City bonds sold to raise funds** – Mayor Wheeler sold $20,000 in city bonds at rates between 73-77 cents to secure emergency funds for immediate city needs.\n\n• **Police officer's widow granted March salary** – In a compassionate measure, the council approved paying the March salary of deceased policeman C. Staney to his widow to help fund his tombstone, after he died from a gunshot wound received on duty.\n\n• **Tax collection rule strengthened** – The council passed a resolution requiring that any city warrants (payments) to taxpayers must have outstanding tax debts deducted first.\n\n• **Water works project postponed** – A committee reported that the city lacks sufficient finances to build a municipal water system at this time, delaying the project.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

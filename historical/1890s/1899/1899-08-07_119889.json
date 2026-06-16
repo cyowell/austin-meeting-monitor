@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-08-07_119889",
-  "title": "",
+  "title": "Austin's 1899 Budget and City Board Approvals",
   "meeting_type": "regular",
   "date": "August 07, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119889",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Board of Equalization Drama**: The council rejected the mayor's first two nominations for the Board of Equalization and then split 3-4 on rejecting his second slate of candidates, leaving the board unfilled and creating tension between the mayor and council members.\n\n• **City Budget Approvals**: Council approved over $1,800 in new spending, including funds for an extra street team driver ($280), South Austin roadway improvements ($350), and payment of outstanding city bills ($1,154.54).\n\n• **Cemetery and Property Issues**: A petition for better cemetery protection was referred to committee, and an ordinance was passed allowing Fred Shelley to reclaim property previously sold for unpaid taxes.\n\n• **Utilities Infrastructure**: The council authorized the South Western Telegraph and Telephone Company to build underground wire conduits throughout the city and amended electrical wire regulations to add new safety sections.\n\n• **July Financial Summary**: City finances showed positive cash flow with $2,645 collected in taxes and ending July with a general fund balance of approximately $5,100.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

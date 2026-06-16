@@ -1,6 +1,6 @@
 {
   "meeting_id": "1899-09-18_119893",
-  "title": "",
+  "title": "Austin's 1899 Electric Wire Rules and Property Redemption",
   "meeting_type": "regular",
   "date": "September 18, 1899",
   "year": 1899,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=119893",
   "agenda_url": "",
   "ocr_source": "claude-sonnet-4-6",
-  "summary": "",
+  "summary": "• **Electric wires regulated**: The city passed new rules governing how electric wires and plants could be installed and operated in Austin, reflecting the growing presence of electrical infrastructure in the town.\n\n• **Foreclosure property redemption**: Property owners who lost their land to the city due to unpaid taxes got a second chance—they could buy it back within 60 days by paying taxes, court costs, and 6% interest.\n\n• **Street damage claim approved**: A resident named J.W. Singleton won a $6 claim for harness damage caused by a pothole, but repairs to Mary Street in South Austin were delayed.\n\n• **Market designated**: The council officially designated a specific area of Austin as a public market place.\n\n• **Board confirmation failed**: Jacob Robinson Jr.'s nomination to the Board of Equalization was rejected by a 5-1 vote.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",

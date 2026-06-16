@@ -1,6 +1,6 @@
 {
   "meeting_id": "1892-04-18_121791",
-  "title": "",
+  "title": "Austin Infrastructure and Police Conduct Issues 1892",
   "meeting_type": "regular",
   "date": "April 18, 1892",
   "year": 1892,
@@ -8,7 +8,8 @@
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=121791",
   "agenda_url": "",
   "ocr_source": "gemini-2.5-pro",
-  "summary": "",
+  "summary": "• **Police Misconduct Investigation**: Officer Sam Platt faced disciplinary action after improperly beating resident J.D. Peterson during an arrest. The Police Committee found Platt exceeded his authority and recommended a formal reprimand from the City Marshal, though acknowledged his generally good record.\n\n• **Bridge Infrastructure Spending**: The council approved $810 to widen the bridge on West Ninth Street and heard a cost estimate of $807.45 for widening another bridge over Little Shoal Creek, reflecting ongoing infrastructure improvements.\n\n• **Street Commissioner Board Rejected**: The council voted down a proposal to create a dedicated Board of Street Commissioners, citing current financial constraints from dam construction and believing the existing system was adequate.\n\n• **San Antonio Events**: The council accepted multiple invitations to San Antonio's \"Battle of Flowers\" celebration and a military charity ball on April 21st to benefit starving Russians, plus attended local firemen's events.\n\n• **Slaughterhouse Relocation Extended**: The deadline for removing slaughterhouses outside city limits was pushed back to January 1, 1893, referred to the sanitation committee for further review.",
+  "summary_source": "claude-haiku-4-5",
   "topics": [
     {
       "broad_topic": "broad_topic_test_1",
