@@ -61,9 +61,11 @@ if (formattedTranscript) {
     .join('\n\n');
 }
 
+// Define the page title, using the custom title if it exists (like for 1800s meetings)
+const pageTitle = meeting.title ? `${meeting.title} - ${formattedDate}` : `${formattedDate} ${meeting.meeting_type}`;
 ---
 
-<Layout title={`${formattedDate} ${meeting.meeting_type}`} description={metaDescription}>
+<Layout title={pageTitle} description={metaDescription}>
   <div style="margin-bottom: 1.5rem;">
     <a href="/archives/" style="display: inline-flex; align-items: center; gap: 0.4rem; color: var(--color-primary-base); font-weight: 600; text-decoration: none; opacity: 0.85; transition: opacity 0.2s ease;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.85'">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5"></path><polyline points="12 19 5 12 12 5"></polyline></svg>
@@ -114,6 +116,12 @@ if (formattedTranscript) {
         )}
       </div>
     </header>
+
+    {meeting.title && (
+      <h2 style="margin-top: 0; margin-bottom: 1.5rem; color: var(--color-primary-dark);">
+        {meeting.title}
+      </h2>
+    )}
 
     <div class="prose" set:html={summaryHtml} />
 
