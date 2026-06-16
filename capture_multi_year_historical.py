@@ -32,54 +32,54 @@ def process_meeting(href, date_str, title, meeting_type, meeting_date, year):
     
     print(f"  Processing {date_str} - {meeting_id}")
     
-    try:
-        response = requests.get(meeting_url, timeout=10)
-    except Exception as e:
-        print(f"    -> Request failed: {e}")
-        return
-        
-    if response.status_code != 200:
-        print(f"    -> Failed to fetch {meeting_url}")
-        return
-    
-    soup = BeautifulSoup(response.content, "html.parser")
-    
-    # Check for cancellation
-    if soup.find(string=lambda text: "Cancellation" in text if text else False):
-        print("    -> Skipped (Cancellation Notice)")
-        return
-        
     agenda_url = None
     pdf_url = None
     video_url = None
     actions_url = None
-    
-    for link in soup.find_all("a"):
-        text = link.get_text().strip()
-        link_href = link.get('href', '')
-        
-        if not link_href:
-            continue
-            
-        # Resolve relative URLs
-        if link_href.startswith('/'):
-            link_href = BASE_URL + link_href
-            
-        if "Agenda" in text and "Packet" not in text and "Cancellation" not in text and not agenda_url:
-            agenda_url = link_href
-        
-        if "Transcript" in text:
-            pdf_url = link_href
-            
-        if "swagit.com/play" in link_href:
-            video_url = link_href
-            
-        if "action_notes.cfm" in link_href or "Actions" in text:
-            actions_url = link_href
 
-    # Fallback to Agenda if Transcript doesn't exist
-    if not pdf_url:
-        pdf_url = agenda_url
+    try:
+        response = requests.get(meeting_url, timeout=10)
+        success = response.status_code == 200
+    except Exception as e:
+        print(f"    -> Request failed: {e}")
+        success = False
+        
+    if success:
+        soup = BeautifulSoup(response.content, "html.parser")
+        
+        # Check for cancellation
+        if soup.find(string=lambda text: "Cancellation" in text if text else False):
+            print("    -> Skipped (Cancellation Notice)")
+            return
+            
+        for link in soup.find_all("a"):
+            text = link.get_text().strip()
+            link_href = link.get('href', '')
+            
+            if not link_href:
+                continue
+                
+            # Resolve relative URLs
+            if link_href.startswith('/'):
+                link_href = BASE_URL + link_href
+                
+            if "Agenda" in text and "Packet" not in text and "Cancellation" not in text and not agenda_url:
+                agenda_url = link_href
+            
+            if "Transcript" in text:
+                pdf_url = link_href
+                
+            if "swagit.com/play" in link_href:
+                video_url = link_href
+                
+            if "action_notes.cfm" in link_href or "Actions" in text:
+                actions_url = link_href
+
+        # Fallback to Agenda if Transcript doesn't exist
+        if not pdf_url:
+            pdf_url = agenda_url
+    else:
+        print(f"    -> Failed to fetch {meeting_url}, but saving basic metadata")
         
     decade = get_decade(year)
     output_dir = Path(f"historical/{decade}/{year}")
