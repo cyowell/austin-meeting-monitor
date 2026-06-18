@@ -28,3 +28,8 @@ fix_may7.py
 
 # docs/ static site files (not needed by serverless API)
 docs/
+
+# Large data directories
+archives/
+historical/
+real-time/
