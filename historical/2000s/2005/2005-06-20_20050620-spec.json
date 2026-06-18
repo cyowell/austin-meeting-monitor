@@ -1,6 +1,6 @@
 {
   "meeting_id": "20050620-spec",
-  "title": "June 20, 2005 Austin City Council Special Called Canvassing Meeting",
+  "title": "Austin Runoff Election Results Certified",
   "meeting_type": "Austin City Council Special Called Canvassing Meeting",
   "date": "2005-06-20",
   "year": 2005,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=67873",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   A special meeting was held to address urgent city business.\n*   The primary agenda item was to officially confirm the results of the June 11 municipal runoff election.\n*   This action formally approved the winners of the city's recent election contests.",
   "topics": [],
-  "transcript": "CITY COUNCIL AGENDA \nPage 1 of 1 \nMonday, June 20, 2005\nNOTICE OF SPECIAL CALLED MEETING\nCITY COUNCIL\nMonday, June 20,2005\nTHE CITY COUNCIL OF THE CITY OF AUSTIN, TEXAS WILL CONVENE AT 10:00 AM\nON MONDAY, JUNE 20,2005, IN THE COUNCIL CHAMBERS OF CITY HALL, 301\nWEST 2ND STREET, AUSTIN, TEXAS.\nCity Clerk's Office\n1. Approve a resolution canvassing the results of the June 11,2005, Municipal Runoff Election.\nTHE CITY OF AUSTIN IS COMMITTED TO COMPLIANCE WITH THE AMERICANS\nWITH DISABILITIES ACT. REASONABLE MODIFICATIONS AND EQUAL ACCESS\nTO COMMUNICATIONS WILL BE PROVIDED UPON REQUEST. FOR ASSISTANCE\nPLEASE CALL 974-3256 OR 974-2445 TDD.\na\n0-3 \u00a3' \n^\nr\u00bbt^ \nin\n<JC f \nO\nDistributed Date and Time: 6/15/2005 1:06:00 PM\n"
+  "transcript": "CITY COUNCIL AGENDA \nPage 1 of 1 \nMonday, June 20, 2005\nNOTICE OF SPECIAL CALLED MEETING\nCITY COUNCIL\nMonday, June 20,2005\nTHE CITY COUNCIL OF THE CITY OF AUSTIN, TEXAS WILL CONVENE AT 10:00 AM\nON MONDAY, JUNE 20,2005, IN THE COUNCIL CHAMBERS OF CITY HALL, 301\nWEST 2ND STREET, AUSTIN, TEXAS.\nCity Clerk's Office\n1. Approve a resolution canvassing the results of the June 11,2005, Municipal Runoff Election.\nTHE CITY OF AUSTIN IS COMMITTED TO COMPLIANCE WITH THE AMERICANS\nWITH DISABILITIES ACT. REASONABLE MODIFICATIONS AND EQUAL ACCESS\nTO COMMUNICATIONS WILL BE PROVIDED UPON REQUEST. FOR ASSISTANCE\nPLEASE CALL 974-3256 OR 974-2445 TDD.\na\n0-3 \u00a3' \n^\nr\u00bbt^ \nin\n<JC f \nO\nDistributed Date and Time: 6/15/2005 1:06:00 PM\n",
+  "title_source": "gemini-1.5-flash"
 }
