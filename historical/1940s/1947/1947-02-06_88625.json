@@ -1,0 +1,24 @@
+{
+  "meeting_id": "1947-02-06_88625",
+  "title": "Austin City Records Incomplete",
+  "meeting_type": "regular",
+  "date": "February 06, 1947",
+  "year": 1947,
+  "decade": "1940s",
+  "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=88625",
+  "agenda_url": "",
+  "ocr_source": "google_docs_ai",
+  "summary": "*   The provided document is an excerpt from the 1947 Austin City Council minutes book.\n*   It specifically references a \"Budget Section\" within these historical records.\n*   Important pages, identified as XIII and 15, are explicitly noted as missing from the original copy.\n*   Due to these omissions, the transcript does not detail any specific agenda items, public hearings, or policy decisions.",
+  "summary_source": "gemini-2.5-flash",
+  "topics": [
+    {
+      "broad_topic": "broad_topic_test_1",
+      "sub_topic": "sub_topic_test_1"
+    },
+    {
+      "broad_topic": "broad_topic_test_2",
+      "sub_topic": "sub_topic_test_2"
+    }
+  ],
+  "transcript": "MINUTES BOOK 1947\nBUDGET SECTION\nPAGE XIII IS NOT IN ORIGINAL COPY\nPAGE 15 IS NOT IN ORIGINAL COPY"
+}
