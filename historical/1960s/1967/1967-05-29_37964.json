@@ -1,0 +1,24 @@
+{
+  "meeting_id": "1967-05-29_37964",
+  "title": "Special Austin '67 Meeting: Possible Hearings",
+  "meeting_type": "special called",
+  "date": "May 29, 1967",
+  "year": 1967,
+  "decade": "1960s",
+  "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=37964",
+  "agenda_url": "",
+  "ocr_source": "google_docs_ai",
+  "summary": "*   **Special Meeting Called:** The agenda indicates a special meeting was convened, though specific reasons are not detailed.\n*   **Potential Public Hearings:** The phrase \"your heres\" may suggest public hearings were a part of the meeting, but the exact topics remain unclear.\n*   **Unspecified Discussion Items:** Several entries appear to be placeholders or incomplete items, indicating a lack of clear agenda points beyond the meeting's special nature.",
+  "summary_source": "gemini-2.5-flash",
+  "topics": [
+    {
+      "broad_topic": "broad_topic_test_1",
+      "sub_topic": "sub_topic_test_1"
+    },
+    {
+      "broad_topic": "broad_topic_test_2",
+      "sub_topic": "sub_topic_test_2"
+    }
+  ],
+  "transcript": "Special mest\nmay 29th your heres\n?\nat sure\net"
+}
