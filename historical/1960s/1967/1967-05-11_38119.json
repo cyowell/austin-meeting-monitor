@@ -1,0 +1,24 @@
+{
+  "meeting_id": "1967-05-11_38119",
+  "title": "",
+  "meeting_type": "regular",
+  "date": "May 11, 1967",
+  "year": 1967,
+  "decade": "1960s",
+  "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=38119",
+  "agenda_url": "",
+  "ocr_source": "google_docs_ai",
+  "summary": "I'm sorry, but the agenda transcript you've provided is incomplete. It currently states \"• • Renular : may 11th goes here\", which appears to be a placeholder rather than the actual agenda items.\n\nTo fulfill your request, I need the full transcript of the May 11, 1967 Austin City Council agenda. Once you provide that, I'd be happy to create the summary and title for you!",
+  "summary_source": "gemini-2.5-flash",
+  "topics": [
+    {
+      "broad_topic": "broad_topic_test_1",
+      "sub_topic": "sub_topic_test_1"
+    },
+    {
+      "broad_topic": "broad_topic_test_2",
+      "sub_topic": "sub_topic_test_2"
+    }
+  ],
+  "transcript": "•\n•\nRenular\n:\nmay 11th\ngoes here"
+}
