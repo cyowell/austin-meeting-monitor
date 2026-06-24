@@ -1,6 +1,6 @@
 {
   "meeting_id": "20130909-ahfc",
-  "title": "September 9, 2013 Austin Housing Finance Corporation (AHFC) Board of Directors AHFC Meeting",
+  "title": "Austin Housing OKs Budget, Minutes Quickly",
   "meeting_type": "Austin Housing Finance Corporation (AHFC) Board of Directors AHFC Meeting",
   "date": "2013-09-09",
   "year": 2013,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/09102013-1027/0/",
   "actions_url": null,
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=196877",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   The Austin Housing Finance Corporation held a brief meeting.\n*   Board members unanimously approved the minutes from their previous meeting.\n*   The corporation's annual budget was also unanimously adopted by the board.",
   "topics": [],
-  "transcript": "Austin Housing Finance Corporation Meeting \nTranscript \u2013 9/9/2013 \n \nGood afternoon, board of directors. Betsy spencer, treasurer of the austin \nhousing finance corporation. I offer two items on consent for you today. One \nof the meetings -- the minutes from the meetings of the last meeting -- \nminutes of the meetings -- minutes from last meeting. And the second item is \nthe budget, the annual budget for the austin housing finance corporation. And \nI'm available for questions. >> Mayor Leffingwell: Mayor pro tem cole moves \napproval. Seconded by councilmember spelman. Any discussion? All those in \nfavor, signify by saying aye? Oppose said no. It passes on a vote of seven to \nzero. Without objection this meeting of the ahfc board is adjourned. \n\u00a0\n"
+  "transcript": "Austin Housing Finance Corporation Meeting \nTranscript \u2013 9/9/2013 \n \nGood afternoon, board of directors. Betsy spencer, treasurer of the austin \nhousing finance corporation. I offer two items on consent for you today. One \nof the meetings -- the minutes from the meetings of the last meeting -- \nminutes of the meetings -- minutes from last meeting. And the second item is \nthe budget, the annual budget for the austin housing finance corporation. And \nI'm available for questions. >> Mayor Leffingwell: Mayor pro tem cole moves \napproval. Seconded by councilmember spelman. Any discussion? All those in \nfavor, signify by saying aye? Oppose said no. It passes on a vote of seven to \nzero. Without objection this meeting of the ahfc board is adjourned. \n\u00a0\n",
+  "title_source": "gemini-1.5-flash"
 }

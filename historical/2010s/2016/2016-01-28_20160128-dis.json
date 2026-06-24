@@ -1,6 +1,6 @@
 {
   "meeting_id": "20160128-dis",
-  "title": "January 28, 2016 Austin City Council Discussion",
+  "title": "Austin's Future Transport & Funding Plans",
   "meeting_type": "Austin City Council Discussion",
   "date": "2016-01-28",
   "year": 2016,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/49843/0/",
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=246850",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   City leaders unveiled \"Austin on the Move,\" a new initiative addressing urban mobility.\n*   Major announcements focused on next steps for critical transportation improvements.\n*   Discussions centered on securing future funding for these vital infrastructure projects.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTHURSDAY, JANUARY 28, 2016 \n9:00 AM \nAUSTIN CITY HALL \n \n \nPress Conference  \n \n9:00 AM \n AUSTIN ON THE MOVE- CITY COUNCIL MEMBERS ANNOUNCE NEXT \nSTEPS FOR TRANSPORTATION IMPROVEMENTS AND FUNDING. \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTHURSDAY, JANUARY 28, 2016 \n9:00 AM \nAUSTIN CITY HALL \n \n \nPress Conference  \n \n9:00 AM \n AUSTIN ON THE MOVE- CITY COUNCIL MEMBERS ANNOUNCE NEXT \nSTEPS FOR TRANSPORTATION IMPROVEMENTS AND FUNDING. \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

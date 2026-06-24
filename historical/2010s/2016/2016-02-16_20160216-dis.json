@@ -1,6 +1,6 @@
 {
   "meeting_id": "20160216-dis",
-  "title": "February 16, 2016 Austin City Council Discussion",
+  "title": "Mayor Adler's State of the City Address",
   "meeting_type": "Austin City Council Discussion",
   "date": "2016-02-16",
   "year": 2016,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=247987",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   Mayor Steve Adler delivered the 2016 State of the City Address, themed 'Great Cities Do Big Things.'\n*   The event was a special public address held at The Zach Theatre, focusing on the city's vision and accomplishments.\n*   Though City Council members were present, this was not a legislative meeting, and no official policy decisions or votes were taken.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, FEBRUARY 16, 2016 \n7:00 PM \nTHE ZACH THEATRE - 202 SOUTH LAMAR BOULEVARD \nAUSTIN, TX 78704  \n \nState of the City Address \n \n7:00 PM \n ATTEND THE 2016 STATE OF THE CITY ADDRESS 'GREAT CITIES DO \nBIG THINGS', HOSTED BY MAYOR STEVE ADLER. \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, FEBRUARY 16, 2016 \n7:00 PM \nTHE ZACH THEATRE - 202 SOUTH LAMAR BOULEVARD \nAUSTIN, TX 78704  \n \nState of the City Address \n \n7:00 PM \n ATTEND THE 2016 STATE OF THE CITY ADDRESS 'GREAT CITIES DO \nBIG THINGS', HOSTED BY MAYOR STEVE ADLER. \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

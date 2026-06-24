@@ -1,6 +1,6 @@
 {
   "meeting_id": "20131105-dis",
-  "title": "November 5, 2013 Austin City Council Discussion",
+  "title": "Community Meeting: Southeast Austin Flood Relief",
   "meeting_type": "Austin City Council Discussion",
   "date": "2013-11-05",
   "year": 2013,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=200077",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **Flood Victim Town Hall:** The primary event is a Town Hall meeting for residents in Southeast Austin and Travis County affected by recent flooding.\n*   **Community Engagement:** This meeting provides a direct forum for flood victims to connect with city leaders and discuss their experiences and needs.\n*   **Information Sharing, Not Action:** While city council members will be present, the meeting is for discussion and information gathering only; no formal policy decisions or votes will be taken.\n*   **Ongoing Support:** The Flood Assistance Center remains open to continue providing aid and resources to those impacted by the floods.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, NOVEMBER 5, 2013 \n6:30 PM \nPEREZ ELEMENTARY SCHOOL CAFETERIA \n7500 PLEASANT VALLEY ROAD \n \nTown Hall meeting set tonight for flood victims; \nFlood Assistance Center remains open \n \nAgenda \n \n \n \n6:30 PM \nAttend a Town Hall Meeting for residents affected by \nflooding in Southeast Austin/Travis County. \n \n \n \n \n \nA quorum of Council members may be present. No action will be taken.  \n \nThe City of Austin is committed to compliance with the American with Disabilities Act.  \nReasonable modifications and equal access to communications will be provided upon \nrequest.  Meeting locations are planned with wheelchair access.  If requiring Sign \nLanguage Interpreters or alternative formats, please give notice at least 4 days before the \nmeeting date.  Please call Dolores Gonzalez, City of Austin ADA Coordinator, at (512) \n974-3256 for additional information; TTY users route through Relay Texas at 711. \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, NOVEMBER 5, 2013 \n6:30 PM \nPEREZ ELEMENTARY SCHOOL CAFETERIA \n7500 PLEASANT VALLEY ROAD \n \nTown Hall meeting set tonight for flood victims; \nFlood Assistance Center remains open \n \nAgenda \n \n \n \n6:30 PM \nAttend a Town Hall Meeting for residents affected by \nflooding in Southeast Austin/Travis County. \n \n \n \n \n \nA quorum of Council members may be present. No action will be taken.  \n \nThe City of Austin is committed to compliance with the American with Disabilities Act.  \nReasonable modifications and equal access to communications will be provided upon \nrequest.  Meeting locations are planned with wheelchair access.  If requiring Sign \nLanguage Interpreters or alternative formats, please give notice at least 4 days before the \nmeeting date.  Please call Dolores Gonzalez, City of Austin ADA Coordinator, at (512) \n974-3256 for additional information; TTY users route through Relay Texas at 711. \n",
+  "title_source": "gemini-1.5-flash"
 }
