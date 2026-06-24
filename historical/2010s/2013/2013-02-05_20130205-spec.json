@@ -1,6 +1,6 @@
 {
   "meeting_id": "20130205-spec",
-  "title": "February 5, 2013 Austin City Council Discussion",
+  "title": "Austin's State of City Address: Mayor & RECA",
   "meeting_type": "Austin City Council Discussion",
   "date": "2013-02-05",
   "year": 2013,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/02052013-795/0/",
   "actions_url": null,
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=183224",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **Mayor's Annual Address:** City leaders will attend Mayor Leffingwell's \"State of the City Address.\"\n*   **No Policy Decisions:** While a quorum of members may be present, no official actions, votes, or policy decisions will be made during this event.\n*   **Event Sponsor:** The address is sponsored by the Real Estate Council of Austin (RECA).",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, FEBRUARY 05, 2013 \n11:30 AM \nFOUR SEASONS HOTEL,  \n98 SAN JACINTO BLVD, AUSTIN, TX \n \n \n\u201cState of the City Address\u201d Discussion \n \nAgenda \n \n \n  \n \n11:30 a.m.   \nAttend Mayor Leffingwell\u2019s \u201cState of the City Address\u201d, \nsponsored by the Real Estate Council of Austin (RECA) \n \n  \n \n \n \n \nA quorum of Council members may be present. No action will be taken.  \n \nThe City of Austin is committed to compliance with the American with Disabilities Act.  \nReasonable modifications and equal access to communications will be provided upon \nrequest.  Meeting locations are planned with wheelchair access.  If requiring Sign \nLanguage Interpreters or alternative formats, please give notice at least 4 days before the \nmeeting date.  Please call Dolores Gonzalez, City of Austin ADA Coordinator, at (512) \n974-3256 for additional information; TTY users route through Relay Texas at 711. \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, FEBRUARY 05, 2013 \n11:30 AM \nFOUR SEASONS HOTEL,  \n98 SAN JACINTO BLVD, AUSTIN, TX \n \n \n\u201cState of the City Address\u201d Discussion \n \nAgenda \n \n \n  \n \n11:30 a.m.   \nAttend Mayor Leffingwell\u2019s \u201cState of the City Address\u201d, \nsponsored by the Real Estate Council of Austin (RECA) \n \n  \n \n \n \n \nA quorum of Council members may be present. No action will be taken.  \n \nThe City of Austin is committed to compliance with the American with Disabilities Act.  \nReasonable modifications and equal access to communications will be provided upon \nrequest.  Meeting locations are planned with wheelchair access.  If requiring Sign \nLanguage Interpreters or alternative formats, please give notice at least 4 days before the \nmeeting date.  Please call Dolores Gonzalez, City of Austin ADA Coordinator, at (512) \n974-3256 for additional information; TTY users route through Relay Texas at 711. \n",
+  "title_source": "gemini-1.5-flash"
 }

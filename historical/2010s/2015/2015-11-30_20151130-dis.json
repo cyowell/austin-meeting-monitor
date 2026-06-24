@@ -1,6 +1,6 @@
 {
   "meeting_id": "20151130-dis",
-  "title": "November 30, 2015 Austin City Council Discussion",
+  "title": "Austin Recycling Games & Initiatives Unveiled",
   "meeting_type": "Austin City Council Discussion",
   "date": "2015-11-30",
   "year": 2015,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=243445",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   City Council members attended a press conference on the \"Austin Recycles Games\" and new city-wide recycling initiatives.\n*   The event focused on promoting community engagement in Austin's recycling efforts.\n*   This was an informational gathering, and no official council action, votes, or policy decisions were made during the session.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, NOVEMBER 30, 2015 \n10:00 AM \nAUSTIN CITY HALL PLAZA \n301 W. 2ND STREET \nAUSTIN, TX 78701 \n \n \nAustin Recycles Games Press Conference \n \n \n \n10:00 AM             Attend Austin Resource Recovery press conference on the \nAustin Recycles Games and recycling initiatives.  \n \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, NOVEMBER 30, 2015 \n10:00 AM \nAUSTIN CITY HALL PLAZA \n301 W. 2ND STREET \nAUSTIN, TX 78701 \n \n \nAustin Recycles Games Press Conference \n \n \n \n10:00 AM             Attend Austin Resource Recovery press conference on the \nAustin Recycles Games and recycling initiatives.  \n \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }
