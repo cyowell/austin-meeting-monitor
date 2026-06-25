@@ -1,6 +1,6 @@
 {
   "meeting_id": "20181205-dis",
-  "title": "December 5, 2018 Austin City Council Discussion",
+  "title": "Austin Leaders Discuss State Funding Impact",
   "meeting_type": "Austin City Council Discussion",
   "date": "2018-12-05",
   "year": 2018,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=311368",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   Austin area officials and state delegates convened to discuss crucial financial challenges impacting the region.\n*   The meeting brought together state representatives, city leaders, county judges, commissioners, and school superintendents.\n*   Key discussion points focused on the effects of state revenue caps and school finance funding on the Austin region.\n*   This gathering was strictly for discussion and information exchange; no formal actions or decisions were made.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, DECEMBER 5, 2018 \n9:00AM \nAUSTIN CONVENTION CENTER \n500 E CESAR CHAVEZ ST \nBALLROOM G \nAUSTIN, TX 78701 \n \nDiscussion \n \n9:00 AM \nDiscussion with the State Delegation, City Council, County Judges and \nCommissioners, and School District Superintendents to discuss the impact of \nrevenue caps and school finance funding on the Austin region.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, DECEMBER 5, 2018 \n9:00AM \nAUSTIN CONVENTION CENTER \n500 E CESAR CHAVEZ ST \nBALLROOM G \nAUSTIN, TX 78701 \n \nDiscussion \n \n9:00 AM \nDiscussion with the State Delegation, City Council, County Judges and \nCommissioners, and School District Superintendents to discuss the impact of \nrevenue caps and school finance funding on the Austin region.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

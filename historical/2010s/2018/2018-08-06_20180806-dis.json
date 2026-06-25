@@ -1,6 +1,6 @@
 {
   "meeting_id": "20180806-dis",
-  "title": "August 6, 2018 Austin City Council Discussion",
+  "title": "Project Connect: Grants, Design, Construction",
   "meeting_type": "Austin City Council Discussion",
   "date": "2018-08-06",
   "year": 2018,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=302541",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **Austin Transit Future:** City leaders will attend a Capital Metro board meeting focused on the Project Connect transit initiative.\n*   **Federal Grants & Design:** Key discussions will cover securing federal funding and reviewing the project's design and environmental plans.\n*   **Construction Options:** The meeting will explore potential strategies for procuring construction services for the major transit project.\n*   **Information Session Only:** This is an informational work session, and the City Council will not be taking any formal actions or votes.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, AUGUST 6, 2018 \n12:00 PM \nPALMER EVENTS CENTER, \nMEETINGS ROOMS 1, 2 AND 3, 3RD FLOOR  \n900 BARTON SPRINGS RD, \nAUSTIN, TX 78704 \n \nCap Metro Project Connect Work Session \n \n12:00 PM \nAttend a Capital Metro Board of Directors meeting that will focus on Federal Transit \nAdministration grant opportunities, the design and environmental review processes, \nand potential construction procurement options. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, AUGUST 6, 2018 \n12:00 PM \nPALMER EVENTS CENTER, \nMEETINGS ROOMS 1, 2 AND 3, 3RD FLOOR  \n900 BARTON SPRINGS RD, \nAUSTIN, TX 78704 \n \nCap Metro Project Connect Work Session \n \n12:00 PM \nAttend a Capital Metro Board of Directors meeting that will focus on Federal Transit \nAdministration grant opportunities, the design and environmental review processes, \nand potential construction procurement options. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

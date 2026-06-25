@@ -1,6 +1,6 @@
 {
   "meeting_id": "20170128-dis",
-  "title": "January 28, 2017 Austin City Council Discussion",
+  "title": "Mayor Adler's State of the City Address",
   "meeting_type": "Austin City Council Discussion",
   "date": "2017-01-28",
   "year": 2017,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/01302017-745/0/",
   "actions_url": null,
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=270485",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   Mayor Steve Adler delivered his State of the City address, outlining key achievements and future directions for Austin.\n*   This significant civic event served as an update on the city's progress and priorities.\n*   No formal votes, public hearings, or policy decisions were scheduled or taken by the Council during this event.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nSATURDAY, JANUARY 28, 2017 \n5:00 PM \nAUSTIN CITY HALL, COUNCIL CHAMBERS \n \n \nState of the City \n \n5:00 PM \n \nAttend the State of the City address by Mayor Steve Adler.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nSATURDAY, JANUARY 28, 2017 \n5:00 PM \nAUSTIN CITY HALL, COUNCIL CHAMBERS \n \n \nState of the City \n \n5:00 PM \n \nAttend the State of the City address by Mayor Steve Adler.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

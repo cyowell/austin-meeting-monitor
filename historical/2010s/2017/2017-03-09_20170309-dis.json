@@ -1,6 +1,6 @@
 {
   "meeting_id": "20170309-dis",
-  "title": "March 9, 2017 Austin City Council Discussion",
+  "title": "Mayor Adler's Real Estate Conversation",
   "meeting_type": "Austin City Council Discussion",
   "date": "2017-03-09",
   "year": 2017,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=272874",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **Mayor Steve Adler Town Hall:** The primary agenda item is a public conversation with Mayor Steve Adler.\n*   **Real Estate Focus:** This event is hosted by the Real Estate Council of Austin.\n*   **No Policy Decisions:** While a quorum of council members may attend, no official city council actions or policy decisions will be made at this discussion.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTHURSDAY, MARCH 09, 2017 \n11:15 AM \nFOUR SEASONS HOTEL  \n98 SAN JACINTO BLVD. AUSTIN TX 78701 \n \n \nAustin Mayoral Town Hall \n \n11:15 AM \nAttend the Real Estate Council of Austin\u2019s event entitled \u201cAustin Mayoral \nTown Hall; A Conversation with Mayor Steve Adler\u201d. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTHURSDAY, MARCH 09, 2017 \n11:15 AM \nFOUR SEASONS HOTEL  \n98 SAN JACINTO BLVD. AUSTIN TX 78701 \n \n \nAustin Mayoral Town Hall \n \n11:15 AM \nAttend the Real Estate Council of Austin\u2019s event entitled \u201cAustin Mayoral \nTown Hall; A Conversation with Mayor Steve Adler\u201d. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

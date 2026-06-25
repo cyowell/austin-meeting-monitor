@@ -1,6 +1,6 @@
 {
   "meeting_id": "20170130-dis",
-  "title": "January 30, 2017 Austin City Council Discussion",
+  "title": "CodeNEXT: Austin's Future Development Unveiled",
   "meeting_type": "Austin City Council Discussion",
   "date": "2017-01-30",
   "year": 2017,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=270486",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **CodeNEXT Draft Revealed:** Austin officials attended a press conference to release the initial draft of CodeNEXT, the city's new land development code.\n*   **Shaping Austin's Growth:** This significant overhaul of development rules aims to guide future growth, housing, and urban planning for the city.\n*   **Informational Session:** The meeting was dedicated to presenting the draft code and gathering initial feedback, with no policy decisions or votes taking place.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, JANUARY 30, 2017 \n9:00 AM \nCITY HALL \n \n \nCodeNEXT Press Conference \n \n9:00 AM \nAttend a press conference on the release of the draft land development code, \nknown as CodeNEXT. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, JANUARY 30, 2017 \n9:00 AM \nCITY HALL \n \n \nCodeNEXT Press Conference \n \n9:00 AM \nAttend a press conference on the release of the draft land development code, \nknown as CodeNEXT. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

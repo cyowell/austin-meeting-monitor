@@ -1,6 +1,6 @@
 {
   "meeting_id": "20190819-dis",
-  "title": "August 19, 2019 Austin City Council Discussion",
+  "title": "Austin Leaders Discuss Abortion Care Access",
   "meeting_type": "Austin City Council Discussion",
   "date": "2019-08-19",
   "year": 2019,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=325457",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   A press conference is scheduled to address improving access to abortion care within Austin.\n*   City leaders, potentially including a majority of the City Council, are expected to attend the event.\n*   This gathering is for discussion and information sharing only; no formal policy decisions or actions will be taken.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, AUGUST 19, 2019 \nCITY HALL MEDIA ROOM \n301 W. SECOND STREET, \n AUSTIN, TX  \n \n \nPress Conference \n \n1:30 PM \nAttend a press conference regarding improved access to abortion care in Austin.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, AUGUST 19, 2019 \nCITY HALL MEDIA ROOM \n301 W. SECOND STREET, \n AUSTIN, TX  \n \n \nPress Conference \n \n1:30 PM \nAttend a press conference regarding improved access to abortion care in Austin.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

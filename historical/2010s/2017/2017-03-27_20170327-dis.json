@@ -1,6 +1,6 @@
 {
   "meeting_id": "20170327-dis",
-  "title": "March 27, 2017 Austin City Council Discussion",
+  "title": "Equity Training for City Planning",
   "meeting_type": "Austin City Council Discussion",
   "date": "2017-03-27",
   "year": 2017,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=273944",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   City leaders will attend a training session focused on understanding equity assessment tools.\n*   The goal is to learn how to integrate these tools into future budgeting and urban planning processes.\n*   This initiative aims to ensure fairness and equity are considered in city operations and resource allocation.\n*   No official votes or policy decisions will be made during this specific training session.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, MARCH 27, 2017 \n1:00 PM \nAUSTIN CONVENTION CENTER ROOM 18D \n \n \nCouncil Equity Training \n \n1:00 PM \nAttend training on understanding equity assessment tools and how to \nutilize them during the budgeting and planning process.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, MARCH 27, 2017 \n1:00 PM \nAUSTIN CONVENTION CENTER ROOM 18D \n \n \nCouncil Equity Training \n \n1:00 PM \nAttend training on understanding equity assessment tools and how to \nutilize them during the budgeting and planning process.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

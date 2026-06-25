@@ -1,6 +1,6 @@
 {
   "meeting_id": "20160819-dis",
-  "title": "August 19, 2016 Austin City Council Discussion",
+  "title": "HUD Sec Joins Austin's Homelessness Fight",
   "meeting_type": "Austin City Council Discussion",
   "date": "2016-08-19",
   "year": 2016,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/08192016-561/0/",
   "actions_url": null,
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=261204",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   A press conference was held to highlight Austin's efforts to end veteran homelessness.\n*   U.S. Department of Housing and Urban Development (HUD) Secretary Julian Castro participated in the event.\n*   The discussion focused on the city's commitment to supporting its veteran community.\n*   No policy decisions or actions were taken at this specific meeting.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION/PRESS CONFERENCE \nFRIDAY, AUGUST 19, 2016 \n11:30 AM \nCITY HALL \nCOUNCIL CHAMBERS \n301 W. SECOND STREET, AUSTIN, TX \n \n \nEND VETERAN HOMELESSNESS \n \n11:30 AM \nPress Conference with United States Department of Housing and Urban \nDevelopment Secretary, Julian Castro and Council on the City of Austin\u2019s \nefforts to end veteran homelessness. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThis meeting will be accessible for viewing in City Hall Council Chambers and on \nATXN (cable channel 6 or www.atxn.tv).  \n.  \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION/PRESS CONFERENCE \nFRIDAY, AUGUST 19, 2016 \n11:30 AM \nCITY HALL \nCOUNCIL CHAMBERS \n301 W. SECOND STREET, AUSTIN, TX \n \n \nEND VETERAN HOMELESSNESS \n \n11:30 AM \nPress Conference with United States Department of Housing and Urban \nDevelopment Secretary, Julian Castro and Council on the City of Austin\u2019s \nefforts to end veteran homelessness. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThis meeting will be accessible for viewing in City Hall Council Chambers and on \nATXN (cable channel 6 or www.atxn.tv).  \n.  \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n",
+  "title_source": "gemini-1.5-flash"
 }
