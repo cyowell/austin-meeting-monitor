@@ -1,6 +1,6 @@
 {
   "meeting_id": "20160517-dis",
-  "title": "May 17, 2016 Austin City Council Discussion",
+  "title": "Smart City Challenge Update with US DOT",
   "meeting_type": "Austin City Council Discussion",
   "date": "2016-05-17",
   "year": 2016,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=254178",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   U.S. Department of Transportation Secretary and Mayor Steve Adler held a press conference.\n*   The discussion focused on the US DOT Smart City Challenge initiative.\n*   Media were invited for availability with the officials on this topic.\n*   No official council actions or policy decisions were scheduled for this session.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, MAY 17, 2016 \n11:00 \u2013 11:30 AM \nCITY HALL \nMAYOR\u2019S BALCONY \n301 W. SECOND STREET, AUSTIN, TX \n \n \nPress Conference \n \n11:00 AM \nMedia availability with U.S. Department of Transportation Secretary \nAnthony Foxx and Mayor Steve Adler regarding the US DOT Smart City \nChallenge.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, MAY 17, 2016 \n11:00 \u2013 11:30 AM \nCITY HALL \nMAYOR\u2019S BALCONY \n301 W. SECOND STREET, AUSTIN, TX \n \n \nPress Conference \n \n11:00 AM \nMedia availability with U.S. Department of Transportation Secretary \nAnthony Foxx and Mayor Steve Adler regarding the US DOT Smart City \nChallenge.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n",
+  "title_source": "gemini-1.5-flash"
 }

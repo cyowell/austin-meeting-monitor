@@ -1,6 +1,6 @@
 {
   "meeting_id": "20180404-wrk1",
-  "title": "April 4, 2018 Austin City Council Budget Work Session (1:00PM)",
+  "title": "Shaping Austin's Budget & City Priorities",
   "meeting_type": "Austin City Council Budget Work Session (1:00PM)",
   "date": "2018-04-04",
   "year": 2018,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/46435/0/",
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=295760",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **Financial Health Check:** Reviewed the city's financial forecast for the upcoming 2018-2019 fiscal year, analyzing projected revenues and expenditures.\n*   **Strategic Spending Decisions:** Discussed how to align the city's budget with key policy priorities, determining where public funds will be invested.\n*   **Planning Austin's Future:** These critical sessions focused on setting the spending blueprint for the city's services and initiatives in the year ahead.",
   "topics": [],
-  "transcript": "Wednesday, April 4, 2018\nMayor Steve Adler\nMayor Pro Tem Kathie Tovo\nCouncil Member Ora Houston\nCouncil Member Delia Garza\nCouncil Member Sabino \"Pio\" Renteria\nCouncil Member Gregorio Casar\nCouncil Member Ann Kitchen\nCouncil Member Jimmy Flannigan\nCouncil Member Leslie Pool\nCouncil Member Ellen Troxclair\nCouncil Member Alison Alter\nThe City Council Budget Work Session will convene \nat 9:00 AM on Wednesday, April 4, 2018 \nBudget Work Session\nCouncil Discussion\nBriefing and discussion regarding the City of Austin financial forecast for Fiscal Year 2018-2019. (9:00 \na.m. - 11:30 a.m., Austin City Hall, 301 W. 2nd Street, Austin, TX 78701, Board and Commissions \nRoom).\n1.\nBriefing and discussion regarding aligning the City of Austin budget with City Council\u2019s policy priorities. \n(1:00 p.m. - 5:00 p.m., New Central Library, 710 W. Cesar Chavez St., Austin, TX 78701, Special \nEvents Center, 1st Floor).\n2.\n Adjourn\n"
+  "transcript": "Wednesday, April 4, 2018\nMayor Steve Adler\nMayor Pro Tem Kathie Tovo\nCouncil Member Ora Houston\nCouncil Member Delia Garza\nCouncil Member Sabino \"Pio\" Renteria\nCouncil Member Gregorio Casar\nCouncil Member Ann Kitchen\nCouncil Member Jimmy Flannigan\nCouncil Member Leslie Pool\nCouncil Member Ellen Troxclair\nCouncil Member Alison Alter\nThe City Council Budget Work Session will convene \nat 9:00 AM on Wednesday, April 4, 2018 \nBudget Work Session\nCouncil Discussion\nBriefing and discussion regarding the City of Austin financial forecast for Fiscal Year 2018-2019. (9:00 \na.m. - 11:30 a.m., Austin City Hall, 301 W. 2nd Street, Austin, TX 78701, Board and Commissions \nRoom).\n1.\nBriefing and discussion regarding aligning the City of Austin budget with City Council\u2019s policy priorities. \n(1:00 p.m. - 5:00 p.m., New Central Library, 710 W. Cesar Chavez St., Austin, TX 78701, Special \nEvents Center, 1st Floor).\n2.\n Adjourn\n",
+  "title_source": "gemini-1.5-flash"
 }

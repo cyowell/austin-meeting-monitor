@@ -1,6 +1,6 @@
 {
   "meeting_id": "20181128-dis",
-  "title": "November 28, 2018 Austin City Council Discussion",
+  "title": "Project Connect Public Input Session",
   "meeting_type": "Austin City Council Discussion",
   "date": "2018-11-28",
   "year": 2018,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=310892",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   Austin City leaders joined a Capital Metro meeting to discuss \"Project Connect,\" a major regional transit initiative.\n*   The primary focus of the discussion was on community and stakeholder engagement efforts for Project Connect.\n*   This was a work session for informational purposes; no official policy decisions or actions were taken by the City.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, NOVEMBER 28, 2018 \n3:00 PM \nAUSTIN CONVENTION CENTER,  \nBALLROOM C,  \n500 E CESAR CHAVEZ ST,  \nAUSTIN, TX 78701 \n \nCap Metro Project Connect Work Session \n \n3:00 PM \nAttend a Capital Metro Board of Directors meeting that will focus on community \nand stakeholder engagement for Project Connect.  \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, NOVEMBER 28, 2018 \n3:00 PM \nAUSTIN CONVENTION CENTER,  \nBALLROOM C,  \n500 E CESAR CHAVEZ ST,  \nAUSTIN, TX 78701 \n \nCap Metro Project Connect Work Session \n \n3:00 PM \nAttend a Capital Metro Board of Directors meeting that will focus on community \nand stakeholder engagement for Project Connect.  \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

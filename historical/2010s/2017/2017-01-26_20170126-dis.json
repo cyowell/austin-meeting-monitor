@@ -1,6 +1,6 @@
 {
   "meeting_id": "20170126-dis",
-  "title": "January 26, 2017 Austin City Council Discussion",
+  "title": "Children's Outdoor Rights & Nature Grant",
   "meeting_type": "Austin City Council Discussion",
   "date": "2017-01-26",
   "year": 2017,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "http://www.austintexas.gov/edims/document.cfm?id=270174",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   Council members attended a press conference focused on initiatives to connect Austin's children with the outdoors.\n*   Key discussions revolved around an \"Outdoor Children\u2019s Bill of Rights\" promoting kids' access to natural spaces.\n*   Updates were provided on the \"Cities Connecting Children to Nature Grant,\" highlighting ongoing efforts and programs.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTHURSDAY, JANUARY 26, 2017 \n9:30 AM \nAUSTIN CITY HALL \n \n \nPress Conference \n \n9:30 AM \nAttend a press conference regarding the Outdoor Children\u2019s Bill of Rights, \nand the Cities Connecting Children to Nature Grant.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTHURSDAY, JANUARY 26, 2017 \n9:30 AM \nAUSTIN CITY HALL \n \n \nPress Conference \n \n9:30 AM \nAttend a press conference regarding the Outdoor Children\u2019s Bill of Rights, \nand the Cities Connecting Children to Nature Grant.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

@@ -1,6 +1,6 @@
 {
   "meeting_id": "20171211-dis",
-  "title": "December 11, 2017 Austin City Council Discussion",
+  "title": "Decoding Austin's CodeNEXT",
   "meeting_type": "Austin City Council Discussion",
   "date": "2017-12-11",
   "year": 2017,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=289567",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   A community town hall event, \"ATX Together: Decoding CodeNEXT,\" was held to discuss Austin's proposed new land development code.\n*   This public discussion offered residents an opportunity to understand and engage with the details of CodeNEXT.\n*   Though council members might be present, no official actions, votes, or policy decisions were made during this informational session.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, DECEMBER 11, 2017 \n7:00 PM \nKLRU'S STUDIO 6A \n2504-B WHITIS AVE \nAUSTIN, TX 78712 \nUNITED STATES \n \nATX Together: Decoding CodeNEXT \n \n7:00 PM \nAttend a town hall discussion on CodeNEXT.  \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nMONDAY, DECEMBER 11, 2017 \n7:00 PM \nKLRU'S STUDIO 6A \n2504-B WHITIS AVE \nAUSTIN, TX 78712 \nUNITED STATES \n \nATX Together: Decoding CodeNEXT \n \n7:00 PM \nAttend a town hall discussion on CodeNEXT.  \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

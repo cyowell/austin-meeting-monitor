@@ -1,6 +1,6 @@
 {
   "meeting_id": "20171116-dis",
-  "title": "November 16, 2017 Austin City Council Discussion",
+  "title": "Austin: Homelessness Coalition Meeting",
   "meeting_type": "Austin City Council Discussion",
   "date": "2017-11-16",
   "year": 2017,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=287821",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   City leaders attended the Ending Community Homelessness Coalition (ECHO) fall meeting.\n*   The primary focus of the gathering was addressing homelessness within the Austin community.\n*   While a quorum of Council members may have been present for discussion, no official actions or votes were taken at this event.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTHURSDAY, NOVEMBER 16, 2017 \n3:00 PM \nAUSTIN CITY HALL, 1ST FLOOR \n301 W. 2ND STREET,   \nAUSTIN, TX 78701 \n \nECHO FALL MEETING \n \n3:00 PM \nAttend the Ending Community Homelessness Coalition (ECHO) fall meeting. \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTHURSDAY, NOVEMBER 16, 2017 \n3:00 PM \nAUSTIN CITY HALL, 1ST FLOOR \n301 W. 2ND STREET,   \nAUSTIN, TX 78701 \n \nECHO FALL MEETING \n \n3:00 PM \nAttend the Ending Community Homelessness Coalition (ECHO) fall meeting. \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

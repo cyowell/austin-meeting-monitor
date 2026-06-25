@@ -1,6 +1,6 @@
 {
   "meeting_id": "20180515-dis",
-  "title": "May 15, 2018 Austin City Council Discussion",
+  "title": "Austin Budget: Public Input & Strategic Goals",
   "meeting_type": "Austin City Council Discussion",
   "date": "2018-05-15",
   "year": 2018,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/46436/0/",
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=298435",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   Austin residents were invited to provide feedback on the city's budget allocation.\n*   Discussions focused on aligning the budget with new community outcomes and a long-term plan called \"Strategic Direction 2023.\"\n*   The event included an open house and a facilitated public discussion led by Mayor Steve Adler and City Manager Spencer Cronk.\n*   This was an informational engagement session designed to gather public input, with no official decisions or actions taken.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, MAY 15, 2018 \n6:30 PM \nAUSTIN CENTRAL LIBRARY \n710 W. CESAR CHAVEZ ST. \nAUSTIN, TX   78701 \n \n \nCitywide Budget Engagement Discussion \n \n6:30 PM   Open House concerning the City\u2019s new community outcomes and alignment of the \nCity\u2019s budget with Strategic Direction 2023 for an outcome-based budget. \n \n7:15 PM \nBudget Engagement facilitated discussion, hosted by Mayor Steve Adler and City \nManager Spencer Cronk and presented by City staff; and opportunity for public \nparticipation. \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, MAY 15, 2018 \n6:30 PM \nAUSTIN CENTRAL LIBRARY \n710 W. CESAR CHAVEZ ST. \nAUSTIN, TX   78701 \n \n \nCitywide Budget Engagement Discussion \n \n6:30 PM   Open House concerning the City\u2019s new community outcomes and alignment of the \nCity\u2019s budget with Strategic Direction 2023 for an outcome-based budget. \n \n7:15 PM \nBudget Engagement facilitated discussion, hosted by Mayor Steve Adler and City \nManager Spencer Cronk and presented by City staff; and opportunity for public \nparticipation. \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

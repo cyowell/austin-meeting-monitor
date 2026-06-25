@@ -1,6 +1,6 @@
 {
   "meeting_id": "20180626-dis",
-  "title": "June 26, 2018 Austin City Council Discussion",
+  "title": "Austin Leaders' Reception: No Policy Decisions",
   "meeting_type": "Austin City Council Discussion",
   "date": "2018-06-26",
   "year": 2018,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=300824",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   The Austin City Council hosted an evening reception.\n*   Attendees included City Manager Spencer Cronk, members of the Austin Legislative Delegation, and staff from the Austin Congressional Delegation.\n*   Crucially, this gathering was for discussion only, with no official action taken, policy decisions made, or public hearings held.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, JUNE 26, 2018 \n6:00 PM \n816 CONGRESS AVENUE,  \n15TH FLOOR TERRACE \nAUSTIN, TX 78701 \n \nEvening Reception \n \n6:00 PM \nEvening reception with City Manager Spencer Cronk, Austin City Council, Austin \nLegislative Delegation, and district office staff for the Austin Congressional \nDelegation. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, JUNE 26, 2018 \n6:00 PM \n816 CONGRESS AVENUE,  \n15TH FLOOR TERRACE \nAUSTIN, TX 78701 \n \nEvening Reception \n \n6:00 PM \nEvening reception with City Manager Spencer Cronk, Austin City Council, Austin \nLegislative Delegation, and district office staff for the Austin Congressional \nDelegation. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

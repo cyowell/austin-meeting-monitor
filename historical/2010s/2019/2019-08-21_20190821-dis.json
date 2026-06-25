@@ -1,6 +1,6 @@
 {
   "meeting_id": "20190821-dis",
-  "title": "August 21, 2019 Austin City Council Discussion (10:00AM)",
+  "title": "Austin: Public Order, Homelessness Talks",
   "meeting_type": "Austin City Council Discussion (10:00AM)",
   "date": "2019-08-21",
   "year": 2019,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://www.austintexas.gov/edims/document.cfm?id=325455",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **Public Order Ordinances Discussion:** A community town hall is set to address existing public order ordinances.\n*   **Tackling Homelessness:** Key discussions will focus on the complex issues and challenges surrounding homelessness in Austin.\n*   **Community Engagement Opportunity:** Hosted by the Downtown Austin Alliance, this event invites public participation and potential observation by Council members, though no official policy decisions will be made.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, AUGUST 21, 2019 \nAUSTIN CONVENTION CENTER \n500 E CESAR CHAVEZ ST, \n AUSTIN, TX  \n \n \nTown Hall \n \n10:00 AM \nAttend a town hall meeting regarding public order ordinances and homelessness \nhosted by the Downtown Austin Alliance.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, AUGUST 21, 2019 \nAUSTIN CONVENTION CENTER \n500 E CESAR CHAVEZ ST, \n AUSTIN, TX  \n \n \nTown Hall \n \n10:00 AM \nAttend a town hall meeting regarding public order ordinances and homelessness \nhosted by the Downtown Austin Alliance.  \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

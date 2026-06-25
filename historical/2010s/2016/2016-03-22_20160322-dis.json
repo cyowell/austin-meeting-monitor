@@ -1,6 +1,6 @@
 {
   "meeting_id": "20160322-dis",
-  "title": "March 22, 2016 Austin City Council Discussion",
+  "title": "Fair Chance Hiring Discussion",
   "meeting_type": "Austin City Council Discussion",
   "date": "2016-03-22",
   "year": 2016,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/49849/0/",
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=250469",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   A press conference was held to discuss a proposed \"fair chance hiring ordinance.\"\n*   The ordinance aims to address employment barriers and create more opportunities for individuals in Austin.\n*   A significant number of City Council members were expected to be present, highlighting broad interest in the policy.\n*   This gathering was an informational session, with no official votes or policy decisions made at the event itself.",
   "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, MARCH 22, 2016 \n8:15 AM \nAUSTIN CITY HALL MEDIA ROOM \n \n \nPress Conference \n \n8:15 AM \n \nPress conference relating to the fair chance hiring ordinance.  \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nTUESDAY, MARCH 22, 2016 \n8:15 AM \nAUSTIN CITY HALL MEDIA ROOM \n \n \nPress Conference \n \n8:15 AM \n \nPress conference relating to the fair chance hiring ordinance.  \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }
