@@ -340,6 +340,22 @@
       position: sticky;
       top: 2rem;
     }
+    .sidebar-card {
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto;
+    }
+    /* Optional: custom scrollbar for sidebar */
+    .sidebar-card::-webkit-scrollbar {
+      width: 6px;
+    }
+    .sidebar-card::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .sidebar-card::-webkit-scrollbar-thumb {
+      background-color: #cbd5e1;
+      border-radius: 20px;
+    }
+    
     .sidebar-main-summary {
       pointer-events: none; /* Not clickable on desktop */
     }
