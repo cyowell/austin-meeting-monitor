@@ -101,19 +101,26 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
               month: 'long',
               day: 'numeric',
             });
-            
-            // Prepare search text safely by escaping quotes if any
-            const rawSearchText = `${meeting.title || ''} ${meeting.summary || ''} ${meeting.meeting_type || ''} ${formattedDate}`.toLowerCase();
+
+            const rawSearchText = `${meeting.title || ''} ${meeting.summary || ''} ${meeting.meeting_type || ''} ${(meeting.transcript || '').substring(0, 1000)} ${formattedDate}`.toLowerCase();
             const searchText = rawSearchText.replace(/"/g, '&quot;');
-            
+
+            const summaryPattern = /^Here's.*?meeting.*?:\s*/is;
+            const cleanSummary = meeting.summary
+              ? meeting.summary.replace(summaryPattern, '').replace(/[#*]/g, '').substring(0, 150) + '...'
+              : 'No summary available.';
+
             return (
-              <a href={`/archives/meeting/${meeting.meeting_id}`} class="glass-card meeting-card" data-year={meeting.year} data-decade={meeting.decade} data-search={searchText} style="display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 1.5rem;">
-                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-                  <span style="font-size: 0.85rem; font-weight: 600; color: var(--color-primary-base);">{formattedDate}</span>
-                  <span class="badge" style="font-size: 0.75rem;">{meeting.meeting_type}</span>
+              <a href={`/archives/meeting/${meeting.meeting_id}`} class="glass-card meeting-card" target="_blank" rel="noopener noreferrer" data-year={meeting.year} data-decade={meeting.decade} data-search={searchText} style="display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
+                  <span style="font-size: 1rem; font-weight: 600; color: var(--color-primary-base); line-height: 1.3; flex: 1; min-width: 0;">
+                    {meeting.title.length > 65 ? meeting.title.slice(0, 65) + '…' : meeting.title}
+                  </span>
+                  <span class="badge" style="font-size: 0.75rem; flex-shrink: 0;">{meeting.meeting_type}</span>
                 </div>
-                <p style="font-size: 0.9rem; color: var(--color-text-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: auto;">
-                  {meeting.summary ? meeting.summary.replace(new RegExp("^Here's.*?meeting.*?:\\s*", "is"), '').replace(/[#*]/g, '').substring(0, 150) + '...' : 'No summary available.'}
+                <span style="font-size: 0.75rem; font-weight: 500; color: black; margin-bottom: 0.85rem;">{formattedDate}</span>
+                <p data-summary style="font-size: 0.9rem; color: var(--color-text-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: auto;">
+                  {cleanSummary}
                 </p>
               </a>
             );
@@ -133,89 +140,158 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
       const yearSelect = document.getElementById('year-select');
       const resetBtn = document.querySelector('[data-reset-filter]');
       const yearBtns = document.querySelectorAll('[data-filter-year]');
-      const meetingCards = document.querySelectorAll('.meeting-card');
       const resultsText = document.getElementById('results-text');
+      const grid = document.getElementById('meetings-grid');
       const sidebarDetails = document.getElementById('sidebar-details');
-      
-      if (sidebarDetails && window.innerWidth >= 768) {
-        sidebarDetails.open = true;
-      }
-      
-      if (!searchInput || !meetingCards.length) return;
 
-      // Prevent multiple listener bindings
+      if (sidebarDetails && window.innerWidth >= 768) sidebarDetails.open = true;
+      if (!searchInput || !grid) return;
       if (searchInput.dataset.initialized) return;
       searchInput.dataset.initialized = 'true';
 
+      // ── Collect all card data from DOM, then remove cards from DOM ──
+      const allCards = Array.from(document.querySelectorAll('.meeting-card'));
+      const cardData = allCards.map(card => ({
+        el: card,
+        year: card.getAttribute('data-year') || '',
+        searchText: card.getAttribute('data-search') || '',
+        summaryEl: card.querySelector('[data-summary]'),
+        originalSummary: card.querySelector('[data-summary]')?.innerHTML || '',
+      }));
+
+      // Remove all cards from DOM — we'll re-insert as needed
+      allCards.forEach(c => c.remove());
+
       let currentSearch = '';
       let currentYear = 'all';
+      let debounceTimer;
+      let renderTimer;
 
-      function updateFilters() {
-        let visibleCount = 0;
-        
-        meetingCards.forEach(card => {
-          const cardYear = card.getAttribute('data-year');
-          const cardSearch = (card.getAttribute('data-search') || '').toLowerCase();
-          
-          const matchYear = currentYear === 'all' || cardYear === currentYear;
-          const matchSearch = currentSearch === '' || cardSearch.includes(currentSearch);
-          
-          if (matchYear && matchSearch) {
-            card.style.display = 'flex';
-            visibleCount++;
-          } else {
-            card.style.display = 'none';
-          }
+      const INITIAL_BATCH = 10;
+      const LAZY_BATCH = 40;
+
+      // ── Filter logic ──
+      function getFilteredCards() {
+        return cardData.filter(({ year, searchText }) => {
+          const matchYear = currentYear === 'all' || year === currentYear;
+          const matchSearch = currentSearch === '' || searchText.includes(currentSearch);
+          return matchYear && matchSearch;
         });
+      }
+
+      // ── Snippet builder ──
+      function buildSnippet(searchText, query) {
+        if (!query) return null;
+
+        const words = searchText.split(/\s+/);
+        
+        // Find the first word that contains the query
+        const matchWordIdx = words.findIndex(w => w.includes(query));
+        if (matchWordIdx === -1) return null;
+
+        const start = Math.max(0, matchWordIdx - 10);
+        const end = Math.min(words.length, matchWordIdx + 11);
+        const before = words.slice(start, matchWordIdx).join(' ');
+        const matchWord = words[matchWordIdx];
+        const after = words.slice(matchWordIdx + 1, end).join(' ');
+
+        return `${start > 0 ? '…' : ''}${before} <strong>${matchWord}</strong> ${after}${end < words.length ? '…' : ''}`;
+      }
+
+      // ── Render a batch of cards into the grid ──
+      function renderCards(filtered, startIdx, count) {
+        const frag = document.createDocumentFragment();
+        const slice = filtered.slice(startIdx, startIdx + count);
+
+        slice.forEach(({ el, summaryEl, originalSummary, searchText }) => {
+          // Restore or replace summary
+          if (summaryEl) {
+            if (currentSearch) {
+              const snippet = buildSnippet(searchText, currentSearch);
+              summaryEl.innerHTML = snippet || originalSummary;
+            } else {
+              summaryEl.innerHTML = originalSummary;
+            }
+          }
+          el.style.display = 'flex';
+          frag.appendChild(el);
+        });
+
+        grid.appendChild(frag);
+      }
+
+      // ── Main render: clear grid, show first batch, lazy-load rest ──
+      function renderAll() {
+        // Clear grid
+        while (grid.firstChild) grid.removeChild(grid.firstChild);
+
+        const filtered = getFilteredCards();
+        const total = filtered.length;
 
         if (resultsText) {
-          resultsText.textContent = `${visibleCount} record${visibleCount !== 1 ? 's' : ''} found`;
+          resultsText.textContent = `${total} record${total !== 1 ? 's' : ''} found`;
         }
 
+        if (total === 0) {
+          grid.innerHTML = `<p style="grid-column:1/-1;text-align:center;color:var(--color-text-muted);padding:3rem;background:var(--color-bg-surface);border-radius:var(--radius-md);">No meetings found.</p>`;
+          return;
+        }
+
+        // Render first 10 immediately
+        renderCards(filtered, 0, INITIAL_BATCH);
+
+        // Lazy-load the rest after a short delay so first paint is fast
+        if (total > INITIAL_BATCH) {
+          clearTimeout(renderTimer);
+          renderTimer = setTimeout(() => {
+            for (let i = INITIAL_BATCH; i < total; i += LAZY_BATCH) {
+              renderCards(filtered, i, LAZY_BATCH);
+            }
+          }, 200);
+        }
+
+        // Sync UI controls
         if (yearSelect) yearSelect.value = currentYear;
-
         yearBtns.forEach(btn => {
-          if (btn.getAttribute('data-filter-year') === currentYear) {
-            btn.classList.add('active');
-            const details = btn.closest('details');
-            if (details) details.open = true;
-          } else {
-            btn.classList.remove('active');
-          }
+          const isActive = btn.getAttribute('data-filter-year') === currentYear;
+          btn.classList.toggle('active', isActive);
+          if (isActive) btn.closest('details')?.setAttribute('open', '');
         });
-
         if (resetBtn) {
-          if (currentYear === 'all' && currentSearch === '') {
-            resetBtn.classList.add('active');
-          } else {
-            resetBtn.classList.remove('active');
-          }
+          resetBtn.classList.toggle('active', currentYear === 'all' && currentSearch === '');
         }
       }
 
+      // ── Event listeners ──
       searchInput.addEventListener('input', (e) => {
-        currentSearch = e.target.value.toLowerCase().trim();
-        updateFilters();
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+          currentSearch = e.target.value.toLowerCase().trim();
+          renderAll();
+        }, 300);
       });
 
-      yearSelect.addEventListener('change', (e) => {
+      yearSelect?.addEventListener('change', (e) => {
         currentYear = e.target.value;
-        updateFilters();
+        renderAll();
       });
 
-      resetBtn.addEventListener('click', () => {
+      resetBtn?.addEventListener('click', () => {
         currentSearch = '';
-        searchInput.value = '';
         currentYear = 'all';
-        updateFilters();
+        searchInput.value = '';
+        renderAll();
       });
 
       yearBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
           currentYear = e.target.getAttribute('data-filter-year');
-          updateFilters();
+          renderAll();
         });
       });
+
+      // Initial render
+      renderAll();
     }
 
     initArchiveSearch();
