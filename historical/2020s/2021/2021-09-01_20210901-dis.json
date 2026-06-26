@@ -1,6 +1,6 @@
 {
   "meeting_id": "20210901-dis",
-  "title": "September 1, 2021 Austin City Council Discussion",
+  "title": "Austin I-35 Central Project",
   "meeting_type": "Austin City Council Discussion",
   "date": "2021-09-01",
   "year": 2021,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=366730",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **I-35 Press Conference:** The sole item on this agenda is a press conference focused on the I-35 Capital Express Central Project.\n*   **Informational Gathering:** This event is for discussion and sharing information, not for official council actions or policy decisions.\n*   **No Votes Taken:** While council members may attend, no votes will be held, and no new policies will be created at this meeting.",
   "topics": [],
-  "transcript": "OCC RECEIVED AT\nAUG 30 '21 8643:30\nD.L.11*4\nt,/\nTHE AUSTIN CITY COUNCIL WILL MEET ON\nWEDNESDAY, SEPTEMBER 1, 2021 AT 9:00 AM, AT\nSTARS CAFE 3101 N. I-35 Frontage RD AUSTIN, TX\n78722\nCouncil\nDiscussion\n1.\nI-35 Capital Express Central Project Press Conference.\nA quorum ofCouncil members may be present. No action will be taken.\n6\nThe City ofAustin is committed to compliance with the Americans with Disabilities Act.\nReasonable modifications and equal access to communications will be provided upon request.\nFor assistance, please call 512-974-2210 or TTY users route through 711.\n"
+  "transcript": "OCC RECEIVED AT\nAUG 30 '21 8643:30\nD.L.11*4\nt,/\nTHE AUSTIN CITY COUNCIL WILL MEET ON\nWEDNESDAY, SEPTEMBER 1, 2021 AT 9:00 AM, AT\nSTARS CAFE 3101 N. I-35 Frontage RD AUSTIN, TX\n78722\nCouncil\nDiscussion\n1.\nI-35 Capital Express Central Project Press Conference.\nA quorum ofCouncil members may be present. No action will be taken.\n6\nThe City ofAustin is committed to compliance with the Americans with Disabilities Act.\nReasonable modifications and equal access to communications will be provided upon request.\nFor assistance, please call 512-974-2210 or TTY users route through 711.\n",
+  "title_source": "gemini-1.5-flash"
 }

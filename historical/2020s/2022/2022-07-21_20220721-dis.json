@@ -1,6 +1,6 @@
 {
   "meeting_id": "20220721-dis",
-  "title": "July 21, 2022 Austin City Council 12:00 PM - Discussion",
+  "title": "Austin Leaders Address Abortion Rights",
   "meeting_type": "Austin City Council 12:00 PM - Discussion",
   "date": "2022-07-21",
   "year": 2022,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://www.austintexas.gov/edims/document.cfm?id=387210",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   Austin city officials will attend a press conference focusing on abortion access.\n*   A significant number of city leaders are expected to be present at the event.\n*   It is noted that no formal policy decisions or official actions will be taken.",
   "topics": [],
-  "transcript": " \nTHE AUSTIN CITY COUNCIL WILL MEET ON \nTHURSDAY, JULY 21, 2022, AT 12:00 PM, AT AUSTIN \nCITY HALL, 301 W. SECOND STREET, AUSTIN, TX \n78701 \n \n \nPress Conference  \nAttend a Press Conference regarding abortion access. \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n \n"
+  "transcript": " \nTHE AUSTIN CITY COUNCIL WILL MEET ON \nTHURSDAY, JULY 21, 2022, AT 12:00 PM, AT AUSTIN \nCITY HALL, 301 W. SECOND STREET, AUSTIN, TX \n78701 \n \n \nPress Conference  \nAttend a Press Conference regarding abortion access. \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n \n",
+  "title_source": "gemini-1.5-flash"
 }

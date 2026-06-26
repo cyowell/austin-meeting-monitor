@@ -1,6 +1,6 @@
 {
   "meeting_id": "20240325-dis",
-  "title": "March 25, 2024 Austin City Council Discussion",
+  "title": "Austin: Meet Future City Manager Candidates",
   "meeting_type": "Austin City Council Discussion",
   "date": "2024-03-25",
   "year": 2024,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=425346",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **Public Forum:** Residents can attend a community forum to meet candidates for Austin's next City Manager.\n*   **Engagement Opportunity:** This is an important chance for the public to learn about and engage with potential new city leaders.\n*   **Information Only:** While Council members may be present, no official decisions or actions will be taken at this event.",
   "topics": [],
-  "transcript": " \nAUSTIN CITY COUNCIL \nCOUNCIL DISCUSSION \nMONDAY, MARCH 25, 2024 AT 6:00 PM \nPERMITTING AND DEVELOPMENT CENTER \n     6310 WILHELMINA DELCO DR. AUSTIN, TX \n \nMeet the Candidates Event \n \nAttend a community forum for the residents to meet the City Manager candidates. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n"
+  "transcript": " \nAUSTIN CITY COUNCIL \nCOUNCIL DISCUSSION \nMONDAY, MARCH 25, 2024 AT 6:00 PM \nPERMITTING AND DEVELOPMENT CENTER \n     6310 WILHELMINA DELCO DR. AUSTIN, TX \n \nMeet the Candidates Event \n \nAttend a community forum for the residents to meet the City Manager candidates. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n",
+  "title_source": "gemini-1.5-flash"
 }

@@ -1,6 +1,6 @@
 {
   "meeting_id": "20210519-dis",
-  "title": "May 19, 2021 Austin City Council Discussion",
+  "title": "Austin Invests in Domestic Violence Shelter",
   "meeting_type": "Austin City Council Discussion",
   "date": "2021-05-19",
   "year": 2021,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=360099",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   A press conference announced significant investments for a new domestic violence shelter.\n*   This funding will support SAFE Rathgeber Village, a vital resource aiding survivors.\n*   City Council members were present at the event to highlight this important initiative.",
   "topics": [],
-  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, MAY 19, 2021 \nSAFE RATHGEBER VILLAGE  \n4800 MANOR ROAD \nAUSTIN, TEXAS 78723 \n \nPress Conference \n \n11:00 AM \nAttend a press conference regarding investments in a new domestic violence shelter. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n"
+  "transcript": " \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, MAY 19, 2021 \nSAFE RATHGEBER VILLAGE  \n4800 MANOR ROAD \nAUSTIN, TEXAS 78723 \n \nPress Conference \n \n11:00 AM \nAttend a press conference regarding investments in a new domestic violence shelter. \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711.  \n \n",
+  "title_source": "gemini-1.5-flash"
 }

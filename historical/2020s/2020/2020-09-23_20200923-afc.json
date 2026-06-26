@@ -1,6 +1,6 @@
 {
   "meeting_id": "20200923-afc",
-  "title": "September 23, 2020 Audit and Finance Committee Regular Meeting",
+  "title": "Austin: Pensions, Security, and Oversight Update",
   "meeting_type": "Audit and Finance Committee Regular Meeting",
   "date": "2020-09-23",
   "year": 2020,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/79440/0/",
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=346738",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   Receive updates on the financial health of retirement systems for city employees, including police and firefighters.\n*   Get a closed-door briefing on the city's information security management and recent audit findings.\n*   Review the proposed audit plan for the upcoming fiscal year, detailing future financial scrutiny.",
   "topics": [],
-  "transcript": "6.\nThe Fiscal Year 2021 Proposed Draft Audit Plan (City Auditor\u2019s Office)\nSponsors:\nCouncil Member Alison Alter, and Council Member Leslie Pool\n7.\nBylaws changes Joint Inclusion Committee (City Clerk\u2019s Office)\nSponsors:\nCouncil Member Alison Alter, and Council Member Leslie Pool\n8.\nAnnual Pension Update of the City's Three Retirement Systems (Austin Fire Fighters Relief and \nRetirement Fund, Austin Police Retirement System, and the City of Austin Employees' Retirement \nSystem) (Financial Services Department)\nSponsors:\nCouncil Member Alison Alter, and Council Member Leslie Pool\nExecutive Session\n9.\nUpdate on security audit related to information security management in the City (Security Audit - \nSections 551.076 and 551.089 of the Government Code) (Information Security Office and \nCommunications Technology Management Office).\nSponsors:\nCouncil Member Kathie Tovo, and Council Member Jimmy Flannigan\nFuture Items\n10.\nIdentify items to be discussed at future meetings.\nADJOURN\nFor assistance, please call 512-974-2210 or TTY users route through 711. \nThe City of Austin is committed to compliance with the Americans with Disabilities Act.\nReasonable modifications and equal access to communications will be provided upon request.\n"
+  "transcript": "6.\nThe Fiscal Year 2021 Proposed Draft Audit Plan (City Auditor\u2019s Office)\nSponsors:\nCouncil Member Alison Alter, and Council Member Leslie Pool\n7.\nBylaws changes Joint Inclusion Committee (City Clerk\u2019s Office)\nSponsors:\nCouncil Member Alison Alter, and Council Member Leslie Pool\n8.\nAnnual Pension Update of the City's Three Retirement Systems (Austin Fire Fighters Relief and \nRetirement Fund, Austin Police Retirement System, and the City of Austin Employees' Retirement \nSystem) (Financial Services Department)\nSponsors:\nCouncil Member Alison Alter, and Council Member Leslie Pool\nExecutive Session\n9.\nUpdate on security audit related to information security management in the City (Security Audit - \nSections 551.076 and 551.089 of the Government Code) (Information Security Office and \nCommunications Technology Management Office).\nSponsors:\nCouncil Member Kathie Tovo, and Council Member Jimmy Flannigan\nFuture Items\n10.\nIdentify items to be discussed at future meetings.\nADJOURN\nFor assistance, please call 512-974-2210 or TTY users route through 711. \nThe City of Austin is committed to compliance with the Americans with Disabilities Act.\nReasonable modifications and equal access to communications will be provided upon request.\n",
+  "title_source": "gemini-1.5-flash"
 }
