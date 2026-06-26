@@ -1,6 +1,6 @@
 {
   "meeting_id": "20220510-dis",
-  "title": "May 10, 2022 Austin City Council Discussion",
+  "title": "ACL Festival's Economic Impact to be Reviewed",
   "meeting_type": "Austin City Council Discussion",
   "date": "2022-05-10",
   "year": 2022,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=382646",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **ACL Festival Economic Impact**: City officials will present findings on the 2021 financial contributions of the Austin City Limits Festival.\n*   **Informational Session**: This gathering is specifically a press conference for discussion and information sharing.\n*   **No Decisions Made**: Attendees should note that no formal policy decisions or actions will be taken during this meeting.",
   "topics": [],
-  "transcript": " \nTHE AUSTIN CITY COUNCIL WILL MEET ON \nTUESDAY, MAY 10, 2022, AT 10:00 AM, AT GEORGIAN \nACRES NEIGHBORHOOD PARK, 500 E POWELL LN, \nAUSTIN, TX 78753 \n \n \n \nPress Conference \n \n10:00 AM \nAttend a press conference to discuss the 2021 economic impact of the Austin City Limits \n(ACL) Festival on the City of Austin. \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n"
+  "transcript": " \nTHE AUSTIN CITY COUNCIL WILL MEET ON \nTUESDAY, MAY 10, 2022, AT 10:00 AM, AT GEORGIAN \nACRES NEIGHBORHOOD PARK, 500 E POWELL LN, \nAUSTIN, TX 78753 \n \n \n \nPress Conference \n \n10:00 AM \nAttend a press conference to discuss the 2021 economic impact of the Austin City Limits \n(ACL) Festival on the City of Austin. \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n",
+  "title_source": "gemini-1.5-flash"
 }

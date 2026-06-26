@@ -1,6 +1,6 @@
 {
   "meeting_id": "20230503-dis",
-  "title": "May 3, 2023 Austin City Council Discussion",
+  "title": "Waterloo Greenway Discussion Takes Center Stage",
   "meeting_type": "Austin City Council Discussion",
   "date": "2023-05-03",
   "year": 2023,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=407674",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   The primary focus of the meeting is a discussion regarding the upcoming Waterloo Greenway Groundbreaking Ceremony.\n*   City officials may be present to discuss the significant park project.\n*   No official policy decisions or actions are scheduled to be taken at this meeting.",
   "topics": [],
-  "transcript": " \nTHE AUSTIN CITY COUNCIL WILL MEET ON \nWEDNESDAY, May 3, 2023 AT 10:00 AM, at at 74 Trinity \nStreet. \n \n \nCouncil \nDiscussion \n \n1. Waterloo Greenway Groundbreaking Ceremony  \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n \n"
+  "transcript": " \nTHE AUSTIN CITY COUNCIL WILL MEET ON \nWEDNESDAY, May 3, 2023 AT 10:00 AM, at at 74 Trinity \nStreet. \n \n \nCouncil \nDiscussion \n \n1. Waterloo Greenway Groundbreaking Ceremony  \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n \n",
+  "title_source": "gemini-1.5-flash"
 }

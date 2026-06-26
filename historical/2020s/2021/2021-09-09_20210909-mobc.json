@@ -1,6 +1,6 @@
 {
   "meeting_id": "20210909-mobc",
-  "title": "September 9, 2021 Mobility Committee Meeting",
+  "title": "Austin's Future Meeting Plans",
   "meeting_type": "Mobility Committee Meeting",
   "date": "2021-09-09",
   "year": 2021,
@@ -9,8 +9,9 @@
   "video_url": "http://austintx.swagit.com/play/136691/0/",
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=366616",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   The meeting primarily focused on identifying potential topics for future discussions.\n*   Members worked to determine upcoming agenda items for subsequent meetings.\n*   The session concluded after this planning and agenda-setting discussion.",
   "topics": [],
-  "transcript": "Future Items\n6.\nIdentify items to discuss at future meetings (5 minutes).\nADJOURN\nFor assistance, please call 512-974-2210 or TTY users route through 711. \nThe City of Austin is committed to compliance with the Americans with Disabilities Act.\nReasonable modifications and equal access to communications will be provided upon request.\n"
+  "transcript": "Future Items\n6.\nIdentify items to discuss at future meetings (5 minutes).\nADJOURN\nFor assistance, please call 512-974-2210 or TTY users route through 711. \nThe City of Austin is committed to compliance with the Americans with Disabilities Act.\nReasonable modifications and equal access to communications will be provided upon request.\n",
+  "title_source": "gemini-1.5-flash"
 }

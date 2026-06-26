@@ -1,6 +1,6 @@
 {
   "meeting_id": "20220721-dis1",
-  "title": "July 21, 2022 Austin City Council 08:30 AM - Discussion",
+  "title": "Austin Housing Bond Rally Kicks Off",
   "meeting_type": "Austin City Council 08:30 AM - Discussion",
   "date": "2022-07-21",
   "year": 2022,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=387721",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   City leaders are attending a kickoff rally for a 2022 affordable housing bond campaign.\n*   The event aims to build community support for future funding dedicated to increasing affordable housing options.\n*   No official council votes or policy decisions will be made at this gathering.",
   "topics": [],
-  "transcript": " \nTHE AUSTIN CITY COUNCIL WILL MEET ON THURSDAY, \nJULY 21, 2022, AT 8:30 AM, at the Learning Center at the Jordan \nat Mueller, 2724 Philomena St, Austin, TX 78723 \n \nRally \n \n8:30 - Attend a 2022 affordable housing bond campaign kickoff rally. \n \n \n \n \n \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n \n"
+  "transcript": " \nTHE AUSTIN CITY COUNCIL WILL MEET ON THURSDAY, \nJULY 21, 2022, AT 8:30 AM, at the Learning Center at the Jordan \nat Mueller, 2724 Philomena St, Austin, TX 78723 \n \nRally \n \n8:30 - Attend a 2022 affordable housing bond campaign kickoff rally. \n \n \n \n \n \n \n \n \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n \n",
+  "title_source": "gemini-1.5-flash"
 }

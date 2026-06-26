@@ -1,6 +1,6 @@
 {
   "meeting_id": "20220516-dis",
-  "title": "May 16, 2022 Austin City Council Discussion",
+  "title": "South Austin Development: VMU & Project Connect",
   "meeting_type": "Austin City Council Discussion",
   "date": "2022-05-16",
   "year": 2022,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=383224",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   **Future of South Austin Growth:** Attend a virtual meeting to discuss development plans along major corridors.\n*   **Key Topics:** Learn about the Vertical Mixed Use (VMU) program, compatibility guidelines, and Project Connect initiatives.\n*   **Informational Session:** This is a community meeting to share information; no official policy decisions will be made.",
   "topics": [],
-  "transcript": " \n \nSOUTH AUSTIN VMU COMMUNITY MEETING  \nMONDAY, MAY 16, 2022, AT 6:30 PM \n \nREGISTER USING THE FOLLOWING LINK: \nhttps://forms.gle/pAiWbrv5fqHm3ipq7 \n \n6:30 PM \nAttend a virtual information session regarding the Vertical Mixed Use program, \nCompatibility, and Project Connect along designated corridors in Council Districts 2, 3, 5, \nand 9. \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n"
+  "transcript": " \n \nSOUTH AUSTIN VMU COMMUNITY MEETING  \nMONDAY, MAY 16, 2022, AT 6:30 PM \n \nREGISTER USING THE FOLLOWING LINK: \nhttps://forms.gle/pAiWbrv5fqHm3ipq7 \n \n6:30 PM \nAttend a virtual information session regarding the Vertical Mixed Use program, \nCompatibility, and Project Connect along designated corridors in Council Districts 2, 3, 5, \nand 9. \n \nA quorum of Council members may be present. No action will be taken. \n \nThe City of Austin is committed to compliance with the Americans with Disabilities Act. \nReasonable modifications and equal access to communications will be provided upon request. \nFor assistance, please call 512-974-2210 or TTY users route through 711. \n \n",
+  "title_source": "gemini-1.5-flash"
 }

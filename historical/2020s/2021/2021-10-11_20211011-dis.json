@@ -1,6 +1,6 @@
 {
   "meeting_id": "20211011-dis",
-  "title": "October 11, 2021 Austin City Council Discussion",
+  "title": "Austin Eyes Rainbow Crosswalk Project",
   "meeting_type": "Austin City Council Discussion",
   "date": "2021-10-11",
   "year": 2021,
@@ -9,8 +9,9 @@
   "video_url": null,
   "actions_url": null,
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=369044",
-  "summary_source": null,
-  "summary": null,
+  "summary_source": "gemini-1.5-flash",
+  "summary": "*   Discussion held regarding a proposed Rainbow Crosswalk installation.\n*   The planned location is at Colorado and Bettie Naylor (Fourth) Streets.\n*   No final action or policy decisions were made during this meeting.",
   "topics": [],
-  "transcript": "r.42*\nC\n,/\n4222\nTHE AUSTIN CITY COUNCIL WILL MEET ON\nMONDAY, OCTOBER 11, 2021 AT 9:00 AM, AT 400\nCOLORADO STREET AUSTIN, TX 78701\nCouncil\nDiscussion\n1.\nRainbow Crosswalk installation at the intersection of Colorado and Bettie Naylor (Fourth) Streets.\nA quor:im ofCouncil members may be present. No action will be taken.\n1&\nThe City ofA:{stin is committed to compliance with the Americans with Disabilities Act.\nReasonable modifications and equal access to communications 1%'11/ be provided itpon recitiest.\nCg\nFor assistance, please call 512-974-2210 or TTY users route through 711.\n"
+  "transcript": "r.42*\nC\n,/\n4222\nTHE AUSTIN CITY COUNCIL WILL MEET ON\nMONDAY, OCTOBER 11, 2021 AT 9:00 AM, AT 400\nCOLORADO STREET AUSTIN, TX 78701\nCouncil\nDiscussion\n1.\nRainbow Crosswalk installation at the intersection of Colorado and Bettie Naylor (Fourth) Streets.\nA quor:im ofCouncil members may be present. No action will be taken.\n1&\nThe City ofA:{stin is committed to compliance with the Americans with Disabilities Act.\nReasonable modifications and equal access to communications 1%'11/ be provided itpon recitiest.\nCg\nFor assistance, please call 512-974-2210 or TTY users route through 711.\n",
+  "title_source": "gemini-1.5-flash"
 }
