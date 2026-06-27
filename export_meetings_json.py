@@ -28,6 +28,26 @@ def write_meeting_json(row):
                         title = title[6:].strip()
                     break
 
+        transcript = row['transcript_text']
+
+        # PRESERVE EXISTING GOOD DATA
+        # If the JSON file already exists on disk, we should not overwrite any manually corrected
+        # titles or transcripts with empty or inferred data from the database.
+        if path.exists():
+            try:
+                with open(path, 'r', encoding='utf-8') as f:
+                    existing_data = json.load(f)
+                
+                # Preserve title if the existing one is good (doesn't start with "Here's a summary")
+                if existing_data.get('title') and not existing_data['title'].startswith("Here's a summary"):
+                    title = existing_data['title']
+                
+                # Preserve transcript if it exists
+                if existing_data.get('transcript'):
+                    transcript = existing_data['transcript']
+            except Exception as e:
+                print(f"Warning: could not read existing {path}: {e}")
+
         data = {
             'meeting_id': meeting_id,
             'title': title,
@@ -42,7 +62,7 @@ def write_meeting_json(row):
             'summary_source': 'gemini-2.5-flash',
             'summary': summary,
             'topics': [], # We don't have topics extraction natively yet in DB
-            'transcript': row['transcript_text'],
+            'transcript': transcript,
         }
 
         with open(path, 'w', encoding='utf-8') as f:
