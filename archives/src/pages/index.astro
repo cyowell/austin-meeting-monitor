@@ -102,7 +102,7 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
               day: 'numeric',
             });
 
-            const rawSearchText = `${meeting.title || ''} ${meeting.summary || ''} ${meeting.meeting_type || ''} ${(meeting.transcript || '').substring(0, 1000)} ${formattedDate}`.toLowerCase();
+            const rawSearchText = `${meeting.title || ''} ${meeting.summary || ''} ${meeting.meeting_type || ''} ${formattedDate}`.toLowerCase();
             const searchText = rawSearchText.replace(/"/g, '&quot;');
 
             const summaryPattern = /^Here's.*?meeting.*?:\s*/is;
