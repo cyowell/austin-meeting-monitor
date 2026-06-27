@@ -112,13 +112,15 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
 
             return (
               <a href={`/archives/meeting/${meeting.meeting_id}`} class="glass-card meeting-card" target="_blank" rel="noopener noreferrer" data-year={meeting.year} data-decade={meeting.decade} data-search={searchText} style="display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 1.5rem;">
-                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
-                  <span style="font-size: 1rem; font-weight: 600; color: var(--color-primary-base); line-height: 1.3; flex: 1; min-width: 0;">
-                    {meeting.title.length > 65 ? meeting.title.slice(0, 65) + '…' : meeting.title}
+                <span style="font-size: 1rem; font-weight: 600; color: var(--color-primary-base); line-height: 1.3; margin-bottom: 0.5rem; display: block;">
+                  {meeting.title.length > 65 ? meeting.title.slice(0, 65) + '…' : meeting.title}
+                </span>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.85rem;">
+                  <span class="badge" style="font-size: 0.75rem;" title={meeting.meeting_type}>
+                    {meeting.meeting_type && meeting.meeting_type.length > 30 ? meeting.meeting_type.slice(0, 30) + '…' : meeting.meeting_type}
                   </span>
-                  <span class="badge" style="font-size: 0.75rem; flex-shrink: 0;">{meeting.meeting_type}</span>
+                  <span style="font-size: 0.75rem; font-weight: 500; color: black;">{formattedDate}</span>
                 </div>
-                <span style="font-size: 0.75rem; font-weight: 500; color: black; margin-bottom: 0.85rem;">{formattedDate}</span>
                 <p data-summary style="font-size: 0.9rem; color: var(--color-text-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: auto;">
                   {cleanSummary}
                 </p>
