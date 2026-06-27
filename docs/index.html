@@ -233,10 +233,6 @@
         </div>
 
         <div class="controls">
-            <div class="search-wrap">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                <input type="text" id="search-input" placeholder="Search by keyword — housing, budget, zoning..." oninput="applyFilters()">
-            </div>
             <div class="filter-row" id="filter-row">
                 <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">19</span></button>
 <button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">7</span></button>
@@ -1115,7 +1111,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: June 27, 2026 at 05:33 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: June 27, 2026 at 06:32 PM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
@@ -1174,10 +1170,9 @@
             applyFilters();
         }
         function applyFilters() {
-            const q = document.getElementById('search-input').value.toLowerCase().trim();
             let visible = 0;
             document.querySelectorAll('.meeting-card').forEach(card => {
-                const show = (activeFilter === 'all' || card.dataset.type === activeFilter) && (!q || card.textContent.toLowerCase().includes(q));
+                const show = activeFilter === 'all' || card.dataset.type === activeFilter;
                 card.classList.toggle('hidden', !show);
                 if (show) visible++;
             });

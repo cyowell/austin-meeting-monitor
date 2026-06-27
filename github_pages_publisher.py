@@ -293,6 +293,11 @@ class GitHubPagesPublisher:
 
         total = len(meetings)
         n_upcoming = len(upcoming)
+        import pathlib
+        base_path = pathlib.Path(self.db_path).parent
+        total_archived = len(list(base_path.joinpath('historical').rglob('*.json'))) + len(list(base_path.joinpath('real-time').rglob('*.json')))
+        if total_archived == 0:
+            total_archived = len(recent)
         n_recent = len(recent)
         latest_date = self.format_date(recent[0]['date'])['short'] if recent else ('N/A')
 
@@ -549,8 +554,8 @@ class GitHubPagesPublisher:
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
-                <div class="stat-number">{n_recent}</div>
-                <div class="stat-label">Completed</div>
+                <div class="stat-number">{total_archived:,}</div>
+                <div class="stat-label">Archived</div>
             </div>
             <div class="stat">
                 <div class="stat-number">{latest_date}</div>
@@ -559,10 +564,6 @@ class GitHubPagesPublisher:
         </div>
 
         <div class="controls">
-            <div class="search-wrap">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                <input type="text" id="search-input" placeholder="Search by keyword — housing, budget, zoning..." oninput="applyFilters()">
-            </div>
             <div class="filter-row" id="filter-row">
                 {filter_btns}
             </div>
@@ -664,10 +665,9 @@ class GitHubPagesPublisher:
             applyFilters();
         }}
         function applyFilters() {{
-            const q = document.getElementById('search-input').value.toLowerCase().trim();
             let visible = 0;
             document.querySelectorAll('.meeting-card').forEach(card => {{
-                const show = (activeFilter === 'all' || card.dataset.type === activeFilter) && (!q || card.textContent.toLowerCase().includes(q));
+                const show = activeFilter === 'all' || card.dataset.type === activeFilter;
                 card.classList.toggle('hidden', !show);
                 if (show) visible++;
             }});
