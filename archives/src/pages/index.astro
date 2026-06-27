@@ -93,8 +93,10 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
       </div>
 
       <div id="meetings-grid" style="display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+        {/* We only render the first 15 meetings on the server to prevent massive HTML bloat.
+            The client-side script will fetch the rest via the API and render them dynamically. */}
         {meetings.length > 0 ? (
-          meetings.map((meeting) => {
+          meetings.slice(0, 15).map((meeting) => {
             const formattedDate = new Date(meeting.date).toLocaleDateString('en-US', {
               timeZone: 'UTC',
               year: 'numeric',
@@ -102,16 +104,13 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
               day: 'numeric',
             });
 
-            const rawSearchText = `${meeting.title || ''} ${meeting.summary || ''} ${meeting.meeting_type || ''} ${formattedDate}`.toLowerCase();
-            const searchText = rawSearchText.replace(/"/g, '&quot;');
-
             const summaryPattern = /^Here's.*?meeting.*?:\s*/is;
             const cleanSummary = meeting.summary
               ? meeting.summary.replace(summaryPattern, '').replace(/[#*]/g, '').substring(0, 150) + '...'
               : 'No summary available.';
 
             return (
-              <a href={`/archives/meeting/${meeting.meeting_id}`} class="glass-card meeting-card" target="_blank" rel="noopener noreferrer" data-year={meeting.year} data-decade={meeting.decade} data-search={searchText} style="display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 1.5rem;">
+              <a href={`/archives/meeting/${meeting.meeting_id}`} class="glass-card meeting-card" target="_blank" rel="noopener noreferrer" style="display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 1.5rem;">
                 <span style="font-size: 1rem; font-weight: 600; color: var(--color-primary-base); line-height: 1.3; margin-bottom: 0.5rem; display: block;">
                   {meeting.title.length > 65 ? meeting.title.slice(0, 65) + '…' : meeting.title}
                 </span>
@@ -133,11 +132,15 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
           </p>
         )}
       </div>
+      
+      <div id="loading-spinner" style="display: none; text-align: center; padding: 2rem; color: var(--color-text-muted);">
+        Loading historical archives...
+      </div>
     </div>
   </div>
 
   <script is:inline>
-    function initArchiveSearch() {
+    async function initArchiveSearch() {
       const searchInput = document.getElementById('meeting-search');
       const yearSelect = document.getElementById('year-select');
       const resetBtn = document.querySelector('[data-reset-filter]');
@@ -145,50 +148,72 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
       const resultsText = document.getElementById('results-text');
       const grid = document.getElementById('meetings-grid');
       const sidebarDetails = document.getElementById('sidebar-details');
+      const loadingSpinner = document.getElementById('loading-spinner');
 
       if (sidebarDetails && window.innerWidth >= 768) sidebarDetails.open = true;
       if (!searchInput || !grid) return;
       if (searchInput.dataset.initialized) return;
       searchInput.dataset.initialized = 'true';
 
-      // ── Collect all card data from DOM, then remove cards from DOM ──
-      const allCards = Array.from(document.querySelectorAll('.meeting-card'));
-      const cardData = allCards.map(card => ({
-        el: card,
-        year: card.getAttribute('data-year') || '',
-        searchText: card.getAttribute('data-search') || '',
-        summaryEl: card.querySelector('[data-summary]'),
-        originalSummary: card.querySelector('[data-summary]')?.innerHTML || '',
-      }));
-
-      // Remove all cards from DOM — we'll re-insert as needed
-      allCards.forEach(c => c.remove());
-
       let currentSearch = '';
       let currentYear = 'all';
       let debounceTimer;
       let renderTimer;
-
-      const INITIAL_BATCH = 10;
+      
+      const INITIAL_BATCH = 15;
       const LAZY_BATCH = 40;
+      let allMeetingData = [];
+      let isDataLoaded = false;
+
+      // ── Fetch JSON API ──
+      try {
+        if (loadingSpinner && !isDataLoaded) loadingSpinner.style.display = 'block';
+        
+        const response = await fetch('/archives/api/meetings.json');
+        if (!response.ok) throw new Error('Failed to fetch meetings');
+        
+        const data = await response.json();
+        
+        // Add searchable text to each meeting object
+        allMeetingData = data.map(m => {
+          const rawSearchText = `${m.title || ''} ${m.rawSummary || ''} ${m.type || ''} ${m.formattedDate || ''}`.toLowerCase();
+          m.searchText = rawSearchText;
+          return m;
+        });
+        
+        isDataLoaded = true;
+        if (loadingSpinner) loadingSpinner.style.display = 'none';
+        
+        // Only render if a filter was applied before loading finished
+        if (currentSearch !== '' || currentYear !== 'all') {
+          renderAll();
+        }
+      } catch (err) {
+        console.error("Error loading archive data:", err);
+        if (loadingSpinner) {
+          loadingSpinner.textContent = "Error loading archives. Please try refreshing.";
+        }
+      }
 
       // ── Filter logic ──
-      function getFilteredCards() {
-        return cardData.filter(({ year, searchText }) => {
-          const matchYear = currentYear === 'all' || year === currentYear;
-          const matchSearch = currentSearch === '' || searchText.includes(currentSearch);
+      function getFilteredMeetings() {
+        if (!isDataLoaded) return [];
+        return allMeetingData.filter(m => {
+          const matchYear = currentYear === 'all' || m.year.toString() === currentYear.toString();
+          const matchSearch = currentSearch === '' || m.searchText.includes(currentSearch);
           return matchYear && matchSearch;
         });
       }
 
       // ── Snippet builder ──
-      function buildSnippet(searchText, query) {
-        if (!query) return null;
+      function buildSnippet(rawSummary, query) {
+        if (!query || !rawSummary) return null;
 
-        const words = searchText.split(/\s+/);
+        const cleanSummary = rawSummary.replace(/^Here's.*?meeting.*?:\s*/is, '').replace(/[#*]/g, '');
+        const words = cleanSummary.split(/\s+/);
+        const lowerWords = cleanSummary.toLowerCase().split(/\s+/);
         
-        // Find the first word that contains the query
-        const matchWordIdx = words.findIndex(w => w.includes(query));
+        const matchWordIdx = lowerWords.findIndex(w => w.includes(query));
         if (matchWordIdx === -1) return null;
 
         const start = Math.max(0, matchWordIdx - 10);
@@ -202,32 +227,43 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
 
       // ── Render a batch of cards into the grid ──
       function renderCards(filtered, startIdx, count) {
-        const frag = document.createDocumentFragment();
+        let html = '';
         const slice = filtered.slice(startIdx, startIdx + count);
 
-        slice.forEach(({ el, summaryEl, originalSummary, searchText }) => {
-          // Restore or replace summary
-          if (summaryEl) {
-            if (currentSearch) {
-              const snippet = buildSnippet(searchText, currentSearch);
-              summaryEl.innerHTML = snippet || originalSummary;
-            } else {
-              summaryEl.innerHTML = originalSummary;
-            }
-          }
-          el.style.display = 'flex';
-          frag.appendChild(el);
-        });
+        slice.forEach(m => {
+          const snippet = currentSearch ? (buildSnippet(m.rawSummary, currentSearch) || m.summary) : m.summary;
+          const displayTitle = m.title.length > 65 ? m.title.slice(0, 65) + '…' : m.title;
+          const displayType = m.type && m.type.length > 30 ? m.type.slice(0, 30) + '…' : m.type;
 
-        grid.appendChild(frag);
+          html += `
+            <a href="/archives/meeting/${m.id}" class="glass-card meeting-card" target="_blank" rel="noopener noreferrer" style="display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 1.5rem;">
+              <span style="font-size: 1rem; font-weight: 600; color: var(--color-primary-base); line-height: 1.3; margin-bottom: 0.5rem; display: block;">
+                ${displayTitle}
+              </span>
+              <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.85rem;">
+                <span class="badge" style="font-size: 0.75rem;" title="${m.type || ''}">
+                  ${displayType}
+                </span>
+                <span style="font-size: 0.75rem; font-weight: 500; color: black;">${m.formattedDate}</span>
+              </div>
+              <p data-summary style="font-size: 0.9rem; color: var(--color-text-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: auto;">
+                ${snippet}
+              </p>
+            </a>
+          `;
+        });
+        
+        // Append HTML to grid
+        grid.insertAdjacentHTML('beforeend', html);
       }
 
       // ── Main render: clear grid, show first batch, lazy-load rest ──
       function renderAll() {
-        // Clear grid
-        while (grid.firstChild) grid.removeChild(grid.firstChild);
+        if (!isDataLoaded) return;
+        
+        grid.innerHTML = ''; // Clear DOM
 
-        const filtered = getFilteredCards();
+        const filtered = getFilteredMeetings();
         const total = filtered.length;
 
         if (resultsText) {
@@ -239,10 +275,8 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
           return;
         }
 
-        // Render first 10 immediately
         renderCards(filtered, 0, INITIAL_BATCH);
 
-        // Lazy-load the rest after a short delay so first paint is fast
         if (total > INITIAL_BATCH) {
           clearTimeout(renderTimer);
           renderTimer = setTimeout(() => {
@@ -252,10 +286,9 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
           }, 200);
         }
 
-        // Sync UI controls
         if (yearSelect) yearSelect.value = currentYear;
         yearBtns.forEach(btn => {
-          const isActive = btn.getAttribute('data-filter-year') === currentYear;
+          const isActive = btn.getAttribute('data-filter-year') === currentYear.toString();
           btn.classList.toggle('active', isActive);
           if (isActive) btn.closest('details')?.setAttribute('open', '');
         });
@@ -291,9 +324,6 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
           renderAll();
         });
       });
-
-      // Initial render
-      renderAll();
     }
 
     initArchiveSearch();
