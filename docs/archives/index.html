@@ -20,7 +20,9 @@ Browse historical and recent Austin City Council meetings, complete with AI-gene
 
    The Austin Housing Finance Corporation (AHFC) will hold a meeting focused on a ... </p> </a> </div> <div id="loading-spinner" style="display: none; text-align: center; padding: 2rem; color: var(--color-text-muted);">
 Loading historical archives...
-</div> </div> </div> <script>
+</div> <div style="text-align: center; margin-top: 2rem; margin-bottom: 3rem;"> <button id="load-more-btn" class="glass-btn" style="display: none; padding: 0.8rem 2rem; font-weight: 600; cursor: pointer; border-radius: var(--radius-full); background: var(--color-primary-light); color: var(--color-primary-dark); border: 1px solid rgba(0,0,0,0.1); transition: all 0.2s ease;">
+Load More
+</button> </div> </div> </div> <script>
     async function initArchiveSearch() {
       const searchInput = document.getElementById('meeting-search');
       const yearSelect = document.getElementById('year-select');
@@ -30,6 +32,7 @@ Loading historical archives...
       const grid = document.getElementById('meetings-grid');
       const sidebarDetails = document.getElementById('sidebar-details');
       const loadingSpinner = document.getElementById('loading-spinner');
+      const loadMoreBtn = document.getElementById('load-more-btn');
 
       if (sidebarDetails && window.innerWidth >= 768) sidebarDetails.open = true;
       if (!searchInput || !grid) return;
@@ -39,12 +42,13 @@ Loading historical archives...
       let currentSearch = '';
       let currentYear = 'all';
       let debounceTimer;
-      let renderTimer;
       
       const INITIAL_BATCH = 15;
-      const LAZY_BATCH = 40;
+      const LAZY_BATCH = 30;
       let allMeetingData = [];
       let isDataLoaded = false;
+      let currentRenderIndex = 0;
+      let currentFilteredData = [];
 
       // ── Fetch JSON API ──
       try {
@@ -65,10 +69,8 @@ Loading historical archives...
         isDataLoaded = true;
         if (loadingSpinner) loadingSpinner.style.display = 'none';
         
-        // Only render if a filter was applied before loading finished
-        if (currentSearch !== '' || currentYear !== 'all') {
-          renderAll();
-        }
+        // Re-render since data is now loaded
+        renderAll();
       } catch (err) {
         console.error("Error loading archive data:", err);
         if (loadingSpinner) {
@@ -107,9 +109,9 @@ Loading historical archives...
       }
 
       // ── Render a batch of cards into the grid ──
-      function renderCards(filtered, startIdx, count) {
+      function renderCards(startIdx, count) {
         let html = '';
-        const slice = filtered.slice(startIdx, startIdx + count);
+        const slice = currentFilteredData.slice(startIdx, startIdx + count);
 
         slice.forEach(m => {
           const snippet = currentSearch ? (buildSnippet(m.rawSummary, currentSearch) || m.summary) : m.summary;
@@ -136,16 +138,22 @@ Loading historical archives...
         
         // Append HTML to grid
         grid.insertAdjacentHTML('beforeend', html);
+        currentRenderIndex += slice.length;
+
+        // Toggle Load More Button
+        if (loadMoreBtn) {
+          loadMoreBtn.style.display = currentRenderIndex < currentFilteredData.length ? 'inline-block' : 'none';
+        }
       }
 
-      // ── Main render: clear grid, show first batch, lazy-load rest ──
+      // ── Main render: clear grid, show first batch ──
       function renderAll() {
         if (!isDataLoaded) return;
         
         grid.innerHTML = ''; // Clear DOM
-
-        const filtered = getFilteredMeetings();
-        const total = filtered.length;
+        currentRenderIndex = 0;
+        currentFilteredData = getFilteredMeetings();
+        const total = currentFilteredData.length;
 
         if (resultsText) {
           resultsText.textContent = `${total} record${total !== 1 ? 's' : ''} found`;
@@ -153,19 +161,11 @@ Loading historical archives...
 
         if (total === 0) {
           grid.innerHTML = `<p style="grid-column:1/-1;text-align:center;color:var(--color-text-muted);padding:3rem;background:var(--color-bg-surface);border-radius:var(--radius-md);">No meetings found.</p>`;
+          if (loadMoreBtn) loadMoreBtn.style.display = 'none';
           return;
         }
 
-        renderCards(filtered, 0, INITIAL_BATCH);
-
-        if (total > INITIAL_BATCH) {
-          clearTimeout(renderTimer);
-          renderTimer = setTimeout(() => {
-            for (let i = INITIAL_BATCH; i < total; i += LAZY_BATCH) {
-              renderCards(filtered, i, LAZY_BATCH);
-            }
-          }, 200);
-        }
+        renderCards(0, INITIAL_BATCH);
 
         if (yearSelect) yearSelect.value = currentYear;
         yearBtns.forEach(btn => {
@@ -179,6 +179,11 @@ Loading historical archives...
       }
 
       // ── Event listeners ──
+      if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', () => {
+          renderCards(currentRenderIndex, LAZY_BATCH);
+        });
+      }
       searchInput.addEventListener('input', (e) => {
         clearTimeout(debounceTimer);
         debounceTimer = setTimeout(() => {
