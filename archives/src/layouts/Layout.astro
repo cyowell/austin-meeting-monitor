@@ -25,8 +25,25 @@ const canonicalURL = new URL(Astro.url.pathname, 'https://austincouncil.app');
 	</head>
 	<body>
 		<header class="site-header">
-			<h1 class="site-title"><a href="https://austincouncil.app" style="color: inherit; text-decoration: none;">🏛️ Austin City Council Meeting Monitor</a></h1>
-			<p class="site-subtitle">Automated AI-powered summaries of Austin City Council meetings</p>
+			<div class="header-inner">
+				<div class="header-content">
+					<h1 class="site-title"><a href="https://austincouncil.app" style="color: inherit; text-decoration: none;">Austin City Council Meeting Archives</a></h1>
+					<p class="site-subtitle">AI-generated summaries and full transcripts</p>
+				</div>
+				<div class="mobile-menu-container">
+					<input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
+					<label for="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</label>
+					<nav class="mobile-menu-nav">
+						<a href="https://austincouncil.app/">Home</a>
+						<a href="https://austincouncil.app/about">About</a>
+						<a href="https://austincouncil.app/archives/">Archives</a>
+					</nav>
+				</div>
+			</div>
 		</header>
 		<main class="main-container">
 			<slot />

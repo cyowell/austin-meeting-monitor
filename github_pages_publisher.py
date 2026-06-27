@@ -358,6 +358,20 @@ class GitHubPagesPublisher:
         .btn-rss{{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:rgba(255,255,255,.15);color:white;text-decoration:none;border-radius:8px;font-size:.82em;font-weight:600;border:1px solid rgba(255,255,255,.25);transition:background .15s;margin-top:10px}}
         .btn-rss:hover{{background:rgba(255,255,255,.25)}}
 
+        /* Mobile Menu */
+        .mobile-menu-container{{position:absolute;top:24px;right:24px;z-index:100;text-align:right}}
+        .mobile-menu-toggle{{display:none}}
+        .mobile-menu-btn{{display:flex;flex-direction:column;justify-content:space-around;width:28px;height:22px;cursor:pointer;z-index:101;position:relative;margin-left:auto}}
+        .mobile-menu-btn span{{display:block;width:100%;height:2px;background-color:white;border-radius:2px;transition:all .3s ease-in-out}}
+        .mobile-menu-nav{{position:absolute;top:32px;right:0;background:white;border-radius:8px;box-shadow:0 12px 32px rgba(79,70,229,.15);padding:8px 0;min-width:150px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:all .3s ease;display:flex;flex-direction:column;text-align:left}}
+        .mobile-menu-nav a{{color:#1a1a2e;padding:12px 24px;font-weight:600;font-size:.95em;transition:background .2s,color .2s;text-decoration:none}}
+        .mobile-menu-nav a:hover{{background:#f0f2f8;color:#4f46e5}}
+        .mobile-menu-toggle:checked ~ .mobile-menu-nav{{opacity:1;visibility:visible;transform:translateY(0)}}
+        .mobile-menu-toggle:checked ~ .mobile-menu-btn span:nth-child(1){{transform:translateY(10px) rotate(45deg)}}
+        .mobile-menu-toggle:checked ~ .mobile-menu-btn span:nth-child(2){{opacity:0}}
+        .mobile-menu-toggle:checked ~ .mobile-menu-btn span:nth-child(3){{transform:translateY(-10px) rotate(-45deg)}}
+
+
         /* ── Layout ── */
         .container{{max-width:900px;margin:0 auto;padding:28px 16px 80px}}
 
@@ -501,15 +515,21 @@ class GitHubPagesPublisher:
 </head>
 <body>
     <header>
+        <div class="mobile-menu-container">
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
+            <label for="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="mobile-menu-nav">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/archives/">Archives</a>
+            </nav>
+        </div>
         <h1>🏛️ Austin City Council Meeting Monitor</h1>
         <p>Automated AI-powered summaries of Austin City Council meetings</p>
-        <nav style="margin-top:10px;font-size:.83em;opacity:.8">
-            <a href="/about" style="color:white;text-decoration:none" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.8">About &amp; Methodology</a>
-            &nbsp;·&nbsp;
-            <a href="/about#journalists" style="color:white;text-decoration:none" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.8">For Journalists</a>
-            &nbsp;·&nbsp;
-            <a href="/archives/" style="color:white;text-decoration:none" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.8">Archives</a>
-        </nav>
         <div class="subscribe-box">
             <h3>📬 Never Miss a Meeting</h3>
             <p>Get email updates when new meetings are posted</p>
