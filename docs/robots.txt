@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://austincouncil.app/archives/sitemap-index.xml
