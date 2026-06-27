@@ -312,7 +312,7 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
         debounceTimer = setTimeout(() => {
           currentSearch = e.target.value.toLowerCase().trim();
           renderAll();
-        }, 300);
+        }, 1000); // 1 second debounce for better mobile performance
       });
 
       yearSelect?.addEventListener('change', (e) => {
