@@ -68,6 +68,7 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "🤖 Auto-update: $(date)"
+          git pull --rebase origin main || echo "Rebase failed, might need manual intervention"
           git push
         fi
     
