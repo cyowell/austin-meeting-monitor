@@ -529,8 +529,8 @@ class GitHubPagesPublisher:
             </label>
             <nav class="mobile-menu-nav">
                 <a href="/">Home</a>
-                <a href="/about">About</a>
                 <a href="/archives/">Archives</a>
+                <a href="/about">About</a>
             </nav>
         </div>
         <h1>🏛️ Austin City Council Meeting Monitor</h1>
