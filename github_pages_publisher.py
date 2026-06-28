@@ -394,11 +394,11 @@ class GitHubPagesPublisher:
         #search-input:focus{{border-color:#4f46e5}}
         #search-input::placeholder{{color:#9ca3af}}
         .filter-row{{display:flex;flex-wrap:wrap;gap:7px}}
-        .filter-btn{{padding:6px 13px;border:2px solid #e5e7eb;border-radius:20px;background:white;color:#6b7280;font-family:inherit;font-size:.81em;font-weight:600;cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:5px}}
+        .filter-btn{{padding:6px 13px;border:2px solid #e5e7eb;border-radius:20px;background:white;color:#4b5563;font-family:inherit;font-size:.81em;font-weight:600;cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:5px}}
         .filter-btn:hover{{border-color:#4f46e5;color:#4f46e5}}
         .filter-btn.active{{border-color:#4f46e5;background:#4f46e5;color:white}}
-        .filter-btn .badge{{background:rgba(255,255,255,.25);border-radius:10px;padding:1px 6px;font-size:.85em}}
-        .filter-btn:not(.active) .badge{{background:#f3f4f6;color:#4b5563}}
+        .filter-btn .badge{{background:#e5e7eb;border-radius:10px;padding:1px 6px;font-size:.85em;color:#374151}}
+        .filter-btn.active .badge{{background:rgba(255,255,255,.25);color:white}}
 
         /* ── Section Headers ── */
         .section-header{{display:flex;align-items:center;gap:12px;margin:32px 0 16px}}
@@ -423,7 +423,7 @@ class GitHubPagesPublisher:
         .meeting-header{{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:18px}}
         .meeting-date{{font-size:1.6em;font-weight:700;color:#4f46e5;line-height:1.1}}
         .meeting-card--recent .meeting-date{{color:#059669}}
-        .meeting-day{{color:#9ca3af;font-size:.84em;margin-top:4px}}
+        .meeting-day{{color:#6b7280;font-size:.84em;margin-top:4px}}
         .meeting-type{{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;padding:7px 15px;border-radius:20px;font-size:.8em;font-weight:600;white-space:nowrap}}
         .meeting-card--recent .meeting-type{{background:linear-gradient(135deg,#059669,#047857)}}
 
@@ -433,7 +433,7 @@ class GitHubPagesPublisher:
         .status-badge--completed{{background:#d1fae5;color:#065f46}}
 
         /* ── Summary ── */
-        .meeting-summary h3{{font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#9ca3af;margin-bottom:10px}}
+        .meeting-summary h3{{font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#6b7280;margin-bottom:10px}}
         .summary-content{{color:#374151;line-height:1.8}}
         .summary-content ul{{padding-left:20px}}
         .summary-content li{{margin-bottom:7px}}
@@ -449,10 +449,10 @@ class GitHubPagesPublisher:
         .meeting-link-secondary:hover{{background:#e5e7eb;color:#1a1a2e}}
         .meeting-link-video{{background:#dc2626;color:white}}
         .meeting-link-video:hover{{background:#b91c1c;transform:translateY(-1px);box-shadow:0 4px 12px rgba(220,38,38,.35)}}
-        .meeting-link-actions{{background:#059669;color:white}}
-        .meeting-link-actions:hover{{background:#047857;transform:translateY(-1px);box-shadow:0 4px 12px rgba(5,150,105,.35)}}
-        .meeting-link-transcript{{background:#0891b2;color:white}}
-        .meeting-link-transcript:hover{{background:#0e7490;transform:translateY(-1px);box-shadow:0 4px 12px rgba(8,145,178,.35)}}
+        .meeting-link-actions{{background:#047857;color:white}}
+        .meeting-link-actions:hover{{background:#065f46;transform:translateY(-1px);box-shadow:0 4px 12px rgba(5,150,105,.35)}}
+        .meeting-link-transcript{{background:#0e7490;color:white}}
+        .meeting-link-transcript:hover{{background:#155e75;transform:translateY(-1px);box-shadow:0 4px 12px rgba(8,145,178,.35)}}
         .meeting-links-spacer{{flex:1}}
         .btn-share-card{{display:inline-flex;align-items:center;gap:6px;padding:9px 15px;border-radius:8px;font-weight:600;font-size:.84em;text-decoration:none;transition:all .15s;background:#f0edff;color:#4f46e5;border:2px solid #ddd9ff;cursor:pointer;font-family:inherit}}
         .btn-share-card:hover{{background:#e0daff;border-color:#4f46e5;transform:translateY(-1px)}}
@@ -461,13 +461,13 @@ class GitHubPagesPublisher:
         .no-results,.no-meetings{{text-align:center;padding:60px 20px;color:#6b7280}}
         .no-results{{display:none}}
         .no-results h2,.no-meetings h2{{font-size:1.4em;margin-bottom:8px;color:#374151}}
-        .no-meetings-section{{text-align:center;padding:32px 20px;color:#9ca3af;font-size:.9em;background:white;border-radius:12px;border:2px dashed #e5e7eb}}
+        .no-meetings-section{{text-align:center;padding:32px 20px;color:#6b7280;font-size:.9em;background:white;border-radius:12px;border:2px dashed #e5e7eb}}
 
         /* ── Footer ── */
         footer{{background:white;padding:26px 30px;text-align:center;color:#6b7280;font-size:.86em;border-top:2px solid #f0f2f8}}
         footer p{{margin:5px 0}}
-        footer a{{color:#4f46e5;text-decoration:none}}
-        footer a:hover{{text-decoration:underline}}
+        footer a{{color:#4f46e5;text-decoration:underline}}
+        footer a:hover{{text-decoration:none}}
 
         /* ── FAB & Share ── */
         #back-to-top{{position:fixed;bottom:80px;right:26px;background:#4f46e5;color:white;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:19px;box-shadow:0 4px 16px rgba(79,70,229,.4);display:flex;align-items:center;justify-content:center;opacity:0;transform:translateY(10px);transition:opacity .25s,transform .25s;pointer-events:none}}
@@ -536,10 +536,10 @@ class GitHubPagesPublisher:
         <h1>🏛️ Austin City Council Meeting Monitor</h1>
         <p>Automated AI-powered summaries of Austin City Council meetings</p>
         <div class="subscribe-box">
-            <h3>📬 Never Miss a Meeting</h3>
+            <h2>📬 Never Miss a Meeting</h2>
             <p>Get email updates when new meetings are posted</p>
             <div class="subscribe-form">
-                <input type="email" id="sub-email" placeholder="your@email.com" autocomplete="email">
+                <input type="email" id="sub-email" aria-label="Email address" placeholder="your@email.com" autocomplete="email">
                 <button id="sub-btn" onclick="subscribe()">Subscribe</button>
             </div>
             <div class="subscribe-msg" id="sub-msg"></div>
@@ -547,7 +547,7 @@ class GitHubPagesPublisher:
         </div>
     </header>
 
-    <div class="container">
+    <main class="container">
         <div class="stats">
             <div class="stat">
                 <div class="stat-number">{n_upcoming}</div>
@@ -593,7 +593,7 @@ class GitHubPagesPublisher:
             <h2>🔍 No matching meetings</h2>
             <p>Try a different keyword or filter.</p>
         </div>
-    </div>
+    </main>
 
     <footer>
         <p><strong>About This Site</strong></p>
@@ -651,7 +651,7 @@ class GitHubPagesPublisher:
                 </button>
             </div>
             <div class="share-copy-row">
-                <input type="text" class="share-copy-input" id="share-copy-url" readonly>
+                <input type="text" class="share-copy-input" id="share-copy-url" readonly aria-label="Share URL">
                 <button class="share-copy-btn" id="share-copy-btn" onclick="copyShareLink()">Copy link</button>
             </div>
         </div>
