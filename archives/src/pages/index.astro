@@ -30,7 +30,7 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
 ---
 
 <Layout title="Meeting Archives">
-
+  <link rel="preload" href="/archives/api/meetings.json" as="fetch" crossorigin="anonymous" slot="head" />
 
   <div class="layout-with-sidebar">
     <aside class="sidebar-container">
@@ -150,7 +150,7 @@ const decades = Object.keys(decadesObj).sort((a, b) => parseInt(b) - parseInt(a)
       const loadingSpinner = document.getElementById('loading-spinner');
       const loadMoreBtn = document.getElementById('load-more-btn');
 
-      if (sidebarDetails && window.innerWidth >= 768) sidebarDetails.open = true;
+      if (sidebarDetails && window.matchMedia('(min-width: 768px)').matches) sidebarDetails.open = true;
       if (!searchInput || !grid) return;
       if (searchInput.dataset.initialized) return;
       searchInput.dataset.initialized = 'true';
