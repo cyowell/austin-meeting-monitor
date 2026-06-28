@@ -55,6 +55,10 @@ def main():
     if not api_key:
         logging.error("GEMINI_API_KEY environment variable is not set.")
         return
+        
+    # Strip any accidental quotes, newlines, or whitespace from the API key
+    api_key = api_key.replace('"', '').replace("'", "").replace("\\n", "").replace("\\r", "").strip()
+    api_key = ''.join(api_key.split()) # Remove any internal whitespace
 
     monitor = AustinCouncilMonitor(gemini_api_key=api_key)
     if not monitor.gemini_model:
@@ -99,20 +103,22 @@ def main():
                 continue
 
             # Check if we need to download/extract PDF transcript first
-            if not data.get('transcript') and data.get('pdf_url'):
-                logging.info(f"Downloading PDF for {data['meeting_id']}...")
-                pdf_path = f"temp_transcript_{data['meeting_id']}.pdf"
-                
-                if monitor.download_pdf(data['pdf_url'], pdf_path):
-                    logging.info(f"Extracting text for {data['meeting_id']}...")
-                    text = monitor.extract_text_from_pdf(pdf_path)
-                    if text:
-                        data['transcript'] = text
-                        needs_update = True
-                    try:
-                        os.remove(pdf_path)
-                    except Exception:
-                        pass
+            if not data.get('transcript'):
+                download_url = data.get('pdf_url') or data.get('actions_url') or data.get('agenda_url')
+                if download_url:
+                    logging.info(f"Downloading PDF for {data['meeting_id']} from {download_url}...")
+                    pdf_path = f"temp_transcript_{data['meeting_id']}.pdf"
+                    
+                    if monitor.download_pdf(download_url, pdf_path):
+                        logging.info(f"Extracting text for {data['meeting_id']}...")
+                        text = monitor.extract_text_from_pdf(pdf_path)
+                        if text:
+                            data['transcript'] = text
+                            needs_update = True
+                        try:
+                            os.remove(pdf_path)
+                        except Exception:
+                            pass
 
             transcript_text = data.get('transcript')
             if not transcript_text:

@@ -49,7 +49,11 @@ class AustinCouncilMonitor:
 
     def __init__(self, db_path='austin_meetings.db', gemini_api_key=None):
         self.db_path = db_path
-        self.gemini_api_key = gemini_api_key
+        if gemini_api_key:
+            clean_key = gemini_api_key.replace('"', '').replace("'", "").replace("\\n", "").replace("\\r", "").strip()
+            self.gemini_api_key = ''.join(clean_key.split())
+        else:
+            self.gemini_api_key = None
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Austin Council Monitor - Public Information Tool)'
