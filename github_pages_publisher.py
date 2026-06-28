@@ -345,7 +345,7 @@ class GitHubPagesPublisher:
         body{{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.6;color:#1a1a2e;background:#f0f2f8;min-height:100vh}}
 
         /* ── Header ── */
-        header{{background:linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);color:white;padding:48px 24px 40px;text-align:center;position:relative;overflow:hidden}}
+        header{{background:linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);color:white;padding:48px 24px 40px;text-align:center;position:relative}}
         header::before{{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff' fill-opacity='0.04'%3E%3Cpath d='M20 20h20v20H20zM0 0h20v20H0z'/%3E%3C/g%3E%3C/svg%3E")}}
         header h1{{font-size:2.3em;font-weight:700;letter-spacing:-.5px;margin-bottom:8px;position:relative}}
         header>p{{font-size:1em;opacity:.85;position:relative}}
