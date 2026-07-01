@@ -320,9 +320,9 @@ class GitHubPagesPublisher:
         if not upcoming_cards:
             upcoming_cards = '<div class="no-meetings-section"><p>No upcoming meetings scheduled. Check back soon.</p></div>'
 
-        # Build recent cards
+        # Build recent cards (capped at 10)
         recent_cards = ''
-        for m in recent:
+        for m in recent[:10]:
             recent_cards += self._build_recent_card(m)
         if not recent_cards:
             recent_cards = '<div class="no-meetings-section"><p>No completed meetings in the database yet.</p></div>'
@@ -587,6 +587,12 @@ class GitHubPagesPublisher:
         </div>
         <div id="recent-list">
             {recent_cards}
+            
+            <div style="text-align: center; margin-top: 32px; margin-bottom: 24px;">
+                <a href="/archives/" class="meeting-link meeting-link-primary" style="padding: 12px 24px; font-size: 1.05em; border-radius: 12px; display: inline-flex; align-items: center; gap: 8px;">
+                    📚 Search All Historical Archives
+                </a>
+            </div>
         </div>
 
         <div class="no-results" id="no-results">
