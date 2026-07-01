@@ -95,7 +95,11 @@ Scrape meeting links (pattern: /YYYYMMDD-type)<br>
 Download agenda PDF → Extract text<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br>
 &nbsp;&nbsp;&nbsp;&nbsp;▼<br>
-Google Gemini AI → Generate 3–5 bullet summary<br>
+Google Gemini AI → Generate 3–5 bullet agenda summary<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+&nbsp;&nbsp;&nbsp;&nbsp;▼<br>
+<strong>14-Day Post-Meeting Watch</strong><br>
+Poll for official transcript → Extract text → Generate outcome summary<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br>
 &nbsp;&nbsp;&nbsp;&nbsp;▼<br>
 Save to database → Email subscribers → Publish site
@@ -151,10 +155,24 @@ Save to database → Email subscribers → Publish site
             <ul>
                 <li><strong>May miss nuance:</strong> Complex policy items, amendments, and procedural votes may be oversimplified or omitted</li>
                 <li><strong>Not legally authoritative:</strong> For official minutes and records, always consult <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">austintexas.gov</a></li>
-                <li><strong>Agenda ≠ outcome:</strong> Summaries reflect what was <em>scheduled</em> for discussion — not necessarily what was decided</li>
+                <li><strong>Agenda ≠ outcome:</strong> Upcoming meeting summaries reflect what was <em>scheduled</em> for discussion. Only archived meetings containing official transcripts reflect actual outcomes and votes.</li>
                 <li><strong>PDF quality dependent:</strong> Poorly formatted or scanned PDFs may produce incomplete summaries</li>
-                <li><strong>No real-time updates:</strong> Meeting outcomes, votes, and amendments are not captured post-meeting</li>
             </ul>
+        </div>
+
+        <!-- Historical Archives -->
+        <div class="card">
+            <h2>📚 The Historical Archives</h2>
+            <p>In addition to real-time monitoring, this project hosts a searchable database of nearly 10,000 historical Austin City Council meetings spanning decades.</p>
+            
+            <h3>The Digitization Process</h3>
+            <p>Much of Austin's civic history was locked in scanned PDFs and hand-written documents. To make this accessible, historical archives of hand-written transcripts were converted to plain text using Generative AI. The process of converting these documents first involved testing and scoring eight different Large Language Models (LLMs) for accuracy, instruction adherence, consistency, and novel curation. These digitized documents and modern typed transcripts were then processed using AI to create plain-language summaries of historical civic decisions.</p>
+            
+            <h3>Public Access & Research</h3>
+            <p>The entire historical archive is fully indexed, searchable, and freely available for research, civic journalism and engagement, and nonprofit use at <a href="/archives/">austincouncil.app/archives</a>.</p>
+            
+            <h3>Archive Attribution</h3>
+            <p>The curation, digitization, and summarization of the historical archives was performed by <strong>Curt Yowell</strong> and <strong>Nathan Beddome</strong>.</p>
         </div>
 
         <!-- For Journalists -->
