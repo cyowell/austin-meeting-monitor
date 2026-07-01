@@ -128,6 +128,7 @@ Meeting data is sourced from the [City of Austin Meeting Info Center](https://ww
 This project consists of both a software application and a curated historical data archive, each with specific attribution requirements.
 
 ### Software License
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 The core web application and email notification system (`austin-meeting-monitor`) are open-source.
 - **Credit:** Austin City Council Meeting Monitor (austincouncil.app) / Curt Yowell
 
