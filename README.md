@@ -123,18 +123,25 @@ Meeting data is sourced from the [City of Austin Meeting Info Center](https://ww
 
 ---
 
-## License
+## License & Attribution
 
+This project consists of both a software application and a curated historical data archive, each with specific attribution requirements.
+
+### Software License
+The core web application and email notification system (`austin-meeting-monitor`) are open-source.
+- **Credit:** Austin City Council Meeting Monitor (austincouncil.app) / Curt Yowell
+
+### Data License
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+The historical archives, extracted transcripts, and AI-generated summaries are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
 
-You are free to share and adapt this work, provided you:
-- **Credit** Austin City Council Meeting Monitor (austincouncil.app) / [Curt Yowell](https://www.stedwards.edu/directory/literature-writing-and-rhetoric/curt-yowell)
+You are free to share and adapt this data, provided you:
+- **Credit:** Austin City Council Meeting Monitor Historical Archives / Curt Yowell & Nathan Beddome
 - **Do not use it for commercial purposes**
 - **Distribute any adaptations under the same license**
 
-See the [LICENSE](./LICENSE) file for full terms, or visit [creativecommons.org/licenses/by-nc-sa/4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+See the [DATA_LICENSE.md](./DATA_LICENSE.md) file for full terms regarding the datasets.
 
 ---
 
