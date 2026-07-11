@@ -219,7 +219,7 @@
     <main class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">0</div>
+                <div class="stat-number">2</div>
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
@@ -234,8 +234,8 @@
 
         <div class="controls">
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">19</span></button>
-<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">7</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">21</span></button>
+<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">9</span></button>
 <button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">6</span></button>
 <button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">6</span></button>
 
@@ -245,11 +245,86 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Upcoming Meetings</h2>
-            <span class="section-count">0</span>
+            <span class="section-count">2</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
-            <div class="no-meetings-section"><p>No upcoming meetings scheduled. Check back soon.</p></div>
+            
+        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">July 16, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--upcoming">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        Upcoming
+                    </div>
+                </div>
+            </div>
+            
+                <div class="meeting-summary">
+                    <h3>Agenda Preview</h3>
+                    <div class="summary-content"><p>Title: Austin's FY27 Budget: Preview & Hearing Set</p>
+<ul>
+<li>  Review and discuss the City Manager’s proposed budget for Fiscal Year 2026-2027.</li>
+<li>  Set a public hearing to receive community input on the proposed FY26-27 budget.</li>
+<li>  The suggested date for the public hearing is July 30, 2026, at 3:00 p.m. at City Hall.</li>
+</ul></div>
+                </div>
+            <div class="meeting-links">
+                <a href="/archives/meeting/20260716-reg/" class="meeting-link meeting-link-secondary">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=476621" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Download Agenda</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('July 16, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
+        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">July 23, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--upcoming">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        Upcoming
+                    </div>
+                </div>
+            </div>
+            
+                <div class="meeting-summary">
+                    <h3>Agenda Preview</h3>
+                    <div class="summary-content"><p>Title: Austin Growth: Bonds, Housing, Zoning Debates</p>
+<ul>
+<li>  <strong>Future Funding & Energy Resilience:</strong> Debating a November 2026 bond election and approving a 20-year, $320 million contract for 200 megawatts of battery storage to boost energy capacity.</li>
+<li>  <strong>Major Development & Land Use:</strong> Public hearings on significant land code changes for multifamily housing (up to four units), creating a large "Dog's Head" Tax Increment Reinvestment Zone, and amending the East Riverside Corridor development plan.</li>
+<li>  <strong>Homeless & Affordable Housing Initiatives:</strong> Approving over $7.7 million for supportive housing and street outreach, and considering selling 6 acres on Bolm Road to the Housing Finance Corporation.</li>
+<li>  <strong>Infrastructure & Public Spaces:</strong> Allocating significant funds for ADA sidewalk improvements, crucial water and wastewater pipeline projects, and developing new multi-use trails.</li>
+</ul></div>
+                </div>
+            <div class="meeting-links">
+                <a href="/archives/meeting/20260723-reg/" class="meeting-link meeting-link-secondary">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=476576" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Download Agenda</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('July 23, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
         </div>
 
         <!-- Recent Meetings -->
@@ -727,7 +802,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: July 10, 2026 at 04:21 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: July 11, 2026 at 02:04 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
