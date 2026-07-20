@@ -101,6 +101,25 @@ class handler(BaseHTTPRequestHandler):
         if audience_id:
             params['audience_id'] = audience_id
 
+        def _fail(err_msg):
+            slack_url = os.environ.get('SLACK_WEBHOOK_URL')
+            if slack_url:
+                try:
+                    payload = {
+                        "text": f"🚨 *Email Subscription Error*\n*Email:* `{email}`\n*Error:* ```{err_msg}```"
+                    }
+                    slack_req = urllib.request.Request(
+                        slack_url,
+                        data=json.dumps(payload).encode('utf-8'),
+                        headers={'Content-Type': 'application/json'},
+                        method='POST'
+                    )
+                    with urllib.request.urlopen(slack_req, timeout=5):
+                        pass
+                except Exception:
+                    pass
+            return self._send(500, {'error': err_msg})
+
         try:
             req = urllib.request.Request(
                 'https://api.resend.com/contacts',
@@ -126,8 +145,8 @@ class handler(BaseHTTPRequestHandler):
                         pass
                     return self._send(200, {'success': True, 'message': "You're subscribed!"})
                 except urllib.error.HTTPError as exc2:
-                    return self._send(500, {'error': f'Subscription failed: {exc2.read().decode("utf-8")}'})
+                    return _fail(f'Subscription failed: {exc2.read().decode("utf-8")}')
             else:
-                return self._send(500, {'error': f'Subscription failed: {exc.read().decode("utf-8")}'})
+                return _fail(f'Subscription failed: {exc.read().decode("utf-8")}')
         except Exception as exc:
-            return self._send(500, {'error': str(exc)})
+            return _fail(str(exc))
