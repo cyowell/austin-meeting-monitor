@@ -65,13 +65,19 @@ class handler(BaseHTTPRequestHandler):
         # Build contact params
         params = {'email': email, 'unsubscribed': False}
 
+        headers = {
+            'Authorization': f'Bearer {api_key}', 
+            'Content-Type': 'application/json',
+            'User-Agent': 'resend-python/2.1.0'
+        }
+
         # Resolve audience ID: use environment variable first, otherwise query live audiences
         audience_id = os.environ.get('RESEND_AUDIENCE_ID')
         if not audience_id:
             try:
                 req = urllib.request.Request(
                     'https://api.resend.com/audiences',
-                    headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}
+                    headers=headers
                 )
                 with urllib.request.urlopen(req) as response:
                     res_body = json.loads(response.read().decode('utf-8'))
@@ -99,7 +105,7 @@ class handler(BaseHTTPRequestHandler):
             req = urllib.request.Request(
                 'https://api.resend.com/contacts',
                 data=json.dumps(params).encode('utf-8'),
-                headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'},
+                headers=headers,
                 method='POST'
             )
             with urllib.request.urlopen(req) as response:
@@ -113,7 +119,7 @@ class handler(BaseHTTPRequestHandler):
                     req = urllib.request.Request(
                         fallback_url,
                         data=json.dumps(params).encode('utf-8'),
-                        headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'},
+                        headers=headers,
                         method='POST'
                     )
                     with urllib.request.urlopen(req) as response:
