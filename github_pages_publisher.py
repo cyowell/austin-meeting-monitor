@@ -291,6 +291,9 @@ class GitHubPagesPublisher:
         upcoming.sort(key=lambda m: m['date'])
         recent.sort(key=lambda m: m['date'], reverse=True)
 
+        recent = recent[:10]
+        meetings = upcoming + recent
+
         total = len(meetings)
         n_upcoming = len(upcoming)
         import pathlib
