@@ -347,6 +347,12 @@ Agenda text:
 
             response = self.gemini_model.generate_content(prompt)
             summary = response.text.strip()
+            
+            # Remove the "Title:" prefix
+            if summary.lower().startswith("title:"):
+                summary = summary[6:].lstrip()
+            elif summary.lower().startswith("**title:**"):
+                summary = summary[10:].lstrip()
 
             logging.info(f"  ✓ Generated Gemini agenda summary ({len(summary)} chars)")
             return summary
