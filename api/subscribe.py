@@ -59,12 +59,8 @@ class handler(BaseHTTPRequestHandler):
         if not api_key:
             return self._send(500, {'error': 'Email service not configured'})
 
-        try:
-            import resend
-        except ImportError:
-            return self._send(500, {'error': 'resend package not installed'})
-
-        resend.api_key = api_key
+        import urllib.request
+        import urllib.error
 
         # Build contact params
         params = {'email': email, 'unsubscribed': False}
@@ -73,22 +69,26 @@ class handler(BaseHTTPRequestHandler):
         audience_id = os.environ.get('RESEND_AUDIENCE_ID')
         if not audience_id:
             try:
-                audiences = resend.Audiences.list()
-                items = getattr(audiences, 'data', None) or []
-                if items:
-                    # Look for audience named 'General' (case-insensitive)
-                    general_audience = None
-                    for item in items:
-                        name = item.get('name', '') if isinstance(item, dict) else getattr(item, 'name', '')
-                        if str(name).strip().lower() == 'general':
-                            general_audience = item
-                            break
-                    
-                    if general_audience:
-                        audience_id = general_audience.get('id') if isinstance(general_audience, dict) else getattr(general_audience, 'id')
-                    else:
-                        # Fallback to first available audience
-                        audience_id = items[0].get('id') if isinstance(items[0], dict) else getattr(items[0], 'id')
+                req = urllib.request.Request(
+                    'https://api.resend.com/audiences',
+                    headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}
+                )
+                with urllib.request.urlopen(req) as response:
+                    res_body = json.loads(response.read().decode('utf-8'))
+                    items = res_body.get('data', [])
+                    if items:
+                        # Look for audience named 'General' (case-insensitive)
+                        general_audience = None
+                        for item in items:
+                            if str(item.get('name', '')).strip().lower() == 'general':
+                                general_audience = item
+                                break
+                        
+                        if general_audience:
+                            audience_id = general_audience.get('id')
+                        else:
+                            # Fallback to first available audience
+                            audience_id = items[0].get('id')
             except Exception:
                 pass
 
@@ -96,12 +96,32 @@ class handler(BaseHTTPRequestHandler):
             params['audience_id'] = audience_id
 
         try:
-            resend.Contacts.create(params)
+            req = urllib.request.Request(
+                'https://api.resend.com/contacts',
+                data=json.dumps(params).encode('utf-8'),
+                headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'},
+                method='POST'
+            )
+            with urllib.request.urlopen(req) as response:
+                pass  # success
             return self._send(200, {'success': True, 'message': "You're subscribed!"})
+        except urllib.error.HTTPError as exc:
+            # If the new /contacts endpoint fails with 404 (legacy account), fallback to /audiences/{id}/contacts
+            if exc.code == 404 and audience_id:
+                try:
+                    fallback_url = f'https://api.resend.com/audiences/{audience_id}/contacts'
+                    req = urllib.request.Request(
+                        fallback_url,
+                        data=json.dumps(params).encode('utf-8'),
+                        headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'},
+                        method='POST'
+                    )
+                    with urllib.request.urlopen(req) as response:
+                        pass
+                    return self._send(200, {'success': True, 'message': "You're subscribed!"})
+                except urllib.error.HTTPError as exc2:
+                    return self._send(500, {'error': f'Subscription failed: {exc2.read().decode("utf-8")}'})
+            else:
+                return self._send(500, {'error': f'Subscription failed: {exc.read().decode("utf-8")}'})
         except Exception as exc:
-            # Try lowercase fallback (some SDK versions)
-            try:
-                resend.contacts.create(params)
-                return self._send(200, {'success': True, 'message': "You're subscribed!"})
-            except Exception:
-                return self._send(500, {'error': str(exc)})
+            return self._send(500, {'error': str(exc)})
