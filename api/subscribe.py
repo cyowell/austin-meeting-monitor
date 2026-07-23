@@ -129,6 +129,24 @@ class handler(BaseHTTPRequestHandler):
             )
             with urllib.request.urlopen(req) as response:
                 pass  # success
+            
+            # Fire the sign_up event to trigger Resend automations
+            try:
+                event_payload = {
+                    "event": "sign_up",
+                    "email": email
+                }
+                event_req = urllib.request.Request(
+                    'https://api.resend.com/events/send',
+                    data=json.dumps(event_payload).encode('utf-8'),
+                    headers=headers,
+                    method='POST'
+                )
+                with urllib.request.urlopen(event_req) as event_response:
+                    pass
+            except Exception:
+                pass # Non-critical if event fails but contact succeeded
+
             return self._send(200, {'success': True, 'message': "You're subscribed!"})
         except urllib.error.HTTPError as exc:
             # If the new /contacts endpoint fails with 404 (legacy account), fallback to /audiences/{id}/contacts
@@ -143,6 +161,20 @@ class handler(BaseHTTPRequestHandler):
                     )
                     with urllib.request.urlopen(req) as response:
                         pass
+                        
+                    # Fire the sign_up event for automations
+                    try:
+                        event_req = urllib.request.Request(
+                            'https://api.resend.com/events/send',
+                            data=json.dumps({"event": "sign_up", "email": email}).encode('utf-8'),
+                            headers=headers,
+                            method='POST'
+                        )
+                        with urllib.request.urlopen(event_req):
+                            pass
+                    except Exception:
+                        pass
+                        
                     return self._send(200, {'success': True, 'message': "You're subscribed!"})
                 except urllib.error.HTTPError as exc2:
                     return _fail(f'Subscription failed: {exc2.read().decode("utf-8")}')
