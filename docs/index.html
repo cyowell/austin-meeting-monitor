@@ -219,7 +219,7 @@
     <main class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">2</div>
+                <div class="stat-number">1</div>
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
@@ -227,15 +227,15 @@
                 <div class="stat-label">Archived</div>
             </div>
             <div class="stat">
-                <div class="stat-number">Jul 28, 2026</div>
+                <div class="stat-number">Jul 30, 2026</div>
                 <div class="stat-label">Last Meeting</div>
             </div>
         </div>
 
         <div class="controls">
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">12</span></button>
-<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">8</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">11</span></button>
+<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">7</span></button>
 <button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">2</span></button>
 <button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">2</span></button>
 
@@ -245,49 +245,11 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Upcoming Meetings</h2>
-            <span class="section-count">2</span>
+            <span class="section-count">1</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
             
-        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
-            <div class="meeting-header">
-                <div>
-                    <div class="meeting-date">July 30, 2026</div>
-                    <div class="meeting-day">Thursday</div>
-                </div>
-                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Regular Meeting</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Upcoming
-                    </div>
-                </div>
-            </div>
-            
-                <div class="meeting-summary">
-                    <h3>Agenda Preview</h3>
-                    <div class="summary-content"><p>Austin Budget, Property Tax & Charter Amendments</p>
-<ul>
-<li>  The City's Fiscal Year 2026-2027 budget proposals will be discussed, followed by a public hearing on the proposed budget.</li>
-<li>  A resolution is under consideration to adopt a maximum proposed property tax rate increase for the upcoming fiscal year, with a public hearing scheduled for August 12.</li>
-<li>  Numerous significant changes to the city's foundational charter are proposed for inclusion in a November 2026 special election, covering areas like redistricting, campaign finance, and recall petition requirements.</li>
-<li>  A multi-million dollar contract for a comprehensive efficiency study of various city departments is on the agenda.</li>
-</ul></div>
-                </div>
-            <div class="meeting-links">
-                <a href="/archives/meeting/20260730-reg/" class="meeting-link meeting-link-secondary">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=477756" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Download Agenda</a>
-                <span class="meeting-links-spacer"></span>
-                <button class="btn-share-card" onclick="openShareModal('July 30, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Share</button>
-            </div>
-        </div>
         <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
             <div class="meeting-header">
                 <div>
@@ -335,6 +297,47 @@
         </div>
         <div id="recent-list">
             
+        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">July 30, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Here's a summary of what the Austin City Council actually did at its July 30, 2026 meeting:</p>
+<ul>
+<li>  <strong>Proposed Property Tax Increase:</strong> The Council approved a resolution to set the <em>maximum proposed property tax rate</em> for the upcoming 2026-2027 fiscal year. This rate could include an increase for city operations, and residents will have a chance to give feedback at a public hearing on August 12th.</li>
+<li>  <strong>November Election Ballot:</strong> Council finalized a list of City Charter amendments that will be put before Austin voters in the November 2026 election. Key items voters will decide on include clarifying the independence of the citizen-led Redistricting Commission, allowing the Council to appoint and remove the City Attorney, and requiring an independent study on affordability and efficiency <em>before</em> any future tax rate increases.</li>
+<li>  <strong>Rejected Ballot Proposals:</strong> Several proposed charter amendments were rejected by the Council and will <em>not</em> appear on the November ballot. These included a controversial change that would have made it harder to recall a Council Member by requiring more petition signatures (increasing from 10% to 15%) and proposals related to municipal judges and city auditor staff.</li>
+<li>  <strong>Major Efficiency Study Approved:</strong> A contract worth up to $5.23 million was approved for Public Works LLC to conduct a comprehensive efficiency study across various City departments. This study aims to identify potential savings and improve how the city operates.</li>
+<li>  <strong>Budget Adoption Delayed:</strong> While a public hearing was held for the proposed 2026-2027 city budget, the Council decided to postpone the final vote to adopt the budget until August 12, 2026.</li>
+</ul></div>
+            </div>
+            <div class="meeting-links">
+                <a href="/archives/meeting/20260730-reg/" class="meeting-link meeting-link-secondary">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=477756" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1492" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Actions Taken</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('July 30, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
         <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
             <div class="meeting-header">
                 <div>
@@ -730,59 +733,6 @@
             Share</button>
             </div>
         </div>
-        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
-            <div class="meeting-header">
-                <div>
-                    <div class="meeting-date">May 21, 2026</div>
-                    <div class="meeting-day">Thursday</div>
-                </div>
-                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Regular Meeting</div>
-                    <div class="status-badge status-badge--completed">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                        Completed
-                    </div>
-                </div>
-            </div>
-            <div class="meeting-summary">
-                <h3>What the Council Did</h3>
-                <div class="summary-content"><p>Here's a summary of what the Austin City Council did at their May 21, 2026, meeting:</p>
-<ul>
-<li>  <strong>Massive "Dog's Head" Development & Annexation Approved Amid Public Outcry:</strong> Council authorized a 45-year development agreement and fully annexed 2,614 acres of land known as "Dog's Head" into the city. This decision, approved as amended, faced significant public opposition over a perceived lack of transparency, environmental risks (including high impervious cover in floodplains), the long-term nature of the deal limiting future city control, and concerns about potential for energy-intensive industries like data centers.</li>
-</ul>
-<ul>
-<li>  <strong>Billions Approved for Convention Center and Wastewater Upgrades:</strong> The city greenlit plans to issue up to $1.35 billion in bonds for the Austin Convention Center expansion and up to $1 billion for the Walnut Creek Wastewater Treatment Plant expansion. While the wastewater bonds faced public questions about their necessity given water conservation needs, both represent substantial future investments for the city.</li>
-</ul>
-<ul>
-<li>  <strong>Austin Energy Expands Renewable and Storage Portfolio:</strong> Austin Energy moved forward with major contracts to bolster its energy supply, securing a 20-year battery storage agreement for up to 100 megawatts ($165 million) and two 10-year wind energy agreements for nearly 300 megawatts ($340 million). Public discussion highlighted questions about the long-term financial models and the contracts' duration given evolving technology. An item to approve natural gas "peaker" units was notably withdrawn.</li>
-</ul>
-<ul>
-<li>  <strong>New Citywide Density Bonus Program and Tenant Protections Advanced:</strong> Council adopted a new citywide density bonus program (approved as amended) designed to allow for more height and flexible development in commercial and multifamily zones in exchange for affordable housing. They also approved updates to existing density bonus programs to strengthen tenant protections, though some residents voiced concerns about the broad language and urged further stakeholder involvement, prompting a separate resolution for a comprehensive review process.</li>
-</ul>
-<ul>
-<li>  <strong>Project Connect Moves Forward with Design Funding, Key Zoning Postponed:</strong> Council approved over $40 million for design and utility improvements for the Austin Light Rail portion of Project Connect, ensuring the project's continued progression. Separately, several significant zoning requests and land-use changes were postponed, including a large multifamily rezoning near West 49th Street requested by AISD (now set for September 2026) and an amendment to the East Riverside Corridor plan.</li>
-</ul></div>
-            </div>
-            <div class="meeting-links">
-                <a href="/archives/meeting/20260521-reg/" class="meeting-link meeting-link-secondary">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=473128" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Agenda</a>
-                <a href="http://austintx.swagit.com/play/388823/0/" class="meeting-link meeting-link-video" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                Watch Video</a><a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1479" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-                Actions Taken</a><a href="https://services.austintexas.gov/edims/document.cfm?id=474387" class="meeting-link meeting-link-transcript" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                Transcript</a>
-                <span class="meeting-links-spacer"></span>
-                <button class="btn-share-card" onclick="openShareModal('May 21, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Share</button>
-            </div>
-        </div>
             
             <div style="text-align: center; margin-top: 32px; margin-bottom: 24px;">
                 <a href="/archives/" class="meeting-link meeting-link-primary" style="padding: 12px 24px; font-size: 1.05em; border-radius: 12px; display: inline-flex; align-items: center; gap: 8px;">
@@ -808,7 +758,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: July 30, 2026 at 03:47 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: July 31, 2026 at 02:11 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
