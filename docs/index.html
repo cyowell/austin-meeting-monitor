@@ -219,7 +219,7 @@
     <main class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">1</div>
+                <div class="stat-number">2</div>
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
@@ -234,8 +234,8 @@
 
         <div class="controls">
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">11</span></button>
-<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">7</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">12</span></button>
+<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">8</span></button>
 <button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">2</span></button>
 <button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">2</span></button>
 
@@ -245,7 +245,7 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Upcoming Meetings</h2>
-            <span class="section-count">1</span>
+            <span class="section-count">2</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
@@ -287,6 +287,44 @@
             Share</button>
             </div>
         </div>
+        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">August 06, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--upcoming">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        Upcoming
+                    </div>
+                </div>
+            </div>
+            
+                <div class="meeting-summary">
+                    <h3>Agenda Preview</h3>
+                    <div class="summary-content"><p>Austin Budget, Park Bonds, Charter Votes</p>
+<ul>
+<li>  Reviewing the City Manager's proposed Fiscal Year 2026-2027 Budget.</li>
+<li>  Voting to order a bond election for November 3, 2026, to fund Parks and Recreation, and Library improvements.</li>
+<li>  Ordering a general election for November 3, 2026, to elect members for specific Austin districts.</li>
+<li>  Ordering a special election for November 3, 2026, for voters to decide on proposed City Charter amendments, including a citizen-initiated proposal.</li>
+</ul></div>
+                </div>
+            <div class="meeting-links">
+                <a href="/archives/meeting/20260806-reg/" class="meeting-link meeting-link-secondary">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=478210" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Download Agenda</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('August 06, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
         </div>
 
         <!-- Recent Meetings -->
@@ -313,13 +351,13 @@
             </div>
             <div class="meeting-summary">
                 <h3>What the Council Did</h3>
-                <div class="summary-content"><p>Here's a summary of what the Austin City Council actually did at its July 30, 2026 meeting:</p>
+                <div class="summary-content"><p>Here's a summary of what the Austin City Council did at its July 30, 2026 meeting:</p>
 <ul>
-<li>  <strong>Proposed Property Tax Increase:</strong> The Council approved a resolution to set the <em>maximum proposed property tax rate</em> for the upcoming 2026-2027 fiscal year. This rate could include an increase for city operations, and residents will have a chance to give feedback at a public hearing on August 12th.</li>
-<li>  <strong>November Election Ballot:</strong> Council finalized a list of City Charter amendments that will be put before Austin voters in the November 2026 election. Key items voters will decide on include clarifying the independence of the citizen-led Redistricting Commission, allowing the Council to appoint and remove the City Attorney, and requiring an independent study on affordability and efficiency <em>before</em> any future tax rate increases.</li>
-<li>  <strong>Rejected Ballot Proposals:</strong> Several proposed charter amendments were rejected by the Council and will <em>not</em> appear on the November ballot. These included a controversial change that would have made it harder to recall a Council Member by requiring more petition signatures (increasing from 10% to 15%) and proposals related to municipal judges and city auditor staff.</li>
-<li>  <strong>Major Efficiency Study Approved:</strong> A contract worth up to $5.23 million was approved for Public Works LLC to conduct a comprehensive efficiency study across various City departments. This study aims to identify potential savings and improve how the city operates.</li>
-<li>  <strong>Budget Adoption Delayed:</strong> While a public hearing was held for the proposed 2026-2027 city budget, the Council decided to postpone the final vote to adopt the budget until August 12, 2026.</li>
+<li>  <strong>Budget Discussions Began, Adoption Postponed:</strong> The Council held a significant public hearing on the proposed 2026-2027 city budget. Many residents spoke, largely debating a proposed increase for the police department against potential cuts to various social services and community programs. The final budget adoption was postponed to August 12.</li>
+<li>  <strong>Initial Step for Property Tax Rate Increase:</strong> Council approved a resolution setting a <em>maximum proposed</em> property tax rate for the upcoming fiscal year, which includes an increase for city operations. A public hearing on this rate is scheduled for August 12 before the final rate is officially set.</li>
+<li>  <strong>Key Charter Amendments Approved for November Ballot:</strong> Several important changes to the City Charter were approved to appear on the November 3, 2026, election ballot. These include measures to clarify the independence of the Independent Citizens Redistricting Commission, streamline some Council operating rules, and require an independent study on affordability and efficiency before any future tax rate increase.</li>
+<li>  <strong>Other Charter Amendments Rejected:</strong> The Council decided not to move forward with several other proposed charter amendments for the November ballot. Among those that failed were proposals to increase the number of signatures needed to recall a Council Member and to remove City Auditor employees from civil service protections.</li>
+<li>  <strong>Approved Major Efficiency Study:</strong> Council approved a contract worth $5.23 million with Public Works LLC to conduct a comprehensive efficiency study of various City departments, aiming to identify potential savings and improve operations.</li>
 </ul></div>
             </div>
             <div class="meeting-links">
@@ -329,9 +367,13 @@
                 <a href="https://services.austintexas.gov/edims/document.cfm?id=477756" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
                 Agenda</a>
-                <a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1492" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <a href="http://austintx.swagit.com/play/394888/0/" class="meeting-link meeting-link-video" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Watch Video</a><a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1492" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-                Actions Taken</a>
+                Actions Taken</a><a href="https://services.austintexas.gov/edims/document.cfm?id=478219" class="meeting-link meeting-link-transcript" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                Transcript</a>
                 <span class="meeting-links-spacer"></span>
                 <button class="btn-share-card" onclick="openShareModal('July 30, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
@@ -758,7 +800,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: July 31, 2026 at 03:59 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: August 01, 2026 at 02:13 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
