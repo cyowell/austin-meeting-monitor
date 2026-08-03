@@ -201,7 +201,7 @@ class GitHubPagesPublisher:
             </div>
             {summary_section}
             <div class="meeting-links">
-                <a href="/archives/meeting/{m["id"]}/" class="meeting-link meeting-link-secondary">
+                <a href="https://www.austintexas.gov/council/{m["id"][:4]}/{m["id"]}" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     Meeting Details</a>
                 {agenda_btn}
