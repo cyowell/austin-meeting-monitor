@@ -26,6 +26,7 @@ def write_meeting_json(row):
                     title = line.strip()
                     if title.lower().startswith('title:'):
                         title = title[6:].strip()
+                    title = title.replace('**', '').replace('*', '').strip()
                     break
 
         transcript = row['transcript_text']
