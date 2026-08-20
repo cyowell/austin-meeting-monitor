@@ -565,8 +565,10 @@ class GitHubPagesPublisher:
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
-                <div class="stat-number">{total_archived:,}</div>
-                <div class="stat-label">Archived</div>
+                <a href="/archives/" style="text-decoration: none; display: block; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    <div class="stat-number">{total_archived:,}</div>
+                    <div class="stat-label">Archived</div>
+                </a>
             </div>
             <div class="stat">
                 <div class="stat-number">{latest_date}</div>

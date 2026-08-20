@@ -563,7 +563,7 @@ Agenda text:
 
         try:
             prompt = f"""You are a civic journalist covering Austin City government for local residents.
-Summarize what the Austin City Council ACTUALLY DID at this meeting in 4-6 bullet points.
+Summarize what the Austin City Council ACTUALLY DID at this meeting in 4-6 bullet points. Put a title that is SEO friendly for the summary in the first line prepended by "Title:" that itself is under 50 characters, mentions key interesting content and doesn't mention the council, the year or that it's a summary.
 
 Base your summary on the official records below. Focus on:
 - Key votes and what passed or failed (include vote counts if available)
@@ -581,6 +581,13 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
 
             response = self.gemini_model.generate_content(prompt)
             summary = response.text.strip()
+            
+            # Remove the "Title:" prefix
+            if summary.lower().startswith("title:"):
+                summary = summary[6:].lstrip()
+            elif summary.lower().startswith("**title:**"):
+                summary = summary[10:].lstrip()
+
             logging.info(f"  ✓ Generated post-meeting summary ({len(summary)} chars)")
             return summary
 
