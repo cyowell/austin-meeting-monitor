@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The meeting was a dedicated workshop focused on developing the city's operating budget for the upcoming 1988-89 fiscal year.\n*   Budget summaries were presented by critical departments, including Emergency Medical Services (EMS) and the Health Department.\n*   Other key areas detailing their financial needs included the Library, Parks and Recreation Department, and Public Events facilities.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nAugust 18, 1988 - SPECIAL CALLED MEETING - 9:00 A.M Council Chambers, 307 West Second\nStreet, Austin, Texas Mayor Cooke called to order the meeting of the Council, noting the\npresence of all Council-members. The Mayor stated the purpose of the meeting was to hold a\nworksession on the\nOperating Budget for FY 1988-89.\nThe meeting was called to order at 9:00 A.M., recessed at 11:15 P.M.. meeting resumed at\n2:00 P.M. and adjourned at 5:30 P.M.\nDuring the meeting hours, Council heard budget summaries from Emergency Medical Service\nDepartment, Health Department, Library, Parks and Recreation Department and Public Events\nFacilities."
 }

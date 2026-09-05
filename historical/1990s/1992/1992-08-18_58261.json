@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The City Manager unveiled the proposed Operating Budget for the upcoming 1992-93 fiscal year.\n*   This crucial financial plan, detailing the city's spending, was presented with the aid of slides.\n*   Council members actively engaged with the proposal, posing questions about the budget outline.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - August 18, 1992\nTOWN LAKE CENTER - It30 P.M.\n1. Presentation of City Manager's proposed Operating Budget.\nCity Manager Camilie Barnett illustrated the presentation of the proposed 1992-93\nOperating Budget for the City of Austin by use of slides. There were questions from\nCouncil* 2. Adjournment The meeting was adjourned at 3ilO P.M., on Councilmember\nNofziger's motion, Councilmember Garcia's second, 7-0 Vote. MINUTES\n1\n8/18/92\n/\""
 }

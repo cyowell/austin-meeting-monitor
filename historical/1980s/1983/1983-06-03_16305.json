@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City leaders convened an early morning special meeting to address a pressing concern.\n*   The primary focus was an immediate discussion about controlling new outdoor advertisements.\n*   An ordinance was swiftly passed, establishing a temporary 90-day moratorium on issuing permits for billboards and other permanent off-premise signs.\n*   This policy decision was approved with a 5-0 vote.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "CITY OF A\nFOUNDED zea\nAustin City Council\nMINUTES\nFor\nJune 03, 1983\n-\nSPECIAL CALLED MEETING\nCity Council\nRon Mullen\nMayor\nJohn Treviño, Jr.\nMayor Pro Tem\nCouncil Members\nMark Rose\nRoger Duncan\nSally Shipman\nMark E. Spaeth\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Mullen called\nto order the Special Called Meeting of the Council, scheduled for 7:30 a.m., noting the\nabsence of Councilmembers Duncan and Urdy.\nMayor Mullen announced the purpose of the meeting was to consider an ordinance on a\nmoratorium on the further issuance of billboard permits.\nLonnie Davis, Building Inspector, reviewed the problem for the Council. After a brief\ndiscussion, the Council, on Mayor Pro Tem Trevino's motion, Councilmember Spaeth's second,\nwaived the requirement for three readings and finally passed an ordinance establishing a\ntemporary 90 day moratorium on the issuance of permits for billboards and other permanent\noff-premise signs.\n(5-0 Vote, Councilmembers Duncan and Urdy absent) ADJOURNMENT\nThe Council adjourned at 7:40 a.m."
 }

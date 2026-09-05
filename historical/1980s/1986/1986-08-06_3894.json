@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was convened to hold a work session on **operating budgets** for several critical city departments.\n*   Discussions specifically covered financial planning for the **Police, Fire, EMS (Emergency Medical Services), and Health Departments**.\n*   Council members also received a dedicated presentation detailing **Library Services**.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor SPECIAL CALLED MEETING - August 06, 1986 - 4:00 P.M.\nCound) dumber*, 307 Wfest Second Street, Austin, lexai City Council\nFrank C.Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Canasco\nCity Manager\nHden Aldridge\nCity Clerk\nMemorandum To:\nMayor Cooksey called to order the meeting of the Council, noting the absence of\nCouncllmembers Rose, Urdy and Shipman.\nMayor Cooksey announced the purpose of the meeting was to hold a work session on Operating\nBudget/GIF for the Police Department, Fire Department, EMS* and Health Department.\nMayor Cooksey and Councllmember Humphrey introduced an item to Council which was the\npresentation on Library Services.\nThe Council adjourned at 6:10 p.m."
 }

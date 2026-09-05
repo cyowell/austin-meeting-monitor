@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The Austin City Council attended a special meeting of the Lower Colorado River Authority (LCRA) Board of Directors.\n*   Council members were present as observers and did not actively participate in the LCRA's discussions or decisions.\n*   No policy decisions were made, public hearings conducted, or official minutes recorded for the Austin City Council at this gathering.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "CITY OF AUSTIN, TEXAS\nSpecial Meeting\nJune 22, 1978\n11:30 Α.Μ.\nLCRA Board of Directors Room\n3700 Lake Austin Boulevard\nThis was a meeting of the LCRA Board of Directors and the Council did not participate.\nThey only attended, and there were no Minutes."
 }

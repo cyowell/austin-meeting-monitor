@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Set Future Direction:** Discussions began to define the city's priorities for the upcoming 1996-97 fiscal year.\n*   **Embraced Sustainability:** The meeting included a presentation and dialogue focused on establishing \"Sustainable Community\" goals.\n*   **Planned Budget Process:** Members outlined the substance and format for future budget worksessions.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nAUGUST 7,1996\nMayor Todd called the meeting to order, noting all Councilmembers present. 1.\nDiscuss and consider Council Priorities for FY 1996-97.\nModerators Oscar Mink and Ralph Gohring\n2.\nDiscuss substance and format for Council Budget Worksessions. 3.\nDiscuss Sustainable Community goals.\nPresentation by Jim Smith, Randy Goss, Randy Duncan and Andrew Martin.\nADJOURNED at 2:40 p.m.\nApproved on this the 15th day of August, 1996, on, Mayor Pro Tern Garcia's motion,\nCouncilmember Griffith's second, 6-0 vote, Councilmember Goodman temporarily absent."
 }

@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   Received a progress report on the ongoing Civic Center Project.\n*   Reviewed a new business plan for economic development and international trade.\n*   Appointed two new members to the Private Industry Council.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "FOUNDED 1030\nAustin City Council\nMINUTES\nFor\nSPECIAL CALLED COUNCIL MEETING\nFOURTH FLOOR AUDITORIUM\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To:\n-\n-\nAPRIL 26, 1988 3:00 P.M\nCENTRAL LIBRARY\nMayor Cooksey called to order the meeting of the Council, noting the absence of Mayor Pro\nTem Trevino, Councilmembers Nofziger and Shipman.\nWORKSESSION\nGILBANE UPDATE\nWalt Marquardt, Gilbane, presented the update on the Civic Center Project.\nCITY MANAGER REPORT\nJoe James presented the City Manager report on Economic Development and International\nTrade Department Business Plan.\nPRIVATE INDUSTRY COUNCIL APPOINTMENTS\nThe Council, on Councilmember Urdy's motion, Mayor Cooksey's second appointed Ted Hudson\nand Al Cummings as members of the Private Industry Council.\nADJOURNMENT\nCouncil adjourned its meeting at 4:15 Ρ.Μ. -"
 }

@@ -10,15 +10,6 @@
   "ocr_source": "claude-sonnet-4-6",
   "summary": "• **Emergency Meeting Called**: City Council held a special session to address urgent infrastructure issues on Pecan Street, specifically problems with street grading and damaged gutters.\n\n• **Gutter Cleaning Resolution Passed**: Council adopted a resolution requiring the Street Committee and City Engineer to develop and implement a plan to keep gutters clean and prevent waste water from disturbing neighbors.\n\n• **Accountability Focus**: The measure emphasized that city officers must fully discharge their duties to prevent residents from being annoyed by water drainage problems on neighborhood streets.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Called Meeting\nCouncil Chamber July 21, 1876\n\nCouncil called to order at 4.30 P.M.\nT.W. Shuster President of Board of Aldermen in the Chair Roll called and the following\nmembers answered, Aldermen Bremond Diffenbaugh Goodale, James, Larmour, Shuts and Taylor.\n\nAbsent Aldermen Cook and Robinson\nThe President informed the Council that they had been called together for the purpose of\ntaking action relative to the grading or repairing the gutters on Pecan Street Alderman\nTaylor introduced the following resolution Resolved by the City Council of the City of\nAustin That the Street Committee and City Engineer be required to devise means to keep the\ngutters clean and see that the Officers discharge their duties fully in preventing persons\nfrom annoying their neighbors by waste Water Adopted\n\nOn motion of Alderman Shuts the Council\nadjourned\n\nJohn St. Herbert\nCity Clerk\n\n"
 }

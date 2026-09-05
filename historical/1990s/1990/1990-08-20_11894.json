@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special public hearing was held to gather community feedback on the proposed 1990-91 city operating budget.\n*   The meeting took place at a local church, indicating an effort to make the budget discussion accessible for direct public input on city spending plans.\n*   Citizens attended and shared their perspectives on various budget-related topics, with their comments recorded for official review.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nSPECIAL MEETING - August 20, 1990 - PUBLIC HEARING 1990-91 BUDGET BANNOCKBURN BAPTIST\nCHURCH, 7100 BRODIE LANE, AUSTIN, TEXAS - 7:30 P.M.\nMayor Cooke called to order the meeting of the Council, noting the absence of\nCouncilmembers Epstein and Barnstone and Mayor Pro Tern Urdy. The Mayor announced the\npurpose of the meeting was to hold a public hearing on the 1990-91 Operating Budget.\nVarious topics were discussed and speaker's cards are on file in the City Clerk's office.\nThe meeting was adjourned at 9:00 P.M."
 }

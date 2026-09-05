@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was held to focus exclusively on reviewing the proposed 1987-88 City Budget.\n*   The session was remarkably brief, concluding in just 20 minutes.\n*   Mayor Cooksey led the discussion, despite three council members being absent.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING - November 04, 1987 - 2:30 P.M.\nCouncil Chambers. 307 West Second Street, Austin. Texas Memorandum To: Mayor Cooksey\ncalled to order Che special called meeting of the Council, noting the absence of\nCouncilmembers Urdy, Humphrey and Shipman.\nThe purpose of the meeting was to review the 1987-88 Budget.\nCouncil adjourned its special called meeting at 2:50 p.m."
 }

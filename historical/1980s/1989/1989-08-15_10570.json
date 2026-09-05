@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting was convened to focus solely on arts funding for the upcoming 1989-90 fiscal year.\n*   A public hearing was held, allowing residents to provide input and suggestions regarding arts funding.\n*   Rather than making an immediate decision, officials referred all suggestions back to the Arts Commission, directing them to submit further recommendations before the final budget approval.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "KOUSTI\nFOUNDED 1920\ni\nAustin City Council\nMINUTES\nFor SPECIAL CALLED MEETING\nCouncil Chambers, 307 West Second Street, Austin, Texas -\nAugust 15, 1989\n-\n6:00 Ρ.Μ.\nMayor Cooke called to order the meeting of the Council, noting the absence of\nCouncilmember Urdy. Mayor Cooke announced the purpose of the meeting was to hold a public\nhearing on the arts funding for 1989-90.\nPUBLIC HEARING\n-\nARTS FUNDING\nMayor Cooke opened the public hearing on arts funding for 1989-90.\nSpeaker's cards are on file in the City Clerk's office. Motion The Council, on\nCouncilmember Barnstone's motion, Councilmember Nofziger's second, closed the public\nhearing. (6-0 Vote, Councilmember Urdy absent.)\nMotion\nThe Council, on Councilmember Nofziger's motion, Mayor Pro Tem Shipman's second, voted to\nrefer the arts funding suggestions back to the Arts Commission and directed the Arts\nCommission to come back to Council with their recommendations prior to the approval of the\n1989-90 FY budget. (6-0 Vote, Councilmember Urdy absent.) ADJOURNMENT Council adjourned\nits meeting at 9:30 Ρ.Μ."
 }

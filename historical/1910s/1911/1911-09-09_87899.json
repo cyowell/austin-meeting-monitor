@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "*   City leaders approved a month-long leave of absence for Councilman Bartholomew.\n*   The 30-day leave is scheduled to begin on September 11.\n*   This administrative approval was the only official business conducted during the meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Saturday Sept. 9th 1911\n\nThe Council was called to order by the Mayor with all members present. On motion\nCouncilman Bartholomew was granted leave of absence for 30 days from Sept. 11th 1911, by\nthe following vote:\n\nYeas Mayor Wooldridge, Councilmen Hart, Lockridge & Powell\n\nNot voting Councilman Bartholomew\n\nThe Council then adjourned.\n\n"
 }

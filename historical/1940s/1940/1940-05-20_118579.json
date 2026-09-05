@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The city held a special meeting to discuss the allocation of a recently approved $450,000 bond issue for major improvements and expansion at Brackenridge Hospital.\n*   Proposed projects included renovating the existing hospital, adding to the Nurses Home, improving the clinic, and constructing new contagious disease and private patient (pay) wards.\n*   A maximum budget of $60,000 was set aside specifically for purchasing new hospital equipment.\n*   An expert in hospital planning, Dr. Lucius R. Wilson, will be brought in to review the architectural plans once they are completed.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "SPECIAL MEETING OF THE CITY COUNCIL:\nAustin, Texas, May 20, 1940.\nThe City Council convened in special session, at 7:30 P. M., May 20, 1940, in the Council\nRoom at the Municipal Building, with Mayor Tom Miller presiding. Roll call showed the\nfollowing members presents Councilmen Alford, Gillis, and Mayor Miller; absent, Councilmen\nBartholomew and Wolf.\nThe following Architects were present: Chas. H. Page, H. F. Kuehne, Kreisle & Brooks, and\nPage & Southerland.\nThe following members of the Executive Committee of Brackenridge Hospital were present:\nDr. J. O. Thomas, Dr. M. F. Kreisle, Dr. G. F. Thornhill, and Dr. H. Olay Perkins.\nMr. Quiton Morgan, City Manager; Mr. Geo. 8. Buis, Administrator of Brackenridge Hospital;\nand Dr. Ralph E. Cloud of the Travis County Medical Society, were present, also.\nThe Mayor stated that the meeting was called for the purpose of a further open discussion\nwith the Architects and the Doctors of the plans for renovating the old hospital, building\nan addition to the Nurses Home, improvements to the clinic, building a contagious disease\nward, building a pay pavilion, and equipment for the Hospital, under the $450,000 bond\nissue recently voted by the taxpayers.\nFollowing a general discussion of the matters involved, it was the sense of the meeting\nthat a maximum sum of $60,000 be allotted for equipment for the Hospital.\nIt was the sense of the meeting, further, that, when the plans and specifications have\nbeen drawn by the Architects, Dr. Lucius R. Wilson of Galveston, Texas, an expert on\nhospital planning, be employed for a few days to pass upon such plans and specifications.\nUpon motion, seconded and carried, the meeting was recessed at 9:30 P. M., subject to call\nof the Mayor.\nAttest:\nOity Olerk.\nApproved, Jom Miller\nMayor\n423"
 }

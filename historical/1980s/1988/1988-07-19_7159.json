@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **City Financial Strategy:** Council discussed future capital improvement projects and the timing of issuing general obligation bonds, indicating a focus on the city's financial planning and debt.\n*   **Closed-Door Legal & Land Talks:** An executive session was held to discuss sensitive matters, including potential land acquisitions, personnel issues, and ongoing litigation.\n*   **Specific Lawsuit Mentioned:** The meeting agenda specifically noted a lawsuit between the City of Austin and Houston Lighting and Power for discussion in the closed session.\n*   **No Final Decisions Made:** Following the worksession and executive session, no final votes or policy decisions were taken on any items before the meeting adjourned.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": ":\nAUST\nFOUNDED 1889\nAustin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING\nFOURTH FLOOR AUDITORIUM\nCouncil Chambers, 307 West Second Street, Austin, Texas -\n-\nJULY 19, 1988\nCENTRAL LIBRARY\nMayor Cooke called to order the special called meeting of the Council, noting the presence\nof all Councilmembers. ITEM PULLED Pulled from the agenda was the City Manager report on\nPublic Events Facilities Business.\nWORKSESSION\nCouncil held a worksession on the following City debt and related issues.\n(a) Discussion of Planning Commission CIP recommendations\n(b) Scheduling of G.O. Bond Issuance\nEXECUTIVE SESSION\nNo\nMayor Cooke announced Council would enter intoexecutive session pursuant to Article\n6252-17, Texas Revised Civil Statutes Annotated, to discuss matters of land acquisition,\nlitigation, and for personnel matters. final action, decision or vote by the City Council\nwill be taken on any subject or matter unless specifically listed on the agenda for this\nmeeting.\n1. Pending Litigation\n-\nSection 2, Paragraph e\n(a) City of Austin v. Houston Lighting and RECESS AND ADJOURNMENT\nPower\nCouncil recessed its meeting for executive session at 4:40 P.M. and adjourned at 5:10 P.M.\nwithout taking up and further items on the agenda."
 }

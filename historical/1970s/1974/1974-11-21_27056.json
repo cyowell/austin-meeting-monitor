@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   Austin officials held a special meeting to immediately transition into a closed-door executive session.\n*   The specific topics to be discussed during this private session were not publicly disclosed in these minutes.\n*   Officials affirmed that any final decisions or actions resulting from the closed session would be announced publicly later, in accordance with state law.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "CITY OF AUSTIN, TEXAS\n13/3\n1\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nNovember 21, 1974\n12:45 Ρ.Μ.\nConference Room\n301 West Second Street\nThe meeting was called to order with Mayor Butler presiding. Roll Call:\nPresent:\nCouncilmen Binder, Dryden, Friedman, Lebermann, Mayor Butler, Mayor Pro Tem Love\nAbsent:\nCouncilman Handcox\nMayor Butler announced that this was a Special Called Meeting of the City Council for the\npurpose of publicly announcing that during the Meeting it will convene in a Closed or\nExecutive Session authorized by Section 2, Paragraphs (e), (f), and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated; and after such closed or executive\nsession, any final action, decision, or vote with regard to any matter considered in the\nclosed or executive session would be made in open session, should such action, decision,\nor vote be necessary.\nMayor Butler announced that the Council would go into Executive Session at this time to\nconsider the items authorized in Section 2, Paragraphs (e), (f), and (g) of Article\n6252-17.\nAPPROVED\nRay Brader\nMayor\nATTEST:\nGrace Mon\nCity Clerk"
 }

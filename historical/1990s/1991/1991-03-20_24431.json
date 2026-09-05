@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   An emergency meeting was convened to quickly address an urgent election matter.\n*   City officials approved an ordinance to establish new voting precincts and polling places.\n*   This action was critical to ensure that residents in recently annexed areas could participate in the upcoming May 1991 municipal elections.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "FOUNDIN\nAustin City Council\nMINUTES\nEMERGENCY SPECIAL CALLED MEETING - March 20, 1991 TOWN LAKE CENTER\n-\n2:00 Ρ.Μ.\nMayor Cooke called to order the Emergency Special Called Meeting, noting the absence of\nMayor Pro Tem Urdy and Councilmember Carl-Mitchell. The Mayor stated the purpose of the\nmeeting was for consideration and passage of an ordinance.\nORDINANCE\nApproved an ordinance amending Ordinance No. 910314-E and Ordinance No.\n910314-H to add precincts and polling places for the area annexed by Ordinance No.\n901218-A for the municipal elections to be held in May, 1991.\nOn Councilmember Barnstone's motion, Councilmember Nofziger's second, 5-0 Vote, Mayor Pro\nTem Urdy, Councilmember Carl-Mitchell absent. ADJOURNMENT The meeting, which was called to\norder at 3:09 P.M., was adjourned at 3:11 Ρ.Μ."
 }

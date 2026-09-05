@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "*   **Major Street Paving Approved**: The city approved \"tarviating\" (paving) State Street, signaling an investment in local infrastructure.\n*   **Infrastructure Funding Shift**: Funds originally designated for a Camp Mabry sewer project were reallocated to pay for the State Street improvements.\n*   **Police Department Staffing**: Changes were made within the police department, including one officer's resignation and the appointment of a new foot patrolman.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "276\n\nEd Smith resig-\nnation of foot\npatrolman\n\nC. M. Browne--\nfoot patrolman\n\nGeo. Fiegel, Jr.\ncar license\non\n\nApprov. for tarviating\nstate street\n\nTransfer for\nCamp Mabry sewer\nfund to State\nStreet improvement\n\nC. S. Martin\nCity Clerk\n\n"
 }

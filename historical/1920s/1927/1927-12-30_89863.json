@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting convened solely to address critical city financial matters.\n*   Officials formally approved the 1927 property tax rolls.\n*   The total taxable value of properties was set at an aggregate of $48,460,313.00.\n*   This key policy decision was the only item on the agenda before adjournment.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "226\nlowing vote: Ayes, Mayor Pro tem Pannell, Councilmen Mueller, Reed, and Steck, 4; nays,\nnone, Mayor McFadden absent.\nThe Council then recessed.\nSPECIAL MEETING OF THE CITY COUNCIL:\nApproved:\n..\nMayor Pro tem.\nAustin, Texas, December 30, 1927.\nThe Council was called to order by Mayor Pro tem Pannell. Roll call showed the following\nmembers present: Mayor Pro tem Pannell, Councilmen Mueller, Reed, and Steck, 4; absent,\nMayor McFadden Mayor Pro tem Pannell stated that the meeting was called for the purpose of\napproving the tax rolls of the City for year 1927.\nCouncilman Reed moved that the tax rolls, as presented by the Tax Assessor and Collector,\naggregating $48,460,313.00, be approved.\nMotion prevailed by the following vote: Ayes, Mayor Pro tem Pannell, Councilmen Mueller,\nReed, and Steck, 4; nays, none, Mayor McFadden absent.\nCouncilman Reed moved that the Council recess, subject to call of the Mayor.\nMotion prevailed by the following vote: Ayes, Mayor Pro tem Pannell, Councilmen Mueller,\nReed, and Steck, 4; nays, none, Mayor VcFadden absent.\nThe Council then recessed.\nApproved:\nV..\nMayor Pro tem."
 }

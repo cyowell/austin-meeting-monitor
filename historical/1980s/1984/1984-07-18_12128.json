@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The city held an emergency, closed-door meeting to address sensitive city matters.\n*   A primary focus was discussing ongoing litigation, specifically a lawsuit involving the City of Austin and Houston Lighting and Power Company.\n*   Council members also deliberated potential sites for future city parks.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "NALISION\nCity Council\nFrank C.Cooksey\nMayor\nJohn Treviño, Jr.\nMayor Pro Tem\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nlden Aldridge\nCity Clerk\nPOUNDED 183\nAustin City Council\nMINUTES\nFor\nEMERGENCY SPECIAL CALLED MEETING JULY 18, 1984 4:00 Ρ.Μ.\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To:\n-\nMayor Mullen called to order the Emergency Special Called Meeting of the Council, noting\nthe absence of Councilmember Shipman.\nThe Mayor announced the purpose of the meeting is to convene in a closed or executive\nsession authorized by Article 6252-17, Texas Revised Civil Statutes Annotated, to discuss\nthe following: 1. Pending Litigation:\na.\nHouston Lighting and Power Company, et al vs. Brown and Root, et al in Matagorda\nCounty, and City of Austin vs. Houston\nLighting and Power Company in Travis\nCounty - Section 2, Paragraph e.\n2. Land Acquisition - consider possible park sites - Section 2, Paragraph f.\nAfter such closed or executive session, any action to be taken shall be done in open\nmeeting.\nRECESS AND ADJOURNMENT\nCouncil recessed its meeting at 4:45 p.m. for executive session and adjourned its meeting\nat 6:00p.m."
 }

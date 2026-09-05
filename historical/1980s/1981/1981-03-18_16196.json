@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **Closed-Door Session Announced:** A special meeting was held with the sole public purpose of announcing that officials would immediately convene in a closed executive session.\n*   **Confidential Business:** This private meeting was authorized under state law to discuss sensitive topics, typically involving matters like economic development negotiations, real estate transactions, or potential gifts.\n*   **No Public Action Taken:** No public votes, new policies, or public hearings were conducted during this brief open session. Any subsequent decisions related to the private discussions would be addressed later.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "CITY OF AUSTIN, TEXAS\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Called Council Meeting\nMarch 18, 1981\n11:00 Α.Μ.\nCouncil Chambers\n301 West Second Street\nThe meeting was called to order with Mayor McClellan presiding. Roll Call: Present: Mayor\nMcClellan, Councilmembers Goodman, Himmelblau, Mayor Pro Tem Trevino, Councilmember Mullen\nCouncilmember Cooke\nAbsent:\nMayor McClellan opened the meeting scheduled for 11:00 A.M., stating that this was a\nSpecial Called Meeting of the City Council for the purpose of publicly announcing that it\nwill convene in a closed or executive session authorized by Section 2, Paragraphs (e), (f)\nand (g) of Article 6252-17, Texas Revised Civil Statutes Annotated; and after such closed\nor executive session any final action, decision or vote with regard to any matter\nconsidered in the closed or executive session, should such action, decision or vote be\nnecessary.\nMayor McClellan announced that the Council would go into executive session at this time to\nconsider the items authorized in Section 2, Paragraphs (e), (f) and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated.\nATTEST;\nGrace Monise\nCity Clerk\nAPPROVED Celen\nMayor"
 }

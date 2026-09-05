@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was held entirely as a closed-door executive session.\n*   The sole focus was discussing ongoing litigation involving the City of Austin.\n*   A prominent lawsuit involved the City of Austin taking legal action against Houston Lighting and Power Company.\n*   No public actions or policy decisions were made following the private session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nFebruary 06, 1985 - 4:00 P.M\nSPECIAL CALLED MEETING\nCouncil Chambers, 307 \\\\fest Second Street, Austin, Texas City Council\nRon Mullen\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nRoger Duncan\nSally Shipman\nMark E. Spaeth\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nMayor Mullen called to order the meeting of the Council, noting the presence of all\nCouncilmembers. The Mayor announced the purpose of.the meeting is to convene in a closed\nor executive session authorized by Article 6252-17, Texas Revised Civil Statutes\nAnnotated, to discuss the followingi\na. Pending Litigation, including but not\nlimited to the following item - Section 2, Paragraph e.\n(1) Houston Lighting and Power Company,\net al v. Brown and Root, et al in\nMatagorda County and City of Austin\nvs. Houston Lighting and Power Company\nin Travis County - Section 2,\nParagraph e.\nAfter such closed or executive session, any action to be taken shall be done in open\nmeeting. No action was taken.\nCouncil adjourned its meeting at 6 p.m."
 }

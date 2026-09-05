@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The meeting was primarily dedicated to a public hearing concerning the proposed annexation of the U.S. 183 West area.\n*   City officials presented comprehensive information regarding the annexation issues and plans for providing services to the area.\n*   A substantial number of citizens, 179, actively participated by signing up to share their views during the hearing.\n*   After lengthy public input and presentations, the public hearing on the annexation was officially closed.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nOCTOBER 27,1997-7:00 P.M.\nMayor Watson called the meeting to order, noting the absence of Councilmembers Griffith\nand Slusher.\nCouncilmember Slusher came at 10:34 p.m.\nPublic Hearing on annexation of U.S. 183 West Assistant City Manager Toby Futrell\npresented areas of information on the annexation issues and where these could be located.\nSeveral department directors and assistant directors presented the different areas of the\nservice plan.\n179 Citizens signed appearance cards (on file in City Clerk's Office) Close the public\nhearing on Councilmember Slusher's motion, Councilmember Spelman's second, 6-0 vote,\nCouncilmember Griffith absent.\nADJOURNED at 11:47 p.m. on Councilmember Slusher's motion, Councilmember Spelman's second,\n6-0 vote, Councilmember Griffith absent.\nApproved on this the 20th day of November, 1997 on, Councilmember Spelman's motion,\nCouncilmember Lewis' second, 7-0 with Mayor Pro Tern Garcia abstaining on Special Called\nmeeting of November 12,1997."
 }

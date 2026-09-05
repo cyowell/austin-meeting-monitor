@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was held solely to discuss the ongoing City Manager search.\n*   All discussions regarding the crucial personnel search occurred behind closed doors in two separate executive sessions.\n*   The initial closed-door session lasted over six hours, from morning until early afternoon, dedicated entirely to this matter.\n*   Following a lunch break, a second executive session continued the City Manager search deliberations for more than an hour.\n*   No public votes, policy decisions, or public hearings took place during this meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "\\\nAustin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING - March 04, 1988 - 7:30 A.M DRISKILL HOTEL Council Chambers, 307\nV*st Second Street, Austin, Texas Memorandum To: Mayor Cooksey called to order the meeting\nof the Council, noting the absence of Councilmember Urdy. The Mayor announced that It was\n6:00 A.M. and that the Council would go Into executive session pursuant to Article\n6252-17* Texas Revised Civil Statutes Annotated, to discuss personnel matters, Section 2,\nParagraph g, City Manager Search.\nCouncil came out of executive session at 12:15 P.M. and recessed for lunch.\nMayor Pro Tern Trevlno announced that It was 1:25 p.m. and that the Council would: go Into\nexecutive session pursuant to Article 6252-17, Texas Revised Civil Statutes Annotated, to\ndiscuss personnel matters, Section 2, Paragraph g, City Manager Search.\nMayor Cooksey returned to the meeting at 1:45 P.M. and Joined the rest of the Council in\nexecutive session. * The Council concluded its executive session at 2:35 P.M. and then\nadjourned."
 }

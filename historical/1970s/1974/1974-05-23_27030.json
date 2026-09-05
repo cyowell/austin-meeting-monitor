@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **Special Meeting Called:** A unique session was held, primarily to announce that the City Council would immediately move into a closed-door meeting.\n*   **Executive Session Convened:** The Council proceeded into an executive session, permitted under specific state law (Article 6252-17, Paragraphs (f) and (g)).\n*   **Commitment to Openness:** Mayor Butler assured that any final actions or decisions arising from the closed session would eventually be made in a public meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "- CITY OF AUSTIN, TEXAS\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nMay 23, 1974\n12:00 Noon\nElectric Building\nConference Room\n301 West Avenue\n536\nThe meeting was called to order with Mayor Butler presiding. Roll Call:\nPresent:\nAbsent:\nCouncilmen Binder, Friedman, Handcox, Lebermann, Mayor Butler\nCouncilman Dryden, Mayor Pro Tem Love\nCouncilman Dryden entered the Executive Session later.\nMayor Butler announced that this was a Special Called Meeting of the City Council for the\npurpose of publicly announcing that during the Meeting it will convene in a Closed or\nExecutive Session authorized by Section 2, Paragraphs (f) and (g) of Article 6252-17,\nTexas Revised Civil Statutes Annotated; and after such closed or executive session any\nfinal action, decision or vote with regard to any matter considered in the closed or\nexecutive session would be made in open session, should such action, decision or vote be\nnecessary.\nMayor Butler announced that the Council would go into executive session at this time to\nconsider the items authorized in Section 2, Paragraphs (f) and\n(g) of Article 6252-17.\nAPPROVED\nRay\nButlu\noy Mayor\nATTEST:\nGrace Monroe\nCity Clerk"
 }

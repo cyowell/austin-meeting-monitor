@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special city committee convened to launch a review of Austin's services and expenditures.\n*   Key city council members were present for this important financial oversight meeting.\n*   The session marked the beginning of efforts to assess city operations and resource allocation.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - SELECT COMMITTEE ON SERVICES &. SPENDING January 12, 1987 - 7:00\nP.M. - AUSTIN HISTORY CENTER Council Chambers, 307 West Second Street, Austin, Texas City\nCouncil\nfrank C.Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nThe special called meeting of the Council's Select Committee on Services and Spending was\ncalled to order.\nCity Councilmembers present were Sally Shipman, Smoot Carl-Mitchell, Mark Rose and George\nHumphrey.\nA tape recording of the meeting is on file in the City Clerk's office. Minutes of the\nmeeting are on file in the office of the Assistant City Manager, Gary Hunt."
 }

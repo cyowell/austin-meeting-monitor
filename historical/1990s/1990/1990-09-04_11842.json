@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The Austin City Council held a special meeting dedicated to reviewing the city's proposed budget for the upcoming year.\n*   Key departments presented their financial proposals, including Police, Fire, Parks and Recreation, Brackenridge Hospital, and Health and Human Services.\n*   Budget discussions also covered Planning and Development, the Law Department, and Public Works and Transportation.\n*   Reports from Financial Services and the City Clerk Departments were postponed to a later meeting on September 7th.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSeptember 04, 1990 - BUDGET WORKSESSION - SPECIAL CALLED MEETING Mayor Cooke called to\norder the special called Council Meeting, noting the absence of Councilmeraber Barnstone.\nThe Mayor announced the purpose of the nee ting vas for a Budget Vork Session. The\nfollowing departments discussed their proposed budgets vith Council:\nParks and Recreation\nBrackenridge Hospital\nHealth and Human Services\nPolice\nPlanning and Development\nLav Department\nFire Department\nPublic Vorks and Transportation\nPostponed to September 7, 1990, vere the reports from Financial Services and City Clerk\nDepartments.\n'\nThe meeting vas adjourned at 5:10 P.M.\nj\n<^"
 }

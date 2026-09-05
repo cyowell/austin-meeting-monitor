@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **Emergency Response**: City Council held a special evening meeting to address the threat of yellow fever spreading to Austin from infected areas, particularly the city of Laredo.\n\n• **Quarantine Established**: Council unanimously passed an ordinance (11-0 vote) establishing a quarantine against Laredo and other yellow fever-infected locations to protect Austin's residents.\n\n• **Swift Action**: The ordinance was passed under suspension of normal rules, indicating the urgency council members felt about preventing disease transmission during what appears to be an active yellow fever outbreak in Texas.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Called meeting of the City Council\nHon R.E. White Mayor presiding Austin, Texas, Sept 26th 1903 Roll called.\nPresent Aldermen Brooken Haynes Macken\nMaddox Willen Nitschke Shelley Shumate &\nSmith\nAbsent Aldermen Kune. Moore Redd Schneider Weith The following Call of the Council was\nread.\nAustin, Texas, Sept 26th 1903\nA Special meeting of the City Council of the City of Austin is hereby called to meet at\nthe Council chamber of the City of Austin at eight oclock P.M. on Sept 26th 1903, for the\npurpose of taking such action as may be necessary, if any, to prevent the spread of Yellow\nfever to the City of Austin, by quarantine or otherwise against infected places R.E. White\nMayor\nH.L. Haynes\nShumate H.B. Redd G. Willen T.D. Smith J.B. Nitschke Wm. Weith. H.O. Shelley Lee Kune P.W.\nMoore\nJoe Macken J.P. Schneider P.N. Maddox\nI hereby certify that the named Aldermen\nhas been served with a true copy of this Call by having same read to them in person.\nH. Montgomery\nCity Marshal.\nAldermen Weith & Schneider entered the\nCouncil Chamber.\nYellow fever By Alderman Macken An ordinance Quarantine declaring and establishing a\nquarantine against the City of Laredo and all other points infected with Yellow fever.\nThe ordinance was passed under suspension of the rules by the following vote:\nYeas: Aldermen Brooken Haynes Macken\nMaddox Willen Nitschke Schneider Shelley Shumate Smith Weith 11\nNays None.\nOn Motion the Council adjourned\nJno. G. Johnson\nCity Clerk\n\n"
 }

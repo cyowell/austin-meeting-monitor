@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin leaders convened a brief, special meeting in the afternoon.\n*   The primary agenda item was an executive (closed-door) session involving all council members.\n*   The private discussion focused on potential appointments to various city boards and commissions.\n*   No public actions or policy decisions were announced or taken during this short session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nNovember 15, 1984 - 11:30\nSPECIAL CALLED MEETING\nCouncil Chambers, 307 Wfest Second Street, Austin, Texas City Council\nRon Mullen\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nRoger Duncan\nSally Shipman\nMark E. Spaeth\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nMayor Mullen called to order the Special Called Meeting, scheduled for 11:30 a.m., at\n12:30 p.m., noting the presence of all Councllmembers.\nEXECUTIVE SESSION\nMayor Mullen announced Council would convene in a closed or executive session and after\nsuch closed meeting any action to be taken will be done in open meeting. The Mayor\nannounced the purpose of the meeting is to discuss board and commission appointments,\nSection 2, Paragraph g.\nADJOURNMENT\nCouncil adjourned its special called meeting at 1 p.m."
 }

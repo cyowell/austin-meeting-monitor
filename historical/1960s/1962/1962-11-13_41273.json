@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City leaders convened a special meeting to discuss and authorize a major infrastructure project.\n*   The primary decision involved approving an agreement with the State Highway Department.\n*   This agreement focused on establishing a crucial highway interchange, linking Bergstrom Field to the area north of the river.\n*   The authorization for this vital transportation link received unanimous support from all present council members.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "CITY OF AUSTIN, TEXAS\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nNovember 13, 1962\n10:00 Α.Μ.\nCouncil Chamber, City Hall\n1240\nThe meeting was called to order with Mayor Palmer presiding. Roll call: Present:\nCouncilmen Armstrong, Perry, Shanks, White, Mayor Palmer Absent: None Present also: W. T.\nWilliams, Jr., City Manager; Doren R. Eskew, City Attorney The Mayor announced this\nmeeting was called for the purpose of discussing and authorizing an agreement with the\nState Highway Department for the interchange from Bergstrom Field to north of the river.\nAfter discussion, Councilman White moved that the City Manager be authorized to enter into\nan agreement with the State Highway Department for this interchange from Bergstrom Field\nto north of the river. The motion, seconded by Councilman Armstrong, carried by the\nfollowing vote: Ayes: Councilmen Armstrong, Perry, Shanks, White, Mayor Palmer Noes: None\nThere being no further business the Council adjourned subject to the call of the Mayor.\nATTEST:\nCity Clerk/\nAPPROVED\nMayor"
 }

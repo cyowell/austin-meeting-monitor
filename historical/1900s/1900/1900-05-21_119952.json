@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **Meeting time shifted earlier** — The City Council voted to move regular meetings from 6:30 PM to 8:00 AM\n\n• **Low attendance** — Only 4 of 7 aldermen were present at this brief session\n\n• **Quick adjournment** — The meeting concluded immediately after the scheduling change, with no other business conducted",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "316\nRegular Meeting of the City Council\nAustin, Texas\nHon. J.M. McCall Mayor presiding\nRoll Called\nPresent Aldermen Durham, Fischer, Morris & Stumph 4 Absent Aldermen Glass, Mortimer &\nNolen 3 On Motion it was ordered that the Council Meet hereafter at 8 o’clock Am instead\nof 6 30 Pm\nOn Motion the Council adjourned\nJas. O. Johnson\nCity Clerk\n\n"
 }

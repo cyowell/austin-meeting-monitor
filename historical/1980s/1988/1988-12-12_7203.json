@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was held to discuss the foundational assumptions for the upcoming 1989-1990 city budget forecast.\n*   Financial Services Department staff presented initial projections and answered questions from attendees.\n*   This gathering served as an informational session for preliminary budget planning, with no final policy decisions made.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING - December 12, 1988 FOURTH FLOOR AUDITORIUM - CENTRAL LIBRARY -\n2:00 F.M.\nCouncil Chamber*. 307 Wfc« Second ftiurt, Aurtin.\nMayor Cooke called to order the special called meeting of the Council, noting the absence\nof Mayor Pro Tern Shipman, Councilmembers Nofziger and Barnstone.\nDiscussed at the meeting vere Assumptions for Settings 19891990 Budget Forecast. Elaine\nHart and Mike Abkovitx of the Financial Services Department gave presentations and Council\nasked questions.\nCouncil adjourned its meeting at 5:00 P.M."
 }

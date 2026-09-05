@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The Council held a special meeting, going into an executive session to discuss sensitive topics including land acquisition, litigation, and personnel matters.\n*   A significant motion was made to remove City Manager Jorge Carrasco, but it failed due to a lack of a second from other council members.\n*   Following the executive session, the Council ultimately voted 6-1 to retain Jorge Carrasco in his position as City Manager.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "FOUNDED 1830\nAustin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING\nJune 08, 1987\n-\n2:00 Ρ.Μ.\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Cooksey\ncalled to order the meeting of the Council, noting the presence of all Councilmembers. The\nMayor announced the purpose of the meeting was to go into executive session pursuant to\nArticle 6252-17, Texas Revised Civil Statutes Annotated, to discuss matters of land\nacquisition, litigation, and for personnel matters. No final action, decision or vote by\nthe City Council will be taken on any subject or matter unless specifically listed on the\nagenda for this meeting.\n1. Personnel Matters\n(a)\n-\nSection 2, Paragraph g\nEvaluation of the City Manager\nCouncil recessed its meeting for executive session at 2:25 p.m. and resumed its recessed\nmeeting at 7:50 p.m.\nMotion - DIED FOR LACK OF SECOND\nCouncilmember Nofziger made a motion to remove the City Manager, Jorge Carrasco. MOTION\nDIED FOR LACK OF A SECOND.\nMotion\nThe Council, on Mayor Pro Tem Trevino's motion, Councilmember Humphrey's second, voted to\nretain Jorge Carrasco as City Manager. (6-1 Vote, with Councilmember Nofziger voting No.)\nCouncil adjourned its meeting at 7:51 p.m."
 }

@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **Urgent Gathering:** Austin city officials convened a special emergency meeting on short notice.\n*   **Private Discussions:** The meeting's announced purpose was to immediately enter a closed-door executive session.\n*   **Confidentiality Maintained:** This private session was authorized by specific Texas state laws, allowing for confidential discussions on sensitive matters.\n*   **Public Accountability:** While the discussions were private, any final decisions or votes stemming from the executive session would be publicly announced and acted upon in open session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": ":\n=CITY OF AUSTIN, TEXAS\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Emergency Council Meeting\nMay 20, 1981\n10:00 Α.Μ.\nCouncil Chambers\n301 West Second Street\nThe meeting was called to order with Mayor McClellan presiding. Roll Call: Present: Mayor\nMcClellan, Councilmembers Cooke, Goodman, Himmelblau, Mullen\nAbsent:\nMayor Pro Tem Trevino, Councilmember Urdy Mayor McClellan opened the meeting scheduled for\n10:00a.m., stating that this was a Special Emergency Meeting of the City Council for the\npurpose of publicly announcing that it will convene in a closed or executive session.\nauthorized by Section 2, Paragraphs (e), (f) and (g) of Article 6252-17, Texas Revised\nCivil Statutes Annotated; and after such closed or executive session any final action,\ndecision or vote with regard to any matter considered in the closed or executive session\nwould be made in open session, should such action, decision or vote be necessary.\nMayor McClellan announced that the Council would go into executive session at this time to\nconsider the items authorized in Section 2, Paragraphs (e), (f) and (g) of Article\n6252-17, Texas Revised Statutes Annotated. ATTEST:\nGrace Mouse\nCity Clerk\nAPPROVED ellen\nMayor"
 }

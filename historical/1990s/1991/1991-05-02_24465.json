@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin officials held a special meeting to discuss proposed Environmental Charter Amendments.\n*   A resolution was officially adopted opposing these Environmental Charter Amendments.\n*   The decision passed with a 4-2 vote, indicating some internal disagreement on the policy.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - MAY S, 1991\n9:00 A.M.\nMayor Cooke called to order the Special Called Meeting of the Council, noting the absence\nof Mayor Pro Tern Urdy. The Mayor announced the purpose of the meeting vas to consider\nadopting a resolution opposing the Environmental Charter Amendments.\nMotion\nThe Council, on Councilmember Larson's motion, Mayor Cooke'6 second, adopted a resolution\nopposing the Environmental Charter Amendments. 4-2 Vote, Councllmembers Carl-Mitchell and\nNofziger voted No, Mayor Pro Tern Urdy absent. Adjournment\nThe meeting vas adjourned at 9:26 A.M."
 }

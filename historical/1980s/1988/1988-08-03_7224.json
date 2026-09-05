@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **Budget Focus:** The meeting was a worksession dedicated to the city's 1988-89 operating budget, including a review of projected property and sales tax revenues.\n*   **Proposed Layoffs:** A significant report detailed a proposal for the layoff of 271 city employees.\n*   **Hospital Funding:** Discussions addressed information concerning uncompensated care at Brackenridge Hospital, a key public health issue.\n*   **Infrastructure Costs:** Councilmembers reviewed specific financial items, including cost figures for a \"south sub-station\" and a request for a legal opinion on renegotiating its lease.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "こ\n-\nY OF AUST\nAustin City Council\nMINUTES\nFor SPECIAL CALLED MEETING\nCouncil Chambers. 307 West Second Street, Austin, Texas 9:00 Α.Π.\nAugust 03, 1988-\nMayor Cooke called to order the special called meeting of the Council at 1:30 P.M., noting\nthe presence of all Councilmembers. Mayor Cooke stated the purpose of the meeting was a\nworksession on the Operating Budget for 1988-89.\nSarah Farley, Budget Director, and Susan Tully presented the revenue analysis. They\nreviewed projected property tax and sales tax revenues.\nJoe Canales presented a report on proposed lay-off of 271 employees.\nJohn Ware, Acting City Manager, presented the uncompensated care information concerning\nBrackenridge Hospital.\nMayor Cooke then announced Council would begin hearing the budget statement from each City\ndepartment. Building Safety: Mike Heits and Kathy Rodgers explained the budget for the\nBuilding Safety Department.\nMayor Pro Ten Shipman requested cost figures for the south sub-station and asked for a\nlegal opinion concerning re-negotiation of the lease.\nRECESS\n-\nCouncil recessed its meeting from 3:22 p.m. to 4:30 p.. to continue the other meeting\nscheduled for 9:00a.m. this date.\nMEETING RESUMED AND THEN ADJOURNED\nThe meeting was resumed at 4:30p.m. with more of the budget worksession. Council adjourned\nits meeting at 5:00 p.m."
 }

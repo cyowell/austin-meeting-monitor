@@ -10,15 +10,6 @@
   "ocr_source": "claude-sonnet-4-6",
   "summary": "• **Tax Roll Approved**: The city council reviewed and approved the tax assessment roll after identifying and agreeing to correct several errors in the records.\n\n• **No Public Complaints**: Despite advertising the meeting for ten days to invite citizen input, no complaints were filed against the tax assessments.\n\n• **Administrative Corrections**: The mayor agreed to make necessary adjustments to fix errors found in the tax roll before final implementation.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "19\n\nThe following called meeting\nhaving been Advertised ten days by Posters being put up in various portions of the City.\nCalled Meeting of the City Council\nMay the 16th 1876\nCalled for the purpose of hearing Complaints and receiving Tax Roll. Present His Honor the\nMayor in the Chair. The Roll called Aldermen present, Aldermen\nPalen, Gonschke, Collins and Fox, Rolls examined, No complaints made, Some corrections of\nerrors were considered necessary, which His Honor the Mayor agreed to have made, Otherwise\nthe Rolls were approved\n\na O. Stone\nRecorder\n\n"
 }

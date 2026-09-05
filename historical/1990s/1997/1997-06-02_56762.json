@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The Austin City Council held a special meeting to officially review and approve the results of the May 31, 1997, Municipal Runoff Election.\n*   Council confirmed Bill Spelman as the winner for Place 5 and Willie Lewis as the winner for Place 6.\n*   The meeting was brief, concluding swiftly after the election results were formally accepted.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nJUNE 2,1997\nMayor Todd called the meeting to order, noting the absence of Councilmembers Griffith,\nReynolds and Slusher.\n1.\nCanvass results of Municipal Runoff Election of May 31, 1997.\nMotion to approve May 31, 1997, Runoff Election: Bill Spellman to Place 5, and Willie\nLewis to Place 6, on Councilmember Mitchell's motion, Mayor Pro Tern Garcia's second, 4-0\nvote, Councilmembers Griffith, Reynolds and Slusher absent.\nADJOURNED at 10:03 a.m. on, Mayor Pro Tern Garcia's motion, Councilmember Mitchell's\nsecond, 4-0 vote, Councilmembers Griffith, Reynolds and Slusher absent.\nApproved on this the 26th day of June, 1997, on Mayor Pro Tern Garcia's motion,\nCouncilmember Spelman's second, 7-0 vote."
 }

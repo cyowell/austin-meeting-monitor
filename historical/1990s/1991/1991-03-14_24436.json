@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Special Closed-Door Meeting**: The Council convened for a private executive session to discuss sensitive topics.\n*   **City Manager's Performance Review**: A primary focus was the annual performance evaluation of the City Manager.\n*   **Strategic Discussions**: Council members also held confidential discussions regarding potential land acquisitions and ongoing legal matters.\n*   **No Final Decisions**: No final votes or policy decisions were made on any of the discussed items during this session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - March 14, 1991\nEXECUTIVE SESSION - 10:00 A.M.\nMAYOR'S OFFICE\nHayor Cooke called to order the special called neeting of the Council, noting the presence\nof all members of the Council.\nHayor Cooke announced Council vould go into executive session, pursuant to Article\n6252-17, Texas Revised Civil Statutes Annotated, to discuss natters of land acquisition,\nlitigation and for personnel natters. No final action, decision or vote by the City\nCouncil vill be taken on any subject or natter i j unless specifically listed on the\nagenda for the meeting.\n1. Personnel Matters - Section 2, Paragraph e a. Annual performance review of the City\nManager\nThe meeting vas adjourned at 12:12 P.M."
 }

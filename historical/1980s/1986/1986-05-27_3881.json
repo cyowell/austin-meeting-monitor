@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin held a special meeting focused solely on a public hearing for a proposed waste-to-energy facility.\n*   Despite the significant nature of the project, no citizens formally signed up to speak during the public hearing.\n*   City staff, led by the Public Works director, answered questions from Council members and two citizens who attended.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nMay 27, 1986 - 7:30 P.M. - SPECIAL CALLED MEETING\nEAST AUSTIN MULTI-PURPOSE CENTER\nCouncil Chambers, 307 VSfest Second Street, Austin, Texas City Council\nFrank C.Cooksey\nMayor\nJohn Trevifio, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\n. Jorge Carrasco\nCity Manager\n^ Hden Aldridge\nCity Clerk\nMemorandum To:\nMayor Pro Tern Trevino called to order the Special Called Meeting of the Council. Mayor\nCooksey entered the meeting later and Councilmembers Rose and Urdy were absent.\nThe purpose of the meeting was to hold a public hearing on the proposed waste-to-energy\nfacility.\nNo one appeared to speak. Richard Ridings, director of Public Works, and other staff\nmembers answered question asked by Councilmembers and two citizens. The citizens were\nConnie Moore and Hortencia.'. Ranger.\nThe meeting was adjourned at 9 p.m."
 }

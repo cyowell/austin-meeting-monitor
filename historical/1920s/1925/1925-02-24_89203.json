@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City officials reviewed and filed administrative reports from various departments, including Water, Light & Power, and United Charities.\n*   A special meeting was convened to resolve an error in the 1922 property tax assessments.\n*   A tax exemption was granted to the First Methodist Church for the portion of its property dedicated solely to religious worship.\n*   The tax valuation for the church's parsonage property was consequently reduced from $13,310 to $3,500.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "388\nHospital, Miss Nellie M. Hall, Secretary United Charities, W. R. Davis, Bookkeeper Sewer\nDepartment, and J. N. Littlepage, City Marshal, were read and ordered filed.\nThe report of C. N. Avery, Superintendent Water, Light and Power Department, for the year\n1924, was read and ordered filed.\nThe Council then recessed.\nSPECIAL MEETING OF THE CITY COUNCIL:\nAustin, Texas, February 24,1925.\nThe Council was called to order by the Mayor. Roll call showed the following members\npresent: Mayor Yett, Councilmen Haynes and Searight, 3; absent, Councilmen Avery and\nNolen, 2.\nThe Mayor introduced the following resolution: WHEREAS, the Tax Rolls and records of the\nCity of Austin for the year 1922 show Lots Nos. 1, 2 and 3 in Block No. 148 assessed by\nthe City Tax Аввеввот for taxes for said year 1922 in the name of \"Parsonage, First\nMethodist Church\" at a total valuation of $13,310.00; and WHEREAS, it has been shown to\nthe Council that the South 110 feet of said lots belong to the First Methodist Church,\ndedicated and used solely for purposes of religious worship; and that no part of said\nsouth 110 feet of said lots has ever been used for parsonage purposes; now, therefore, BE\nIT RESOLVED BY THE CITY COUNCIL OF THE CITY OF AUSTIN, TEXAS: That the City Assessor and\nCollector of Taxes be and is hereby instructed to correct the said Tax Rolls and Records\nof his office for the year 1922 to show the south 110 feet of Lots Nos. 1. 2 and 3 in\nBlock No.148 \"exempt\" in the name of First Methodist Church, leaving only the north 50\nfeet of said lots assessed in name of \"Parsonage\", First Methodist Church\", at a valuation\nof $3500.00.\nThe above resolution was adopted by the following vote: Ayes, Mayor Yett, Councilmen\nHaynes and Bearight, 3; nayes, none, Councilmen Avery and Nolen absent.\nThe Council then adjourned.\ntornaby\nbigpelers\n1"
 }

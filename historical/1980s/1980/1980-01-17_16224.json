@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting was immediately called to order for focused deliberation on specific issues.\n*   The entire session was conducted behind closed doors, designated as a confidential executive meeting.\n*   Discussions in this private session likely covered sensitive topics such as personnel appointments/reviews, security deployments, or ongoing legal cases and employee complaints, as permitted by state law.\n*   Any final decisions or votes made during the executive session were committed to be announced publicly.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMinutes\nFor\nJanuary 17, 1980\nSPECIAL CALLED MEETING\nCouncil Chambers, 301 West Second Street, City of Austin\nCity Council\nCarole Keeton McClellan\nMayor\nCouncil Members\nLee Cooke\nRichard Goodman\nBetty Himmelblau\nRon Mullen\nJimmy Snell\nJohn Trevino, Jr.\nDan H. Davidson\nCity Manager\nGrace Monroe\nCity Clerk\nMemorandum To:\nMayor McClellan called the Special Called Meeting of the Council to order at 5:30P.M.,\nnoting the presence of all members, and announced that Council will convene in a closed or\nexecutive session authorized by Section 2, Paragraphs (e), (f) and (g) of Article 6252-17,\nTexas Revised Civil Statutes annotated; and after such closed or executive session, any\nfinal action, decision or vote with regard to any matter considered in the closed or\nexecutive session will be made in open session, should such action, decision or vote be\nnecessary."
 }

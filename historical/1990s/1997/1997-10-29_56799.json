@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The meeting was a special session exclusively dedicated to a public hearing on the proposed annexation of the Davenport Area.\n*   City officials presented information and detailed service plans related to the potential annexation.\n*   A significant number of citizens (78) registered to speak, highlighting substantial public interest and input.\n*   The public hearing concluded after citizen testimony, with no immediate decision on the annexation made at this meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nOCTOBER 29,1997-6:30 P.M.\nMayor Watson called the meeting to order, noting the absence of Councilmember Lewis.\nPublic Hearing on annexation of Davenport Area.\nAssistant City Manager Toby Futrell presented areas of information on the annexation\nissues and where these could be located.\nSeveral department directors and assistant directors presented the different areas of the\nservice plan.\n78 Citizens signed appearance cards (on file in City Clerk's Office) Close the public\nhearing on Mayor Pro Tern Garcia's motion, Councilmember Slusher's second, 6-0 vote,\nCouncilmember Lewis absent.\nADJOURNED at 9:50 p.m. on Councilmember Slusher's motion, Mayor Pro Tern Garcia's second,\n6-0 vote, Councilmember Lewis absent.\nApproved on this the 20th day of November, 1997 on, Councilmember Spelman's motion,\nCouncilmember Lewis' second, 7-0 with Mayor Pro Tern Garcia abstaining on Special Called\nmeeting of November 12,1997."
 }

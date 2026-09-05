@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin leaders convened a special, private meeting to discuss ongoing legal challenges.\n*   The primary agenda item was sensitive pending litigation involving the City and Houston Lighting and Power Company.\n*   Discussions included two specific lawsuits: one where Austin was suing Houston Lighting and Power, and another related case in Matagorda County.\n*   All council members were present for the confidential executive session to address these legal matters.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - May 20, 1985 - 12 NOON\nCONFERENCE ROOM - MUNICIPAL BUILDING\nCouncil Chambers, 307 VNfest Second Street, Austin, Texas City Council\nFrank C.Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nMayor Cooksey called to order the Special Called fleeting of the Council scheduled for\n12:00 noon in the third floor conference room of the Municipal Building.\nThe Mayor announced the purpose of the meeting as for the City Council to convene in a\nclosed or xecutive session authorized by Article 6252-17, Texas Revised Civil Statutes\nAnnotated, to discuss the ollowing and any action to be taken will be done in pen meeting:\na. Pending Litigation - Houston Lighting\nand Power, et al vs Brown and Root,\net al in Matagorda County, and City of\nAustin vs Houston Lighting and Power\nCompany in Travis County - Section 2,\nParagraph e.\nMayor Cooksey noted the presence of all\nouncilmembers."
 }

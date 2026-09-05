@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **Real Estate Transactions:** Discussions concerning specific property transactions and related policy.\n*   **\"Special Melay\" Agenda Item:** Consideration of an item or event referred to as \"Special Melay.\"\n*   **July Operational Review:** Review of transactions or gross figures from city operations during July.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Special Melay\nJuly at gros.!!\nto transaction;\neal estate ba"
 }

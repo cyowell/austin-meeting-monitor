@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The city officially confirmed the results of the May 3rd municipal election, declaring Gus Garcia as the winner for Place 2.\n*   Due to no candidate securing a majority, run-off elections were deemed necessary for City Positions 5 and 6.\n*   An ordinance was approved to schedule these crucial run-off elections for May 31st.\n*   Voters will choose between William Spelman and Manuel Zuniga for Place 5, and Eric Mitchell and Willie C. Lewis for Place 6.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nMAY 5,1997\nMayor Todd called the meeting to order, noting the absence of Councilmembers Griffith and\nSlusher.\n1.\nCanvass results of General Municipal Election of May 3,1997.\nMayor Todd announced the results of the election: Gus Garcia, elected to Place 2. A\nrun-off will be held for Place 5 and Place 6.\n2.\nConsider an ordinance calling a Municipal Run-off Election for May 31, 1997.\nOrdinance No. 970505-A approved for a Municipal Run-off Election, May 31 between, William\nSpelman and Manuel Zuniga Place 5 and between Eric Mitchell and Willie C. Lewis Place 6\non, Mayor Pro Tern Garcia's motion, Councilmember Mitchell's second, 5-0 vote,\nCouncilmembers\nGriffith and Slusher absent.\nADJOURNED at 10:15 a.m. on, Mayor Pro Tern Garcia's motion, Councilmember Mitchell's\nsecond, 5-0 vote, Councilmembers Griffith and Slusher absent.\nApproved on this the 10th day of July on, Councilmember Spelman's motion, Mayor Pro Tern\nGarcia's second, 7-0 vote."
 }

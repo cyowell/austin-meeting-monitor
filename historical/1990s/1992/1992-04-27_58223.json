@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin city leaders convened a special meeting to discuss the future of air travel and airport infrastructure.\n*   The primary focus was a detailed presentation on aviation demand forecasts for the potential conversion of Bergstrom Air Force Base into a commercial air carrier airport.\n*   This meeting marked a significant step in the city's evaluation of developing a new major airport to meet future travel needs.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - April 27, 1992\nCOUNCIL'S AVIATION SUBCOMMITTEE - 4:00 P.M.\nMayor Pro Tern Urdy called to order the meeting of the Council's Aviation Subcommittee,\nnoting the presence of Mayor Todd and all members of the Council vith the exception of\nCouncilmembers Epstein and Nofziger.\nMayor Pro Tern Urdy announced the purpose of the meeting vas to hear a presentation of\nAviation Demand Forecasts for an Air Carrier\nAirport at Bergstrom AFB.\nMr. Bill Dunlay, KPMG-Peat Marvlck Airport Consulting Services, presented the report to\nCouncil. A copy is on file in the City Clerk's office, together vith a transcript of the\nmeeting.\nThe meeting vas adjourned at 5i35 P.M.\nMINUTES\n1\n4/27/92\nf >"
 }

@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   An emergency meeting was called to enter into an executive session, discussing sensitive topics behind closed doors.\n*   The confidential discussions covered matters related to land acquisition, ongoing litigation, and various personnel issues.\n*   A key focus of the executive session involved the search process for a new City Manager.\n*   No final public decisions or votes were taken on any of these subjects during this emergency session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nMarch 09, 1988 - 6:30 P.M. - EMERGENCY MEETING THIRD FLOOR CONFERENCE ROOM - MUNICIPAL\nMEETING Council Chambers, 307 lAfcst Second Street, Austin, Texas Memorandum To: Mayor\nCooksey called to order the meeting of the Council, noting the presence of all\nCouncllmembers.\nMayor Cooksey announced the purpose of the Emergency Special Called Meeting was to enter\ninto executive session pursuant to Article 6252-17* Texas Revised Civil Statutes Annotated\nto discuss matters of land acquisition* litigation, and for personnel matters.\nNo final action* decision or vote by the City Council will be taken on any subject or\nmatter unless specifically listed on the agenda for this meeting.\n1. Personnel Matters —Section 2,.Paragraph\" e a. City Manager Search Council met in\nexecutive session from 6:55 P.M. to 8:00 P.M.* at which time they adjourned."
 }

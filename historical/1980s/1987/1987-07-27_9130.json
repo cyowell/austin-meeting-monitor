@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was held, almost entirely conducted in a private executive session.\n*   The closed-door discussions covered ongoing litigation, potential land acquisitions, and personnel matters.\n*   Specifically, the \"City of Austin v. Houston Lighting and Power\" lawsuit was a key topic.\n*   No public votes or final policy decisions were made during this brief meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING - July 27, 1987 - 3:00 P.M 3RD Floor Conference Room, Municipal\nBuilding Council Chambers, 307 W-sl Second Slrerl, Austin, Texas Memorandum To: Mayor\nCooksey called to order the special meeting of the Council, noting the presence of\nMembers.\nThe Mayor announced Council will\nExecutive Session pursuant to Article 6252-17, Revised Statutes Annotated, to discuss\nmatters called\nall Council\ngo into\nTexas\nof land\nacquisition, litigation, and for personnel matters. No final action, decision or vote by\nthe City Council will be taken on any subject or matter unless specifically listed on the\nagenda for this meet ing.\n1. Pending Litigation - Section 2, Paragraph e (a) City of Austin v. Houston Lighting and\nPower Council recessed its meeting at 3:01 p.m. for executive session, resumed its\nrecessed meeting at 5:14 p.m and adjourned the meeting at 5:15 p.m."
 }

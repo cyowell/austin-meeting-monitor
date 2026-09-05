@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "*   **Burning of Condemned Airplanes:** The council permitted the destruction of ten condemned airplanes by burning.\n*   **Property Line Disputes:** Consideration of affidavits concerning property lines for the \"Hooper\" Block.\n*   **Special Policeman Appointment:** Reviewing the status or appointment of O. A. Arnold as a special policeman.\n*   **Street Improvement Requests:** Addressing various citizen petitions for street work and repairs.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Rer` min\naffidavis in re\nproperty Lines of\n\"Hooper\" Block.\n\npetitions for\nstreet work\n\nO. A. Arnold\nSpecial Policeman.\n\nBurning of ten\ndemned airplanes\npermitted.\n\n"
 }

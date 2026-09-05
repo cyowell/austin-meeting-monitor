@@ -10,15 +10,6 @@
   "ocr_source": "claude-sonnet-4-6",
   "summary": "• **Bridge Project**: City Council convened to address filling in a bridge on East Pecan Street, indicating infrastructure maintenance needs in the city.\n\n• **Cemetery Fence Controversy**: Officials needed to resolve disputed questions regarding the cemetery fence, suggesting a disagreement among stakeholders about its construction or maintenance.\n\n• **Low Attendance**: With only 7 of 19 aldermen present, the council lacked a quorum and adjourned without conducting business, highlighting participation challenges in 1886 governance.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "418 A Called meeting of the City Council\n\nAustin Tex., May 12, '86.\nHon J M Robertson, Mayor, presiding.\nRoll Call. Present: Aldermen Pillow,\nWarren, Wortham, Holman, Cummings,\nWalker and Schuler; total, 7.\nAbsent - Aldermen Schneider, Metz, Anderson, Brush, Campbell, Caldwell, Giesen, Crocker,\nOdell, DeGress, Ervin, Jones; total 12.\nAlderman Walker moved that a Call of\nthe Council be made. Adopted.\nAlderman Schuler moved that the Call\nbe suspended. Adopted.\nMayor Robertson stated that the object of meeting was \"to take necessary action to\nprovided for filling in bridge on East Pecan Street; to determine some disputed questions\nin regard to the Cemetery fence; and to consider such other matters as may lay before\nyou\".\nA quorum not yet having arrived, a motion was made and adopted that the Council stand\nadjourned\nMilton Morris\nCity Clerk.\n\n"
 }

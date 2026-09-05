@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   Austin officials convened a special meeting to prepare for their main evening agenda.\n*   A significant portion of this session was dedicated to a private, closed-door executive meeting.\n*   This confidential meeting was held under specific state statutes, allowing discussion of sensitive matters away from public view.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "=CITY OF AUSTIN, TEXAS:\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nJanuary 24, 1974\n5:00 Ρ.Μ.\nElectric Auditorium\n301 West Avenue\nThe meeting was called to order with Mayor Butler presiding. Roll Call:\n70\nPresent:\nCouncilmen Dryden, Friedman, Handcox, Lebermann, Mayor Pro-tem Love, Mayor Butler\nAbsent:\nCouncilman Binder\nThe Mayor announced this was a Special Called Meeting of the City Council for the purposes\nof a Work Session for the City Council Agenda of January 24, 1974 at 7:00 P.M. and to\nannounce publicly that during the meeting it would convene in a closed or executive\nsession authorized by Section 2, Paragraphs (g) and (f) of Article 6252-17, Texas Revised\nCivil Statutes Annotated.\nThe Mayor announced that the Council would go into executive session at this time to\nconsider the items authorized by Section 2, Paragraphs (g) and (f) of Article 6252-17.\nAPPROVED\nRay Butler\nMayor\nATTEST:\nGrace Mouror\nActing City Clerk"
 }

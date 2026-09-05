@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   Austin residents gathered for a public hearing to discuss the city's 1990-91 operating budget, providing input on spending priorities.\n*   Major financial topics included whether to raise property taxes and a significant proposal to sell the city's Electric Utility to a private investor.\n*   Public feedback highlighted broad calls to reduce city staff and focus on essential services, alongside demands to restore library hours and increase environmental staffing.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "OFAUST\nFOURDIS\nAustin City Council\nMINUTES\nFor August 28, 1990 - SPECIAL CALLED MEETING\n- PUBLIC HEARING 1990-91 BUDGET\nMURCHISON MIDDLE SCHOOL CAFETERIA, 3700 NORTH HILLS DRIVE - 6:30 Ρ.Μ. 1 Mayor Cooke called\nto order the meeting of the Council, noting the absence of Councilmembers Carl-Mitchell\nand Nofziger. The Mayor announced the purpose of the meeting was to have a public hearing\non the 1990-91 Operating Budget. Mayor Cooke explained several items in the budget which\nwere illustrated with charts.\nSpeaker's cards are on file in the City Clerk's office. Topics of discussion were: Project\nCourage, a parking garage for the Senior Activity Center, support for a convention in\nAustin for National Commission for Women in 1991, leaving the tax rate as is or increasing\nit, Discovery Hall, cut out pencil pushers in City government, sell the Electric Utility\nto a private investor, electric rates, Sharir Dance Company, restore previous library\nhours, finish fixing Spicewood Springs Road from Loop 360 to Mesa, not enough zoning\ninspectors, cut Conservation Service Department, cut Council salaries, delete support for\nbikeway for Circle C, reduce City employees, out of town residents should pay higher golf\nfees, community education, everything in the budget should be cut, provide basics and not\nfrills, raises for employees as cost of living went up 5% last year, and increase the\nenvironmental staff.\nThe meeting was adjourned at 9:05 Ρ.Μ."
 }

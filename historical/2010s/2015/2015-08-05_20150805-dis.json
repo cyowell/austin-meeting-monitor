@@ -11,7 +11,14 @@
   "pdf_url": "https://services.austintexas.gov/edims/document.cfm?id=235462",
   "summary_source": "gemini-1.5-flash",
   "summary": "*   The meeting is dedicated to a \"Forward on Climate\" discussion.\n*   Council members will attend a press conference to publicly support the Clean Power Plan.\n*   No official actions, policy decisions, or votes will be taken at this session.",
-  "topics": [],
-  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, AUGUST 05, 2015 \n10:45 AM \nAUSTIN CITY HALL,  \n301 WEST SECOND STREET, AUSTIN, TX \n \n \n\u201cForward on Climate\u201d Discussion \n \nAgenda \n \n \n10:45 AM. \nAttend a press conference in support of the Clean Power \nPlan. \n \n \n \n \nA quorum of Council members may be present. No action will be taken.  \n \nThe City of Austin is committed to compliance with the American with Disabilities Act.  \nReasonable modifications and equal access to communications will be provided upon \nrequest.  Meeting locations are planned with wheelchair access.  If requiring Sign \nLanguage Interpreters or alternative formats, please give notice at least 4 days before the \nmeeting date.  Please call Dolores Gonzalez, City of Austin ADA Coordinator, at (512) \n974-3256 for additional information; TTY users route through Relay Texas at 711. \n",
+  "topics": [
+    {
+      "broad_topic": "Renewable & Clean Energy",
+      "sub_topic": "Renewable & Clean Energy - other",
+      "sentence": "Attend a press conference in support of the Clean Power Plan.",
+      "transcript_start_char": -1
+    }
+  ],
+  "transcript": " \n \n \n \nAUSTIN CITY COUNCIL \n \nCOUNCIL DISCUSSION \nWEDNESDAY, AUGUST 05, 2015 \n10:45 AM \nAUSTIN CITY HALL,  \n301 WEST SECOND STREET, AUSTIN, TX \n \n \n“Forward on Climate” Discussion \n \nAgenda \n \n \n10:45 AM. \nAttend a press conference in support of the Clean Power \nPlan. \n \n \n \n \nA quorum of Council members may be present. No action will be taken.  \n \nThe City of Austin is committed to compliance with the American with Disabilities Act.  \nReasonable modifications and equal access to communications will be provided upon \nrequest.  Meeting locations are planned with wheelchair access.  If requiring Sign \nLanguage Interpreters or alternative formats, please give notice at least 4 days before the \nmeeting date.  Please call Dolores Gonzalez, City of Austin ADA Coordinator, at (512) \n974-3256 for additional information; TTY users route through Relay Texas at 711. \n",
   "title_source": "gemini-1.5-flash"
 }

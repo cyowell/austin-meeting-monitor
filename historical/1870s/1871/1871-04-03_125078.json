@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **Brief Meeting**: The Austin City Council convened on April 3, 1871, with six of seven aldermen present, then immediately adjourned until April 6th.\n\n• **Road Conditions Crisis**: Residents petitioned the council to grade and pave West Pecan Street, describing the roadway from Congress Avenue to Shoal Creek as \"almost impassable.\"\n\n• **Community Action**: Multiple property owners along West Pecan Street formally requested the council take action through ordinance or other means to improve the deteriorating street conditions.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "61\nCity Council Room,\nAustin, April 03, 1871\nThe City Council met pursuant to adjournment. Present: His Honor, the Mayor, Aldermen:\nThos. Adams, J. Bremond, J. L. Dees, E. Eggleton, S. Messner, J. H. Robinson; -- Absent:\nHenry Brashear.\nOn motion of Aldermen S. Messner, the Council adjourned until April 6th, 1874\nJ. P. Eggleton, Recorder.\n\nCopy of Petition of C. S. West & alies for grading &C. West Pecan street.\nAustin, March 2nd 1874\nTo the Hon. the Mayor & Council of the City of Austin, Texas.\nThe Petition of the citizens & Property holders of the city residing on West Pecan street,\nrespectfully calls your attention to the condition of the street, to wit, on said street,\nfrom its intersection with Congress Avenue to the neighborhood of Shoal Creek, -- as not\nwhether they are almost impassable, they ask that the Council by ordinance or otherwise\nwill take the proper steps to grade and pave said street.\nC. S. West, David Dykts. Geo. Bremond J.H. Seale. L. Bremond J. Beall. W.W. Booth. W.R.\nHoward. E.J. Kingsburg. W.H. Parrish.\n\nA true and literal copy of the petition on file in this office. J. P. Eggleton\nRecorder.\n\n"
 }

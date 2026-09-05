@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was held to discuss proposed tax abatement guidelines for 1991-1993.\n*   The main agenda item focused on establishing new criteria for these economic incentives.\n*   This brief 15-minute session initiated talks on shaping future tax breaks for the city.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nOctober 28, 1991 - SPECIAL CALLED MEETING\nAUSTIN HISTORY CENTER - 11130 A.M.\nMayor Todd called to order the Special Called Meeting of the Council, noting the absence\nof Councilmembers Epstein and Nofsiger.\nMayor Todd announced the purpose of the meeting vas as follows: 1, Discussion on\nestablishment of tax abatement guidelines and criteria for 1991-93.\nA copy of the Recommended Revisions to Tax Abatement Guidelines is on file in the City\nClerk's office.\nAdjournment\nThe meeting was adjourned at li15 P.M.\nMINUTES\n1\n10/28/91"
 }

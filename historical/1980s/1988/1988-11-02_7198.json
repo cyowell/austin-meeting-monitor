@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The meeting was a special closed-door session held to discuss sensitive city matters.\n*   Discussions focused on potential land acquisitions, ongoing litigation (including a case against Houston Lighting and Power), and personnel issues.\n*   No final decisions, actions, or votes were taken on any of the discussed topics.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING - November 02, 1988 - 5:30 P.M THIRD FLOOR CONFERENCE ROOM -\nMUNICIPAL BUILDING Council Chambers. 307 West Second Street, Austin, Texas Mayor Cooke\ncalled to order the special called meeting of the Council, noting the absence of\nCouncilmember Urdy and Mayor Pro Tern Shipman.\nMayor Cooke announced the purpose of the meeting was to go into executive session pursuant\nto Article 6252-17, Texas Revised Civil Statutes Annotated, to discuss matters of land\nacquisition, litigation and for personnel matters.\nNo final action, decision or vote by the City Council will be taken on any subject or\nmatter unless specifically listed on the agenda for this meeting.\n1. Pending Litigation - Section 2, Paragraph e (a) City of Austin v. Houston Lighting and\nPower Council recessed its meeting for executive session at 5:35 P.M. and adjourned the\nmeeting at 7:10 P.M. No action was taken as a result of the executive session."
 }

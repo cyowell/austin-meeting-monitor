@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The Austin City Council convened a special meeting to discuss options for new city office space.\n*   Consultants recommended either purchasing \"One Texas Center\" or leasing \"Republic Plaza.\"\n*   Councilmembers debated these specific proposals and other potential properties.\n*   No final decision was made, with the action on office space postponed to a subsequent council meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - May 10, 1988 - 3:00 P.M.\nCouncil Chamber*. 307 ttbt Second Street. Awtin, T*XM Memorandum To: Mayor Cooksey called\nto order the meeting of the Council to consider Office Lease/Purchase Proposals.\nHe noted the absence of\nCouncilmember Humphrey.\nAnn Bradstreet, representing Alexander and Associates, presented their recommendations on\noffice leasing space proposals. Ms.\nBradstreet said they recommend buying One Texas Center or leasing the Republic Plaza.\nDiscussion continued concerning other properties.\nCouncil asked thtt this be posted for action on the May 12, 1988 Council Meeting agenda.\nADJOURNMENT\nCouncil adjourned its meeting at 5:15 P.M."
 }

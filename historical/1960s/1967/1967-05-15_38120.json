@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting was called to finalize any pending city matters.\n*   The primary agenda item was the formal inauguration and organization of the city's new leadership for the 1967-1969 term.\n*   This session marked the official swearing-in and setup for the incoming city administration, kicking off its two-year period.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "=CITY OF AUSTIN, TEXAS\nNOTICE OF SPECIAL MEETING\nTO THE MEMBERS OF THE CITY COUNCIL OF THE CITY OF AUSTIN: Notice is hereby given that a\nSpecial Meeting of the City Council of the City of Austin will be held on the 15th day of\nMay, 1967, at the Municipal Building, Eighth and Colorado, in Austin, Texas, at 10:00 A.M.\nfor the purpose of completion of unfinished business and Inauguration and Organization of\nthe 1967-1969 Council.\nS/ Elsie Woosley\nCity Clerk\nATTEST:\nS/ Elsie Woosley\nCity Clerk\nS/ Lester E. Palmer\nMayor\nCONSENT TO MEETING\nWe, the undersigned members of the City Council, hereby accept service of the foregoing\nnotice, waiving any and all irregularities in such service and such notice, and consent\nand agree that said City Council shall meet at the time and place therein named, and for\nthe purpose therein stated. S/ Travis LaRue\nS/ Emma. Long\nS/ Dick Nichols"
 }

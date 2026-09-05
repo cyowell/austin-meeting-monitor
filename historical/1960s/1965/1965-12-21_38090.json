@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   Austin city officials convened for a special meeting.\n*   The entire agenda was dedicated solely to considering various tax appeals.\n*   Officials gathered to review and make decisions on citizens' property tax disputes.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "心\n=CITY OF AUSTIN, TEXAS\nNOTICE OF SPECIAL MEETING\nTO THE MEMBERS OF THE CITY COUNCIL OF THE CITY OF AUSTIN: Notice is hereby given that a\nSpecial Meeting of the City Council of the City of Austin will be held on the 21st day of\nDecember 1965, at theMunicipal Building, Eighth and Colorado, in Austin, Texas at 2:30\nP.M. for the purpose of considering tax appeals.\ns/ Elsie Woosley\nCity Clerk\nATTEST:\ns/ Elsie Woosley\nCity Clerk\ns/ Lester E. Palmer\nMayor\nCity of Austin, Texas\nCONSENT TO MEETING\nWe, the undersigned members of the City Council, hereby accept service of the foregoing\nnotice, waiving any and all irregularities in such service and such notice, and consent\nand agree that said City Council shall meet at the time and place therein named, and for\nthe purpose therein stated. s/ Travis LaRue\ns/ Emma Long\ns/ Louis F. Shanks\ns/ Ben White"
 }

@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was held to review proposed budgets for the upcoming 1988-89 fiscal year.\n*   Presentations were given by key public services, including the Police Department and Fire Department, outlining their financial needs.\n*   Brackenridge Hospital also submitted its budget report, detailing funding requirements for city health services.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nAugust 17, 1988-9:00 A.M. - SPECIAL CALLED MEETING Council Chambers, 307 West Second\nStreet, Austin, Texas Mayor Cooke called to order the meeting of the Council, noting the\npresence of all Councilmembers. Mayor Cooke announced the purpose of the meeting was to\nhear more reports from departments concerning their proposed budget for FY 1988-89.\nReports were given by Chief of Police Everett for the Police Department; Fire Chief Bill\nRoberts for the Fire Department; Tom Young for Brackenridge Hospital.\nCouncil adjourned its meeting at 12:00 Noon."
 }

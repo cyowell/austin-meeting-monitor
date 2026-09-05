@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The city council voted 3-4 against continuing the **Brushy Creek Project**, effectively halting its progress.\n*   Discussions focused on **revising meeting procedures**, including setting new Tuesday meeting hours (3:00 PM - 7:00 PM), dedicating the first Tuesday of each month for board appointments, and considering 5:00 PM for zoning hearings.\n*   The necessity of **speaker sign-in cards** for public meetings was questioned as part of an effort to streamline discussions.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "1\nOFFAUST\nFOUNDID 1839\nAustin City Council\nMINUTES\nFor SPECIAL CALLED MEETING\nFOURTH FLOOR AUDITORIUM\nJuly 12, 1988 - 4:30 Ρ.Μ.\nCENTRAL LIBRARY\nCouncil Chambers, 307 West Second Street, Austin, Texas Mayor Cooke called to order the\nspecial called meeting of the Council, noting the presence of all Councilmembers. ITEM\nPOSTPONED Postponed until July 14, 1988 is a worksession on City debt and related issues.\nWORKSESSION - GILBANE UPDATE\nA worksession was held on the Gilbane Update. BRUSHY CREEK WORKSESSION During the\nworksession on Brushy Creek, the following motion was made:\n!\nMotion - FAILED\nCouncilmember Carl-Mitchell made a motion, seconded by Mayor Pro Tem Shipman to stay with\nthe Brushy Creek Project. Motion FAILED by a vote of 3-4, Mayor Cooke, Councilmembers\nHumphrey and Nofziger voted No.\nCOUNCIL MEETINGS\nBarustone\nMayor Cooke introduced an item to Council to discuss procedures and policies and other\nrelated issues relating to how City Council meetings are conducted. Mayor Cooke said the\nTuesday meetings will begin at 3:00P.M. and last no later than 7:00P.M. He said the first\nTuesday of each month should be set for board and commission appointments. Mayor Pro Tem\nShipman said Council should be notified when dignitaries are going to be present in the\nCouncil Chamber to receive proclamations.\nThere was also discussion concerning the setting of zoning hearings at 5:00 P.M. and Mayor\nPro Tem Shipman also questioned the necessity of sign-in cards for speakers at the\nmeetings. She thought that took up too much time.\nADJOURNMENT - Council adjourned its meeting at 6:15 P.M."
 }

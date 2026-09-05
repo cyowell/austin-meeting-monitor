@@ -10,15 +10,6 @@
   "ocr_source": "claude-sonnet-4-6",
   "summary": "• **Low Attendance:** Only 9 of 22 aldermen showed up to the meeting, with 13 absent—raising questions about quorum and council participation in the late 1800s.\n\n• **Quick Adjournment:** The council immediately moved to adjourn with no substantive business conducted, suggesting either a routine procedural meeting or lack of agenda items.\n\n• **Close Vote on Adjournment:** The motion to adjourn passed narrowly (5-4), indicating some disagreement among present members about whether to end the session.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "158\n\nThe minutes of a Regular Meeting of the City Council\nAustin, Texas, July 20, 1891.\nHan. Henry H. Linn, President of the Board of Aldermen, Presiding.\nRoll\nC.\n[Roll Called. Present: Aldermen Assmann, Carleton, Glass, Ketchum, Linn, Morris, Schuler,\nWingfield, Ziller 9.\nAbsent- Aldermen Anderson, Graham, Hume, Jackson, Nuston, Nitschke, North, Phillips,\nPlatt, Schneider, Suter, Townsend, Weyerman - 13.\n\nadjourned.\nAlderman Carleton moved that the Council stand adjourned, and the motion prevailed by the\nfollowing vote: Yeas- Aldermen Assmann, Carleton, Linn, Schuler, Ziller5.\nNays- Aldermen Glass, Ketchum, Morris Wingfield- 4. Milton Morris,\nCity Clerk.\n\n"
 }

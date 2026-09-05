@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Bergstrom Air Force Base's Future:** The Mayor reported on recent discussions in Washington D.C. regarding Bergstrom Air Force Base, a key military installation with significant local impact.\n*   **Improving City Services:** Discussions centered on enhancing \"Quality Customer Service\" for residents, exploring ways to make city services more efficient and responsive.\n*   **Urban Growth and Development:** Presentations covered critical topics like the city's \"Development Process\" and strategies for \"Housing and Code Development,\" crucial for managing Austin's growth and livability.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor SPECIAL CALLED MEETING - January 30, 1990 - llOO P.M. - ISSUE PAPERS WORKSESSION -\nFIRST FLOOR ASSEMBLY ROOM, TOWN LAKE CENTER Council Chamber*. 307 Wfcsl Second St««t,\nAustin. T«x« ' Mayor Cooke called to order the special called meeting of the Council,\nnoting the absence of Mayor Pro Tern Shipman and Councllmember Barnstone.\nBERGSTROM AXR FORCE BASE\nMayor Cooke presented his report on discussions in Washington, D.C. regarding Bergstrom\nAir Force Base. A copy of his statement is on file in the City Clerk's office.\nISSUE PAPERS\nThe Council heard presentations of Issue Papers for\n1. Quality Customer Service\n2. Development Process\n3* Housing and Code Development\nADJOURNMENT\nCouncil adjourned its vorksession at 3:26 P.M."
 }

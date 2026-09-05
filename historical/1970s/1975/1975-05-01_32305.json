@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting was convened exclusively to announce and then immediately enter a private executive session.\n*   This closed-door session was legally authorized for confidential discussions under specific state statutes.\n*   The Mayor assured the public that any final decisions resulting from these private discussions would be made public in an open session.\n*   Council members promptly proceeded into their private deliberations.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "CITY OF AUSTIN. TEXAS-\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nMay 01, 1975\n12:00\nNOON\nCouncil Chambers\n301 West Second Street\nThe meeting was called to order with Mayor Butler presiding. Roll Call: Present:\nCouncilperson Dr. Linn, Councilmen Binder, Friedman, Snell, Lebermann, Mayor Butler\nAbsent:\nMayor Pro Tem Dryden\nMayor Butler announced that this was a Special Called Meeting of the City Council for the\npurpose of publicly announcing that during the meeting it will convene in a Closed or\nExecutive Session authorized by Section 2, Paragraphs (e), (f), and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated; and after such closed or executive\nsession, any final action, decision, or vote with regard to any matter considered in the\nclosed or executive session would be made in open session, should such action, decision,\nor vote be necessary.\nMayor Butler announced that the Council would go into Executive Session at this time to\nconsider the items authorized by Section 2, Paragraphs (e), (f), and (g) of Article\n6252-17.\nATTEST:\nMonroe\nCity Clerk\nAPPROVED\nMayor"
 }

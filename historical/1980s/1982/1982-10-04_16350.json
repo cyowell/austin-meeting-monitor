@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   An emergency meeting was convened to address pressing city issues.\n*   The primary agenda item was a closed-door Executive Session to discuss pending litigation concerning the South Texas Project, a major utility matter.\n*   Important real estate issues affecting the city were also deliberated privately during this session.\n*   Any final decisions on these sensitive topics were to be made public in a later open session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nEMERGENCY SPECIAL CALLED MEETING\nEXECUTIVE SESSION - 7:00 P. M.\nCouncil Chambers, 301 West Second Street, Austin, Texas\n- October 04, 1982\nCity Council\nCarole Keeton McClellan\nMayor\nJohn Trevifio, Jr.\nMayor Pro Tern\nCouncil Members\nLarry Deuser\nRoger Duncan\nRichard Goodman\nRon Mullen\nCharles E. Urdy\nNicholas M. Meiszer\nCity Manager\nGrace Monroe\nCity Qerk\nMemorandum To:\nMayor McClellan called to order the Emergency Special Called Meeting of the Council at\n7:00 p.m., noting the absence of Councilmember Duncan, who arrived at 7:05 p.m.;\nCouncilmember Mullen, who arrived at 7:10 p.m.; and Coundlmember Goodman, who arrived at\n7:15 p.m. Mayor McClellan then announced that the Council will convene in a closed or\nExecutive'Session authorized by Section 2, Paragraphs (e) and (f) of Article 6252-17,\nTexas Revised Civil Statutes Annotated, to discuss the South Texas Project - pending\nlitigation and real estate.\nAfter such closed or Executive Session, any final action*, decision or vote with regard to\nany matter considered in the closed or Executive Session will be made in open session,\nshould such action, decision or vote be necessary."
 }

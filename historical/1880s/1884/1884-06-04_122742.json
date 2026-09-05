@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-pro",
   "summary": "• **Two consecutive meeting failures**: The Austin City Council called meetings on June 4th and 5th, 1884, but neither could proceed due to insufficient attendance—both lacked a quorum (enough members present to conduct business).\n\n• **Widespread absenteeism**: Multiple aldermen were absent during both sessions, preventing any official city business from being discussed or voted on.\n\n• **Immediate adjournments**: With no quorum present, the council was forced to adjourn both meetings without taking any action on city matters.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "545\n\nCalled meeting of the City Council\nAustin Dy June 04, 1884\n\nHon Jno Robertson\nPresident of the Council Presiding\nRoll call present. Aldermen Schneider\nFutor Fallow Hancock Campbell Odell Ervin absent Aldermen Wells, Schuber Underhill Maas\nDriskell Crooker Carrington Robertson Hill Brush and Brenner.\nNo Quorum Present\nOn Motion the Council adjourned\n\nCalled meeting of the City Council\nAustin Texas June 5th 1884\nHon Jno Robertson\nPresiding\nPresent Aldermen Schuber Underhill Driskell A S. Robertson Hill Platt Ervin Brush. absent\nAldermen Schneider Futor Fallow Hancock Odell Campbell Maas Crooker Odell Carrington and\nBrenner No Quorum Present\nOn motion the Council adjourned\nRead and approved June 16th 1884\nF K Purcell\nCity Clerk\n\n"
 }

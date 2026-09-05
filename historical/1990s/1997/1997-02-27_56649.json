@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special public hearing was held to address peace and safety issues affecting East Austin neighborhoods.\n*   Concerned residents directly presented their feedback and experiences to city officials during the meeting.\n*   The entire session was dedicated to gathering community input on these vital local matters.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nFEBRUARY 27,1997\nMayor Todd called the meeting to order, Councilmember Reynolds temporarily absent.\nPublic hearing on peace and safety in East Austin. (Councilmembers Daryl Slusher, Jackie\nGoodman and Mayor Pro Tern Gus Garcia)\nCouncil heard from concerned neighborhood citizens.\nADJOURNED at 9:15 p.m.\nApproved on this the 6th day of March, 1997 on, Mayor Pro Tern Garcia's motion,\nCouncilmember Goodman's second, 7-0 vote."
 }

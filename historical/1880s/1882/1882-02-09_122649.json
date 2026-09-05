@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-pro",
   "summary": "• **Election Qualification Discussion**: Council convened to address voter qualification rules ahead of an election scheduled for February 11th, though specific eligibility changes weren't detailed in the minutes.\n\n• **Debt Limit Increase Approved**: The council unanimously approved the mayor's election proclamation allowing the city to extend its debt limit, with 7 aldermen voting in favor and none opposed.\n\n• **Sparse Attendance**: Three of ten aldermen were absent from the meeting, limiting representation during these important financial and electoral decisions.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "78\nCalled Meeting of the City Council\nFebruary 09, 1882\nW A Dayton Mayor Presiding\nRoll call present alderman Kinney Schubert Brueggerhoff, Radkey Kupfurtz, Platt Wilson\nAbsent, Fritz, Cook & Moeller.\nCall of the Council read and is as follows.\nYou are hereby called to attend a called meeting of the City Council this Thursday evening\nat 7.30 P.M. for the purpose of considering the question of the qualification of voters at\nthe ensuing election on the 11th inst.\nOn motion of alderman Brueggerhoff the reading of the minutes of Feb. 6. was suspended.\nAlderman Platt moved that the instructions given in the Proclamation of the Mayor in\nregard to the election to extend the limit of the debt of the City are hereby approved by\nthe Council.\nAlderman Brueggerhoff call for the yeas and nays and the motion was carried by the\nfollowing vote Yeas aldermen Kinney Schubert Brueggerhoff, Radkey Kupfurtz, Platt and\nWilson Nays none\nAbsent Cook Fritz Moeller\nOn motion the Council adjourned\nT G Purnell\nCity Clerk\n\n"
 }

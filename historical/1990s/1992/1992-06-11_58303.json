@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin officials held a special, brief closed-door Executive Session for legal consultation.\n*   Discussions focused on sensitive matters including land acquisitions, pending lawsuits, and personnel issues.\n*   A specific lawsuit, *State of Texas v. City of Austin*, was among the legal items addressed.\n*   No final decisions or public actions were taken during this short meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "I\nr\"\nAustin City Council\nMINUTES\nSPECIAL CALLED MEETING - June 11, 1992\nOFFICE OF THE MAYOR - 11:00 A.M.\nMayor Todd called to order the meeting of the Council, noting the absence of Councilmember\nEpstein, Councilmember Reynolds and Mayor Pro Tern Urdy.\nMayor Todd announced Council would enter into Executive Session, pursuant to Article\n6252-17, Texas Revised Civil Statutes Annotated to receive advice from Legal Counsel, to\ndiscuss matters of land acquisition, litigation and personnel matters. No final action\nvill be taken on any subject or matter unless specifically listed on the agenda for this\nmeeting.\nPending/Contemplated Litigation - Section 2, Paragraph e Discussion of State of Texas v.\nCity of Austin, Cause No. 477.213 Council recessed for Executive Session from 11:10 to lit\n40 A.M. No action was taken.\nThe meeting was adjourned at 11:40 A.M.\nMINUTES\n1\n6/11/92"
 }

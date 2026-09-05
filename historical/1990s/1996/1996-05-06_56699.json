@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special session was convened to specifically address the recent municipal election outcomes.\n*   The official results from the May 4, 1996 General Municipal Election were reviewed and formally approved.\n*   The decision to validate the election results passed with a unanimous 6-0 vote from attending members.\n*   The meeting was exceptionally brief, concluding shortly after the single agenda item was addressed.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "TY OF\n日\nAUSTIN\nFOUNDED 1939\nAustin City Council\nMINUTES\n1.\nSPECIAL CALLED MEETING\nMay 06, 1996\nMayor Todd called the meeting to order, Councilmember Reynolds absent.\nCanvass results of General Municipal Election of May 4, 1996.\nMotion to approve results of General Municipal Election of May 4, 1966, on, Councilmember\nShea's motion, Councilmember Goodman's second, 6-0 vote, Councilmember Reynolds absent.\nADJOURNED at 2:45 p.m. on, Councilmember Goodman's motion, Councilmember Shea's second 6-0\nvote, Councilmember Reynolds absent.\nApproved on this the 16th day of May, 1996, on, Mayor Pro Tem Garcia's motion,\nCouncilmember Goodman's second, 5-0 vote, Councilmembers Shea and Reynolds temporarily\nabsent."
 }

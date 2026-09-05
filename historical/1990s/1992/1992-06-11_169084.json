@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The Austin Housing Finance Corporation Board approved a plan to finance a new student housing development.\n*   Funding for this project will be secured through the issuance of taxable bonds.\n*   The bonds are specifically designated to cover both the acquisition and necessary improvements for the student housing.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "•\nMINUTES OF THE\nAUSTIN HOUSING FINANCE CORPORATION\nBOARD OF DIRECTOR'S MEETING\nJune 11, 1992\nThe meeting was called to order at 3:37 p.m. by President Bruce Todd.\nPresent: Bruce Todd, Charles Urdy, Gus Garcia, Bob Larson Absent: Louise Epstein, Max\nNofziger, Ronney Reynolds\nAgenda Item No. One:\nApprove a resolution authorizing the issuance of taxable bonds to finance the acquisition\nof and improvements to a student housing development Motion The Board, on Board Member's\nUrdy's motion, and Board Member Garcia's second, approved resolution on 4-0-0 vote with\nReynolds, Nofziger, and Epstein absent\nMeeting adjourned at 3:42 p.m.\n1d/5304"
 }

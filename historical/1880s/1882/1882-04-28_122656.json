@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **Meeting called to order** – Mayor A.I. Taylor presided over a called meeting in Destin, Texas with all aldermen present, establishing a quorum\n\n• **Immediate adjournment** – Alderman Plank moved to adjourn the council, and the motion passed before any business was conducted\n\n• **No recorded agenda items** – The meeting minutes contain no documented discussion of policies, public hearings, or decisions",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "129\nCalled Meeting of the City Council\nDestin Texas April 28, 1882\nA I Taylor Mayor Presiding\nRoll call present Aldermen Spetz\nHenny, Stinson, Best, Hason, Plank, Alderman Brueggerhoff, Moeller, Cook, Worthy, Kenney A\nquorum present.\nOn Motion of Alderman Plank the\nCouncil adjourned\nI L Dimman\nCity Clerk\n\n\n --- Page break --- \n\n130\n[illegible]\n[illegible]\n[illegible]\n[illegible]\n[illegible]\n[illegible]\n[illegible]\nI [illegible]\n[illegible]\n[illegible]\n\n"
 }

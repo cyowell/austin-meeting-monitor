@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A local service called \"Community Bound\" requested emergency funding, stating their operations would cease without City support. No action was taken by the Council.\n*   A public hearing was conducted concerning the proposed City of Austin tax rate for the upcoming 1987-88 fiscal year.\n*   Consideration and approval of a nearly $200,000 contract for an Employee Assistance Program were postponed to a later date.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "[\nZALESOUN\n-\nSeptember 21, 1987\n-\n6 Ρ.Μ.\nAustin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Cooksey\ncalled to order the special called meeting of the Council, noting the presence of all\nCouncilmembers.\nMayor Cooksey said there were three people who wanted to speak concerning Community Bound.\nThe speakers asked for funds so they can continue. They said without City of Austin\nfunding, their service will have to discontinue. No action was taken by Council. PUBLIC\nHEARING\n-\nTAX RATE FOR FY 1987-88\nMayor Cooksey opened the public hearing set for 6:00 p.m. on the City of Austin Tax Rate\nfor fiscal year 1987-88.\n1\nRegistration cards for speakers at the hearing are on file in the City Clerk's office.\nCouncilmember Shipman announced, at 6:50 p.m., she would be leaving the Council Chamber to\nattend a forum on consolidation of elections.\nMotion\nThe Council, on Councilmember Carl-Mitchell's motion, Councilmember Urdy's second, closed\nthe public hearing.\n6-0 Vote, Councilmember Shipman absent.\nITEM CONTINUED\n:\nContinued to September 24, 1987 is consideration of approval of a twelve month contract\n(RFP) with Personal Performance Consultants, for an Employee Assistance\nProgram in the amount of $199,560.00.\nADJOURNMENT\nCouncil adjourned its meeting at 8:07 p.m."
 }

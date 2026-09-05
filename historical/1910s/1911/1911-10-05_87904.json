@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "*   **City Pays for Sidewalks:** An ordinance passed, allocating $760.14 to pay a contractor for constructing sidewalks and curbs in front of several private properties.\n*   **Traffic Laws Proposed:** A new ordinance was introduced to regulate street traffic, establish \"rules of the road,\" and set penalties for violations, marking an early step in formalizing urban traffic management.\n*   **Traffic Debate Postponed:** The proposed traffic regulation ordinance was read twice but then \"laid over,\" indicating it would require further discussion and consideration at a later meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Regular meeting of the City Council: Austin, Texas, Oct. 5th, 1911\n\nThe Council was called to order by the Mayor: Roll called:\n\nPresent Mayor Wooldridge, Councilmen Hart, Lockridge & Powell\n\nAbsent excused Councilman Bartholomew\n\nThe minutes of the last regular and subsequent recessed meetings were read and approved.\n\nUnfinished business\n\nThe Mayor laid before the Council an ordinance appropriating the sum of $760.14 for the\npurpose of paying Knox T. Johnson for constructing sidewalks and curbs in front of and\nabutting properties of the following named persons, viz.:\n\nEstate of Monroe Miller, E.M. Scarbrough, Estate of Jos Nalle, & P. Fleet, which was read\nthe third time and passed by the following vote:\n\nYeas Mayor Wooldridge, Councilmen Hart, Lockridge & Powell\n\nAbsent Councilman Bartholomew\n\nNew Business\n\nBy Councilman hart an ordinance to regulate traffic in and along the street and ways of\nthe City of Austin, and to establish rules of the road, and prescribing penalties for its\nviolation.\n\nThe ordinance was read the first time and the rule suspended and it placed on its second\nreading by the following vote:\n\nYeas mayor Wooldridge, Councilmen hart, Lockridge & Powell\n\nAbsent Councilman Bartholomew\n\nThe ordinance was read the second time and laid over.\n\nThe Council then recessed subject to call of the Mayor.\n\n"
 }

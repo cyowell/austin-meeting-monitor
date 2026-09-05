@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special Austin meeting was scheduled to discuss a major financial strategy for the city's utility system.\n*   The primary agenda item was to review a Request for Proposal (RFP) for the \"advanced refunding\" of Utility Revenue Bonds, a method often used to refinance debt.\n*   However, the formal meeting was canceled because only the Mayor attended, meaning no quorum was met by the City Council.\n*   Despite the cancellation, the Mayor and city staff held informal discussions regarding the important utility bond refinancing plans.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "MEETING SCHEDULED - NOT HELD - NO QUORUM\nDecember 21, 1981 - 1:30 P.M. - FIRST FLOOR CONFERENCE ROOM MUNICIPAL BUILDING Council was\nscheduled to hold a Special Called Council Meeting of the City of Council on December 21,\n1981 for the purpose of reviewing the Request for Proposal to be issued in connection with\nthe proposed advanced refunding of the City of Austin's Utility Revenue Bonds, Mayor.\nMcClellan was the only one present so no meeting was held because there was not a quorum.\nHowever, discussion was held between the Mayor and members of the staff."
 }

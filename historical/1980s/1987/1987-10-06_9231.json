@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **Gas Rate Hike Rejected:** City leaders unanimously voted to reject a proposed rate increase filed by Southern Union Gas Company.\n*   **State Intervention Authorized:** The city council directed staff to legally intervene at the Texas Railroad Commission in an ongoing case involving Southern Union Gas Company.\n*   This directive ensures city staff and consultants will represent Austin's interests in the pending \"environs case\" at the state level.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "YOLAUST\nAustin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING\nOctober 06, 1987 3:00 Ρ.Μ.\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Cooksey\ncalled to order the special called meeting of the Council, noting the absence of\nCouncilmembers Carl-Mitchell and Urdy and Mayor Pro Tem Trevino.\nCITY MANAGER REPORTS\nCity Manager reported on the Employee Placement Update. Jim Thompson, Dirctor of Electric\nUtility presented the Biweekly Wastewater Report.\nSOUTHERN UNTION GAS COMPANY CONSERVATION PROGRAM Motion The Council, on Councilmember\nNofziger's motion, Mayor Cooksey's second, rejected the rate filing by Southern Union Gas\nCompany submitted September 10, 1987. (4-0 Vote, Mayor Pro Tem Trevino, Councilmembers\nCarl-Mitchell and Urdy absent) Motion The Council, on Councilmember Shipman's motion,\nCouncilmember Nofziger's second, directed Don Butler and the rate consultants and the City\nstaff to intervene at the Railroad Commission in the environs case now pending. (4-0 Vote,\nMayor Pro Tem Trevino, Councilmembers Carl-Mitchell and Urdy absent)\nADJOURNMENT\nCouncil adjourned its meeting at 5:00 p.m."
 }

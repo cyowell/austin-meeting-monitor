@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin officials held a special meeting to workshop the city's operating budget for the upcoming 1988-89 fiscal year.\n*   Department heads presented proposed spending plans for key services, including Aviation, General Services, and Financial Services.\n*   Budget outlines for the city's Audit and Law departments were also reviewed during the session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - AUGUST 24,1988 - 9:00 A.M.\nCouncil Chambers, 307 West Second Street, Austin, Texas Mayor Cooke opened the special\ncalled meeting of the Council* noting the absence of Councilmembers Carl-Mitchell and\nUrdy. Mayor Cooke announced the purpose of the meeting was to hold a worksession on\nOperating Budget for FY 1988-89.\nTim Ward, Director of Aviation, reviewed the Aviation Budget. Jim Hall reviewed General\nServices. Financial Services budget was discussed by Earl Hoenes, acting director.\nStephen Klepper reviewed the Audit budget and Jonathan Davis, Acting City Attorney,\nexplained the Law Department's proposed expenditures.\nCouncil adjourned its meeting at 12:10 P.M."
 }

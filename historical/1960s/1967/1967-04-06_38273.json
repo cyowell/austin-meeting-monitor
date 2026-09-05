@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "It appears the agenda transcript provided is empty, containing only \"April 06, 1967 Regular\". To summarize the agenda, I need the actual content of the items discussed or planned for discussion. Please provide the full agenda transcript.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "•\nApril 06, 1967\nRegular"
 }

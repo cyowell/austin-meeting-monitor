@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City leaders held a work session to discuss the operating budget and capital improvement projects.\n*   A public hearing was scheduled for August 14th to discuss a new water conservation rate structure.\n*   Plans moved forward to consolidate municipal offices, with city management directed to prepare proposals based on a cost-benefit study.\n*   The Mayor requested an alternative plan for the office consolidation that would keep top city offices in the current municipal building.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "こ\nFOUNDED 1929\nAustin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING\n-\nAugust 05, 1986\n-\n4:00 Ρ.Μ.\nCity Council\nFrank C.Cooksey\nMayor\nJohn Treviño, Jr.\nMayor Pro Tem\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Cooksey\ncalled to order the special called meeting of the Council, noting the presence of all\nCouncilmembers.\nCIP.\nCouncil held a work session on Operating Budget/\nWater Conservation Rate Structure\nThe Council, by acclamation, adopted a resolution setting a public hearing on the Water\nConservation Rate Structure for August 14, 1986 at 7:00 p.m.\nConsolidation of Municipal Offices\nThe Council, on Councilmember Carl-Mitchell's motion, Councilmember Rose's second, adopted\na resolution accepting the results of a cost-benefit study of consolidation of certain\nmunicipal offices and directing the City Manager to begin preparation of requests for\nproposals. (5-0 Vote, Councilmembers Humphrey and Urdy out of the room.) Councilmember\nCooksey said he would like to see another scenario for the lease, assuming the Mayor and\nCouncil offices; management offices and budget offices remain in the current Municipal\nBuilding. Adjournment The Council adjourned its meeting at 6:00 p.m."
 }

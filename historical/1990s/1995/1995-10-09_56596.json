@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting was convened specifically to address the recent municipal election.\n*   The primary agenda item was to officially review and verify the results of the October 7, 1995, Special Municipal Election.\n*   Council members voted to officially approve the special election results, making them final.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "に\nC\nY OF AUSTIN\nFOUNDED 1839\nAustin City Council\nMINUTES\n1.\nApproved Minutes of City Council Meeting\nSPECIAL CALLED MEETING\nOctober 09, 1995\nMayor Todd called the meeting to order, noting the absence of Councilmember Mitchell.\nCanvass the results of the October 7, 1995, Special Municipal Election.\nApproved results of the October 7, 1995, Special Municipal Election, on Mayor Pro Tem\nGarcia's motion, Councilmember Reynolds' second, 5-0 vote, Councilmembers Mitchell and\nNofziger absent.\nADJOURNED at 3:48 p.m., on Councilmember Reynolds' motion, Councilmember Nofziger's econd,\n6-0 vote, Councilmember Mitchell absent.\nApproved on this the 19th of October 1995 on Councilmember motion, Councilmember Shea's\nsecond, 6-0 vote, Mayor Todd absent."
 }

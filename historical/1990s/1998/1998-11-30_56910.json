@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was convened to discuss acquiring or leasing property in downtown Austin for city offices.\n*   Councilmembers engaged in a discussion regarding potential downtown locations for city facilities.\n*   Despite the focused discussion, no formal action or policy decision was made on the downtown property issue.\n*   The meeting concluded swiftly, adjourning after the single agenda item was discussed.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nNOTICE OF SPECIAL CALLED MEETING\nNOVEMBER 30,1998\nMayor Watson called the meeting to order, noting the presence of all Councilmembers.\nDiscuss acquisition/lease of property in the downtown area for city offices.\nDiscussion held, no action taken.\nADJOURNED at 3:15 p.m. on Councilmember Lewis' motion, Councilmember Garcia's second, 5-0\nvote, Mayor Pro Tern Goodman and Councilmember Griffith out of the room.\nThese minutes were approved on February 17, 2000 on Mayor Pro Tern Goodman's motion,\nCouncil Member Garcia's second on a 5-0 vote. Council Member Lewis and Spelman were off\nthe dais."
 }

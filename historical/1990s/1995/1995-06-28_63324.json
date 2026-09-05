@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Austin's Budget in Focus:** City leaders held an initial review of a draft policy budget, setting the stage for future financial planning and allocations.\n*   **Future Agenda Planning:** Officials previewed proposed agenda items from the City Manager for an upcoming July 13th meeting, outlining the administration's priorities.\n*   **Council's Policy Input:** Councilmembers also put forth their own proposed agenda items for the next meeting, indicating areas of policy they wished to address.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nCITY COUNCIL WORKSESSION\nJUNE 28,1995\nMayor Todd called the meeting to order, noting the absence of Councilmember Shea.\nPREVIEW OF ITEMS FOR NEXT COUNCIL MEETING 1.\nReview of Proposed Agenda Items from City Manager for July 13,1995. 2.\nReview of Proposed Agenda Items from Council for July 13, 1995. BRIEFINGS AND DISCUSSIONS\n3.\nDRAFT POLICY BUDGET\nADJOURNED at 4:50 p.m.\nApproved with corrections on the following items: Item 48 and 49 Councilmembers Reynolds\nand\nGoodman present for the 5-0 vote; Item 60 Councilmember Goodman present for 7-0 vote, on\nthis the 13th day of July, 1995, on Mayor Pro Tern Garcia's motion, Councilmember\nGoodman's second, 6-0 vote, Councilmember Nofziger temporarily absent."
 }

@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was convened with the sole purpose of immediately entering a closed (executive) session.\n*   The Council announced it would deliberate privately, citing specific sections of Texas state law that authorize confidential meetings.\n*   No specific topics for discussion within the closed session were publicly detailed in this agenda, only the legal justification.\n*   Any final decisions or votes arising from the private session were slated to be made in a subsequent open meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "=CiTY OF AUSTIN. TEXAS:\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Called Council Meeting\nOctober 08, 1980\n4:00 P.M.\nCouncil Chambers\n301 West Second Street\nThe meeting was called to order with Mayor McClellan presiding Roll Call:\nPresent:\nMayor McClellan, Councilmembers Cooke, Goodman, Himmelblau, Mullen, Snell, Mayor Pro Tern\nTrevino Absent:\nNone\nMayor McClellan opened the meeting scheduled for 4:00 p.m., stating this was a Special\nCalled Meeting of the City Council for the purpose of publicly announcing that it will\nconvene in a closed or executive session authorized by Section 2, Paragraphs (e), (f) and\n(g) of Article 6252-17, Texas revised Civil Statutes annotated; and after such closed or\nexecutive session, any final action, decision or vote with regard to any matter considered\nin the closed or executive session will be made in open session, should such action,\ndecision or vote be necessary.\nMayor McClellan announced that the Council would go into executive session at this time to\nconsider the items authorized in Section 2, Paragraphs (e), (f) and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated.\nAPPROVED\nlayor\nATTEST:\nCity Clerk"
 }

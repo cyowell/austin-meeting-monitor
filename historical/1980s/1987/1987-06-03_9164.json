@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City leaders convened a special meeting dedicated exclusively to a worksession on the upcoming 1987-88 fiscal year budget.\n*   All council members were present for the two-hour discussion, held at the Central Library.\n*   The meeting focused solely on budget planning, with no other agenda items or policy decisions made.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING - June 03, 1987 - 3:00 P.M.\n4TH FLOOR AUDITORIUM - CENTRAL LIBRARY\nCouncil Chamber. 307 VNfest Second Street. Austin, Texas Memorandum To: Mayor Cooksey\ncalled to order the special called meeting of the Council, noting the presence of all\nCouncilmembers.\nMayor Cooksey announced the purpose of the meeting was to hold a worksession on discussion\nof the 1987/88 Budget Work Plan, which they did.\nCouncil adjourned its special called meeting at 5:00 p.m."
 }

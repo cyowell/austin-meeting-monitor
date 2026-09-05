@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "Here's a summary of a September 1987 Austin meeting:\n\n*   City officials discussed updates on employee placement and the potential for a new curfew at the airport.\n*   Council members debated a budget amendment aimed at cost-saving measures for irrigating the Jimmy Clay Golf Course, ultimately deferring the decision for a future report.\n*   The meeting concluded with a private executive session to discuss multiple pending lawsuits, including one involving Houston Lighting and Power, and the selection process for a Municipal Court Judge.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "i\nAustin City Council\nMINUTES\nFor SPECIAL CALLED MEETING\nSeptember 22, 1987 - 3:00 Ρ.Μ.\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Cooksey\ncalled to order the special called meeting of the Council, noting the absence of\nCouncilmember Humphrey. CITY MANAGER REPORTS City Manager reports on Employee Placement\nUpdate, presented by City Manager Carrasco; and Airport Curfew, presented by Airport\nDirector Tim Ward were heard by the Council.\nBUDGET AMENDMENT ORDINANCE DEFERRED\nCouncil had before them for consideration an ordiance to consider a budget amendment to\naccept a resolution by the Resource Management Commission regarding irrigation of Jimmy\nClay Golf Course to implement cost saving measures. After discussion and a motion by\nCouncilmember Shipman, which died for lack of a second, Council directed the City Manager\nto return with a report on October 27, 1987. EXECUTIVE SESSION Mayor Cooksey announced\nCouncil would go into executive session pursuant to Article 6252-17, Texas Revised Civil\nStatutes Annotated, to discuss matters of land acquisition, litigation and for personnel\nmatters. No final action, decision or vote by the City Council will be taken on any\nsubject or matter unless specifically listed on the agenda for this meeting.\n1. Pending Litigation - Section 2, Paragraph e (a) City of Austin v. Houston Lighting and\nPower (b) Overton et al v. City of Austin (d) Skinner v. City of\n(c) Water Treatment Plant #4\n2. Personnel Matters - Section 2, Paragraph g (a) Selection of a Municipal Court Judge\nRECESS AND ADJOURNMENT\nAustin\nCouncil recessed its meeting for executive session at 4:30 p.m. and adjourned its meeting\nat 6:05 p.m."
 }

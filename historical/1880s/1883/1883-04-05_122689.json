@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-pro",
   "summary": "• **Quorum Issues**: The council meeting on April 5, 1883 was severely understaffed, with only 3 of 11 aldermen present and 8 absent, raising questions about governance capacity in early Austin.\n\n• **Immediate Adjournment**: Rather than conduct business, the council voted to adjourn the meeting almost immediately, suggesting either lack of urgent matters or inability to proceed without more members present.\n\n• **Leadership Present**: Mayor W.A. Saylor presided over the brief session, with City Clerk J.S. Purnell recording the minimal proceedings.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "282\n\nCalled meeting of the City Council\nAustin Tex April 05, 1883\n\nHon W A Saylor mayor Presiding\n\nRoll call present aldermen Haitz.\nKinney and Wilson\n\nAbsent aldermen Lawrance\nschuber Brueggerhofft Mollen Radkey\nHaupperky & Bilh.\n\nOn motion the Council adjourned\n\nJ S Purnell\nCity Clerk\n\n"
 }

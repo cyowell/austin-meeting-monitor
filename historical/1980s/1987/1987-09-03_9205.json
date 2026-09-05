@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **Financial Oversight:** The City Manager provided a report on \"Letters of Credit,\" likely concerning municipal financial commitments or guarantees.\n*   **Major Project Update:** An update was presented regarding the \"Gilbane Contract,\" indicating progress or issues with a significant city construction or development project.\n*   **Concise Meeting:** This special session was notably brief, lasting only 37 minutes and focusing solely on the city manager's reports without other listed public hearings or policy decisions.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Mayor Cooksey\nMayor Pro Tem\nTrevino\nCouncilmembers\n:\nNofziger\nCarl-Mitchell\nShipman\nHumphrey\nUrdy\nFOUNDED 1.1.\nAustin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING - SEPTEMBER 3, 1987 - 5:00 Ρ.Μ.\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Cooksey\ncalled to order the meeting of the Council, noting the presence of all Councilmembers, at\n7:52 p.m.\nCITY MANAGER REPORTS\nCity Manager Carrasco presented City Manager Reports on Letters of Credit and Gilbane\nContract Update. ADJOURNMENT Council adjourned its meeting at 8:29 p.m. !\ni"
 }

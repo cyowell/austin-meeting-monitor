@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Focused on Homelessness:** A special meeting was convened specifically to address a critical appointment related to homelessness in Austin.\n*   **Key Appointment Confirmed:** Council members reaffirmed the appointment of Lori Renteria to the city's Task Force of the Homeless.\n*   **Unanimous Decision:** The appointment passed with a 4-0 vote among the council members present, concluding a brief 20-minute session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES^,,*\npnr\nJ&Sa&S 18, 1985 - SPECIAL CALLED MEETING\nror\n4:00 P.M. - 3RD FLOOR CONFERENCE ROOM - MUN. BLDG Council Chambers, 307 West Second\nStreet, Austin, Texas City Council\nFrank C.Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nHelen Aldridge\nCity Clerk\ni\n/\nMemorandum To:\nMayor Pro .Tern Trevino called to order the Special Called meeting of the Council* noting\nthe absence of Mayor Cooksey, Councllmember Rose and Councllmember Urdy. Mayor Pro Tern\ntrevlno announced the purpose of the meeting was to confirm one appointment for the Task\nForce of the Homeless.\nMotion\nThe Council* on Councllmember Humphrey's motion, Councllmember Carl-Mitchell's second,\nreaffirmed the appointment of Lori Renterla to Task Force of the Homeless (4-0 Voter Mayor\nCooksey, Councllmembers Rose and Urdy absent.)\nADJOURNMENT\nCouncil adjourned Its meeting at 4:20 p.m."
 }

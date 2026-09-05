@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **Hospital Funding Request** – Citizens petitioned the city council to approve increased funding for the local hospital\n\n• **Park and Cemetery Funds Established** – The council passed ordinances to create dedicated funds for both park development and cemetery maintenance\n\n• **Meat Market Refund Approved** – Excelsior Meat Market was granted a refund related to pound fees\n\n• **Tax Assessment & Fine Appeals Denied** – The council rejected petitions to reduce property assessments and remit fines, maintaining existing tax obligations",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Petition of Citizens\nasking liberal appro-\npriation for Hospital\n\nExcelsior meat Market\nto refund pound\n\nPetition for Dohlen to\nreduce assessment\nrefused\n\nPetition of J E Lame to\nremit fine refused\n\nOrdinance setting\naside Park fund\n\nAn ordinance setting\naside a Cemetery fund\n\n\n --- Page break --- \n\n321\n.The ordinance was read the second time and laid over until the next regular meeting .\nOn motion the Council adjourned.\nFrico Johnson City Clerk.\n\n"
 }

@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin leaders held an emergency meeting to address an urgent matter.\n*   They swiftly passed an ordinance to exempt specific, already-pending applications from a previously enacted regulation. This effectively allowed certain ongoing projects or permits to avoid new rules.\n*   The session was focused solely on this critical rule change, with no other major policy decisions, appointments, or litigation discussions occurring.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nEMERGENCY SPECIAL CALLED MEETING - October 21, 1985 3:00 P.M.\nCouncil Chambers, 307 V\\fesl Second Street, Austin, Texas City Council\nFrank C.Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncfl Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nMayor Cooksey called to order the meeting of the Council scheduled for 3:00 p.m., noting\nthe presence of all Councilmembers. ORDINANCE AMENDMENT The Council, on Councllmember\nRose's motion* Councilmember Humphrey's second, waived the requirement for three readings\nand finally passed an ordinance amending Ordinance No. 850523-J to exempt certain\napplications pending on the effective date of the ordinance. (7-0 Vote)\nRECESS AND ADJOURNMENT\nCouncil recessed its meeting for a work session and adjourned their meeting at 6:05 p.m.\nCouncil did not go into Executive Session, therefore took no action on board and\ncommission appointments or pending litigation."
 }

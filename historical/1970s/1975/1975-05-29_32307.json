@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting was convened at noon with the sole public purpose of announcing an immediate transition into a closed executive session.\n*   The council, led by Mayor Pro Tem Snell, entered the private session to discuss confidential matters as authorized by specific Texas state statutes.\n*   No public policy decisions, general business items, or public hearings were conducted during this special open meeting.\n*   Any final actions or votes resulting from the executive session were to be held during a subsequent open meeting, if necessary.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "CITY OF AUSTIN, TEXAS:\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nMay 29, 1975\n12:00 NOON\nCouncil Chambers\n301 West Second Street\nThe meeting was called to order with Mayor Pro Tem Snell presiding. Roll Call: Present:\nCouncilmembers Himmelblau, Hofmann, Lebermann, Linn, Trevino, Mayor Pro Tem Snell\nAbsent:\nMayor Friedman\nMayor Pro Tem Snell announced that this was a Special Called Meeting of the City Council\nfor the purpose of publicly announcing that during the meeting it will convene in a Closed\nor Executive Session authorized by Section 2, Paragraphs (e), (f), and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated; and after such closed or executive\nsession, any final action, decision, or vote with regard to any matter considered in the\nclosed or executive session would be made in open session, should such action, decision,\nor vote be necessary.\nMayor Pro Tem Snell announced that the Council would go into Executive Session at this\ntime to consider the items authorized by Section 2, Paragraphs\n(e), (f), and (g), of Article 6252-17.\nATTEST:\nCity Clerk\nAPPROVED\nMayor Pro Tem"
 }

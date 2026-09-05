@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "*   **Funding Future Austin:** The city approved municipal bonds, likely to finance significant public projects and development.\n*   **Business Sign Reviewed:** A specific request or issue concerning a sign for Sperry + Hutchinson, a well-known national retailer, was on the agenda.\n*   **Local Fine Issued:** A citizen identified as A. Hetzel was issued a fine, indicating enforcement of local ordinances.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Sperry + Hutchinson\nsign\nA Hetzel\nfine\nLeave absence\nW.P. Johnson\nBonds\nApproved\nSep 2 15\nMayor Pro tem\nJno. G. Johnson\n\n"
 }

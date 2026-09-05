@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **Main Decision:** The City Council approved the Austin Electric Railway Company's request to change its streetcar line routes across certain city streets.\n\n• **Meeting Details:** A special evening meeting was held on October 23, 1902, with 10 of 13 aldermen present to address the railway petition.\n\n• **Secondary Issue:** Council also considered (but the transcript cuts off details on) an ordinance about removing poles from certain streets, likely related to the railway infrastructure changes.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "725\nCalled meeting of the City Council\nAustin Texas October 23, 1902\nHon W. D. Shelley President of the Council, Presiding Roll Called.\nPresent Aldermen Crocken Low Meador Mortimer Nitschke Schneider Shelley Shunick Stumph\nVeit 10.\nAbsent Aldermen Davis Lunn & Redd 3.\nThe following Call of the Council was read.\nCall of Austin Texas Oct 23rd, 1902\nCouncil A Special meeting of the City Council is hereby called to convene in the Council\nChamber at 8 o’clock PM this day for the purpose of considering a petition of the Austin\nElectric Railway Company for permission to change its line of road on certain streets of\nthe City, and also to consider an ordinance requiring the removal of poles from certain\nstreets of the City. Hon W.D.\nShelley asking Mayor\nF.M. Waddell Alderman & Ward\nJ.F.D. Davis\nJas Nitschke\nFred Veit\nTheodor Low.\nI hereby Certify that all of the Aldermen has been served with a copy of this Call by\nhaving same read to them in person and a true copy was left at the office of Mr J.R.\nShunick he being out of the City.\nJ.R. Montgomery Jr\nCity Marshal\nAustin Electric By Alderman Nitschke Petition of the Austin Electric Railway to Railway\nCompany, asking permission to change its line of Change line road over certain Streets of\nthe City. The Petition was read and on motion was laid over to come up with a resolution\non the subject.\nBy Alderman Nitschke – Resolution granting the Austin Electric Railway Company permission\nto change its line of road over certain streets of the City.\nThe resolution was read and on motion was adopted\nOn motion the Council adjourned\nJ.O. Johnson\nCity Clerk\n\n"
 }

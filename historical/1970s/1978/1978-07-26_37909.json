@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The Austin City Council convened a special meeting to announce and approve entering into an executive (closed-door) session.\n*   This private meeting was authorized by specific sections of Texas law (Article 6252-17, Paragraphs (e), (f), and (g)), which typically cover sensitive topics like land deals, personnel issues, or legal consultations.\n*   Officials stated that any final actions or votes stemming from the executive session discussions would be publicly decided in an open meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "sClTY OF AUSTIN, TEXAS:\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Called Meeting\nJuly 26, 1978\n5:00 P.M.\nCouncil Chambers\n301 West Second Street\nThe meeting was called to order with Mayor McClellan presiding. Roll Call:\nPresent:\nMayor McClellan, Mayor Pro Tern Mullen, Councilmembers Snell, Cooke, Goodman, Himmelblau,\nTrevlno\nAbsent:\nNone:\nMayor McClellan opened the meeting,ssfcatiftgdthat this was a Special Called Meeting of\nthe City Council for the purpose of publicly announcing that it will convene in a closed\nor executive session authorized by Section 2, Paragraphs (e), (f) and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated; and after such tlosed or executive\nsession any final action, decision or vote with regard to any matter considered in the\nclosed session would be made in open session, should such action, decision or vote be\nnecessary.\nMayor McClellan announced that the Council would go into executive session at this time to\nconsider the Items authorized in Section 2, Paragraphs (e), (f) and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated. APPROVED\nMayor\nATTEST:s\nCT^y Clerk"
 }

@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Civic Center Site Discussion:** The primary focus of the meeting was a work session on potential locations for a new civic center, with consultants providing a detailed discussion.\n*   **Minority Procurement Report Postponed:** The City Council did not take up the City Manager's report regarding minority procurement initiatives.\n*   **Committee Appointments Delayed:** A resolution concerning the appointment of members to the Select Committee on Services and Spending was not addressed.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED COUNCIL MEETING\n4:00 P.M.\nCouncil Chambers, 307 Wfest Second Street, Austin, Texas - NOVEMBER 4,\n1986\nCity Council\nfrank C. Cooksey\nMayor\nJohn Trevifio, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\n-\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\n\\ j\nCity Clerk\nMemorandum To:\nMayor Cooksey called to order the special called meeting of the Council* noting the\nabsence of Councilmember Urdy.\nA work session was held on civic center site location. Jim Goluska and Bryan Bochner of\nSkidmore, Owings and Merrill discussed the site with Council.\nCouncil did not take up the City Manager report on Minority Procurement; nor the\nresolution to consider appointment of members to the Select Committee on Services and\nSpending; nor did they go into executive session.\nCouncil adjourned:its meeting at 6:00 p.m."
 }

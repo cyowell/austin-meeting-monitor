@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **Downtown Revitalization & Convention Center:** A key workshop topic centered on plans for revitalizing downtown Austin and exploring the development of a convention center.\n*   **Improving City Customer Service:** Discussions focused on enhancing the quality and efficiency of city services, including a video presentation and concepts of customer and staff empowerment.\n*   **Community and Business Empowerment:** The meeting highlighted positive feedback from local businesses (Motorola, Ami's Ice Cream) on city services and efforts to empower residents in the Blackshear neighborhood.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "i\n:\nJUSTIN\nPOUNDE\nAustin City Council\nMINUTES\nSPECIAL MEETING\nTOWN LAKE CENTER\n-\n-\nMARCH 4, 1992\n1:30 Ρ.Μ.\nMayor Todd called to order the Special Called Meeting of the Council, noting the absence\nof Mayor Pro Tem Urdy and Councilmember Epstein. The Mayor announced the purpose of the\nmeeting was to hold a worksession on the following: 1. Downtown revitalization/Convention\nCenter 2. Quality/Efficiency of Customer Service City Manager Barnett introduced the topic\nof \"Quality/Efficiency of Customer Service\", and announced the video presentation of\n\"Hidden Assets\".\nJim Smith, Director of Planning and Development, introduced Gene Stouter, Motorola, and\nAmi of \"Ami's Ice Cream\", both discussed their positive impressions as customers of the\nCity of Austin. Mr. Smith discussed empowerment and tailoring service to the customer. He\nillustrated with slides. Suzanne Pardo reported on what is being done in the Blackshear\narea with empowerment to help people take back their neighborhood.\nDowntown Revitalization/Convention Center was the next topic of discussion for the\nworksession. Jim Smith reported by means of slides. There vere questions and suggestions\nby members of the Council.\nThe meeting was adjourned at 4:00 Ρ.Μ.\nMINUTES\n1\n3/4/92\ni\n)\nC"
 }

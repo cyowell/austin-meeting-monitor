@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City leaders held a very brief meeting on Leap Day.\n*   The sole purpose was to formally adjourn a previously recessed session.\n*   No new business was discussed, and no policy decisions were made.\n*   The meeting concluded immediately, with no further actions taken.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "CITY OF AUSTIN, TEXAS\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nRecessed Meeting\nof\nFebruary 29, 1960\nMarch 1, 1960\nCOUNCIL CHAMBERS, CITY HALL\nMayor Miller called the recessed meeting to order. Roll Call: Present: Councilmen Bechtol,\nPalmer, Perry, White, Mayor Miller Absent: None The Council met briefly to adjourn\nformally the recessed meeting of February 29, 1960. No other action was taken. ADJOURNMENT\nThe Council then adjourned.\nATTEST:\nCity Clerk\nAPPROVED:\nMayor"
 }

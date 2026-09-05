@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "*   Acknowledged the return of Sergeant Elmer Tannehill, likely a soldier coming home from military service.\n*   Approved a budget transfer of $90 for the upkeep of the city's motorcycle police force.\n*   Addressed the ongoing influenza epidemic by discussing the provision of nurses for Austin's low-income residents.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Sergeant\nElmer Tannehill\nnotice of\nhis return.\n\nTrans. of $90.\nto upkeep of\nMotorcycle\npolicemen\n\nInfluenza epi-\ndemic:\nNurses for\nCity's poor.\n\nV. Martin\n\n"
 }

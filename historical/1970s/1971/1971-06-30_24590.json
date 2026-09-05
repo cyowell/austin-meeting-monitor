@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The Austin City Council convened a special meeting to discuss a new Parade Ordinance, aiming to regulate public marches and gatherings.\n*   During a public hearing, a citizen voiced strong opposition to the city potentially waiving fees for police protection during marches, arguing for mandatory payments and bonds to cover potential damages.\n*   The controversial proposed ordinance, centered on these debated fees and bond requirements, was tabled for further discussion at a future special meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "1,11\n=CITY OF AUSTIN, TEXAS=\nV\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nJune 30, 1971\n5:00 P.M.\nCouncil Chamber, City Hall\nThe meeting was called to order with Mayor Butler presiding. Roll Call: Present:\nCounoilmen Dryden, Nichols, Mayor Pro Tern Love, Councilmen Friedman, Handcox, Mayor\nButler Absent:\nCouncilman Lebermann\nMayor Butler announced that this was a Special Meeting called for the purpose of\nconducting a public hearing on the proposed Parade Ordinance.\nMr. Collins expressed his opposition to the cancelling of payment for police protection\nduring marches. In light of the risks of damage, he felt that marchers should be required\nto pay for police protection and to put up a bond for damage that might be done. He also\nsuggested that a group of citizens, rather than the Council, be empowered to decide who\nwas permitted to march.\nMayor Butler noted that fees presently charged were Imposed uniformly on anyone who\nmarched. He also noted that only the issue of fees was before the Council. Councilman\nDryden noted that if a citizens' group were established, there would still be a process of\nappeal to the Council.\nCouncilman Handcox moved that the Council table the ordinance until the Regular Meeting of\nJuly 1, 1971, for a full Council. The motion, seconded by Councilman Dryden, carried by\nthe following vote: Ayes: Councilmen Dryden, Nichols, Mayor Pro Tern Love, Councilmen\n•Friedman, Handcox, Mayor Butler\nNoes:\nNone\nAbsent: Councilman Lebermann\nMayor Butler announced that a Special Meeting would be held on Friday, June 2, at 9:00\nA.M. to consider the proposed Parade Ordinance.\nThe Council then adjourned.\n=CITY OF AUSTIN, TEXA!\nJune 30, 1971\nAPPROVED\nATTEST:\nCity Clerk"
 }

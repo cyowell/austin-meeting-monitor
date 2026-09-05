@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Major Land Annexation Hearing:** The council held a special meeting dedicated entirely to a public hearing on annexing over 4,600 acres of land from the Southwest Travis County Water District.\n*   **City Expansion Plans Detailed:** City staff, including the Assistant City Manager and department directors, presented information and a comprehensive service plan for the significant territory proposed for annexation.\n*   **High Public Engagement:** Thirty-one citizens signed up to speak, indicating substantial public interest and input regarding this large-scale land decision.\n*   **Hearing Concluded:** The special meeting concluded after presentations and public testimony with the official closure of the public hearing on the annexation.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nNOVEMBER 17,1997-7:00 P.M.\nMayor Watson called the meeting to order, noting the absence of Mayor Pro Tern Garcia and\nCouncilmember Spelman.\nCouncilmember Spelman arrived at 7:35 p.m.\nPublic hearing on the annexation of territory consisting of 4,661.248 acres, more or less,\ncomprising the area formerly known as Southwest Travis County Water District.\nAssistant City Manager Toby Futrell presented areas of information on the annexation\nissues and where these could be located.\nSeveral department directors and assistant directors presented the different areas of the\nservice plan.\n31 Citizens signed appearance cards (on file in City Clerk's Office) Close the public\nhearing on Councilmember Slusher's motion, Councilmember Lewis' second, 6-0 vote, Mayor\nPro Tern Garcia absent.\nADJOURNED at 8:45 p.m. on Councilmember Slusher's motion, Councilmember Griffith's second,\n6-0 vote, Mayor Pro Tern Garcia absent.\nApproved on this the 18th day of December, 1997 on Councilmember Goodman's motion,\nCouncilmember Slusher's second, 6-0 vote, Mayor Watson absent."
 }

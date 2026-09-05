@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City leaders convened a special work session to finalize budget discussions.\n*   The meeting's sole purpose was a wrap-up discussion on the Capital Improvement Program (CIP) and operating budgets.\n*   The work session lasted three hours, from 9 AM to 12 PM.\n*   No specific policy decisions or public hearings were listed as part of this meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - August 31, 1988 - 9:00 A.M Council Chambers, 307 VM-st Second\nStreet, Austin, Texas Mayor Cooke called to order the special called meeting of the\nCouncil, noting the absence of Councilmembers Urdy and Humphrey.\nMayor Cooke noted the purpose of the meeting was a worksession to hold wrap-up discussion\non CIP/ Operating budgets.\nThe meeting adjourned at 12:00 noon."
 }

@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **City Operations Review:** A report on the city's purchasing procedures was presented by the City Manager, indicating a focus on administrative efficiency.\n*   **Private Discussions on Major Issues:** The council held an executive session to discuss significant legal matters, including Austin's lawsuit against Houston Lighting and Power, other potential litigation, and state-level environmental cases. They also privately discussed land acquisition for consolidating city offices.\n*   **No Public Action Taken:** Despite these important private discussions, no final decisions, votes, or public actions were taken on any of the executive session items or any other agenda items during the open meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "AUSTI\nCity Council\nFrank C. Cooksey\nMayor\nJohn Treviño, Jr.\nMayor Pro Tem\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\ni\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nFOUNDED 1839\nAustin City Council\nMINUTES\nFor MARCH 24, 1987\nspec Mesters\n-\n3:00 Ρ.Μ.\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Cooksey\ncalled to order the meeting of the Council, noting the absence of Mayor Pro Tem Trevino,\n2:\nREVIEW OF PURCHASING PROCEDURES\nThe City Manager Report on Review of Purchasing Procedures was presented. A copy of the\nreport is on file in the City Clerk's office.\nEXECUTIVE SESSION\nNo final\nMayor Cooksey announced Council would go into Executive Session pursuant to Article\n6252-17, Texas Revised Civil Statutes Annotated, to discuss matters of land acquisition,\nlitigation and for personnel matters. action, decision or vote by the City Council will be\ntaken on any subject or matter unless specifically listed on the agenda.\n1. Pending Litigation - Section 2, Paragraph e (a) City of Austin v Houston Lighting and\nPower (b) Contemplated Litigation (c) State of Texas v Bureau of Land Management and All\nAmerican Pipeline\n2. Land Acquisition\n-\nSection 2, Paragraph f\n(a) Municipal Office Consolidation\nRECESS\nCouncil recessed its meeting at 4:45 p.m. and resumed its meeting at 5:00 p.m. for\nadjournment. No discussion was held on any other of the items on the agenda. No action was\ntaken on executive session items."
 }

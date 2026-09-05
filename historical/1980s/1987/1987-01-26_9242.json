@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Note:** The provided \"Agenda Transcript\" is actually minutes from a special committee meeting and *does not detail specific agenda items, public hearings, or policy decisions*.\n*   The Austin Select Committee on Services & Spending held a special evening meeting.\n*   Councilmembers Sally Shipman, Smoot Carl-Mitchell, Mark Rose, and George Humphrey were present.\n*   Official records, including a tape recording and minutes, are on file with the City Clerk's office.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - SELECT COMMITTEE ON SERVICES & SPENDING\nJanuary 26, 1987 - 7:00\nP.M. - AUSTIN HISTORY CENTER\nCoundl Chambers, 307 Wfest Second Street, Austin, Texas City Council\nFrank C.Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCoundl Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nQden Aldridge\ni j\nCity Clerk\nMemorandum To:\n,The;special called meeting of the Council's Select Committee on Services and Spending was\ncalled to order.\nCity Councilmembers present were Sally Shipman, Smoot CarlMitchell, Mark Rose and George\nHumphrey.\nA tape recording of the meeting is on file in the City Clerk's office.\nMinutes of the meeting are on\nin the office of the Assistant City Manager, Gary Hunt"
 }

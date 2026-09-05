@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   **Private Meeting Held:** Austin's leadership convened a special closed-door session.\n*   **Key Discussion Points:** Agenda items focused on potential appointments to city boards and commissions, as well as ongoing legal matters against the city.\n*   **No Immediate Decisions:** Following the private discussions, no public actions or votes were taken on any of the considered items.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "S\nCity Council\ni\nRon Mullen\nMayor\nJohn Treviño, Jr.\nMayor Pro Tem\nCouncil Members\nMark Rose\nRoger Duncan\nSally Shipman\nMark E. Spaeth\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nFOUNDED 1839\nAustin City Council\nMINUTES\nFor May 4, 1983 4:30 Ρ.Μ.\n-\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Pro Tem\nTrevino called the Special Called Meeting of the Council to order at 4:30 P.M., noting the\nabsence of Councilmember Mullen, and announced that Council will convene in a closed or\nexecutive session authorized by Article 6252-17, Texas Revised Civil Statutes Annotated,\nto discuss the following: 1) Board and Commission Appointments - Section 2, Paragraph (g).\n2) Ex Parte City of Austin - Pending Litigation - Section 2, Paragraph (e); and after such\nclosed or executive session, any final action, decision, or vote with regard to any matter\nconsidered in the closed or executive session will be made in open session, should such\naction, decision, or vote be necessary.\nAt the end of the closed or executive session, Mayor Pro Tem Trevino announced that the\nCouncil would take no action. ADJOURNMENT Council adjourned its meeting at 5:00 Ρ.Μ. :"
 }

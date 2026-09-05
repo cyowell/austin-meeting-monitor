@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "While the request refers to an Austin City Council agenda, the provided transcript details the July 16, 1992 meeting of the Austin Housing Finance Corporation Board of Directors. Here's a summary of that meeting:\n\nTitle: Austin Housing Finance: New Legal Counsel Named\n\n*   The Austin Housing Finance Corporation Board of Directors held an exceptionally brief meeting, concluding in just four minutes.\n*   Board members approved the minutes from their prior meeting on June 25, 1992.\n*   A key decision was the formal appointment of Diana L. Granger as the Corporation's new Corporate Counsel.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "MINUTES OF THE\nAUSTIN HOUSING FINANCE CORPORATION\nBOARD OF DIRECTOR'S MEETING\nJuly 16, 1992\nThe meeting was called to order at 3:02 p.m. by President Bruce Todd : Present: Bruce\nTodd, Charles Urdy, Ronney Reynolds, Bob Larson and Max Nofziger\nAbsent: Louise Epstein, Gus Garcia\nAgenda Item No. One:\nApprove minutes of June 25, 1992 meeting\nMotion\nThe Board, on Vice President Urdy's motion, and Board Member Larson's second, approved the\nminutes on 4-0-0 vote with Epstein and Garcia absent and Reynolds out of the room\nAgenda Item No. Two:\nApprove a resolution appointing Diana L.\nGranger Corporate Counsel for the Austin\nHousing Finance Corporation\nMotion\nThe Board, on Board Member Larson's motion and Vice President Urdy's second approved the\nresolution 5-0-0 vote with Epstein and Garcia absent\nThe meeting was adjourned at 3:06 p.m."
 }

@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City leaders held a special meeting to discuss urban development plans.\n*   Key topics included a \"Smart Growth Matrix,\" a framework for sustainable community development, and a specific \"Austin Marketplace\" construction proposal.\n*   The meeting was for briefing and discussion purposes only; no official votes or policy decisions were made on any items.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nAugust 04, 1998\nMayor Pro Tern Garcia called the meeting to order, Mayor Watson temporarily absent.\nThe Austin City Council will convene in a special called meeting, for the following\npurposes: Briefing and discussion of Smart Growth Matrix and Austin Marketplace\ndevelopment proposal.\nDiscussion held, no action taken.\nADJOURNED at 4:50 p.m. on Councilmember Griffith's motion, Councilmember Slusher's second,\n7-0 vote.\nApproved on this the 13th day of August, 1998 on Councilmember Spelman's motion,\nCouncilmember Goodman's second, 6-0 vote, Mayor Pro Tern Garcia absent."
 }

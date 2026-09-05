@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City officials convened a special meeting to discuss budget priorities for infrastructure.\n*   An executive session was held to discuss active litigation, specifically a case involving the City of Austin and the Lower River Authority against Decker Coal Company.\n*   No immediate action was taken as a result of the executive session's discussion on the lawsuit.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nMay 28, 1986 - SPECIAL CALLED MEETING - 4:00 P.M.\nMAIN LIBRARY - 4TH FLOOR\nCouncil Chambers, 307 V*st Second Street, Austin, Texas City Council\nFrank C .Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nMayor Cooksey called to order the special called meeting of the Council, noting the\nabsence of Mayor Pro Tern Trevino, Councilmembers Rose and Urdy.\nThe only Item on the agenda discussed was\nBudget Priorities - Infrastructures.\nMayor Cooksey announced Council would go Into executive session pursuant to Article\n6252-17, Texas Revised Civil Statutes Annotated to discuss: Pending Litigation, Section 2,\nParagraph e.\nCity of Austin, Texas and Lower River\nAuthority vs. Decker Coal Company, et. al., C.A. No. A85-CA-104.\nNo action was taken as a result of executive session.\nCouncil recessed its meeting at 5:30 p.m. for executive session and resumed its recessed\nmeeting at 6:30 p.m. and then adjourned."
 }

@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin city officials convened a special meeting exclusively to review the proposed 1987-88 budget.\n*   The budget review session was brief, concluding after approximately 90 minutes.\n*   Three council members were noted as absent from the special meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING - OCTOBER 28. 1987 - 2:30 P.M 3RD FLOOR CONFERENCE ROOM - MUNICIPAL\nBUILDING Council Chambers, 307 ttfest Second Street, Austin, Texas City Council\nFrank C.Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nGty Clerk\nMemorandum To:\nMayor Cooksey called to order the special called meeting of the Council, noting the\nabsence of Councilmembers\nShipman, Urdy and Humphrey.\nThe Mayor announced the purpose of the meeting was to review the 1987-88 Budget.\nCouncil adjourned Its meeting at 4 p.m."
 }

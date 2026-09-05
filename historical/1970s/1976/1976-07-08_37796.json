@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin officials convened a special meeting with all members present.\n*   The sole public action of the meeting was to announce an immediate transition into a closed Executive Session.\n*   This private session was legally authorized under specific Texas state statutes (Article 6252-17, Section 2, Paragraphs e, f, and g).\n*   Any final decisions or votes resulting from the closed session were to be made publicly in a later open meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "sCITY OF AUSTIN. TEXAff\n,\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nJuly 08, 1976\n9iOO A.M.\nCouncil Chambers\n301 West Second Street\nThe meeting was called to order with Mayor Friedman presiding. Roll Call: Present;\nCouncilmembers Himmelblau, Hofmann^,Lebermann, Linn, Trevino, Mayor Friedman, Mayor Pro\nTern Snell Absent;\nNone\nMayor Friedman announced that this was a Special Called Meeting of the City Council for\nthe purpose of publicly announcing that during the meeting it will convene in a ^Closed or\nExecutive Session authorized by Section 2, Paragraphs (e), (f), and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated; and after such closed or executive\nsession, any final action, decision, or vote with regard to any matter considered in the\nclosed or executive session would be made in open session, should such action, decision,\nor vote be necessary.\nMayor Friedman announced that the Council would go into Executive Session at this time to\nconsider the items authorized by Section 2, Paragraphs (e), (f), and (g) of Article\n6252-17.\nAPPROVED\nATTEST;\nCity Clerk"
 }

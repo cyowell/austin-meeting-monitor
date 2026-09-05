@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **City Finances & Debt:** Discussions centered on the upcoming 1996-97 budget, future debt from bond sales, and managing overlapping taxes from various regional entities.\n*   **Traffic Solutions:** Plans for alleviating traffic congestion were a key topic, alongside identifying funding sources for transportation projects.\n*   **Addressing Youth Crime:** Strategies for preventing and responding to juvenile crime were reviewed.\n*   **Regional & State Priorities:** The city explored ways to collaborate with other regional bodies and identified key issues to advocate for in the 1997 state legislative session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nAUGUST 7,1996\nMayor Todd called the meeting to order, noting the presence of all Councilmembers. 1.\nTaxation\na.Discussion of overlapping taxation.\nb.Bond issuance schedules and future debt plans. c.Status of FY 1996-97 Budgets\nPresentation given by Betty Dunkerley.\n2.\nRegional Governance/Collaboration\na.Review collaborative efforts of the different taxing entities, b.Identify future\npotential collaborative efforts.\nPresentation given by Jim Smith.\n3.\nTransportation Issues\na.Discuss sources and funding levels of transportation projects and programs, b.Discuss\nplans for alleviation of traffic congestion.\nPresentation given by Mike Aulick.\n4.\nLegislative Issues\na. Identify and discuss key issues for the 1997 Legislative Session Presentation given by\nSenator Gonzalo Barrientos. 5.\nJuvenile Crime\na.Discuss current plans for preventing and responding to juvenile crime.\nPresentation given by Deputy Chief Bill Gross.\nADJOURNED at 9:48 p.m.\nApproved on this the 22nd day of August, 1996 on, Mayor Pro Tern Garcia's motion,\nCouncilmember Griffith's second, 6-0 vote, Councilmember Mitchell off the dais."
 }

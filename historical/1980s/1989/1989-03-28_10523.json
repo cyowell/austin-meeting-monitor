@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Airport Land Acquisition Approved:** The city council formally approved a new process for acquiring land needed for the Austin City Airport.\n*   **Convention Center Site Recommendation:** The Planning Commission presented its recommendation for an \"east side site\" as the preferred location for the future convention center.\n*   **Legislative Briefing:** A legislative update was provided, informing attendees on current matters impacting the city.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL MEETING - March 28, 1989 - 2:00 P.M.\nCouncil Chamber*, 307 Vdfcl Second Street, Amtin. TexM Mayor Pro Tern Shipman called to\norder the special called meeting of the Council, noting the absence of Mayor Cooke,\nCouncilmembers Urdy and Barnstone. The time was 3:00 P.M. Mayor Cooke entered at 3:30 P.M.\nand Councilmember Barnstone entered at 3:15 P.M. WORKSESSION ITEMS The Council, on\nCouncilmember Carl-Mitchell's motion, Councilmember Humphrey's second, approved the new\nCity of Austin Airport land acquisition process as presented by Paul Watson. (4-0 Vote*\nCouncilmember* Barnstone and Urdy and Mayor Cooke absent) Mary Arnold, chairperson,\nPlanning Commission, reported on the convention center and said they recommend an east\nside site.\nGwenn Webb presented a Legislative Update. ADJOURNMENT\nThe meeting was adjourned at 4:02 P.M."
 }

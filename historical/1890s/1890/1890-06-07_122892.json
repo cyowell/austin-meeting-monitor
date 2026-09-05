@@ -10,15 +10,6 @@
   "ocr_source": "claude-sonnet-4-6",
   "summary": "• **Lack of quorum**: The June 7th meeting was unable to proceed due to insufficient aldermen present (only 4 of 20), forcing an adjournment.\n\n• **Second meeting also failed**: Two days later on June 9th, the situation worsened with only 1 alderman showing up, preventing any city business from being conducted.\n\n• **Leadership absent**: Both the Mayor and Board President failed to attend the rescheduled meeting, highlighting serious government dysfunction.\n\n• **No business conducted**: Due to the attendance failures, no agenda items, policy decisions, or public hearings could take place during this period.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "645\nThe minutes of a Called meeting of the City Council\nAustin, Tex., June 07, 1890.\n\nHon. John Mc. Donald, Mayor, presiding.\n\nRoll Call- Present Aldermen, Anderson,\nLinn, Marris, Townsend - 4.\nAbsent- Aldermen Assmann, Boland, Carleton, Graham, Hume, Jackson, Jones, Mety, Newton,\nNitschke, North, Phillips, Platt, Schneider, Schuber, Ziller - 16.\nQuorum absent.\nAlderman Linn moved that the Council Stand Adjourned until 8:30 p.m. Monday, June 9, 1890.\nCarried.\n\nMilton Morris,\nCity Clerk.\n\n\n --- Page break --- \n\n646\n\nThe Minutes of an adjourned called meeting of the City Council.\nAustin, Tex. June 9, 1890.\nThe Council met pursuant to adjournment.\nThe mayor and president of the Board of\nAldermen being absent Alderman Ziller\nwas, on motion, called to the chair.\nRoll Call- Present - Alderman Ziller.\nAbsent - Aldermen Anderson, Assmann, Boland, Carleton, Graham, Hume, Jackson, Jones, Linn,\nMetz, Morris, Newton, Nitschke, North, Phillips, Plett, Schneider, Schuler, Townsend - 19.\nOn motion the Council adjourned.\nMilton Markis,\nCity Clerk.\n\n"
 }

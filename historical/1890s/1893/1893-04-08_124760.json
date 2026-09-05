@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **Main Decision:** The city council approved a resolution allowing the Austin Oil Manufacturing Company to build and operate a railroad track across Austin streets, connecting to existing rail lines (the H&TC and A&NW railroads).\n\n• **Quick Process:** The meeting was called specifically for this single purpose, with the resolution presented, amended, and approved the same day—showing the city moved fast on industrial development.\n\n• **Minor Technical Change:** Aldermen North proposed changing the formal designation from an \"Ordinance\" to a \"Resolution,\" which was accepted and adopted.\n\n• **Attendance:** 14 of 22 council members were present, with 8 absent.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "486\nThe Minutes of a Called meeting of the City Council.\nAustin, Texas, April 08, 1893.\n\nHon. John McDonald, Mayor, presiding.\n\nRoll. Roll called. Present - Aldermen Fischer, Glass, Humes Jackson, Ketchum, Linn,\nNitschke, North, Platt, Powell, Schuber, Shelley, Taylor, Townsend. - 14.\nCall. Absent - Aldermen Anderson, Assmann, Dawson, Hancock, Miller, Raymond, Schneider,\nWarmoth. - 8.\n\nCall of Council read. The following call and certificate thereon were read: Mayor’s\nOffice,\nAustin, Texas, April 7, 1893.\nTo the Members of the Board of Aldermen of the City of Austin:\nGentlemen: - I hereby Call a special meeting of the City Council of the City of Austin, to\nassemble at the City Hall at 5 o’clock p.m., Saturday April 8, 1893, for the purpose of\nconsidering an Ordinance to be then introduced granting right of way over certain streets\nof the City of Austin to the Austin Oil Manufacturing Company for the purpose of laying a\nrailroad switch to the property of Said Company, beginning at the tracks of the H. & T. C.\nRy. Co. and the A. & N. W. Ry. Co. Yours respectfully,\nJohn McDonald, Mayor.\nAustin Texas April 8, 1893, 9. a. m.\nI hereby certify that Aldermen Anderson, Assmann, Dawson, Fischer, Glass, Hancock, Humes,\nJackson, Ketchum, Linn, Miller, Nitschke, North, Platt, Powell, Raymond, Schneider,\nSchuber, Shelley, Taylor, Townsend, and Warmoth, were all duly served with the foregoing\nCall by having it read to each of them in person.\nJno. E. Lucy, City Marshal.\n\nAustin Oil Mfg. Co. Switch. An Ordinance entitled \"An Ordinance granting the Austin Oil\nManufacturing Company the right to construct maintain and operate a railroad track upon\nand across certain Streets in the City of Austin,\" was presented and read, after which\nAldermen North offered the following amendments thereto:\n\nAmend the caption thereof by striking therefrom the words \"An Ordinance\", and inserting in\nlieu thereof \"A resolution\"; and amend section one by striking out \"Ordinance\" and\ninserting instead, \"resolved\".\nThe amendments were carried, and the resolution was adopted.\nThe Council then adjourned.\nMilton Morris,\nCity Clerk.\n\n"
 }

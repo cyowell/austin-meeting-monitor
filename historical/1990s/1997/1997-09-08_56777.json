@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was dedicated to a public hearing on Austin's proposed financial plans for the 1997-98 fiscal year.\n*   Residents had the opportunity to provide feedback on the upcoming operating and capital budgets, which dictate city spending and investments.\n*   The hearing also covered proposed changes to city taxes, utility rates, and various fees and charges impacting residents and businesses.\n*   This session was a crucial step for public input on the key financial policies shaping Austin's future for the year.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nSEPTEMBERS, 1997\nMayor Watson called the meeting to order, noting the temporary absence of Councilmember\nSpelman.\nPublic hearing on the 1997-98 Proposed Operating and Capital Budgets, Taxes, Utility\nRates, Fees and Charges.\nRecessed at 6:06 p.m. to 7:21 p.m. on, Mayor Pro Tern Garcia's motion, Councilmember\nLewis' second, 6-0 vote, Councilmember Spelman temporarily absent.\nMotion to close public hearing on, Councilmember Lewis' motion, Mayor Pro Tern Garcia's\nsecond, 7-0 vote.\nADJOURNED at 8:36 p.m. on, Councilmember Slusher's motion, Mayor Pro Tern Garcia's Second,\n7-0 vote.\nApproved this the 25th day of September, 1997, on Councilmember Slusher's motion,\nCouncilmember Spelman's second, 6-0 vote, Mayor Pro Tern Garcia off the dais"
 }

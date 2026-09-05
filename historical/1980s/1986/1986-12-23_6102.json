@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was held to discuss issues related to Valero Natural Gas.\n*   The entire session was conducted privately as an executive session.\n*   No public actions, votes, or policy decisions were made during the meeting.\n*   The meeting was brief, adjourning after approximately 35 minutes in executive session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor SPECIAL CALLED MEETING - December 23, 1986 - 11:00 A.M.\nMAYOR!S OFFICE - MUNICIPAL BUILDING - 124 W. 8TH STREET Council Chambers, 307 Wfest Second\nStreet, Austin, Texas City Council\nFrank C-Cooksey\nMayor\nJohn Trevifio, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shlpman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\n\" rTity Clerk\nMemorandum To:\nMayor Cooksey called to order the special called meeting of the Council, noting the\nabsence of Councilmembers\nRose* Urdy and Shipman.\nMayor Cooksey announced Council would enter into executive session pursuant to Article\n6252-17» Texas Revised Civil Statutes Annotated, to discuss the following. No action will\nbe taken except In open meeting.\ne>\nA. Docket No. G.U.D. 5980 relating to\nValero Natural Gas\nCouncil recessed for executive session at 11:05 a.m. and resumed its meeting for\nadjournment at 11:40 a.m.\nNo action was taken by Council."
 }

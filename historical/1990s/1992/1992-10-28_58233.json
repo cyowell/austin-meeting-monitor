@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City officials discussed the proposed 1993 Service Plan.\n*   Updates were provided on the current status of various ongoing city projects.\n*   This was a special meeting of the Audit Committee, focusing on oversight and planning rather than general city governance.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - COUNCIL AUDIT COMMITTEE\nTHIRD FLOOR CONFERECE ROOM - 1:00 P.M.\nOctober 28, 1992\nMayor Todd called to order the special called meeting of the Council Audit Committee,\nnoting the presence of Councilmembers Garcia, Larson and Reynolds.\nThe Committee discussed the following, vith reports and comments from appropriate staff:\n1. 1993 Service Plan\n2. Status of Projects\nThe meeting was adjourned at 2:10 P.M.\nMINUTES\n1\nOCTOBER 28, 1992"
 }

@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The Austin City Council held a special meeting entirely in a closed-door executive session, meaning no public votes or final policy decisions were made.\n*   Discussions included the ongoing search and interview process for a new City Manager, alongside the evaluation and appointment of municipal court judges and clerks.\n*   Council members also privately reviewed significant litigation concerning electric utility rates, including a lawsuit against Houston Lighting and Power and a petition from residents challenging current rates.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "E\nOF AUST\nAustin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING\nCouncil Chambers, 307 West Second Street, Austin, Texas -\nJanuary 10, 1989\n-\n3:00 Ρ.Μ.\n:\nMayor Cooke called to order the special called meeting of the Council, noting the presence\nof all Councilmembers.\nMayor Cooke announced the purpose of the meeting was to enter into executive session\npursuant to Article 6252-17, Texas Revised Civil Statutes Annotated, to discuss matters of\nland acquisition, litigation, and for personnel matters. No final action, decision or vote\nby the City Council will be taken on any subject or matter unless specifically listed on\nthe agenda for this meeting. 1. Personnel Matters\n-\nSection 2, Paragraph g\nDiscussion and Evaluation of\n(1) Presiding Judge, Municipal Court\n(2) Acting Municipal Court Clerk\n(3) City Clerk\nAlso during this executive session, Council discussed the matters listed for the two other\nmeetings scheduled for 3:00P.M., this day.\nMayor Cooke. announced the following items would be discussed during executive session:\nFrom Regular Meeting re Electric Utility scheduled at 3 P.M.\n1. Pending Litigation - Section 2, Paragraph e (a) City of Austin v. Houston Lighting and\nPower (b) Docket #8480 Petition Sharen Schranz, et al for relief from electric utility\nrates set by the City of Austin From Special Called Meeting scheduled at 3 P.M. I.\nPersonnel Matters\nSection 2, Paragraph g\n-\n(a) City Manager Interview/Selection\n(b)\n(c)\nAppointment of Municipal Court Relief Judge\nAppointment of Municipal Court Clerk\nRECESS AND ADJOURNMENT\nCouncil recessed its meeting for executive session at 4:54 and adjourned its meeting at\n7:10 P.Μ."
 }

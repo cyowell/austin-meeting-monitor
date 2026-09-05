@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City leaders dedicated over six hours to a special meeting focused on essential city operations and infrastructure.\n*   They heard detailed reports and held discussions with the Water and Wastewater Department regarding crucial utility services.\n*   Operations and plans from the Electric Department were also a key topic of discussion during the lengthy session.\n*   The Transportation and Public Service Department provided updates and engaged in discussions about city mobility and services.\n*   This meeting served as an informational review session, with no specific policy votes or public hearings recorded.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "YOT\nAUSTI\nFOUNDED\n1839\nAustin City Council\nMINUTES\nFor SPECIAL CALLED MEETING\n-\nAugust 23, 1988\nCouncil Chambers, 307 West Second Street, Austin, Texas -\n9:00 A.m.\nMayor Cooke called to order the meeting of the Council, noting the presence of all\nCouncilmembers.\nMayor Cooke announced Council would hear reports from the Water and Wastewater Department,\nTransportation and Public Service Department and the Electric Department.\nAfter discussion with representatives from these departments, and after hearing their\nreports, Council adjourned its special called meeting at 3:10 Ρ.Μ."
 }

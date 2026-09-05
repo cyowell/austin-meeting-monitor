@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   An emergency special meeting was convened, held entirely in a private executive session.\n*   Closed-door discussions focused on pending litigation, including two active lawsuits.\n*   A primary subject of the litigation was disputes involving Houston Lighting & Power Company.\n*   No public action or decisions were announced following the executive session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "March 16, 1985 - 10:00 A.M.- EMERGENCY SPECIAL MEETING - THIRD FLOOR CONFERENCE ROOM,\nMUNICIPAL BUILDING Mayor Mullen called to order the emergency special meeting of the\nCouncil* noting the absence of Council(, member Spaeth. Purpose of the meeting was to go\ninto an executive session.\nEXECUTIVE SESSION\nMayor Mullen announced Council would go into Executive Session, pursuant to Article\n6252-17, Texas Revised Civil Statutes Annotated, to discuss the following matter; and\naction. If any, on the matter will be taken during the public meeting after the conclusion\nof the Executive Session: Pending Litigation, Including but not limited to the following\nItems - Section 2, Paragraph e Houston Lighting & Power Company, et al v.\nBrown and Root, et al In Matagorda County, and City of Austin vs. Houston Lighting and\nPower Company in Travis County - Section 2, Paragraph e.\nCouncil took no public action as a result of the Executive Session.\nADJOURNMENT\nCouncil adjourned its meeting at 3:00 P.M."
 }

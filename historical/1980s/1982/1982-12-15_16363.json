@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City leaders convened for a special meeting.\n*   The main topic was a closed-door discussion about ongoing and potential lawsuits concerning the South Texas Project.\n*   Any final actions or decisions stemming from these private legal discussions were to be made public.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nDECEMBER 15, 19c&- SPECIAL CALLED MEETING - 10:00 A.M.\nPERSONNEL TRAINING ROOM - MUNICIPAL ANNEX - 301 WEST 2ND STREET Council Chambers, 301 West\nSecond Street, Austin, Texas City Council\nCarole Keeton McClellan\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nLarry Deuser\nRoger Duncan\nRichard Goodman\nRon Mullen\nCharles E. Urdy\nNicholas M. Meiszer\nCity Manager\nGrace Monroe\nCity Clerk\nMemorandum To:\nMayor McClellan called the Special Called Meeting of the Council to order at 10:00;a,m.,\nnoting the absence of Mayor pro Tern Trevino, and announced that Council will convene tn a\nclosed or executive session authorized by Section 2, paragraph e, of Article 6252-17,\nTexas Revised Civil Statutes annotated to discuss pending and contemplated litigation\nrelating to the South Texas Project; and, after such closed or executive session, any\nfinal action, decision or vote with regard to any matter considered in the closed or\nexecutive session will be made tn open session, should such action, dectston or vote be\nnecessary."
 }

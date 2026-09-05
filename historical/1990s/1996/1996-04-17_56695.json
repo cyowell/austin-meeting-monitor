@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The meeting faced an initial delay and could not officially begin due to absent members.\n*   Attendees previewed proposed agenda items slated for the upcoming April 25 session.\n*   A detailed financial forecast for the city was presented and discussed by officials.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nAPRIL 17,1996\nMayor Pro Tern Garcia started the meeting, but did not call it to order for lack of a\nquorum, Mayor Todd, Councilmembers Mitchell, Nofziger, Reynolds temporarily absent.\nPREVIEW OF ITEMS FOR NEXT COUNCIL MEETING 1.\nReview of Proposed Agenda Items from City Manager for April 25, 1996. 2.\nReview of Proposed Agenda Items from Council for April 25, 1996. BRIEFINGS AND DISCUSSIONS\n3.\nFINANCIAL FORECAST\nPresentation given by: Jesus Garza, Charles Curry, Jose Gonzales, Michael Abkowitz, Willie\nRhodes, Matt Kite, Paul Hoffman, Peter Rieck, Randy Goss, Maria Elena Garcia.\nADJOURNED at 4:00 p.m. on, Councilmember Reynolds' motion, Mayor Pro Tern Garcia's second,\n6-0 vote, Councilmember Nofziger absent.\nApproved on this the 25th day of April, 1996, on, Councilmember Shea's motion,\nCouncilmember Nofziger's second, 4-0 vote, Mayor Todd, Councilmembers Goodman and Reynolds\ntemporarily absent."
 }

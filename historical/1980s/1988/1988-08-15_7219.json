@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City leaders held a special meeting with one item on the agenda: appointing members to the Employee Suggestion Box Panel.\n*   Six diverse individuals, including a former city council member and representatives from local commerce and civic groups, were selected for the panel.\n*   This panel's role is to manage and review suggestions submitted by city employees.\n*   Notably, the entire meeting concluded in just two minutes.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nAugust 15, 1988 - 1:00 P.M. - SPECIAL CALLED MEETING Council Chambers, 307 West Second\nStreet, Austin, Texas Mayor Cooke called to order the special called meeting of the\nCouncil, noting the absence of Councilmember Urdy.\nMayor Cooke announced the purpose of the meeting was to consider appointments to the\nEmployee Suggestion Box Panel. Motion The Council, on Mayor Pro Tern Shipman's motion,\nCouncilmember Carl-Mitchell1s second, appointed the following as members of the Employee\nSuggestion Box Panel: (6-0 Vote, Councilmember Urdy absent)\nMargret Hofmann - ex City Councilmember\nIzzy Cordova - representing Hispanic Chanber of Commerce (Robert Ramirez\nalternate)\nMargaret Moore - League of Women Voters\nMarcos de Leon - Interested citizen\nJoan Lava - LBJ School\nCarol Hadnot - Capitol City Chamber of\nCommerce\nThe meeting was called to order at 3:08 P.M. and adjourned at 3:10 P.M."
 }

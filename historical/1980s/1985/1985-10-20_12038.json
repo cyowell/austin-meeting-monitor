@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   An emergency meeting was called to discuss the lease of real property for a municipal office complex.\n*   The meeting involved a closed-door executive session focusing on this significant civic property matter.\n*   Despite lasting nearly six hours, no action was taken on the municipal office complex lease.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nEMERGENCY SPECIAL CALLED MEETING - October 20, 1985 4:00 P.M.\nCouncil Chambers, 307 V\\fest Second Street, Austin, Texas City Council\nFrank C. Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nMayor Cooksey called to order the Emergency Special Called Meeting of the Council,\nscheduled for 4:00 p.m. at 4:15 p.m., noting the presence of all Councilmembers.\nMayor Cooksey announced the purpose of the meeting is for an executive session pursuant to\nArticle 6252-17, Texas Revised Civil Statutes Annotated, to discuss the following matters;\nand action, if any, on the matters will be taken during the public meeting after the\nconclusion of the executive session: a. Lease of Real Property - Municipal Office\nComplex - Section 2, Paragraph f.\nNo action was taken as a result of the executive session.\nThe meeting adjourned at 10:10 p.m."
 }

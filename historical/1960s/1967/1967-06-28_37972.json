@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting was convened with the sole purpose of appointing Austin's new City Manager.\n*   The council unanimously voted to offer the position of City Manager to James A. Wilson.\n*   The meeting was brief, concluding within 45 minutes of its start.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "•\n=CITY OF AUSTIN, TEXAS\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nJune 28, 1967\n10:00 Α.Μ.\nCOUNCIL CHAMBERS, CITY HALL\nThe meeting was called to order with Mayor Akin presiding. Roll Call:\nPresent:\nAbsent:\nMayor Akin, Councilmen Janes, LaRue, Long, Nichols None Mayor Akin announced this Special\nMeeting of the City Council was called for the purpose of appointment of a City Manager.\n****\n**\nCouncilman Janes moved that James A. Wilson be offered the position of City Manager.\nvote:\nThe motion, seconded by Councilman LaRue, carried by the following Ayes: Mayor Akin,\nCouncilmen Janes, LaRue, Long, Nichols Noes: None\n***********\nThe Council adjourned at 10:45 A.Μ.\nTrace Mourse\nATTEST:\nAst. City Clerk\nAPPROVED:\nMayor"
 }

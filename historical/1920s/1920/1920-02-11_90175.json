@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "*   The city council briefly adjourned a special meeting out of respect for the recently deceased former Mayor Lewis Hancock.\n*   New appointments were confirmed for three positions within the Fire Department.\n*   A permit for a Gulf Refining Company gasoline filling station was shifted, rescinded for one specific plot and immediately re-approved for a neighboring location in the same block.\n*   Two individuals were granted permits to operate \"service cars,\" indicating early city regulation of for-hire vehicle services (similar to modern taxis).",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "308\n\nSPECIAL MEETING OF THE CITY COUNCIL:\nAustin, Texas, February 11, 1920.\n\nThe Council Met with all of the following members present, Mayor Yett, Councilmen Alford,\nGraham, and Haynes. Councilman Ward absent.\nThe Council then adjourned out of respect to former Mayor Lewis Hancock. Notice of whose\ndeath had just been learned.\n\nThe Council then adjourned.\n\nREGULAR SESSION OF THE CITY COUNCIL:\nAustin, Texas, February 12th, 1920.\n\nRoll call was ordered by the Mayor, and the following members answered present, Mayor\nYett, Councilmen Alford, Graham, Haynes and Ward.\nThe minutes of the last meeting were read and upon motion of Councilman Graham were\nadopted by the following vote, Mayor Yett ACouncilmen Alford, Graham, Haynes and Ward.\nCouncilman Alford recommended F.L. Gallemore, Emory Hornsby and Dan Fallon for positions\nin the Fire Department to succeed Nolan Miller, Otis Scarbrough and Alex Abramson,\nresigned.\nNominations were confirmed by the following vote, Mayor Yett, Councilman Graham, Haynes\nand Ward. Councilman Alford present but not voting.\n\nThe Mayor laid before the Council the following Resolution:\n\nRESOLUTION.\nBe it resolved by the City Council that the permit heretofore granted the Gulf Refining\nCompany to erect a filling Gasoline Station on 46 feet out of lots four (4) and five (5)\nbe and the same is hereby rescinded and that permission is hereby granted said Gulf\nRefining Co., to erect said filling station on forty-six (46) feet out of lots three (3)\nand four (4) in Block six (6) of the City of Austin.\nThe above Resolution was adopted by the following vote, Mayor Yett, Councilmen Alford,\nGraham, Haynes and Ward.\nThe applications of H.O. Stovall and John R. McCall to operate service cars were granted\nby the following vote, Mayor Yett, Councilmen Alford, Graham, Haynes and Ward.\n\nRemoval of location.\nGulf Ref. Filling Station\n\n"
 }

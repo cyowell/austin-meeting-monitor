@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Unusual Early Start:** A special meeting convened at 6:15 AM for an executive session (private discussions).\n*   **Leadership Search:** A primary focus of the private session was interviewing candidates for the crucial City Manager position.\n*   **Confidential Discussions:** Other topics discussed behind closed doors included potential land acquisitions and ongoing legal matters.\n*   **No Public Decisions:** After over four hours of private discussion, no final actions or decisions were taken on any items during this meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nDecember 08, 1988 - SPECIAL CALLED MEETING - 6:15 A.M THIRD FLOOR CONFERENCE ROOM -\nMUNICIPAL BUILDING Council Ctumtxn. 307 V*« Second Sln«l. Aurtln.\nMayor Cooke called to order the special called meeting of the Council, noting the absence\nof Councilmembers Urdy and Humphrey.\nMayor Cooke announced the purpose of the meeting was an Executive Session* pursuant to\nArticle 6252-17, Texas Revised Civil Statutes Annotated, to discuss matters of land\nacquisition, litigation and for personnel matters. No final action, decision or vote by\nthe City Council will be taken on any subject or matter unless specifically listed on the\nagenda for this meeting.\n1. Personnel Matters - Section 2, Paragraph g\n(a) Interview for City Manager\nCouncil recessed it meeting for executive session at 8:30 A.M. and adjourned its meeting\nat 10:40 A.M. No action was taken as a result of the executive session."
 }

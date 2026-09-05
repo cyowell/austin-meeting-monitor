@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was entirely dedicated to a public hearing on the city's operating budget and fees for the upcoming fiscal year.\n*   Citizens had the opportunity to provide their input regarding the proposed budget and associated city fees.\n*   The public hearing was a lengthy session, lasting over six hours, before its conclusion.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - August 22, 1988 - 4:00 P.M Council Chambers, 307 V\\fcst Second\nStreet, Austin. Texas Mayor Cooke called the meeting to order, noting the presence of all\nCouncilmembers.\nMayor Cook* stated that the purpose of the meeting was to hold a public hearing on the\noperating budget and fees for FY 1988-89.\nMayor Cooke then opened the hearing to members of the audience. Individuals who spoke have\ncards on file in the City Clerk's Office.\nAt the conclusion of the hearing, on Councilmerober Carl-Mitchell's motion, Councilmember\nUrdy's second, the\nCouncil closed the hearing. (7-0.vote)\nADJOURNMENT\nThe Council adjourned at 10:40 p.m."
 }

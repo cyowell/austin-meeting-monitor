@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-pro",
   "summary": "• **Election Postponement Rejected**: City Council voted to proceed with scheduled November 7, 1882 elections for City Marshal and school tax decision, rejecting aldermen's request to reschedule the vote.\n\n• **Citizens Petition Against Delay**: Austin residents formally protested the proposed postponement of city elections, and the council received their petition and sided with the public's wishes.\n\n• **New Police Officers Appointed**: The mayor nominated Henry Brown and Henry Bannbruche as special police officers, and the council unanimously confirmed both appointments.\n\n• **Attendance Penalties**: Three aldermen (Cook, Kuepperitz, and Kinney) were each fined one dollar for missing the October 31st meeting.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "211\nCalled Meeting of the City Council\nAustin Texas October 31, 1882\nW A Daylor Mayor Presiding\nRoll call present Aldermen Schubin Bruggerhoff Radkey Moeller Platt & Wilson absent Cook\nKuepperitz A fine of one dollar was entered against Alderman Cook Kuepperitz & Kinney for\nnon attendance at this meeting.\nCall of the Council was read which\nwas for the purpose of taking into consideration matters pertaining to the City Elections\nReading of the minutes of Oct 25th 1882 postponed until next meeting.\nTo Hon W A Daylor mayor of Austin\nSir we the undersigned Aldermen respectfully request that you call a Special meeting of\nthe City Council for the purpose of reconsidering the resolution ordering an Election of\nthe City Marshal and sub mitting the school Tax question on the 7th day of Nov.\n1882 H. W Moeller W B Metz W Wilson H B Kinney Alderman Bruggerhoff presented a petition\nfrom Citizens of Austin protesting against postponing the City Elections that was ordered\nNovember 7 1882 On motion of alderman Bruggerhoff the petition was received and ordered\nfiled Alderman Bruggerhoff moved that the Council take no action in regard to postponing\nthe City Elections Motion adopted by the following vote yeas Aldermen Schubin Bruggerhoff\nPlatt Wilson Shep Radkey and Moeller. absent Aldermen Cook Kuepperitz.\n\nThe mayor nominated Henry Brown and\nHenry Bannbruche as special Police officers The nominations were confirmed by acclamation\nOn motion of alderman Bruggerhoff the\nCouncil adjourned\nRead and approved Nov 20 1882\n[illegible]\n\nL Purnell\nCity Clerk\n\n"
 }

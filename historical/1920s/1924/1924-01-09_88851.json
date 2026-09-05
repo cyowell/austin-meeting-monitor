@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City officials approved over $80,000 in emergency funding to keep essential departments operating, with the largest amounts allocated to Water, Light & Power ($25,000), Streets ($18,500), and Fire ($15,000).\n*   These appropriations were temporary, intended to bridge the gap until the full general budget could be passed by March 1924.\n*   An application for a new \"electric flash light sign\" (an early form of illuminated signage) on South Congress Avenue near the bridge was referred to the Safety Committee for review.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "F\n222\n!\nSPECIAL MEETING OF THE CITY COUNCIL:\nAustin, Texas, January 9. 1924.\nThe Council was called to order by the Mayor. Roll call showed the following members\npresent: Mayor Yett, Councilmen Avery, Haynes and Searight, 4; absent, Councilman Nolen.\nCouncilman Haynes introduced the following resolution: BE IT RESOLVED BY THE CITY COUNCIL\nOF THE CITY OF AUSTIN: That the following emergency and provisional appropriations are\nmade for the benefit of the several departments which they may serve: For Department \"A\",\nMayor and Superintendent of Public Affairs-- 3,500,00\nFor Department \"B\", Revenue -\nFor Department \"B\", Sanitary -----\n✓ For Department \"C\", City Hall---\n-----------\n1,500.00\n5,000.00\n1,800.00\nFor Department \"C\", Water, Light and Power Department -------- 25,000.00 For Department\n\"D\", Streets/ For Department \"D\", Sanitary Sewer Fund\nFor Department \"E\", Police ---------\nFor Department \"E\", Fire ------\nFor Department \"E\", Hospital ------\nFor Department \"E\", Sub-Department Public Health For Public Health\n....\nFor Parks .....\nFor General Fund\n----\nFor Oakwood Cemetery ......\n18,500.00\n1,500.00\n3,600.00\n- 15,000.00\n3,500.00\n400.00\n250.00\n1,000.00\n2,000.00\n1,000.00\n1,000.00\nFor Oakwood Annex-.....\nThese appropriations are intended to be merely temporary and will be substituted by the\nappropriations of the General Budget, which, presumably, will be passed on or before the\nIst day of March, 1924.\nThe above resolution was adopted by the following vote: Ayes, Mayor Yett, Councilmen\nAvery, Haynes, and Searight, 4; nayes, none, Councilman Nolen absent.\nThe application of Sam M. Sullenburger for permission to erect an electric flash light\nsign on South Congress Avenue near the south approach to Congress Avenue Bridge was read\nand upon motion of Councilman Haynes was referred to the Safety Committee by the following\nvote: Ayee, Mayor Yett, Councilmen Avery, Haynes, and Searight, 4; nayes, none, Councilman\nNolen absent.\nThe Council then adjourned.\nJoer smsby\nBrity Serk"
 }

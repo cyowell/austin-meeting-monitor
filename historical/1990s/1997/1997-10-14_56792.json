@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special public hearing was held to discuss the potential annexation of the U.S. 183 West area.\n*   The hearing saw significant public engagement, with 228 citizens signing up to provide input.\n*   The meeting was extensive, lasting over four hours and adjourning late at 11:15 p.m., indicating thorough discussion on the annexation proposal.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nMayor Watson called the meeting to order. SPECIAL CALLED MEETING\nOCTOBER 14,1997-7:OOP.M.\n1. Public hearing on the annexation of U.S. 183 West Luther Polnau, City of Austin Manager\nof Information and Planning, gave a brief overview.\n228 Citizens signed appearance cards (on file in City Clerk's Office) ADJOURNED at 11:15\np.m. on Councilmember Slusher's motion, Councilmember Spelman's second, 7-0 vote.\nApproved on this the 23rd day of October, 1997, on Mayor Pro Tern Garcia's motion,\nCouncilmember\nSpelman's second, 7-0 vote."
 }

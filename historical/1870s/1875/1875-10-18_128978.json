@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **Election Officials Appointed**: The city council designated judges and clerks for Austin's November 1875 election across all 10 wards, with each official receiving $2.50 for their services\n\n• **Mayor Given Backup Authority**: Mayor Wheeler was authorized to appoint replacement judges if any of the designated officials were unable to serve\n\n• **Street Lighting Improvement**: The council approved installation of a new street lamp between von Rosenberg's residence and Schroeder's store to improve public safety and visibility",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Called Meeting of the City Council\nAustin Texas, October 18, 1875\nPresent: Mayor T. B. Wheeler, in the chair. Aldermen – T. F. Boardman, Wm. Bruggerhoff, O.\nH.\nCullen, T. Dohme, N. B. Mitchell and J. H. Todd.\nAbsent – Aldermen E. Bremond, Ed. Christian\nJ. H. Robinson and S. Sifer.\nThe Mayor stated that the meeting was called to appoint the judges and Clerks for holding\nthe city election on the first Monday in November 1875 whereupon motion, the following\nnamed parties were appointed the judges, to wit; First Ward – H. C. Bengenar, J. E.\nSchneider, and W. T. Patterson.\nSecond Ward – S. F. Dunlap, C. Huberich and Ben Honnet.\nThird Ward – C. Krohn, J. B. Morris and W. W. Townsend.\nFourth Ward – J. H. Pope, E. Raven and J. W. McKnight.\nFifth Ward – J. Stringer, Max Maas and\nJ. H. Burns.\nSixth Ward – W. N. Shanahan, J. M. Peacock and David G. Whiting.\nSeventh Ward – Geo. Hancock, Dennis Corwin and L. Schoolher.\nEighth Ward – S. G. Haynie, P. L. Hopkins and A. C. Strong.\nNinth Ward – C. C. Bartholomew, J. H. Haughton and H. McClusky.\nTenth Ward – T. M. Noble, J. Billingsley and A. S. Roberts.\nOn motion of Alderman Cullen the Mayor was authorized to appoint other judges, in case any\nof the above named should fail to act, and that they shall be required to act as clerks\nand shall receive for their services the sum of $2.50 each.\nOn motion of Alderman Bruggerhoff, the Mayor was authorized to have a street lamp erected\nbetween Mr. von Rosenberg’s residence and Mr. Schroeder’s store.\nOn motion the Council adjourned.\nFred S. [illegible] Recorder\n\n"
 }

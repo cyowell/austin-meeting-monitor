@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Officials formally certified the results of the November 3, 1998 special election.\n*   The election outcomes confirmed public approval for dissolving Austin's Municipal Utility Districts (MUDs) 1, 2, and 3.\n*   The meeting was brief, concluding by 10:15 a.m. after addressing this single item.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nNOVEMBERS, 1998\nMayor Watson called the meeting to order.\nCanvass results of City Special Municipal Election of November 3, 1998. Approved Canvass\nresults of City Special Municipal Election for Austin MUD 1, 2 & 3 Dissolution held on\nNovember 3, 1998.\nApproved\nItems 1 and 2 approved as read on Councilmember Garcia's motion, Councilmember Slusher's\nsecond, 4-0 vote, Mayor Pro Tern Goodman, Councilmembers Lewis and Spelman absent.\nADJOURNED at 10:15 a.m. on Councilmember Garcia's motion, Councilmember Slusher's second,\n4-0 vote, Mayor Pro Tern Goodman, Councilmembers Lewis and Spelman absent.\nThese minutes were approved on April 15, 1999 on Council Member Griffith's motion, Mayor\nPro Tern Goodman's second by a 6-0 vote. Council Member Garcia was off the dais."
 }

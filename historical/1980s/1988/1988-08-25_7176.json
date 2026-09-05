@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City officials held a special private meeting, known as an executive session.\n*   A key item on their agenda was interviewing candidates for the critical City Manager position.\n*   Other confidential discussions included potential land acquisitions and strategies for ongoing legal matters.\n*   No public votes or final policy decisions were made during this closed-door session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor SPECIAL CALLED MEETING - August 25, 1988 - 8:15 Α.Μ.\nTHIRD FLOOR CONFERENCE ROOM, MUNICIPAL BUILDING, 124 WEST 8th STREET Council Chambers, 307\nWest Second Street, Austin, Texas Mayor Cooke called the meeting to order, noting the\npresence of Mayor Pro Tem Shipman and Councilmembers Barnstone, Carl-Mitchell, Humphrey\nand Nofziger.\nThe Mayor announced that the purpose of the meeting was to go into Executive Session\npursuant to Article 6252-17, Texas Revised Civil Statutes Annotated, to discuss matters of\nland acquisition, litigation and for personnel matters. No final action, decision or vote\nby the City Council will be taken on any subject or matter unless specifically listed on\nthe Agenda for this meeting\n.\n1. Personnel Matters - Section 2, Paragraph g\n(a) Interview for City Manager\nThe Council recessed its meeting at 8:30 a.m., for Executive Session and adjourned their\nmeeting at 9:55 a.m.\nMayor Cooke announced that no action would be taken as a result of the meeting."
 }

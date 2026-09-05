@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   An emergency meeting was called to address urgent matters privately.\n*   The entire session was closed to the public, focusing on sensitive topics.\n*   Discussions included potential land acquisitions, personnel matters, and ongoing litigation.\n*   A specific legal case, the City of Austin versus Houston Lighting and Power, was reviewed.\n*   No public decisions or policy actions were taken during or as a result of this meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nEMERGENCY SPECIAL CALLED MEETING - July 28, 1988 - 11:00 A.M.\nCouncil Chambers. 307 Writ Second Street, Austin. Texas Mayor Cooke called to order the\nemergency special called meeting of the Council* noting the presence of all\nCouncilmembers.\nThe Mayor announced the purpose of the\nmeeting was to go into executive session pursuant to Article 6252-17, Texas Revised Civil\nStatutes Annotated, to discuss matters of land acquisition, litigation and for personnel\nmatters* No final action* decision or vote by the City Council will be taken on any\nsubject or matter unless specifically listed on the agenda for this meeting.\n1. Pending Litigation - Section 2, Paragraph e (a) City of Austin v. Houston Lighting and\nPower Council recessed Its meeting at 11:20 p.m. for executive session and adjourned their\nmeeting at 1:05 P.M.\nMayor Cooke announced no action would be taken as a result of the meeting."
 }

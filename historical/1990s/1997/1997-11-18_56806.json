@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was convened to hold a public hearing regarding the proposed annexation of the Village at Western Oaks neighborhood.\n*   City officials and department heads provided information on the annexation process and presented detailed service plans for the area.\n*   Eight citizens signed up to speak during the public hearing, offering their perspectives on the potential annexation.\n*   The public hearing for the Village at Western Oaks annexation was officially closed following a unanimous vote by the elected body.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\nNOVEMBER 18,1997-6:30 P.M.\nMayor Watson called the meeting to order, noting the absence of Councilmembers Lewis and\nSpelman.\nCouncilmember Spelman arrived at 6:41 p.m.\nPublic hearing on the annexation of Village at Western Oaks.\nAssistant City Manager Toby Futrell presented areas of information on the annexation\nissues and where these could be located.\nSeveral department directors and assistant directors presented the different areas of the\nservice plan.\n8 Citizens signed appearance cards (on file in City Clerk's Office) Close the public\nhearing on Mayor Pro Tern Garcia's motion, Councilmember Slusher's second, 6-0 vote,\nCouncilmember Lewis absent.\nADJOURNED at 7:08 p.m. on Councilmember Spelman's motion, Mayor Pro Tern Garcia's second,\n6-0 vote, Councilmember Lewis absent.\nApproved on this the 18th day of December, 1998 on Councilmember Goodman's motion,\nCouncilmember Slusher's second, 6-0 vote, Mayor Watson absent."
 }

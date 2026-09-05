@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City officials held a special work session dedicated to reviewing upcoming departmental budgets.\n*   Key discussions focused on the financial plans for the Electric, Water, and Wastewater Utility Departments.\n*   Budgets for the Environment and Conservation Department, including Solid Waste management, also underwent review.\n*   An update on the city's overall financial health through the General Fund was presented.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nAugust 14, 1990 - 10:00 A.M.\nMayor Cooke called to order the special called meeting of the Council, noting the absence\nof Councilmember Nofziger. The Mayor announced the purpose of the neeting was to hold a\nBudget Vork Session. Reports A General Fund Update vas presented by Betty Dunkerly,\nDirector, Financial Services Department.\nByron Marshall introduced the discussion on the Electric Utility Department. John Moore,\nDirector of Electric Utility, presented the report Vater and Vastevater Utility Department\npresentation on their budget vas given by Randy Goss.\nAustan Llbrach, Director, Environment and Conservation Department* led the discussion\nconcerning his department's budget.\nThe report on Solid Vaste vas given by Joe Word, Assistant Director, Environment and\nConservation Department.\nAdjournment\nThe special called meeting of the Council vas adjourned at 2tOO P.M."
 }

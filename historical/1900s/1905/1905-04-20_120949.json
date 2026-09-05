@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **Primary Action**: City Council approved hiring an assistant to the City Engineer with a 11-2 vote, with only Aldermen Moore and Rabahl voting against the measure.\n\n• **Quick Process**: The ordinance was introduced and passed on the same day under emergency suspension of normal rules, suggesting the position was considered urgent.\n\n• **Salary Set**: The new position included a fixed salary (amount not specified in the transcript), and the assistant would support the existing City Engineer in their duties.\n\n• **Attendance**: 12 of 14 aldermen were present for the special meeting; Alderman Von Rosenberg was out of town.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "338\nCalled Meeting of the City-Council\nAustin, Texas, April 20, 1905\nHon F. O. Shelley, Mayor, Presiding\nRoll Called\nPresent Aldermen Armstrong, Crooker, Duncan, Haynes, Miller, Moore, Patri, Powell, Rabahl,\nShumate, Smith and Wilhelm 12\nAbsent Aldermen Thacker, Von Rosenberg 2\nThe following Call of the Council was read.\nAustin, Texas, April 20th 1905\nCall of Council A Special Meeting of the City-Council of the City of Austin, Texas, is\nhereby Called to meet in the City Hall at 8 o’clock P.M. this 20th day of April A.D.\n1905, for the purpose of employing an assistant to the City Engineer.\nF. O. Shelley Mayor\nL. W. Crooker Alderman 8th Ward\nGeo. D. Smith \" 7th \"\nJno. Shumate \" 6th \"\nAustin, Texas, April 20th 1905\nI hereby Certify that I have this day served the within Call for a Special Meeting of the\nCity Council of the City of Austin, Tex, by reading same to the following named Aldermen,\nto-wit:F. L. Haynes, R. D. Jones, F. D. Armstrong, Joseph J.\nThacker, Jno. Shumate, Louis Powell, A. L. Moore, H. Rabahl, H. S. Miller, H. Wilhelm,\nHenry Patri\nF. W. Powell, L. W. Crooker\nAlderman Von Rosenberg being out of the City-I left a Copy of the within Call at his\nresidence J. I. Morris\nCity Marshal.\nAlderman Shumate moved that City-Engineer Leonard be requested to address the Council on\nthe matter mentioned in the Call. After remarks by Ordinance authorizing Alderman Leonard,\nAlderman Thacker seconded the the appointment of an Asst. to Engineer for motion. Carried.\nAlderman Miller introduced two months An ordinance employing an assistant Engineer to\nAssist the City Engineer and fixing the Salary of Said Assistant. The ordinance was read\nthe first time and passed under suspension of the rules by the following Vote Yeas\nAldermen Armstrong, Crooker, Duncan, Haynes, Thacker, Miller, Patri, Powell, Shumate,\nSmith and Wilhelm 11\nNays Aldermen Moore, Rabahl 2\nOn motion the Council adjourned.\nJ. I. Morris\nCity Clerk.\n\n"
 }

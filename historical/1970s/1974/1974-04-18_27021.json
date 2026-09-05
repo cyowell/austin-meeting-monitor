@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The special meeting's primary focus was to consider potential appointments to various positions.\n*   Officials immediately moved into a closed executive session for confidential discussions related to these appointments.\n*   Any final decisions or votes regarding the appointments were slated to occur in a public, open session following the private discussions.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "=R=.-r.-^=^=_..:=CITY OF AUSTIN, TEXAS,--. .-=\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nApril 18, 1974\n10:30 A.M.\nMayor's Office\nMunicipal Building\n124 West 8th Street\nThe meeting was called to order with Mayor Butler presiding. Roll Call: Present:\nCouncilman Binder, Friedman, Handcox, Lebermann, Mayor\nButler, Mayor Pro Tern Love\nAbsent:\nCouncilman Dry-den\nThe Mayor announced that this was a Special Called Meeting of the City Council for the\npurpose of considering appointments, and to announce publicly during the Meeting it would\nconvene in a closed or executive session authorized by Section 2, Paragraph (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated; and after such closed or executive\nsession any final action, decision or vote with regard to any matter considered in the\nclosed or executive session shall be made in open session, should such action, decision or\nvote be necessary.\nThe Mayor announced that the Council would go into executive session at this time to\nconsider the items authorized in Section 2, Paragraph (g) of Article 6252-17.\nAPPROVED: $\ng\nMayor\n!i ATTEST\nActing City Clerk\nit\n_."
 }

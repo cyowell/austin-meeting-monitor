@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City leaders approved substantial temporary funds to ensure essential municipal services continued operations.\n*   The largest allocations were directed towards the Water, Light, and Power Department ($25,000) and Streets ($8,500), indicating a focus on infrastructure and utilities.\n*   Public safety and health also received significant attention, with funds for Police ($3,600), Fire ($6,000), and the City Hospital ($3,500).\n*   These appropriations were provisional, intended as a stopgap measure until the full annual budget could be finalized and passed by mid-February.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "SPECIAL MEETING OF THE CITY COUNCIL:\nAustin, Texas, January 06, 1923.\nThe Council was called to order by the Mayor. Roll call showed the following members\npresent: Jayor Yett\nCouncilmen Copeland, Eyres, Haynes and\nSearight, 5; absent, none.\nCouncilman Haynes introduced the following resolution: BE IT RESOLVED BY THE CITY COUNCIL\nOF THE CITY OF AUSTIN, TEXAS: That the following emergency and provisional appropriations\nare made for the benefit of the several departments which they may serve: For Department\n\"A\", Mayor and Superintendent of Public Affaire----$ 3,500,00\nFor Department \"B\", Revenue\nFör Department \"B\", Sanitary\nFor Department \"C\", City Hall\n--------\n----\n1,500.00\n5,000.00\n250.00\nFor Department \"C\", Water, Light and Power Department ------------25,000.00\nFor Department \"D\", Streets ...\n8,500.00\nFor Department \"D\", Sanitary Sewer Fund\n1,500.00\nFor Department \"E\", Police\n------\n3,600.00\nFor Department \"E\", Fire\n6,000.00\nFor Department \"E\", Hospital -----\n3.500.00\nFor Department \"E\", Sub-Department Public Health ----..\n400.00\nFor Public Health\n250.00\nFor Parks --\n1,000.00\nFor General Fund -------\n2,000.00\nFor Oakwood Cemetery ---\n1,000.00\nFor Oakwood Annex ...\n1,000.00\nThese appropriations are intended to be merely temporary and will be substituted by the\nappropriations of the General Budget, which, presumably, will be passed on or before the\n15th day of February, 1923.\nThe above resolution was adopted by the following vote: Ayes, Mayor Yett, Councilmen\nCopeland, Tyres, Haynes and Searight, 5; nayes, none.\nThe Council then adjourned.\nTous fornsby\nTrity der K\n83"
 }

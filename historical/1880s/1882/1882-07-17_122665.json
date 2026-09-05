@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-pro",
   "summary": "• **Attendance enforcement:** Four aldermen (Metz, Cook, Radkey, and Wilson) were each fined $1 for missing the July 17th council meeting\n\n• **Quorum issues:** Only 5 of 9 aldermen were present, prompting the marshal to fetch absent members before suspending the roll call\n\n• **Minimal business conducted:** The meeting was brief with no major policy decisions or public hearings documented on the agenda",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "168\n\nRegular meeting of the City Council\nAustin Texas July 17, 1882\nR Peak acting Mayor Presiding\n\nRoll call present Aldermen Keeney Schuber Bruggerhoff, Kauppertz, Moeller\nAbsent Aldermen Cook Radkey, Wilson Metz\n\nOn motion of Alderman Schuber the Council was called and the Marshall sent after the\nabsentees\n\nOn motion of Alderman Bruggerhoff the\nCall of the Council was suspended\n\nMotion to adjourn was lost\n\nA fine of one dollar was entered against\nAldermen Metz Cook Radkey and Wilson\nfor non attendance at this meeting.\n\nOn motion the Council adjourned\nAug 7th 1882 Read and approved Aug 7th 1882 T. E. Powell\nCity Clerk\n\n"
 }

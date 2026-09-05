@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "*   City leaders discussed plans for a farewell military parade, which would require temporarily closing Congress Avenue.\n*   A permit request from Oriental Oil Co. for a new gas station was under consideration.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Vacating Con\ngress avenue\nfarewell mil-\nitary Parade\n\nOriental Oil\nCo. permit\nfor filling\nstation\n\n"
 }

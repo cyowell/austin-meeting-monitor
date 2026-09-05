@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City officials convened a special public hearing to gather community input on cultural arts funding for the upcoming fiscal year.\n*   The Arts Commission provided a report, setting the stage for discussions on local artistic needs.\n*   Numerous Austin-based cultural organizations, from ballet companies like Mexic-Arte and Ballet Austin to the Zachary Scott Theater and Austin Children's Museum, presented their funding requests and shared their perspectives.\n*   The meeting served as an important public forum for arts organizations to advocate for support, concluding after all input was heard.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor August 16, 1988 - 1:00 P.M. - SPECIAL CALLED MEETING\nCULTURAL ARTS - FISCAL YEAR 1988-89\nCouncil Chambers, 307 West Second Street, Austin, Texas Mayor Cooke called to order the\nspecial called meeting of the Council, noting the absence of Councllmember Barnstone and\nCouncilmember Urdy. The Mayor announced the purpose of the meeting was to hold a public\nhearing on cultural arts for FY 1988-89.\nCynthia Alexander, chairman, Arts Commission, gave a report and comments were made by\nother members of the Commission.\nCouncil heard requests from Ballet East Austin, MexicArte, Ballet Academia Tejas, Zachary\nScott Theater, Austin Federation of Musicians, Austin Children's Museum, Theater Peer\nPanel, Texas Youth Ballet, Austin Contemporary Dance Company, Laguna Gloria, Ballet\nAustin, LUCHA, Project Inter-Act.\nCards for speakers are on file in the City Clerk's office.\nMotion\nThe Council, on Mayor Pro Tern Shipman's motion, Councllmember Carl-Mitchell's second,\nclosed the public hearing and adjourned the meeting. (5-0 Vote, Councilmembers\nUrdy and Barnstone absent.)"
 }

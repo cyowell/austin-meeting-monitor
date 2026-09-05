@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting of the city's Housing Sub-Committee was held.\n*   Discussions included input from financial experts at First Southwest Company.\n*   The committee agreed to begin developing new housing policies, with formal consideration planned for their next meeting on August 5th.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - July 29, 1986 - 2:00 P.M.\nTHIRD FLOOR CONFERENCE ROOM - MUNICIPAL BUILDING Coundl Chambers, 307 Wfeat Second Street,\nAustin, Texas City Council\nFrank C.Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nHden Aldridge\nDry Clerk\nMemorandum To:\nCouncilmember Urdy called to order the special called meeting of the Council for a meeting\nof the City Council's Housing Sub-Committee, noting the presence of all committee members:\nMayor Pro Tern Trevino* Councilmembers Rose and Humphrey.\nMike Spain and Bill Neuman of First Southwest Company spoke.\nThe Committee unanimously agreed to consider setting new policies at their August 5, 1986\nmeeting.\nThe meeting was adjourned at 3:42 p.m."
 }

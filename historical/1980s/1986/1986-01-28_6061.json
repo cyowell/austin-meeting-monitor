@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was held, primarily taking place behind closed doors in an \"Executive Session.\"\n*   Discussions covered important city matters including potential land purchases, ongoing legal issues, and staffing decisions.\n*   No public votes or official policy decisions were made during this particular session, which concluded after the closed-door discussions.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nJanuary 28, 1986 - 4:00 P.M.\nMAIN LIBRARY\nCouncil Chambers, 307 West Second Street, Austin, Texas\n- SPECIAL CALLED MEETING\nCity Council\nFrank C.Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nMayor Cooksey called to order the special called meeting of the Council, noting the\nabsence of Councllmember Rose.\nEXECUTIVE SESSION\nThe Mayor announced Council would enter into Executive Session, pursuant to Article\n6252-17, Texas Revised Civil Statutes Annotated to discuss matters of land acquisition,\nlitigation and personnel matters; no official action will be taken on any of these matters\nunless such item is specifically listed on the agenda. RECESS AND ADJOURNMENT Council\nrecessed its meeting for executive session and. adjourned its meeting at 6:20 p.m."
 }

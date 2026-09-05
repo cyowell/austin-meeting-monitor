@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City officials held a special meeting dedicated to a single, pressing policy discussion.\n*   A public hearing took place regarding a proposed ordinance to establish a city-wide nighttime curfew.\n*   The discussion centered on amending city code Chapter 10-7 to extend curfew provisions across all of Austin.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - July 12, 1994\nJ. C. THOMPSON CENTER - 7iOO P.M.\nMayor Todd called to order the meeting of the Council, noting the presence of all of the\nCouncil.\nPublic Hearing on an Ordinance amending Chapter 10-7 of the City Code (Curfev Ordinance),\nto extend its provisions regarding a nighttime curfev to the City of Austin.\nADJOURN at 9zlO p.m.\nApproved this the\nt\nday of\non Councilmember Garcia's notion, Couhciln^mber Goodman's second, 6-0 vote, Mayor Todd out\nof the room. MINUTES\n1\nJULY 12,1994"
 }

@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City officials held a special worksession to discuss employee morale and compensation.\n*   A major focus was on potential inequities in healthcare benefits for employees and retirees, specifically concerning long-term vs. short-term staff and coverage for retirees' spouses.\n*   City management announced an ongoing study to review current employee health and dental plans.\n*   Representatives from the Police Association and AFSCME voiced their members' concerns on the discussed issues.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "YOF AUST\nFOUNDED 1839\nAustin City Council\nMINUTES\nSPECIAL CALLED MEETING\n-\nMay 13, 1992\nTOWN LAKE CENTER - 1:30 Ρ.Μ.\n!\n!\n1\nMayor Todd called to order the meeting of the Council, noting the absence of Mayor Pro Tem\nUrdy, Councilmember Epstein. The Mayor announced the purpose of the meeting was to hold a\nworksession. WORKSESSION 1. Employee Morale/Compensation Issue Paper Joe Canales, Director\nof Human Resources, used slides to illustrate his presentation, a copy of which is on file\nin the City Clerk's office.\nCouncil asked questions and Councilmember Garcia was particularly interested in the health\ncare procedure for employees and retirees.\nHe sees some problems with inequities, e.g. someone who works only a short time for the\nCity will receive the same health plan as long term employees of the City. Councilmember\nGarcia also questioned the inclusion of spouses of retirees included in the plan. City\nManager Barnett indicated there is now a study in progress, which she said also includes\nstudy of the dental plan for City employees.\nSam Cox, Police Association, and Carol Guthrie, AFSCME, talked to Council about their\nconcerns for members of their organizations. ADJOURNMENT\nThe meeting was adjourned at 2:45 P.Μ.\nMINUTES\n1\n5/13/92\nG"
 }

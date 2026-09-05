@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   Austin city leaders convened a special, unscheduled meeting.\n*   The meeting's public portion immediately announced a move into a closed-door executive session.\n*   This private session was authorized to discuss sensitive topics, potentially including real estate negotiations, personnel matters, or legal strategies, as allowed by state law.\n*   Any official decisions or votes resulting from these confidential discussions were slated to be made public at a later open session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Roll Call:\n_ CITY OF AUSTIN, TEXAS\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Called Council Meeting\nMarch 04, 1981\n4:00 Ρ.Μ.\nFirst Floor Conference Room\n124 West Eighth Street\nThe meeting was called to order with Mayor McClellan presiding.\nPresent: Mayor McClellan, Councilmembers Cooke, Goodman, Himmelblau, Mayor Pro Tem Trevino\nAbsent:\nCouncilmember Mullen\nMayor McClellan opened the meeting scheduled for 4:00 p.m., stating that this was a\nSpecial Called Meeting of the City Council for the purpose of publicly announcing that it\nwill convene in a closed or executive session authorized by Section 2, Paragraphs (e), (f)\nand (g) of Article 6252-17, Texas Revised Civil Statutes Annotated; and after such closed\nor executive session any final action, decision or vote with regard to any matter\nconsidered in the closed or executive session would be made in open session, should such\naction, decision or vote be necessary.\nMayor McClellan announced that the Council would go into executive session at this time to\nconsider the items authorized in Section 2, Paragraphs (e), (f) and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated.\nATTEST:\nAPPROVED\nC\nМауб\nMomoe\nCity Clerk"
 }

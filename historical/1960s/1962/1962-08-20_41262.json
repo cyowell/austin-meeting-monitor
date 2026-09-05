@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City officials met for a special session to discuss the crucial natural gas fuel supply.\n*   The primary focus was reviewing the draft specifications for the contract, not a final decision.\n*   This gas supply was vital for operating Austin's electrical power generation system.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "785 785\n= CITY OF AUSTIN. TEXAS\nNOTICE OF SPECIAL MEETING\nTO THE MEMBERS OF THE CITY COUNCIL OF THE CITY OF AUSTIN: Notice is hereby given that a\nSpecial Meeting of the City Council of the City of Austin will be held on the 20th day of\nAugust at the Municipal Building, Eighth and Colorado, in Austin, Texas, at 4:00 P.M. for\nthe purpose of consideration of the draft of specifications for the Natural Gas Fuel\nSupply Contract for the City of Austin Electrical Generating System. s/ Elsie Woosley\nCity Clerk\nATTEST:\ns/ Elsie Woosley\nCity Clerk\ns/ Lester E. Palmer\nMayor\nCity of Austin, Texas\nCONSENT TO MEETING\nWe, the undersigned members of the City Council, hereby accept service of the foregoing\nnotice, waiving any and all irregularities in such service and such notice, and consent\nand agree that said City Council shall meet at the time and place therein named, and for\nthe purpose therein stated. s/ Edgar Perry\ns/ Bob Armstrong\ns/ Louis F. Shanks\ns/ Ben White"
 }

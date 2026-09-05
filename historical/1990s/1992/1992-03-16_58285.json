@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting was held solely to consider scheduling a public vote on the citizen-led \"Save Our Springs Initiative Ordinance.\"\n*   Citizens provided testimony and discussed the proposed environmental protection measure during the meeting.\n*   A motion to order the special election for the Save Our Springs Initiative ultimately failed, meaning the public vote would not proceed at this time.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "i\n:\nFOUNDI\nAustin City Council\nMINUTES\n1.\nSPECIAL CALLED MEETING\n7:00 Ρ.Μ.\n-\nMarch 16, 1992\nMayor Todd called to order the special called meeting of the Council, noting the presence\nof all members of the Council. The Mayor announced the purpose of the meeting was to\nconsider the following Ordinance: Adopt an Ordinance ordering a special election to be\nheld May 2, 1992, for the purpose of submitting to the qualified voters the Save\nOur Springs Initiative Ordinance.\nTestimony was heard from citizens and discussion was held by Council. A transcript of\nclosing statements of members of the Council are on file in the City Clerk's office.\nMotion FAILED Councilmember Nofziger made a motion, seconded by Councilmember Garcia to\nwaive the requirement for three readings and finally pass an Ordinance ordering a special\nelection to be held May 2, 1992, for the purpose of submitting to the qualified voters the\nSave Our Springs Initiative Ordinance. MOTION FAILED by a vote of 3-0-4 with Mayor Pro Tem\nUrdy, Councilmembers Epstein, Larson and Reynolds abstaining.\nMotion to Adjourn\nThe Council, on Councilmember Reynolds' motion, Councilmember Epstein's second, voted to\nadjourn the meeting at 10:05 P.M. 7-0 Vot MINUTES\n1\n3/16/92\nت\n:"
 }

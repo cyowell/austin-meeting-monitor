@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City officials dedicated a four-hour work session to planning the Capital Improvements Program (CIP) Budget.\n*   Discussions centered on funding for critical public services, including community programs, public health initiatives, public safety, and recreational facilities.\n*   The session involved presentations and deliberations aimed at shaping future investments in Austin's infrastructure and services.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nSPECIAL CALLED MEETING - August 13, 1986 - 4:00 P.M Council Chambers, 307 VSfcst Second\nStreet, Austin, Texas City Council\nFrank C . Cooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nMayor Cooksey called to order the meeting of the Council, noting the absence of\nCouncilmembers Urdy and Rose.\nThe Mayor announced the purpose of the meeting was for a work session on the Capital\nImprovements Program - Budget. Council discussed and heard presentations on Public and\nCommunity Services, Public Health, Public Safety and Recreation.\nThe meeting was adjourned at 8:00 p.m."
 }

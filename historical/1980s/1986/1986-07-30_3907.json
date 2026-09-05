@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting convened to focus on the forthcoming 1986-87 operating budget for the city.\n*   City Manager Jorge Carrasco formally presented the proposed budget, utilizing both a video presentation and a verbal overview.\n*   Council members engaged in a discussion regarding the city's financial plans for the upcoming year.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - July 30, 1986 - 4:00 P.M.\nCouncil Chambers, 307 ttfest Second Street, Austin, Texas City Council\nFrank CCooksey\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nHden Aldrldge\nCity Clerk\nMemorandum To:\nMayor Cooksey called to order the special called meeting of the Council, noting the\nabsence of Councllmember Rose.\nCity Manager Carrasco presented the Proposed Operating Budget for 1986-87 by means of\nvideo, as well as verbal presentation. Discussion was held by members of the Council.\nThe meeting was adjourned at 5:10 p.m."
 }

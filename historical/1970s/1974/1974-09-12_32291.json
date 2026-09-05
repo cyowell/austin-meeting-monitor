@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Special Closed-Door Meeting Announced**: The city's leaders convened a special public meeting solely to announce their intent to immediately enter a private, executive session.\n*   **Authorized by State Law**: This confidential discussion was legally permitted by specific sections of state statutes.\n*   **Commitment to Public Action**: Officials pledged that any final decisions or votes resulting from the private deliberations would be made public during an open session.\n*   **Confidential Topics Expected**: While specific agenda items were not disclosed, such executive sessions typically address sensitive matters like legal issues, personnel changes, or property negotiations.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "=CITY OF AUSTIN. TEXAS=\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nSeptember 12, 1974\n12:00 Noon\nElectric Building Conference Room\n301 West Avenue\nThe meeting was called to order with Mayor Butler presiding. Roll Call: Present:\nCouncllmen Binder, Dryden, Friedman, tebermann, Mayor Butler, Mayor Fro Tern Love\nAbsent:\nCouncilman Handcox\nMayor Butler announced that this was a Special Called Meeting of the City Council for the\npurpose of publicly announcing that during the Meeting it will convene in a Closed or\nExecutive Session Authorized by Section??, Paragraphs (e), (f) and (g) of Article 6252-17,\nTexas Revised Civil Statutes Annontated; and after such closed or executive session any\nfinal action, decision or vote with regard to any matter considered In the closed or\nexecutive session would be made in open session, should such action, decision or vote be\nnecessary.\nThe Mayor announced that the Council would go into this time to consider the items\nauthorized in Jeption 2, (g) of Article 6252-17.\nATTEST: /&*<<L,\nicutlve session at\n(e), (f) and\nAPPROVED: f^ tLt^/ Mayor\nCity Clerk"
 }

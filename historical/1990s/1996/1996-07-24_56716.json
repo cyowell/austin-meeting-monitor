@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Federally Qualified Health Clinics**: Briefings were given on the current status, financial structure, and future outlook for the city's health clinic system, including how indigent healthcare is financed.\n*   **Workforce Development**: Discussions centered on the ongoing progress and status of initiatives aimed at developing the local workforce.\n*   **Emergency Services Provision**: The meeting included a review of critical emergency services, covering Emergency Medical Services (EMS), the Office of Emergency Management, and city radio communications.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nJULY 24,1996\nMayor Todd called the meeting to order, Mayor Pro Tern Garcia and Councilmember Mitchell\nabsent.\nPREVIEW OF ITEMS FOR NEXT COUNCIL MEETING 1.\nReview of Proposed Agenda Items from the City Manager for August 1, 1996. 2.\nReview of Proposed Agenda Items from Council for August 1, 1996. 3.\nDiscuss or respond to questions by the City Council on the July 25, 1996 Council meeting\nagenda. (Agenda for July 25, 1996 is attached.) (Mayor Bruce Todd)\nBOARD AND COMMISSION REPORTS\n4.\nREPORT OF THE SOLID WASTE COMMISSION\nNo report given.\nBRIEFINGS AND DISCUSSIONS ITEMS\n5.\nDISCUSSION ON STATUS OF FEDERALLY QUALIFIED HEALTH CLINIC (FQHC) a.\nBackground and Evolution of the Clinic System b.\nFQHC Financial Structure\nc.\nFinancing of Indigent Health Care\nd.\nOutlook for the Future\nPresentation given by Sue Milam, Marcia Conner, Steven Williams and Mike Abkowitz. 6.\nDISCUSSION ON STATUS OF WORK FORCE DEVELOPMENT Presentation given by Steven Williams,\nMarcia Conner and Ron Layman. 7.\nDISCUSSION ON PROVISION OF EMERGENCY SERVICES a.\nEmergency Medical Services\nb.\nOffice of Emergency Management\nc.\nRadio Communications\nPresentation given by Sue Edwards, Danny Hobby, Mike Simpson and Robin Paulsgrove.\nADJOURNED at 5:15 p.m.\nApproved on this the 1st day of August, 1996, on, Mayor Pro Tern Garcia's motion,\nCouncilmember Goodman's second, 4-0 vote, Councilmembers Griffith, Mitchell and Slusher\ntemporarily absent."
 }

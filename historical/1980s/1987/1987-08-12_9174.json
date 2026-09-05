@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   City officials held an extensive worksession to review and discuss the upcoming operating and capital budget.\n*   A significant policy decision was made, approving the layoff of 75 employees from the Transportation and Public Service departments.\n*   Several city departments, including Information Systems, Internal Audit, Legal, and the Library, presented their reports during the session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "TY OF AUSTIN\nJUUNDID 1030\nAustin City Council\nMINUTES\nFor\nAugust 12, 1987\n-\n3:00 Ρ.Μ. WORKSESSION\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Cooksey\ncalled to order the meeting of the Council, noting the absence of Councilmember Urdy. The\nMayor announced the purpose of the meeting was to hold a worksession on the Operating and\nCapital Budget.\nDepartments which gave their reports were Transportation and Public Service, who received\nCouncil approval to lay off 75 people in their department; Information Systems, Internal\nAudit, Legal and the Library.\nThe Mayor announced the worksession would be continued to 2:30p.m. on August 13, 1987.\nCouncil adjourned its meeting at 5:55 p.m."
 }

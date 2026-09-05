@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   Austin officials moved forward with repealing the city's Fair Housing Ordinance.\n*   A new ordinance (No. 680808-A), designed to overturn existing fair housing protections, passed its second reading.\n*   The repeal measure was approved quickly in a 3-1 vote, indicating strong support for removing the protections despite one opposing vote.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Special\nMeeting\nMEMORANDUM TO:\n10:00 Α.Μ.\nAugust 09, 1968\nCouncilman LaRue absent as he was out of the City.\nMAYOR AKIN called the meeting to order announcing that the meeting was called for the\npurpose of passing an ordinance repealing Ordinance 68517-A (Fair Housing Ordinance)\nthrough its second reading, The Council, on Councilman Nichols' motion, seconded by\nCouncilman Janes, passed ORDINANCE No. 680808-A through its second reading. (3 to 1 to 0\nvote, Councilman Long voting against the motion, and Councilman LaRue absent.) On\nCouncilman Janes' motion, the Council adjourned at 10:01."
 }

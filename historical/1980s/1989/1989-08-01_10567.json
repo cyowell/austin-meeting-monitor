@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The City Manager presented the proposed 1989-90 financial plan, outlining future city spending.\n*   This comprehensive budget covered operating expenses, capital investments, and key policy initiatives.\n*   Core objectives emphasized were living within the city's financial means, protecting essential services, and investing in the municipal workforce.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "تا\nTYOF AUSTIN\nFOUNDED 1439\nAustin City Council\nMINUTES\nFor SPECIAL CALLED MEETING\n-\nFIRST FLOOR ASSEMBLY ROOM\nCouncil Chambers, 307 West Second Street, Austin, Texas August 01, 1989\nTOWN LAKE CENTER\nMayor Cooke called to order the special called meeting of the Council, noting the absence\nof Councilmember Humphrey. Mayor Cooke announced the purpose of the meeting was to listen\nto the City Manager's budget presentation to Council.\nCity Manager Barnett introduced her discussion by stating there were three objectives in\nthe budget: 1. Live within our means 2. Protect services 3. Invest in the work force. She\nexplained the proposed 1989-90 Financial Plan and illustrated with charts and graphs. In\nadditon to the Operating Budget, the Capital Budget and Policy Budget were also introduced\nand explained.\nThe Council adjourned its meeting at 12:17 Ρ.Μ."
 }

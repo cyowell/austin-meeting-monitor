@@ -10,15 +10,6 @@
   "ocr_source": "claude-sonnet-4-6",
   "summary": "• **Low Attendance**: Only 9 of 20 aldermen showed up for the meeting, with 11 members absent\n\n• **Brief Session**: The council had no substantive business to conduct and immediately adjourned without taking any action or discussing agenda items\n\n• **Mayor Roberts Presiding**: Mayor J.N. Roberts led what appears to have been a largely ceremonial meeting",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "A Regular meeting of the City Council.\n\nAustin Tex November 01, 1886.\nHon. J. N. Roberts on, Mayor, presiding.\n\nRoll Call. Present- Aldermen Brush,\nCrooker, Jones, Schuber, Walker, Wellmer and Wortham- 9.\nAbsent- Aldermen Anderson, Caldwell, Cummings\nDedress, Ervin, Giesen, Holman, Metz,\nOdell, Pillow and Schneider- 11.\nadjourned On motion, the Council adjourned until the next regular meeting.\nMilton Morris\nCity Clerk.\n\n"
 }

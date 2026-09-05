@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special meeting was called to consider the advanced refunding of Austin's Utility Revenue Bonds.\n*   This financial move aimed to potentially refinance existing utility debt, which could save the city money.\n*   However, the meeting was unable to officially proceed due to a lack of quorum, with only Mayor McClellan in attendance.\n*   Despite no formal meeting, the Mayor and city staff still held discussions regarding the bond refunding proposal.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": ":iTT\nOF AUSTIN. TEXAI\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Called Meeting\nDecember 21» 1981\n1:30 P.M.\nFirst Floor Conference Room\nMunicipal Building\n124 West Eighth Street\nThe meeting was called to order with Mayor McClellan presiding. Roll Call:\nPresent: Mayor McClellan\nAbsent:\nMayor Pro Tern Trevino, Councilmembers Deuser, Duncan, Goodman, Mullen, Urdy Council was\nscheduled to hold a Special Called Council Meeting of the City Council on December 21,\n1981 for the purpose of reviewing the Request for Proposal to be issued in connection with\nthe proposed advanced refunding of the\nCity of Austin's Utility Revenue Bonds.\nMayor McClellan was the only one present, so no meeting was held because there was not a\nquorum, However, discussion was held between the Mayor and members of the staff."
 }

@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The city held a public hearing to review and discuss contracts for local social services and cultural arts organizations.\n*   Dozens of diverse non-profit groups were present, including those providing vital community support (e.g., mental health services, food banks, domestic violence assistance) and various arts and heritage organizations.\n*   The meeting was notably long, extending over six hours into the early morning, indicating significant public interest and detailed discussions regarding these important community funding decisions.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "TYOF\nAUISSOT\nAustin City Council\nMINUTES\nFor SPECIAL CALLED MEETING\n-\nAugust 24, 1987\n-\n5:30 Ρ.Μ.\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To: Mayor Cookšey\ncalled to order the special called meeting of the Council, noting the presence of all\nCouncilmembers. The Mayor announced the purpose of the meeting was to hold a public\nhearing on social and cultural agency contracts.\nFollowing is a list of agencies represented. For a list of speakers names see cards on\nfile in the City Clerk's office.\nSOCIAL SERVICES\nAmerican Institute for Learning, Austin Association for retarded citizens, Austin\nFamilies, Austin Community Gardens, University Y, Women's Counseling & Referral Center,\nAWARE-University Y, Austin Family House, Austin Rape Crisis Center, Austin Rehabilitation\nCenter, Austin-Travis County Mental Health/Mental Retardation, Austin Wilderness\nCounseling, Austin Women's Center, Big Brothers and Big Sisters, Blackland Community\nDevelopment Corporation, Capital Area Food Bank, Caritas, Center for Battered Women,\nCEDEN, Central East Austin Community Organization, Child and Family Service, Community\nAdvocates/Teens/Parents, Community Bound, Development Assistance for Rehabilitation,\nGreater Austin Council on Alcoholism, Legal Aid Society, CULTURAL ARTS Academia De\nDanza/Dance Umbrella, Austin Children's Museum, Austin Circle of Theaters, League of\nUnited Chicano Artists, La Pena, Austin Writers League, Austin Lawyers and Accountants of\nthe Arts, Austin Community Television, Sharir Dance Company, Deborah Hay Dance Company,\nBallet East Austin Theatre, Texas Folklife Resources, Austin Ethnic History Association,\nAustin Symphony Orchestra, Laguna Gloria Art Museum, Music Umbrella,\nADJOURNMENT\nCouncil adjourned its meeting at 12:06 a.m."
 }

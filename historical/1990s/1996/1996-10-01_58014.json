@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   **Public Hearing on Annexation:** The primary focus of the meeting was a public hearing concerning the potential annexation of the Lamplight Village area.\n*   **Brief Session:** Chaired by Mayor Pro Tem Garcia, the meeting was swift, beginning at 6:30 p.m. and adjourning just 90 minutes later at 8:00 p.m.\n*   **Council Absences:** Councilmembers Mitchell and Slusher were noted as absent during the proceedings.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\n'\nOctober 01, 1996\nMayor Pro Tern Garcia called the meeting to order, noting the absence of\nCouncilmembers Mitchell and Slusher.\nPublic hearing on annexation of Lamplight Village\nPublic hearing began at 6:30 p.m.\nADJOURNED at 8:00 p.m.\nApproved on this the Q 1 QAT\nday of i^CAOQ]l)O\n, 1996\non. Mayor Pro Tern Garcia's motion, Councilmember Goodman's second, 6-0 vote,\nCouncilmember Reynolds absent.\nMINUTES\nPAGE 1\nOCTOBER 1, 1996"
 }

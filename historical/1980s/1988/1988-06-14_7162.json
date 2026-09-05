@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   Austin City Council held a special private meeting led by Mayor Pro Tem Trevino.\n*   The primary discussion focused on acquiring land for the new Civic Center Project.\n*   Council members also addressed other land acquisition matters, ongoing litigation, and personnel issues in closed session.\n*   No public votes or policy decisions were made during this meeting.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING - 3:00 P.M. - June 14, 1988 Council Chambers, 307 V*sl Second\nStreet, Austin, Texas Memorandum To: Mayor Pro Tern Trevino called to order the special\ncalled meeting of the Council, noting the absence of Mayor Cooksey. Mayor Pro Tern Trevino\nannounced the purpose of the meeting was for Council to enter into Executive Session,\npursuant to Article 6252-17, Texas Revised Civil Statutes Annotated, to discuss matters of\nland acquisition, litigation, and for personnel matters. No final action, decision or vote\nby the City Council will be taken on any subject or matter unless specifically listed on\nthe agenda for this meeting.\n1. Land Acquisition - Section 2, Paragraph f (a) Gilbane Update (1) Discuss land\nacquisition for the Civic Center Project\n*\nAt the close of executive session,Council adjourned its meeting.\nThere was no further discussion. The executive session was held from\n5:46 p.m. to 6:05 p.m."
 }

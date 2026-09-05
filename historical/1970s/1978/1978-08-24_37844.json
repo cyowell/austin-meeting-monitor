@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   No Austin city government meeting was held on this date.\n*   Consequently, no new policies or decisions were made.\n*   All scheduled public hearings were postponed.\n*   Key municipal business remained pending.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "August 24,1978\nNo Council meeting held\n8-24 !!?"
 }

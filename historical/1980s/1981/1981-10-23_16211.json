@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   The Austin City Council held a special meeting and immediately moved into a closed executive session.\n*   This confidential session was authorized by state law to discuss sensitive governmental matters.\n*   Key topics included seeking legal advice for potential litigation, deliberating real estate transactions (purchase, lease, or value), and discussing potential gifts or donations.\n*   While discussions were private, any final decisions stemming from these confidential matters were to be made in an open, public session.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "=C1TY OF AUSTIN. TEXAJ\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Called Council Meeting\nOctober 23, 1981\n12:30 P.M.\nFirst Floor Conference\nRoom\nMunicipal Building\nThe meeting was called to order with Mayor McClellan presiding. Roll Call:\nPresent:\nMayor McClellan, Mayor Pro Tern Trevino, Councilmembers\nDeuser, Duncan, Urdy, Mullen, Goodman\nAbsent:\nNone\nMayor McClellan announced that Council will covene in a closed or executive session\nauthorized by Section 2, Paragraphs ,(e), (f) and (g) of Article 6252-17, Texas Revised\nCivil Statutes Annotated; and after such closed or executive session, any final action,\ndecision or vote with regard to any matter considered in the closed or executive session\nwill be made in open session, should such action, decision or vote be necessary.\nMayor McClellan announced that the Council would go into executive session at this time to\nconsider the items authorized in Section 2, Paragraphs (e), (f) and (g) of Article\n6252-17, Texas Revised Civil Statutes Annotated.\nMayor\nATTEST:\n-7^\nCity Clerk"
 }

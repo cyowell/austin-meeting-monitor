@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   City officials held a special workshop to discuss critical community issues.\n*   Key topics included strategies for supporting youth at risk and expanding access to child care services.\n*   Discussions also focused on enhancing public health initiatives and improving hospital operations, featuring insights from Brackenridge Hospital.\n*   The meeting involved a collaborative effort, with presentations from various city departments, including parks, police, and public health.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nFor\nFebruary 19, 1991 - 9sOO A.M.\nSPECIAL CALLED MEETING\nMayor Cooke called to order the Special Called Meeting, noting the absence of Mayor Pro\nTern Urdy. The Mayor announced the purpose of the meeting vas to hold an Issue Papers\nVorksession.\nISSUE PAPERS WORKSESSION\n1. Topicst Youth-At-Rlsk and Child Care\nPresentations vere made by Alicia Perez, Assistant City Manager!\nManuel Mollinedo, Director of Parks and Recreation; and Police Chief Jim Everett.\nA copy of their report is on file in the City Clerk's office. Health and Hospital\nPresentations vere made by Byron Marshall, Assistant City Manager; Director of Public\nHealth, Sue Noffke; and John Dandridge, Administrator of Brackenridge Hospital.\n- A copy of their report is on file in the City Clerk's office. ADJOURh.: ,-T\nThe meeting vas adjourned at 12:00 Noon."
 }

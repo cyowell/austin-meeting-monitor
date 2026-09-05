@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   A special meeting was held to officially confirm the results of the May 2, 1987 run-off election.\n*   Michael \"Max\" Nofziger was declared the winner for City Council Place 1.\n*   Sally Shipman secured her victory for City Council Place 3.\n*   George Humphrey was confirmed as the winner for City Council Place 4.\n*   The short meeting was dedicated exclusively to formally validating the election votes.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "FOUNDED\nCity Council\nFrank C.Cooksey\nMayor\nJohn Treviño, Jr.\nMayor Pro Tem\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nFiden Aldridge\nClerk\nAustin City Council\nMINUTES\nFor MAY 4, 1987\n-\n1:00 Ρ.Μ.\n-\nSPECIAL CALLED MEETING\nCANVASSING OF VOTES, MAY 2, 1987 RUN-OFF ELECTION Council Chambers, 307 West Second\nStreet, Austin, Texas Memorandun To: Mayor Cooksey called to order the special called\nmeeting of the Council, noting the absence of Councilmembers Parl-Mitchell, Rose and\nShipman. The Mayor announced the purpose of the special called meeting is to consider a\nresolution canvassing the returns and declaring the results of the May 2, 1987 Runoff\nMunicipal Election. i\nMotion\nThe Council, on Councilmember Humphrey's motion, Mayor Pro Tem Trevino's second, adopted a\nresolution canvassing the returns and declaring the results of the May 2, 1987 General\nMunicipal Election as follows: (4-0 Vote, Councilmembers Carl-Mitchell, Rose and Shipman\nabsent)\nCITY COUNCIL PLACE 1\nGilbert Martinez\n30,733\nMichael \"Max\" Nofziger\n31,890\nCITY COUNCIL PLACE 3\nSally Shipman\n35,952\nJudy Fowler\n26,915\nCITY COUNCIL PLACE 4\nMike McHone\n30,595\nGeorge Humphrey\n31,799\nADJOURNMENT\nCouncil adjourned its meeting at 1:14 p.m."
 }

@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   An emergency meeting was called to address a pressing land acquisition issue.\n*   Officials swiftly voted to authorize eminent domain, a process allowing the city to acquire private land for public use.\n*   The purpose of this action is to secure a permanent sanitary sewer easement, specifically designated for infrastructure development in the Sunridge Park area.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "ت\nCity Council\nFrank C.Cooksey\nMayor\nJohn Treviño, Jr.\nMayor Pro Tem\nCouncil Members\nMark Rose\nSmoot Carl-Mitchell\nSally Shipman\nGeorge Humphrey\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nFOUNDED 1939\nAustin City Council\nMINUTES\nFor\nEMERGENCY SPECIAL CALLED MEETING\nCouncil Chambers, 307 West Second Street, Austin, Texas Memorandum To:\nAPRIL 17, 1986\n4:00 Ρ.Μ.\nCouncilmember Urdy called to order the Emergency Special Called Meeting of the Council,\nscheduled for 4:00 p.m., noting the absence of Mayor Pro Tem Trevino and that\nCouncilmember Carl-Mitchell was out of the room, at 5:50 p.m.\nCouncilmember Urdy announced the purpose of the meeting was to consider authorizing\neminent domain proceedings. Motion The Council, on Councilmember Shipman's motion\nCouncilmember Rose's second, adopted a resolution authorizing Eminent Domain proceedings\nto acquire the following tract of land for the Sunridge Park Sanitary Sewer Easement:\na. Easement title to 0.4464 acre of land\nout of a parcel of land designed\n\"drainage easement\" located on Lot 1,\nChevy Chase South Phase IV, Section \"B\",\nBlock \"C\" for a permanent Sanitary\nSewer Easement.\n(5-0 Vote, Councilmember Carl-Mitchell out of the room,\nMayor Pro Tem Trevino absent.)\nMayor Cooksey entered during motion,\nADJOURNMENT\nCouncil adjourned its meeting at 5:55 p.m."
 }

@@ -10,15 +10,6 @@
   "ocr_source": "claude-sonnet-4-6",
   "summary": "Unfortunately, this agenda document is too sparse to provide substantive bullet points. The transcript only records:\n\n• **Meeting called to order** with Mayor J.W. Robertson presiding, though notably only 6 of 20 aldermen were present\n\n• **Immediate adjournment** — Alderman Brush moved to adjourn almost immediately, which was adopted\n\nThe agenda contains no recorded discussion of actual business items, public hearings, or policy decisions. This appears to be either an incomplete record or a meeting that was postponed without conducting regular business.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "A Regular Meeting of the City Council\n\nAustin, Tex, Dec. 6, 1886.\nHon. J.W. Robertson, Mayor, presiding;\nRoll Call present: Aldermen Brush, Campbell, Ervin, Walker, Warren, Wortham - 6.\nAbsent: Aldermen Anderson, Caldwell, Croaker, Cummings, DeGress, Giesen, Holman, Jones,\nMetz, Odell, Pillow, Schneider, Schuler, Wellmer-14.\nAlderman Brush moved to adjourn. Adopted. Milton Morris,\nCity Clerk.\n\n"
 }

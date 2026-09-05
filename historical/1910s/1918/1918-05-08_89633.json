@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "*   City officials reviewed a request for a junk dealer's license.\n*   Discussions included a property assessment for Mrs. Axelina Johnson.\n*   A citizen's request for a dog tag refund was formally declined.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "270\nDan Cohen:\njunk dealers license\n\nMrs. Axelina\nJohnson: assess\nment\n\nCarl Belisch:\nDog Tag refund\ndeclined\n\nV.S. Mack\nCity Clerk\n\n"
 }

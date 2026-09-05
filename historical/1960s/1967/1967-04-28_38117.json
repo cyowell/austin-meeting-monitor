@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The meeting centered exclusively on the future expansion of Brackenridge Hospital.\n*   Federal authorities, specifically the US Surgeon General, approved plans for the first phase of a new Brackenridge Hospital.\n*   City officials intended to award a $2.4 million general construction contract to Citadel Construction Company for the hospital project.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "•\n_ CITY OF AUSTIN, TEXAS\nMINUTES OF THE CITY COUNCIL\nCITY OF AUSTIN, TEXAS\nSpecial Meeting\nApril 28, 1967\nCOUNCIL CHAMBERS, CITY HALL\nThe meeting was called to order with Mayor Palmer presiding. Roll Call:\nPresent:\nAbsent:\nCouncilmen LaRue, Long, Shanks, White, Mayor Palmer None Mayor Palmer stated that this was\na Special Called Meeting for the purpose of discussing Brackenridge Hospital expansion\nplans. The meeting was also attended by the Brackenridge advisory board and the incoming\nCity Council.\nCity Manager Williams announced that the US Surgeon General had approved plans and\ncontracts for the first phase of a new Brackenridge Hospital.\nThe Council intended to let the general construction contract to Citadel Construction\nCompany of San Marcos for $2.4 million. ADJOURNMENT After some discussion, the Council\nadjourned. ATTEST:\nCity Clerk\nAPPROVED:\nMayor"
 }

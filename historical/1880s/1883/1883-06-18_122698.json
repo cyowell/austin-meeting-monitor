@@ -10,15 +10,6 @@
   "ocr_source": "gemini-2.5-flash",
   "summary": "• **State Sewer Line Approved**: The council advanced an ordinance allowing Texas to construct and operate a sewer system from the Executive Mansion and temporary State Capitol down to the Colorado River.\n\n• **Attendance Enforcement**: Four aldermen were fined $1 each for missing the meeting, while two others were tracked down by the marshal after initial roll call showed them absent.\n\n• **Staff Leave Granted**: The City Engineer received a 4-day leave in June, and the City Marshal was approved for a 30-day absence during July and August.",
   "summary_source": "claude-haiku-4-5",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "313\nRegular Meeting of the City Council\nAustin Texas June 18, 1883\nHon. W A Saylor Mayor presiding.\nRoll call present Aldermen Lawrance\nschubar Suppert & Black\nOn motion of Aldermen schubar\nthe Council was called and the marshal sent after the absentees.\nAldermen Rackley and Moallen came in and answered to their names.\nOn motion the call of the\nwas suspended.\nA fine of one dollar was\nentered against Aldermen Kinney Metz\nBrueggiehoff and Wilson for non attendance at this meeting.\nCity Engineer J K McFall was granted\nfour day leave of absence in June.\nJohn R Kirk City Marshal was granted leave of absence for thirty days in the months of\nJuly and August.\nAn Ordinance granting to the State of Texas the right to build and operate a sewer from\nthe Executive Mansion and Temporary State Capitol to the Colorado River was called\nup and read a second time.\nAlderman Haukberg was excused from\nfurther attendance at this council meeting\nOn motion the Council adjourned\nJ S Morrill\nCity Clerk\n\n"
 }

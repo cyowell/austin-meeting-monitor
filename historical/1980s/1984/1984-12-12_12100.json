@@ -10,15 +10,6 @@
   "ocr_source": "pymupdf",
   "summary": "*   A special public hearing was held to discuss the implementation of single-member districts for city elections.\n*   Numerous residents voiced concerns regarding the proposed district boundaries.\n*   Speakers specifically highlighted potential impacts on ethnic group representation, neighborhood cohesion, and the fairness of future city elections.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "Austin City Council\nMINUTES\nSPECIAL CALLED MEETING\n5:00 P.M.\nCouncil Chambers, 307 West Second Street, Austin, Texas\n- December 12, 1984\nCity Council\nRon Mullen\nMayor\nJohn Trevino, Jr.\nMayor Pro Tern\nCouncil Members\nMark Rose\nRoger Duncan\nSally Shipman\nMark E. Spaeth\nCharles E. Urdy\nJorge Carrasco\nCity Manager\nElden Aldridge\nCity Clerk\nMemorandum To:\nMayor Mullen called to order che Special Called Meeting of the Council, scheduled for 5:00\np.m., noting the presence of all Councilmembers. The Mayor noted the purpose of the\nmeeting was for a public hearing on single member districts.\nThe following people spoke at the hearing: Larry McGinnis, David Van Os, James Pinedo, Bob\nTimmick, Harry Nolen, Stacy Suits, Jerry Hill, Mike Guerrero and Belinda Guerrero. Their\nconcerns were the boundaries, how they might affect the balance of ethnic groups,\nneighborhoods and City elections.\nADJOURNMENT\nCouncil adjourned its meeting at 6:00 p.m."
 }

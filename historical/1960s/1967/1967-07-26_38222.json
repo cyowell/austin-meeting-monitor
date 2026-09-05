@@ -10,15 +10,6 @@
   "ocr_source": "google_docs_ai",
   "summary": "*   The singular purpose of the meeting was to select and appoint a new City Manager for Austin.\n*   Designated a \"Special Meeting,\" it highlighted the urgency and critical nature of choosing the city's top administrator.\n*   The agenda was exceptionally focused, with no other public hearings or policy decisions scheduled beyond the City Manager selection.",
   "summary_source": "gemini-2.5-flash",
-  "topics": [
-    {
-      "broad_topic": "broad_topic_test_1",
-      "sub_topic": "sub_topic_test_1"
-    },
-    {
-      "broad_topic": "broad_topic_test_2",
-      "sub_topic": "sub_topic_test_2"
-    }
-  ],
+  "topics": [],
   "transcript": "CITY OF AUSTIN, TEXAS\nNOTICE OF SPECIAL MEETING\nTO THE MEMBERS OF THE CITY COUNCIL OF THE CITY OF AUSTIN: Notice is hereby given that a\nSpecial Meeting of the City Council of the City of Austin will be held on the 26th day of\nJuly, 1967, at the Municipal Building, Eighth and Colorado, in Austin, Texas, at 10:00\nA.M. for the purpose of selecting a City Manager.\nS/ Elsie Woosley\nCity Clerk\nS/ Harry Akin\nMayor\nCity of Austin, Texas\nATTEST:\nS/ Elsie Woosley\nCity Clerk\nCONSENT TO MEETING\nWe, the undersigned members of the City Council, hereby accept service of the foregoing\nnotice, waiving any and all irregularities in such service and such notice, and consent\nand agree that said City Council shall meet at the time and place therein named, and for\nthe purpose therein stated. S/ Emma. Long\nS/\nR. E. Janes, Jr.\ns/\nDick Nichols\ns/\nTravis LaRue\n11"
 }
