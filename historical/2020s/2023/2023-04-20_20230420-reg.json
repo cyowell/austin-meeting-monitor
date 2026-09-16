@@ -16,6 +16,24 @@
   "title_source": "gemini-1.5-flash",
   "agenda_items": [
     {
+      "item_number": "024",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230420-reg.htm#024",
+      "action_type": "resolution",
+      "action_number": "20230420-024",
+      "status": "Closed",
+      "lead_dept": "Austin Transportation and Public Works",
+      "sub_depts": null,
+      "sponsor": "Pool, Leslie",
+      "co_sponsors": [
+        "Fuentes, Vanessa",
+        "Velasquez, Jose",
+        "Qadri, Zohaib",
+        "Alter, Alison"
+      ],
+      "tags": null,
+      "description": "Approve a resolution directing the City Manager to create a plan and\nimplementation schedule to transition the City to sustainable\nlow-embodied-carbon concrete."
+    },
+    {
       "item_number": "025",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230420-reg.htm#025",
       "action_type": "resolution",

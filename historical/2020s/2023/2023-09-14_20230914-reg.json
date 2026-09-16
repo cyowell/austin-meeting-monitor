@@ -16,6 +16,49 @@
   "title_source": "gemini-1.5-flash",
   "agenda_items": [
     {
+      "item_number": "078",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230914-reg.htm#078",
+      "action_type": "resolution",
+      "action_number": "20230914-078",
+      "status": "Open",
+      "lead_dept": "Austin Equity and Inclusion",
+      "sub_depts": [
+        "Austin Parks and Recreation"
+      ],
+      "sponsor": "Qadri, Zohaib",
+      "co_sponsors": [
+        "Pool, Leslie",
+        "Fuentes, Vanessa",
+        "Velasquez, Jose",
+        "Alter, Alison"
+      ],
+      "tags": [
+        "Equity"
+      ],
+      "description": "Approve a resolution approving the installation of a historical marker on 4th\nand Colorado streets to commemorate the LGBTQIA+ district and celebrate the\nprogress made to expand the rights of all Texans."
+    },
+    {
+      "item_number": "079",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230914-reg.htm#079",
+      "action_type": "resolution",
+      "action_number": "20230914-079",
+      "status": "Closed",
+      "lead_dept": "Austin Watershed Protection",
+      "sub_depts": null,
+      "sponsor": "Alter, Ryan",
+      "co_sponsors": [
+        "Alter, Alison",
+        "Velasquez, Jose",
+        "Ellis, Paige",
+        "Pool, Leslie"
+      ],
+      "tags": [
+        "Zoning",
+        "Environment"
+      ],
+      "description": "Approve a resolution initiating site-specific variances and amendments to City\nCode Title 25 (Land Development), including Chapter 25-8, Subchapter A, Article\n13 (Save Our Springs Initiative), as minimally required to allow for proposed\ndevelopment of residential Lots 18 and 19 within the Stenger Addition\nSubdivision known as 1905 and 1908 Airole Way, located within the Barton Springs\nZone."
+    },
+    {
       "item_number": "080",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230914-reg.htm#080",
       "action_type": "resolution",
@@ -37,6 +80,96 @@
         "Environment"
       ],
       "description": "Approve a resolution directing the City Manager to seek a contested case hearing regarding an application by Waterstone Creek LLC to the Texas Commission on Environmental Quality to construct a dam on the South Llano River, to proactively engage with Texas Parks and Wildlife Department in opposing any permits for the project, and to explore with the Lower Colorado River Authority additional opportunities to oppose the permit application."
+    },
+    {
+      "item_number": "082",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230914-reg.htm#082",
+      "action_type": "resolution",
+      "action_number": "20230914-082",
+      "status": "Closed",
+      "lead_dept": "Austin Development Services",
+      "sub_depts": [
+        "Austin Planning"
+      ],
+      "sponsor": "Qadri, Zohaib",
+      "co_sponsors": [
+        "Pool, Leslie",
+        "Ellis, Paige",
+        "Vela, Jose",
+        "Velasquez, Jose",
+        "Harper-Madison, Natasha"
+      ],
+      "tags": [
+        "Zoning",
+        "Equity",
+        "Health"
+      ],
+      "description": "Approve a resolution initiating amendments to City Code Title 25 (Land\nDevelopment) to require access to natural light for all sleeping rooms in new\nbuildings."
+    },
+    {
+      "item_number": "083",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230914-reg.htm#083",
+      "action_type": "resolution",
+      "action_number": "20230914-083",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": [
+        "Austin Water",
+        "Austin Development Services"
+      ],
+      "sponsor": "Pool, Leslie",
+      "co_sponsors": [
+        "Harper-Madison, Natasha",
+        "Vela, Jose",
+        "Ellis, Paige",
+        "Qadri, Zohaib"
+      ],
+      "tags": [
+        "Zoning",
+        "Affordable Housing"
+      ],
+      "description": "Approve a resolution initiating amendments to City Code Title 25 (Land\nDevelopment) related to allowing recreational vehicles and tiny homes within\nsingle-family districts."
+    },
+    {
+      "item_number": "132",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230914-reg.htm#132",
+      "action_type": "resolution",
+      "action_number": "20230914-132",
+      "status": "Closed",
+      "lead_dept": "Austin Police Department",
+      "sub_depts": null,
+      "sponsor": "Vela, Jose",
+      "co_sponsors": [
+        "Alter, Alison",
+        "Alter, Ryan",
+        "Fuentes, Vanessa",
+        "Velasquez, Jose"
+      ],
+      "tags": [
+        "Public Safety",
+        "Equity"
+      ],
+      "description": "Approve a resolution directing the City Manager to develop and implement an\nenhanced data release (“The APD Open Policing Data Release”) for the Austin\nPolice Department and report back to Council."
+    },
+    {
+      "item_number": "133",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230914-reg.htm#133",
+      "action_type": "resolution",
+      "action_number": "20230914-133",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": null,
+      "sponsor": "Alter, Ryan",
+      "co_sponsors": [
+        "Velasquez, Jose",
+        "Ellis, Paige",
+        "Vela, Jose",
+        "Qadri, Zohaib"
+      ],
+      "tags": [
+        "Zoning"
+      ],
+      "description": "Approve a resolution initiating amendments to City Code Title 25 (Land\nDevelopment) to amend the Residential in Commercial (RIC) voluntary incentive\nprogram that allows residential uses in commercial zoning districts."
     }
   ]
 }

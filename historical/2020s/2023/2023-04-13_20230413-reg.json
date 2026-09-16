@@ -73,6 +73,26 @@
       "description": "Approve a resolution initiating amendments to City Code Title 25 to modify parking requirements for cocktail lounge use."
     },
     {
+      "item_number": "046",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230413-reg.htm#046",
+      "action_type": "resolution",
+      "action_number": "20230413-046",
+      "status": "Open",
+      "lead_dept": "Austin Housing",
+      "sub_depts": [
+        "Austin Housing",
+        "Austin Resource Recovery"
+      ],
+      "sponsor": "Velasquez, Jose",
+      "co_sponsors": [
+        "Vela, Jose",
+        "Alter, Ryan",
+        "Ellis, Paige"
+      ],
+      "tags": null,
+      "description": "Approve a resolution directing the City Manager to prioritize the development of\ndeeply affordable housing on the City-owned property located at 4800 Bolm Road,\nAustin, Texas 78702 and identify potential funding sources for any environmental\nremediation required for residential development on the property."
+    },
+    {
       "item_number": "047",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230413-reg.htm#047",
       "action_type": "resolution",
@@ -92,6 +112,26 @@
       ],
       "tags": null,
       "description": "Approve a resolution to allocate the Project Connect anti-displacement funding for Fiscal Years 2023-2025."
+    },
+    {
+      "item_number": "048",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230413-reg.htm#048",
+      "action_type": "resolution",
+      "action_number": "20230413-048",
+      "status": "Closed",
+      "lead_dept": "Austin Community Court",
+      "sub_depts": [
+        "Austin Public Health"
+      ],
+      "sponsor": "Qadri, Zohaib",
+      "co_sponsors": [
+        "Alter, Ryan",
+        "Pool, Leslie",
+        "Vela, Jose",
+        "Fuentes, Vanessa"
+      ],
+      "tags": null,
+      "description": "Approve a resolution directing the City Manager to explore the feasibility of an\ninterlocal agreement for the development of an Austin/Travis County Diversion\nCenter, identify financial resources necessary to partner in developing a pilot\nfor mental health diversion services and a bridge housing program, and provide\nupdates to the Public Health Committee and a report to Council."
     },
     {
       "item_number": "077",

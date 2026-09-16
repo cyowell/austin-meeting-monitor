@@ -16,6 +16,86 @@
   "title_source": "gemini-1.5-flash",
   "agenda_items": [
     {
+      "item_number": "014",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230816-reg.htm#014",
+      "action_type": "resolution",
+      "action_number": "20230816-014",
+      "status": "Closed",
+      "lead_dept": "Austin Emergency Medical Services",
+      "sub_depts": null,
+      "sponsor": "Alter, Alison",
+      "co_sponsors": [
+        "Kelly, MacKenzie",
+        "Vela, Jose",
+        "Alter, Ryan",
+        "Fuentes, Vanessa"
+      ],
+      "tags": [
+        "Health"
+      ],
+      "description": "Approve a resolution directing the City Manager to explore expansion and funding\nfor the Paramedic Practitioners and the Collaborative Care Communication Center\nprograms."
+    },
+    {
+      "item_number": "014",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230816-reg.htm#014",
+      "action_type": "resolution",
+      "action_number": "20230816-015",
+      "status": "Closed",
+      "lead_dept": "Austin Water",
+      "sub_depts": null,
+      "sponsor": "Fuentes, Vanessa",
+      "co_sponsors": [
+        "Ellis, Paige",
+        "Alter, Ryan",
+        "Qadri, Zohaib"
+      ],
+      "tags": [
+        "Culture"
+      ],
+      "description": "Approve a resolution related to exploring the feasibility of placing a mural on\nthe Austin Water storage tank located in Armadillo Park."
+    },
+    {
+      "item_number": "016",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230816-reg.htm#016",
+      "action_type": "resolution",
+      "action_number": "20230816-016",
+      "status": "Closed",
+      "lead_dept": "Austin Community Court",
+      "sub_depts": null,
+      "sponsor": "Harper-Madison, Natasha",
+      "co_sponsors": [
+        "Ellis, Paige",
+        "Vela, Jose",
+        "Kelly, MacKenzie",
+        "Qadri, Zohaib"
+      ],
+      "tags": [
+        "Downtown",
+        "Public Safety"
+      ],
+      "description": "Approve a resolution directing the City Manager to explore a Downtown Austin\nCommunity Court Mobile Court pilot."
+    },
+    {
+      "item_number": "017",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230816-reg.htm#017",
+      "action_type": "resolution",
+      "action_number": "20231816-017",
+      "status": "Closed",
+      "lead_dept": "Austin Housing",
+      "sub_depts": null,
+      "sponsor": "Qadri, Zohaib",
+      "co_sponsors": [
+        "Alter, Ryan",
+        "Velasquez, Jose",
+        "Fuentes, Vanessa",
+        "Harper-Madison, Natasha"
+      ],
+      "tags": [
+        "Affordable Housing"
+      ],
+      "description": "Approve a resolution relating to funding for permanent supportive housing funded\nwith the 2022 Affordable Housing Bonds"
+    },
+    {
       "item_number": "018",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230816-reg.htm#018",
       "action_type": "resolution",
@@ -53,6 +133,44 @@
       ],
       "tags": null,
       "description": "Approve a resolution directing the City Manager to initiate amendments to the CityÃ¢â‚¬â„¢s Personnel Policies and any related documents to eliminate the waiting period for new City employees to use accrued vacation leave"
+    },
+    {
+      "item_number": "020",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230816-reg.htm#020",
+      "action_type": "resolution",
+      "action_number": "20230816-020",
+      "status": "Closed",
+      "lead_dept": "Austin Human Resources",
+      "sub_depts": null,
+      "sponsor": "Velasquez, Jose",
+      "co_sponsors": [
+        "Harper-Madison, Natasha",
+        "Fuentes, Vanessa",
+        "Alter, Ryan"
+      ],
+      "tags": null,
+      "description": "Approve a resolution directing the City Manager to initiate a study to identify\nthe full population of need and options for providing additional resources for\nCity employees already receiving the full non-taxable amount of dependent care\nstipends, as well as a pilot program for City employees to increase childcare\nstipends."
+    },
+    {
+      "item_number": "021",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230816-reg.htm#021",
+      "action_type": "resolution",
+      "action_number": "20230816-021",
+      "status": "Open",
+      "lead_dept": "Austin Homeless Strategies and Operations",
+      "sub_depts": null,
+      "sponsor": "Kelly, MacKenzie",
+      "co_sponsors": [
+        "Harper-Madison, Natasha",
+        "Qadri, Zohaib",
+        "Ellis, Paige"
+      ],
+      "tags": [
+        "Equity",
+        "Health",
+        "Public Safety"
+      ],
+      "description": "Approve a resolution directing the City Manager to prioritize funding that\nenhances extreme weather shelter operations and increases direct outreach and\nsupport for unsheltered individuals."
     }
   ]
 }

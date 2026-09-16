@@ -16,6 +16,26 @@
   "title_source": "gemini-1.5-flash",
   "agenda_items": [
     {
+      "item_number": "020",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230504-reg.htm#020",
+      "action_type": "resolution",
+      "action_number": "20230504-020",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": [
+        "Austin Transportation and Public Works"
+      ],
+      "sponsor": "Pool, Leslie",
+      "co_sponsors": [
+        "Alter, Alison",
+        "Kelly, MacKenzie",
+        "Qadri, Zohaib",
+        "Vela, Jose"
+      ],
+      "tags": null,
+      "description": "Approve a resolution initiating code amendments to City Code Title 25 to amend\nthe North Burnet/Gateway Regulating Plan."
+    },
+    {
       "item_number": "021",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230504-reg.htm#021",
       "action_type": "resolution",
@@ -52,6 +72,26 @@
       ],
       "tags": null,
       "description": "Approve a resolution relating to parking requirements and accessible parking options; and initiating amendments to City Code Title 25 to modify parking requirements"
+    },
+    {
+      "item_number": "023",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230504-reg.htm#023",
+      "action_type": "resolution",
+      "action_number": "20230504-023",
+      "status": "Closed",
+      "lead_dept": "Austin Development Services",
+      "sub_depts": [
+        "Austin Planning"
+      ],
+      "sponsor": "Alter, Ryan",
+      "co_sponsors": [
+        "Vela, Jose",
+        "Pool, Leslie",
+        "Velasquez, Jose",
+        "Harper-Madison, Natasha"
+      ],
+      "tags": null,
+      "description": "Approve a resolution relating to subdivision plat processes and fees for\nresidential development and the creation of infill lots; and initiating\namendments to City Code Title 25 to achieve an amended plat process and to\nincrease opportunities to create infill lots for residential development."
     },
     {
       "item_number": "055",

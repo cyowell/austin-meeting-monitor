@@ -39,6 +39,28 @@
       "description": "Approve a resolution directing the City Manager to take action to accelerate adoption of electric bicycle (e-bike) ownership, access, and usage by Austin residents."
     },
     {
+      "item_number": "061",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220609-reg.htm#061",
+      "action_type": "resolution",
+      "action_number": "20220609-061",
+      "status": "Closed",
+      "lead_dept": "Austin Watershed Protection",
+      "sub_depts": [
+        "Austin Planning"
+      ],
+      "sponsor": "Tovo, Kathie",
+      "co_sponsors": [
+        "Pool, Leslie",
+        "Renteria, Sabino",
+        "Fuentes, Vanessa",
+        "Alter, Alison"
+      ],
+      "tags": [
+        "Environment"
+      ],
+      "description": "Approve a resolution relating to environmental protections and water quality;\nand initiating amendments to the City Code."
+    },
+    {
       "item_number": "062",
       "item_url": "https://www.austintexas.gov/department/city-council/2022/20220609-reg.htm#062",
       "action_type": "resolution",
@@ -61,7 +83,7 @@
     {
       "item_number": "063",
       "item_url": "https://www.austintexas.gov/department/city-council/2022/20220609-reg.htm#063",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20220609-063",
       "status": "Closed",
       "lead_dept": "Housing and Planning",
@@ -147,6 +169,30 @@
         "Education"
       ],
       "description": "Approve a resolution directing the City Manager to explore the use of the Faulk Library Building as a shared archive facility for the City of Austin and Travis County."
+    },
+    {
+      "item_number": "069",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220609-reg.htm#069",
+      "action_type": "resolution",
+      "action_number": "20220609-069",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": [
+        "Austin Transportation and Public Works"
+      ],
+      "sponsor": "Kitchen, Ann",
+      "co_sponsors": [
+        "Kelly, MacKenzie",
+        "Fuentes, Vanessa",
+        "Pool, Leslie",
+        "Adler, Steve"
+      ],
+      "tags": [
+        "Zoning",
+        "Environment",
+        "Transportation"
+      ],
+      "description": "Approve a resolution related to planning at a district level and initiating City\nCode amendments."
     },
     {
       "item_number": "123",

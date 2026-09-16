@@ -18,7 +18,7 @@
     {
       "item_number": "042",
       "item_url": "http://austintexas.gov/content/august-6-2015-austin-city-council-regular-meeting#042",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20150806-042",
       "status": "Closed",
       "lead_dept": "Financial Service",
@@ -58,7 +58,7 @@
     {
       "item_number": "046",
       "item_url": "http://austintexas.gov/content/august-6-2015-austin-city-council-regular-meeting#046",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20150806-047",
       "status": "Closed",
       "lead_dept": "Planning and Zoning Department",
@@ -152,10 +152,8 @@
       "sub_depts": null,
       "sponsor": "Council District 8",
       "co_sponsors": [
-        "Council Member",
-        "District 6 Don Zimmerman",
-        "Council Member",
-        " District 10 Sheri Gallo",
+        "Council Member, District 6 Don Zimmerman",
+        "Council Member, District 10 Sheri Gallo",
         "Mayor"
       ],
       "tags": [
@@ -208,7 +206,7 @@
     {
       "item_number": "053",
       "item_url": "http://austintexas.gov/content/august-6-2015-austin-city-council-regular-meeting#053",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20150806-053",
       "status": "Closed",
       "lead_dept": "Financial Service",
@@ -234,10 +232,8 @@
       "sub_depts": null,
       "sponsor": "Council District 8",
       "co_sponsors": [
-        "Council Member",
-        "District 6 Don Zimmerman",
-        "Council Member",
-        " District 10 Sheri Gallo",
+        "Council Member, District 6 Don Zimmerman",
+        "Council Member, District 10 Sheri Gallo",
         "Mayor"
       ],
       "tags": [

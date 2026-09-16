@@ -19,6 +19,25 @@
       "item_number": "083",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230831-reg.htm#083",
       "action_type": "resolution",
+      "action_number": "20230831-083",
+      "status": "Closed",
+      "lead_dept": "Austin Parks and Recreation",
+      "sub_depts": null,
+      "sponsor": "Kelly, MacKenzie",
+      "co_sponsors": [
+        "Velasquez, Jose",
+        "Alter, Ryan",
+        "Ellis, Paige"
+      ],
+      "tags": [
+        "Parkland"
+      ],
+      "description": "Approve a resolution directing the City Manager to determine the costs and\nresources needed to complete the All-Abilities Playground project and to explore\npartnerships with nonprofit organizations to meet the financial needs of the\nproject."
+    },
+    {
+      "item_number": "083",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230831-reg.htm#083",
+      "action_type": "resolution",
       "action_number": "20230831-089",
       "status": "Closed",
       "lead_dept": "Intergovernmental Relations",
@@ -31,6 +50,46 @@
       ],
       "tags": null,
       "description": "Approve a resolution nominating certain City Council members to serve in leadership positions on National League of Cities committees."
+    },
+    {
+      "item_number": "087",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230831-reg.htm#087",
+      "action_type": "resolution",
+      "action_number": "20230831-087",
+      "status": "Closed",
+      "lead_dept": "Austin Facilities Management",
+      "sub_depts": null,
+      "sponsor": "Fuentes, Vanessa",
+      "co_sponsors": [
+        "Vela, Jose",
+        "Harper-Madison, Natasha",
+        "Qadri, Zohaib",
+        "Alter, Alison"
+      ],
+      "tags": [
+        "Equity"
+      ],
+      "description": "Approve a resolution relating to the annual display of the Pride flag at\nCity-owned facilities during the month of June"
+    },
+    {
+      "item_number": "088",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230831-reg.htm#088",
+      "action_type": "resolution",
+      "action_number": "20230831-088",
+      "status": "Closed",
+      "lead_dept": "Austin Development Services",
+      "sub_depts": null,
+      "sponsor": "Fuentes, Vanessa",
+      "co_sponsors": [
+        "Ellis, Paige",
+        "Qadri, Zohaib",
+        "Vela, Jose",
+        "Velasquez, Jose"
+      ],
+      "tags": [
+        "Zoning"
+      ],
+      "description": "Approve a resolution initiating amendments to City Code Title 25 (Land\nDevelopment) to require residential property owners to provide and maintain\nrefrigerated air equipment."
     },
     {
       "item_number": "136",
@@ -50,6 +109,29 @@
         "Homelessness"
       ],
       "description": "Approve a resolution directing the City Manager to establish a House Our People Endowment Fund (HOPE Fund) dedicated to receiving and expending funds to address homelessness, maintain clear and transparent reporting of expenses from the HOPE Fund, and clearly identify proposed appropriations from the HOPE Fund for City Council consideration"
+    },
+    {
+      "item_number": "137",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230831-reg.htm#137",
+      "action_type": "resolution",
+      "action_number": "20230831-137",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": null,
+      "sponsor": "Harper-Madison, Natasha",
+      "co_sponsors": [
+        "Velasquez, Jose",
+        "Vela, Jose",
+        "Fuentes, Vanessa",
+        "Pool, Leslie"
+      ],
+      "tags": [
+        "Zoning",
+        "Culture",
+        "Equity",
+        "Environment"
+      ],
+      "description": "Approve a resolution authorizing the negotiation of an interlocal agreement with\nTravis County and other interested entities to create a collaborative North East\nPlanning District, an advisory committee and allocate funding."
     }
   ]
 }

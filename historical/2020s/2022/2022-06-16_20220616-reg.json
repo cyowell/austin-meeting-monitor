@@ -44,7 +44,7 @@
     {
       "item_number": "046",
       "item_url": "https://www.austintexas.gov/department/city-council/2022/20220616-reg.htm#046",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20220616-046",
       "status": "Closed",
       "lead_dept": "Austin Parks &  Recreation Department",
@@ -259,6 +259,26 @@
       "description": "Approve a resolution urging the Biden Administration, Congress, and the State of Texas to take action to reduce gun violence, and directing the City Manager to provide a status report of previous gun-violence prevention initiatives and to explore immediate actions and long-term strategies to further protect public safety and reduce gun violence."
     },
     {
+      "item_number": "087",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220616-reg.htm#087",
+      "action_type": "resolution",
+      "action_number": "20220616-087",
+      "status": "Closed",
+      "lead_dept": "Austin Financial Services",
+      "sub_depts": null,
+      "sponsor": "Renteria, Sabino",
+      "co_sponsors": [
+        "Vela, Jose",
+        "Harper-Madison, Natasha",
+        "Tovo, Kathie",
+        "Alter, Alison"
+      ],
+      "tags": [
+        "Budget"
+      ],
+      "description": "Approve a resolution directing the City Manager to conduct a study of office\nspace occupancy rates at City facilities as a result of remote work schedules\nand other changes in office space needs, and to provide recommendations to the\nCouncil."
+    },
+    {
       "item_number": "088",
       "item_url": "https://www.austintexas.gov/department/city-council/2022/20220616-reg.htm#088",
       "action_type": "resolution",
@@ -347,7 +367,7 @@
     {
       "item_number": "093",
       "item_url": "https://www.austintexas.gov/department/city-council/2022/20220616-reg.htm#093",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20220616-093",
       "status": "Closed",
       "lead_dept": "Austin Public Health",

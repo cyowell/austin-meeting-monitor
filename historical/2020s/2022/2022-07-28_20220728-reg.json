@@ -61,6 +61,28 @@
       "description": "Approve a resolution initiating amendments to City Code Section 25-2-586 (Downtown Density Bonus Program) to provide an alternative option, including a fee-in-lieu, for properties that cannot comply with the CityÃ¢â‚¬â„¢s Great Street standards."
     },
     {
+      "item_number": "094",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220728-reg.htm#094",
+      "action_type": "resolution",
+      "action_number": "20220728-094",
+      "status": "Closed",
+      "lead_dept": "Austin Economic Development",
+      "sub_depts": [
+        "Austin Planning",
+        "Austin Transportation and Public Works"
+      ],
+      "sponsor": "Adler, Steve",
+      "co_sponsors": [
+        "Tovo, Kathie",
+        "Harper-Madison, Natasha",
+        "Fuentes, Vanessa"
+      ],
+      "tags": [
+        "Culture"
+      ],
+      "description": "Approve a resolution relating to the creation of a live music venue bonus and\nincentive program for new and existing venues and initiating amendments to City\nCode."
+    },
+    {
       "item_number": "095",
       "item_url": "https://www.austintexas.gov/department/city-council/2022/20220728-reg.htm#095",
       "action_type": "resolution",
@@ -164,6 +186,25 @@
         "Health"
       ],
       "description": "Approve a resolution condemning the Supreme CourtÃ¢â‚¬â„¢s rulings in West Virginia v. Environmental Protection Agency and Dobbs v. Jackson WomenÃ¢â‚¬â„¢s Health Organization, and the CourtÃ¢â‚¬â„¢s attacks on American freedom, health, and safety and urging state and federal support for measures protecting clean air regulations and reproductive rights"
+    },
+    {
+      "item_number": "192",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220728-reg.htm#192",
+      "action_type": "resolution",
+      "action_number": "20220728-192",
+      "status": "Open",
+      "lead_dept": "Austin Parks and Recreation",
+      "sub_depts": null,
+      "sponsor": "Ellis, Paige",
+      "co_sponsors": [
+        "Renteria, Sabino",
+        "Adler, Steve",
+        "Kitchen, Ann"
+      ],
+      "tags": [
+        "Parkland"
+      ],
+      "description": "Approve a resolution directing the City Manager to issue a request for proposals\nfor a concessionaire to continue boating operations at the dock at 2418\nStratford Drive, to enter into a new concession contract prior to May 1, 2023,\nand to ensure that the terms of the new contract do not impede implementation of\nthe relevant recommendations described in the Zilker Park Vision Plan or, if the\nPlan is not complete, the then-current draft."
     }
   ]
 }

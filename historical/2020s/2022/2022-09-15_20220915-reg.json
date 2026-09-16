@@ -35,6 +35,44 @@
       "description": "Approve a resolution initiating a neighborhood plan amendment to the South Austin Combined Neighborhood Plan to consider a change to the land use on the future land use map from Neighborhood Transition to Mixed-Use Activity Hub/Corridor for the property located at or near 1210 Gobi Drive and West Stassney Lane"
     },
     {
+      "item_number": "052",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220915-reg.htm#052",
+      "action_type": "resolution",
+      "action_number": "20220915-052",
+      "status": "Closed",
+      "lead_dept": "Austin Homeless Strategies and Operations",
+      "sub_depts": null,
+      "sponsor": "Kelly, MacKenzie",
+      "co_sponsors": [
+        "Pool, Leslie",
+        "Fuentes, Vanessa"
+      ],
+      "tags": [
+        "Homelessness",
+        "Public Safety",
+        "Equity"
+      ],
+      "description": "Approve a resolution directing the City Manager to provide appropriate resources\nto vendors who do business with the City and encourage training to ensure\nvendors have the skills to recognize indicators of individuals experiencing\nhomelessness at risk of human trafficking."
+    },
+    {
+      "item_number": "054",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220915-reg.htm#054",
+      "action_type": "resolution",
+      "action_number": "20220915-054",
+      "status": "Closed",
+      "lead_dept": "Austin Convention Center",
+      "sub_depts": [
+        "Austin Planning",
+        "Austin Equity and Inclusion"
+      ],
+      "sponsor": "Tovo, Kathie",
+      "co_sponsors": null,
+      "tags": [
+        "Downtown"
+      ],
+      "description": "Approve a resolution directing the City Manager to direct the use of Convention\nCenter funds to restore the interior of the Castleman-Bull House for use as a\nConvention Center facility and to ensure that the forthcoming Palm District Plan\nproposes to integrate the Castleman-Bull House in a meaningful way"
+    },
+    {
       "item_number": "055",
       "item_url": "https://www.austintexas.gov/department/city-council/2022/20220915-reg.htm#055",
       "action_type": "resolution",
@@ -55,6 +93,51 @@
         "Transportation"
       ],
       "description": "Approve a resolution revising the fees for the Convention Center parking garage, and directing the City Manager to include the Convention Center parking garage in the CityÃ¢â‚¬â„¢s affordable parking program and to present information to City Council prior to or during Fiscal Year 2024 budget deliberations about parking rates and revenues at the Austin Convention Center and other City-owned garages."
+    },
+    {
+      "item_number": "056",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220915-reg.htm#056",
+      "action_type": "resolution",
+      "action_number": "20220915-056",
+      "status": "Closed",
+      "lead_dept": "Austin Police Department",
+      "sub_depts": [
+        "Austin Police Department"
+      ],
+      "sponsor": "Kelly, MacKenzie",
+      "co_sponsors": [
+        "Pool, Leslie",
+        "Tovo, Kathie"
+      ],
+      "tags": [
+        "Public Safety"
+      ],
+      "description": "Approve a resolution directing the City Manager to identify funding in the\namount of $114,775 in Fiscal Year 2021-2022 to reinstate the license plate\nreader program at the Austin Police Department, include funding in the upcoming\nFiscal Year 2022-2023 budget for continuation of the program, return to Council\nwith any necessary actions for Council to appropriate the funding for this\npurpose, re-evaluate and implement appropriate changes to the former policy on\nlicense plate readers, and work with the Office of the Police Oversight and\ncoordinate community input sessions related to the policy."
+    },
+    {
+      "item_number": "090",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220915-reg.htm#090",
+      "action_type": "resolution",
+      "action_number": "20220915-090",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": [
+        "Austin Financial Services",
+        "Austin Housing"
+      ],
+      "sponsor": "Adler, Steve",
+      "co_sponsors": [
+        "Vela, Jose",
+        "Pool, Leslie",
+        "Fuentes, Vanessa"
+      ],
+      "tags": [
+        "Culture",
+        "Downtown",
+        "Environment",
+        "Zoning"
+      ],
+      "description": "Approve a resolution relating to the development of a regulating plan for the\nSouth Central Waterfront District."
     },
     {
       "item_number": "091",

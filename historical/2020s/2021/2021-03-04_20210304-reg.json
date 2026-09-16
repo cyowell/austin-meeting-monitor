@@ -43,6 +43,27 @@
         "Transportation"
       ],
       "description": "Approve a resolution directing the City Manager to draft an ordinance for Council consideration waiving up to $23,000 in fees for the installation of 46 lampposts along Congress Avenue from Riverside to 11th Street by the Downtown Austin Alliance Foundation in March 2021."
+    },
+    {
+      "item_number": "067",
+      "item_url": "http://austintexas.gov/department/city-council/2021/20210304-reg.htm#067",
+      "action_type": "resolution",
+      "action_number": "20210304-067",
+      "status": "Closed",
+      "lead_dept": "Austin Equity and Inclusion",
+      "sub_depts": null,
+      "sponsor": "Harper-Madison, Natasha",
+      "co_sponsors": [
+        "Tovo, Kathie",
+        "Casar, Gregario",
+        "Fuentes, Vanessa"
+      ],
+      "tags": [
+        "Equity",
+        "Zoning",
+        "Local Business"
+      ],
+      "description": "Approve a resolution acknowledging the City's role in disenfranchising Black\nAustinites through past discrimination, urban renewal policies, and the 1928\nMaster Plan and directing the City Manager to analyze and report on the economic\nand other harms caused by such programs and policies and to provide a planning\nscope, process and funding recommendations for the creation of a Black resource\nand cultural center."
     }
   ]
 }

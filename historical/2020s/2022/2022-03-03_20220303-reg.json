@@ -46,6 +46,25 @@
       "description": "Approve a resolution directing the City Manager to create a process to notify appropriate city departments of Austin Fire Department firefighting activities that may adversely impact waterways."
     },
     {
+      "item_number": "028",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220303-reg.htm#028",
+      "action_type": "resolution",
+      "action_number": "20220303-028",
+      "status": "Closed",
+      "lead_dept": "Austin Watershed Protection",
+      "sub_depts": null,
+      "sponsor": "Ellis, Paige",
+      "co_sponsors": [
+        "Vela, Jose",
+        "Adler, Steve",
+        "Kitchen, Ann"
+      ],
+      "tags": [
+        "Transportation"
+      ],
+      "description": "Approve a resolution initiating amendments to City Code Title 25 (Land\nDevelopment) to address challenges to the design and construction of public\nmobility and transit projects in the right-of-way."
+    },
+    {
       "item_number": "029",
       "item_url": "https://www.austintexas.gov/department/city-council/2022/20220303-reg.htm#029",
       "action_type": "resolution",
@@ -90,6 +109,28 @@
         "Transportation"
       ],
       "description": "Approve a resolution to allocate the Project Connect anti-displacement funding for Fiscal Year 2022."
+    },
+    {
+      "item_number": "061",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220303-reg.htm#061",
+      "action_type": "resolution",
+      "action_number": "20220303-061",
+      "status": "Closed",
+      "lead_dept": "Austin Police Department",
+      "sub_depts": null,
+      "sponsor": "Tovo, Kathie",
+      "co_sponsors": [
+        "Renteria, Sabino",
+        "Alter, Alison",
+        "Kelly, MacKenzie"
+      ],
+      "tags": [
+        "Downtown",
+        "Public Safety",
+        "Culture",
+        "Local Business"
+      ],
+      "description": "Approve a resolution relating to comprehensive strategies and actions intended\nto create a safer Sixth Street area; and relating to gun storage and buyback\nprograms."
     },
     {
       "item_number": "062",

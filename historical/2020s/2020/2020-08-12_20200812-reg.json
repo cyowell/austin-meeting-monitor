@@ -18,7 +18,7 @@
     {
       "item_number": "001",
       "item_url": "http://austintexas.gov/department/city-council/2020/20200812-reg.htm#001",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20200812-001",
       "status": "Closed",
       "lead_dept": "Gov't That Works For All - Management Services",
@@ -34,6 +34,25 @@
         "Public safety"
       ],
       "description": "FY21 Austin Police Department Budget rider 1 - details attached"
+    },
+    {
+      "item_number": "011",
+      "item_url": "https://www.austintexas.gov/department/city-council/2020/20200812-reg.htm#011",
+      "action_type": "resolution",
+      "action_number": "20200812-011",
+      "status": "Closed",
+      "lead_dept": "Austin Transportation and Public Works",
+      "sub_depts": null,
+      "sponsor": "Ellis, Paige",
+      "co_sponsors": [
+        "Adler, Steve",
+        "Harper-Madison, Natasha",
+        "Casar, Gregario"
+      ],
+      "tags": [
+        "Transportation"
+      ],
+      "description": "Approve a resolution establishing the contract with the voters for the active\ntransportation general obligation bonds to be considered by the voters in\nNovember of 2020."
     }
   ]
 }

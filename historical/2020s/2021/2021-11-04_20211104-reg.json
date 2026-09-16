@@ -25,7 +25,7 @@
     {
       "item_number": "037",
       "item_url": "http://austintexas.gov/department/city-council/2021/20211104-reg.htm#037",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20211104-037",
       "status": "Closed",
       "lead_dept": "Development Services Department",
@@ -84,6 +84,31 @@
         "Health"
       ],
       "description": "Approve a resolution initiating amendments to City Code Chapter 25-12 (Technical Codes) related to certain fence designs."
+    },
+    {
+      "item_number": "064",
+      "item_url": "http://austintexas.gov/department/city-council/2021/20211104-reg.htm#064",
+      "action_type": "resolution",
+      "action_number": "20211104-064",
+      "status": "Closed",
+      "lead_dept": "Austin Equity and Inclusion",
+      "sub_depts": null,
+      "sponsor": "Alter, Alison",
+      "co_sponsors": [
+        "Renteria, Sabino",
+        "Casar, Gregario",
+        "Harper-Madison, Natasha",
+        "Fuentes, Vanessa",
+        "Kitchen, Ann",
+        "Pool, Leslie",
+        "Tovo, Kathie",
+        "Kelly, MacKenzie"
+      ],
+      "tags": [
+        "Equity",
+        "Education"
+      ],
+      "description": "Approve a resolution condemning antisemitic, racist, and homophobic vandalism,\nviolence and hateful speech, and directing the City Manager to collaborate with\nlocal community groups to identify and implement improvements to the City's\nresponse to hate."
     }
   ]
 }

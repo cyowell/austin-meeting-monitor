@@ -16,6 +16,43 @@
   "title_source": "gemini-1.5-flash",
   "agenda_items": [
     {
+      "item_number": "042",
+      "item_url": "https://www.austintexas.gov/department/city-council/2021/20210902-reg.htm#042",
+      "action_type": "resolution",
+      "action_number": "20210902-042",
+      "status": "Closed",
+      "lead_dept": "Austin Economic Development",
+      "sub_depts": null,
+      "sponsor": "Tovo, Kathie",
+      "co_sponsors": [
+        "Kitchen, Ann",
+        "Pool, Leslie",
+        "Alter, Alison"
+      ],
+      "tags": [
+        "Environment"
+      ],
+      "description": "Approve a resolution amending Resolution No. 20071129-045 related to the City of\nAustin Green Building Policy."
+    },
+    {
+      "item_number": "046",
+      "item_url": "https://www.austintexas.gov/department/city-council/2021/20210902-reg.htm#046",
+      "action_type": "resolution",
+      "action_number": "20210902-046",
+      "status": "Open",
+      "lead_dept": "Austin Planning",
+      "sub_depts": null,
+      "sponsor": "Tovo, Kathie",
+      "co_sponsors": [
+        "Harper-Madison, Natasha",
+        "Renteria, Sabino"
+      ],
+      "tags": [
+        "Downtown"
+      ],
+      "description": "Approve a resolution initiating an update to the Urban Design Guidelines."
+    },
+    {
       "item_number": "047",
       "item_url": "https://www.austintexas.gov/department/city-council/2021/20210902-reg.htm#047",
       "action_type": "resolution",

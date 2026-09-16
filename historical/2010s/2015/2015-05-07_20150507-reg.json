@@ -34,8 +34,7 @@
       ],
       "sponsor": "Council District 9",
       "co_sponsors": [
-        "Council Member",
-        "District 10 Sheri Gallo"
+        "Council Member, District 10 Sheri Gallo"
       ],
       "tags": [
         "Environment"
@@ -63,7 +62,7 @@
     {
       "item_number": "023",
       "item_url": "http://austintexas.gov/content/may-7-2015-austin-city-council-regular-meeting#023",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20150507-023",
       "status": "Closed",
       "lead_dept": "Office of the City Clerk",
@@ -170,7 +169,7 @@
     {
       "item_number": "028",
       "item_url": "http://austintexas.gov/content/may-7-2015-austin-city-council-regular-meeting#028",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20150507-028",
       "status": "Closed",
       "lead_dept": "Financial Service",

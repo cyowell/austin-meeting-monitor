@@ -23,6 +23,27 @@
   "title_source": "gemini-1.5-flash",
   "agenda_items": [
     {
+      "item_number": "024",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230309-reg.htm#024",
+      "action_type": "resolution",
+      "action_number": "20230309-024",
+      "status": "Closed",
+      "lead_dept": "Austin Development Services",
+      "sub_depts": [
+        "Austin Planning"
+      ],
+      "sponsor": "Vela, Jose",
+      "co_sponsors": [
+        "Pool, Leslie",
+        "Velasquez, Jose",
+        "Qadri, Zohaib"
+      ],
+      "tags": [
+        "Affordable Housing"
+      ],
+      "description": "Approve a resolution initiating amendments to City Code Title 25 related to\ndisaggregation of substandard lots and lots that qualify for small-lot amnesty."
+    },
+    {
       "item_number": "025",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230309-reg.htm#025",
       "action_type": "resolution",
@@ -84,6 +105,28 @@
         "Environment"
       ],
       "description": "Approve a resolution directing the City Manager to create a plan to increase the number of direct-current fast charging stations for electric vehicles equitably throughout the City."
+    },
+    {
+      "item_number": "043",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230309-reg.htm#043",
+      "action_type": "resolution",
+      "action_number": "20230309-043",
+      "status": "Closed",
+      "lead_dept": "Austin Parks and Recreation",
+      "sub_depts": null,
+      "sponsor": "Ellis, Paige",
+      "co_sponsors": [
+        "Alter, Ryan",
+        "Harper-Madison, Natasha",
+        "Qadri, Zohaib",
+        "Vela, Jose"
+      ],
+      "tags": [
+        "Culture",
+        "Local Business",
+        "Parkland"
+      ],
+      "description": "Approve a resolution declaring the Austin Trail of Lights to be a City\nco-sponsored event starting fiscal year 2023-24, directing the City Manager to\nadd the Austin Trail of Lights to the list of City co-sponsored events for which\nfees are waived annually in the ordinance adopted with the budget, starting with\nfiscal year 2023-2024, and directing the City Manager to negotiate and execute a\n10-year co-sponsorship agreement, to include extension options, with the Trail\nof Lights Foundation."
     },
     {
       "item_number": "044",

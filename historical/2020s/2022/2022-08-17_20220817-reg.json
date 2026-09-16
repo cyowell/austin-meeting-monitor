@@ -18,7 +18,28 @@
     {
       "item_number": "004",
       "item_url": "https://www.austintexas.gov/department/city-council/2022/20220817-reg.htm#004",
-      "action_type": "ordincance",
+      "action_type": "budget rider",
+      "action_number": "20220817-004",
+      "status": "Closed",
+      "lead_dept": "Austin Housing",
+      "sub_depts": null,
+      "sponsor": "Qadri, Zohaib",
+      "co_sponsors": [
+        "Fuentes, Vanessa",
+        "Velasquez, Jose",
+        "Vela, Jose",
+        "Alter, Alison"
+      ],
+      "tags": [
+        "Affordable Housing",
+        "Equity"
+      ],
+      "description": "CM Tovo Budget Rider - Tenant Relocation Nexus Study"
+    },
+    {
+      "item_number": "004",
+      "item_url": "https://www.austintexas.gov/department/city-council/2022/20220817-reg.htm#004",
+      "action_type": "ordinance",
       "action_number": "20220817-004",
       "status": "Closed",
       "lead_dept": "Financial Services",

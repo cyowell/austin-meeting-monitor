@@ -16,6 +16,23 @@
   "title_source": "gemini-1.5-flash",
   "agenda_items": [
     {
+      "item_number": "046",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230601-reg.htm#046",
+      "action_type": "resolution",
+      "action_number": "20230601-046",
+      "status": "Closed",
+      "lead_dept": "Austin Economic Development",
+      "sub_depts": null,
+      "sponsor": "Alter, Ryan",
+      "co_sponsors": [
+        "Qadri, Zohaib",
+        "Velasquez, Jose",
+        "Harper-Madison, Natasha"
+      ],
+      "tags": null,
+      "description": "Approve a resolution accepting the Greater Austin Music Census of 2022 and\ndirecting the inclusion of data from the census and the Live Music Fund\napplication process on the City’s Open Data Portal."
+    },
+    {
       "item_number": "047",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230601-reg.htm#047",
       "action_type": "resolution",

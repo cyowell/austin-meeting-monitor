@@ -23,6 +23,131 @@
   "title_source": "gemini-1.5-flash",
   "agenda_items": [
     {
+      "item_number": "123",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230720-reg.htm#123",
+      "action_type": "resolution",
+      "action_number": "20230720-123",
+      "status": "Closed",
+      "lead_dept": "Austin Economic Development",
+      "sub_depts": null,
+      "sponsor": "Alter, Ryan",
+      "co_sponsors": [
+        "Ellis, Paige",
+        "Harper-Madison, Natasha",
+        "Fuentes, Vanessa",
+        "Qadri, Zohaib"
+      ],
+      "tags": [
+        "Culture"
+      ],
+      "description": "Approve a resolution establishing the City’s standard pay rate for commissioning\nlive music performances."
+    },
+    {
+      "item_number": "124",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230720-reg.htm#124",
+      "action_type": "resolution",
+      "action_number": "20230720-124",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": null,
+      "sponsor": "Alter, Ryan",
+      "co_sponsors": [
+        "Kelly, MacKenzie",
+        "Velasquez, Jose",
+        "Vela, Jose"
+      ],
+      "tags": [
+        "Zoning"
+      ],
+      "description": "Approve a resolution relating to notification requirements found in City Code\nTitle 25 (Land Development Code) and state law; and initiating amendments to\nCity Code Title 25 (Land Development Code) to modify notification requirements."
+    },
+    {
+      "item_number": "126",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230720-reg.htm#126",
+      "action_type": "resolution",
+      "action_number": "20230720-126",
+      "status": "Closed",
+      "lead_dept": "Austin Development Services",
+      "sub_depts": [
+        "Austin Housing",
+        "Austin Planning"
+      ],
+      "sponsor": "Pool, Leslie",
+      "co_sponsors": [
+        "Vela, Jose",
+        "Alter, Ryan",
+        "Ellis, Paige",
+        "Velasquez, Jose",
+        "Harper-Madison, Natasha",
+        "Qadri, Zohaib"
+      ],
+      "tags": [
+        "Affordable Housing",
+        "Zoning"
+      ],
+      "description": "Approve a resolution initiating amendments to Title 25 (Land Development) to\nmodify site development regulations, including minimum lot size and maximum\nnumber of dwelling units, applicable to development on lots with single-family\nzoning."
+    },
+    {
+      "item_number": "127",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230720-reg.htm#127",
+      "action_type": "resolution",
+      "action_number": "20230720-127",
+      "status": "Closed",
+      "lead_dept": "Austin Housing",
+      "sub_depts": null,
+      "sponsor": "Alter, Ryan",
+      "co_sponsors": [
+        "Harper-Madison, Natasha",
+        "Velasquez, Jose",
+        "Vela, Jose"
+      ],
+      "tags": [
+        "Affordable Housing"
+      ],
+      "description": "Approve a resolution related to authorizing the Housing Authority of Travis\nCounty (HATC) to exercise its powers within the City."
+    },
+    {
+      "item_number": "128",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230720-reg.htm#128",
+      "action_type": "resolution",
+      "action_number": "20230720-128",
+      "status": "Closed",
+      "lead_dept": "Austin Economic Development",
+      "sub_depts": [
+        "Austin Convention Center"
+      ],
+      "sponsor": "Qadri, Zohaib",
+      "co_sponsors": [
+        "Alter, Ryan",
+        "Velasquez, Jose",
+        "Fuentes, Vanessa",
+        "Harper-Madison, Natasha"
+      ],
+      "tags": [
+        "Downtown",
+        "Culture",
+        "Parkland"
+      ],
+      "description": "Approve a resolution directing the exploration of a South Shore Cultural\nDistrict and associated planning and financing."
+    },
+    {
+      "item_number": "129",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230720-reg.htm#129",
+      "action_type": "resolution",
+      "action_number": "20230720-129",
+      "status": "Closed",
+      "lead_dept": "Austin Housing",
+      "sub_depts": null,
+      "sponsor": "Velasquez, Jose",
+      "co_sponsors": [
+        "Alter, Ryan",
+        "Harper-Madison, Natasha",
+        "Vela, Jose"
+      ],
+      "tags": null,
+      "description": "Approve a resolution relating to the City’s S.M.A.R.T. Housing Program, and\ninitiating amendments to City Code Title 25 (Land Development Code) to update\nthe S.M.A.R.T. Housing Program"
+    },
+    {
       "item_number": "129",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230720-reg.htm#129",
       "action_type": "resolution",
@@ -68,6 +193,21 @@
         "Local Business"
       ],
       "description": "Approve a resolution regarding next steps for the redevelopment of 1215 Red River Street and 606 East 12th Street known as HealthSouth."
+    },
+    {
+      "item_number": "195",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230720-reg.htm#195",
+      "action_type": "resolution",
+      "action_number": "20230720-195",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": null,
+      "sponsor": "Alter, Ryan",
+      "co_sponsors": null,
+      "tags": [
+        "Zoning"
+      ],
+      "description": "Approve a resolution related to amendments to Title 25 (Land Development Code)\nthat are indirectly connected to City Council-initiated Code amendments."
     }
   ]
 }

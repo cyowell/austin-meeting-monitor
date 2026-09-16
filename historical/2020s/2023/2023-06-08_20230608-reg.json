@@ -16,6 +16,46 @@
   "title_source": "gemini-1.5-flash",
   "agenda_items": [
     {
+      "item_number": "040",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230608-reg.htm#040",
+      "action_type": "resolution",
+      "action_number": "20230608-040",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": [
+        "Austin Housing"
+      ],
+      "sponsor": "Alter, Ryan",
+      "co_sponsors": [
+        "Harper-Madison, Natasha",
+        "Fuentes, Vanessa",
+        "Vela, Jose",
+        "Qadri, Zohaib"
+      ],
+      "tags": null,
+      "description": "Approve a resolution initiating amendments to City Code Title 25 (Land\nDevelopment Code) to create a new density bonus program for residential\ndevelopments that include income-restricted housing units."
+    },
+    {
+      "item_number": "041",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230608-reg.htm#041",
+      "action_type": "resolution",
+      "action_number": "20230608-041",
+      "status": "Closed",
+      "lead_dept": "Austin Housing",
+      "sub_depts": [
+        "Austin Planning"
+      ],
+      "sponsor": "Fuentes, Vanessa",
+      "co_sponsors": [
+        "Qadri, Zohaib",
+        "Vela, Jose",
+        "Alter, Ryan",
+        "Harper-Madison, Natasha"
+      ],
+      "tags": null,
+      "description": "Approve a resolution initiating amendments to City Code Title 25 (Land\nDevelopment Code) related to a density bonus program for residential\ndevelopments that include income-restricted housing units."
+    },
+    {
       "item_number": "042",
       "item_url": "https://www.austintexas.gov/department/city-council/2023/20230608-reg.htm#042",
       "action_type": "resolution",
@@ -72,6 +112,63 @@
       ],
       "tags": null,
       "description": "Approve a resolution directing the City Manager to support the Downtown Austin Community Court (DACC)Ã¢â‚¬â„¢s role as an integral part of AustinÃ¢â‚¬â„¢s homelessness response system by: initiating City Code amendments to expand DACCÃ¢â‚¬â„¢s geographical service area for certain Class C misdemeanors utilizing stakeholder feedback and consultation with key court staff; and identifying potential ongoing funding sources for Fiscal Year 2023-24 and future budget cycles in order to increase staff, resident connection to services, and improve service resources."
+    },
+    {
+      "item_number": "045",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230608-reg.htm#045",
+      "action_type": "resolution",
+      "action_number": "20230608-045",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": [
+        "Austin Housing",
+        "Austin Development Services"
+      ],
+      "sponsor": "Vela, Jose",
+      "co_sponsors": [
+        "Harper-Madison, Natasha",
+        "Fuentes, Vanessa",
+        "Velasquez, Jose",
+        "Alter, Ryan"
+      ],
+      "tags": null,
+      "description": "Approve a resolution initiating amendments to City Code Title 25 (Land\nDevelopment Code) to change compatibility requirements."
+    },
+    {
+      "item_number": "046",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230608-reg.htm#046",
+      "action_type": "resolution",
+      "action_number": "20230608-046",
+      "status": "Closed",
+      "lead_dept": "Austin Animal Services",
+      "sub_depts": null,
+      "sponsor": "Vela, Jose",
+      "co_sponsors": [
+        "Velasquez, Jose",
+        "Harper-Madison, Natasha"
+      ],
+      "tags": null,
+      "description": "Approve a resolution initiating a code amendment regarding mandatory pet\nmicrochipping and directing the City Manager to conduct a review of Animal\nServices Office policies to facilitate and implement citywide microchipping and\nanimal welfare services."
+    },
+    {
+      "item_number": "082",
+      "item_url": "https://www.austintexas.gov/department/city-council/2023/20230608-reg.htm#082",
+      "action_type": "resolution",
+      "action_number": "20230608-082",
+      "status": "Closed",
+      "lead_dept": "Austin Planning",
+      "sub_depts": [
+        "Austin Transportation and Public Works"
+      ],
+      "sponsor": "Alter, Alison",
+      "co_sponsors": [
+        "Qadri, Zohaib",
+        "Alter, Ryan",
+        "Pool, Leslie",
+        "Ellis, Paige"
+      ],
+      "tags": null,
+      "description": "Approve a resolution initiating amendments to City Code Title 25 (Land\nDevelopment Code) related to electrical vehicle charging."
     },
     {
       "item_number": "083",

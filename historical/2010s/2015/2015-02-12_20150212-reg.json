@@ -36,7 +36,7 @@
     {
       "item_number": "017",
       "item_url": "http://austintexas.gov/content/february-12-2015-austin-city-council-regular-meeting#017",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20150212-017",
       "status": "Closed",
       "lead_dept": "Human Resources",
@@ -53,17 +53,15 @@
     {
       "item_number": "046",
       "item_url": "http://austintexas.gov/content/february-12-2015-austin-city-council-regular-meeting#046",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20150212-046",
       "status": "Closed",
       "lead_dept": "Financial Service",
       "sub_depts": null,
       "sponsor": "Council District 9",
       "co_sponsors": [
-        "Council Member",
-        "District 6 Don Zimmerman",
-        "Council Member",
-        " District 10 Sheri Gallo"
+        "Council Member, District 6 Don Zimmerman",
+        "Council Member, District 10 Sheri Gallo"
       ],
       "tags": [
         "Culture"
@@ -73,7 +71,7 @@
     {
       "item_number": "047",
       "item_url": "http://austintexas.gov/content/february-12-2015-austin-city-council-regular-meeting#047",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20150212-047",
       "status": "Closed",
       "lead_dept": "Financial Service",
@@ -110,7 +108,7 @@
     {
       "item_number": "049",
       "item_url": "http://austintexas.gov/content/february-12-2015-austin-city-council-regular-meeting#049",
-      "action_type": "ordincance",
+      "action_type": "ordinance",
       "action_number": "20150212-049",
       "status": "Closed",
       "lead_dept": "Financial Service",
