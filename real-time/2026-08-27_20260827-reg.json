@@ -12,5 +12,62 @@
   "summary_source": "gemini-2.5-flash",
   "summary": "Wind Power, Homeless Aid, Library Protections\n\nHere's what happened at the Austin City Council meeting:\n\n*   **Major Funding & Renewable Energy Commitment:** Authorized over $600 million in city funding tools for public improvements and refinancing. Also approved a 20-year extension for purchasing up to 60 megawatts of wind-generated electricity, a contract estimated at $200 million.\n*   **Boost for Homeless Services & Displacement Prevention:** Extended contracts for operating major homeless shelters, adding $14.1 million to continue services. Also, directed the City Manager to evaluate and improve existing programs to prevent displacement and homelessness.\n*   **Library Access, Parkland, & Historic Preservation:** Declared Austin a \"Book Safe Harbor\" to protect equitable access to library materials. Began the process to acquire 18.468 acres through eminent domain for the McKinney Mill Project, preserving a historic site and extending the Ann and Roy Butler hike and bike trail.\n*   **Key City Contracts & Development Initiatives:** Approved significant agreements including $19.9 million for Austin tourism promotion and the Austin City Limits TV series, and multi-million dollar contracts with Travis County for animal services. Also initiated work on new regulations for data center development.\n*   **Public Safety & Zoning Updates:** Authorized contracts for anti-vehicle barriers to boost pedestrian safety at downtown events. Approved several rezoning requests, including historic landmark designations for the Goins-Versea-Nitschke House and Bethany Cemetery. Two major rezoning items for South Capital of Texas Highway and Nuckols Crossing were postponed to future meetings.",
   "topics": [],
-  "transcript": null
+  "transcript": null,
+  "agenda_items": [
+    {
+      "item_number": "069",
+      "item_url": "https://www.austintexas.gov/council/2026/20260827-reg#069",
+      "action_type": "resolution",
+      "action_number": "20260827-069",
+      "status": "Open",
+      "lead_dept": "Austin Housing",
+      "sub_depts": null,
+      "sponsor": "Qadri, Zohaib",
+      "co_sponsors": [
+        "Velasquez, Jose",
+        "Alter, Ryan",
+        "Fuentes, Vanessa",
+        "Harper-Madison, Natasha"
+      ],
+      "tags": [
+        "Homelessness"
+      ],
+      "description": "Approve a resolution directing the City Manager to evaluate the efficiency and\neffectiveness of existing programs aimed at preventing displacement and\nhomelessness, amend the Fiscal Year 2026-2027 budget by reallocating resources\nto existing displacement prevention services, initiate a competitive\nsolicitation process for any new services recommended to Council as part of the\neviction and displacement prevention program, and present the progress of the\nevaluation and any recommendations for Austin\u2019s eviction and displacement\nprevention system to a Council Committee.\n\nSponsors: Council Member Zohaib \"Zo\" Qadri, Co-Sponsor: Council Member Jos\u00e9\nVel\u00e1squez, Co-sponsor: Council Member Ryan Alter, Co-sponsor: Council Member\nVanessa Fuentes, Co-sponsor: Council Member Natasha Harper-Madison"
+    },
+    {
+      "item_number": "072",
+      "item_url": "https://www.austintexas.gov/council/2026/20260827-reg#072",
+      "action_type": "resolution",
+      "action_number": "20260827-072",
+      "status": "Open",
+      "lead_dept": "Austin Economic Development",
+      "sub_depts": null,
+      "sponsor": "Laine, Krista",
+      "co_sponsors": [
+        "Siegel, Mike",
+        "Vela, Jose",
+        "Ellis, Paige"
+      ],
+      "tags": null,
+      "description": "Approve a resolution directing the City Manager to perform an analysis of\nappropriate mechanisms to support development and infrastructure investment\nwithin the Lakeline Station area (Station Area), generally bounded by West\nParmer Lane, U.S. Highway 183, State Highway 45, and Lakeline Boulevard, to\nevaluate infrastructure investment, redevelopment and economic development and\nco-location opportunities for public services and civic spaces within the\nStation Area, and prioritize a partnership strategy for development and\nimplementation.\n\nSponsors: Council Member Krista Laine, Co-Sponsor: Council Member Mike Siegel,\nCo-sponsor: Mayor Pro Tem Jos\u00e9 \"Chito\" Vela, Co-sponsor: Council Member Paige\nEllis."
+    },
+    {
+      "item_number": "073",
+      "item_url": "https://www.austintexas.gov/council/2026/20260827-reg#073",
+      "action_type": "resolution",
+      "action_number": "20260827-073",
+      "status": "Open",
+      "lead_dept": "Austin Development Services",
+      "sub_depts": null,
+      "sponsor": "Fuentes, Vanessa",
+      "co_sponsors": [
+        "Siegel, Mike",
+        "Qadri, Zohaib",
+        "Velasquez, Jose",
+        "Laine, Krista"
+      ],
+      "tags": null,
+      "description": "Approve a resolution initiating amendments to City Code Chapter 25-12 (Technical\nCodes) by adopting new local amendments to establish regulations related to\nmold, including standards and protocols for the inspection and remediation of\nmold; directing the City Manager to improve public awareness and education\nregarding home repair programs, mold prevention and remediation, impacts to\nhealth, and other mold related issues; and further directing the City Manager to\nensure all housing developments that receive financial assistance from the City\nadhere to certain standards.\n\nSponsors: Council Member Vanessa Fuentes, Co-Sponsor: Council Member Mike\nSiegel, Co-sponsor: Council Member Zohaib \"Zo\" Qadri, Co-sponsor: Council Member\nJos\u00e9 Vel\u00e1squez, Council Member Krista Laine"
+    }
+  ]
 }
