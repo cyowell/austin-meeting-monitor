@@ -227,7 +227,7 @@
     <main class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">1</div>
+                <div class="stat-number">0</div>
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
@@ -237,17 +237,17 @@
                 </a>
             </div>
             <div class="stat">
-                <div class="stat-number">Sep 22, 2026</div>
+                <div class="stat-number">Sep 24, 2026</div>
                 <div class="stat-label">Last Meeting</div>
             </div>
         </div>
 
         <div class="controls">
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">11</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">10</span></button>
 <button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">5</span></button>
 <button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">3</span></button>
-<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">2</span></button>
+<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">1</span></button>
 <button class="filter-btn" data-filter="mlgc" onclick="filterMeetings('mlgc')">MLGC <span class="badge">1</span></button>
 
             </div>
@@ -256,49 +256,11 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Upcoming Meetings</h2>
-            <span class="section-count">1</span>
+            <span class="section-count">0</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
-            
-        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
-            <div class="meeting-header">
-                <div>
-                    <div class="meeting-date">September 24, 2026</div>
-                    <div class="meeting-day">Thursday</div>
-                </div>
-                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Regular Meeting</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Upcoming
-                    </div>
-                </div>
-            </div>
-            
-                <div class="meeting-summary">
-                    <h3>Agenda Preview</h3>
-                    <div class="summary-content"><p>Austin: $650M Infrastructure, Housing, Health</p>
-<ul>
-<li>  <strong>Major Infrastructure & Green Investments:</strong> Over $650 million is allocated for water and wastewater capital projects, city facility renovations, and mobility improvements. Additionally, $23.4 million is approved for Austin Energy solar and energy efficiency rebates, and $4 million for water reuse incentives.</li>
-<li>  <strong>Significant Land Use & Development Changes:</strong> Key decisions include multiple rezonings to allow for high-density multifamily housing, some facing public opposition, and amending the Circle C SOS Ordinance to increase development density in the Barton Springs Zone.</li>
-<li>  <strong>Expanded Social & Public Health Services:</strong> Nearly $70 million is committed to Integral Care for behavioral health, crisis response, and homelessness services. Millions more are directed to public health programs covering opioid abatement and maternal/infant care.</li>
-<li>  <strong>Affordable Housing & Emergency Aid:</strong> Fee waivers totaling over $540,000 are approved for a 100-unit affordable housing project, alongside a $2.7 million agreement for year-round cold weather shelter operations.</li>
-</ul></div>
-                </div>
-            <div class="meeting-links">
-                <a href="https://www.austintexas.gov/council/2026/20260924-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=481063" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Download Agenda</a>
-                <span class="meeting-links-spacer"></span>
-                <button class="btn-share-card" onclick="openShareModal('September 24, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Share</button>
-            </div>
-        </div>
+            <div class="no-meetings-section"><p>No upcoming meetings scheduled. Check back soon.</p></div>
         </div>
 
         <!-- Recent Meetings -->
@@ -309,6 +271,48 @@
         </div>
         <div id="recent-list">
             
+        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">September 24, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Austin Approves Big Investments, Housing, I-35 Changes</p>
+<ul>
+<li>  <strong>Over $1.5 Billion for City Infrastructure:</strong> Significant funding was approved for major capital projects, including $876 million for electric utility upgrades, $525 million for water and wastewater system improvements, and $131 million for city facility renovations, mobility projects, and a new Waller Creek park.</li>
+<li>  <strong>Boost for Housing & Development:</strong> The city waived fees for "The Bloom at Lamar Square" to create 100 deeply affordable housing units and supported a federal tax credit application for the "Verbena Flats" multifamily development. Several properties across Austin, including on Nuckols Crossing Road and near West 49th Street, were rezoned to allow for increased density and multifamily or mixed-use housing.</li>
+<li>  <strong>Enhanced Social and Public Health Services:</strong> A large $69.7 million agreement will consolidate behavioral health, crisis response, and homelessness services with Integral Care. Funds were also set aside for cold weather shelters ($2.7M), small business loan programs, and extended support for numerous public health initiatives like food access, legal aid, and maternal health programs.</li>
+<li>  <strong>Key Tech Upgrades & New Park Land:</strong> Over $59 million was allocated for new enterprise permitting and case management software to streamline city services. The city also moved to acquire 6.579 acres of land near Slaughter Creek for new park and recreation spaces.</li>
+<li>  <strong>I-35 Expansion Requires Property Acquisitions:</strong> The city authorized eminent domain proceedings to acquire specific property interests needed for Austin Energy to relocate utility structures as part of the I-35 Capital Express expansion project, affecting properties on East 38 1/2 Street, and for Austin Water line relocations near Loop 360.</li>
+<li>  <strong>Public Safety Initiatives:</strong> The City Manager was directed to propose expanding the requirement for Automated External Defibrillators (AEDs) in public spaces. New agreements also brought Blanco and Travis County Fire Marshal's Offices into the Austin Regional Intelligence Center, strengthening regional public safety partnerships.</li>
+</ul></div>
+            </div>
+            <div class="meeting-links">
+                <a href="/archives/meeting/20260924-reg/" class="meeting-link meeting-link-secondary">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=481365" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1507" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Actions Taken</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('September 24, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
         <div class="meeting-card meeting-card--recent" data-type="work-session">
             <div class="meeting-header">
                 <div>
@@ -677,43 +681,6 @@
             Share</button>
             </div>
         </div>
-        <div class="meeting-card meeting-card--recent" data-type="austin-housing-finance-corporation">
-            <div class="meeting-header">
-                <div>
-                    <div class="meeting-date">August 14, 2026</div>
-                    <div class="meeting-day">Friday</div>
-                </div>
-                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Austin Housing Finance Corporation</div>
-                    <div class="status-badge status-badge--completed">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                        Completed
-                    </div>
-                </div>
-            </div>
-            <div class="meeting-summary">
-                <h3>Meeting Highlights</h3>
-                <div class="summary-content"><p>Funding Austin Housing & Assistance</p>
-<ul>
-<li>  Adopted a $42 million operating budget for housing grants and a $1.7 million fund for direct housing assistance for the next fiscal year.</li>
-<li>  Approved a $48.5 million capital budget dedicated to new housing projects and developments.</li>
-<li>  Authorized a service agreement for the Austin Housing Finance Corporation to manage over $90 million in city housing programs.</li>
-</ul></div>
-            </div>
-            <div class="meeting-links">
-                <a href="/archives/meeting/20260814-ahfc/" class="meeting-link meeting-link-secondary">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=478516" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Agenda</a>
-                
-                <span class="meeting-links-spacer"></span>
-                <button class="btn-share-card" onclick="openShareModal('August 14, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Share this meeting">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Share</button>
-            </div>
-        </div>
             
             <div style="text-align: center; margin-top: 32px; margin-bottom: 24px;">
                 <a href="/archives/" class="meeting-link meeting-link-primary" style="padding: 12px 24px; font-size: 1.05em; border-radius: 12px; display: inline-flex; align-items: center; gap: 8px;">
@@ -739,7 +706,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: September 24, 2026 at 06:07 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: September 25, 2026 at 02:59 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
