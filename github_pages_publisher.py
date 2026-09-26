@@ -67,16 +67,16 @@ STRINGS = {
     'es': {
         'agenda_preview': 'Vista Previa de la Agenda',
         'upcoming': 'Próxima',
-        'meeting_details': 'Detalles de la Reunión',
-        'download_agenda': 'Descargar Agenda',
-        'agenda': 'Agenda',
+        'meeting_details': 'Detalles de la Reunión (en inglés)',
+        'download_agenda': 'Descargar Agenda (en inglés)',
+        'agenda': 'Agenda (en inglés)',
         'share': 'Compartir',
         'completed': 'Completada',
         'what_council_did': 'Lo que Hizo el Concejo',
         'meeting_highlights': 'Puntos Destacados',
-        'watch_video': 'Ver Video',
-        'actions_taken': 'Acciones Tomadas',
-        'transcript': 'Transcripción',
+        'watch_video': 'Ver Video (en inglés)',
+        'actions_taken': 'Acciones Tomadas (en inglés)',
+        'transcript': 'Transcripción (en inglés)',
         'no_upcoming': 'No hay reuniones programadas próximamente.',
         'no_recent': 'No hay reuniones recientes completadas en la base de datos.',
         'all': 'Todas',
@@ -273,7 +273,10 @@ class GitHubPagesPublisher:
         """Build HTML card for an upcoming (future) meeting"""
         di = self.format_date(m['date'])
         key = self._safe_filter_key(m['meeting_type'])
-        summary_source = m.get('summary_es') if lang == 'es' else m.get('summary')
+        
+        # Fallback to English summary if Spanish is missing
+        summary_source = m.get('summary_es') or m.get('summary') if lang == 'es' else m.get('summary')
+        
         summary_html = self._markdown_to_html(summary_source or '')
         s = STRINGS[lang]
         
@@ -285,22 +288,22 @@ class GitHubPagesPublisher:
         if m.get('agenda_url'):
             agenda_btn = f'''<a href="{m["agenda_url"]}" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Download Agenda</a>'''
+                {s['download_agenda']}</a>'''
 
         share_onclick = "openShareModal('{}','{}','{}')".format(
             di["full"].replace("'", "\\'"),
             m["meeting_type"].replace("'", "\\'"),
             "https://austincouncil.app"
         )
-        share_btn = f'''<button class="btn-share-card" onclick="{share_onclick}" title="Share this meeting">
+        share_btn = f'''<button class="btn-share-card" onclick="{share_onclick}" title="{s['share']} this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Share</button>'''
+            {s['share']}</button>'''
 
         summary_section = ''
         if summary_html:
             summary_section = f'''
                 <div class="meeting-summary">
-                    <h3>Agenda Preview</h3>
+                    <h3>{s['agenda_preview']}</h3>
                     <div class="summary-content">{summary_html}</div>
                 </div>'''
 
@@ -315,7 +318,7 @@ class GitHubPagesPublisher:
                     <div class="meeting-type">{display_type}</div>
                     <div class="status-badge status-badge--upcoming">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Upcoming
+                        {s['upcoming']}
                     </div>
                 </div>
             </div>
@@ -323,7 +326,7 @@ class GitHubPagesPublisher:
             <div class="meeting-links">
                 <a href="https://www.austintexas.gov/council/{m["id"][:4]}/{m["id"]}" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Meeting Details</a>
+                    {s['meeting_details']}</a>
                 {agenda_btn}
                 <span class="meeting-links-spacer"></span>
                 {share_btn}
@@ -342,7 +345,7 @@ class GitHubPagesPublisher:
 
         # Prefer post-meeting summary, fall back to agenda summary
         if lang == 'es':
-            display_summary = m.get('post_meeting_summary_es') or m.get('summary_es') or ''
+            display_summary = m.get('post_meeting_summary_es') or m.get('summary_es') or m.get('post_meeting_summary') or m.get('summary') or ''
         else:
             display_summary = m.get('post_meeting_summary') or m.get('summary') or ''
             
@@ -354,30 +357,30 @@ class GitHubPagesPublisher:
         if m.get('video_url'):
             extra_btns += f'''<a href="{m["video_url"]}" class="meeting-link meeting-link-video" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                Watch Video</a>'''
+                {s['watch_video']}</a>'''
         if m.get('actions_url'):
             extra_btns += f'''<a href="{m["actions_url"]}" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-                Actions Taken</a>'''
+                {s['actions_taken']}</a>'''
         if m.get('transcript_url'):
             extra_btns += f'''<a href="{m["transcript_url"]}" class="meeting-link meeting-link-transcript" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                Transcript</a>'''
+                {s['transcript']}</a>'''
 
         agenda_btn = ''
         if m.get('agenda_url'):
             agenda_btn = f'''<a href="{m["agenda_url"]}" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Agenda</a>'''
+                {s['agenda']}</a>'''
 
         share_onclick = "openShareModal('{}','{}','{}')".format(
             di["full"].replace("'", "\\'"),
             m["meeting_type"].replace("'", "\\'"),
             "https://austincouncil.app"
         )
-        share_btn = f'''<button class="btn-share-card" onclick="{share_onclick}" title="Share this meeting">
+        share_btn = f'''<button class="btn-share-card" onclick="{share_onclick}" title="{s['share']} this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Share</button>'''
+            {s['share']}</button>'''
 
         return f'''
         <div class="meeting-card meeting-card--recent" data-type="{key}">
@@ -390,7 +393,7 @@ class GitHubPagesPublisher:
                     <div class="meeting-type">{display_type}</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                        Completed
+                        {s['completed']}
                     </div>
                 </div>
             </div>
@@ -401,7 +404,7 @@ class GitHubPagesPublisher:
             <div class="meeting-links">
                 <a href="/archives/meeting/{m["id"]}/" class="meeting-link meeting-link-secondary">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Meeting Details</a>
+                    {s['meeting_details']}</a>
                 {agenda_btn}
                 {extra_btns}
                 <span class="meeting-links-spacer"></span>
