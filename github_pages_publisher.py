@@ -659,8 +659,8 @@ class GitHubPagesPublisher:
             #share-modal-overlay{{padding:16px;align-items:flex-end;justify-content:center}}
         }}
         /* Language Switcher */
-        .lang-switcher {{position:absolute;top:24px;left:24px;display:flex;gap:4px;z-index:100;background:rgba(255,255,255,.15);padding:4px;border-radius:20px;border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(8px)}}
-        .lang-btn {{text-decoration:none;color:white;font-size:0.85em;font-weight:600;padding:4px 10px;border-radius:16px;transition:all .2s;opacity:0.8}}
+        .lang-switcher {{position:absolute;top:24px;left:24px;display:flex;gap:4px;z-index:100;background:rgba(255,255,255,.15);padding:3px;border-radius:20px;border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(8px)}}
+        .lang-btn {{text-decoration:none;color:white;font-size:0.75em;font-weight:600;padding:3px 8px;border-radius:16px;transition:all .2s;opacity:0.8}}
         .lang-btn:hover {{opacity:1;background:rgba(255,255,255,.1)}}
         .lang-btn.active {{opacity:1;background:white;color:#4f46e5;box-shadow:0 2px 8px rgba(0,0,0,.1)}}
         
@@ -671,7 +671,8 @@ class GitHubPagesPublisher:
             .stats{{flex-direction:column;gap:16px}}
             .meeting-links{{gap:6px}}
             .meeting-link{{font-size:.8em;padding:8px 12px}}
-            .lang-switcher {{top:16px;left:16px}}
+            .lang-switcher {{top:12px;left:12px;padding:2px;gap:2px;}}
+            .lang-btn {{font-size:0.7em;padding:2px 6px;}}
         }}
     </style>
 </head>
