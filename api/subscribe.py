@@ -71,32 +71,36 @@ class handler(BaseHTTPRequestHandler):
             'User-Agent': 'resend-python/2.1.0'
         }
 
-        # Resolve audience ID: use environment variable first, otherwise query live audiences
-        audience_id = os.environ.get('RESEND_AUDIENCE_ID')
-        if not audience_id:
-            try:
-                req = urllib.request.Request(
-                    'https://api.resend.com/audiences',
-                    headers=headers
-                )
-                with urllib.request.urlopen(req) as response:
-                    res_body = json.loads(response.read().decode('utf-8'))
-                    items = res_body.get('data', [])
-                    if items:
-                        # Look for audience named 'General' (case-insensitive)
-                        general_audience = None
-                        for item in items:
-                            if str(item.get('name', '')).strip().lower() == 'general':
-                                general_audience = item
-                                break
-                        
-                        if general_audience:
-                            audience_id = general_audience.get('id')
-                        else:
-                            # Fallback to first available audience
-                            audience_id = items[0].get('id')
-            except Exception:
-                pass
+        # Determine audience based on language preference
+        lang = str(data.get('lang', 'en')).strip().lower()
+        if lang == 'es':
+            audience_id = os.environ.get('RESEND_AUDIENCE_ID_ES', '80847ef2-0cbe-4dcf-b978-665c6422d0d4')
+        else:
+            audience_id = os.environ.get('RESEND_AUDIENCE_ID')
+            if not audience_id:
+                try:
+                    req = urllib.request.Request(
+                        'https://api.resend.com/audiences',
+                        headers=headers
+                    )
+                    with urllib.request.urlopen(req) as response:
+                        res_body = json.loads(response.read().decode('utf-8'))
+                        items = res_body.get('data', [])
+                        if items:
+                            # Look for audience named 'General' (case-insensitive)
+                            general_audience = None
+                            for item in items:
+                                if str(item.get('name', '')).strip().lower() == 'general':
+                                    general_audience = item
+                                    break
+                            
+                            if general_audience:
+                                audience_id = general_audience.get('id')
+                            else:
+                                # Fallback to first available audience
+                                audience_id = items[0].get('id')
+                except Exception:
+                    pass
 
         if audience_id:
             params['audience_id'] = audience_id

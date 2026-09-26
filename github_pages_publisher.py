@@ -15,6 +15,112 @@ from pathlib import Path
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+STRINGS = {
+    'en': {
+        'agenda_preview': 'Agenda Preview',
+        'upcoming': 'Upcoming',
+        'meeting_details': 'Meeting Details',
+        'download_agenda': 'Download Agenda',
+        'agenda': 'Agenda',
+        'share': 'Share',
+        'completed': 'Completed',
+        'what_council_did': 'What the Council Did',
+        'meeting_highlights': 'Meeting Highlights',
+        'watch_video': 'Watch Video',
+        'actions_taken': 'Actions Taken',
+        'transcript': 'Transcript',
+        'no_upcoming': 'No upcoming meetings scheduled. Check back soon.',
+        'no_recent': 'No completed meetings in the database yet.',
+        'all': 'All',
+        'title': 'Austin City Council Meeting Monitor',
+        'subtitle': 'Automated AI-powered summaries of Austin City Council meetings',
+        'never_miss': 'Never Miss a Meeting',
+        'get_updates': 'Get email updates when new meetings are posted',
+        'subscribe': 'Subscribe',
+        'rss_feed': 'RSS Feed',
+        'home': 'Home',
+        'archives': 'Archives',
+        'about': 'About',
+        'stats_upcoming': 'Upcoming',
+        'stats_archived': 'Archived',
+        'stats_last': 'Last Meeting',
+        'h2_upcoming': 'Upcoming Meetings',
+        'h2_recent': 'Recent Meetings',
+        'search_archives': 'Search All Historical Archives',
+        'no_results_title': 'No matching meetings',
+        'no_results_desc': 'Try a different keyword or filter.',
+        'footer_about': 'About This Site',
+        'footer_desc': 'This site automatically monitors Austin City Council meetings and generates AI-powered summaries to help citizens stay informed.',
+        'footer_gemini': 'Summaries are generated using Google Gemini AI. For official information, always refer to the <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">City of Austin website</a>.',
+        'footer_meth': 'About &amp; Methodology',
+        'footer_journo': 'For Journalists',
+        'footer_rss': 'RSS Feed',
+        'footer_github': 'GitHub',
+        'last_updated': 'Last updated',
+        'sub_invalid_email': 'Please enter a valid email address.',
+        'sub_subscribing': 'Subscribing...',
+        'sub_success': "✓ You're subscribed!",
+        'sub_failed': 'Subscription failed',
+        'sub_button_success': 'Subscribed!',
+        'email_placeholder': 'your@email.com',
+    },
+    'es': {
+        'agenda_preview': 'Vista Previa de la Agenda',
+        'upcoming': 'Próxima',
+        'meeting_details': 'Detalles de la Reunión',
+        'download_agenda': 'Descargar Agenda',
+        'agenda': 'Agenda',
+        'share': 'Compartir',
+        'completed': 'Completada',
+        'what_council_did': 'Lo que Hizo el Concejo',
+        'meeting_highlights': 'Puntos Destacados',
+        'watch_video': 'Ver Video',
+        'actions_taken': 'Acciones Tomadas',
+        'transcript': 'Transcripción',
+        'no_upcoming': 'No hay reuniones programadas próximamente.',
+        'no_recent': 'No hay reuniones recientes completadas en la base de datos.',
+        'all': 'Todas',
+        'title': 'Monitor del Concejo Municipal de Austin',
+        'subtitle': 'Resúmenes automatizados con IA de las reuniones del Concejo Municipal de Austin',
+        'never_miss': 'No Te Pierdas Ninguna Reunión',
+        'get_updates': 'Recibe actualizaciones por correo cuando se publiquen nuevas reuniones',
+        'subscribe': 'Suscribir',
+        'rss_feed': 'Canal RSS',
+        'home': 'Inicio',
+        'archives': 'Archivos',
+        'about': 'Acerca de',
+        'stats_upcoming': 'Próximas',
+        'stats_archived': 'Archivadas',
+        'stats_last': 'Última Reunión',
+        'h2_upcoming': 'Próximas Reuniones',
+        'h2_recent': 'Reuniones Recientes',
+        'search_archives': 'Buscar en Todos los Archivos Históricos',
+        'no_results_title': 'No hay reuniones coincidentes',
+        'no_results_desc': 'Intenta con una palabra clave o filtro diferente.',
+        'footer_about': 'Acerca de Este Sitio',
+        'footer_desc': 'Este sitio monitorea automáticamente las reuniones del Concejo Municipal de Austin y genera resúmenes con inteligencia artificial para ayudar a los ciudadanos a mantenerse informados.',
+        'footer_gemini': 'Los resúmenes son generados usando Google Gemini AI. Para obtener información oficial, consulte siempre el <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">sitio web de la Ciudad de Austin</a>.',
+        'footer_meth': 'Acerca de y Metodología',
+        'footer_journo': 'Para Periodistas',
+        'footer_rss': 'Canal RSS',
+        'footer_github': 'GitHub',
+        'last_updated': 'Última actualización',
+        'sub_invalid_email': 'Por favor, introduce una dirección de correo válida.',
+        'sub_subscribing': 'Suscribiendo...',
+        'sub_success': '✓ ¡Te has suscrito!',
+        'sub_failed': 'Suscripción fallida',
+        'sub_button_success': '¡Suscrito!',
+        'email_placeholder': 'tu@correo.com',
+    }
+}
+
+MEETING_TYPES = {
+    'Regular Meeting': 'Reunión Regular',
+    'Work Session': 'Sesión de Trabajo',
+    'Special Called Meeting': 'Reunión Especial Convocada',
+    'Austin Housing Finance Corporation': 'Corporación Financiera de Vivienda de Austin',
+    'Joint Meeting': 'Reunión Conjunta',
+}
 
 class GitHubPagesPublisher:
     """Generates static HTML pages and RSS feed for GitHub Pages hosting"""
@@ -47,6 +153,8 @@ class GitHubPagesPublisher:
             'video_url':           'video_url'           in columns,
             'post_meeting_summary':'post_meeting_summary' in columns,
             'created_at':         'created_at'           in columns,
+            'gemini_summary_es':  'gemini_summary_es'    in columns,
+            'post_meeting_summary_es': 'post_meeting_summary_es' in columns,
         }
 
         select = [id_col, 'date', 'meeting_type', url_col, 'agenda_url', summ_col]
@@ -56,6 +164,8 @@ class GitHubPagesPublisher:
         if optional['actions_url']:         select.append('actions_url')
         if optional['video_url']:           select.append('video_url')
         if optional['post_meeting_summary']:select.append('post_meeting_summary')
+        if optional['gemini_summary_es']:   select.append('gemini_summary_es')
+        if optional['post_meeting_summary_es']:select.append('post_meeting_summary_es')
 
         query = f"SELECT {', '.join(select)} FROM meetings ORDER BY date DESC"
         if limit:
@@ -83,7 +193,9 @@ class GitHubPagesPublisher:
             m_transcript = row[idx] if optional['transcript_url'] else None; idx += 1 if optional['transcript_url'] else 0
             m_actions    = row[idx] if optional['actions_url'] else None; idx += 1 if optional['actions_url'] else 0
             m_video      = row[idx] if optional['video_url'] else None; idx += 1 if optional['video_url'] else 0
-            m_post_summ  = row[idx] if optional['post_meeting_summary'] else None
+            m_post_summ  = row[idx] if optional['post_meeting_summary'] else None; idx += 1 if optional['post_meeting_summary'] else 0
+            m_summ_es    = row[idx] if optional['gemini_summary_es'] else None; idx += 1 if optional['gemini_summary_es'] else 0
+            m_post_summ_es = row[idx] if optional['post_meeting_summary_es'] else None
 
             # Determine completed status: column value, or date in the past
             if m_completed is None:
@@ -98,12 +210,14 @@ class GitHubPagesPublisher:
                 'url': m_url,
                 'agenda_url': m_agenda,
                 'summary': m_summary,
+                'summary_es': m_summ_es,
                 'created_at': m_created,
                 'is_completed': is_completed,
                 'transcript_url': m_transcript,
                 'actions_url': m_actions,
                 'video_url': m_video,
                 'post_meeting_summary': m_post_summ,
+                'post_meeting_summary_es': m_post_summ_es,
             })
 
         conn.close()
@@ -155,11 +269,17 @@ class GitHubPagesPublisher:
         """Convert meeting type to a safe CSS/data attribute value"""
         return re.sub(r'[^a-z0-9]+', '-', meeting_type.lower()).strip('-')
 
-    def _build_upcoming_card(self, m):
+    def _build_upcoming_card(self, m, lang='en'):
         """Build HTML card for an upcoming (future) meeting"""
         di = self.format_date(m['date'])
         key = self._safe_filter_key(m['meeting_type'])
-        summary_html = self._markdown_to_html(m.get('summary', ''))
+        summary_source = m.get('summary_es') if lang == 'es' else m.get('summary')
+        summary_html = self._markdown_to_html(summary_source or '')
+        s = STRINGS[lang]
+        
+        display_type = m["meeting_type"]
+        if lang == 'es':
+            display_type = MEETING_TYPES.get(display_type, display_type)
 
         agenda_btn = ''
         if m.get('agenda_url'):
@@ -192,7 +312,7 @@ class GitHubPagesPublisher:
                     <div class="meeting-day">{di["day"]}</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">{m["meeting_type"]}</div>
+                    <div class="meeting-type">{display_type}</div>
                     <div class="status-badge status-badge--upcoming">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                         Upcoming
@@ -210,15 +330,24 @@ class GitHubPagesPublisher:
             </div>
         </div>'''
 
-    def _build_recent_card(self, m):
+    def _build_recent_card(self, m, lang='en'):
         """Build HTML card for a completed (past) meeting"""
         di = self.format_date(m['date'])
         key = self._safe_filter_key(m['meeting_type'])
+        s = STRINGS[lang]
+
+        display_type = m["meeting_type"]
+        if lang == 'es':
+            display_type = MEETING_TYPES.get(display_type, display_type)
 
         # Prefer post-meeting summary, fall back to agenda summary
-        display_summary = m.get('post_meeting_summary') or m.get('summary', '')
+        if lang == 'es':
+            display_summary = m.get('post_meeting_summary_es') or m.get('summary_es') or ''
+        else:
+            display_summary = m.get('post_meeting_summary') or m.get('summary') or ''
+            
         summary_html = self._markdown_to_html(display_summary)
-        summary_label = 'What the Council Did' if m.get('post_meeting_summary') else 'Meeting Highlights'
+        summary_label = s['what_council_did'] if m.get('post_meeting_summary') else s['meeting_highlights']
 
         # Post-meeting action buttons
         extra_btns = ''
@@ -258,7 +387,7 @@ class GitHubPagesPublisher:
                     <div class="meeting-day">{di["day"]}</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">{m["meeting_type"]}</div>
+                    <div class="meeting-type">{display_type}</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         Completed
@@ -280,9 +409,10 @@ class GitHubPagesPublisher:
             </div>
         </div>'''
 
-    def generate_html_index(self, meetings):
+    def generate_html_index(self, meetings, lang='en'):
         """Generate main index.html page with Upcoming and Recent sections"""
         today_str = date.today().isoformat()
+        s = STRINGS[lang]
 
         upcoming = [m for m in meetings if not m['is_completed']]
         recent   = [m for m in meetings if m['is_completed']]
@@ -311,34 +441,40 @@ class GitHubPagesPublisher:
             type_counts[t] = type_counts.get(t, 0) + 1
 
         # Filter buttons
-        filter_btns = f'<button class="filter-btn active" data-filter="all" onclick="filterMeetings(\'all\')">All <span class="badge">{total}</span></button>\n'
+        filter_btns = f'<button class="filter-btn active" data-filter="all" onclick="filterMeetings(\'all\')">{s["all"]} <span class="badge">{total}</span></button>\n'
         for mtype, count in sorted(type_counts.items(), key=lambda x: -x[1]):
             key = self._safe_filter_key(mtype)
-            filter_btns += f'<button class="filter-btn" data-filter="{key}" onclick="filterMeetings(\'{key}\')">{mtype} <span class="badge">{count}</span></button>\n'
+            display_mtype = mtype
+            if lang == 'es':
+                display_mtype = MEETING_TYPES.get(mtype, mtype)
+            filter_btns += f'<button class="filter-btn" data-filter="{key}" onclick="filterMeetings(\'{key}\')">{display_mtype} <span class="badge">{count}</span></button>\n'
 
         # Build upcoming cards
         upcoming_cards = ''
         for m in upcoming:
-            upcoming_cards += self._build_upcoming_card(m)
+            upcoming_cards += self._build_upcoming_card(m, lang)
         if not upcoming_cards:
-            upcoming_cards = '<div class="no-meetings-section"><p>No upcoming meetings scheduled. Check back soon.</p></div>'
+            upcoming_cards = f'<div class="no-meetings-section"><p>{s["no_upcoming"]}</p></div>'
 
         # Build recent cards (capped at 10)
         recent_cards = ''
         for m in recent[:10]:
-            recent_cards += self._build_recent_card(m)
+            recent_cards += self._build_recent_card(m, lang)
         if not recent_cards:
-            recent_cards = '<div class="no-meetings-section"><p>No completed meetings in the database yet.</p></div>'
+            recent_cards = f'<div class="no-meetings-section"><p>{s["no_recent"]}</p></div>'
 
         updated = datetime.now().strftime('%B %d, %Y at %I:%M %p')
 
         return f'''<!DOCTYPE html>
-<html lang="en">
+<html lang="{lang}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Automated AI-powered summaries of Austin City Council meetings. Stay informed about local government.">
-    <title>Austin City Council Meeting Monitor</title>
+    <meta name="description" content="{s['subtitle']}">
+    <title>{s['title']}</title>
+    <link rel="alternate" hreflang="en" href="https://austincouncil.app/" />
+    <link rel="alternate" hreflang="es" href="https://austincouncil.app/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://austincouncil.app/" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -519,6 +655,12 @@ class GitHubPagesPublisher:
             #share-modal{{width:100%;border-radius:20px 20px 16px 16px}}
             #share-modal-overlay{{padding:16px;align-items:flex-end;justify-content:center}}
         }}
+        /* Language Switcher */
+        .lang-switcher {{position:absolute;top:24px;left:24px;display:flex;gap:4px;z-index:100;background:rgba(255,255,255,.15);padding:4px;border-radius:20px;border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(8px)}}
+        .lang-btn {{text-decoration:none;color:white;font-size:0.85em;font-weight:600;padding:4px 10px;border-radius:16px;transition:all .2s;opacity:0.8}}
+        .lang-btn:hover {{opacity:1;background:rgba(255,255,255,.1)}}
+        .lang-btn.active {{opacity:1;background:white;color:#4f46e5;box-shadow:0 2px 8px rgba(0,0,0,.1)}}
+        
         @media(max-width:640px){{
             header h1{{font-size:1.65em}}
             .meeting-card{{padding:18px}}
@@ -526,11 +668,16 @@ class GitHubPagesPublisher:
             .stats{{flex-direction:column;gap:16px}}
             .meeting-links{{gap:6px}}
             .meeting-link{{font-size:.8em;padding:8px 12px}}
+            .lang-switcher {{top:16px;left:16px}}
         }}
     </style>
 </head>
 <body>
     <header>
+        <div class="lang-switcher">
+            <a href="/" class="lang-btn {'active' if lang == 'en' else ''}">EN</a>
+            <a href="/es/" class="lang-btn {'active' if lang == 'es' else ''}">ES</a>
+        </div>
         <div class="mobile-menu-container">
             <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
             <label for="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Menu">
@@ -539,22 +686,22 @@ class GitHubPagesPublisher:
                 <span></span>
             </label>
             <nav class="mobile-menu-nav">
-                <a href="/">Home</a>
-                <a href="/archives/">Archives</a>
-                <a href="/about">About</a>
+                <a href="/{'' if lang == 'en' else 'es/'}">{s['home']}</a>
+                <a href="/archives/">{s['archives']}</a>
+                <a href="/about">{s['about']}</a>
             </nav>
         </div>
-        <h1>🏛️ Austin City Council Meeting Monitor</h1>
-        <p>Automated AI-powered summaries of Austin City Council meetings</p>
+        <h1>🏛️ {s['title']}</h1>
+        <p>{s['subtitle']}</p>
         <div class="subscribe-box">
-            <h2>📬 Never Miss a Meeting</h2>
-            <p>Get email updates when new meetings are posted</p>
+            <h2>📬 {s['never_miss']}</h2>
+            <p>{s['get_updates']}</p>
             <div class="subscribe-form">
-                <input type="email" id="sub-email" aria-label="Email address" placeholder="your@email.com" autocomplete="email">
-                <button id="sub-btn" onclick="subscribe()">Subscribe</button>
+                <input type="email" id="sub-email" aria-label="Email address" placeholder="{s['email_placeholder']}" autocomplete="email">
+                <button id="sub-btn" onclick="subscribe()">{s['subscribe']}</button>
             </div>
             <div class="subscribe-msg" id="sub-msg"></div>
-            <a href="feed.xml" class="btn-rss">📡 RSS Feed</a>
+            <a href="feed.xml" class="btn-rss">📡 {s['rss_feed']}</a>
         </div>
     </header>
 
@@ -562,17 +709,17 @@ class GitHubPagesPublisher:
         <div class="stats">
             <div class="stat">
                 <div class="stat-number">{n_upcoming}</div>
-                <div class="stat-label">Upcoming</div>
+                <div class="stat-label">{s['stats_upcoming']}</div>
             </div>
             <div class="stat">
                 <a href="/archives/" style="text-decoration: none; display: block; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
                     <div class="stat-number">{total_archived:,}</div>
-                    <div class="stat-label">Archived</div>
+                    <div class="stat-label">{s['stats_archived']}</div>
                 </a>
             </div>
             <div class="stat">
                 <div class="stat-number">{latest_date}</div>
-                <div class="stat-label">Last Meeting</div>
+                <div class="stat-label">{s['stats_last']}</div>
             </div>
         </div>
 
@@ -584,7 +731,7 @@ class GitHubPagesPublisher:
 
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
-            <h2>📅 Upcoming Meetings</h2>
+            <h2>📅 {s['h2_upcoming']}</h2>
             <span class="section-count">{n_upcoming}</span>
             <div class="section-divider"></div>
         </div>
@@ -594,7 +741,7 @@ class GitHubPagesPublisher:
 
         <!-- Recent Meetings -->
         <div class="section-header section-header--recent">
-            <h2>✅ Recent Meetings</h2>
+            <h2>✅ {s['h2_recent']}</h2>
             <span class="section-count">{n_recent}</span>
             <div class="section-divider"></div>
         </div>
@@ -603,29 +750,29 @@ class GitHubPagesPublisher:
             
             <div style="text-align: center; margin-top: 32px; margin-bottom: 24px;">
                 <a href="/archives/" class="meeting-link meeting-link-primary" style="padding: 12px 24px; font-size: 1.05em; border-radius: 12px; display: inline-flex; align-items: center; gap: 8px;">
-                    📚 Search All Historical Archives
+                    📚 {s['search_archives']}
                 </a>
             </div>
         </div>
 
         <div class="no-results" id="no-results">
-            <h2>🔍 No matching meetings</h2>
-            <p>Try a different keyword or filter.</p>
+            <h2>🔍 {s['no_results_title']}</h2>
+            <p>{s['no_results_desc']}</p>
         </div>
     </main>
 
     <footer>
-        <p><strong>About This Site</strong></p>
-        <p>This site automatically monitors Austin City Council meetings and generates AI-powered summaries to help citizens stay informed.</p>
-        <p>Summaries are generated using Google Gemini AI. For official information, always refer to the <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">City of Austin website</a>.</p>
+        <p><strong>{s['footer_about']}</strong></p>
+        <p>{s['footer_desc']}</p>
+        <p>{s['footer_gemini']}</p>
         <p style="margin-top:12px">
-            <a href="/about">About &amp; Methodology</a> &nbsp;|&nbsp;
-            <a href="/about#journalists">For Journalists</a> &nbsp;|&nbsp;
-            <a href="/archives/">Archives</a> &nbsp;|&nbsp;
-            <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
-            <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
+            <a href="/about">{s['footer_meth']}</a> &nbsp;|&nbsp;
+            <a href="/about#journalists">{s['footer_journo']}</a> &nbsp;|&nbsp;
+            <a href="/archives/">{s['archives']}</a> &nbsp;|&nbsp;
+            <a href="/feed.xml">{s['footer_rss']}</a> &nbsp;|&nbsp;
+            <a href="https://github.com/cyowell/austin-meeting-monitor">{s['footer_github']}</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: {updated}</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">{s['last_updated']}: {updated}</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({{top:0,behavior:'smooth'}})" title="Back to top">↑</button>
@@ -700,28 +847,28 @@ class GitHubPagesPublisher:
             const btn = document.getElementById('sub-btn');
             const msg = document.getElementById('sub-msg');
             if (!email || !email.includes('@')) {{
-                msg.textContent = 'Please enter a valid email address.';
+                msg.textContent = '{s['sub_invalid_email']}';
                 msg.className = 'subscribe-msg error';
                 return;
             }}
             btn.disabled = true;
-            btn.textContent = 'Subscribing...';
+            btn.textContent = '{s['sub_subscribing']}';
             msg.textContent = '';
             msg.className = 'subscribe-msg';
             try {{
                 const res = await fetch('{SUBSCRIBE_API_URL}', {{
                     method: 'POST',
                     headers: {{'Content-Type': 'application/json'}},
-                    body: JSON.stringify({{email}})
+                    body: JSON.stringify({{email: email, lang: '{lang}'}})
                 }});
                 const data = await res.json();
                 if (res.ok && data.success) {{
-                    msg.textContent = "✓ You're subscribed!";
+                    msg.textContent = "{s['sub_success']}";
                     msg.className = 'subscribe-msg success';
                     document.getElementById('sub-email').value = '';
-                    btn.textContent = 'Subscribed!';
+                    btn.textContent = '{s['sub_button_success']}';
                 }} else {{
-                    throw new Error(data.error || 'Subscription failed');
+                    throw new Error(data.error || '{s['sub_failed']}');
                 }}
             }} catch(e) {{
                 msg.textContent = 'Something went wrong. Please try again.';
@@ -852,11 +999,20 @@ class GitHubPagesPublisher:
         if not meetings:
             logging.warning("  ⚠️  No meetings found in database - creating placeholder site")
 
-        html_content = self.generate_html_index(meetings)
+        html_content = self.generate_html_index(meetings, lang='en')
         html_path = self.output_dir / 'index.html'
         with open(html_path, 'w', encoding='utf-8') as f:
             f.write(html_content)
         logging.info(f"  ✅ Generated {html_path}")
+
+        # Generate Spanish site
+        es_dir = self.output_dir / 'es'
+        es_dir.mkdir(exist_ok=True)
+        html_content_es = self.generate_html_index(meetings, lang='es')
+        html_path_es = es_dir / 'index.html'
+        with open(html_path_es, 'w', encoding='utf-8') as f:
+            f.write(html_content_es)
+        logging.info(f"  ✅ Generated {html_path_es}")
 
         rss_content = self.generate_rss_feed(meetings, site_url)
         rss_path = self.output_dir / 'feed.xml'

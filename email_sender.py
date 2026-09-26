@@ -10,6 +10,12 @@ import logging
 from datetime import datetime
 
 try:
+    from github_pages_publisher import STRINGS, MEETING_TYPES
+except ImportError:
+    STRINGS = {}
+    MEETING_TYPES = {}
+
+try:
     import resend
     RESEND_AVAILABLE = True
 except ImportError:
@@ -36,11 +42,11 @@ class MeetingEmailSender:
 
     # ── Subscriber management ────────────────────────────────────────────────
 
-    def get_subscribers(self):
+    def get_subscribers(self, target_audience_id=None):
         """Fetch active subscribers from Resend — auto-discovers the audience ID"""
         try:
             # Auto-discover audience if not explicitly provided
-            audience_id = self.audience_id
+            audience_id = target_audience_id or self.audience_id
             if not audience_id:
                 audiences = resend.Audiences.list()
                 items = getattr(audiences, 'data', None) or []
@@ -82,7 +88,7 @@ class MeetingEmailSender:
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         cursor.execute('''
-            SELECT meeting_id, date, meeting_type, meeting_url, agenda_url, gemini_summary
+            SELECT meeting_id, date, meeting_type, meeting_url, agenda_url, gemini_summary, gemini_summary_es
             FROM meetings
             WHERE notified_at IS NULL
             ORDER BY date DESC
@@ -103,7 +109,7 @@ class MeetingEmailSender:
             meetings.append({
                 'id': row[0], 'date': row[1], 'meeting_type': row[2],
                 'url': row[3], 'agenda_url': row[4],
-                'summary': summary
+                'summary': summary, 'summary_es': row[6]
             })
         conn.close()
         if skipped:
@@ -158,16 +164,29 @@ class MeetingEmailSender:
             out.append('</ul>')
         return '\n'.join(out)
 
-    def _meeting_card(self, m):
+    def _meeting_card(self, m, lang='en'):
         """Render a single meeting card for the email"""
         try:
             d = datetime.strptime(m['date'], '%Y-%m-%d')
-            date_full = d.strftime('%B %d, %Y')
-            date_day = d.strftime('%A')
+            if lang == 'es':
+                months_es = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
+                days_es = ['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo']
+                date_full = f"{d.day} de {months_es[d.month-1]} de {d.year}"
+                date_day = days_es[d.weekday()]
+            else:
+                date_full = d.strftime('%B %d, %Y')
+                date_day = d.strftime('%A')
         except Exception:
             date_full, date_day = m['date'], ''
 
-        summary_html = self._markdown_to_html(m.get('summary', ''))
+        summary_source = m.get('summary_es') if lang == 'es' else m.get('summary')
+        summary_html = self._markdown_to_html(summary_source or '')
+        
+        display_type = m["meeting_type"]
+        if lang == 'es':
+            display_type = MEETING_TYPES.get(display_type, display_type)
+            
+        s = STRINGS.get(lang, STRINGS.get('en', {}))
 
         agenda_btn = ''
         if m.get('agenda_url'):
@@ -175,7 +194,7 @@ class MeetingEmailSender:
             <a href="{m['agenda_url']}"
                style="display:inline-block;margin-left:8px;padding:9px 16px;background:#f3f4f6;
                       color:#4b5563;text-decoration:none;border-radius:7px;font-size:13px;font-weight:600">
-                📋 Download Agenda
+                📋 {s.get('download_agenda', 'Download Agenda')}
             </a>'''
 
         return f'''
@@ -191,36 +210,48 @@ class MeetingEmailSender:
                         <span style="display:inline-block;background:#4f46e5;color:white;
                                     padding:6px 14px;border-radius:20px;font-size:12px;
                                     font-weight:600;white-space:nowrap">
-                            {m['meeting_type']}
+                            {display_type}
                         </span>
                     </td>
                 </tr>
             </table>
             <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;
-                        color:#9ca3af;margin-bottom:10px">Meeting Highlights</div>
+                        color:#9ca3af;margin-bottom:10px">{s.get('meeting_highlights', 'Meeting Highlights')}</div>
             <div style="font-size:14px">{summary_html}</div>
             <div style="margin-top:18px">
                 <a href="{m['url']}"
                    style="display:inline-block;padding:9px 18px;background:#4f46e5;color:white;
                           text-decoration:none;border-radius:7px;font-size:13px;font-weight:600">
-                    &#128196; View Meeting Details
+                    &#128196; {s.get('meeting_details', 'View Meeting Details')}
                 </a>
                 {agenda_btn}
             </div>
         </div>'''
 
-    def build_email_html(self, meetings):
+    def build_email_html(self, meetings, lang='en'):
         """Build the full HTML email"""
         count = len(meetings)
-        headline = f"{count} New Meeting{'s' if count > 1 else ''} Posted"
-        cards = ''.join(self._meeting_card(m) for m in meetings)
+        s = STRINGS.get(lang, STRINGS.get('en', {}))
+        
+        if lang == 'es':
+            headline = f"{count} Nueva{'s' if count > 1 else ''} Reunión{'es' if count > 1 else ''} Publicada{'s' if count > 1 else ''}"
+            monitor_title = "Monitor del Concejo de Austin"
+            site_url = f"{SITE_URL}/es/"
+            unsub_text = "Darse de baja"
+        else:
+            headline = f"{count} New Meeting{'s' if count > 1 else ''} Posted"
+            monitor_title = "Austin City Council Monitor"
+            site_url = SITE_URL
+            unsub_text = "Unsubscribe"
+            
+        cards = ''.join(self._meeting_card(m, lang) for m in meetings)
 
         return f'''<!DOCTYPE html>
-<html lang="en">
+<html lang="{lang}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Austin City Council — {headline}</title>
+    <title>{monitor_title} — {headline}</title>
 </head>
 <body style="margin:0;padding:0;background:#f0f2f8;
              font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif">
@@ -231,7 +262,7 @@ class MeetingEmailSender:
                     border-radius:14px;padding:36px 28px;text-align:center;margin-bottom:22px">
             <div style="font-size:36px;margin-bottom:10px">🏛️</div>
             <h1 style="color:white;margin:0 0 6px;font-size:22px;font-weight:700;letter-spacing:-0.3px">
-                Austin City Council Monitor
+                {monitor_title}
             </h1>
             <p style="color:rgba(255,255,255,0.88);margin:0;font-size:14px">{headline}</p>
         </div>
@@ -242,7 +273,7 @@ class MeetingEmailSender:
         <!-- Footer -->
         <div style="text-align:center;padding:20px 0 0;color:#9ca3af;font-size:12px;line-height:1.8">
             <p style="margin:0 0 6px">
-                <a href="{SITE_URL}" style="color:#4f46e5;text-decoration:none;font-weight:600">
+                <a href="{site_url}" style="color:#4f46e5;text-decoration:none;font-weight:600">
                     austincouncil.app
                 </a>
                 &nbsp;·&nbsp;
@@ -252,17 +283,15 @@ class MeetingEmailSender:
                    style="color:#4f46e5;text-decoration:none">GitHub</a>
             </p>
             <p style="margin:0 0 6px">
-                Automated AI-powered summaries of Austin City Council meetings.
+                {s.get('footer_desc', 'Automated AI-powered summaries of Austin City Council meetings.')}
             </p>
             <p style="margin:0 0 10px">
-                For official information, visit
-                <a href="https://www.austintexas.gov/department/city-council"
-                   style="color:#4f46e5;text-decoration:none">austintexas.gov</a>
+                {s.get('footer_gemini', 'For official information, visit <a href="https://www.austintexas.gov/department/city-council" style="color:#4f46e5;text-decoration:none">austintexas.gov</a>.')}
             </p>
             <p style="margin:0">
                 <a href="{{{{ unsubscribe_url }}}}"
                    style="color:#9ca3af;text-decoration:underline;font-size:11px">
-                    Unsubscribe
+                    {unsub_text}
                 </a>
             </p>
         </div>
@@ -283,36 +312,64 @@ class MeetingEmailSender:
             logging.info("✓ No new meetings to notify about.")
             return 0
 
-        subscribers = self.get_subscribers()
-        if not subscribers:
-            logging.warning("⚠️  No subscribers — skipping send, but marking as notified.")
+        # Fetch English (default) subscribers
+        subscribers_en = self.get_subscribers()
+        
+        # Fetch Spanish subscribers
+        audience_id_es = os.environ.get('RESEND_AUDIENCE_ID_ES', '80847ef2-0cbe-4dcf-b978-665c6422d0d4')
+        subscribers_es = self.get_subscribers(target_audience_id=audience_id_es)
+        
+        total_subscribers = len(subscribers_en) + len(subscribers_es)
+
+        if total_subscribers == 0:
+            logging.warning("⚠️  No subscribers in either audience — skipping send, but marking as notified.")
             self.mark_as_notified([m['id'] for m in meetings])
             return 0
 
         count = len(meetings)
-        subject = f"🏛️ {count} New Austin City Council Meeting{'s' if count > 1 else ''}"
-        html = self.build_email_html(meetings)
+        subject_en = f"🏛️ {count} New Austin City Council Meeting{'s' if count > 1 else ''}"
+        subject_es = f"🏛️ {count} Nueva{'s' if count > 1 else ''} Reunión{'es' if count > 1 else ''} del Concejo de Austin"
+        
+        html_en = self.build_email_html(meetings, lang='en')
+        html_es = self.build_email_html(meetings, lang='es')
 
         sent = 0
-        for sub in subscribers:
+        
+        # Send English emails
+        for sub in subscribers_en:
             email = sub.get('email')
-            if not email:
-                continue
+            if not email: continue
             try:
                 resend.Emails.send({
                     "from": f"{FROM_NAME} <{FROM_EMAIL}>",
                     "to": [email],
-                    "subject": subject,
-                    "html": html
+                    "subject": subject_en,
+                    "html": html_en
                 })
                 sent += 1
-                logging.info(f"  ✓ Sent → {email}")
+                logging.info(f"  ✓ Sent (EN) → {email}")
             except Exception as e:
-                logging.error(f"  ✗ Failed → {email}: {e}")
+                logging.error(f"  ✗ Failed (EN) → {email}: {e}")
+                
+        # Send Spanish emails
+        for sub in subscribers_es:
+            email = sub.get('email')
+            if not email: continue
+            try:
+                resend.Emails.send({
+                    "from": f"Monitor del Concejo <{FROM_EMAIL}>",
+                    "to": [email],
+                    "subject": subject_es,
+                    "html": html_es
+                })
+                sent += 1
+                logging.info(f"  ✓ Sent (ES) → {email}")
+            except Exception as e:
+                logging.error(f"  ✗ Failed (ES) → {email}: {e}")
 
         self.mark_as_notified([m['id'] for m in meetings])
 
-        logging.info(f"\n✅ EMAIL CYCLE COMPLETE: {sent}/{len(subscribers)} sent")
+        logging.info(f"\n✅ EMAIL CYCLE COMPLETE: {sent}/{total_subscribers} sent")
         return sent
 
 

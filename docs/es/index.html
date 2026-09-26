@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Automated AI-powered summaries of Austin City Council meetings">
-    <title>Austin City Council Meeting Monitor</title>
+    <meta name="description" content="Resúmenes automatizados con IA de las reuniones del Concejo Municipal de Austin">
+    <title>Monitor del Concejo Municipal de Austin</title>
     <link rel="alternate" hreflang="en" href="https://austincouncil.app/" />
     <link rel="alternate" hreflang="es" href="https://austincouncil.app/es/" />
     <link rel="alternate" hreflang="x-default" href="https://austincouncil.app/" />
@@ -208,8 +208,8 @@
 <body>
     <header>
         <div class="lang-switcher">
-            <a href="/" class="lang-btn active">EN</a>
-            <a href="/es/" class="lang-btn ">ES</a>
+            <a href="/" class="lang-btn ">EN</a>
+            <a href="/es/" class="lang-btn active">ES</a>
         </div>
         <div class="mobile-menu-container">
             <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
@@ -219,22 +219,22 @@
                 <span></span>
             </label>
             <nav class="mobile-menu-nav">
-                <a href="/">Home</a>
-                <a href="/archives/">Archives</a>
-                <a href="/about">About</a>
+                <a href="/es/">Inicio</a>
+                <a href="/archives/">Archivos</a>
+                <a href="/about">Acerca de</a>
             </nav>
         </div>
-        <h1>🏛️ Austin City Council Meeting Monitor</h1>
-        <p>Automated AI-powered summaries of Austin City Council meetings</p>
+        <h1>🏛️ Monitor del Concejo Municipal de Austin</h1>
+        <p>Resúmenes automatizados con IA de las reuniones del Concejo Municipal de Austin</p>
         <div class="subscribe-box">
-            <h2>📬 Never Miss a Meeting</h2>
-            <p>Get email updates when new meetings are posted</p>
+            <h2>📬 No Te Pierdas Ninguna Reunión</h2>
+            <p>Recibe actualizaciones por correo cuando se publiquen nuevas reuniones</p>
             <div class="subscribe-form">
-                <input type="email" id="sub-email" aria-label="Email address" placeholder="your@email.com" autocomplete="email">
-                <button id="sub-btn" onclick="subscribe()">Subscribe</button>
+                <input type="email" id="sub-email" aria-label="Email address" placeholder="tu@correo.com" autocomplete="email">
+                <button id="sub-btn" onclick="subscribe()">Suscribir</button>
             </div>
             <div class="subscribe-msg" id="sub-msg"></div>
-            <a href="feed.xml" class="btn-rss">📡 RSS Feed</a>
+            <a href="feed.xml" class="btn-rss">📡 Canal RSS</a>
         </div>
     </header>
 
@@ -242,26 +242,26 @@
         <div class="stats">
             <div class="stat">
                 <div class="stat-number">0</div>
-                <div class="stat-label">Upcoming</div>
+                <div class="stat-label">Próximas</div>
             </div>
             <div class="stat">
                 <a href="/archives/" style="text-decoration: none; display: block; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
                     <div class="stat-number">10,019</div>
-                    <div class="stat-label">Archived</div>
+                    <div class="stat-label">Archivadas</div>
                 </a>
             </div>
             <div class="stat">
                 <div class="stat-number">Sep 10, 2026</div>
-                <div class="stat-label">Last Meeting</div>
+                <div class="stat-label">Última Reunión</div>
             </div>
         </div>
 
         <div class="controls">
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">10</span></button>
-<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">4</span></button>
-<button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">2</span></button>
-<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">2</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">Todas <span class="badge">10</span></button>
+<button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Reunión Regular <span class="badge">4</span></button>
+<button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Sesión de Trabajo <span class="badge">2</span></button>
+<button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Corporación Financiera de Vivienda de Austin <span class="badge">2</span></button>
 <button class="filter-btn" data-filter="mlgc" onclick="filterMeetings('mlgc')">MLGC <span class="badge">2</span></button>
 
             </div>
@@ -269,17 +269,17 @@
 
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
-            <h2>📅 Upcoming Meetings</h2>
+            <h2>📅 Próximas Reuniones</h2>
             <span class="section-count">0</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
-            <div class="no-meetings-section"><p>No upcoming meetings scheduled. Check back soon.</p></div>
+            <div class="no-meetings-section"><p>No hay reuniones programadas próximamente.</p></div>
         </div>
 
         <!-- Recent Meetings -->
         <div class="section-header section-header--recent">
-            <h2>✅ Recent Meetings</h2>
+            <h2>✅ Reuniones Recientes</h2>
             <span class="section-count">10</span>
             <div class="section-divider"></div>
         </div>
@@ -292,7 +292,7 @@
                     <div class="meeting-day">Thursday</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="meeting-type">Reunión Regular</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         Completed
@@ -300,16 +300,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>What the Council Did</h3>
-                <div class="summary-content"><p>Housing Rules Tighten, Lake Drawdown Sparks Outcry</p>
-<p>Here's what Austin City leaders <strong>ACTUALLY DID</strong> at their meeting:</p>
-<ul>
-<li>  <strong>Affordable Housing Shift:</strong> Adopted an ordinance strengthening requirements for on-site affordable housing in certain Citywide Density Bonus projects, especially near transit, meaning fewer projects can opt to pay a fee instead of building affordable units.</li>
-<li>  <strong>Lake Austin Drawdown Protest:</strong> Heard significant public opposition from local business owners and residents regarding the planned October-December Lake Austin drawdown, citing major economic losses and urging a delay to winter months.</li>
-<li>  <strong>Workforce & Public Safety Funding:</strong> Committed an additional $2.55 million to extend the Austin Infrastructure Academy for local workforce training and renewed a $19.5 million contract for emergency medical services with Travis County.</li>
-<li>  <strong>Major Zoning Decisions Delayed:</strong> Postponed votes on several significant zoning requests, including a conditional use permit appeal for the Girls' School of Austin and large multi-family proposals in areas like Circle C and West 49th Street.</li>
-<li>  <strong>Community & Event Boosts:</strong> Approved early preparations for the 2027 South by Southwest festivals and established a new advisory board to support the Millennium Youth Entertainment Complex, a vital East Austin community hub.</li>
-</ul></div>
+                <h3>Lo que Hizo el Concejo</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260910-reg/" class="meeting-link meeting-link-secondary">
@@ -338,7 +330,7 @@
                     <div class="meeting-day">Tuesday</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Work Session</div>
+                    <div class="meeting-type">Sesión de Trabajo</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         Completed
@@ -346,13 +338,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>Meeting Highlights</h3>
-                <div class="summary-content"><p>Austin City Hall Session Off Today</p>
-<ul>
-<li>  The Austin City Work Session scheduled for Tuesday, September 8, 2026, has been cancelled.</li>
-<li>  No public hearings or policy decisions will take place as previously planned.</li>
-<li>  All agenda items for this session are null and void.</li>
-</ul></div>
+                <h3>Puntos Destacados</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260908-wrk/" class="meeting-link meeting-link-secondary">
@@ -375,7 +362,7 @@
                     <div class="meeting-day">Thursday</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="meeting-type">Reunión Regular</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         Completed
@@ -383,16 +370,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>What the Council Did</h3>
-                <div class="summary-content"><p>Wind Power, Homeless Aid, Library Protections</p>
-<p>Here's what happened at the Austin City Council meeting:</p>
-<ul>
-<li>  <strong>Major Funding & Renewable Energy Commitment:</strong> Authorized over $600 million in city funding tools for public improvements and refinancing. Also approved a 20-year extension for purchasing up to 60 megawatts of wind-generated electricity, a contract estimated at $200 million.</li>
-<li>  <strong>Boost for Homeless Services & Displacement Prevention:</strong> Extended contracts for operating major homeless shelters, adding $14.1 million to continue services. Also, directed the City Manager to evaluate and improve existing programs to prevent displacement and homelessness.</li>
-<li>  <strong>Library Access, Parkland, & Historic Preservation:</strong> Declared Austin a "Book Safe Harbor" to protect equitable access to library materials. Began the process to acquire 18.468 acres through eminent domain for the McKinney Mill Project, preserving a historic site and extending the Ann and Roy Butler hike and bike trail.</li>
-<li>  <strong>Key City Contracts & Development Initiatives:</strong> Approved significant agreements including $19.9 million for Austin tourism promotion and the Austin City Limits TV series, and multi-million dollar contracts with Travis County for animal services. Also initiated work on new regulations for data center development.</li>
-<li>  <strong>Public Safety & Zoning Updates:</strong> Authorized contracts for anti-vehicle barriers to boost pedestrian safety at downtown events. Approved several rezoning requests, including historic landmark designations for the Goins-Versea-Nitschke House and Bethany Cemetery. Two major rezoning items for South Capital of Texas Highway and Nuckols Crossing were postponed to future meetings.</li>
-</ul></div>
+                <h3>Lo que Hizo el Concejo</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260827-reg/" class="meeting-link meeting-link-secondary">
@@ -421,7 +400,7 @@
                     <div class="meeting-day">Tuesday</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Work Session</div>
+                    <div class="meeting-type">Sesión de Trabajo</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         Completed
@@ -429,16 +408,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>What the Council Did</h3>
-                <div class="summary-content"><p>Austin Tackles Data Center Sprawl, Human Rights</p>
-<ul>
-<li>  <strong>Council Initiates New Data Center Rules:</strong> The City Council officially launched a process to develop new regulations for large data centers. This includes creating specific definitions for different types of data centers and exploring dedicated zoning districts to manage their significant impact on Austin's energy, water, and quality of life.</li>
-<li>  <strong>Intent to Ban "Hyperscale" Facilities:</strong> Many Council members expressed their strong intent to eventually prohibit "hyperscale" (very large) data centers within Austin, while ensuring protections are in place for smaller, traditional data centers already operating in the city.</li>
-<li>  <strong>Freeze on New Data Center Applications Proposed:</strong> The Mayor announced plans to introduce a temporary "freeze" on new data center applications. This measure aims to prevent developers from exploiting current code loopholes while the city develops comprehensive, long-term regulations.</li>
-<li>  <strong>Concerns Over Current Code Gaps & Transparency:</strong> Discussions highlighted that Austin's current city code lacks specific regulations for large data centers. Council members also voiced concerns about the transparency of existing large commercial utility customers, citing a need for better reporting on potential data center projects to avoid future surprises.</li>
-<li>  <strong>Human Rights Framework Report Presented:</strong> Council was briefed on Austin's first Human Rights Framework Impact Review and Report, which identifies 92 human rights issues relevant to city residents.</li>
-<li>  <strong>Roadmap for City Action:</strong> The report proposes 69 actionable strategies (mitigations) across 12 key areas—including homelessness, immigration, public safety, and economic mobility—to improve dignity, accessibility, equity, and opportunity. This report will serve as a "menu of options" for future city initiatives, subject to feasibility checks.</li>
-</ul></div>
+                <h3>Lo que Hizo el Concejo</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260825-wrk/" class="meeting-link meeting-link-secondary">
@@ -465,7 +436,7 @@
                     <div class="meeting-day">Monday</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="meeting-type">Reunión Regular</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         Completed
@@ -473,14 +444,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>Meeting Highlights</h3>
-                <div class="summary-content"><p>Shaping Austin's Budget, Services, Rates & Parks</p>
-<ul>
-<li>  <strong>Finalizing City Budget & Utility Rates:</strong> Conduct public hearings and approve the Fiscal Year 2026-2027 budget, property tax rate, and proposed rate changes for Austin Water, Energy, Drainage, and Waste Collection.</li>
-<li>  <strong>Key Public Safety Reforms:</strong> Consider creating an independent emergency communications department, reviewing police performance, and exploring a public database for police misconduct complaints.</li>
-<li>  <strong>Housing & Economic Development:</strong> Authorize over $90 million for housing programs and propose amendments to support microbusinesses by reducing barriers and waiving city fees.</li>
-<li>  <strong>Park Enhancements & Events:</strong> Direct development of a security plan for city parks and facilities, alongside a study on special event fees and proposals for underutilized parks.</li>
-</ul></div>
+                <h3>Puntos Destacados</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260817-reg/" class="meeting-link meeting-link-secondary">
@@ -503,7 +468,7 @@
                     <div class="meeting-day">Monday</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Austin Housing Finance Corporation</div>
+                    <div class="meeting-type">Corporación Financiera de Vivienda de Austin</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         Completed
@@ -511,13 +476,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>Meeting Highlights</h3>
-                <div class="summary-content"><p>Austin Housing Future: Millions in Funding</p>
-<ul>
-<li>  Approve significant funding for housing programs, including a $41.9 million Grant Operating Budget and a $1.7 million Housing Assistance Fund Budget for Fiscal Year 2026-2027.</li>
-<li>  Invest in new housing development by authorizing a $48.5 million Capital Budget for Fiscal Year 2026-2027.</li>
-<li>  Solidify housing program management through a service agreement with the City of Austin, committing up to $90.5 million for various housing initiatives.</li>
-</ul></div>
+                <h3>Puntos Destacados</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260817-ahfc/" class="meeting-link meeting-link-secondary">
@@ -548,13 +508,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>Meeting Highlights</h3>
-                <div class="summary-content"><p>Mueller Budget Set for $4.4M Approval</p>
-<ul>
-<li>  A significant decision will be made on the operating budget for the Mueller Redevelopment Project for fiscal years 2026-2027.</li>
-<li>  The proposed budget allocates over $4.4 million to support the project's ongoing operations and development.</li>
-<li>  The Mueller Local Government Corporation will meet to approve this critical funding, alongside other routine administrative items.</li>
-</ul></div>
+                <h3>Puntos Destacados</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260817-mlgc/" class="meeting-link meeting-link-secondary">
@@ -577,7 +532,7 @@
                     <div class="meeting-day">Friday</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="meeting-type">Reunión Regular</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         Completed
@@ -585,14 +540,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>Meeting Highlights</h3>
-                <div class="summary-content"><p>Big Budget, Tax, & Utility Rate Decisions</p>
-<ul>
-<li>  <strong>Finalizing the City Budget:</strong> Approving the Fiscal Year 2026-2027 budget, including public hearings on the property tax rate and city-wide fees.</li>
-<li>  <strong>Utility Rate Changes:</strong> Public hearings and potential approval for proposed rate adjustments affecting Austin Water, Austin Energy, Austin Resource Recovery (trash), and Watershed Protection (drainage).</li>
-<li>  <strong>Housing & Public Safety Directives:</strong> Authorizing $90.5 million for housing programs, discussions on creating an independent Emergency Communications Department, reviewing police performance, and enhancing park safety.</li>
-<li>  <strong>Support for Microbusinesses:</strong> Exploring city code amendments to define and support microbusinesses by reducing barriers and potentially waiving fees.</li>
-</ul></div>
+                <h3>Puntos Destacados</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260814-reg/" class="meeting-link meeting-link-secondary">
@@ -615,7 +564,7 @@
                     <div class="meeting-day">Friday</div>
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Austin Housing Finance Corporation</div>
+                    <div class="meeting-type">Corporación Financiera de Vivienda de Austin</div>
                     <div class="status-badge status-badge--completed">
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         Completed
@@ -623,13 +572,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>Meeting Highlights</h3>
-                <div class="summary-content"><p>Funding Austin Housing & Assistance</p>
-<ul>
-<li>  Adopted a $42 million operating budget for housing grants and a $1.7 million fund for direct housing assistance for the next fiscal year.</li>
-<li>  Approved a $48.5 million capital budget dedicated to new housing projects and developments.</li>
-<li>  Authorized a service agreement for the Austin Housing Finance Corporation to manage over $90 million in city housing programs.</li>
-</ul></div>
+                <h3>Puntos Destacados</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260814-ahfc/" class="meeting-link meeting-link-secondary">
@@ -660,13 +604,8 @@
                 </div>
             </div>
             <div class="meeting-summary">
-                <h3>Meeting Highlights</h3>
-                <div class="summary-content"><p>Mueller Project Funding Decision</p>
-<ul>
-<li>  Approve the Fiscal Year 2026-2027 Operating Budget for the Mueller Redevelopment Project.</li>
-<li>  This budget allocates $4,420,465 for the ongoing operations and development of the Mueller project.</li>
-<li>  Review and approve the minutes from the Mueller Local Government Corporation Board's previous meeting in August 2025.</li>
-</ul></div>
+                <h3>Puntos Destacados</h3>
+                <div class="summary-content"></div>
             </div>
             <div class="meeting-links">
                 <a href="/archives/meeting/20260814-mlgc/" class="meeting-link meeting-link-secondary">
@@ -685,29 +624,29 @@
             
             <div style="text-align: center; margin-top: 32px; margin-bottom: 24px;">
                 <a href="/archives/" class="meeting-link meeting-link-primary" style="padding: 12px 24px; font-size: 1.05em; border-radius: 12px; display: inline-flex; align-items: center; gap: 8px;">
-                    📚 Search All Historical Archives
+                    📚 Buscar en Todos los Archivos Históricos
                 </a>
             </div>
         </div>
 
         <div class="no-results" id="no-results">
-            <h2>🔍 No matching meetings</h2>
-            <p>Try a different keyword or filter.</p>
+            <h2>🔍 No hay reuniones coincidentes</h2>
+            <p>Intenta con una palabra clave o filtro diferente.</p>
         </div>
     </main>
 
     <footer>
-        <p><strong>About This Site</strong></p>
-        <p>This site automatically monitors Austin City Council meetings and generates AI-powered summaries to help citizens stay informed.</p>
-        <p>Summaries are generated using Google Gemini AI. For official information, always refer to the <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">City of Austin website</a>.</p>
+        <p><strong>Acerca de Este Sitio</strong></p>
+        <p>Este sitio monitorea automáticamente las reuniones del Concejo Municipal de Austin y genera resúmenes con inteligencia artificial para ayudar a los ciudadanos a mantenerse informados.</p>
+        <p>Los resúmenes son generados usando Google Gemini AI. Para obtener información oficial, consulte siempre el <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">sitio web de la Ciudad de Austin</a>.</p>
         <p style="margin-top:12px">
-            <a href="/about">About &amp; Methodology</a> &nbsp;|&nbsp;
-            <a href="/about#journalists">For Journalists</a> &nbsp;|&nbsp;
-            <a href="/archives/">Archives</a> &nbsp;|&nbsp;
-            <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
+            <a href="/about">Acerca de y Metodología</a> &nbsp;|&nbsp;
+            <a href="/about#journalists">Para Periodistas</a> &nbsp;|&nbsp;
+            <a href="/archives/">Archivos</a> &nbsp;|&nbsp;
+            <a href="/feed.xml">Canal RSS</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: September 26, 2026 at 10:05 AM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Última actualización: September 26, 2026 at 10:05 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
@@ -782,28 +721,28 @@
             const btn = document.getElementById('sub-btn');
             const msg = document.getElementById('sub-msg');
             if (!email || !email.includes('@')) {
-                msg.textContent = 'Please enter a valid email address.';
+                msg.textContent = 'Por favor, introduce una dirección de correo válida.';
                 msg.className = 'subscribe-msg error';
                 return;
             }
             btn.disabled = true;
-            btn.textContent = 'Subscribing...';
+            btn.textContent = 'Suscribiendo...';
             msg.textContent = '';
             msg.className = 'subscribe-msg';
             try {
                 const res = await fetch('https://austin-meeting-monitor.vercel.app/subscribe', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({email: email, lang: 'en'})
+                    body: JSON.stringify({email: email, lang: 'es'})
                 });
                 const data = await res.json();
                 if (res.ok && data.success) {
-                    msg.textContent = "✓ You're subscribed!";
+                    msg.textContent = "✓ ¡Te has suscrito!";
                     msg.className = 'subscribe-msg success';
                     document.getElementById('sub-email').value = '';
-                    btn.textContent = 'Subscribed!';
+                    btn.textContent = '¡Suscrito!';
                 } else {
-                    throw new Error(data.error || 'Subscription failed');
+                    throw new Error(data.error || 'Suscripción fallida');
                 }
             } catch(e) {
                 msg.textContent = 'Something went wrong. Please try again.';

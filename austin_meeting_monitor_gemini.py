@@ -103,6 +103,8 @@ class AustinCouncilMonitor:
             ('post_meeting_summary', 'TEXT'),
             ('completed_processed_at', 'TEXT'),
             ('transcript_text', 'TEXT'),
+            ('gemini_summary_es', 'TEXT'),
+            ('post_meeting_summary_es', 'TEXT'),
         ]
         for col_name, col_type in migrations:
             if col_name not in existing_columns:
@@ -371,6 +373,33 @@ Agenda text:
 
         return summary
 
+    def translate_to_spanish(self, english_text):
+        """Translate the generated English summary into natural civic Spanish"""
+        if not self.gemini_model or not english_text:
+            return None
+            
+        try:
+            prompt = f"""You are a professional English-to-Spanish translator specializing in civic and governmental news. 
+Translate the following meeting summary into natural, easy-to-read Spanish for residents of Austin, Texas. 
+
+Guidelines:
+- Ensure civic terms are accurate to the local context (e.g., use "Concejo Municipal" para City Council, "Alcalde/Alcaldesa" para Mayor, "Ordenanza" para Ordinance).
+- Maintain the exact Markdown formatting, including bullet points, bold text, and headers.
+- Do not add any new information, commentary, or conversational filler.
+- Keep the tone objective and journalistic.
+
+Summary to translate:
+{english_text}"""
+
+            response = self.gemini_model.generate_content(prompt)
+            summary_es = response.text.strip()
+            logging.info(f"  ✓ Generated Spanish translation ({len(summary_es)} chars)")
+            return summary_es
+
+        except Exception as e:
+            logging.error(f"  ✗ Gemini Spanish translation error: {e}")
+            return None
+
     def process_new_meeting(self, meeting_data):
         """
         Complete workflow for a newly discovered meeting:
@@ -416,24 +445,27 @@ Agenda text:
         except ValueError:
             is_completed = 0
 
-        self.save_meeting(meeting_data, agenda_url, summary, is_completed)
+        summary_es = self.translate_to_spanish(summary) if summary else None
+
+        self.save_meeting(meeting_data, agenda_url, summary, summary_es, is_completed)
 
         return {
             **meeting_data,
             'agenda_url': agenda_url,
             'summary': summary,
+            'summary_es': summary_es,
             'is_completed': is_completed
         }
 
-    def save_meeting(self, meeting_data, agenda_url, summary, is_completed=0):
+    def save_meeting(self, meeting_data, agenda_url, summary, summary_es, is_completed=0):
         """Save meeting to database"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
 
         cursor.execute('''
             INSERT INTO meetings (meeting_id, date, meeting_type, meeting_url, agenda_url,
-                                  gemini_summary, created_at, is_completed)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                                  gemini_summary, gemini_summary_es, created_at, is_completed)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
             meeting_data['id'],
             meeting_data['date'],
@@ -441,6 +473,7 @@ Agenda text:
             meeting_data['url'],
             agenda_url,
             summary,
+            summary_es,
             datetime.now().isoformat(),
             is_completed
         ))
@@ -626,7 +659,8 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
         # Now fetch all completed meetings that haven't been fully post-processed
         cursor.execute('''
             SELECT meeting_id, date, meeting_type, meeting_url, agenda_url, gemini_summary,
-                   transcript_url, actions_url, video_url, transcript_text, post_meeting_summary
+                   transcript_url, actions_url, video_url, transcript_text, post_meeting_summary,
+                   gemini_summary_es, post_meeting_summary_es
             FROM meetings
             WHERE is_completed = 1
               AND (completed_processed_at IS NULL OR transcript_url IS NULL OR actions_url IS NULL OR video_url IS NULL)
@@ -641,7 +675,7 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
 
         processed = []
         for row in rows:
-            meeting_id, meeting_date, meeting_type, meeting_url, old_agenda_url, old_summary, db_transcript_url, db_actions_url, db_video_url, db_transcript_text, db_post_summary = row
+            meeting_id, meeting_date, meeting_type, meeting_url, old_agenda_url, old_summary, db_transcript_url, db_actions_url, db_video_url, db_transcript_text, db_post_summary, db_summary_es, db_post_summary_es = row
 
             logging.info(f"\n  📋 Post-processing: {meeting_date} {meeting_type} ({meeting_id})")
 
@@ -649,6 +683,7 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
             new_agenda_url = self.get_agenda_url(meeting_url)
             agenda_url = old_agenda_url
             summary = old_summary
+            summary_es = db_summary_es
 
             if new_agenda_url and new_agenda_url != old_agenda_url:
                 logging.info(f"  🔄 Found new/updated agenda URL: {new_agenda_url} (was: {old_agenda_url})")
@@ -664,13 +699,14 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                         new_summary = self.summarize_agenda(agenda_text)
                         if new_summary:
                             summary = new_summary
+                            summary_es = self.translate_to_spanish(summary) if summary else None
                             logging.info("  ✓ Successfully re-summarized updated agenda")
                 
                 conn = sqlite3.connect(self.db_path)
                 cursor = conn.cursor()
                 cursor.execute(
-                    'UPDATE meetings SET agenda_url = ?, gemini_summary = ? WHERE meeting_id = ?',
-                    (agenda_url, summary, meeting_id)
+                    'UPDATE meetings SET agenda_url = ?, gemini_summary = ?, gemini_summary_es = ? WHERE meeting_id = ?',
+                    (agenda_url, summary, summary_es, meeting_id)
                 )
                 conn.commit()
                 conn.close()
@@ -707,6 +743,7 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
             transcript_text = db_transcript_text
             actions_text = None
             post_summary = db_post_summary
+            post_summary_es = db_post_summary_es
 
             if needs_new_summary:
                 if post_data['transcript_url']:
@@ -735,6 +772,7 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                 )
                 if new_post_summary:
                     post_summary = new_post_summary
+                    post_summary_es = self.translate_to_spanish(post_summary) if post_summary else None
 
             # Only set completed_processed_at if we have everything or if 14 days have passed
             all_found = post_data['transcript_url'] and post_data['actions_url'] and post_data['video_url']
@@ -748,20 +786,24 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                     actions_url = ?,
                     video_url = ?,
                     post_meeting_summary = ?,
+                    post_meeting_summary_es = ?,
                     transcript_text = ?,
                     completed_processed_at = ?,
                     agenda_url = ?,
-                    gemini_summary = ?
+                    gemini_summary = ?,
+                    gemini_summary_es = ?
                 WHERE meeting_id = ?
             ''', (
                 post_data['transcript_url'] or db_transcript_url,
                 post_data['actions_url'] or db_actions_url,
                 post_data['video_url'] or db_video_url,
                 post_summary,
+                post_summary_es,
                 transcript_text,
                 completed_processed_at,
                 agenda_url,
                 summary,
+                summary_es,
                 meeting_id
             ))
             conn.commit()
