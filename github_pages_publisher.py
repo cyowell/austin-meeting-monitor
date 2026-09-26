@@ -694,8 +694,8 @@ class GitHubPagesPublisher:
             </label>
             <nav class="mobile-menu-nav">
                 <a href="/{'' if lang == 'en' else 'es/'}">{s['home']}</a>
-                <a href="/archives/">{s['archives']}</a>
-                <a href="/about">{s['about']}</a>
+                {f'<a href="/archives/">{s["archives"]}</a>' if lang == 'en' else ''}
+                <a href="/{'' if lang == 'en' else 'es/'}about">{s['about']}</a>
             </nav>
         </div>
         <h1>🏛️ {s['title']}</h1>
@@ -755,11 +755,11 @@ class GitHubPagesPublisher:
         <div id="recent-list">
             {recent_cards}
             
-            <div style="text-align: center; margin-top: 32px; margin-bottom: 24px;">
+            {f'''<div style="text-align: center; margin-top: 32px; margin-bottom: 24px;">
                 <a href="/archives/" class="meeting-link meeting-link-primary" style="padding: 12px 24px; font-size: 1.05em; border-radius: 12px; display: inline-flex; align-items: center; gap: 8px;">
                     📚 {s['search_archives']}
                 </a>
-            </div>
+            </div>''' if lang == 'en' else ''}
         </div>
 
         <div class="no-results" id="no-results">
@@ -773,9 +773,9 @@ class GitHubPagesPublisher:
         <p>{s['footer_desc']}</p>
         <p>{s['footer_gemini']}</p>
         <p style="margin-top:12px">
-            <a href="/about">{s['footer_meth']}</a> &nbsp;|&nbsp;
-            <a href="/about#journalists">{s['footer_journo']}</a> &nbsp;|&nbsp;
-            <a href="/archives/">{s['archives']}</a> &nbsp;|&nbsp;
+            <a href="/{'' if lang == 'en' else 'es/'}about">{s['footer_meth']}</a> &nbsp;|&nbsp;
+            <a href="/{'' if lang == 'en' else 'es/'}about#journalists">{s['footer_journo']}</a> &nbsp;|&nbsp;
+            {f'<a href="/archives/">{s["archives"]}</a> &nbsp;|&nbsp;' if lang == 'en' else ''}
             <a href="/feed.xml">{s['footer_rss']}</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">{s['footer_github']}</a>
         </p>

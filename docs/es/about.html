@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="How the Austin City Council Meeting Monitor works — methodology, data sources, AI limitations, and resources for journalists.">
-    <title>About & Methodology — Austin Council Monitor</title>
-    <link rel="alternate" hreflang="en" href="https://austincouncil.app/about" />
+    <meta name="description" content="Cómo funciona el Monitor del Concejo Municipal de Austin — metodología, fuentes de datos, limitaciones de la IA y recursos para periodistas.">
+    <title>Acerca de y Metodología — Monitor del Concejo de Austin</title>
+    <link rel="alternate" hreflang="es" href="https://austincouncil.app/about" />
     <link rel="alternate" hreflang="es" href="https://austincouncil.app/es/about" />
     <link rel="alternate" hreflang="x-default" href="https://austincouncil.app/about" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -82,8 +82,8 @@
 <body>
     <header style="position: relative;">
         <div class="lang-switcher">
-            <a href="/about" class="lang-btn active">EN</a>
-            <a href="/es/about" class="lang-btn ">ES</a>
+            <a href="/about" class="lang-btn ">EN</a>
+            <a href="/es/about" class="lang-btn active">ES</a>
         </div>
         <div class="mobile-menu-container">
             <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
@@ -93,21 +93,20 @@
                 <span></span>
             </label>
             <nav class="mobile-menu-nav">
-                <a href="/">Home</a>
-                <a href="/archives/">Archives</a>
-                <a href="/about">About</a>
+                <a href="/es/">Inicio</a>
+                <a href="/es/about">Acerca de</a>
             </nav>
         </div>
-        <div class="nav" style="visibility:hidden;margin-bottom:0;"><a href="/">← Back to Meeting Monitor</a></div>
-        <h1>🏛️ About & Methodology</h1>
-        <p>How the Austin City Council Meeting Monitor works, where the data comes from, and its limitations</p>
+        <div class="nav" style="visibility:hidden;margin-bottom:0;"><a href="/es/">← Volver al Monitor de Reuniones</a></div>
+        <h1>🏛️ Acerca de y Metodología</h1>
+        <p>Cómo funciona el Monitor del Concejo Municipal de Austin, de dónde provienen los datos y sus limitaciones</p>
     </header>
 
     <div class="container">
 
         <!-- How it works -->
         <div class="card">
-            <h2>⚙️ How It Works</h2>
+            <h2>⚙️ Cómo Funciona</h2>
             <p>The Austin City Council Meeting Monitor is an automated pipeline that runs twice daily and publishes plain-language summaries of Austin City Council meetings.</p>
             <div class="pipeline">
 austintexas.gov/council/meetings<br>
@@ -189,7 +188,7 @@ Save to database → Email subscribers → Publish site
             <h2>📚 The Historical Archives</h2>
             <p>In addition to real-time monitoring, this project hosts a searchable database of nearly 10,000 historical Austin City Council meetings spanning decades.</p>
             
-            <h3>The Digitization Process</h3>
+            <h3>El Proceso de Digitalización</h3>
             <p>Much of Austin's civic history was locked in scanned PDFs and hand-written documents. To make this accessible, historical archives of hand-written transcripts were converted to plain text using Generative AI. The process of converting these documents first involved testing and scoring eight different Large Language Models (LLMs) for accuracy, instruction adherence, consistency, and novel curation. These digitized documents and modern typed transcripts were then processed using AI to create plain-language summaries of historical civic decisions.</p>
             
             <h3>Public Access & Research</h3>
@@ -201,56 +200,56 @@ Save to database → Email subscribers → Publish site
         
         <!-- For Journalists -->
         <div class="card" id="journalists">
-            <h2>📰 For Journalists &amp; Researchers</h2>
-            <p>The Austin City Council Meeting Monitor is designed with journalists, civic technologists, and engaged citizens in mind. All underlying data is publicly accessible.</p>
+            <h2>📰 Para Periodistas e Investigadores</h2>
+            <p>El Monitor del Concejo Municipal de Austin está diseñado pensando en periodistas, tecnólogos cívicos y ciudadanos comprometidos. Todos los datos subyacentes son accesibles públicamente.</p>
 
-            <h3>Direct Data Access</h3>
+            <h3>Acceso Directo a los Datos</h3>
             <div class="journalist-links">
-                <a href="feed.xml" class="journalist-link jl-primary">📡 RSS Feed</a>
-                <a href="https://github.com/cyowell/austin-meeting-monitor" target="_blank" rel="noopener" class="journalist-link jl-secondary">⌨️ GitHub Repository</a>
-                <a href="https://github.com/cyowell/austin-meeting-monitor/raw/main/austin_meetings.db" class="journalist-link jl-secondary">🗄️ Download SQLite DB</a>
+                <a href="feed.xml" class="journalist-link jl-primary">📡 Canal RSS</a>
+                <a href="https://github.com/cyowell/austin-meeting-monitor" target="_blank" rel="noopener" class="journalist-link jl-secondary">⌨️ Repositorio de GitHub</a>
+                <a href="https://github.com/cyowell/austin-meeting-monitor/raw/main/austin_meetings.db" class="journalist-link jl-secondary">🗄️ Descargar BD SQLite</a>
             </div>
 
-            <h3>Database Schema</h3>
-            <p>The <code>austin_meetings.db</code> SQLite database is committed to the repository and updated with each pipeline run.</p>
+            <h3>Esquema de Base de Datos</h3>
+            <p>La base de datos SQLite <code>austin_meetings.db</code> está en el repositorio y se actualiza con cada ejecución.</p>
             <table>
-                <tr><th>Column</th><th>Type</th><th>Description</th></tr>
-                <tr><td>meeting_id</td><td>TEXT</td><td>Unique ID (e.g. 20260409-reg)</td></tr>
-                <tr><td>date</td><td>TEXT</td><td>Meeting date (YYYY-MM-DD)</td></tr>
-                <tr><td>meeting_type</td><td>TEXT</td><td>Human-readable meeting type</td></tr>
-                <tr><td>meeting_url</td><td>TEXT</td><td>Official city meeting page URL</td></tr>
-                <tr><td>agenda_url</td><td>TEXT</td><td>Agenda PDF URL (if available)</td></tr>
-                <tr><td>gemini_summary</td><td>TEXT</td><td>AI-generated summary</td></tr>
-                <tr><td>created_at</td><td>TEXT</td><td>Timestamp when first discovered</td></tr>
-                <tr><td>notified_at</td><td>TEXT</td><td>Timestamp when email alerts sent</td></tr>
+                <tr><th>Columna</th><th>Tipo</th><th>Descripción</th></tr>
+                <tr><td>meeting_id</td><td>TEXT</td><td>ID único (ej. 20260409-reg)</td></tr>
+                <tr><td>date</td><td>TEXT</td><td>Fecha de la reunión (YYYY-MM-DD)</td></tr>
+                <tr><td>meeting_type</td><td>TEXT</td><td>Tipo de reunión legible</td></tr>
+                <tr><td>meeting_url</td><td>TEXT</td><td>URL oficial de la página de la reunión</td></tr>
+                <tr><td>agenda_url</td><td>TEXT</td><td>URL del PDF de la Agenda (si existe)</td></tr>
+                <tr><td>gemini_summary</td><td>TEXT</td><td>Resumen generado por IA</td></tr>
+                <tr><td>created_at</td><td>TEXT</td><td>Marca de tiempo de cuando fue descubierto</td></tr>
+                <tr><td>notified_at</td><td>TEXT</td><td>Marca de tiempo del envío de alertas</td></tr>
             </table>
 
-            <h3>Update Cadence</h3>
-            <p>The pipeline runs at <strong>8:00 AM and 6:00 PM CT</strong> daily. The RSS feed and website are updated within each run. There is no manual editorial step — publication is fully automated.</p>
+            <h3>Cadencia de Actualización</h3>
+            <p>El sistema se ejecuta a las <strong>8:00 AM y 6:00 PM (Hora Central)</strong> diariamente. No hay paso editorial manual — la publicación es totalmente automática.</p>
 
-            <h3>Attribution</h3>
-            <p>If citing an AI-generated summary from this site, please use: <em>"Austin Council Monitor (austincouncil.app), summarized using Google Gemini AI."</em> Always link to the original official meeting page for reference.</p>
+            <h3>Atribución</h3>
+            <p>Si cita un resumen generado por IA de este sitio, por favor use: <em>"Monitor del Concejo de Austin (austincouncil.app), resumido usando Google Gemini AI."</em> Siempre enlace a la página oficial de la reunión como referencia.</p>
 
-            <h3>Contact</h3>
-            <p>Questions, corrections, or collaboration inquiries: <a href="https://github.com/cyowell/austin-meeting-monitor/issues" target="_blank" rel="noopener">open a GitHub issue</a>.</p>
+            <h3>Contacto</h3>
+            <p>Preguntas, correcciones o consultas de colaboración: <a href="https://github.com/cyowell/austin-meeting-monitor/issues" target="_blank" rel="noopener">abra un issue en GitHub</a>.</p>
         </div>
 
         <!-- About the project -->
         <div class="card">
-            <h2>💡 About This Project</h2>
-            <p>The Austin City Council Meeting Monitor web app is an open-source civic media project built by <a href="https://www.stedwards.edu/directory/literature-writing-and-rhetoric/curt-yowell" target="_blank" rel="noopener">Curt Yowell</a> to demonstrate how lightweight AI tooling can make local government more accessible. It is not affiliated with or endorsed by the City of Austin.</p>
-            <p>The historical archives, extracted transcripts, and AI-generated summaries were built by Curt Yowell and <a href="https://www.linkedin.com/in/nathan-beddome-96733741/" target="_blank" rel="noopener">Nathan Beddome</a>.</p>
-            <p>The full source code is available on <a href="https://github.com/cyowell/austin-meeting-monitor" target="_blank" rel="noopener">GitHub</a> under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. Contributions and adaptations for other cities are welcome.</p>
-            <p>Special thanks to the City of Austin and the <a href="https://library.austintexas.gov/ahc" target="_blank" rel="noopener">Austin History Center</a> for digitizing the historical record of council meetings and making the PDFs publicly accessible.</p>
+            <h2>💡 Acerca de Este Proyecto</h2>
+            <p>La aplicación web Monitor del Concejo Municipal de Austin es un proyecto de medios cívicos de código abierto creado por <a href="https://www.stedwards.edu/directory/literature-writing-and-rhetoric/curt-yowell" target="_blank" rel="noopener">Curt Yowell</a> para demostrar cómo la IA ligera puede hacer que el gobierno local sea más accesible. No está afiliado ni respaldado por la Ciudad de Austin.</p>
+            <p>Los archivos históricos, las transcripciones extraídas y los resúmenes generados por IA fueron creados por Curt Yowell y <a href="https://www.linkedin.com/in/nathan-beddome-96733741/" target="_blank" rel="noopener">Nathan Beddome</a>.</p>
+            <p>El código fuente completo está disponible en <a href="https://github.com/cyowell/austin-meeting-monitor" target="_blank" rel="noopener">GitHub</a> bajo la licencia Creative Commons (CC BY-NC-SA 4.0).</p>
+            <p>Un agradecimiento especial a la Ciudad de Austin y al <a href="https://library.austintexas.gov/ahc" target="_blank" rel="noopener">Austin History Center</a> por digitalizar el registro histórico de las reuniones y hacer los PDFs accesibles al público.</p>
             <p style="margin-top:16px;padding-top:16px;border-top:1px solid #f3f4f6;color:#6b7280;font-size:.88em">
-                For official City of Austin information, always refer to <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">austintexas.gov</a>.
+                Para información oficial de la Ciudad de Austin, consulte siempre <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">austintexas.gov</a>.
             </p>
         </div>
 
     </div>
 
     <footer>
-        <p><a href="/">← Back to Meeting Monitor</a> &nbsp;|&nbsp; <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a> &nbsp;|&nbsp; <a href="feed.xml">RSS Feed</a></p>
+        <p><a href="/es/">← Volver al Monitor de Reuniones</a> &nbsp;|&nbsp; <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a> &nbsp;|&nbsp; <a href="feed.xml">RSS Feed</a></p>
     </footer>
 </body>
 </html>
