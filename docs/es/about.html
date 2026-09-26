@@ -107,95 +107,95 @@
         <!-- How it works -->
         <div class="card">
             <h2>⚙️ Cómo Funciona</h2>
-            <p>The Austin City Council Meeting Monitor is an automated pipeline that runs twice daily and publishes plain-language summaries of Austin City Council meetings.</p>
+            <p>El Monitor del Concejo Municipal de Austin es un sistema automatizado que se ejecuta dos veces al día y publica resúmenes en lenguaje claro de las reuniones del Concejo Municipal de Austin.</p>
             <div class="pipeline">
 austintexas.gov/council/meetings<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br>
 &nbsp;&nbsp;&nbsp;&nbsp;▼<br>
-Scrape meeting links (pattern: /YYYYMMDD-type)<br>
+Extraer enlaces de reuniones (patrón: /YYYYMMDD-tipo)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br>
 &nbsp;&nbsp;&nbsp;&nbsp;▼<br>
-Download agenda PDF → Extract text<br>
+Descargar agenda PDF → Extraer texto<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br>
 &nbsp;&nbsp;&nbsp;&nbsp;▼<br>
-Google Gemini AI → Generate 3–5 bullet agenda summary<br>
+Google Gemini AI → Generar resumen de agenda (3-5 puntos)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br>
 &nbsp;&nbsp;&nbsp;&nbsp;▼<br>
-<strong>14-Day Post-Meeting Watch</strong><br>
-Poll for official transcript → Extract text → Generate outcome summary<br>
+<strong>Monitoreo de 14 Días Post-Reunión</strong><br>
+Consultar transcripción oficial → Extraer texto → Generar resumen de resultados<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br>
 &nbsp;&nbsp;&nbsp;&nbsp;▼<br>
-Save to database → Email subscribers → Publish site
+Guardar en base de datos → Enviar correo a suscriptores → Publicar sitio web
             </div>
-            <h3>Update Schedule</h3>
-            <p>The pipeline runs automatically at <strong>8:00 AM</strong> and <strong>6:00 PM Central Time</strong> daily via GitHub Actions. New meetings are typically published within minutes of being posted to the city website.</p>
+            <h3>Horario de Actualización</h3>
+            <p>El sistema se ejecuta automáticamente a las <strong>8:00 AM</strong> y <strong>6:00 PM Hora Central</strong> diariamente a través de GitHub Actions. Las nuevas reuniones se publican típicamente minutos después de ser publicadas en el sitio web de la ciudad.</p>
         </div>
 
         <!-- Data sources -->
         <div class="card">
-            <h2>📡 Data Sources</h2>
-            <h3>Primary Source</h3>
-            <p>All meeting data originates from the <a href="https://www.austintexas.gov/council/meetings" target="_blank" rel="noopener">City of Austin Meeting Info Center</a>, the official public record maintained by the City of Austin. No data is altered, inferred, or supplemented from other sources.</p>
-            <h3>What Is Captured</h3>
+            <h2>📡 Fuentes de Datos</h2>
+            <h3>Fuente Principal</h3>
+            <p>Todos los datos de las reuniones provienen del <a href="https://www.austintexas.gov/council/meetings" target="_blank" rel="noopener">Centro de Información de Reuniones de la Ciudad de Austin</a>, el registro público oficial mantenido por la Ciudad de Austin. Ningún dato es alterado, inferido o complementado con otras fuentes.</p>
+            <h3>Qué se Captura</h3>
             <table>
-                <tr><th>Field</th><th>Description</th></tr>
-                <tr><td>Meeting date</td><td>Parsed from the meeting URL (YYYYMMDD format)</td></tr>
-                <tr><td>Meeting type</td><td>Regular, Work Session, Committee, etc.</td></tr>
-                <tr><td>Meeting URL</td><td>Direct link to the official city meeting page</td></tr>
-                <tr><td>Agenda PDF</td><td>Downloaded temporarily for text extraction, then deleted</td></tr>
-                <tr><td>AI summary</td><td>Generated from agenda text; not stored with original PDF</td></tr>
+                <tr><th>Campo</th><th>Descripción</th></tr>
+                <tr><td>Fecha de reunión</td><td>Extraída de la URL de la reunión (formato YYYYMMDD)</td></tr>
+                <tr><td>Tipo de reunión</td><td>Regular, Sesión de Trabajo, Comité, etc.</td></tr>
+                <tr><td>URL de reunión</td><td>Enlace directo a la página oficial de la reunión</td></tr>
+                <tr><td>Agenda PDF</td><td>Descargada temporalmente para extracción de texto, luego eliminada</td></tr>
+                <tr><td>Resumen por IA</td><td>Generado del texto de la agenda; no se guarda con el PDF original</td></tr>
             </table>
-            <h3>Meeting Types Monitored</h3>
+            <h3>Tipos de Reuniones Monitoreadas</h3>
             <p>
-                <span class="tag">Regular Meeting</span>
-                <span class="tag">Work Session</span>
-                <span class="tag">Special Called Meeting</span>
-                <span class="tag">Austin Housing Finance Corp</span>
-                <span class="tag">Audit &amp; Finance Committee</span>
-                <span class="tag">Mobility Committee</span>
-                <span class="tag">Public Health Committee</span>
-                <span class="tag">Housing &amp; Planning Committee</span>
-                <span class="tag">Climate, Water, Energy &amp; Public Enterprises</span>
-                <span class="tag">Public Safety Committee</span>
-                <span class="tag">Economic Opportunity Committee</span>
+                <span class="tag">Reunión Regular</span>
+                <span class="tag">Sesión de Trabajo</span>
+                <span class="tag">Reunión Especial Convocada</span>
+                <span class="tag">Corp de Finanzas de Vivienda de Austin</span>
+                <span class="tag">Comité de Auditoría y Finanzas</span>
+                <span class="tag">Comité de Movilidad</span>
+                <span class="tag">Comité de Salud Pública</span>
+                <span class="tag">Comité de Vivienda y Planificación</span>
+                <span class="tag">Clima, Agua, Energía y Empresas Públicas</span>
+                <span class="tag">Comité de Seguridad Pública</span>
+                <span class="tag">Comité de Oportunidad Económica</span>
             </p>
         </div>
 
         <!-- AI methodology -->
         <div class="card">
-            <h2>🤖 AI Summarization</h2>
-            <h3>Model</h3>
-            <p>Summaries are generated using <strong>Google Gemini 2.5 Flash</strong>, a large language model optimized for speed and factual accuracy on structured document content.</p>
-            <h3>Prompt</h3>
-            <p>Each agenda is summarized with the following instruction:</p>
+            <h2>🤖 Sumarización por IA</h2>
+            <h3>Modelo</h3>
+            <p>Los resúmenes se generan utilizando <strong>Google Gemini 2.5 Flash</strong>, un modelo de lenguaje grande optimizado para velocidad y precisión de los hechos en contenido de documentos estructurados.</p>
+            <h3>Instrucción (Prompt)</h3>
+            <p>Cada agenda se resume con la siguiente instrucción:</p>
             <div class="pipeline" style="font-family:inherit;font-style:italic;color:#4b5563">
-                "Summarize this Austin City Council agenda in 3–5 bullet points. Focus on the most important items, public hearings, and policy decisions. Keep it concise and accessible to the general public."
+                "Resume esta agenda del Concejo Municipal de Austin en 3–5 puntos. Concéntrate en los temas más importantes, audiencias públicas y decisiones políticas. Mantenlo conciso y accesible para el público en general."
             </div>
-            <h3>⚠️ Limitations</h3>
+            <h3>⚠️ Limitaciones</h3>
             <div class="warning-box">
-                <p><strong>AI summaries are not a substitute for official records.</strong> They are intended as a first-pass orientation tool, not a definitive account of meeting content.</p>
+                <p><strong>Los resúmenes por IA no reemplazan a los registros oficiales.</strong> Están destinados a ser una herramienta de orientación inicial, no un relato definitivo del contenido de la reunión.</p>
             </div>
             <ul>
-                <li><strong>May miss nuance:</strong> Complex policy items, amendments, and procedural votes may be oversimplified or omitted</li>
-                <li><strong>Not legally authoritative:</strong> For official minutes and records, always consult <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">austintexas.gov</a></li>
-                <li><strong>Agenda ≠ outcome:</strong> Upcoming meeting summaries reflect what was <em>scheduled</em> for discussion. Only archived meetings containing official transcripts reflect actual outcomes and votes.</li>
-                <li><strong>PDF quality dependent:</strong> Poorly formatted or scanned PDFs may produce incomplete summaries</li>
+                <li><strong>Puede perder matices:</strong> Temas políticos complejos, enmiendas y votos de procedimiento pueden ser simplificados en exceso u omitidos</li>
+                <li><strong>No tiene autoridad legal:</strong> Para actas y registros oficiales, consulte siempre <a href="https://www.austintexas.gov/department/city-council" target="_blank" rel="noopener">austintexas.gov</a></li>
+                <li><strong>Agenda ≠ resultado:</strong> Los resúmenes de próximas reuniones reflejan lo que estaba <em>programado</em> para discusión. Solo las reuniones archivadas con transcripciones oficiales reflejan los resultados y votos reales.</li>
+                <li><strong>Dependiente de la calidad del PDF:</strong> PDFs mal formateados o escaneados pueden producir resúmenes incompletos</li>
             </ul>
         </div>
 
         <!-- Historical Archives -->
         <div class="card">
-            <h2>📚 The Historical Archives</h2>
-            <p>In addition to real-time monitoring, this project hosts a searchable database of nearly 10,000 historical Austin City Council meetings spanning decades.</p>
+            <h2>📚 Los Archivos Históricos</h2>
+            <p>Además del monitoreo en tiempo real, este proyecto aloja una base de datos de búsqueda de casi 10,000 reuniones históricas del Concejo Municipal de Austin que abarcan décadas.</p>
             
             <h3>El Proceso de Digitalización</h3>
-            <p>Much of Austin's civic history was locked in scanned PDFs and hand-written documents. To make this accessible, historical archives of hand-written transcripts were converted to plain text using Generative AI. The process of converting these documents first involved testing and scoring eight different Large Language Models (LLMs) for accuracy, instruction adherence, consistency, and novel curation. These digitized documents and modern typed transcripts were then processed using AI to create plain-language summaries of historical civic decisions.</p>
+            <p>Gran parte de la historia cívica de Austin estaba bloqueada en PDFs escaneados y documentos escritos a mano. Para hacer esto accesible, los archivos históricos de transcripciones escritas a mano se convirtieron a texto sin formato utilizando IA Generativa. El proceso de conversión de estos documentos involucró probar y calificar ocho diferentes Modelos de Lenguaje Grande (LLMs) en cuanto a precisión, cumplimiento de instrucciones, consistencia y curación novedosa. Estos documentos digitalizados y las transcripciones modernas mecanografiadas se procesaron luego usando IA para crear resúmenes en lenguaje claro de decisiones cívicas históricas.</p>
             
-            <h3>Public Access & Research</h3>
-            <p>The entire historical archive is fully indexed, searchable, and freely available for research, civic journalism and engagement, and nonprofit use at <a href="/archives/">austincouncil.app/archives</a>.</p>
+            <h3>Acceso Público e Investigación</h3>
+            <p>Todo el archivo histórico está completamente indexado, es buscable y está disponible gratuitamente para investigación, periodismo cívico, participación cívica y uso sin fines de lucro en <a href="/archives/">austincouncil.app/archives</a>.</p>
             
-            <h3>Archive Attribution</h3>
-            <p>Curt Yowell and Nathan Beddome curated and summarized the historical archive. Visit <a href="https://steeped.ai/use-cases/historical-council-meeting-search" target="_blank" rel="noopener">Steeped AI</a> to learn more about how thousands of image-based PDF scans were turned into a searchable database of Austin's civic history.</p>
+            <h3>Atribución del Archivo</h3>
+            <p>Curt Yowell y Nathan Beddome seleccionaron y resumieron el archivo histórico. Visite <a href="https://steeped.ai/use-cases/historical-council-meeting-search" target="_blank" rel="noopener">Steeped AI</a> para aprender más sobre cómo miles de escaneos PDF basados en imágenes se convirtieron en una base de datos buscable de la historia cívica de Austin.</p>
         </div>
         
         <!-- For Journalists -->
@@ -249,7 +249,7 @@ Save to database → Email subscribers → Publish site
     </div>
 
     <footer>
-        <p><a href="/es/">← Volver al Monitor de Reuniones</a> &nbsp;|&nbsp; <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a> &nbsp;|&nbsp; <a href="feed.xml">RSS Feed</a></p>
+        <p><a href="/es/">← Volver al Monitor de Reuniones</a> &nbsp;|&nbsp; <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a> &nbsp;|&nbsp; <a href="feed.xml">Canal RSS</a></p>
     </footer>
 </body>
 </html>
