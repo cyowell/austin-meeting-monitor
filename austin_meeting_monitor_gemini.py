@@ -912,6 +912,12 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                     (summary, agenda_url, meeting_id)
                 )
                 conn.commit()
+                
+                # Also generate Spanish summary
+                summary_es = self.translate_to_spanish(summary)
+                if summary_es:
+                    cursor.execute('UPDATE meetings SET gemini_summary_es = ? WHERE meeting_id = ?', (summary_es, meeting_id))
+                    conn.commit()
                 conn.close()
                 logging.info(f"      ✓ Summary filled in for {meeting_id}")
                 retried.append(meeting_id)
@@ -919,6 +925,35 @@ Meeting: {meeting_data.get('meeting_type', 'Austin City Council Meeting')} — {
                 logging.warning(f"      ⚠️  Still unable to summarize {meeting_id} — will try again next run")
 
             time.sleep(2)
+
+        # ── Step 1c: Translate any existing English summaries missing Spanish ─────
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute('''
+            SELECT meeting_id, gemini_summary 
+            FROM meetings 
+            WHERE gemini_summary IS NOT NULL 
+              AND gemini_summary_es IS NULL
+        ''')
+        es_rows = cursor.fetchall()
+        
+        if es_rows:
+            logging.info(f"\\n  🇪🇸 Translating {len(es_rows)} missing Spanish summaries...")
+            for row in es_rows:
+                meeting_id, gemini_summary = row
+                # Avoid rate limiting by not doing all 40+ at once, limit to 5 per run
+                if len(retried) >= 5:
+                    logging.info("  ⏳ Reached batch limit for Spanish translations. Will continue next run.")
+                    break
+                    
+                summary_es = self.translate_to_spanish(gemini_summary)
+                if summary_es:
+                    cursor.execute('UPDATE meetings SET gemini_summary_es = ? WHERE meeting_id = ?', (summary_es, meeting_id))
+                    conn.commit()
+                    retried.append(meeting_id)
+                    logging.info(f"      ✓ Translated {meeting_id} to Spanish")
+                    time.sleep(2)
+        conn.close()
 
         return retried
 
