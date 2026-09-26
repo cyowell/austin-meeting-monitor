@@ -204,6 +204,7 @@ class AustinCouncilMonitor:
             soup = BeautifulSoup(response.text, 'html.parser')
 
             new_meetings = []
+            seen_ids = set()
 
             # Find all meeting links (pattern: /YYYYMMDD-type with or without .htm)
             for link in soup.find_all('a', href=True):
@@ -212,7 +213,8 @@ class AustinCouncilMonitor:
                 if re.search(r'/\d{8}-[a-z]+(?:\.htm)?', href):
                     meeting_id = self.extract_meeting_id(href)
 
-                    if meeting_id and not self.meeting_exists(meeting_id):
+                    if meeting_id and meeting_id not in seen_ids and not self.meeting_exists(meeting_id):
+                        seen_ids.add(meeting_id)
                         full_url = urljoin(info_center_url, href)
                         if not full_url.startswith('http'):
                             full_url = 'https://www.austintexas.gov' + href
@@ -463,7 +465,7 @@ Summary to translate:
         cursor = conn.cursor()
 
         cursor.execute('''
-            INSERT INTO meetings (meeting_id, date, meeting_type, meeting_url, agenda_url,
+            INSERT OR IGNORE INTO meetings (meeting_id, date, meeting_type, meeting_url, agenda_url,
                                   gemini_summary, gemini_summary_es, created_at, is_completed)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
