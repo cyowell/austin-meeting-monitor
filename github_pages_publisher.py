@@ -416,6 +416,9 @@ class GitHubPagesPublisher:
         """Generate main index.html page with Upcoming and Recent sections"""
         today_str = date.today().isoformat()
         s = STRINGS[lang]
+        
+        if lang == 'es':
+            meetings = [m for m in meetings if m['date'] > '2026-09-10']
 
         upcoming = [m for m in meetings if not m['is_completed']]
         recent   = [m for m in meetings if m['is_completed']]
