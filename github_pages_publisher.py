@@ -708,7 +708,7 @@ class GitHubPagesPublisher:
                 <button id="sub-btn" onclick="subscribe()">{s['subscribe']}</button>
             </div>
             <div class="subscribe-msg" id="sub-msg"></div>
-            <a href="feed.xml" class="btn-rss">📡 {s['rss_feed']}</a>
+            <a href="/{'es/' if lang == 'es' else ''}feed.xml" class="btn-rss">📡 {s['rss_feed']}</a>
         </div>
     </header>
 
@@ -772,7 +772,7 @@ class GitHubPagesPublisher:
             <a href="/{'' if lang == 'en' else 'es/'}about">{s['footer_meth']}</a> &nbsp;|&nbsp;
             <a href="/{'' if lang == 'en' else 'es/'}about#journalists">{s['footer_journo']}</a> &nbsp;|&nbsp;
             {('<a href="/archives/">' + s["archives"] + '</a> &nbsp;|&nbsp;') if lang == 'en' else ''}
-            <a href="/feed.xml">{s['footer_rss']}</a> &nbsp;|&nbsp;
+            <a href="/{'es/' if lang == 'es' else ''}feed.xml">{s['footer_rss']}</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">{s['footer_github']}</a>
         </p>
         <p style="margin-top:8px;color:#9ca3af;font-size:.82em">{s['last_updated']}: {updated}</p>
@@ -936,7 +936,7 @@ class GitHubPagesPublisher:
 </body>
 </html>'''
 
-    def generate_rss_feed(self, meetings, site_url='https://austincouncil.app'):
+    def generate_rss_feed(self, meetings, site_url='https://austincouncil.app', lang='en'):
         """Generate RSS 2.0 feed"""
         latest_date = datetime.now()
         if meetings:
@@ -944,37 +944,54 @@ class GitHubPagesPublisher:
                 latest_date = datetime.strptime(meetings[0]['created_at'], '%Y-%m-%d %H:%M:%S')
             except Exception:
                 pass
+                
+        is_es = (lang == 'es')
+        feed_title = 'Monitor del Concejo de Austin' if is_es else 'Austin City Council Meeting Monitor'
+        feed_desc = 'Resúmenes automáticos por IA de las reuniones del Concejo de Austin' if is_es else 'Automated AI-powered summaries of Austin City Council meetings'
+        feed_lang = 'es' if is_es else 'en-us'
+        feed_path = 'es/feed.xml' if is_es else 'feed.xml'
 
         rss = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Austin City Council Meeting Monitor</title>
-        <link>{site_url}</link>
-        <description>Automated AI-powered summaries of Austin City Council meetings</description>
-        <language>en-us</language>
+        <title>{feed_title}</title>
+        <link>{site_url}{'/es/' if is_es else '/'}</link>
+        <description>{feed_desc}</description>
+        <language>{feed_lang}</language>
         <lastBuildDate>{latest_date.strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>
-        <atom:link href="{site_url}/feed.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="{site_url}/{feed_path}" rel="self" type="application/rss+xml"/>
         <generator>Austin Meeting Monitor v4.0</generator>
 '''
         for meeting in meetings[:50]:
             di = self.format_date(meeting['date'])
-            status = '✅ Completed' if meeting['is_completed'] else '📅 Upcoming'
-            title = f"[{status}] Austin {meeting['meeting_type']}: {di['full']}"
+            status_text = ('✅ Completado' if is_es else '✅ Completed') if meeting['is_completed'] else ('📅 Próximo' if is_es else '📅 Upcoming')
+            title = f"[{status_text}] Austin {meeting['meeting_type']}: {di['full']}"
 
-            # Prefer post-meeting summary for completed meetings
-            summary_text = (
-                meeting.get('post_meeting_summary') or meeting.get('summary', 'Meeting summary will be available soon.')
-            )
+            if is_es:
+                summary_text = meeting.get('post_meeting_summary_es') or meeting.get('gemini_summary_es') or 'El resumen de la reunión estará disponible pronto.'
+                watch_text = '▶ Ver Video de esta Reunión'
+                actions_text = '📋 Acciones Tomadas por el Concejo'
+                transcript_text = '📄 Transcripción (PDF)'
+                agenda_text = 'Descargar Agenda (PDF)'
+                details_text = 'Ver Detalles de la Reunión'
+            else:
+                summary_text = meeting.get('post_meeting_summary') or meeting.get('gemini_summary') or 'Meeting summary will be available soon.'
+                watch_text = '▶ Watch Video of this Meeting'
+                actions_text = '📋 Actions Taken By Council'
+                transcript_text = '📄 Closed Caption Transcript (PDF)'
+                agenda_text = 'Download Meeting Agenda (PDF)'
+                details_text = 'View Full Meeting Details'
+
             description = f'<p>{summary_text}</p>'
             if meeting.get('video_url'):
-                description += f'<p><a href="{meeting["video_url"]}">▶ Watch Video of this Meeting</a></p>'
+                description += f'<p><a href="{meeting["video_url"]}">{watch_text}</a></p>'
             if meeting.get('actions_url'):
-                description += f'<p><a href="{meeting["actions_url"]}">📋 Actions Taken By Council</a></p>'
+                description += f'<p><a href="{meeting["actions_url"]}">{actions_text}</a></p>'
             if meeting.get('transcript_url'):
-                description += f'<p><a href="{meeting["transcript_url"]}">📄 Closed Caption Transcript (PDF)</a></p>'
+                description += f'<p><a href="{meeting["transcript_url"]}">{transcript_text}</a></p>'
             if meeting.get('agenda_url'):
-                description += f'<p><a href="{meeting["agenda_url"]}">Download Meeting Agenda (PDF)</a></p>'
-            description += f'<p><a href="{meeting["url"]}">View Full Meeting Details</a></p>'
+                description += f'<p><a href="{meeting["agenda_url"]}">{agenda_text}</a></p>'
+            description += f'<p><a href="{meeting["url"]}">{details_text}</a></p>'
 
             try:
                 pub_date = datetime.strptime(meeting['created_at'], '%Y-%m-%d %H:%M:%S')
@@ -1017,11 +1034,17 @@ class GitHubPagesPublisher:
             f.write(html_content_es)
         logging.info(f"  ✅ Generated {html_path_es}")
 
-        rss_content = self.generate_rss_feed(meetings, site_url)
+        rss_content = self.generate_rss_feed(meetings, site_url, lang='en')
         rss_path = self.output_dir / 'feed.xml'
         with open(rss_path, 'w', encoding='utf-8') as f:
             f.write(rss_content)
         logging.info(f"  ✅ Generated {rss_path}")
+
+        rss_content_es = self.generate_rss_feed(meetings, site_url, lang='es')
+        rss_path_es = self.output_dir / 'es' / 'feed.xml'
+        with open(rss_path_es, 'w', encoding='utf-8') as f:
+            f.write(rss_content_es)
+        logging.info(f"  ✅ Generated {rss_path_es}")
 
         nojekyll_path = self.output_dir / '.nojekyll'
         nojekyll_path.touch()
@@ -1029,6 +1052,7 @@ class GitHubPagesPublisher:
         logging.info("✅ GitHub Pages site generated successfully!")
         logging.info(f"  🌐 {site_url}")
         logging.info(f"  📡 {site_url}/feed.xml")
+        logging.info(f"  📡 {site_url}/es/feed.xml")
         return True
 
 
