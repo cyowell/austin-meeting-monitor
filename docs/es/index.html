@@ -242,17 +242,17 @@
     <main class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">3</div>
+                <div class="stat-number">2</div>
                 <div class="stat-label">Próximas</div>
             </div>
             <div class="stat">
                 <a href="/archives/" style="text-decoration: none; display: block; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                    <div class="stat-number">10,020</div>
+                    <div class="stat-number">10,021</div>
                     <div class="stat-label">Archivadas</div>
                 </a>
             </div>
             <div class="stat">
-                <div class="stat-number">Sep 24, 2026</div>
+                <div class="stat-number">Oct 06, 2026</div>
                 <div class="stat-label">Última Reunión</div>
             </div>
         </div>
@@ -260,8 +260,8 @@
         <div class="controls">
             <div class="filter-row" id="filter-row">
                 <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">Todas <span class="badge">5</span></button>
-<button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Sesión de Trabajo <span class="badge">2</span></button>
 <button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Reunión Regular <span class="badge">2</span></button>
+<button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Sesión de Trabajo <span class="badge">2</span></button>
 <button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Corporación Financiera de Vivienda de Austin <span class="badge">1</span></button>
 
             </div>
@@ -270,48 +270,11 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Próximas Reuniones</h2>
-            <span class="section-count">3</span>
+            <span class="section-count">2</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
             
-        <div class="meeting-card meeting-card--upcoming" data-type="work-session">
-            <div class="meeting-header">
-                <div>
-                    <div class="meeting-date">October 06, 2026</div>
-                    <div class="meeting-day">Tuesday</div>
-                </div>
-                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Sesión de Trabajo</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Próxima
-                    </div>
-                </div>
-            </div>
-            
-                <div class="meeting-summary">
-                    <h3>Vista Previa de la Agenda</h3>
-                    <div class="summary-content"><p><strong>Austin: Respuesta a Crisis, Vivienda, Desafío Legal de TIRZ</strong></p>
-<ul>
-<li>  Se debatió sobre una nueva estrategia para reducir la falta de vivienda, los arrestos y las visitas a la sala de emergencias para residentes con alto nivel de utilización de servicios.</li>
-<li>  Presentación sobre la iniciativa "No Wrong Door", que conecta a personas vulnerables con vivienda de apoyo permanente, atención médica y tratamiento por uso de sustancias.</li>
-<li>  Consulta legal sobre las impugnaciones en curso a la "Zona de Reinversión de Incremento Fiscal "Cabeza de Perro" No. 21".</li>
-</ul></div>
-                </div>
-            <div class="meeting-links">
-                <a href="https://www.austintexas.gov/council/2026/20261006-wrk" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Detalles de la Reunión (en inglés)</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=482159" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Descargar Agenda (en inglés)</a>
-                <span class="meeting-links-spacer"></span>
-                <button class="btn-share-card" onclick="openShareModal('October 06, 2026','Work Session','https://austincouncil.app')" title="Compartir this meeting">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Compartir</button>
-            </div>
-        </div>
         <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
             <div class="meeting-header">
                 <div>
@@ -392,11 +355,48 @@
         <!-- Recent Meetings -->
         <div class="section-header section-header--recent">
             <h2>✅ Reuniones Recientes</h2>
-            <span class="section-count">2</span>
+            <span class="section-count">3</span>
             <div class="section-divider"></div>
         </div>
         <div id="recent-list">
             
+        <div class="meeting-card meeting-card--recent" data-type="work-session">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">October 06, 2026</div>
+                    <div class="meeting-day">Tuesday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Sesión de Trabajo</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completada
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>Puntos Destacados</h3>
+                <div class="summary-content"><p><strong>Austin: Respuesta a Crisis, Vivienda, Desafío Legal de TIRZ</strong></p>
+<ul>
+<li>  Se debatió sobre una nueva estrategia para reducir la falta de vivienda, los arrestos y las visitas a la sala de emergencias para residentes con alto nivel de utilización de servicios.</li>
+<li>  Presentación sobre la iniciativa "No Wrong Door", que conecta a personas vulnerables con vivienda de apoyo permanente, atención médica y tratamiento por uso de sustancias.</li>
+<li>  Consulta legal sobre las impugnaciones en curso a la "Zona de Reinversión de Incremento Fiscal "Cabeza de Perro" No. 21".</li>
+</ul></div>
+            </div>
+            <div class="meeting-links">
+                <a href="/archives/meeting/20261006-wrk/" class="meeting-link meeting-link-secondary">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Detalles de la Reunión (en inglés)</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=482159" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda (en inglés)</a>
+                
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('October 06, 2026','Work Session','https://austincouncil.app')" title="Compartir this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Compartir</button>
+            </div>
+        </div>
         <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
             <div class="meeting-header">
                 <div>
@@ -508,7 +508,7 @@
             <a href="/es/feed.xml">Canal RSS</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Última actualización: October 06, 2026 at 07:17 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Última actualización: October 07, 2026 at 03:47 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
