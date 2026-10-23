@@ -242,17 +242,17 @@
     <main class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">2</div>
+                <div class="stat-number">0</div>
                 <div class="stat-label">Próximas</div>
             </div>
             <div class="stat">
                 <a href="/archives/" style="text-decoration: none; display: block; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                    <div class="stat-number">10,023</div>
+                    <div class="stat-number">10,024</div>
                     <div class="stat-label">Archivadas</div>
                 </a>
             </div>
             <div class="stat">
-                <div class="stat-number">Oct 20, 2026</div>
+                <div class="stat-number">Oct 22, 2026</div>
                 <div class="stat-label">Última Reunión</div>
             </div>
         </div>
@@ -270,12 +270,22 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Próximas Reuniones</h2>
-            <span class="section-count">2</span>
+            <span class="section-count">0</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
+            <div class="no-meetings-section"><p>No hay reuniones programadas próximamente.</p></div>
+        </div>
+
+        <!-- Recent Meetings -->
+        <div class="section-header section-header--recent">
+            <h2>✅ Reuniones Recientes</h2>
+            <span class="section-count">8</span>
+            <div class="section-divider"></div>
+        </div>
+        <div id="recent-list">
             
-        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
+        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
             <div class="meeting-header">
                 <div>
                     <div class="meeting-date">October 22, 2026</div>
@@ -283,38 +293,42 @@
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
                     <div class="meeting-type">Reunión Regular</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Próxima
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completada
                     </div>
                 </div>
             </div>
-            
-                <div class="meeting-summary">
-                    <h3>Vista Previa de la Agenda</h3>
-                    <div class="summary-content"><p><strong>Austin: Arte Público, Aeropuerto, Parques, Inundaciones</strong></p>
+            <div class="meeting-summary">
+                <h3>Lo que Hizo el Concejo</h3>
+                <div class="summary-content"><p>Austin Aprueba Vivienda, Infraestructura y Ayuda a Empresas</p>
+<p>Esto es lo que los líderes de la Ciudad de Austin hicieron en su reciente reunión:</p>
 <ul>
-<li>  Nuevas normas destinan el 2% de los costos de construcción de instalaciones municipales a arte público. Se aprobaron contratos importantes para la expansión de servicios públicos del aeropuerto ($224 millones) y mejoras en la Planta de Tratamiento de Agua Ullrich ($89.7 millones).</li>
-<li>  Una audiencia pública aborda la conversión de parte del Cinturón Verde de Country Club Creek West para uso vial, con mitigación significativa. También se aprobaron fondos para adquirir propiedades para un proyecto contra inundaciones en Barton Creek.</li>
-<li>  Un aumento en la financiación ayudará a prevenir la falta de vivienda y el desplazamiento residencial. Acuerdos económicos apoyan a empresas locales históricas, centros culturales y proveedores de cuidado infantil.</li>
-<li>  Las iniciativas incluyen la adopción de un Plan Comunitario de Protección contra Incendios Forestales y la adquisición de tierras para la conservación. Se priorizan la seguridad de peatones y ciclistas, así como el transporte público, para las mejoras en Parmer Lane.</li>
-<li>  Una resolución instruye al personal a desarrollar incentivos para una fuerza laboral local calificada en los contratos del Centro de Convenciones.</li>
+<li>  <strong>Grandes Inversiones en Vivienda:</strong> Más de $21 millones en préstamos fueron aprobados por la Corporación de Financiación de Vivienda de Austin para cinco nuevos desarrollos de vivienda de alquiler multifamiliar, con el objetivo de aumentar las opciones de vivienda asequible en toda la ciudad. Además, el programa "Yo Pertenezco en Austin", que ayuda a prevenir la falta de vivienda, recibió una financiación adicional de $2.25 millones.</li>
+<li>  <strong>Importantes Mejoras de Infraestructura:</strong> La ciudad aprobó una financiación sustancial para proyectos clave, incluyendo $89.7 millones para mejoras en la Planta de Tratamiento de Agua Ullrich, un aumento de $224 millones para la expansión de la infraestructura de servicios públicos del aeropuerto y $5 millones para el programa municipal de reemplazo de tuberías de agua.</li>
+<li>  <strong>Apoyo a Negocios Locales y Organizaciones sin Fines de Lucro:</strong> Se aprobaron varios acuerdos de desarrollo económico para retener negocios locales emblemáticos como Esther's Follies y Royal Blue Grocery, y para proporcionar espacio de oficina sin costo a una organización sin fines de lucro que ofrece servicios de estabilidad de vivienda.</li>
+<li>  <strong>Esfuerzos Mejorados de Seguridad Pública y Medioambientales:</strong> Se adoptó un Plan de Protección contra Incendios Forestales Comunitarios actualizado, y se aprobaron nuevas reglas que exigen a los operadores de perreras garantizar que sus espacios exteriores sean a prueba de fugas. La ciudad también comprometió $2.1 millones para seguir el progreso hacia sus metas de cero residuos.</li>
+<li>  <strong>Aprobado el Cambio de Uso de Terrenos del Parque:</strong> Se aprobó una solicitud para usar permanentemente una porción de los terrenos del parque Country Club Creek West Greenbelt para mejoras viales, con el Departamento de Transporte proporcionando más de $1.3 millones en mitigación y mejoras del parque al Departamento de Parques y Recreación.</li>
+<li>  <strong>Punto Clave de Zonificación Aplazado:</strong> Una solicitud significativa de rezonificación para Phoenix Motor Works en West 6th Street fue aplazada indefinidamente a petición del solicitante, retrasando una decisión sobre el uso futuro del suelo de la propiedad.</li>
 </ul></div>
-                </div>
+            </div>
             <div class="meeting-links">
-                <a href="https://www.austintexas.gov/council/2026/20261022-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <a href="/archives/meeting/20261022-reg/" class="meeting-link meeting-link-secondary">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     Detalles de la Reunión (en inglés)</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=482959" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=483472" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Descargar Agenda (en inglés)</a>
+                Agenda (en inglés)</a>
+                <a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1518" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Acciones Tomadas (en inglés)</a>
                 <span class="meeting-links-spacer"></span>
                 <button class="btn-share-card" onclick="openShareModal('October 22, 2026','Regular Meeting','https://austincouncil.app')" title="Compartir this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
             Compartir</button>
             </div>
         </div>
-        <div class="meeting-card meeting-card--upcoming" data-type="austin-housing-finance-corporation">
+        <div class="meeting-card meeting-card--recent" data-type="austin-housing-finance-corporation">
             <div class="meeting-header">
                 <div>
                     <div class="meeting-date">October 22, 2026</div>
@@ -322,45 +336,35 @@
                 </div>
                 <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
                     <div class="meeting-type">Corporación Financiera de Vivienda de Austin</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Próxima
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completada
                     </div>
                 </div>
             </div>
-            
-                <div class="meeting-summary">
-                    <h3>Vista Previa de la Agenda</h3>
-                    <div class="summary-content"><p><strong>Austin Respalda $21 Millones para Viviendas de Alquiler</strong></p>
+            <div class="meeting-summary">
+                <h3>Puntos Destacados</h3>
+                <div class="summary-content"><p><strong>Austin Respalda $21 Millones para Viviendas de Alquiler</strong></p>
 <ul>
 <li>  Se aprobaron más de $21 millones en acuerdos de préstamo para facilitar el desarrollo de cinco nuevos proyectos de vivienda multifamiliar de alquiler.</li>
 <li>  Estos fondos están destinados a ampliar las opciones de vivienda asequible en varios barrios de Austin.</li>
 <li>  Entre los desarrollos clave que recibirán financiamiento se encuentran Rowen Vale, Jordan II, The Lenora, The Maven y Austin Art Village.</li>
 </ul></div>
-                </div>
+            </div>
             <div class="meeting-links">
-                <a href="https://www.austintexas.gov/council/2026/20261022-ahfc" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <a href="/archives/meeting/20261022-ahfc/" class="meeting-link meeting-link-secondary">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     Detalles de la Reunión (en inglés)</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=483471" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=483471" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Descargar Agenda (en inglés)</a>
+                Agenda (en inglés)</a>
+                
                 <span class="meeting-links-spacer"></span>
                 <button class="btn-share-card" onclick="openShareModal('October 22, 2026','Austin Housing Finance Corporation','https://austincouncil.app')" title="Compartir this meeting">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
             Compartir</button>
             </div>
         </div>
-        </div>
-
-        <!-- Recent Meetings -->
-        <div class="section-header section-header--recent">
-            <h2>✅ Reuniones Recientes</h2>
-            <span class="section-count">6</span>
-            <div class="section-divider"></div>
-        </div>
-        <div id="recent-list">
-            
         <div class="meeting-card meeting-card--recent" data-type="work-session">
             <div class="meeting-header">
                 <div>
@@ -651,7 +655,7 @@
             <a href="/es/feed.xml">Canal RSS</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Última actualización: October 22, 2026 at 06:15 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Última actualización: October 23, 2026 at 02:58 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
