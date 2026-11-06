@@ -242,26 +242,26 @@
     <main class="container">
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">1</div>
+                <div class="stat-number">0</div>
                 <div class="stat-label">Upcoming</div>
             </div>
             <div class="stat">
                 <a href="/archives/" style="text-decoration: none; display: block; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                    <div class="stat-number">10,026</div>
+                    <div class="stat-number">10,027</div>
                     <div class="stat-label">Archived</div>
                 </a>
             </div>
             <div class="stat">
-                <div class="stat-number">Oct 22, 2026</div>
+                <div class="stat-number">Nov 05, 2026</div>
                 <div class="stat-label">Last Meeting</div>
             </div>
         </div>
 
         <div class="controls">
             <div class="filter-row" id="filter-row">
-                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">11</span></button>
+                <button class="filter-btn active" data-filter="all" onclick="filterMeetings('all')">All <span class="badge">10</span></button>
 <button class="filter-btn" data-filter="regular-meeting" onclick="filterMeetings('regular-meeting')">Regular Meeting <span class="badge">5</span></button>
-<button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">4</span></button>
+<button class="filter-btn" data-filter="work-session" onclick="filterMeetings('work-session')">Work Session <span class="badge">3</span></button>
 <button class="filter-btn" data-filter="austin-housing-finance-corporation" onclick="filterMeetings('austin-housing-finance-corporation')">Austin Housing Finance Corporation <span class="badge">2</span></button>
 
             </div>
@@ -270,49 +270,11 @@
         <!-- Upcoming Meetings -->
         <div class="section-header section-header--upcoming">
             <h2>📅 Upcoming Meetings</h2>
-            <span class="section-count">1</span>
+            <span class="section-count">0</span>
             <div class="section-divider"></div>
         </div>
         <div id="upcoming-list">
-            
-        <div class="meeting-card meeting-card--upcoming" data-type="regular-meeting">
-            <div class="meeting-header">
-                <div>
-                    <div class="meeting-date">November 05, 2026</div>
-                    <div class="meeting-day">Thursday</div>
-                </div>
-                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Regular Meeting</div>
-                    <div class="status-badge status-badge--upcoming">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        Upcoming
-                    </div>
-                </div>
-            </div>
-            
-                <div class="meeting-summary">
-                    <h3>Agenda Preview</h3>
-                    <div class="summary-content"><p>Shaping Austin: Housing, Zoning, Infrastructure</p>
-<ul>
-<li>  <strong>Housing and Affordability Initiatives:</strong> Plans aim to boost affordable housing by directing tax funds to the Housing Trust, updating city-wide housing goals, and considering a new commercial rental assistance program.</li>
-<li>  <strong>Key Land Use and Environmental Debates:</strong> Public hearings will discuss major zoning changes for denser, mixed-use development on North Lamar and a specific change to "Save Our Springs" environmental rules.</li>
-<li>  <strong>Infrastructure and Utility Investments:</strong> Actions include issuing nearly $700 million in electric utility bonds, acquiring land for new trails and public works projects, and funding a new transit lane near I-35.</li>
-<li>  <strong>Public Safety and Community Programs:</strong> Discussions cover creating an emergency demolition process for unsafe properties and supporting a youth literacy program in partnership with the school district.</li>
-</ul></div>
-                </div>
-            <div class="meeting-links">
-                <a href="https://www.austintexas.gov/council/2026/20261105-reg" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=483896" class="meeting-link meeting-link-primary" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Download Agenda</a>
-                <span class="meeting-links-spacer"></span>
-                <button class="btn-share-card" onclick="openShareModal('November 05, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Share</button>
-            </div>
-        </div>
+            <div class="no-meetings-section"><p>No upcoming meetings scheduled. Check back soon.</p></div>
         </div>
 
         <!-- Recent Meetings -->
@@ -323,6 +285,48 @@
         </div>
         <div id="recent-list">
             
+        <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
+            <div class="meeting-header">
+                <div>
+                    <div class="meeting-date">November 05, 2026</div>
+                    <div class="meeting-day">Thursday</div>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+                    <div class="meeting-type">Regular Meeting</div>
+                    <div class="status-badge status-badge--completed">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed
+                    </div>
+                </div>
+            </div>
+            <div class="meeting-summary">
+                <h3>What the Council Did</h3>
+                <div class="summary-content"><p>Austin Funds Housing, Transit, Parks, Roads</p>
+<p>Here's what happened at the recent Austin City Council meeting:</p>
+<ul>
+<li>  <strong>Major Utility & Transit Investments Approved:</strong> Up to $695 million in bonds for Austin Energy projects were authorized. Additionally, $1 million was committed for a dedicated center-running transit lane at Dean Keeton and I-35, and $17 million approved for various engineering services city-wide.</li>
+<li>  <strong>Affordable Housing and Commercial Support Boosted:</strong> New tax revenue was dedicated to the City's Housing Trust Fund. A directive passed to update Austin's housing goals and explore a commercial space rental assistance program. Several North Lamar properties were rezoned to Mixed Use with density bonuses, encouraging more housing options.</li>
+<li>  <strong>Parks and Trails Expand:</strong> The Parks Enhancement Fund will also receive new tax revenue. The Pease District Park management plan was expanded with the Pease Park Conservancy, and land was acquired for the Rutland to Northgate Trail project.</li>
+<li>  <strong>Key Development Issues Postponed or Approved:</strong> A public hearing regarding a development in the environmentally sensitive Barton Springs Zone (5811 Southwest Parkway) was postponed. Separately, specific floodplain variances were approved for two new homes at 1213 Fort Branch Boulevard, allowing construction in flood-prone areas.</li>
+<li>  <strong>Wastewater Infrastructure Advances:</strong> The city authorized acquiring property through eminent domain for a critical wastewater pipeline renewal project in NW Tarrytown, though one related property acquisition was withdrawn.</li>
+</ul></div>
+            </div>
+            <div class="meeting-links">
+                <a href="/archives/meeting/20261105-reg/" class="meeting-link meeting-link-secondary">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Meeting Details</a>
+                <a href="https://services.austintexas.gov/edims/document.cfm?id=484316" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Agenda</a>
+                <a href="https://services.austintexas.gov/council_meetings/action_notes.cfm?mid=1520" class="meeting-link meeting-link-actions" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Actions Taken</a>
+                <span class="meeting-links-spacer"></span>
+                <button class="btn-share-card" onclick="openShareModal('November 05, 2026','Regular Meeting','https://austincouncil.app')" title="Share this meeting">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share</button>
+            </div>
+        </div>
         <div class="meeting-card meeting-card--recent" data-type="regular-meeting">
             <div class="meeting-header">
                 <div>
@@ -729,43 +733,6 @@
             Share</button>
             </div>
         </div>
-        <div class="meeting-card meeting-card--recent" data-type="work-session">
-            <div class="meeting-header">
-                <div>
-                    <div class="meeting-date">September 08, 2026</div>
-                    <div class="meeting-day">Tuesday</div>
-                </div>
-                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-                    <div class="meeting-type">Work Session</div>
-                    <div class="status-badge status-badge--completed">
-                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                        Completed
-                    </div>
-                </div>
-            </div>
-            <div class="meeting-summary">
-                <h3>Meeting Highlights</h3>
-                <div class="summary-content"><p>Austin City Hall Session Off Today</p>
-<ul>
-<li>  The Austin City Work Session scheduled for Tuesday, September 8, 2026, has been cancelled.</li>
-<li>  No public hearings or policy decisions will take place as previously planned.</li>
-<li>  All agenda items for this session are null and void.</li>
-</ul></div>
-            </div>
-            <div class="meeting-links">
-                <a href="/archives/meeting/20260908-wrk/" class="meeting-link meeting-link-secondary">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    Meeting Details</a>
-                <a href="https://services.austintexas.gov/edims/document.cfm?id=480383" class="meeting-link meeting-link-secondary" target="_blank" rel="noopener">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Agenda</a>
-                
-                <span class="meeting-links-spacer"></span>
-                <button class="btn-share-card" onclick="openShareModal('September 08, 2026','Work Session','https://austincouncil.app')" title="Share this meeting">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-            Share</button>
-            </div>
-        </div>
             
             <div style="text-align: center; margin-top: 32px; margin-bottom: 24px;"><a href="/archives/" class="meeting-link meeting-link-primary" style="padding: 12px 24px; font-size: 1.05em; border-radius: 12px; display: inline-flex; align-items: center; gap: 8px;">📚 Search All Historical Archives</a></div>
         </div>
@@ -787,7 +754,7 @@
             <a href="/feed.xml">RSS Feed</a> &nbsp;|&nbsp;
             <a href="https://github.com/cyowell/austin-meeting-monitor">GitHub</a>
         </p>
-        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: November 05, 2026 at 08:55 PM</p>
+        <p style="margin-top:8px;color:#9ca3af;font-size:.82em">Last updated: November 06, 2026 at 04:43 AM</p>
     </footer>
 
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
